@@ -1,0 +1,392 @@
+{
+  "sample_id": "#0465",
+  "query": "Sperm are often referred to as swimmers. What exactly are they swimming through? Are the uterus and Fallopian tubes filled with liquid, or empty?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Diagnostic Tests for Infertility - Dr. Heidi Kao and associates HSG Test (Hysterosalpingogram) Make Sure You Check for Blocked Fallopian Tubes The HSG Test is your most important functional fertility test. Functional tests assess the function of the major reproductive organs, including the uterus, cervix, ovaries and fallopian tubes. Before any invasive investigations are done, checking for blocked fallopian tubes is a priority. If the sperm can\u0393\u00c7\u00d6t swim through the fallopian tubes to fertilize the egg, conception won\u0393\u00c7\u00d6t occur. Alternately, the egg won\u0393\u00c7\u00d6t be able to travel from the ovary to the uterus if there is a blockage. If fertilization occurs, the fallopian tube carefully monitors the progression of the",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What is Infertility | Ovulation and Pregnancy - Dr.Raut's ICPRM progestin, preparing the uterus for implantation. The problems that are related to ovulation would include eggs that have not matured or been released during the menstrual cycle an ovarian failure or insufficient progestin. After the successful release of an egg, it travels towards the uterus through the fallopian tube. It might meet the sperms in the fallopian tube, if available, and get fertilized. The sperms must have gone through the cervix and the uterus to reach the fallopian tubes. There could be damaged or blocked fallopian tubes through scarring or other problems cervical damage problems with motility of the sperms",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why Am I Not Getting Pregnant? 8 Possible Reasons Pregnant After 35 Your Fallopian Tubes Are Blocked Irregular ovulation accounts for 25 to 30 percent of female infertility cases. The rest can have problems with blocked fallopian tubes, uterine structural problems, or endometriosis. In case you don't know, the fallopian tubes are the pathway between your ovaries and the uterus. The fallopian tubes do not directly attach to the ovaries. Sperm must swim up from the cervix, through the uterus, and into the fallopian tubes. When an egg is released from the ovaries, hair-like projections from the fallopian tube draw the egg inside. Conception takes place inside the fallopian",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Endometriosis and Blocked Fallopian Tubes: Causes, Treatments during conception and the now-fertilized egg will continue on to the uterus. However, the fallopian tubes are extremely fragile. If they are blocked, there's no way for the egg to become fertilized by the sperm. The fallopian tubes can be damaged by diseases such as endometriosis, pelvic inflammatory disease, infections and sexually transmitted diseases. To determine whether your fallopian tubes are blocked, your doctor may suggest a laparoscopy or a hysterosalpingogram (HSG). In an HSG test, liquid dye is inserted by catheter through the vagina (cervix) into the uterus. Then, X-rays are taken to see if there is a blockage",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Basics of Infertility: What every woman should know | San Antonio Woman Magazine Eggs are collected from the ovaries, then placed in a thin, flexible tube with the sperm. They are then injected into the woman\u0393\u00c7\u00d6s fallopian tubes, where fertilization takes place. Zygote intrafallopian transfer (ZIFT) \u0393\u00c7\u00f4 Eggs and sperm are mixed outside of the body. The fertilized eggs (zygotes) are then returned to the fallopian tubes, through which they travel to the uterus. Intracytoplasmic sperm injection (ICSI) \u0393\u00c7\u00f4 This begins with the injection of a single sperm into an egg. The fertilized egg is then placed in the woman\u0393\u00c7\u00d6s uterus or fallopian tube. Used with in vitro fertilization, ICSI is often a  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions sperm swimming through fallopian tubes to fertilize an egg, implying the tubes are not empty and contain a medium for sperm travel."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains sperm travel through the cervix, uterus, and into the fallopian tubes to meet the egg, indicating these structures are not empty and contain a fluid medium."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States sperm must swim up from the cervix, through the uterus, and into the fallopian tubes, implying these reproductive organs contain a medium for sperm movement."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Describes liquid dye being inserted into the uterus via catheter during an HSG test, suggesting the uterus can hold liquid and implying a fluid environment for sperm."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions placing sperm and eggs into fallopian tubes for fertilization and fertilized eggs traveling to the uterus, implying a fluid environment within these structures."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "If sperm cannot swim through the fallopian tubes to fertilize the egg, conception will not occur.",
+            "The HSG Test assesses the function of the uterus, cervix, ovaries, and fallopian tubes."
+          ],
+          "reason": "Extracted facts about sperm needing to swim through fallopian tubes for conception and the HSG test's assessment of reproductive organs, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "After release, an egg travels towards the uterus through the fallopian tube.",
+            "Sperm must travel through the cervix and the uterus to reach the fallopian tubes.",
+            "Fertilization may occur in the fallopian tube if sperm are present."
+          ],
+          "reason": "Extracted facts detailing the pathways of both eggs and sperm through the reproductive tract, explaining what sperm swim through to reach the egg."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Sperm must swim from the cervix, through the uterus, and into the fallopian tubes.",
+            "The fallopian tubes are the pathway between the ovaries and the uterus.",
+            "Hair-like projections from the fallopian tube draw the egg inside when released from the ovaries."
+          ],
+          "reason": "Extracted facts describing the path sperm take (swimming through cervix and uterus to fallopian tubes) and the role of fallopian tubes, answering the query about what sperm swim through."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "If fallopian tubes are blocked, the egg cannot be fertilized by sperm.",
+            "In an HSG test, liquid dye is inserted into the uterus through the cervix to check for blockages."
+          ],
+          "reason": "Extracted facts related to fallopian tube function in fertilization and the use of liquid dye in HSG tests, indirectly implying the presence of fluid in the reproductive tract."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Eggs are placed with sperm in a tube and then injected into the fallopian tubes for fertilization.",
+            "Fertilized eggs (zygotes) are returned to the fallopian tubes, through which they travel to the uterus.",
+            "A single sperm can be injected into an egg, with the fertilized egg then placed in the uterus or fallopian tube."
+          ],
+          "reason": "Extracted facts about assisted reproductive technologies where eggs and sperm are handled within the fallopian tubes and uterus, implying these are fluid-filled environments."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States sperm swim through fallopian tubes for conception and mentions HSG tests assessing reproductive organs, but doesn't explicitly state what they swim through.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Clearly outlines the pathways sperm travel (cervix, uterus, fallopian tubes) to reach the egg, directly answering what they swim through.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explicitly states sperm swim from the cervix, through the uterus, and into the fallopian tubes, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions liquid dye is inserted into the uterus during an HSG test, indirectly suggesting the presence of fluid, but doesn't directly state what sperm swim through.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Describes procedures involving sperm and eggs within the fallopian tubes and uterus, implying a fluid environment, but doesn't directly state what sperm swim through.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_pathway_description",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 directly describe the pathway sperm swim through, including the cervix, uterus, and fallopian tubes."
+          },
+          {
+            "label": "indirect_fluid_environment",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 provide partial support by mentioning related concepts like conception, HSG tests, or assisted reproduction, implying a fluid environment but not explicitly stating the sperm's swimming path."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All evidence sources agree on the general pathway sperm travel for fertilization, with some providing direct descriptions and others offering indirect implications of a fluid environment.",
+        "clusters": [
+          {
+            "label": "direct_pathway_description",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 directly describe the pathway sperm swim through, including the cervix, uterus, and fallopian tubes."
+          },
+          {
+            "label": "indirect_fluid_environment",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 provide partial support by mentioning related concepts like conception, HSG tests, or assisted reproduction, implying a fluid environment but not explicitly stating the sperm's swimming path."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, with direct descriptions of the sperm's pathway supported by related concepts. No significant conflicts or irrelevancies are present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Sperm swim through the cervix, uterus, and fallopian tubes.",
+        "citations": [
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Documents d2 and d3 directly describe the pathway sperm swim through, which is consistent with the complementary evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited documents, which clearly state that sperm swim through the cervix, uterus, and fallopian tubes."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9669,
+      "completion_tokens": 2085,
+      "total_tokens": 11754
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1570,
+        "completion_tokens": 392,
+        "total_tokens": 1962
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1525,
+        "completion_tokens": 618,
+        "total_tokens": 2143
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1017,
+        "completion_tokens": 377,
+        "total_tokens": 1394
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1189,
+        "completion_tokens": 244,
+        "total_tokens": 1433
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1426,
+        "completion_tokens": 228,
+        "total_tokens": 1654
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 627,
+        "completion_tokens": 50,
+        "total_tokens": 677
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 782,
+        "completion_tokens": 84,
+        "total_tokens": 866
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1533,
+        "completion_tokens": 92,
+        "total_tokens": 1625
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:41:49.795795",
+        "prompt_tokens": 1570,
+        "completion_tokens": 392,
+        "total_tokens": 1962,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:41:55.383700",
+        "prompt_tokens": 1525,
+        "completion_tokens": 618,
+        "total_tokens": 2143,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:41:57.229945",
+        "prompt_tokens": 1017,
+        "completion_tokens": 377,
+        "total_tokens": 1394,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:41:58.431672",
+        "prompt_tokens": 1189,
+        "completion_tokens": 244,
+        "total_tokens": 1433,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:00.505009",
+        "prompt_tokens": 1426,
+        "completion_tokens": 228,
+        "total_tokens": 1654,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:01.554734",
+        "prompt_tokens": 627,
+        "completion_tokens": 50,
+        "total_tokens": 677,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:02.559932",
+        "prompt_tokens": 782,
+        "completion_tokens": 84,
+        "total_tokens": 866,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:04.292515",
+        "prompt_tokens": 1533,
+        "completion_tokens": 92,
+        "total_tokens": 1625,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:41:44.780254",
+  "last_updated_at": "2026-04-17T19:42:04.293018"
+}

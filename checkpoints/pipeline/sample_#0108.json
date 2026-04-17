@@ -1,0 +1,546 @@
+{
+  "sample_id": "#0108",
+  "query": "when did hurricane maria occur",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Major Hurricane Maria - September 20, 2017 Maria formed from an African easterly wave that moved across the tropical Atlantic Ocean during the week of September 10th to September 17th, 2017. It was ... Maria formed from an African easterly wave that moved across the tropical Atlantic Ocean during the week of September 10th to September 17th, 2017. It was not until 200 PM AST (1800 UTC) on September 16th, that its convective organization improved that the NHC classified the system as a tropical depression about 700 miles east-southeast of the Lesser Antilles. At the 500 PM AST (2100 UTC) advisory, just three hours later, the depression was upgraded to Tropical Storm Maria with maximum sustained winds of 50 mph. Thereafter, Maria gradually intensified and became the 8th hurricane of the 2017 Atlantic hurricane season with 75 mph maximum sustained winds at 500 PM AST (2100 UTC) on September 17th. Within the next 24 to 30 hours and within an 18 hour period, Maria underwent through rapid intensification, strengthening from a category 1 to an extremely dangerous category 5 hurricane. At the time, environmental conditions were favorable for intensification to occur due to sea surface temperatures greater than 28 degrees Celsius, light vertical wind shear, and moist air. Maria\u2019s first landfall was in Dominica, part of the Windward Islands, as a category 5 hurricane at around 915 PM AST on the 18th (0115 UTC on the 19th). Maria maintained Category 5 strength as it continued its path towards the U.S. Virgin Islands and Puerto Rico. Rain bands first approached Saint Croix, as well as portions of Saint Thomas and Saint John during the morning hours on the 19th. Throughout the afternoon and early evening hours, rain bands generating tropical storm conditions reached Vieques, Culebra, and Puerto Rico. Figure 2: Descending pass of the ASCAT showing several locations of winds exceeding 50 knots on September 19. As the center of Maria approached the USVI and Puerto Rico, the frequency of the rain bands as well as the strength or intensity of the winds increased.",
+      "source_url": "https://www.weather.gov/sju/maria2017",
+      "timestamp": "2021-07-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Hurricane Maria Disaster Response - U.S. Army Corps of Engineers On September 20, 2017, Hurricane Maria tore across Puerto Rico, causing catastrophic wind damage, widespread flooding from torrential rainfall, lasting power ...",
+      "source_url": "https://www.usace.army.mil/About/History/Historical-Vignettes/Relief-and-Recovery/154-Hurricane-Maria/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Hurricane Maria - Wikipedia Hurricane Maria was an extremely powerful and devastating tropical cyclone that affected the northeastern Caribbean in September 2017, particularly in the U.S. ... Maria developed from a tropical wave on September 16 east of the Lesser Antilles. Steady strengthening and organization took place initially, until favorable conditions enabled it to undergo explosive intensification on the afternoon of September 18, achieving Category 5 strength just before making landfall on the island of Dominica that night. After crossing the island and weakening slightly, Maria re-intensified and achieved its peak intensity with maximum sustained winds of 175 mph (280 km/h) and a pressure of 908 mbar (hPa; 26.81 inHg). On September 20, an eyewall replacement cycle weakened Maria to a high-end Category 4 hurricane by the time it struck Puerto Rico. The hurricane re-emerged weaker from land interaction, but quickly restrengthened back into a major hurricane again the following day. Passing north of The Bahamas, Maria remained a powerful hurricane over the following week as it slowly paralleled the East Coast of the United States, gradually weakening over time as conditions became less favorable. Maria then stalled and swung eastward over the open Atlantic, becoming extratropical on September 30 before dissipating by October 2. Maria brought catastrophic devastation to the entirety of Dominica, destroying housing stock and infrastructure beyond repair, and practically eradicating the island's lush vegetation. The neighboring islands of Guadeloupe and Martinique endured widespread flooding, damaged roofs, and uprooted trees. Puerto Rico suffered catastrophic damage and a major humanitarian crisis; most of the island's population suffered from flooding and a lack of resources, compounded by a slow relief process. The storm caused the worst electrical blackout in US history, which persisted for several months.[3] Maria also landed in the northeast Caribbean during relief efforts from another Category 5 hurricane, Irma, which crossed the region two weeks prior.",
+      "source_url": "https://en.wikipedia.org/wiki/Hurricane_Maria",
+      "timestamp": "2025-01-10"
+    },
+    {
+      "doc_id": "d4",
+      "text": "2017 Hurricane Maria: Facts, FAQs, and how to help | World Vision Puerto Rico is devastated and struggling to recover after Hurricane Maria pummeled the island territory Sept. 20, 2017, as a Category 4 ... Puerto Rico is devastated and struggling to recover after Hurricane Maria pummeled the island territory Sept. 20, 2017, as a Category 4 storm. As of April 4 \u2014 almost seven months since the storm hit \u2014 about 96% of residents on the island have had power restored, reports the U.S. Department of Energy. Still, roughly 62,000 people remain without power. While the storm\u2019s official death toll tallied 64 people, a new Harvard study published May 29 estimates that Maria and its aftermath is responsible for more than 4,600 deaths in Puerto Rico. Maria then directly hit Puerto Rico as a Category 4 with 155-mph winds, making it the third-strongest storm to make landfall in the U.S. It was even stronger than Hurricane Irma when it roared into the Florida Keys Sept. 10. The island\u2019s entire population of 3.4 million people has been affected by Hurricane Maria. \u201cMonths and months and months and months are going to pass before we can recover from this,\u201d said Felix Delgado, mayor of the northern coastal city of Catano. Currently, Puerto Ricans lack sustainable sources of food, power, and income. Many residents have fled their precarious circumstances altogether to settle in mainland U.S. states. Hospitals and other public buildings also remain badly damaged. The two main elements of Puerto Rico\u2019s economy, agriculture and tourism, have been devastated by the storm. Maria also caused widespread flooding in the Dominican Republic and Haiti. How did World Vision respond to Hurricane Maria? World Vision initiated its response in Puerto Rico supported by a global rapid response team. Due to the scale of the need in Puerto Rico, we deployed two teams to connect with local partners and networks, including Urban Strategies and the National Latino Evangelical Coalition. Working with local partners strengthened our program implementation in Puerto Rico.",
+      "source_url": "https://www.worldvision.org/disaster-relief-news-stories/2017-hurricane-maria-facts",
+      "timestamp": "2018-08-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Hurricane Maria | U.S. Geological Survey - USGS.gov Hurricane Maria struck the island of Puerto Rico on September 20, 2017, as a Category 4 storm. The hurricane traversed the island from southeast to northwest. Reducing Flood Risks by Restoring Coral Reefs Publications Hurricane Maria struck the island of Puerto Rico on September 20, 2017, as a Category 4 storm. The hurricane traversed the island from southeast to northwest and produced recorded 48-hour rainfall totals of up to 30.01 inches. Estimates of the human death toll range from 2,975 to 4,645, possibly more. The U.S. Geological Survey (USGS) hydrologic monitoring network sustained substantial... The degradation of coastal habitats, particularly coral reefs, raises risks by increasing the exposure of coastal communities to flooding hazards. In the United States, the physical protective services provided by coral reefs were recently assessed in social and economic terms, with the annual protection provided by U.S. coral reefs off the coasts of the State of Florida and the... The effects of runoff from land on nearshore ecosystems, including coral reef communities, are influenced by both sediment supply and removal by coastal processes. Integrated studies across the land-sea interface describing sources and transport of terrestrial sediment and its nearshore fate allow reef protection initiatives to target key onshore and offshore areas. Geochemical... Science Coastal flooding and erosion from extreme weather events affect thousands of vulnerable coastal communities; the impacts of coastal flooding are predicted to worsen during this century because of population growth and climate change. Hurricanes Irma and Maria in 2017 were particularly devasting to humans and natural communities. The coral reefs off the State of Florida and the Commonwealth of... Coastal flooding and erosion from extreme weather events affect thousands of vulnerable coastal communities; the impacts of coastal flooding are predicted to worsen during this century because of population growth and climate change. Hurricanes Irma and Maria in 2017 were particularly devasting to humans and natural communities.",
+      "source_url": "https://www.usgs.gov/special-topics/hurricane-maria",
+      "timestamp": "2022-09-19"
+    },
+    {
+      "doc_id": "d6",
+      "text": "The Facts, Timeline, and Impact of Hurricane Maria - Treehugger Hurricane Maria is a Category 5 storm that devastated the Caribbean Islands from Sept. 16-30 during the 2017 Atlantic hurricane season.",
+      "source_url": "https://www.treehugger.com/the-facts-timeline-and-impact-of-hurricane-maria-5176211",
+      "timestamp": "2021-07-26"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Science and Society: 2017 - Hurricane Maria Description: On September 12th, 2017, a tropical atmospheric wave originated off the west coast of Africa, moving westward in a disorganized fashion over the ... Hurricane Maria made landfall in Puerto Rico as a powerful category 4 hurricane on September 20 with winds over 100 mph, and more than 30 inches of rain fell. A year later, the full extent of the damage in Puerto Rico has still not been determined, however one study determined that 2,975 deaths can be directly attributed to Maria. Hurricane Maria was a major tropical cyclone that reached category 5 intensity. It made landfall in Dominica on September 18 as a category 5 storm and in Puerto Rico as a category 4 hurricane on September 20 with winds over 100 mph. The storm caused devastating damage to both islands. Maria hit the Caribbean two weeks after the region was ravaged by Hurricane Irma and led to widespread loss of access to roads, healthcare, electrical power, cellular communication, and clean drinking water, causing a major humanitarian crisis in Puerto Rico. A great deal of flooding occurred due to the more than 30 inches of rain that fell. It was the third costliest hurricane in U.S. history, behind Katrina (2005) and Harvey (2017). While the official death count from Maria was 64, a Harvard study published on May 29, 2018 estimated the number of deaths to be around 4,645 (95% confidence interval, 793 to 8,498). Meteorology and Forecasting Description: On September 12th, 2017, a tropical atmospheric wave originated off the west coast of Africa, moving westward in a disorganized fashion over the tropics for a few days. By September 16th, the disturbance had become more organized and formed a tropical depression, strengthening into a tropical storm several hours later. On September 17th, the storm rapidly intensified into a hurricane due to very warm sea surface temperatures (SSTs) and light wind shear. It became a major hurricane the next day, and twelve hours later intensified into a category 5 storm as it ripped towards Dominica.",
+      "source_url": "https://www.hurricanescience.org/history/storms/2010s/maria/index.html",
+      "timestamp": "2020-01-01"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Meteorological history of Hurricane Maria - Wikipedia Originating from a tropical wave, it developed into a tropical depression on September 16 while situated to the east of the Lesser Antilles. Hurricane Maria was among the most intenseAtlantic hurricanes on record and caused catastrophic damage in Puerto Rico in late September 2017. Originating from a tropical wave, it developed into a tropical depression on September 16 while situated to the east of the Lesser Antilles. Gradual intensification occurred over the next day or two and it strengthened into a tropical storm, which was named Maria. By late on September 17, Maria had intensified into a hurricane. As it approached the island arc, it underwent explosive intensification on September 18, with the hurricane reaching Category 5 intensity as it made landfall on the island of Dominica early on September 19. Land interaction weakened the storm somewhat, although it was able to quickly recover and later peaked that night with sustained winds of 175 mph (280 km/h) and a pressure of 908 mbar (26.8 inHg). Early the next morning it weakened to a high-end Category 4 hurricane before making landfall in Puerto Rico. Maria weakened significantly due to crossing the island, but was able to strengthen somewhat as it passed close to Hispaniola and The Bahamas on September 21\u201323. Structural changes in the hurricane as it moved further north and close to the Outer Banks in the United States ultimately caused Maria to weaken quickly. Turning away from the United States as a weakened tropical storm, it became extratropical on September 30, then dissipated two days later. The hurricane caused catastrophic damage across its path in the Caribbean, with 3,057 killed and around $91.6 billion (2017 USD) in damages, making it the third-costliest Atlantic hurricane on record. The islands of Dominica and Puerto Rico experienced the worst impacts of Maria, which was the most intense storm to strike the former, and the worst storm to strike the latter since the 1928 San Felipe Segundo hurricane. Origins The National Hurricane Center (NHC) began monitoring two tropical waves on September 13.[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Meteorological_history_of_Hurricane_Maria",
+      "timestamp": "2024-12-01"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Hurricane Maria's devastation of Puerto Rico | NOAA Climate.gov Hurricane Mar\u00eda made landfall in Puerto Rico on September 20, 2017. The storm had already caused widespread destruction in Dominica as a ... Share Hurricane Mar\u00eda made landfall in Puerto Rico on September 20, 2017. The storm had already caused widespread destruction in Dominica as a Category 5 storm, and it alternated between Category 4 and 5 as it approached Puerto Rico. With a minimum pressure of 908 hPa, Maria was the tenth most intense Atlantic hurricane on record. As Mar\u00eda approached, Puerto Ricans were still coping with the aftermath of Hurricane Irma, which had passed near San Juan on September 6. Though the island missed the worst of that storm, it had brought heavy rains and wind gusts up to 100 miles per hour. According to news reports, Irma's damage had already left roughly two-thirds of the population without electricity and roughly one-third of the population without clean water. Satellite-based images of the density of nighttime lights across eastern Puerto Rico before (left) and after (right) Hurricane Mar\u00eda, on September 27 and 28. The storm left much of the island in the dark. NASA Earth Observatory images based on a variety of satellite sensors, including NOAA/NASA's Suomi NPP satellite, which detects visible light at night, and Landsat and other high-resolution imagers that map terrain and roads. large images: baseline | post-storm When Mar\u00eda reached the island, it was a Category 4 storm, although meteorologists have no land-based records of Mar\u00eda's maximum winds because the storm damaged most of Puerto Rico's wind sensors. The storm also destroyed the weather radar operated by the Federal Aviation Administration and the National Weather Service. That radar was designed to withstand maximum winds of 116 knots (133 miles per hour), so this value provides a low-end estimate of the storm\u2019s winds. As the eye of the storm tracked toward the west-northwest over Puerto Rico, the intense winds broke and uprooted trees, leaving most of those still standing without any leaves. It severely damaged 95 percent of cell towers, cutting off nearly all cell phone communication.",
+      "source_url": "http://www.climate.gov/news-features/understanding-climate/hurricane-marias-devastation-puerto-rico",
+      "timestamp": "2018-08-01"
+    },
+    {
+      "doc_id": "d10",
+      "text": "Hurricane Maria: NOS Fiscal Year 2017 Year in Review Hurricane Maria made landfall as a high-end Category 4 storm on Puerto Rico on September 20, 2017. The massive storm\u2014the 10th most intense Atlantic storm on ... Hurricane Maria NOS Fiscal Year 2017 Year in Review Hurricane Maria made landfall as a high-end Category 4 storm on Puerto Rico on September 20, 2017. The massive storm\u00e2\u0080\u0094the 10th most intense Atlantic storm on record\u00e2\u0080\u0094devastated the U.S. territory, and communities there will be\u00c2 recovering and rebuilding\u00c2 for years to come. In Fiscal Year 2017, staff from across the National Ocean Service supported the impacted communities by delivering coastal science, management, and operational expertise. Following is a summary of some of those activities. The National Geodetic Survey (NGS) collected more than 12,000 aerial oblique images, covering more than 1,500 square kilometers affected by the storm. Using NOAA\u00e2\u0080\u0099s Office of Marine and Aviation Operations Beechcraft King Air 350 CER aircraft, NGS covered areas of Puerto Rico including Culebra Island, Vieques Island, the east central portion of the main island, and its south and north coasts. Portions of the U.S. Virgin Islands (USVI) were also covered. Images were processed and posted online within hours. The imagery is used for a variety of purposes, including recovery strategies, search-and- rescue efforts, hazard identification, vessel locations, and damage assessment. NGS conducts surveys as requested by the Federal Emergency Management Agency (FEMA) or a state, territory, or tribe in coordination with FEMA. The Office of Coast Survey (OCS) Mobile Integrated Survey Team (MIST) arrived in San Juan, Puerto Rico, via the U.S. Coast Guard\u00e2\u0080\u0099s (USCG) C-130 aircraft and USCG Cutter Venturous, to support the response to Maria and the storm\u00e2\u0080\u0099s impact on the island\u00e2\u0080\u0099s ports. The MIST completed survey work in the Port of Arecibo, an important fuel and chemical port. NOAA Ship Thomas Jefferson delivered supplies to the National Weather Service at the USCG small boat pier in San Juan and provided equipment to repair the NOAA tide gauge station.",
+      "source_url": "https://oceanservice.noaa.gov/annualreport/2017/hurricane-maria.html",
+      "timestamp": "2017-12-11"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "Directly states Hurricane Maria formed on September 20, 2017, and details its intensification and landfalls in September 2017."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly mentions Hurricane Maria tearing across Puerto Rico on September 20, 2017, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "States Hurricane Maria affected the Caribbean in September 2017 and developed on September 16, providing the timeframe."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Hurricane Maria pummeled Puerto Rico on Sept. 20, 2017, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Hurricane Maria struck Puerto Rico on September 20, 2017, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States Hurricane Maria devastated the Caribbean Islands from Sept. 16-30 during the 2017 Atlantic hurricane season, providing the timeframe."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Mentions Hurricane Maria made landfall in Dominica on September 18 and in Puerto Rico on September 20, 2017, directly answering the query."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Hurricane Maria caused catastrophic damage in Puerto Rico in late September 2017 and developed into a depression on September 16, providing the timeframe."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Hurricane Maria made landfall in Puerto Rico on September 20, 2017, directly answering the query."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Hurricane Maria made landfall in Puerto Rico on September 20, 2017, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Hurricane Maria formed from an African easterly wave during the week of September 10th to September 17th, 2017.",
+            "Maria underwent rapid intensification from category 1 to category 5 hurricane.",
+            "Maria's first landfall was in Dominica as a category 5 hurricane around 915 PM AST on September 18th.",
+            "The system was classified as a tropical depression on September 16th and became Tropical Storm Maria later that day.",
+            "Maria became the 8th hurricane of the 2017 Atlantic hurricane season on September 17th."
+          ],
+          "reason": "Extracted key facts about Hurricane Maria's formation, intensification, and landfalls, including specific dates and categories, directly answering the query about when it occurred."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "On September 20, 2017, Hurricane Maria tore across Puerto Rico, causing catastrophic wind damage and widespread flooding."
+          ],
+          "reason": "Extracted the specific date Hurricane Maria made landfall in Puerto Rico, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Hurricane Maria affected the northeastern Caribbean in September 2017.",
+            "Maria developed from a tropical wave on September 16, 2017, east of the Lesser Antilles.",
+            "The hurricane became extratropical on September 30, 2017, and dissipated by October 2, 2017."
+          ],
+          "reason": "Extracted key dates related to Hurricane Maria's development and dissipation in September 2017, providing context for when the event occurred."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Hurricane Maria pummeled Puerto Rico on Sept. 20, 2017, as a Category 4 storm."
+          ],
+          "reason": "Extracted the specific date Hurricane Maria made landfall in Puerto Rico, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Hurricane Maria struck Puerto Rico on September 20, 2017, as a Category 4 storm."
+          ],
+          "reason": "Extracted the specific date Hurricane Maria made landfall in Puerto Rico, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Hurricane Maria devastated the Caribbean Islands from Sept. 16-30 during the 2017 Atlantic hurricane season."
+          ],
+          "reason": "Extracted the date range (September 16-30) during which Hurricane Maria occurred, providing a timeframe for the event."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Hurricane Maria made landfall in Dominica on September 18, 2017, as a category 5 storm.",
+            "Hurricane Maria made landfall in Puerto Rico as a category 4 hurricane on September 20, 2017."
+          ],
+          "reason": "Extracted specific dates for Hurricane Maria's landfalls in Dominica and Puerto Rico, directly answering the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Hurricane Maria caused catastrophic damage in Puerto Rico in late September 2017.",
+            "It developed into a tropical depression on September 16, 2017, east of the Lesser Antilles.",
+            "Maria became extratropical on September 30, 2017."
+          ],
+          "reason": "Extracted key dates related to Hurricane Maria's activity in late September 2017, including its development and dissipation, to answer the query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Hurricane Maria made landfall in Puerto Rico on September 20, 2017.",
+            "The storm had already caused widespread destruction in Dominica as a Category 5 storm."
+          ],
+          "reason": "Extracted the specific date Hurricane Maria made landfall in Puerto Rico, directly answering the query."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Hurricane Maria made landfall as a high-end Category 4 storm on Puerto Rico on September 20, 2017."
+          ],
+          "reason": "Extracted the specific date Hurricane Maria made landfall in Puerto Rico, directly answering the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides a detailed timeline of Hurricane Maria's formation, intensification, and landfalls, including specific dates in September 2017.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States that Hurricane Maria tore across Puerto Rico on September 20, 2017, directly answering when the event occurred.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Provides key dates for Hurricane Maria's development and dissipation in September 2017, establishing the timeframe of the event.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States Hurricane Maria pummeled Puerto Rico on September 20, 2017, directly answering when the event occurred.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States Hurricane Maria struck Puerto Rico on September 20, 2017, directly answering when the event occurred.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Provides the date range of September 16-30, 2017, for Hurricane Maria's devastation, directly answering when it occurred.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Gives specific dates for Hurricane Maria's landfalls in Dominica (September 18, 2017) and Puerto Rico (September 20, 2017).",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Mentions catastrophic damage in late September 2017 and provides development/dissipation dates (Sept 16 and 30), answering when it occurred.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "States Hurricane Maria made landfall in Puerto Rico on September 20, 2017, directly answering when the event occurred.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "States Hurricane Maria made landfall in Puerto Rico on September 20, 2017, directly answering when the event occurred.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "specific_landfall_dates",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5",
+              "d7",
+              "d9",
+              "d10"
+            ],
+            "summary": "Multiple documents specify Hurricane Maria's landfall in Puerto Rico on September 20, 2017, with some also noting its landfall in Dominica on September 18, 2017."
+          },
+          {
+            "label": "formation_and_dissipation_timeline",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d6",
+              "d8"
+            ],
+            "summary": "Documents provide details on Hurricane Maria's formation around September 16-17, 2017, and its dissipation by September 30, 2017, or early October 2017."
+          },
+          {
+            "label": "intensification_and_category",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5",
+              "d7",
+              "d10"
+            ],
+            "summary": "Some documents mention Hurricane Maria's intensification to Category 5 and its landfalls as Category 4 or 5 storms."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence supports the timeline of Hurricane Maria's formation, intensification, and landfalls in September 2017, with different documents offering specific details.",
+        "clusters": [
+          {
+            "label": "Hurricane Maria Timeline",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9",
+              "d10"
+            ],
+            "summary": "Evidence consistently details Hurricane Maria's formation around September 16-17, 2017, landfalls in Dominica on September 18 and Puerto Rico on September 20, 2017, and dissipation by September 30, 2017. Some documents also note its intensification and category at landfall."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is comprehensive and consistent, providing a clear timeline of Hurricane Maria's formation, landfalls, and dissipation without significant conflicts."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Hurricane Maria formed around September 16-17, 2017, made landfall in Dominica on September 18, 2017, and in Puerto Rico on September 20, 2017. It dissipated by September 30, 2017, or early October 2017. The hurricane intensified to Category 5 and made landfalls as a Category 4 or 5 storm.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The aggregated evidence provides a consistent and comprehensive timeline for Hurricane Maria, detailing its formation, landfalls, and dissipation with specific dates and intensity information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately summarizes the formation, landfalls, and dissipation dates of Hurricane Maria, with all claims directly supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 18750,
+      "completion_tokens": 3582,
+      "total_tokens": 22332
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3258,
+        "completion_tokens": 754,
+        "total_tokens": 4012
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3213,
+        "completion_tokens": 1108,
+        "total_tokens": 4321
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1389,
+        "completion_tokens": 727,
+        "total_tokens": 2116
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1871,
+        "completion_tokens": 421,
+        "total_tokens": 2292
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2243,
+        "completion_tokens": 230,
+        "total_tokens": 2473
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 770,
+        "completion_tokens": 46,
+        "total_tokens": 816
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 921,
+        "completion_tokens": 204,
+        "total_tokens": 1125
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 5085,
+        "completion_tokens": 92,
+        "total_tokens": 5177
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:04.627809",
+        "prompt_tokens": 3258,
+        "completion_tokens": 754,
+        "total_tokens": 4012,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:07.579781",
+        "prompt_tokens": 3213,
+        "completion_tokens": 1108,
+        "total_tokens": 4321,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:09.872875",
+        "prompt_tokens": 1389,
+        "completion_tokens": 727,
+        "total_tokens": 2116,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:11.718684",
+        "prompt_tokens": 1871,
+        "completion_tokens": 421,
+        "total_tokens": 2292,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:13.024496",
+        "prompt_tokens": 2243,
+        "completion_tokens": 230,
+        "total_tokens": 2473,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:13.997650",
+        "prompt_tokens": 770,
+        "completion_tokens": 46,
+        "total_tokens": 816,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:15.676214",
+        "prompt_tokens": 921,
+        "completion_tokens": 204,
+        "total_tokens": 1125,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:17.010464",
+        "prompt_tokens": 5085,
+        "completion_tokens": 92,
+        "total_tokens": 5177,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:31:02.104609",
+  "last_updated_at": "2026-04-17T15:31:17.011246"
+}

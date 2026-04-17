@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0509",
+  "query": "When does american's got talent come on?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "always been on the farthest left (from the live audience's perspective) whenever he's on the judging panel. Auditions in front of the judges began on March 3, 2016 at the Pasadena Civic Auditorium in Pasadena, California. The premiere aired on May 31, 2016. The season had preliminary open call auditions in Detroit, New York City, Phoenix, Salt Lake City, Las Vegas, San Jose, San Diego, Kansas City, Los Angeles, Atlanta, Orlando, and Dallas. As in years past, hopeful contestants could also submit online auditions. This season again featured the golden buzzer, which allowed each judge (and host Nick Cannon) to",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "America's Got Talent (season 11) Season eleven of the reality competition series \"America's Got Talent\" was ordered on September 1, 2015. The season premiered on NBC on Tuesday, May 31, 2016. Nick Cannon returned for his eighth and final season as host. Howie Mandel returned for his seventh season as a judge, while Mel B and Heidi Klum returned for their fourth season. Simon Cowell replaced Howard Stern as the fourth judge. The live shows began on July 26, at the Dolby Theatre in Los Angeles instead of Radio City Music Hall in New York from previous years. Due to",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2004-08-22"
+    },
+    {
+      "doc_id": "d3",
+      "text": "by NET. since October 22, 2016 every Saturday and Sunday at 10 pm WIB. But, since Monday, October 31, in addition to the weekend slot, the show has also been broadcast every Monday to Friday at 5 pm WIB as the replacement of the currently concluded TV drama, the second season of \"\", which was concluded on Friday, October 28, 2016. In the United Kingdom, TruTV, along with simulcasts on the Local Television Limited network, show America's Got Talent, with TruTV showing it from the tenth season. The thirteenth season of the show will air on AXN Asia, together with",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d4",
+      "text": "WIB. But, since Monday, October 31, in addition to the weekend slot, the show has also been broadcast every Monday to Friday at 5.00 PM WIB as the replacement of the currently concluded TV drama, the second season of \"\", which was concluded on Friday, October 28, 2016. America's Got Talent (season 11) Season eleven of the reality competition series \"America's Got Talent\" was ordered on September 1, 2015. The season premiered on NBC on Tuesday, May 31, 2016. Nick Cannon returned for his eighth and final season as host. Howie Mandel returned for his seventh season as a judge,",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Stern as a judge for season 11. Mel B, Heidi Klum and Howie Mandel all returned as judges, with Nick Cannon returning as host. The live shows moved from New York back to Los Angeles, due to Stern's departure, at the Dolby Theatre. Auditions in front of the judges began on March 3, 2016 at the Pasadena Civic Auditorium in Pasadena, California. The season premiered on May 31, 2016. On September 14, 12-year-old singer-songwriter and ukulele player Grace VanderWaal was announced as the second female and second child to win \"America's Got Talent\" (Bianca Ryan, age 11, was first). Magician  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2006-04-02"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States the premiere aired on May 31, 2016, directly answering when the show came on for that season."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explicitly states the season premiered on NBC on Tuesday, May 31, 2016, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Provides broadcast times in WIB (10 pm weekend, 5 pm weekdays) and mentions UK broadcasts, offering relevant scheduling information."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions weekday 5:00 PM WIB broadcasts and the premiere date of May 31, 2016, providing specific air times."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States the season premiered on May 31, 2016, directly answering when the show came on for that season."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Auditions for America's Got Talent began on March 3, 2016.",
+            "The premiere of America's Got Talent aired on May 31, 2016."
+          ],
+          "reason": "Extracted the premiere date and audition start date for America's Got Talent season 11."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "America's Got Talent season 11 premiered on NBC on Tuesday, May 31, 2016.",
+            "The live shows for America's Got Talent began on July 26."
+          ],
+          "reason": "Extracted the premiere date and the start date of live shows for America's Got Talent season 11."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In the United Kingdom, TruTV shows America's Got Talent from the tenth season.",
+            "The thirteenth season of the show will air on AXN Asia."
+          ],
+          "reason": "Extracted information about where and when America's Got Talent is broadcast in the United Kingdom and Asia."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "America's Got Talent season 11 premiered on NBC on Tuesday, May 31, 2016.",
+            "The show has been broadcast every Monday to Friday at 5 pm WIB since October 31, 2016."
+          ],
+          "reason": "Extracted the premiere date and a weekday broadcast schedule for America's Got Talent season 11."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Auditions for America's Got Talent season 11 began on March 3, 2016.",
+            "The season premiered on May 31, 2016."
+          ],
+          "reason": "Extracted the audition start date and the premiere date for America's Got Talent season 11."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides the premiere date of May 31, 2016, directly answering when the show aired.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States the premiere date as May 31, 2016, directly answering when the show aired.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses broadcast locations in the UK and Asia, not the general airing time for America.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Gives a specific weekday broadcast schedule (Mon-Fri at 5 pm WIB) starting October 31, 2016, but this is after the premiere.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States the premiere date of May 31, 2016, directly answering when the show aired.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_premiere_date",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Multiple documents directly state the premiere date of America's Got Talent as May 31, 2016."
+          },
+          {
+            "label": "additional_broadcast_info",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "One document provides a later broadcast schedule (Mon-Fri at 5 pm WIB from Oct 31, 2016), which is supplementary to the premiere date."
+          },
+          {
+            "label": "international_broadcast_locations",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "One document is irrelevant as it discusses international broadcast locations rather than the general airing time."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources consistently states the premiere date of America's Got Talent as May 31, 2016. Additional documents provide supplementary broadcast information.",
+        "clusters": [
+          {
+            "label": "Premiere Date",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Multiple documents confirm the premiere date of America's Got Talent season 11 was May 31, 2016."
+          },
+          {
+            "label": "Additional Broadcast Schedule",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "One document provides a later broadcast schedule starting October 31, 2016."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and complementary, providing a clear premiere date and additional broadcast details without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "America's Got Talent premiered on May 31, 2016. A later broadcast schedule ran Monday-Friday at 5 pm WIB starting October 31, 2016.",
+        "citations": [
+          "d1",
+          "d2",
+          "d5",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently state the premiere date. Partial documents provide supplementary broadcast information, and there is no conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately stating the premiere date and the later broadcast schedule with correct citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9005,
+      "completion_tokens": 1995,
+      "total_tokens": 11000
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1441,
+        "completion_tokens": 381,
+        "total_tokens": 1822
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1396,
+        "completion_tokens": 523,
+        "total_tokens": 1919
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 909,
+        "completion_tokens": 349,
+        "total_tokens": 1258
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1073,
+        "completion_tokens": 292,
+        "total_tokens": 1365
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1338,
+        "completion_tokens": 202,
+        "total_tokens": 1540
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 631,
+        "completion_tokens": 39,
+        "total_tokens": 670
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 775,
+        "completion_tokens": 120,
+        "total_tokens": 895
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1442,
+        "completion_tokens": 89,
+        "total_tokens": 1531
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:10.191908",
+        "prompt_tokens": 1441,
+        "completion_tokens": 381,
+        "total_tokens": 1822,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:12.494226",
+        "prompt_tokens": 1396,
+        "completion_tokens": 523,
+        "total_tokens": 1919,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:14.188960",
+        "prompt_tokens": 909,
+        "completion_tokens": 349,
+        "total_tokens": 1258,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:15.485727",
+        "prompt_tokens": 1073,
+        "completion_tokens": 292,
+        "total_tokens": 1365,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:16.744310",
+        "prompt_tokens": 1338,
+        "completion_tokens": 202,
+        "total_tokens": 1540,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:17.591670",
+        "prompt_tokens": 631,
+        "completion_tokens": 39,
+        "total_tokens": 670,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:18.589720",
+        "prompt_tokens": 775,
+        "completion_tokens": 120,
+        "total_tokens": 895,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:19.744806",
+        "prompt_tokens": 1442,
+        "completion_tokens": 89,
+        "total_tokens": 1531,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:51:08.510122",
+  "last_updated_at": "2026-04-17T19:51:19.745339"
+}

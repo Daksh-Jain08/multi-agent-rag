@@ -1,0 +1,536 @@
+{
+  "sample_id": "#0338",
+  "query": "mlb record for most wins in a season",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Which teams won the most games in a season? - MLB.com Roger Maris hits 61 in '61 \u00b7 1. 1906 Cubs: .763 (116-36) \u00b7 2. 1902 Pirates: .741 (103-36) \u00b7 3. 1909 Pirates: .724 (110-42) \u00b7 4. 1954 Cleveland: .721 ... Unfortunately for Seattle, the season came to an unceremonious end with a five-game ALCS loss to the Yankees, followed by a 20-season playoff drought that finally ended in 2022. 3. 1998 Yankees: 114-48 (.704) Won World Series The Yankees may have fallen two games short of the Cubs' and Mariners' wins record, but they claimed the ultimate prize -- the franchise's second of four World Series titles in a five-year span. The Bronx Bombers went 11-2 in the playoffs (giving them 125 total victories), including sweeps of the Rangers in the ALDS and the Padres in the Fall Classic. The regular season was spectacular as well, with Hall of Fame manager Joe Torre leading a star-studded roster that included Cooperstown-bound players Derek Jeter, Tim Raines and Mariano Rivera, plus many other household names. There was even a perfect game, thrown by David Wells on May 17. 4 (tie). 1954 Cleveland: 111-43 (.721) Lost World Series This club still holds the all-time AL record for winning percentage and was the only team to record two winning streaks of at least 11 games until the 2015 Blue Jays finally matched that feat. Cleveland's pitching staff was stacked with three Hall of Famers, in Early Wynn, Bob Lemon and Bob Feller, and its 2.78 ERA was the best in the AL or NL that season by a significant margin. Reliever Hal Newhouser and center fielder Larry Doby were also among the players on this squad who eventually reached Cooperstown. Yet none of that helped when the Giants swept Cleveland in what would be its last World Series appearance for another 41 years. 4 (tie). 2022",
+      "source_url": "https://www.mlb.com/news/most-mlb-wins-in-a-season-c289159676",
+      "timestamp": "2024-05-17"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What Baseball Team Won The Most Games In A Season - StatMuse The Seattle Mariners and the Chicago Cubs are tied for the most wins in a season, with 116 wins. ; 3. Yankees. 114. 1998 ; 4. Dodgers. 111. 2022.",
+      "source_url": "https://www.statmuse.com/mlb/ask/what-baseball-team-won-the-most-games-in-a-season",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "List of best Major League Baseball season win\u2013loss records Listed below are the Major League Baseball teams with the best season win\u2013loss records, as determined by winning percentage (.700 or better). Pre-1886 teams With shorter schedules (fewer than 100 games before 1884), it was more common for teams to finish with .700 or better winning percentages, as there was less of the evening-out effect of a longer season, and some seasons had multiple teams, with three in 1884 (between the three leagues that year) and in 1885. In the list below (minimum 15 games played), six teams finished with better overall winning percentages than the 1906 Cubs, three being in the early years of the National league, and the other three in leagues whose status as \"major\" is questionable: two in the National Association, whose status as a major league has long been disputed, and the other in the Union Association, which is conventionally listed as a major league, but this has been questioned due to the league's overall lack of playing talent and poor organizational structure. In addition, contemporary baseball guides did not consider the Union Association to be a major league: the earliest record referencing the Union Association as a major league dates to 1922.[1])",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_best_Major_League_Baseball_season_win%E2%80%93loss_records",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Most Wins in a Season in MLB History - BetMGM The 1906 Chicago Cubs and 2001 Seattle Mariners share the MLB record for most wins in a season with 116. Most Wins in a Season in MLB History The Chicago Cubs won 116 games during the 1906 MLB season, a single-season record for most MLB wins in a season that stood for nearly a century until the 2001 Seattle Mariners tied it. Most Wins in a Season in MLB History Rank Team Year Wins 1 Seattle Mariners 2001 116 1 Chicago Cubs 1906 116 3 New York Yankees 1998 114 4 Los Angeles Dodgers 2022 111 4 Cleveland Indians 1954 111 6 New York Yankees 1927 110 6 Pittsburgh Pirates 1909 110 8 Baltimore Orioles 1969 109 8 New York Yankees 1961 109 10 Boston Red Sox 2018 108 10 New York Mets 1986 108 10 Cincinnati Reds 1975 108 10 Baltimore Orioles 1970 108 MLB Record for Most Wins in a Season The 1906 Chicago Cubs and 2001 Seattle Mariners share the MLB record for most wins in a season with 116. The Cubs won 116 games in seven fewer games (155) than the Mariners (162). How Many Teams Have Won 100 Games in a Season? Entering the 2023 season, 116 MLB teams have won 100 games in a season. Most recently, the Atlanta Braves, Houston Astros, Los Angeles Dodgers, and New York Mets each won at least 100 games in 2022. Daily MLB Odds Baseball betting never sleeps at BetMGM.",
+      "source_url": "https://sports.betmgm.com/en/blog/mlb/most-wins-season-mlb-history-bm03/",
+      "timestamp": "2023-08-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Has any MLB team ever won 162 regular season games? - Quora The current format of the MLB season consists of 162 games, and the record for most wins in a single season is 116, shared by the 1906 Chicago ...",
+      "source_url": "https://www.quora.com/Has-any-MLB-team-ever-won-162-regular-season-games",
+      "timestamp": "2023-12-16"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Hottest team starts in baseball history - MLB.com The Mariners tied the MLB record with 116 wins (the 1906 Cubs are the other team to win 116 games), so their great start was just a part of a run that lasted ... BEST START THROUGH 60 GAMES 1912 Giants: 48-11 (1 tie) Final record: 103-48 (Lost World Series) As with many of these teams, the 1912 Giants featured several legends of the sport. They were managed by Hall of Fame skipper John McGraw, the second-winningest manager in MLB history, and their pitching staff was led by a Hall of Fame duo in Christy Mathewson and Rube Marquard. After a sizzling start to the season, New York ran away with the NL pennant, but lost to the Red Sox in a dramatic eight-game World Series (one game was tied). In the winner-take-all Game 8, Mathewson was brilliant into the 10th inning, but Boston rallied to win the game and the series on a walk-off sacrifice fly. The Giants actually trailed the Reds in the NL as late as May 20, despite having a 20-6 record on that date. But they broke through with a stretch of 18 wins in 20 games that turned their half-game deficit into a 12-game lead by June 13. When they played their 60th game on June 28, the Giants were in the middle of a 16-game winning streak which would push their lead to 16 1/2 games before the 4th of July. Next best 1907 Cubs, '39 Yankees, 2001 Mariners: 47-13 The 1939 Yankees have already had their entry here. So we'll turn the focus to the 2001 Mariners, who had one of the greatest regular seasons in Major League history. The Mariners tied the MLB record with 116 wins (the 1906 Cubs are the other team to win 116 games), so their great start was just a part of a run that lasted the whole year.",
+      "source_url": "https://www.mlb.com/news/hottest-team-starts-in-baseball-history-c269855358",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "What is the most amount of games a team could (somewhat ... - Reddit 1906 Cubs won 116 in only 155 games. So they could have gotten up to 123 if they played 162. Upvote 83 Downvote Award Share",
+      "source_url": "https://www.reddit.com/r/baseball/comments/110gksp/what_is_the_most_amount_of_games_a_team_could/",
+      "timestamp": "2023-02-12"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Most Wins In A MLB Season Including Playoffs By Team | StatMuse The New York Yankees have the most wins by a team in a combined regular-season and postseason, with 125 wins in 1998. ; 2. Mariners. 120. 2001 ; 3. Red Sox. 119.",
+      "source_url": "https://www.statmuse.com/mlb/ask/most-wins-in-a-mlb-season-including-playoffs-by-team",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "List of Major League Baseball single-season wins leaders - Wikipedia Charles Radbourn [3] holds the record for the most wins in a single-season, winning 59 games in 1884. List of Major League Baseball single-season wins leaders In Major League Baseball, the winning pitcher is defined as the pitcher who last pitched prior to the half-inning when the winning team took the lead for the last time.[1] There are two exceptions to this rule. The first is that a starting pitcher must complete five innings to earn a win (four innings for a game that lasts five innings on defense). If he fails to do so, he is ineligible to be the winning pitcher even if he last pitched prior to the half-inning when his team took the lead for the last time, and the official scorer awards the win to the relief pitcher who, in the official scorer's judgment, was the most effective. The second exception applies if the relief pitcher who last pitched prior to the half-inning when the winning team took the lead for the last time was \"ineffective in a brief appearance\" in the official scorer's judgment, in which case the win is awarded to the succeeding relief pitcher who, in the official scorer's judgment, was the most effective.[2]",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_single-season_wins_leaders",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly addresses the query by listing teams with the most wins in a season, including the 1906 Cubs and 1954 Cleveland team."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly answers the query by stating the Seattle Mariners and Chicago Cubs are tied for the most wins in a season with 116."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document provides context on best season win-loss records and mentions the 1906 Cubs, which is relevant to the query about most wins."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "This document directly answers the query, stating the 1906 Chicago Cubs and 2001 Seattle Mariners share the MLB record for most wins in a season with 116."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly answers the query by stating the record for most wins in a single season is 116, shared by the 1906 Chicago Cubs."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document mentions the 2001 Mariners and 1906 Cubs tied the MLB record with 116 wins, directly addressing the query."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document directly addresses the query by stating the 1906 Cubs won 116 games in a season."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "This document discusses combined regular-season and postseason wins, not just regular season wins, which is the focus of the query."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses individual pitcher wins, not team wins in a season, making it irrelevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 1906 Cubs had a winning percentage of .763 with a record of 116-36.",
+            "The 1954 Cleveland Indians had a record of 111-43 (.721) and hold the all-time AL record for winning percentage.",
+            "The 1998 Yankees won the World Series with a record of 114-48 (.704)."
+          ],
+          "reason": "Extracted facts about teams with high win percentages and total wins in a season, directly addressing the query about MLB records for most wins."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Seattle Mariners and the Chicago Cubs are tied for the most wins in a season with 116 wins.",
+            "The 1998 Yankees had 114 wins.",
+            "The 2022 Dodgers had 111 wins."
+          ],
+          "reason": "Extracted the specific record holders for most wins in a season and other high-win teams, directly answering the user's query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Teams with shorter schedules before 1886 more commonly finished with .700 or better winning percentages."
+          ],
+          "reason": "Extracted a general statement about historical win percentages, which provides context but not specific win records."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The 1906 Chicago Cubs and 2001 Seattle Mariners share the MLB record for most wins in a season with 116.",
+            "The 1906 Chicago Cubs won 116 games in 155 games played.",
+            "The 2001 Seattle Mariners won 116 games in 162 games played.",
+            "The 1998 New York Yankees had 114 wins.",
+            "The 2022 Los Angeles Dodgers and 1954 Cleveland Indians both had 111 wins."
+          ],
+          "reason": "Extracted the shared MLB record for most wins in a season and listed other teams with high win totals, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The record for most wins in a single MLB season is 116, shared by the 1906 Chicago Cubs."
+          ],
+          "reason": "Extracted the specific MLB record for most wins in a season and the team that holds it, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "The 2001 Mariners tied the MLB record with 116 wins.",
+            "The 1906 Cubs are the other team to win 116 games."
+          ],
+          "reason": "Extracted the specific MLB record for most wins in a season and the teams that achieved it, directly answering the query."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "The 1906 Cubs won 116 games in only 155 games played."
+          ],
+          "reason": "Extracted a specific detail about the 1906 Cubs' record-setting season, contributing to the understanding of the most wins in a season."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The New York Yankees have the most combined regular-season and postseason wins with 125 in 1998.",
+            "The 2001 Mariners had 120 combined wins (regular season and postseason)."
+          ],
+          "reason": "Extracted facts about combined regular and postseason wins, which is related but distinct from the query about regular season wins."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [],
+          "reason": "This document discusses pitcher wins, not team wins in a season, and therefore contains no facts relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides win totals and percentages for teams with high win counts, directly relating to the query about MLB records for most wins in a season.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Explicitly states the record holders for most wins in a season and lists other high-win teams, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses historical winning percentages in general, not specific team win records for a season.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Identifies the shared MLB record for most wins in a season and lists other teams with high win totals, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states the MLB record for most wins in a single season and the team that holds it, answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Identifies the specific MLB record for most wins in a season and the teams that achieved it, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "Provides a detail about a record-setting season but doesn't state the overall record or other teams involved.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "Focuses on combined regular and postseason wins, which is different from the query's focus on regular season wins.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "The document discusses pitcher wins, not team wins in a season, making it irrelevant to the query.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "partial_docs": [
+          "d7"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d8",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_record_holders",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5",
+              "d6"
+            ],
+            "summary": "Multiple documents directly identify the teams holding the record for most wins in a season (1906 Cubs and 2001 Mariners with 116 wins) and list other teams with high win totals."
+          },
+          {
+            "label": "supporting_context_and_high_win_teams",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Provides context on high winning percentages and lists teams with significant win totals, supporting the query."
+          },
+          {
+            "label": "partial_detail_on_record_season",
+            "doc_ids": [
+              "d7"
+            ],
+            "summary": "Offers a specific detail about one of the record-holding seasons but lacks the full scope of the record."
+          },
+          {
+            "label": "irrelevant_historical_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Discusses general historical winning percentages without specific team records."
+          },
+          {
+            "label": "irrelevant_combined_wins",
+            "doc_ids": [
+              "d8"
+            ],
+            "summary": "Focuses on combined regular and postseason wins, which is distinct from the query."
+          },
+          {
+            "label": "irrelevant_pitcher_wins",
+            "doc_ids": [
+              "d9"
+            ],
+            "summary": "Discusses pitcher wins, not team wins in a season."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting evidence consistently identifies the 1906 Cubs and 2001 Mariners as sharing the record for most wins in a season with 116, with other high-win teams also consistently mentioned.",
+        "clusters": [
+          {
+            "label": "record_holders_and_high_win_teams",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5",
+              "d6"
+            ],
+            "summary": "Multiple documents directly identify the 1906 Cubs and 2001 Mariners as sharing the record for most wins in a season (116 wins) and list other teams with high win totals."
+          },
+          {
+            "label": "supporting_context_and_high_win_teams",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Provides context on high winning percentages and lists teams with significant win totals, supporting the query."
+          },
+          {
+            "label": "partial_detail_on_record_season",
+            "doc_ids": [
+              "d7"
+            ],
+            "summary": "Offers a specific detail about one of the record-holding seasons but lacks the full scope of the record."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly answers the question about the record for most wins in a season."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The record for the most wins in a single season is 116, held jointly by the 1906 Chicago Cubs and the 2001 Seattle Mariners. Other teams with high win totals are also mentioned in the supporting documents.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d5",
+          "d6",
+          "d7"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting evidence consistently identifies the record holders and provides supporting context, directly answering the user's query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states the MLB record for most wins in a season and is fully supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 16258,
+      "completion_tokens": 3379,
+      "total_tokens": 19637
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2986,
+        "completion_tokens": 693,
+        "total_tokens": 3679
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2941,
+        "completion_tokens": 1007,
+        "total_tokens": 3948
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1318,
+        "completion_tokens": 600,
+        "total_tokens": 1918
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1682,
+        "completion_tokens": 502,
+        "total_tokens": 2184
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2093,
+        "completion_tokens": 315,
+        "total_tokens": 2408
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 870,
+        "completion_tokens": 38,
+        "total_tokens": 908
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1013,
+        "completion_tokens": 137,
+        "total_tokens": 1150
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3355,
+        "completion_tokens": 87,
+        "total_tokens": 3442
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:17.896255",
+        "prompt_tokens": 2986,
+        "completion_tokens": 693,
+        "total_tokens": 3679,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:21.478991",
+        "prompt_tokens": 2941,
+        "completion_tokens": 1007,
+        "total_tokens": 3948,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:23.352830",
+        "prompt_tokens": 1318,
+        "completion_tokens": 600,
+        "total_tokens": 1918,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:25.528469",
+        "prompt_tokens": 1682,
+        "completion_tokens": 502,
+        "total_tokens": 2184,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:27.216998",
+        "prompt_tokens": 2093,
+        "completion_tokens": 315,
+        "total_tokens": 2408,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:28.241915",
+        "prompt_tokens": 870,
+        "completion_tokens": 38,
+        "total_tokens": 908,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:29.366921",
+        "prompt_tokens": 1013,
+        "completion_tokens": 137,
+        "total_tokens": 1150,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:30.398877",
+        "prompt_tokens": 3355,
+        "completion_tokens": 87,
+        "total_tokens": 3442,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:55:13.435555",
+  "last_updated_at": "2026-04-17T17:55:30.399520"
+}

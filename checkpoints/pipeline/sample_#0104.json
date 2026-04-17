@@ -1,0 +1,529 @@
+{
+  "sample_id": "#0104",
+  "query": "Who is the current ATP top-ranked men's singles tennis player?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "PIF ATP Rankings (Singles) | ATP Tour | Tennis Official PIF ATP Rankings (Singles) showing a list of top players in men's tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, ...",
+      "source_url": "https://www.atptour.com/en/rankings/singles",
+      "timestamp": "2024-12-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Men's Tennis ATP Rankings 2025 - ESPN View the 2025 ATP rankings on ESPN. Includes the top 150 ranked tennis players of the year. ESPN BET is owned and operated by PENN Entertainment, Inc. and its subsidiaries ('PENN'). ESPN BET is available in states where PENN is licensed to offer sports wagering. Must be 21+ to wager. If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER.",
+      "source_url": "https://www.espn.com/tennis/rankings",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "ATP Live Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis Official PIF ATP Live Rankings (Singles) showing a list of top players in men's tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, ...",
+      "source_url": "https://www.atptour.com/en/rankings/singles/live",
+      "timestamp": "2024-10-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "ATP Singles Rankings - Tennis24 Rankings ; 1. Sinner Jannik \u00b7 11830 ; 2. Zverev Alexander \u00b7 7915 ; 3. Alcaraz Carlos \u00b7 7010 ; 4. Fritz Taylor \u00b7 5100 ; 5. Medvedev Daniil \u00b7 5030.",
+      "source_url": "https://www.tennis24.com/rankings/atp/",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Players & Rankings | Tennis.com Jannik Sinner \u00b7 Sinner \u00b7 Jannik \u00b7 # 1 11,830 ; Alexander Zverev \u00b7 Zverev \u00b7 Alexander \u00b7 # 2 7,635 ; Carlos Alcaraz \u00b7 Alcaraz \u00b7 Carlos \u00b7 # 3 7,010.",
+      "source_url": "https://www.tennis.com/players-rankings/",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Live ATP Ranking Facundo D\u00edaz Acosta, 24, ARG, 758, +5, +44, Auckland QF (R16 ), Lost in Qual. Auckland R2, Lost in Qual. Auckland R2 Auckland QF",
+      "source_url": "https://live-tennis.eu/en/atp-live-ranking",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Men's Tennis, ATP Singles World Rankings - complete list - Novak ... 24-time Grand Slam winner Novak Djokovic solidified his lead as number one after clinching his seventh ATP Finals title in Turin on Sunday 19 November. 24-time Grand Slam winner Novak Djokovic solidified his lead as number one after clinching his seventh ATP Finals title in Turin on Sunday 19 November. The Serbian had already secured a year-end No. 1 ranking for a record-extending eighth time, and the 36-year-old star can now celebrate 400 weeks as world No 1, which has never been done by any player before. Carlos Alcaraz, who famously defeated Djokovic in this year's Wimbledon final, still holds the second spot as of 20 November 2023. Daniil Medvedev (Russia) follows in third with ATP Finals runner-up JannikSinner in fourth.",
+      "source_url": "https://olympics.com/en/news/tennis-atp-men-singles-world-rankings-complete-list",
+      "timestamp": "2023-11-20"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Current tennis rankings - Wikipedia ATP singles ; 1. Jannik Sinner ( ITA ) \u2713, 10,330, 14 ; 2. Alexander Zverev ( GER ) \u2713, 7,315, 20 ; 3. Carlos Alcaraz ( ESP ) \u2713, 6,810, 14. The ATP and WTA rankings are updated weekly on Mondays (UTC) or at the conclusion of a two-week tournament. As of 1 March 2022, the ATP and WTA announced that Russian and Belarusian players continue to be allowed to compete in international tennis events on Tour and at the Grand Slams. However, they will not compete under the name or flag of Russia or Belarus, due to the Russian invasion of Ukraine.[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Current_tennis_rankings",
+      "timestamp": "2025-01-06"
+    },
+    {
+      "doc_id": "d9",
+      "text": "ATP 2025 World Ranking - Tennis - Eurosport ATP Rankings 2025 ; 1. J. Sinner ; 2. A. Zverev ; 3. C. Alcaraz ; 4. T. Fritz.",
+      "source_url": "https://www.eurosport.com/tennis/atp/standings.shtml",
+      "timestamp": "2025-01-01"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly mentions the PIF ATP Rankings (Singles) and lists Novak Djokovic and Rafael Nadal, indicating it contains relevant information about top players."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "This document discusses Men's Tennis ATP Rankings for 2025 and mentions top-ranked players, providing relevant context for the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document provides PIF ATP Live Rankings (Singles) and lists top players like Novak Djokovic and Rafael Nadal, directly addressing the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "This document explicitly lists the ATP Singles Rankings with player names and their ranks, directly answering the query about the top-ranked player."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "This document clearly states Jannik Sinner as #1 and provides his ranking points, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document provides live ATP ranking information for a specific player, Facundo D\u00edaz Acosta, which is relevant context for current rankings."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document mentions Novak Djokovic as number one and discusses his year-end ranking and weeks as world No. 1, directly relevant to the query."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "This document explicitly lists Jannik Sinner as #1 in the ATP singles rankings, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "This document lists ATP Rankings for 2025 and clearly shows J. Sinner as #1, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The PIF ATP Rankings (Singles) feature Novak Djokovic and Rafael Nadal among top players."
+          ],
+          "reason": "Extracted mention of prominent players listed in the ATP rankings, relevant to the query about top-ranked players."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The 2025 ATP rankings include the top 150 ranked tennis players."
+          ],
+          "reason": "Extracted information about the scope of the 2025 ATP rankings, which is relevant to identifying top players."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The PIF ATP Live Rankings (Singles) feature Novak Djokovic and Rafael Nadal among top players."
+          ],
+          "reason": "Extracted mention of prominent players listed in the live ATP rankings, relevant to the query about top-ranked players."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "As of 2025-01-01, Jannik Sinner is ranked #1 with 11830 points.",
+            "As of 2025-01-01, Alexander Zverev is ranked #2 with 7915 points.",
+            "As of 2025-01-01, Carlos Alcaraz is ranked #3 with 7010 points."
+          ],
+          "reason": "Extracted the top three ranked players and their points from the ATP Singles Rankings as of January 1, 2025, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Jannik Sinner is ranked #1 with 11,830 points.",
+            "Alexander Zverev is ranked #2 with 7,635 points.",
+            "Carlos Alcaraz is ranked #3 with 7,010 points."
+          ],
+          "reason": "Extracted the top three ranked players and their points, directly answering the query about the current ATP top-ranked men's singles player."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Facundo D\u00edaz Acosta has 758 points in the ATP Live Ranking."
+          ],
+          "reason": "Extracted a specific player's point total from the live ATP ranking, which is relevant to identifying top players."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Novak Djokovic held the number one spot after clinching his seventh ATP Finals title on November 19, 2023.",
+            "Novak Djokovic secured a record-extending eighth year-end No. 1 ranking.",
+            "Carlos Alcaraz held the second spot as of November 20, 2023.",
+            "Daniil Medvedev was in third place, with Jannik Sinner in fourth."
+          ],
+          "reason": "Extracted historical ranking information for Novak Djokovic and other top players, providing context for the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "As of 2025-01-06, Jannik Sinner (ITA) is ranked #1 with 10,330 points.",
+            "As of 2025-01-06, Alexander Zverev (GER) is ranked #2 with 7,315 points.",
+            "As of 2025-01-06, Carlos Alcaraz (ESP) is ranked #3 with 6,810 points."
+          ],
+          "reason": "Extracted the top three ranked players and their points from Wikipedia's ATP singles rankings as of January 6, 2025, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "J. Sinner is ranked #1 in the ATP 2025 World Ranking.",
+            "A. Zverev is ranked #2.",
+            "C. Alcaraz is ranked #3.",
+            "T. Fritz is ranked #4."
+          ],
+          "reason": "Extracted the top four ranked players from the ATP 2025 World Ranking, directly answering the query about the current top-ranked player."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions Novak Djokovic and Rafael Nadal as top players but does not specify who is currently ranked #1.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "States the scope of the 2025 ATP rankings but does not identify the current top-ranked player.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Novak Djokovic and Rafael Nadal as top players in live rankings but does not specify the current #1.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states Jannik Sinner is ranked #1 as of 2025-01-01, answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states Jannik Sinner is ranked #1, answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Provides a point total for Facundo D\u00edaz Acosta but does not identify the top-ranked player.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "Provides historical ranking information for Novak Djokovic and others, but not the current #1.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Directly states Jannik Sinner is ranked #1 as of 2025-01-06, answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Directly states J. Sinner is ranked #1 in the ATP 2025 World Ranking, answering the query.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4",
+          "d5",
+          "d8",
+          "d9"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d7"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d6"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_top_rankings",
+            "doc_ids": [
+              "d4",
+              "d5",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents directly identify Jannik Sinner as the #1 ranked player in the ATP rankings for early 2025, providing specific dates and point totals."
+          },
+          {
+            "label": "mentions_top_players_without_rank",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Documents mention prominent players like Djokovic and Nadal but do not specify the current #1 ranking."
+          },
+          {
+            "label": "historical_context",
+            "doc_ids": [
+              "d7"
+            ],
+            "summary": "Provides historical ranking information from late 2023, which is not current."
+          },
+          {
+            "label": "irrelevant_scope_or_detail",
+            "doc_ids": [
+              "d2",
+              "d6"
+            ],
+            "summary": "Documents either describe the general scope of rankings or provide details for a player not at the top, failing to answer the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources consistently identifies Jannik Sinner as the #1 ranked player in early 2025 ATP rankings, with some documents providing specific dates and point totals.",
+        "clusters": [
+          {
+            "label": "current_top_rankings",
+            "doc_ids": [
+              "d4",
+              "d5",
+              "d8",
+              "d9"
+            ],
+            "summary": "Jannik Sinner is consistently identified as #1 in early 2025 ATP rankings, with specific dates and points provided."
+          },
+          {
+            "label": "historical_and_general_mentions",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d7"
+            ],
+            "summary": "Some documents mention prominent players like Djokovic and Nadal or provide historical context, but do not specify the current #1."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d6"
+            ],
+            "summary": "Documents discuss the scope of rankings or specific player points without identifying the top-ranked player."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly answers the question, with multiple supporting documents identifying Jannik Sinner as the #1 ranked player."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Jannik Sinner is the #1 ranked player in the ATP rankings for early 2025.",
+        "citations": [
+          "d4",
+          "d5",
+          "d8",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Multiple supporting documents consistently identify Jannik Sinner as the #1 ranked player in early 2025 ATP rankings, directly answering the query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided citations, which clearly identify Jannik Sinner as the top-ranked player."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 12541,
+      "completion_tokens": 3269,
+      "total_tokens": 15810
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1902,
+        "completion_tokens": 661,
+        "total_tokens": 2563
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1857,
+        "completion_tokens": 1068,
+        "total_tokens": 2925
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1379,
+        "completion_tokens": 603,
+        "total_tokens": 1982
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1744,
+        "completion_tokens": 396,
+        "total_tokens": 2140
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2081,
+        "completion_tokens": 298,
+        "total_tokens": 2379
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 773,
+        "completion_tokens": 45,
+        "total_tokens": 818
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 923,
+        "completion_tokens": 109,
+        "total_tokens": 1032
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1882,
+        "completion_tokens": 89,
+        "total_tokens": 1971
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:29:49.865966",
+        "prompt_tokens": 1902,
+        "completion_tokens": 661,
+        "total_tokens": 2563,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:29:53.215648",
+        "prompt_tokens": 1857,
+        "completion_tokens": 1068,
+        "total_tokens": 2925,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:29:56.393610",
+        "prompt_tokens": 1379,
+        "completion_tokens": 603,
+        "total_tokens": 1982,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:29:58.271621",
+        "prompt_tokens": 1744,
+        "completion_tokens": 396,
+        "total_tokens": 2140,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:29:59.865542",
+        "prompt_tokens": 2081,
+        "completion_tokens": 298,
+        "total_tokens": 2379,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:30:00.716688",
+        "prompt_tokens": 773,
+        "completion_tokens": 45,
+        "total_tokens": 818,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:30:01.740813",
+        "prompt_tokens": 923,
+        "completion_tokens": 109,
+        "total_tokens": 1032,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:30:02.699136",
+        "prompt_tokens": 1882,
+        "completion_tokens": 89,
+        "total_tokens": 1971,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:29:46.252946",
+  "last_updated_at": "2026-04-17T15:30:02.699714"
+}

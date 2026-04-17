@@ -1,0 +1,405 @@
+{
+  "sample_id": "#0586",
+  "query": "why do humans need to eat many different kind of foods to get their vitamins etc but large animals like cows only need grass to survive?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ayurveda and vitamin B12 | Dogwood School of Botanical Medicine B12 is because the ability to synthesize it is only found in bacteria and certain genera within the archaea. Despite its limited production within these microorganisms, vitamin B12 remains an essential nutrient for all animals, and the only way for this vital nutrient to move up and through the food web is if one animal eats another. It may come as a surprise to learn that even \u0393\u00c7\u00ffvegetarian\u0393\u00c7\u00d6 animals such as cows are thus also insectivores, consuming a significant volume of insects with each mouthful of fresh green grass they take. And lucky for the cows, who need vitamin B12",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "How much vitamin B12 do I need? much vitamin b12 do I need? Human and animal organisms cannot produce B12. This essential vitamin is only produced through microbial fermentation by certain bacteria and archaea. Some B12 producing bacteria live as symbionts in our digestive tract and small quantities of it are provided by them. The rest is consumed via the food we eat. Now, what kinds of foods are to be consumed for healthy levels of the vitamin B12? Animal foods are found to be the best and greatest sources of the same, including organic grass-fed dairy products, cage-free eggs, wild-caught fish, grass-fed meat, organ meat in",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d3",
+      "text": "View topic - Vitamin D and the need for K2 \u0393\u00c7\u00f3 Overcoming Multiple Sclerosis the large intestine, and there is some evidence that broad-spectrum antibiotics can contribute to K2 deficiency (27, 28). Unfortunately, the average intake of this important nutrient is incredibly low in the modern diet. Vitamin K2 is mainly found in certain animal foods and fermented foods, which most people don\u251c\u00f3\u0393\u00e9\u00bc\u0393\u00e4\u00f3t eat much of. Rich animal sources include high-fat dairy products from grass-fed cows, liver and other organs, as well as egg yolks (29). Vitamin K is fat-soluble, which means low-fat and lean animal products don\u251c\u00f3\u0393\u00e9\u00bc\u0393\u00e4\u00f3t contain much of it. Animal foods contain the MK-4 subtype, while fermented foods like sauerkraut, natto",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2020-01-21"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Discovery of vitamin - Hainan Huayan Collagen Biotech Co.,Ltd of vitamins in the sea. They are finding some places that are abundant with them and others that are vitamin deserts. It is possible that the difference influences not just bacteria and algae, but the animals that feed on them. Vitamins flow in complex routes, not just in the ocean, but on land. We humans can\u0393\u00c7\u00d6t make our own supply of vitamin B12, for example, so we need to get it from food. One way is to eat meat like beef, which contains B12. It turns out that the cows and other animals that we consume don\u0393\u00c7\u00d6t make B12 intheir",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Vitamins\u0393\u00c7\u00d6 Old, Old Edge have scientists made measurements of vitamins in the sea. They are finding some places that are abundant with them and others that are vitamin deserts. It is possible that the difference influences not just bacteria and algae, but the animals that feed on them. Vitamins flow in complex routes, not just in the ocean, but on land. We humans can\u0393\u00c7\u00d6t make our own supply of vitamin B12, for example, so we need to get it from food. One way is to eat meat like beef, which contains B12. It turns out that the cows and other animals that we consume  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2011"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains that cows consume insects in grass to get B12, which they cannot synthesize, addressing the query about why cows need less variety than humans."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "States humans and animals cannot produce B12 and it's obtained from food, mentioning animal foods as good sources. Partially addresses the query by explaining B12 sources."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses Vitamin K2 sources, primarily animal and fermented foods. It's tangentially related but doesn't directly explain the difference in dietary needs between humans and cows."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explains humans cannot make B12 and get it from food like beef, and that cows also don't make B12 internally, supporting the query's premise."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States humans cannot make B12 and need it from food, mentioning beef as a source, and that cows also don't make B12 internally, directly supporting the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Vitamin B12 synthesis is only found in bacteria and certain archaea.",
+            "Vitamin B12 is an essential nutrient for all animals.",
+            "Animals consume vitamin B12 by eating other organisms.",
+            "Cows consume insects with grass, obtaining vitamin B12."
+          ],
+          "reason": "Extracted facts about the synthesis and dietary necessity of Vitamin B12 for animals, including cows, and how they obtain it through their diet."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Human and animal organisms cannot produce Vitamin B12.",
+            "Vitamin B12 is produced through microbial fermentation by certain bacteria and archaea.",
+            "Some B12-producing bacteria live as symbionts in the human digestive tract.",
+            "Animal foods are the best sources of Vitamin B12."
+          ],
+          "reason": "Extracted facts explaining that humans and animals cannot produce Vitamin B12, its microbial origin, and its presence in animal foods."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Vitamin K2 is mainly found in certain animal foods and fermented foods.",
+            "Rich animal sources of Vitamin K2 include high-fat dairy products from grass-fed cows, liver, and egg yolks.",
+            "Vitamin K is fat-soluble; lean animal products do not contain much of it.",
+            "Animal foods contain the MK-4 subtype of Vitamin K."
+          ],
+          "reason": "Extracted facts about the sources of Vitamin K2, specifically highlighting animal-based foods like dairy from grass-fed cows and organ meats."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Humans cannot make their own supply of vitamin B12.",
+            "Humans need to get vitamin B12 from food.",
+            "Beef contains vitamin B12."
+          ],
+          "reason": "Extracted facts stating that humans cannot produce Vitamin B12 and must obtain it from food, such as beef."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Humans cannot make their own supply of vitamin B12.",
+            "Humans need to get vitamin B12 from food.",
+            "Beef contains vitamin B12."
+          ],
+          "reason": "Extracted facts stating that humans cannot produce Vitamin B12 and must obtain it from food, such as beef."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Explains Vitamin B12 synthesis is microbial, essential for animals, and cows obtain it from insects in grass, partially addressing the query's premise.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "States humans/animals can't produce B12, it's microbial, and animal foods are best sources. It doesn't fully explain the difference with cows needing only grass.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Discusses Vitamin K2 sources, mentioning grass-fed cow dairy. However, it doesn't directly explain why cows need less variety than humans.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "States humans need B12 from food like beef, but doesn't explain why cows can survive on grass alone, which is a key part of the query.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "States humans need B12 from food like beef, but doesn't explain why cows can survive on grass alone, which is a key part of the query.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "microbial_synthesis_and_animal_diet",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly supports the premise by explaining that Vitamin B12 is synthesized by microbes and is essential for animals, with cows obtaining it from their diet."
+          },
+          {
+            "label": "incomplete_explanation_of_b12_sources",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d4, and d5 partially support by stating that animals and humans cannot produce B12 and must obtain it from food, but they do not fully explain the specific dietary needs or differences between cows and humans regarding B12."
+          },
+          {
+            "label": "vitamin_k2_distraction",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 is partially relevant as it mentions Vitamin K2 sources including dairy from grass-fed cows, but it does not address Vitamin B12 or the core query about why cows might have different dietary needs."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided evidence consistently states that Vitamin B12 is synthesized by microbes and must be obtained through diet by animals and humans. There are no contradictory claims.",
+        "clusters": [
+          {
+            "label": "microbial_synthesis_and_dietary_necessity_of_B12",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Evidence consistently explains that Vitamin B12 is not produced by animals or humans, but by microbes, and must be obtained from food sources. Cows obtain it through their diet."
+          },
+          {
+            "label": "irrelevant_information_on_vitamin_k2",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 discusses Vitamin K2 sources, which is not directly relevant to the Vitamin B12 synthesis and dietary needs discussed in other documents."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence consistently explains that Vitamin B12 is microbially synthesized and obtained through diet. There is no conflict, and the supporting documents provide a coherent answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Vitamin B12 is synthesized by microbes and is essential for animals, including cows, who obtain it through their diet. Humans and animals cannot produce B12 themselves and must get it from food.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partially supporting documents consistently explain that Vitamin B12 is microbially synthesized and obtained through diet, directly answering the user's query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately explains that vitamin B12 is synthesized by microbes and is essential for animals, including cows, who obtain it through their diet. Humans and animals cannot produce B12 themselves and must get it from food, as supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 10163,
+      "completion_tokens": 2311,
+      "total_tokens": 12474
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1632,
+        "completion_tokens": 416,
+        "total_tokens": 2048
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1587,
+        "completion_tokens": 601,
+        "total_tokens": 2188
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 988,
+        "completion_tokens": 399,
+        "total_tokens": 1387
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1185,
+        "completion_tokens": 350,
+        "total_tokens": 1535
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1512,
+        "completion_tokens": 247,
+        "total_tokens": 1759
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 736,
+        "completion_tokens": 52,
+        "total_tokens": 788
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 893,
+        "completion_tokens": 129,
+        "total_tokens": 1022
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1630,
+        "completion_tokens": 117,
+        "total_tokens": 1747
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:13.042248",
+        "prompt_tokens": 1632,
+        "completion_tokens": 416,
+        "total_tokens": 2048,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:15.029874",
+        "prompt_tokens": 1587,
+        "completion_tokens": 601,
+        "total_tokens": 2188,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:16.901456",
+        "prompt_tokens": 988,
+        "completion_tokens": 399,
+        "total_tokens": 1387,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:18.622249",
+        "prompt_tokens": 1185,
+        "completion_tokens": 350,
+        "total_tokens": 1535,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:20.264667",
+        "prompt_tokens": 1512,
+        "completion_tokens": 247,
+        "total_tokens": 1759,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:21.131392",
+        "prompt_tokens": 736,
+        "completion_tokens": 52,
+        "total_tokens": 788,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:22.476680",
+        "prompt_tokens": 893,
+        "completion_tokens": 129,
+        "total_tokens": 1022,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:23.453905",
+        "prompt_tokens": 1630,
+        "completion_tokens": 117,
+        "total_tokens": 1747,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:13:10.982383",
+  "last_updated_at": "2026-04-17T20:13:23.454543"
+}

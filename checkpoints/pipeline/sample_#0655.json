@@ -1,0 +1,410 @@
+{
+  "sample_id": "#0655",
+  "query": "When did the voting age change from 21 to 18?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "fight in the war, thus lacking any means to influence the people sending them off to risk their lives. \"Old enough to fight, old enough to vote,\" was a common slogan used by proponents of lowering the voting age. The slogan traced its roots to World War II, when President Franklin D. Roosevelt lowered the military draft age to eighteen. In 1963, the President's Commission on Registration and Voting Participation, in its report to President Johnson, further encouraged considering lowering the voting age. Historian Thomas H. Neale argues that the move to lower the voting age followed a historical pattern",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d2",
+      "text": "part of the compulsory curriculum in schools. The \"Representation of the People Act 1969\" lowered the voting age from 21 to 18, with effect from 1970 and remained in force until the \"Scottish Independence Referendum Act 2013\" which allowed 16 year olds to vote for the first time, but only in Scotland and only in that particular referendum. The Scottish Parliament reduced the voting age to 16 for its own and Scottish local elections in 2015. Men in military service who turned 19 during the first world war were entitled to vote in 1918 irrespective of their age as part",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2006-05-27"
+    },
+    {
+      "doc_id": "d3",
+      "text": "A proposal by the government to introduce optional voting for those aged 16 and 17 was rejected by 81% of voters in a June 2015 referendum. On 20 November 2013, Malta lowered the voting age from 18 to 16 for local elections starting from 2015. The proposal had wide support from both the government and opposition, social scientists and youth organizations. On Monday 29 January 2018, the Maltese Parliament debated to lower the voting age to 16 for general elections, European Parliament Elections and referenda. On Monday, 5 March 2018, the Maltese Parliament unanimously voted in favour of amending the",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d4",
+      "text": "unanimously to reduce the voting age to 16 for elections for the Scottish Parliament and for Scottish local government elections. Moves to lower the voting age to 16 were successful in each of the three British Crown dependencies from 2006 to 2008. The Isle of Man was the first to amend its law, when in July 2006 it reduced the voting age to 16 for its general elections, with the House of Keys approving the move by 19 votes to 4. Jersey followed suit on 4 July 2007, when it approved in principle a reduction of the voting age to",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "who could vote in their state. At the 1972 federal election, later in the year, the Whitlam Labor government was elected, with Lionel Murphy becoming the new Attorney-General. The Whitlam government lowered the voting age at federal elections to 18 in 1973. The states of Victoria, Tasmania and Queensland, which still had a voting age of 21, soon lowered their voting ages to 18 also. The issue of the nature of section 41, which had not been decided in this case, was considered again in 1983 in the case of \"R v Pearson; Ex parte Sipka\". By that time, Lionel  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Discusses the slogan 'Old enough to fight, old enough to vote' and historical context for lowering the voting age, which is relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that the 'Representation of the People Act 1969' lowered the voting age from 21 to 18, with effect from 1970."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses lowering the voting age in Malta to 16, which is not directly related to the change from 21 to 18."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Focuses on lowering the voting age to 16 in Scotland and British Crown dependencies, not the change from 21 to 18."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions that the Whitlam government lowered the voting age at federal elections to 18 in 1973, and some states soon followed."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The slogan \"Old enough to fight, old enough to vote\" was used by proponents of lowering the voting age.",
+            "President Franklin D. Roosevelt lowered the military draft age to eighteen during World War II.",
+            "The President's Commission on Registration and Voting Participation encouraged considering lowering the voting age in a 1963 report to President Johnson."
+          ],
+          "reason": "Extracted facts about the historical context and slogans used to advocate for lowering the voting age, which is relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The \"Representation of the People Act 1969\" lowered the voting age from 21 to 18, with effect from 1970.",
+            "The Scottish Parliament reduced the voting age to 16 for its own and Scottish local elections in 2015."
+          ],
+          "reason": "Extracted the specific legislation and date when the voting age was lowered from 21 to 18, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Malta lowered the voting age from 18 to 16 for local elections starting from 2015.",
+            "On 29 January 2018, the Maltese Parliament debated lowering the voting age to 16 for general elections, European Parliament Elections, and referenda.",
+            "On 5 March 2018, the Maltese Parliament unanimously voted in favour of amending the voting age."
+          ],
+          "reason": "Extracted facts about changes to voting ages in Malta, which are not directly relevant to the query about the change from 21 to 18."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Moves to lower the voting age to 16 were successful in each of the three British Crown dependencies from 2006 to 2008.",
+            "The Isle of Man reduced the voting age to 16 for its general elections in July 2006.",
+            "Jersey approved in principle a reduction of the voting age to 16 on 4 July 2007."
+          ],
+          "reason": "Extracted facts about lowering the voting age to 16 in British Crown dependencies, which are not directly relevant to the query about the change from 21 to 18."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Whitlam government lowered the voting age at federal elections to 18 in 1973.",
+            "The states of Victoria, Tasmania, and Queensland lowered their voting ages to 18 after 1973."
+          ],
+          "reason": "Extracted facts about Australia lowering the voting age to 18 in 1973, which is relevant to the query about when the voting age changed."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides context and slogans related to lowering the voting age, but does not state the specific date of the change from 21 to 18.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that the Representation of the People Act 1969 lowered the voting age from 21 to 18, effective in 1970.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses voting age changes in Malta, which are not related to the query's focus on the change from 21 to 18.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Focuses on lowering the voting age to 16 in British Crown dependencies, not the change from 21 to 18.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "States Australia lowered the voting age to 18 in 1973, which is relevant but doesn't specify if it was a change from 21.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly states the Representation of the People Act 1969 lowered the voting age from 21 to 18, effective in 1970."
+          },
+          {
+            "label": "historical_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 provides historical context and slogans related to lowering the voting age, but not the specific date of the change from 21 to 18."
+          },
+          {
+            "label": "international_examples",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions Australia lowering the voting age to 18 in 1973, which is relevant but doesn't confirm the change from 21."
+          },
+          {
+            "label": "off_topic_changes",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 discuss voting age changes in Malta and British Crown dependencies, focusing on lowering the age to 16, which is not relevant to the query about the change from 21 to 18."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources aligns, with one document directly stating the change in voting age and others providing relevant historical context or examples.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly states the Representation of the People Act 1969 lowered the voting age from 21 to 18, effective in 1970."
+          },
+          {
+            "label": "historical_context_and_examples",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Document d1 provides historical context and slogans, while d5 mentions Australia lowering the voting age to 18 in 1973, both supporting the general trend."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 discuss voting age changes to 16 in Malta and British Crown dependencies, which are not relevant to the query about the change from 21 to 18."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and directly supports the answer. Document d2 provides a clear statement about the voting age change, complemented by relevant historical context and examples."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Representation of the People Act 1969 lowered the voting age from 21 to 18, with the change taking effect in 1970.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly states the voting age change from 21 to 18, effective in 1970, providing a clear and supported answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly addresses the query and is fully supported by the cited document, which specifies the act, the age change, and the effective year."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9925,
+      "completion_tokens": 2407,
+      "total_tokens": 12332
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1401,
+        "completion_tokens": 403,
+        "total_tokens": 1804
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1356,
+        "completion_tokens": 712,
+        "total_tokens": 2068
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1097,
+        "completion_tokens": 389,
+        "total_tokens": 1486
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1295,
+        "completion_tokens": 344,
+        "total_tokens": 1639
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1644,
+        "completion_tokens": 302,
+        "total_tokens": 1946
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 797,
+        "completion_tokens": 50,
+        "total_tokens": 847
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 113,
+        "total_tokens": 1065
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1383,
+        "completion_tokens": 94,
+        "total_tokens": 1477
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:02.634268",
+        "prompt_tokens": 1401,
+        "completion_tokens": 403,
+        "total_tokens": 1804,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:05.936580",
+        "prompt_tokens": 1356,
+        "completion_tokens": 712,
+        "total_tokens": 2068,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:08.500444",
+        "prompt_tokens": 1097,
+        "completion_tokens": 389,
+        "total_tokens": 1486,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:10.018909",
+        "prompt_tokens": 1295,
+        "completion_tokens": 344,
+        "total_tokens": 1639,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:11.558291",
+        "prompt_tokens": 1644,
+        "completion_tokens": 302,
+        "total_tokens": 1946,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:12.420489",
+        "prompt_tokens": 797,
+        "completion_tokens": 50,
+        "total_tokens": 847,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:13.521571",
+        "prompt_tokens": 952,
+        "completion_tokens": 113,
+        "total_tokens": 1065,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:14.600733",
+        "prompt_tokens": 1383,
+        "completion_tokens": 94,
+        "total_tokens": 1477,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:27:00.732524",
+  "last_updated_at": "2026-04-17T20:27:14.601072"
+}

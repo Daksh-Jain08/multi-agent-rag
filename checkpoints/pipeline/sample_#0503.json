@@ -1,0 +1,402 @@
+{
+  "sample_id": "#0503",
+  "query": "Vin Diesel produced and starred in which film?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "power and retaliation\". Paul Arendt of the BBC said, \"Viewed on its own trashy terms, it succeeds brilliantly\". A Video game featuring Xander Cage was produced for Game Boy Advance, released in North America and Europe in 2002. XXX (film series) XXX (stylized as xXx and pronounced as Triple X) is an American action film series created by Rich Wilkes. It stars Vin Diesel and Ice Cube and consists of three films: \"xXx\" (2002), \"\" (2005) and \"\" (2017), and a short film: \"The Final Chapter: The Death of Xander Cage\". The series has grossed $656 million worldwide. The film",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2013-12-06"
+    },
+    {
+      "doc_id": "d2",
+      "text": "XXX (2002 film) xXx (pronounced as Triple X) is a 2002 American action film directed by Rob Cohen, produced by Neal H. Moritz and written by Rich Wilkes. The first installment in the \"xXx\" film series, the film stars Vin Diesel as Xander Cage, a thrill-seeking extreme sports enthusiast, stuntman and rebellious athlete-turned reluctant spy for the National Security Agency. Cage is sent on a dangerous mission to infiltrate a group of potential Russian terrorists in Central Europe. The film also stars Asia Argento, Marton Csokas and Samuel L. Jackson. Cohen had previously directed \"The Fast and the Furious\" (2001),",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2012-01-28"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Fast & Furious 6 Fast & Furious 6 (alternatively known as Furious 6 or Fast Six) is a 2013 American action film directed by Justin Lin and written by Chris Morgan. It is the sixth installment in \"The Fast and the Furious\" franchise. The film stars Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, Jordana Brewster, Tyrese Gibson, Chris \"Ludacris\" Bridges, Sung Kang, Luke Evans, Gina Carano, Gal Gadot, and John Ortiz. \"Fast & Furious 6\" follows a professional criminal gang led by Dominic Toretto (Diesel) who have retired following their successful heist in \"Fast Five\" (2011), but remain wanted",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Driven (2001 film) Driven is a 2001 American action drama film directed by Renny Harlin and starring Sylvester Stallone, who also wrote and produced. It centers on a young racing driver's effort to win the Champ Car World Series auto racing championship. Prior to production, Stallone was seen at many Formula One races, but he was unable to procure enough information about the category due to the secrecy with which teams protect their cars, so he decided to base the film on Champ Car. Halfway through the fictionalized 2000 Champ Car Season, rookie driver Jimmy Bly has already won 5",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the producers they would green-light the film if they could get Timothy Olyphant to play the role of Dom Toretto. Olyphant, who had starred in the previous year's car-themed blockbuster \"Gone in 60 Seconds\", declined the role, however. Moritz instead suggested Diesel, who had to be convinced to take the role even though he had only played supporting roles up to that point. The film was shot in various locations within Los Angeles and parts of southern California, from July to October 2000. Key locations included Dodger Stadium (on the opening scene where Brian tests his Eclipse on the parking  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2012-08-03"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions Vin Diesel starring in the 'xXx' film series, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states Vin Diesel stars as Xander Cage in the 2002 film 'xXx', directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions Vin Diesel starring in 'Fast & Furious 6', but the query asks about a film he produced and starred in, and this document doesn't mention production."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the film 'Driven' starring Sylvester Stallone, with no mention of Vin Diesel."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Mentions Vin Diesel being suggested for a role in 'The Fast and the Furious' but doesn't confirm he produced or starred in it, nor does it specify production details."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "XXX (stylized as xXx and pronounced as Triple X) is an American action film series created by Rich Wilkes.",
+            "It stars Vin Diesel and Ice Cube and consists of three films: \"xXx\" (2002), \"\" (2005) and \"\" (2017), and a short film: \"The Final Chapter: The Death of Xander Cage\".",
+            "A Video game featuring Xander Cage was produced for Game Boy Advance, released in North America and Europe in 2002."
+          ],
+          "reason": "Extracted facts about the XXX film series, its stars (including Vin Diesel), and related media, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "xXx (pronounced as Triple X) is a 2002 American action film directed by Rob Cohen, produced by Neal H. Moritz and written by Rich Wilkes.",
+            "The film stars Vin Diesel as Xander Cage, a thrill-seeking extreme sports enthusiast, stuntman and rebellious athlete-turned reluctant spy for the National Security Agency."
+          ],
+          "reason": "Extracted key details about the 2002 film 'xXx', confirming Vin Diesel's starring role and the film's producer and director."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Fast & Furious 6 is a 2013 American action film directed by Justin Lin and written by Chris Morgan.",
+            "The film stars Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, Jordana Brewster, Tyrese Gibson, Chris \"Ludacris\" Bridges, Sung Kang, Luke Evans, Gina Carano, Gal Gadot, and John Ortiz.",
+            "\"Fast & Furious 6\" follows a professional criminal gang led by Dominic Toretto (Diesel) who have retired following their successful heist in \"Fast Five\" (2011)."
+          ],
+          "reason": "Extracted facts about 'Fast & Furious 6', noting Vin Diesel's starring role and his character Dominic Toretto, relevant to his filmography."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses the film 'Driven' starring Sylvester Stallone and does not mention Vin Diesel or any films he produced or starred in."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Moritz instead suggested Diesel, who had to be convinced to take the role even though he had only played supporting roles up to that point.",
+            "The film was shot in various locations within Los Angeles and parts of southern California, from July to October 2000."
+          ],
+          "reason": "Extracted information about Vin Diesel being suggested for a role and the filming period, which relates to his film career, though the specific film is not named."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States Vin Diesel stars in the XXX film series, which directly answers the query about a film he starred in.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Confirms Vin Diesel starred as Xander Cage in the 2002 film 'xXx', directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Vin Diesel starred in 'Fast & Furious 6' but doesn't explicitly state he produced it, only that his character leads a gang.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a film starring Sylvester Stallone and does not mention Vin Diesel or any films he produced or starred in.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Vin Diesel being suggested for a role and filming dates but does not name the specific film he produced or starred in.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_xxx_series",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 directly support the query by confirming Vin Diesel's starring role in the 'xXx' film series and the 2002 film specifically."
+          },
+          {
+            "label": "partial_support_fast_furious",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 partially supports the query by mentioning Vin Diesel's starring role in 'Fast & Furious 6', but lacks details on production."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 are irrelevant as they discuss unrelated films or provide insufficient context about Vin Diesel's involvement."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible details about Vin Diesel's filmography, with some documents directly supporting his role in the 'xXx' series and others offering partial support for his involvement in 'Fast & Furious 6'.",
+        "clusters": [
+          {
+            "label": "Vin Diesel in xXx Series",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 confirm Vin Diesel stars in the 'xXx' film series, including the 2002 film."
+          },
+          {
+            "label": "Vin Diesel in Fast & Furious 6",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 mentions Vin Diesel starring in 'Fast & Furious 6'."
+          },
+          {
+            "label": "Irrelevant Information",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 are irrelevant, discussing other films or providing insufficient context about Vin Diesel's roles."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with no significant conflicts. A reliable answer can be constructed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Vin Diesel stars in the 'xXx' film series, including the 2002 film. He also stars in 'Fast & Furious 6'.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents confirm Vin Diesel's starring roles in the 'xXx' series and 'Fast & Furious 6', providing a direct and comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies films Vin Diesel starred in, with all claims directly supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9655,
+      "completion_tokens": 2257,
+      "total_tokens": 11912
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1426,
+        "completion_tokens": 378,
+        "total_tokens": 1804
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1381,
+        "completion_tokens": 698,
+        "total_tokens": 2079
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1087,
+        "completion_tokens": 356,
+        "total_tokens": 1443
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1258,
+        "completion_tokens": 306,
+        "total_tokens": 1564
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1537,
+        "completion_tokens": 279,
+        "total_tokens": 1816
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 705,
+        "completion_tokens": 39,
+        "total_tokens": 744
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 849,
+        "completion_tokens": 116,
+        "total_tokens": 965
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1412,
+        "completion_tokens": 85,
+        "total_tokens": 1497
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:51.576589",
+        "prompt_tokens": 1426,
+        "completion_tokens": 378,
+        "total_tokens": 1804,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:55.609882",
+        "prompt_tokens": 1381,
+        "completion_tokens": 698,
+        "total_tokens": 2079,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:57.830977",
+        "prompt_tokens": 1087,
+        "completion_tokens": 356,
+        "total_tokens": 1443,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:59.673656",
+        "prompt_tokens": 1258,
+        "completion_tokens": 306,
+        "total_tokens": 1564,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:00.968928",
+        "prompt_tokens": 1537,
+        "completion_tokens": 279,
+        "total_tokens": 1816,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:01.744804",
+        "prompt_tokens": 705,
+        "completion_tokens": 39,
+        "total_tokens": 744,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:02.729270",
+        "prompt_tokens": 849,
+        "completion_tokens": 116,
+        "total_tokens": 965,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:03.753414",
+        "prompt_tokens": 1412,
+        "completion_tokens": 85,
+        "total_tokens": 1497,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:49:49.911635",
+  "last_updated_at": "2026-04-17T19:50:03.753931"
+}

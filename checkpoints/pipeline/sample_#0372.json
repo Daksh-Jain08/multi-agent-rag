@@ -1,0 +1,537 @@
+{
+  "sample_id": "#0372",
+  "query": "places with no sales tax",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Which states have no sales tax? - Stripe Which states have no sales tax? \u00b7 Alaska* \u00b7 Delaware \u00b7 Montana \u00b7 New Hampshire \u00b7 Oregon. *Though Alaska does not have a state sales tax, the ... Certain states refer to sales tax as transaction privilege tax or general excise tax, but the concept remains the same. Which states have no sales tax? While the majority of states have a sales tax, these five states do not have a state sales tax: Alaska* Delaware Montana New Hampshire Oregon *Though Alaska does not have a state sales tax, the state lets local jurisdictions require remote businesses with economic nexus to collect sales tax. And more than 100 jurisdictions in Alaska have a local sales tax. If you have customers or a warehouse or live in one of these states, you don\u2019t have to worry about collecting and remitting state sales tax in these states. However, there might be other tax types to consider such as excise tax, resort tax, or local option tax in these states. Understanding your sales tax obligations in other states Even if your business is located in one of these five states, you still need to consider your sales tax obligations in other states. If you make sales to customers in any other state, you might have sales tax obligations in those areas. In the US, out-of-state businesses are required to collect sales tax from customers when they exceed certain thresholds. These thresholds are referred to as \u201ceconomic nexus thresholds,\u201d and they are either revenue- or transaction-based or both. For example, in the state of Nevada, businesses only need to collect sales tax from customers if they have exceeded $100,000 in revenue or 200 transactions from customers in Nevada. Certain states only have revenue thresholds or require businesses to exceed both the revenue and transaction thresholds before collecting sales tax. Since sales tax is governed at the state level, these thresholds vary across the US. Businesses can also meet sales tax obligations by having a physical presence or physical nexus in a state. Examples of business activities that can create physical nexus include: Location: An office, warehouse, store, or other physical place of business. Storing inventory often creates physical nexus.",
+      "source_url": "https://stripe.com/resources/more/which-states-have-no-sales-tax",
+      "timestamp": "2024-05-30"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Which states have no sales tax? - Avalara What are the states with no sales tax? \u00b7 Alaska \u00b7 Delaware \u00b7 Montana \u00b7 New Hampshire \u00b7 Oregon. The states with no statewide sales tax are ... Which states have no sales tax? There are a handful of states with no sales tax. Residents of these states may be the envy of their neighbors, but businesses located in no-sales-tax states ignore sales tax at their peril: They can still develop an obligation to collect and remit sales tax in other states. What is sales tax? Sales tax is a tax on the exchange, sale, or transfer of goods and services. It\u2019s generally added to the retail sales price, collected by the retailer at checkout, and paid by the consumer. Retailers are responsible for remitting sales tax to the appropriate taxing authority and filing sales tax returns. The majority of states have both state and local sales taxes. Seven states have a statewide sales tax but no local sales taxes. What are the states with no sales tax? There are five states with no sales tax at the state level: Alaska Delaware Montana New Hampshire Oregon The states with no statewide sales tax are sometimes referred to as the NOMAD states (\u201cN\u201d for New Hampshire, \u201cO\u201d for Oregon, and so forth). Some of the states with no sales tax are considered to be tax-friendly states. In its 2025 State Tax Competitiveness Index, the Tax Foundation gave high marks to three of the states with no sales tax. It ranked Alaska, Montana, and New Hampshire third, fifth, and sixth, respectively. Delaware came in at 18; Oregon was 30. Understanding sales tax in states with no sales tax All five states with no state sales tax levy taxes on certain transactions. There are local option taxes in Alaska and Montana, for example, and Delaware has a gross receipts tax. There are also excise taxes in each of these five states. Excise tax is similar to sales tax, but excise taxes apply to specific products (like alcohol, cigarettes, and gasoline). Furthermore, excise tax is typically based on the units or volume sold rather than a percentage of the retail price. Alaska has local sales taxes More than 100 local municipalities or boroughs in Alaska levy local sales taxes on certain goods and services.",
+      "source_url": "https://www.avalara.com/blog/en/north-america/2022/09/states-with-no-sales-tax-what-you-need-to-know.html",
+      "timestamp": "2024-11-20"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Which States Have the Lowest Sales Tax? - Investopedia Five states in the United States including Alaska, Oregon, New Hampshire, Delaware, and Montana, do not levy a state sales tax. Ebony Howard is a certified public accountant and a QuickBooks ProAdvisor tax expert. She has been in the accounting, audit, and tax profession for more than 13 years, working with individuals and a variety of companies in the health care, banking, and accounting industries. Sales taxes can significantly impact the cost of goods and services, whether you're making a small or large purchase. As of 2024, five states have no state sales tax, offering some of the lowest rates in the country. Each of these states, however, may have individual municipalities that impose excise taxes, income taxes, and taxes imposed on tourist locations. For example, the sales tax in New York state is 4%, but New York City has additional taxes, increasing the rate to 8.875%. Sales tax laws in the United States are not subject to federal regulation, and each state controls its base sales tax. Sales taxes are imposed on retail transactions and certain services. Key Takeaways Five states\u2014Alaska, Delaware, Montana, New Hampshire, and Oregon\u2014do not impose a state sales tax. California has the highest state sales tax rate in the U.S. at 7.25%. Some states without a sales tax may still impose local or excise taxes on specific goods, such as alcohol or tobacco. States without sales taxes may have higher property or income taxes to generate revenue. 1. Alaska The small town of Ketchikan, Alaska is centered in the middle of the Tongass Rainforest. Getty Images/Royce Bair While there is no imposed state sales tax in Alaska, local governments can levy taxes on certain goods and services. The sales tax is 5% in Juneau, while Anchorage and Fairbanks do not have sales taxes, and the average rate statewide for municipalities is 1.82%. 2. Delaware Instead of imposing a sales tax, Delaware assesses a gross receipts tax on certain businesses. Delaware makes extensive use of excise taxes levied as a flat rate per gallon on goods such as motor fuel and alcohol.",
+      "source_url": "https://www.investopedia.com/articles/personal-finance/112415/5-states-without-sales-tax.asp",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "State and Local Sales Tax Rates, 2022 For example, Tennessee has high sales taxes but no income tax, whereas Oregon has no sales tax but high income taxes. While many factors ... New Jersey\u2019s local score is represented as a negative. The Role of Competition in Setting Sales Tax Rates Avoidance of sales tax is most likely to occur in areas where there is a significant difference between jurisdictions\u2019 rates. Research indicates that consumers can and do leave high-tax areas to make major purchases in low-tax areas, such as from cities to suburbs.[8] For example, evidence suggests that Chicago-area consumers make major purchases in surrounding suburbs or online to avoid Chicago\u2019s 10.25 percent sales tax rate.[9] At the statewide level, businesses sometimes locate just outside the borders of high sales-tax areas to avoid being subjected to their rates. A stark example of this occurs in New England, where even though I-91 runs up the Vermont side of the Connecticut River, many more retail establishments choose to locate on the New Hampshire side to avoid sales taxes. One study shows that per capita sales in border counties in sales tax-free New Hampshire have tripled since the late 1950s, while per capita sales in border counties in Vermont have remained stagnant.[10] At one time, Delaware actually used its highway welcome sign to remind motorists that Delaware is the \u201cHome of Tax-Free Shopping. \u201d[11] State and local governments should be cautious about raising rates too high relative to their neighbors because doing so will yield less revenue than expected or, in extreme cases, revenue losses despite the higher tax rate. This report ranks states based on tax rates and does not account for differences in tax bases (e.g., the structure of sales taxes, defining what is taxable and nontaxable). States can vary greatly in this regard. For instance, most states exempt groceries from the sales tax, others tax groceries at a limited rate, and still others tax groceries at the same rate as all other products.[12] Some states exempt clothing or tax it at a reduced rate.[13] Tax experts generally recommend that sales taxes apply to all final retail sales of goods and services but not intermediate business-to-business transactions in the production chain.",
+      "source_url": "https://taxfoundation.org/data/all/state/2022-sales-taxes/",
+      "timestamp": "2022-02-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Only Five States Offer No Sales Tax - Kiplinger Only Five States Offer No Sales Tax \u00b7 1. Alaska \u00b7 2. Delaware \u00b7 3. Montana \u00b7 4. New Hampshire \u00b7 5. Oregon. The Beaver State doesn' ... According to the Tax Foundation, the taxes levied at the point of sale generate a third of state tax revenue on average and are a significant resource to the 45 U.S. states that currently impose them. As mentioned, sales taxes can also function as a funding stream for local governments in some states. How high can state and local sales taxes go? Sales taxes can climb substantially depending on your location. As Kiplinger has reported, the states with the highest sales taxes in 2024 are Louisiana, (9.56%), Tennessee (9.55%), Arkansas (9.45%), Washington (9.38%), and Alabama (9.29%). What exactly can be taxed? Just about anything you purchase. Clothing Furniture Dry cleaning Electronics, and more. And yes, in some cases, even resale items (like those from thrift stores) can be subject to a sales tax. Although there are some point-of-sale exemptions, such as the purchase of goods and services by state and local governments or nonprofits can be tax-free. Overall, the average taxpayer can expect to pay over $1,100 per year in retail sales taxes each year. States with no sales tax (Image credit: Getty Images) The following states without sales tax are listed in alphabetical order. Also keep in mind that while some of these states have no statewide sales tax, some localities can add their own sales tax. 1. Alaska Before you pack up your bags and move to The Last Frontier State, you should know that while Alaska is one of the five states that does not impose a sales tax, local governments have the authority to institute a sales tax. Alaska has largely depended on the extraction of gas and oil to sustain its economy, making up nearly 85% of its state revenue. Other important industries include timber, mining, agriculture, fishing and tourism, according to the state government.",
+      "source_url": "https://www.kiplinger.com/taxes/states-with-no-sales-tax",
+      "timestamp": "2024-09-17"
+    },
+    {
+      "doc_id": "d6",
+      "text": "State and Local Sales Tax Rates, 2024 The five states with the lowest average combined rates are Alaska (1.82 percent), Hawaii (4.50 percent), Wyoming (5.44 percent), Maine (5.50 percent), and ... The Role of Competition in Setting Sales Tax Rates Avoidance of sales tax is most likely to occur in areas where there is a significant difference between jurisdictions\u2019 rates. Researchindicatesthat consumers can and do leave high-tax areas to make major purchases in low-tax areas, such as from cities to suburbs. For example, evidence suggests that Chicago-area consumers make major purchases in surrounding suburbs or online to avoid Chicago\u2019s 10.25 percent sales tax rate. At the statewide level, businesses sometimes locate just outside the borders of high sales-tax areas to avoid being subjected to their rates. A stark example of this occurs in New England, where even though I-91 runs up the Vermont side of the Connecticut River, many more retail establishments choose to locate on the New Hampshire side to avoid sales taxes. One study shows that per capita sales in border counties in sales tax-free New Hampshire have tripled since the late 1950s, while per capita sales in border counties in Vermont have remained stagnant. At one time, Delaware actually used its highway welcome sign to remind motorists that Delaware is the \u201cHome of Tax-Free Shopping.\u201d State and local governments should be cautious about raising rates too high relative to their neighbors because doing so will yield less revenue than expected or, in extreme cases, revenue losses despite the higher tax rate. Sales Tax Bases: The Other Half of the Equation This report ranks states based on tax rates and does not account for differences in tax bases (e.g., the structure of sales taxes, defining what is taxable and nontaxable). States can vary greatly in this regard. For instance, most states exempt groceries from the sales tax, others tax groceries at a limited rate, and still others tax groceries at the same rate as all other products. Some states exempt clothing or tax it at a reduced rate. Tax experts generally recommend that sales taxes apply to all final retail sales of goods and services but not intermediate business-to-business transactions in the production chain.",
+      "source_url": "https://taxfoundation.org/data/all/state/2024-sales-taxes/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Sales taxes in the United States - Wikipedia As of 2017, 5 states (Alaska, Delaware, Montana, New Hampshire and Oregon) do not levy a statewide sales tax. California has the highest base sales tax rate, ... Sales taxes in the United States are taxes placed on the sale or lease of goods and services in the United States. Sales tax is governed at the state level and no national general sales tax exists. 45 states, the District of Columbia, the territories of Puerto Rico, and Guam impose general sales taxes that apply to the sale or lease of most goods and some services, and states also may levy selective sales taxes on the sale or lease of particular goods or services. States may grant local governments the authority to impose additional general or selective sales taxes. Sales tax is calculated by multiplying the purchase price by the applicable tax rate. The seller collects it at the time of the sale. Use tax is self-assessed by a buyer who has not paid sales tax on a taxable purchase. Unlike the value added tax, a sales tax is imposed only at the retail level. In cases where items are sold at retail more than once, such as used cars, the sales tax can be charged on the same item indefinitely. The definitions of retail sales and taxable items vary among the states. Nearly all jurisdictions provide numerous categories of goods and services that are exempt from sales tax, or taxed at reduced rates. The purchase of goods for further manufacture or for resale is uniformly exempt from sales tax. Most jurisdictions exempt food sold in grocery stores, prescription medications, and many agricultural supplies. Sales taxes, including those imposed by local governments, are generally administered at the state level. States imposing sales tax either impose the tax on retail sellers, such as with Transaction Privilege Tax in Arizona,[3] or impose it on retail buyers and require sellers to collect it. In either case, the seller files returns and remits the tax to the state. In states where the tax is on the seller, it is customary for the seller to demand reimbursement from the buyer. Procedural rules vary widely. Sellers generally must collect tax from in-state purchasers unless the purchaser provides an exemption certificate. Most states allow or require electronic remittance.",
+      "source_url": "https://en.wikipedia.org/wiki/Sales_taxes_in_the_United_States",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "What are the States Without Sales Tax? - DHJJ These states, also known as the \u201cNOMAD\u201d states \u2013 New Hampshire, Oregon, Montana, Alaska, and Delaware \u2013 offer residents and businesses the ... Sales tax primarily serves as a revenue stream for state and local governments, funding services like public education, infrastructure, law enforcement, and health services. Certain items, such as groceries, medications, and other necessities, are often exempt or taxed at a lower rate in some states. Considerations for Businesses and Shoppers While living or operating in a state without sales tax might seem like a financial advantage, there are a few factors to keep in mind. Many states that don\u2019t impose sales tax may compensate through other taxes, such as higher property or income taxes. For businesses, it\u2019s important to weigh all the tax implications of a particular location, not just the lack of sales tax. Additionally, it\u2019s important to avoid the misconception that purchases made in a no-sales-tax state can be taken back to a home state (where sales tax is collected) without consequence. If an item is purchased in a state without sales tax and brought back to a home state, use tax may apply. This tax is typically equal to the home state\u2019s sales tax and ensures residents are paying the correct taxes on out-of-state purchases. Businesses need to be especially diligent about use tax when acquiring assets or goods from a state with no sales tax, as failure to comply can lead to penalties. Which States Have No Sales Tax? While most states have a sales tax, a few states stand out for not imposing this tax. As of 2024, five states in the U.S. do not impose a statewide sales tax. These states, also known as the \u201cNOMAD\u201d states \u2013 New Hampshire, Oregon, Montana, Alaska, and Delaware \u2013 offer residents and businesses the benefit of not having to pay sales tax on most goods and services, though there may be local or specialized taxes to consider. New Hampshire has no general sales tax, though it does impose taxes on specific items like alcohol and tobacco. The state is known for its strong anti-tax sentiment, and voters have consistently opposed the introduction of both sales and income taxes. New Hampshire funds its government through property taxes and selective taxation of other goods.",
+      "source_url": "https://dhjj.com/what-are-the-states-without-sales-tax/",
+      "timestamp": "2024-12-17"
+    },
+    {
+      "doc_id": "d9",
+      "text": "What states impose sales/use tax? - Sales Tax Institute The five states without general sales taxes are: Alaska, Delaware, Montana, New Hampshire and Oregon. However, Alaska permits local sales taxes.",
+      "source_url": "https://www.salestaxinstitute.com/sales_tax_faqs/what_states_impose_sales_use_tax",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly lists five states with no state sales tax (Alaska, Delaware, Montana, New Hampshire, Oregon) and explains nuances about local taxes."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies the five states with no state sales tax (Alaska, Delaware, Montana, New Hampshire, Oregon) and defines sales tax."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Confirms five states have no state sales tax and details Alaska's situation with local sales taxes."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses competition and tax rates, mentioning Delaware as a 'tax-free shopping' state and New Hampshire's lack of sales tax."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states only five states offer no sales tax and lists Alaska, Delaware, and others, noting local tax possibilities."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Alaska's low average combined rate and discusses competition related to sales tax rates, referencing New Hampshire."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists the five states without a statewide sales tax (Alaska, Delaware, Montana, New Hampshire, Oregon) and explains general sales tax applicability."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies the five states with no statewide sales tax (NOMAD states: NH, OR, MT, AK, DE) and mentions potential local or specialized taxes."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly lists the five states without general sales taxes: Alaska, Delaware, Montana, New Hampshire, and Oregon, noting Alaska permits local taxes."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Five states do not have a state sales tax: Alaska, Delaware, Montana, New Hampshire, and Oregon.",
+            "Alaska allows local jurisdictions to require remote businesses with economic nexus to collect sales tax.",
+            "More than 100 jurisdictions in Alaska have a local sales tax."
+          ],
+          "reason": "Extracted the list of states without state sales tax and specific details about Alaska's local sales tax rules, which are directly relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Five states have no sales tax at the state level: Alaska, Delaware, Montana, New Hampshire, and Oregon.",
+            "These states with no statewide sales tax are sometimes referred to as the NOMAD states.",
+            "Businesses located in no-sales-tax states can still have an obligation to collect and remit sales tax in other states."
+          ],
+          "reason": "Extracted the core fact listing the five states without state sales tax and added context about the 'NOMAD' acronym and business obligations."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "As of 2024, five states have no state sales tax.",
+            "Alaska does not impose a state sales tax, but local governments can levy taxes on certain goods and services.",
+            "Juneau, Alaska has a 5% sales tax, while Anchorage and Fairbanks do not have sales taxes."
+          ],
+          "reason": "Extracted the number of states with no state sales tax and specific details about Alaska's local sales tax variations, which are relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Delaware used its highway welcome sign to remind motorists that Delaware is the 'Home of Tax-Free Shopping.'",
+            "New Hampshire has no state sales tax, leading to more retail establishments locating on its side of the border compared to Vermont."
+          ],
+          "reason": "Extracted specific examples of states (Delaware and New Hampshire) that leverage their lack of state sales tax for economic or retail purposes."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Five states do not impose a statewide sales tax: Alaska, Delaware, Montana, New Hampshire, and Oregon.",
+            "While some of these states have no statewide sales tax, some localities can add their own sales tax.",
+            "Alaska does not impose a sales tax, but local governments have the authority to institute a sales tax."
+          ],
+          "reason": "Extracted the list of five states without statewide sales tax and highlighted the nuance that local governments may still impose sales taxes."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "The five states with the lowest average combined sales tax rates are Alaska (1.82 percent), Hawaii (4.50 percent), Wyoming (5.44 percent), Maine (5.50 percent), and [unspecified]."
+          ],
+          "reason": "Extracted the list of states with the lowest average combined sales tax rates, including Alaska's specific rate, which is relevant to the query about places with no sales tax."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "As of 2017, 5 states (Alaska, Delaware, Montana, New Hampshire and Oregon) do not levy a statewide sales tax.",
+            "States may grant local governments the authority to impose additional general or selective sales taxes."
+          ],
+          "reason": "Extracted the list of states without a statewide sales tax as of 2017 and the fact that local governments can impose additional sales taxes."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "As of 2024, five states in the U.S do not impose a statewide sales tax.",
+            "These states are New Hampshire, Oregon, Montana, Alaska, and Delaware.",
+            "New Hampshire has no general sales tax, though it does impose taxes on specific items like alcohol and tobacco."
+          ],
+          "reason": "Extracted the current number of states without statewide sales tax, listed them, and provided a specific detail about New Hampshire's taxation of certain items."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "The five states without general sales taxes are: Alaska, Delaware, Montana, New Hampshire and Oregon.",
+            "Alaska permits local sales taxes."
+          ],
+          "reason": "Extracted the list of states without general sales taxes and the specific note that Alaska allows local sales taxes."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly lists five states without state sales tax and provides nuance about Alaska's local sales tax.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Lists the five states with no state sales tax and provides context on the 'NOMAD' acronym.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms the number of states without state sales tax and details Alaska's local tax variations.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Highlights Delaware and New Hampshire as states with no state sales tax, providing specific examples.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Lists five states without statewide sales tax and correctly notes that local governments may impose their own.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "Mentions Alaska as having a low average combined sales tax rate, but the query is about *no* sales tax, not just low rates.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Lists five states without statewide sales tax as of 2017 and mentions the possibility of local sales taxes.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Lists the five states without statewide sales tax and notes specific exceptions for New Hampshire.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Lists the five states without general sales taxes and specifically mentions Alaska permits local sales taxes.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "partial_docs": [
+          "d6"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "states_without_sales_tax",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents consistently list the five states without a state sales tax: Alaska, Delaware, Montana, New Hampshire, and Oregon."
+          },
+          {
+            "label": "local_sales_tax_nuance",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d5",
+              "d7",
+              "d9"
+            ],
+            "summary": "Several documents clarify that while these states may not have a state sales tax, local jurisdictions can still impose their own sales taxes, particularly noting Alaska's situation."
+          },
+          {
+            "label": "low_tax_rate_distinction",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "One document mentions Alaska as having a low average combined sales tax rate, which is related but distinct from states having no state sales tax."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting documents consistently identify the same five states without a state sales tax. Additional documents provide compatible details about local sales taxes and specific state examples.",
+        "clusters": [
+          {
+            "label": "states_without_state_sales_tax",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Five states (Alaska, Delaware, Montana, New Hampshire, and Oregon) consistently identified as having no state sales tax."
+          },
+          {
+            "label": "local_sales_tax_nuance",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d5",
+              "d7",
+              "d9"
+            ],
+            "summary": "Clarification that local jurisdictions within these states may still impose sales taxes, with Alaska frequently cited."
+          },
+          {
+            "label": "low_tax_rate_distinction",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "One document notes Alaska has a low average combined sales tax rate, which is related but distinct from having no state sales tax."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and complementary, clearly identifying the five states without a state sales tax and providing relevant nuances about local taxes."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The five states without a state sales tax are Alaska, Delaware, Montana, New Hampshire, and Oregon. However, local jurisdictions within these states may still impose sales taxes, with Alaska being a notable example.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting documents consistently identify the five states without a state sales tax and provide complementary details about local sales tax nuances."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately lists the five states without state sales tax and correctly notes that local jurisdictions may impose sales taxes, citing multiple documents for support."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 18231,
+      "completion_tokens": 3322,
+      "total_tokens": 21553
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3210,
+        "completion_tokens": 666,
+        "total_tokens": 3876
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3165,
+        "completion_tokens": 1104,
+        "total_tokens": 4269
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1398,
+        "completion_tokens": 572,
+        "total_tokens": 1970
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1738,
+        "completion_tokens": 380,
+        "total_tokens": 2118
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2069,
+        "completion_tokens": 327,
+        "total_tokens": 2396
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 786,
+        "completion_tokens": 44,
+        "total_tokens": 830
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 935,
+        "completion_tokens": 136,
+        "total_tokens": 1071
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4930,
+        "completion_tokens": 93,
+        "total_tokens": 5023
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:33.294589",
+        "prompt_tokens": 3210,
+        "completion_tokens": 666,
+        "total_tokens": 3876,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:39.175572",
+        "prompt_tokens": 3165,
+        "completion_tokens": 1104,
+        "total_tokens": 4269,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:42.250184",
+        "prompt_tokens": 1398,
+        "completion_tokens": 572,
+        "total_tokens": 1970,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:43.898867",
+        "prompt_tokens": 1738,
+        "completion_tokens": 380,
+        "total_tokens": 2118,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:45.623688",
+        "prompt_tokens": 2069,
+        "completion_tokens": 327,
+        "total_tokens": 2396,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:46.499083",
+        "prompt_tokens": 786,
+        "completion_tokens": 44,
+        "total_tokens": 830,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:48.168477",
+        "prompt_tokens": 935,
+        "completion_tokens": 136,
+        "total_tokens": 1071,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:35:49.587118",
+        "prompt_tokens": 4930,
+        "completion_tokens": 93,
+        "total_tokens": 5023,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:35:21.351644",
+  "last_updated_at": "2026-04-17T18:35:49.587677"
+}

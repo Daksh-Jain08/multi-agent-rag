@@ -1,0 +1,387 @@
+{
+  "sample_id": "#0500",
+  "query": "When does series 11 of big bang theory start?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "The Proposal Proposal \"The Proposal Proposal\" is the first episode of the eleventh season, and 232nd episode overall of the \"The Big Bang Theory\". It first aired on CBS on September 25, 2017. Amy enthusiastically accepts Sheldon's marriage proposal. However, when dining with Amy's colleagues later that night, Sheldon is offended that they are more impressed with Amy's work than his own. With help from Stephen Hawking, Sheldon later comes to grips with the fact that he will not always be the center of attention in the marriage. Bernadette is shocked to realize that she is pregnant again. She and",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Big Bang Theory The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill Prady, both of whom serve as executive producers on the series, along with Steven Molaro. All three also serve as head writers. The show premiered on CBS on September 24, 2007. The twelfth and final season which will run through 2018\u0393\u00c7\u00f419 premiered on September 24, 2018, consisting of 24 episodes. The show originally centered on five characters living in Pasadena, California: Leonard Hofstadter and Sheldon Cooper, both physicists at Caltech, who share an apartment; Penny, a waitress and aspiring actress who",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "to its airing on CBS, the pilot episode was distributed on iTunes free of charge. The show premiered September 24, 2007, and was picked up for a full 22-episode season on October 19, 2007. Production on the show was halted on November 6, 2007, due to the 2007\u0393\u00c7\u00f42008 Writers Guild of America strike, only to be replaced by a short-lived sitcom, \"Welcome to the Captain\" on February 4, 2008, but returning on March 17, 2008, in an earlier time slot with nine new episodes. David Saltzberg, a professor of physics and astronomy at the University of California, Los Angeles, checks",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Preece of \"Den of Geek\" criticized how tired Sheldon not understanding his own arrogance and narcissism is. The Proposal Proposal \"The Proposal Proposal\" is the first episode of the eleventh season, and 232nd episode overall of the \"The Big Bang Theory\". It first aired on CBS on September 25, 2017. Amy enthusiastically accepts Sheldon's marriage proposal. However, when dining with Amy's colleagues later that night, Sheldon is offended that they are more impressed with Amy's work than his own. With help from Stephen Hawking, Sheldon later comes to grips with the fact that he will not always be the center",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2008-03-19"
+    },
+    {
+      "doc_id": "d5",
+      "text": "show's pilot episode premiered on September 25, 2017. Subsequent weekly episodes began airing on November 2, 2017 following the broadcast of the 237th episode of \"The Big Bang Theory\". The Big Bang Theory The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill Prady, both of whom serve as executive producers on the series, along with Steven Molaro. All three also serve as head writers. The show premiered on CBS on September 24, 2007. The twelfth and final season which will run through 2018\u0393\u00c7\u00f419 premiered on September 24, 2018, consisting of 24 episodes. The show  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that 'The Proposal Proposal' is the first episode of the eleventh season and it first aired on September 25, 2017."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions the twelfth and final season premiere date but not the eleventh season's start date."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses the show's premiere date in 2007 and a writers' strike, not relevant to season 11 start."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies 'The Proposal Proposal' as the first episode of the eleventh season, airing on September 25, 2017."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions a pilot episode premiere date of September 25, 2017, but this seems to refer to a different show or is misattributed. It also discusses the twelfth season."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Proposal Proposal is the first episode of the eleventh season of The Big Bang Theory.",
+            "It first aired on CBS on September 25, 2017."
+          ],
+          "reason": "Extracted the start date and episode information for season 11 of The Big Bang Theory, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The twelfth and final season of The Big Bang Theory premiered on September 24, 2018."
+          ],
+          "reason": "Extracted information about the final season's premiere date, which is not directly relevant to the query about season 11."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Big Bang Theory premiered on September 24, 2007."
+          ],
+          "reason": "Extracted the original premiere date of the show, which is not relevant to the start date of season 11."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Proposal Proposal is the first episode of the eleventh season of The Big Bang Theory.",
+            "It first aired on CBS on September 25, 2017."
+          ],
+          "reason": "Extracted the start date and episode information for season 11 of The Big Bang Theory, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Big Bang Theory premiered on September 24, 2007.",
+            "The twelfth and final season premiered on September 24, 2018."
+          ],
+          "reason": "Extracted information about the original premiere and the final season's premiere, neither of which directly answers when season 11 started."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that the first episode of season 11 aired on September 25, 2017, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Provides the premiere date for the final season (season 12), not season 11.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Gives the original premiere date of the entire series, not the start date of season 11.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states that the first episode of season 11 aired on September 25, 2017, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Mentions the original series premiere and the final season premiere, but not the start date for season 11.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 directly state the premiere date of season 11 of The Big Bang Theory."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide information about the original series premiere or the final season's premiere, which are not relevant to the query about season 11's start date."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting evidence agrees on the premiere date of season 11. Irrelevant documents provide context about other seasons but do not contradict the main finding.",
+        "clusters": [
+          {
+            "label": "season_11_premiere_date",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 confirm that season 11 of The Big Bang Theory premiered on September 25, 2017."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 discuss the original series premiere and the final season's premiere, which are not relevant to the query about season 11."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct support exists, and there are no conflicts. The provided evidence clearly answers the query."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Season 11 of The Big Bang Theory premiered on September 25, 2017.",
+        "citations": [
+          "d1",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d1 and d4 directly and consistently state the premiere date for season 11, with no conflicting information present."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly states the premiere date of season 11, which is supported by the cited documents d1 and d4."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8939,
+      "completion_tokens": 1885,
+      "total_tokens": 10824
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1493,
+        "completion_tokens": 390,
+        "total_tokens": 1883
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1448,
+        "completion_tokens": 474,
+        "total_tokens": 1922
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 866,
+        "completion_tokens": 347,
+        "total_tokens": 1213
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1026,
+        "completion_tokens": 236,
+        "total_tokens": 1262
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1255,
+        "completion_tokens": 212,
+        "total_tokens": 1467
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 621,
+        "completion_tokens": 39,
+        "total_tokens": 660
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 765,
+        "completion_tokens": 96,
+        "total_tokens": 861
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1465,
+        "completion_tokens": 91,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:14.910012",
+        "prompt_tokens": 1493,
+        "completion_tokens": 390,
+        "total_tokens": 1883,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:17.700772",
+        "prompt_tokens": 1448,
+        "completion_tokens": 474,
+        "total_tokens": 1922,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:20.046508",
+        "prompt_tokens": 866,
+        "completion_tokens": 347,
+        "total_tokens": 1213,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:21.451240",
+        "prompt_tokens": 1026,
+        "completion_tokens": 236,
+        "total_tokens": 1262,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:23.078782",
+        "prompt_tokens": 1255,
+        "completion_tokens": 212,
+        "total_tokens": 1467,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:23.953241",
+        "prompt_tokens": 621,
+        "completion_tokens": 39,
+        "total_tokens": 660,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:25.016254",
+        "prompt_tokens": 765,
+        "completion_tokens": 96,
+        "total_tokens": 861,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:26.675899",
+        "prompt_tokens": 1465,
+        "completion_tokens": 91,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:49:12.145947",
+  "last_updated_at": "2026-04-17T19:49:26.676413"
+}

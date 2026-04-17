@@ -1,0 +1,376 @@
+{
+  "sample_id": "#0584",
+  "query": "Who has the power to launch nuclear weapons in the us?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "of reactors to generate steam to drive turbines turning generators. In April 1957, the SM-1 Nuclear Reactor in Fort Belvoir, Virginia was the first atomic power generator to go online and produce electrical energy to the U.S. power grid. On May 26, 1958 the first commercial nuclear power plant in the United States, Shippingport Atomic Power Station, was opened by President Dwight D. Eisenhower as part of his Atoms for Peace program. As nuclear power continued to grow throughout the 1960s, the Atomic Energy Commission anticipated that more than 1,000 reactors would be operating in the United States by 2000.",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2003-09-25"
+    },
+    {
+      "doc_id": "d2",
+      "text": "thermonuclear warhead has the potential to hit any United States coast and radioactively contaminate the coastal regions. The innovative missile is a concern to the United States, because there is potential for the missile to not be stopped by the country's ballistic missile defenses. Initial reports of Status-6 were not confirmed, but it has now been confirmed that weapon is real and capable. Hypersonic Glide Vehicles (HGVs) are capable of containing nuclear warheads, and therefore could be used in strikes against nuclear assets. HGVs were developed to be lightweight, to travel at faster speeds, and to travel in the atmosphere.",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d3",
+      "text": "planners that such use would probably quickly have escalated into large-scale nuclear war. This situation was particularly exacerbated by the fact that such weapons at sea were not constrained by the safeguards provided by the Permissive Action Link attached to U.S. Air Force and Army nuclear weapons. It is unknown if the navies of the other nuclear powers yet today deploy tactical nuclear weapons at sea. The 2018 US Nuclear Posture Review emphasised the need for the US to have sub-strategic nuclear weapons as additional layers for its nuclear deterrence. Nuclear terrorism by non-state organizations or actors (even individuals) is",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "weaponry to Cuba to deter American aggression, and that it had no need to place offensive weapons outside of its own soil. \"Pravda\", the official newspaper of the Soviet Communist Party, even censored elements of a speech made by Cuba's leader, Fidel Castro, that hinted at the Soviets' ability to strike the United States from Cuba. Kennedy was not the only president whom the Soviets attempted to deceive. They also fed false information to the Communist Party of Cuba, overstating the American threat to Cuba, to persuade Cuban leaders to allow Soviet nuclear weapons to be deployed to the island.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2017-11-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "commander only able to activate the firing trigger after two safes have been opened with keys held by the ship's executive and weapon engineer officers. At the end of the Cold War, the United States Navy installed devices on its submarines to prevent rogue commanders from persuading their crews to launch unauthorised nuclear attacks. These devices prevent an attack until a launch code has been sent by the chiefs of staff on behalf of the President of the United States. The Ministry of Defence chose not to install equivalent devices on \"Vanguard\" submarines on the grounds that an aggressor might  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2000-02-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses the history and growth of nuclear power plants in the US, not the authority to launch nuclear weapons."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document describes the capabilities of certain nuclear warheads and delivery systems, but does not mention who has the authority to launch them."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document mentions tactical nuclear weapons at sea and the US Nuclear Posture Review, but not the specific authority for launching nuclear weapons."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.25,
+          "is_relevant": false,
+          "reason": "This document discusses the deployment of Soviet nuclear weapons to Cuba and related deception tactics, not the US authority to launch."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document explains that launch codes are sent by the chiefs of staff on behalf of the President of the United States, indicating presidential authority."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [],
+          "reason": "This document discusses the history of nuclear power generation and its infrastructure in the US, not the authority to launch nuclear weapons."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document describes the capabilities and potential threats of certain nuclear weapons and delivery systems, but does not mention who has the authority to launch them."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses tactical nuclear weapons at sea and the US Nuclear Posture Review, but does not specify who has the authority to launch nuclear weapons."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document details past Soviet attempts to deploy nuclear weapons in Cuba and deceive US leadership, but does not state who has the authority to launch US nuclear weapons."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Devices were installed on US Navy submarines to prevent rogue commanders from launching unauthorized nuclear attacks.",
+            "These devices prevent an attack until a launch code has been sent by the chiefs of staff on behalf of the President of the United States."
+          ],
+          "reason": "Extracted facts detailing safeguards on US Navy submarines and the role of the President and chiefs of staff in authorizing nuclear launches."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The document discusses nuclear power generation, not the authority to launch nuclear weapons.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document describes nuclear weapons and delivery systems but does not mention launch authority.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document mentions tactical nuclear weapons and the Nuclear Posture Review but not who has launch authority.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The document details historical events concerning Soviet nuclear weapons and US deception, not US launch authority.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Facts indicate safeguards require authorization from the chiefs of staff on behalf of the President for nuclear launches.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_presidential_authority",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides direct evidence that safeguards on US Navy submarines require authorization from the chiefs of staff on behalf of the President of the United States for nuclear launches."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, d3, and d4 are irrelevant as they discuss nuclear power generation, weapon capabilities, tactical nuclear weapons, and historical events, respectively, without addressing the authority to launch nuclear weapons."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "Only one document provides relevant information regarding the authority to launch nuclear weapons, stating that safeguards require authorization from the chiefs of staff on behalf of the President.",
+        "clusters": [
+          {
+            "label": "presidential_authority_and_safeguards",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Safeguards on US Navy submarines prevent unauthorized launches and require authorization from the chiefs of staff on behalf of the President."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "These documents discuss nuclear power, weapon capabilities, tactical nuclear weapons, and historical events, but do not address launch authority."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The provided evidence is sparse, with only one supporting document. However, there is no conflict, and the single document offers direct support for the claim."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Safeguards on U.S. Navy submarines require authorization from the chiefs of staff on behalf of the President of the United States for nuclear launches.",
+        "citations": [
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The single supporting document directly answers the query regarding presidential authority over nuclear launches on submarines."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which details the authorization process for nuclear launches on U.S. Navy submarines."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8184,
+      "completion_tokens": 1697,
+      "total_tokens": 9881
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1344,
+        "completion_tokens": 367,
+        "total_tokens": 1711
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1299,
+        "completion_tokens": 356,
+        "total_tokens": 1655
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 776,
+        "completion_tokens": 312,
+        "total_tokens": 1088
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 901,
+        "completion_tokens": 217,
+        "total_tokens": 1118
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1147,
+        "completion_tokens": 214,
+        "total_tokens": 1361
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 622,
+        "completion_tokens": 49,
+        "total_tokens": 671
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 776,
+        "completion_tokens": 91,
+        "total_tokens": 867
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1319,
+        "completion_tokens": 91,
+        "total_tokens": 1410
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:48.766164",
+        "prompt_tokens": 1344,
+        "completion_tokens": 367,
+        "total_tokens": 1711,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:50.361534",
+        "prompt_tokens": 1299,
+        "completion_tokens": 356,
+        "total_tokens": 1655,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:51.734934",
+        "prompt_tokens": 776,
+        "completion_tokens": 312,
+        "total_tokens": 1088,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:53.264851",
+        "prompt_tokens": 901,
+        "completion_tokens": 217,
+        "total_tokens": 1118,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:54.741397",
+        "prompt_tokens": 1147,
+        "completion_tokens": 214,
+        "total_tokens": 1361,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:55.579786",
+        "prompt_tokens": 622,
+        "completion_tokens": 49,
+        "total_tokens": 671,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:56.671707",
+        "prompt_tokens": 776,
+        "completion_tokens": 91,
+        "total_tokens": 867,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:12:57.686017",
+        "prompt_tokens": 1319,
+        "completion_tokens": 91,
+        "total_tokens": 1410,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:12:46.568935",
+  "last_updated_at": "2026-04-17T20:12:57.686492"
+}

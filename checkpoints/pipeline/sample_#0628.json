@@ -1,0 +1,375 @@
+{
+  "sample_id": "#0628",
+  "query": "When did the first indian expedition to antarctica take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Imperial Trans-Antarctic Expedition The Imperial Trans-Antarctic Expedition of 1914\u0393\u00c7\u00f41917 is considered to be the last major expedition of the Heroic Age of Antarctic Exploration. Conceived by Sir Ernest Shackleton, the expedition was an attempt to make the first land crossing of the Antarctic continent. After Amundsen's South Pole expedition in 1911, this crossing remained, in Shackleton's words, the \u0393\u00c7\u00a3one great main object of Antarctic journeyings\u0393\u00c7\u00a5. The expedition failed to accomplish this objective, but became recognized instead as an epic feat of endurance. Shackleton had served in the Antarctic on the \"Discovery\" Expedition of 1901\u0393\u00c7\u00f41904, and had led the \"Nimrod\" Expedition",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d2",
+      "text": "extent of \u252c\u00fa40,000, equivalent to \u252c\u00fa in , with the sole stipulation that, despite the shortage of British participants, the venture be styled the \"British Antarctic Expedition\". This was by no means the grand British expedition envisaged by Markham and the geographical establishment, who were hostile and dismissive of Borchgrevink. On 23 August 1898 the expedition ship \"Southern Cross\" left London for the Ross Sea, reaching Cape Adare on 17 February 1899. Here a shore party was landed and was the first to over-winter on the Antarctic mainland, in a prefabricated hut. In January 1900, \"Southern Cross\" returned, picked up",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Twentieth Indian Expedition to Antarctica The 20th Indian Antarctic Expedition was flagged off on-board M.V. Magdalena Oldenorff from Cape Town on 30 December 2000. The team comprising a total of 51 members was led by Shri Mervin J. D\u0393\u00c7\u00d6Souza from Geological Survey of India. The 20th IAE team consisted of 51 members including 34 scientists from various scientific Organizations/Universities/Departments and 17 logistic members. After successful completion of all logistics and scientific tasks the 20th IAE team returned to India in March 2002. Atmospheric Sciences and Meteorology Climatological and Meteorological studies VLF Propagation Studies Earth Sciences and Glaciology Planetary Geomdetic Studies",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1994-02-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "still believed that this massive southern continent should exist. After a delay brought about by the botanist Joseph Banks' unreasonable demands, the ships \"Resolution\" and \"Adventure\" were fitted for the voyage and set sail for the Antarctic in July 1772. On 17 January 1773, \"Resolution\" was the first ship to cross the Antarctic Circle which she crossed twice more on the voyage. The third crossing, on 3 February 1774, was to be the most southerly penetration, reaching latitude 71\u252c\u259110\u0393\u00c7\u2593 South at longitude 106\u252c\u259154\u0393\u00c7\u2593 West. Cook undertook a series of vast sweeps across the Pacific, finally proving there was no Terra",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2000-04-27"
+    },
+    {
+      "doc_id": "d5",
+      "text": "her \"Southern Cross\", and had her fitted out for Antarctic service. \"Southern Cross\" sailed from London on 22 August 1898, and after a three-week pause in Hobart, Tasmania, reached Cape Adare on 17 February 1899. Here, on the site which Borchgrevink had described to the Congress, the expedition set up the first ever shore base on the Antarctic continent\u0393\u00c7\u00f6in the midst of a penguin colony. It was named \"Camp Ridley\" in honour of Borchgrevink's mother. In 1901, Carsten Borchgrevink, published the book, First on the Antarctic continent. He wrote in a chapter dedicated to Ad\u251c\u2310lie penguins: On 2 March the  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the Imperial Trans-Antarctic Expedition of 1914-1917, not the first Indian expedition."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document describes the British Antarctic Expedition of 1898-1900, not an Indian expedition."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly mentions the 'Twentieth Indian Expedition to Antarctica' and its departure date, providing context for Indian expeditions."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document details Captain Cook's voyages and crossing the Antarctic Circle in the 1770s, unrelated to Indian expeditions."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the 'Southern Cross' expedition and Carsten Borchgrevink's book, not an Indian expedition."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Imperial Trans-Antarctic Expedition took place from 1914-1917."
+          ],
+          "reason": "Extracted the date range for the Imperial Trans-Antarctic Expedition, which is a verifiable fact."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The \"Southern Cross\" expedition ship left London on 23 August 1898.",
+            "The \"Southern Cross\" reached Cape Adare on 17 February 1899.",
+            "A shore party was the first to over-winter on the Antarctic mainland in January 1900."
+          ],
+          "reason": "Extracted key dates and events related to the \"Southern Cross\" expedition, which are verifiable facts."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The 20th Indian Antarctic Expedition was flagged off on 30 December 2000.",
+            "The 20th Indian Antarctic Expedition team returned to India in March 2002."
+          ],
+          "reason": "Extracted the start and end dates for the 20th Indian Antarctic Expedition, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The ships \"Resolution\" and \"Adventure\" set sail for the Antarctic in July 1772.",
+            "On 17 January 1773, \"Resolution\" was the first ship to cross the Antarctic Circle.",
+            "On 3 February 1774, \"Resolution\" reached latitude 71\u00b010\u2032 South."
+          ],
+          "reason": "Extracted specific dates and geographical achievements related to Antarctic exploration voyages."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The \"Southern Cross\" sailed from London on 22 August 1898.",
+            "The \"Southern Cross\" reached Cape Adare on 17 February 1899.",
+            "The expedition set up the first ever shore base on the Antarctic continent."
+          ],
+          "reason": "Extracted dates and a significant achievement of the \"Southern Cross\" expedition."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the Imperial Trans-Antarctic Expedition (1914-1917), not the first Indian expedition to Antarctica.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document details the \"Southern Cross\" expedition (1898-1900), which is not related to Indian expeditions to Antarctica.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document mentions the 20th Indian Antarctic Expedition, not the first one. It does not provide the date for the initial expedition.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document describes voyages to Antarctica in 1772-1774, which are unrelated to Indian expeditions.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the \"Southern Cross\" expedition (1898-1899), not the first Indian expedition to Antarctica.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "no_relevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the provided documents contain relevant information about the first Indian expedition to Antarctica."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents were deemed irrelevant to the query about the first Indian expedition to Antarctica. There is no conflicting information present.",
+        "clusters": [
+          {
+            "label": "no_relevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the provided documents contain relevant information about the first Indian expedition to Antarctica."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant to the query. There is no supporting evidence to formulate an answer, thus abstention is necessary."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant to the query. There is no supporting evidence to formulate an answer, thus abstention is necessary.",
+        "final_reasoning": "All provided documents were irrelevant to the query. Abstention is necessary due to the lack of supporting evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.0,
+        "feedback": "The answer is not grounded as no documents were cited. The provided documents do not contain information about the first Indian expedition to Antarctica."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9426,
+      "completion_tokens": 1788,
+      "total_tokens": 11214
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1680,
+        "completion_tokens": 367,
+        "total_tokens": 2047
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1635,
+        "completion_tokens": 556,
+        "total_tokens": 2191
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 950,
+        "completion_tokens": 367,
+        "total_tokens": 1317
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1130,
+        "completion_tokens": 153,
+        "total_tokens": 1283
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1296,
+        "completion_tokens": 123,
+        "total_tokens": 1419
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 481,
+        "completion_tokens": 44,
+        "total_tokens": 525
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 630,
+        "completion_tokens": 87,
+        "total_tokens": 717
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1624,
+        "completion_tokens": 91,
+        "total_tokens": 1715
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:12.047794",
+        "prompt_tokens": 1680,
+        "completion_tokens": 367,
+        "total_tokens": 2047,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:14.348683",
+        "prompt_tokens": 1635,
+        "completion_tokens": 556,
+        "total_tokens": 2191,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:17.379944",
+        "prompt_tokens": 950,
+        "completion_tokens": 367,
+        "total_tokens": 1317,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:18.490033",
+        "prompt_tokens": 1130,
+        "completion_tokens": 153,
+        "total_tokens": 1283,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:19.573125",
+        "prompt_tokens": 1296,
+        "completion_tokens": 123,
+        "total_tokens": 1419,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:20.397920",
+        "prompt_tokens": 481,
+        "completion_tokens": 44,
+        "total_tokens": 525,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:21.381958",
+        "prompt_tokens": 630,
+        "completion_tokens": 87,
+        "total_tokens": 717,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:22.459699",
+        "prompt_tokens": 1624,
+        "completion_tokens": 91,
+        "total_tokens": 1715,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:22:10.357878",
+  "last_updated_at": "2026-04-17T20:22:22.460246"
+}

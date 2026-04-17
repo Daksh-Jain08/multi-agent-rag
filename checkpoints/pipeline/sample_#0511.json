@@ -1,0 +1,389 @@
+{
+  "sample_id": "#0511",
+  "query": "When did the first youtube video come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "website hours after he advertised his presence there on YouTube. In January 2007, he hosted a live, 24-hour Stickam broadcast to raise awareness for the Darfur conflict. In addition to several other popular YouTube users, Going worked with Barenaked Ladies to produce a music video for their single \"Sound of Your Voice\" in February 2007. The video has been featured on the Barenaked Ladies' homepage. In May 2007, YouTube entered Going as one of the first users to take part in its partnership program. As a YouTube partner, Going can capitalize on \"promotional opportunities\" and advertiser based revenue sharing. He",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d2",
+      "text": "her efforts to combat stereotypes and misconceptions associated with Arabs and Muslims. With over 3 million views, Queen Rania created her own channel on YouTube in March 2008 to start an international conversation, which she called \"unscripted, unedited and unfiltered\". As a sponsor for the event, Flip Video gave away a free Flip Video Mino to many of the audience members to record any of the event. A station to upload videos to YouTube from the Mino was also provided, and promoted, in sponsorship of Flip. The event was meant to be an annual show, as referenced by Katy Perry",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "his cousins, Jon and Katie Smet. He and his cousins set up the JKL Productions channel on June 11, 2006, and Cruikshank uploaded several videos testing out different characters. His first Fred video was uploaded on October 30, 2006, and when this character started to become popular, Cruikshank made more videos featuring Fred. On April 30, 2008, these videos were removed from JKL Productions, and added to the Fred channel. On May 1 the first official video of the series, titled \"Fred on May Day\" was released, explaining that Cruikshank asked YouTube for the Fred channel. Someone else previously owned",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d4",
+      "text": "every day. YouTube entered into a marketing and advertising partnership with NBC in June 2006. In March 2007, it struck a deal with BBC for three channels with BBC content, one for news and two for entertainment. In November 2008, YouTube reached an agreement with MGM, Lions Gate Entertainment, and CBS, allowing the companies to post full-length films and television episodes on the site, accompanied by advertisements in a section for U.S. viewers called \"Shows\". The move was intended to create competition with websites such as Hulu, which features material from NBC, Fox, and Disney. In November 2009, YouTube launched",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2017-02-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "domain codice_2 for videos embedded on United States federal government websites. In November of the same year, YouTube launched a version of \"Shows\" available to UK viewers, offering around 4,000 full-length shows from more than 60 partners. \"Entertainment Weekly\" placed YouTube on its end-of-the-decade \"best-of\" list In December 2009, describing it as: \"Providing a safe home for piano-playing cats, celeb goof-ups, and overzealous lip-synchers since 2005.\" In January 2010, YouTube introduced an online film rentals service which is currently available only to users in the US, Canada and the UK. The service offers over 6,000 films. In March 2010 YouTube  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions YouTube in 2007, but doesn't specify the first video's release date. Provides context about YouTube's early partnerships and user programs."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses YouTube usage in 2008 and a specific event, but does not mention the date of the first video upload."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that the first Fred video was uploaded on October 30, 2006, and the JKL Productions channel was set up on June 11, 2006. This is highly relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Details YouTube's partnerships with NBC, BBC, MGM, Lions Gate, and CBS from 2006 onwards, but does not mention the date of the first video."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions YouTube's 'Shows' feature and film rentals from 2009-2010, and references 'since 2005' in a quote, but doesn't specify the first video's release date."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In January 2007, he hosted a live, 24-hour Stickam broadcast to raise awareness for the Darfur conflict.",
+            "In February 2007, Going worked with Barenaked Ladies to produce a music video for their single \"Sound of Your Voice\".",
+            "In May 2007, YouTube entered Going as one of the first users to take part in its partnership program."
+          ],
+          "reason": "Extracted facts about YouTube user activities and partnerships in 2007, which provide context around YouTube's early development and user engagement."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Queen Rania created her own channel on YouTube in March 2008."
+          ],
+          "reason": "Extracted the fact that Queen Rania created a YouTube channel in March 2008, indicating a specific event and date related to YouTube's platform usage."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "His first Fred video was uploaded on October 30, 2006.",
+            "On May 1 the first official video of the series, titled \"Fred on May Day\" was released."
+          ],
+          "reason": "Extracted specific dates for the upload of the first Fred video (October 30, 2006) and the release of the first official video of the series (May 1), providing key timeline information."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "YouTube entered into a marketing and advertising partnership with NBC in June 2006.",
+            "In March 2007, it struck a deal with BBC for three channels with BBC content.",
+            "In November 2008, YouTube reached an agreement with MGM, Lions Gate Entertainment, and CBS."
+          ],
+          "reason": "Extracted key partnership dates and agreements made by YouTube with major media companies (NBC, BBC, MGM, Lions Gate, CBS) between 2006 and 2008."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "In December 2009, \"Entertainment Weekly\" placed YouTube on its end-of-the-decade \"best-of\" list.",
+            "In January 2010, YouTube introduced an online film rentals service."
+          ],
+          "reason": "Extracted facts about YouTube's recognition in December 2009 and the launch of its film rental service in January 2010, providing timeline details."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The key facts discuss user activities and partnerships in 2007, but do not mention the date of the first YouTube video.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The key fact states Queen Rania created a YouTube channel in March 2008, which is not related to the first video's release date.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "The key facts state the first Fred video was uploaded on October 30, 2006, and the first official video of the series was released on May 1. This directly addresses the query about the first video's release.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The key facts detail YouTube's partnerships with media companies between 2006 and 2008, but do not mention the date of the first video.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention YouTube's recognition in 2009 and a service launch in 2010, which are unrelated to the date of the first video.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Contains direct evidence about the release date of the first YouTube video."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents provide context on user activities, partnerships, and platform developments but do not address the query about the first video's release date."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting information regarding the date of the first YouTube video. Document d3 directly supports the query.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 states the first Fred video was uploaded on October 30, 2006, and the first official video of the series was released on May 1."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d4, and d5 provide information on user activities, partnerships, and platform developments but do not address the query about the first video's release date."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence directly supports the query with document d3, and there is no conflict. A reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The first YouTube video was uploaded on October 30, 2006, and the first official video of the series was released on May 1.",
+        "citations": [
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query about the release date of the first YouTube video."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states the date of the first YouTube video upload and the release date of the first official video, both directly supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9275,
+      "completion_tokens": 2166,
+      "total_tokens": 11441
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1421,
+        "completion_tokens": 440,
+        "total_tokens": 1861
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1376,
+        "completion_tokens": 646,
+        "total_tokens": 2022
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 406,
+        "total_tokens": 1435
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1251,
+        "completion_tokens": 212,
+        "total_tokens": 1463
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1456,
+        "completion_tokens": 230,
+        "total_tokens": 1686
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 597,
+        "completion_tokens": 43,
+        "total_tokens": 640
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 745,
+        "completion_tokens": 94,
+        "total_tokens": 839
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1400,
+        "completion_tokens": 95,
+        "total_tokens": 1495
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:35.034725",
+        "prompt_tokens": 1421,
+        "completion_tokens": 440,
+        "total_tokens": 1861,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:37.531635",
+        "prompt_tokens": 1376,
+        "completion_tokens": 646,
+        "total_tokens": 2022,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:39.375739",
+        "prompt_tokens": 1029,
+        "completion_tokens": 406,
+        "total_tokens": 1435,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:40.501762",
+        "prompt_tokens": 1251,
+        "completion_tokens": 212,
+        "total_tokens": 1463,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:42.243047",
+        "prompt_tokens": 1456,
+        "completion_tokens": 230,
+        "total_tokens": 1686,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:43.102735",
+        "prompt_tokens": 597,
+        "completion_tokens": 43,
+        "total_tokens": 640,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:44.062021",
+        "prompt_tokens": 745,
+        "completion_tokens": 94,
+        "total_tokens": 839,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:45.212860",
+        "prompt_tokens": 1400,
+        "completion_tokens": 95,
+        "total_tokens": 1495,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:51:32.925719",
+  "last_updated_at": "2026-04-17T19:51:45.213375"
+}

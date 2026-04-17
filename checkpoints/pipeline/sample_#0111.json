@@ -1,0 +1,493 @@
+{
+  "sample_id": "#0111",
+  "query": "when was the first automobile invented",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "History of the automobile - Wikipedia The first automobile suitable for use on existing wagon roads in the United States was a steam-powered vehicle invented in 1871 by Dr. J.W. Carhart, a minister ... It is considered the first modern car\u2014a practical, marketable automobile for everyday use\u2014and the first in series production.[35] Benz was granted a patent for his automobile on 29 January 1886,[36] and began the first production of automobiles in 1888, after Bertha Benz, his wife, had proved\u2014with the first long-distance trip in August 1888, from Mannheim to Pforzheim and back\u2014that the horseless coach was capable of extended travel. Since 2008, a Bertha Benz Memorial Route commemorates this event.[37] Horseless carriage or veteran era The American George B. Selden filed for a patent on 8 May 1879. His application included the engine and its use in a four-wheeled car. Selden filed a series of amendments to his application, which stretched out the legal process, resulting in a delay of 16 years before the patent was granted on 5 November 1895.[39] Selden licensed his patent to most major American automakers, collecting a fee on each car they produced and creating the Association of Licensed Automobile Manufacturers. The Ford Motor Company fought this patent in court,[40] and eventually won on appeal. Henry Ford testified that the patent did more to hinder than encourage development of autos in the United States.[41] The first automobiles were produced by Carl Benz in 1888 in Germany and, under license from Benz, in France by Emile Roger. There were numerous others, including tricycle builders Rudolf Egg, Edward Butler, and L\u00e9on Boll\u00e9e.[15]: 20\u201323 Boll\u00e9e, using a 650 cc (40 cu in) engine of his own design, enabled his driver, Jamin, to average 45 km/h (28 mph) in the 1897 Paris-Tourville rally.[15]: 23 By 1900, mass production of automobiles had begun in France and the United States.",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_the_automobile",
+      "timestamp": "2025-01-10"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Who invented the automobile? | Library of Congress Earlier accounts often gave credit to Karl Benz, from Germany, for creating the first true automobile in 1885/1886. However, our knowledge of ...",
+      "source_url": "https://www.loc.gov/everyday-mysteries/motor-vehicles-aeronautics-astronautics/item/who-invented-the-automobile/",
+      "timestamp": "2019-11-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "When was the first automobile invented in the US? - Quora In 1893 by Henry Ford and William Durant Frank and Charles Duryea of Springfield, Massachusetts, had designed the first successful American ...",
+      "source_url": "https://www.quora.com/When-was-the-first-automobile-invented-in-the-US",
+      "timestamp": "2021-02-13"
+    },
+    {
+      "doc_id": "d4",
+      "text": "History of the American Automobile - Cole's Collision Center In 1893, Charles Duryea and J. Frank, who were bicycle mechanics at the time, designed the first successful American gasoline automobile. History of the American Automobile In 1893, Charles Duryea and J. Frank, who were bicycle mechanics at the time, designed the first successful American gasoline automobile. Designed in Springfield Massachusetts, it would later be sold as the first American-made gas powered car in 1896. Despite approximately 485 companies entering the market between 1899 and 1909, Henry Ford took the market by storm when he introduced the Model N in 1906. The Model N was quoted by the Cycle and Automobile Trade Journal as being \u201cthe very first instance of a low-cost motorcar driven by a gas engine having cylinders enough to give the shaft a turning impulse in each shaft turn which is well built and offered in large numbers.\u201d In the late 1920s, GM introduces \u2018Planned Obsolecense\u2019, removing the company\u2019s focus from innovation, safety and function and placing it on cosmetic yearly upgrades to vehicle models. The goal of the company was to encourage current vehicle owners to upgrade their automobile long before it was no longer usable and to continue driving a profit. Many companies followed suit in what later became known as \u2018sloanism\u2019 after the head of General Motors at the time, Alfred P. Sloan, Jr. In 1931, Chevrolet (owned by General Motors) releases the AE Independence Six, which becomes the first Chevy to outsell Ford. (image from https://www.history.com/news/the-cars-that-made-america) Ford challenges this by releasing the very first affordable V8 vehicle in 1932, the Ford Model 18 V8. (image from https://www.history.com/news/the-cars-that-made-america)",
+      "source_url": "https://colescollision.com/history-of-the-american-automobile/",
+      "timestamp": "2021-02-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "What was the first car mass produced in the United States? - Quora The Curved Dash was produced from 1901 to 1907. Ransom E. Olds, the founder of Olds Motor Works, played a significant role in the development ...",
+      "source_url": "https://www.quora.com/What-was-the-first-car-mass-produced-in-the-United-States",
+      "timestamp": "2022-10-16"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Who Built the First Automobile? The two men, who had never met previously, filed their patents on the same day\u2014January 29, 1886\u2014in two different German cities. Benz's three- ... Who Built the First Automobile? It\u2019s hard to credit a single person with inventing the automobile. Not only did an estimated 100,000 patents lead to cars as we know them, but people also disagree on what qualifies as the first true automobile. For historians who think that early steam-powered road vehicles fit the bill, the answer is Nicolas-Joseph Cugnot, a French military engineer who in 1769 built a steam-powered tricycle for hauling artillery. The vehicle\u2019s single front wheel performed both steering and driving functions, and it could travel at 2.25 miles per hour with four passengers aboard for about 15 minutes. At that point, Cugnot\u2019s fardier \u00e0 vapeur, as it was known, would need to rest in order to recuperate enough power to move again. Model T Although ideal for trains, early steam engines added so much weight that they proved inefficient for vehicles traveling on regular roads rather than on rails. (Cugnot\u2019s second model weighed 8,000 pounds and had a tendency to tip forward when it wasn\u2019t hauling heavy artillery behind it.) As a result, some observers argue that the first true automobile was gasoline-powered. They point to not one but two inventors: Karl Friedrich Benz and Gottlieb Daimler. The two men, who had never met previously, filed their patents on the same day\u2014January 29, 1886\u2014in two different German cities. Benz\u2019s three-wheeled vehicle, which he first drove in 1885, was the first to combine an internal combustion engine with an integrated chassis, while Daimler\u2019s motorized carriage (invented with his collaborator, Wilhelm Maybach) was the world\u2019s first four-wheeled automobile and featured the first high-speed gasoline engine. Fact Check We strive for accuracy and fairness. But if you see something that doesn't look right, click here to contact us! HISTORY reviews and updates its content regularly to ensure it is complete and accurate.",
+      "source_url": "https://www.history.com/news/who-built-the-first-automobile",
+      "timestamp": "2012-12-11"
+    },
+    {
+      "doc_id": "d7",
+      "text": "A History of Cars: The Invention of the Automobile - ThoughtCo Nicolas Joseph Cugnot of France built what is said to be the first automobile in 1769. While his invention is recognized by the British Royal ...",
+      "source_url": "https://www.thoughtco.com/who-invented-the-car-4059932",
+      "timestamp": "2024-05-24"
+    },
+    {
+      "doc_id": "d8",
+      "text": "The First Automobile? - The Engines of Our Ingenuity The earliest steam-powered car we know about was finished as early as 1769 by French inventor Nicolas Cugnot. Main menu Today, let's try to find the first automobile. The University of Houston's College of Engineering presents this series about the machines that make our civilization run, and the people whose ingenuity created them. The automobile is one more invention that always seems to have just one more antecedent. The earliest steam-powered car we know about was finished as early as 1769 by French inventor Nicolas Cugnot. It was a large three-wheeled vehicle that moved at the speed of a walk and was meant to haul cannon. Earlier cars had been driven by springs and compressed air. Windmill-powered vehicles were made before them. Leonardo da Vinci sketched self-powered vehicles, and even Homer wrote about them. So let's limit our search to autos driven by internal combustion, and to ones actually built. We usually give that prize to Carl Benz. Benz championed the new internal-combustion engines, and he worked single-mindedly to create a car driven by one. He built a little three-wheeled car in 1885 and sold his first one two years later. He went into production with a four-wheeled model in 1890, and the Mercedes-Benz company is still with us. But Benz wasn't first. The French inventor de Rochas built an auto, and an engine to drive it, in 1862. Two years later, the Austrian Siegfried Markus began working on cars. His second one was rediscovered in 1950. It'd been bricked up behind a false wall in the cellar of a Viennese museum to hide it from the Germans. Markus was Jewish, and the Nazis had orders to destroy his car and any literature describing it. By the way, when the car was rediscovered, it could still be driven. Markus' story is especially poignant because, if the German Benz believed in the auto, he didn't. In 1898, Markus was invited to be guest of honor at the Austrian Auto Club. He declined, calling the whole idea of the auto \"a senseless waste of time and effort.",
+      "source_url": "https://engines.egr.uh.edu/episode/1596",
+      "timestamp": "2025-01-01"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Carl Benz being granted a patent in 1886 and beginning production in 1888, and also notes an earlier steam-powered vehicle in 1871 by Dr. J.W. Carhart."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the question, stating that earlier accounts credit Karl Benz with creating the first true automobile in 1885/1886."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Focuses on the invention of the first automobile in the US, mentioning the Duryea brothers in 1893."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Discusses the first successful American gasoline automobile designed by Charles Duryea and J. Frank in 1893, sold in 1896."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses the first mass-produced car in the US (Curved Dash, 1901-1907), which is not the invention date of the first automobile."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Highlights Karl Benz and Gottlieb Daimler filing patents on January 29, 1886, for their respective vehicles, and also mentions Nicolas-Joseph Cugnot's 1769 steam-powered tricycle."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States that Nicolas Joseph Cugnot of France built what is said to be the first automobile in 1769."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions Nicolas Cugnot's steam-powered car from 1769 as the earliest known, and also discusses Karl Benz's 1885 vehicle."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Karl Benz was granted a patent for his automobile on January 29, 1886.",
+            "Karl Benz began the first production of automobiles in 1888.",
+            "The first automobiles were produced by Carl Benz in 1888 in Germany.",
+            "The first automobile suitable for use on existing wagon roads in the United States was a steam-powered vehicle invented in 1871 by Dr. J.W. Carhart."
+          ],
+          "reason": "Extracted facts about the patent date, production start, and early US automobile invention, directly addressing the query about when the first automobile was invented."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Earlier accounts often gave credit to Karl Benz for creating the first true automobile in 1885/1886."
+          ],
+          "reason": "Extracted the date associated with Karl Benz's invention of the first true automobile, which is relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In 1893, Frank and Charles Duryea of Springfield, Massachusetts, designed the first successful American automobile."
+          ],
+          "reason": "Extracted the date and inventors of the first successful American automobile, directly answering the query in the context of the US."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In 1893, Charles Duryea and J. Frank designed the first successful American gasoline automobile.",
+            "The first American-made gas-powered car was sold in 1896."
+          ],
+          "reason": "Extracted the date of design and sale of the first successful American gasoline automobile, providing specific information relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses the first mass-produced car in the US, not the invention date of the first automobile."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Karl Benz and Gottlieb Daimler filed their patents on January 29, 1886.",
+            "Karl Benz's three-wheeled vehicle, first driven in 1885, was the first to combine an internal combustion engine with an integrated chassis.",
+            "Gottlieb Daimler's motorized carriage was the world's first four-wheeled automobile.",
+            "Nicolas-Joseph Cugnot built a steam-powered tricycle in 1769."
+          ],
+          "reason": "Extracted multiple dates and inventors associated with early automobiles, including Benz, Daimler, and Cugnot, providing a comprehensive answer to the query."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Nicolas Joseph Cugnot of France built what is said to be the first automobile in 1769."
+          ],
+          "reason": "Extracted the date and inventor of what is said to be the first automobile, directly addressing the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The earliest steam-powered car known was finished as early as 1769 by French inventor Nicolas Cugnot.",
+            "Karl Benz built a three-wheeled car in 1885 and sold his first one two years later."
+          ],
+          "reason": "Extracted dates for the earliest known steam-powered car and Karl Benz's early automobile, providing specific information relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides multiple dates for the invention and production of automobiles by Karl Benz, and mentions an earlier US steam-powered vehicle, directly addressing the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Mentions Karl Benz's invention of the first true automobile in 1885/1886, directly answering the query.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "States that the first successful American automobile was designed in 1893, directly answering the query in the US context.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Provides the design date (1893) and sale date (1896) for the first successful American gasoline automobile, directly answering the query.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document discusses the first mass-produced car in the US, not the invention date of the first automobile.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Lists multiple inventors and dates for early automobiles, including Karl Benz, Gottlieb Daimler, and Nicolas-Joseph Cugnot (1769), providing a comprehensive answer.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "States that Nicolas Joseph Cugnot built what is said to be the first automobile in 1769, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Mentions the earliest known steam-powered car from 1769 by Cugnot and Karl Benz's car from 1885, providing specific dates relevant to the query.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "early_automobile_invention_benz",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d6",
+              "d8"
+            ],
+            "summary": "Karl Benz is credited with inventing the first automobile, with patents and production starting in the late 1880s."
+          },
+          {
+            "label": "early_automobile_invention_cugnot",
+            "doc_ids": [
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Nicolas-Joseph Cugnot built an earlier steam-powered vehicle in 1769, considered by some as the first automobile."
+          },
+          {
+            "label": "first_american_automobile",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "The first successful American automobile was designed in 1893 by the Duryea brothers."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides a timeline of early automobile inventions, with different sources highlighting distinct milestones and inventors, such as Cugnot's steam vehicle and Benz's internal combustion engine.",
+        "clusters": [
+          {
+            "label": "early_automobile_invention_cugnot",
+            "doc_ids": [
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Nicolas-Joseph Cugnot built a steam-powered tricycle in 1769, considered by some as the first automobile."
+          },
+          {
+            "label": "early_automobile_invention_benz",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d6",
+              "d8"
+            ],
+            "summary": "Karl Benz is credited with inventing the first automobile with an internal combustion engine, with patents in 1886 and production starting in 1888."
+          },
+          {
+            "label": "first_american_automobile",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "The first successful American automobile was designed in 1893 by the Duryea brothers."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing a timeline of early automobile inventions with distinct milestones and inventors. No abstention is needed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Nicolas-Joseph Cugnot built an earlier steam-powered vehicle in 1769, considered by some as the first automobile. Karl Benz is credited with inventing the first automobile with an internal combustion engine, with patents in 1886 and production starting in 1888. The first successful American automobile was designed in 1893 by the Duryea brothers.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence is complementary, presenting a timeline of early automobile inventions by Cugnot, Benz, and the Duryea brothers, with no significant conflicts."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately citing the contributions of Cugnot, Benz, and the Duryea brothers to the invention of the automobile."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 13944,
+      "completion_tokens": 3082,
+      "total_tokens": 17026
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2290,
+        "completion_tokens": 663,
+        "total_tokens": 2953
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2245,
+        "completion_tokens": 867,
+        "total_tokens": 3112
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1195,
+        "completion_tokens": 588,
+        "total_tokens": 1783
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1560,
+        "completion_tokens": 330,
+        "total_tokens": 1890
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1853,
+        "completion_tokens": 311,
+        "total_tokens": 2164
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 742,
+        "completion_tokens": 45,
+        "total_tokens": 787
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 892,
+        "completion_tokens": 178,
+        "total_tokens": 1070
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3167,
+        "completion_tokens": 100,
+        "total_tokens": 3267
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:50.808969",
+        "prompt_tokens": 2290,
+        "completion_tokens": 663,
+        "total_tokens": 2953,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:54.195225",
+        "prompt_tokens": 2245,
+        "completion_tokens": 867,
+        "total_tokens": 3112,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:57.370396",
+        "prompt_tokens": 1195,
+        "completion_tokens": 588,
+        "total_tokens": 1783,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:31:59.066844",
+        "prompt_tokens": 1560,
+        "completion_tokens": 330,
+        "total_tokens": 1890,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:32:01.455110",
+        "prompt_tokens": 1853,
+        "completion_tokens": 311,
+        "total_tokens": 2164,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:32:02.535262",
+        "prompt_tokens": 742,
+        "completion_tokens": 45,
+        "total_tokens": 787,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:32:03.929572",
+        "prompt_tokens": 892,
+        "completion_tokens": 178,
+        "total_tokens": 1070,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:32:05.090333",
+        "prompt_tokens": 3167,
+        "completion_tokens": 100,
+        "total_tokens": 3267,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:31:47.228356",
+  "last_updated_at": "2026-04-17T15:32:05.090957"
+}

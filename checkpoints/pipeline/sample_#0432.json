@@ -1,0 +1,514 @@
+{
+  "sample_id": "#0432",
+  "query": "when was the first railway built",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Timeline of railway history - Wikipedia 1848 \u2013 First railway line in Spain, built between Barcelona and Matar\u00f3. 1848 \u2013 First railway in South America, British Guyana. The railway was designed, ... The adapted steam engines held condensed steam and let it out only at particular tunnel locations that had air vents. This gave rise to a new mode of subterranean urban transit: the Subway/U-Bahn/Metro. 1863 \u2013 Scotsman Robert Francis Fairlie invented the Fairlie locomotive with pivoted driving bogies, so trains could negotiate tighter track curves. This innovation was rare for steam locomotives, but was the model for most future diesel and electric locomotives. 1882 \u2013 First line in Kingdom of Serbia: 12 km long 600 mm wide gauge track from Majdanpek copper processing plant to Velike Livade, constructed by the \"Serbian Copper & Iron Co\" (official name in English, most stock holders were British), first run in June 1882.[22] 1885 \u2013 The Canadian Pacific is completed 5 years ahead of schedule, the longest single railway of its time, which links the eastern and western provinces of Canada. 1888 \u2013 Frank Sprague installs the \"trolleypole\" trolley system in Richmond, Virginia, making it the first large scale electric street railway in the US, though the first commercial installation of an electric streetcar in the United States was built in 1884 in Cleveland, Ohio and operated for a period of one year by the East Cleveland Street Railway Company. 1913 \u2013 First diesel powered railcar enters service in Sweden.",
+      "source_url": "https://en.wikipedia.org/wiki/Timeline_of_railway_history",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "History of rail transport - Wikipedia The first public edgeway (thus also first public railway) built was the Lake Lock Rail Road in 1796. Although the primary purpose of the line was to carry ... Owned by Philip Layton, the line carried coal from a pit near Prescot Hall to a terminus about half a mile away.[15] On 26 July 1803, Jessop opened the Surrey Iron Railway, south of London erroneously considered first railway in Britain, also a horse-drawn one. It was not a railway in the modern sense of the word, as it functioned like a turnpike road. There were no official services, as anyone could bring a vehicle on the railway by paying a toll. The oldest railway in continuous use is the Tanfield Railway in County Durham, England. This began life in 1725 as a wooden waggonway worked with horse power and developed by private coal owners and included the construction of the Causey Arch, the world's oldest purpose built railway bridge. By the mid 19th century it had converted to standard gauge track and steam locomotive power. It continues in operation as a heritage line. The Middleton Railway in Leeds, opened in 1758, is also still in use as a heritage line and began using steam locomotive power in 1812 before reverting to horsepower and then upgrading to standard gauge. In 1764, the first railway in the Americas was built in Lewiston, New York.[18] The first passenger Horsecar or tram, Swansea and Mumbles Railway was opened between Swansea and Mumbles in Wales in 1807.[66] Horse remained preferable mode for tram transport even after arrival of steam engines, well till the end of 19th century. The major reason was that the horse-cars were clean as compared to steam driven trams which caused smoke in city streets. In 1812, Oliver Evans, an American engineer and inventor, published his vision of what steam railways could become, with cities and towns linked by a network of long-distance railways plied by speedy locomotives, greatly speeding up personal travel and goods transport. Evans specified that there should be separate sets of parallel tracks for trains going in different directions. However, conditions in the infant United States did not enable his vision to take hold.",
+      "source_url": "https://en.wikipedia.org/wiki/History_of_rail_transport",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Stockton & Darlington Railway | History & Facts - Britannica On September 27, 1825, the first engine ran from Darlington to Stockton, preceded by a man on horseback carrying a flag reading Periculum privatum utilitas ... Stockton & Darlington Railway, in England, first railway in the world to operate freight and passenger service with steam traction. In 1821 George Stephenson, who had built several steam engines to work in the Killingworth colliery, heard of Edward Pease\u2019s intention of building an 8-mile (12.9-km) line from Stockton on the coast to Darlington to exploit a rich vein of coal. Pease intended to use horse traction. Stephenson told Pease that a steam engine could pull 50 times the load that horses could draw on iron rails. Impressed, Pease agreed to let Stephenson equip his line. On September 27, 1825, the first engine ran from Darlington to Stockton, preceded by a man on horseback carrying a flag reading Periculum privatum utilitas publica (\u201cThe private danger is the public good\u201d). When the horseman was out of the way, Stephenson opened the throttle and pulled his train of wagons carrying 450 persons at a speed of 15 miles (24 km) per hour.",
+      "source_url": "https://www.britannica.com/topic/Stockton-and-Darlington-Railway",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "History of American Railroads The concept of constructing a railroad in the United States was first conceived by Colonel John Stevens, in 1812. The concept of constructing a railroad in the United States was first conceived by Colonel John Stevens, in 1812. He described his theories in a collection of works called \"Documents tending to prove the superior advantages of railways and steam carriages over canal navigation.\" The earliest railroads constructed were horse drawn cars running on tracks, used for transporting freight. The first to be chartered and built was the Granite Railway of Massachusetts, which ran approximately three miles (1826). The first regular carrier of passengers and freight was the Baltimore and Ohio railroad, completed on February 28, 1827. It was not until Christmas Day, 1830, when the South Carolina Canal and Railroad Company completed the first mechanical passenger train, that the modern railroad industry was born. This industry would have a profound effect on the nation in the coming decades, often determining how an individual lived his life. By 1835, dozens of local railroad networks had been put into place. Each one of these tracks went no more than a few miles, but the potential for this mode of transportation was finally being realized. With every passing year, the number of these railway systems grew exponentially. By 1850, over 9,000 miles of track had been lain. Along with the proliferation of railroads came increased standardization of the field. An ideal locomotive was developed which served as the model for all subsequent trains. Various companies began to cooperate with one another, to both maximize profits and minimize expenditures. This interaction of various companies initiated the trend of conglomeration which would continue through the rest of the Nineteenth Century. In 1850, the New York Central Railroad Company was formed by the merging of a dozen small railroads between the Hudson River and Buffalo. Single companies had begun to extend their railway systems outside of the local domain. Between 1851 and 1857, the federal government issued land grants to Illinois to construct the Illinois Central railroad. The government set a precedent with this action, and fostered the growth of one of the largest companies in the nation. With the onset of the Civil War, production of new railroads fell dramatically.",
+      "source_url": "https://cs.stanford.edu/people/eroberts/cs181/projects/corporate-monopolies/development_rr.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Beginnings of American Railroads and Mapping Surveying, mapping, and construction started on the Baltimore and Ohio in 1830, and fourteen miles of track were opened before the year ended.",
+      "source_url": "https://www.loc.gov/collections/railroad-maps-1828-to-1900/articles-and-essays/history-of-railroads-and-maps/the-beginnings-of-american-railroads-and-mapping/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Trains: A history | Institute for Transportation - Iowa State University Railways existed as early as 1550, in Germany. These pathways of wooden rails called \u201cwagonways\u201d were the beginning of modern rail transport. Horses pulling loaded coal waggons make one final delivery along The Little Eaton Gangway wagonway (open 1795\u20131908). Photo from Wikipedia. By the late 1700s, iron replaced the wooden rails and wheels as wagonways evolved into \u201ctramways\u201d and became popular throughout Europe. Horses still provided the \u201chorsepower\u201d for cargo until the steam-powered locomotive came into play in the early 1800s. Locomotion So, what\u2019s a steam-powered locomotive? The first steam locomotives originated in Great Britain at the dawn of the 19th century. Though the earliest steam-powered locomotives first pulled wagons full of coal, they would soon be engineered to accommodate their first passengers. The steam-powered locomotive gets its fuel from burning combustible materials\u2014like coal, wood, and oil\u2014to produce steam. Then that steam moves different pieces of machinery that work together to drive the train forward! The Golden Age Did you know that in the United States, railroads have been around (almost) as long as the first European settlers? Americans have been using railroads since the 1820s! Most of the early locomotives in America were imported from Great Britain, although the United States was quick to form a locomotive manufacturing industry of its own. American production of locomotives got off the ground in the early 1830s. Railroads took off in the United States because cars and airplanes hadn\u2019t been invented yet! Trains served as the most important mode of transportation during a period of time called \u201cThe Golden Age\u201d of railroads, which lasted from the 1880s until the 1920s. So, what happened? In the early 1900s, cars and airplanes were invented, and their popularity grew quickly within the United States. After the 1920s, cars and planes would supersede trains as the primary means of transportation. The end of an era But you see trains all the time, right?",
+      "source_url": "https://intrans.iastate.edu/news/trains-a-history/",
+      "timestamp": "2016-08-16"
+    },
+    {
+      "doc_id": "d7",
+      "text": "1800-1849 - September 27, 1825 - World's First Passenger Train On September 27, 1825, Locomotion No. 1 became the world's first steam locomotive to carry passengers on a public line, the Stockton and Darlington Railway.",
+      "source_url": "http://www.sbdepotmuseum.com/1800-1849/september-27-1825-worlds-first-passenger-train.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Railroad - History, Development, Impact | Britannica Construction began on May 13, 1822, using both malleable iron rails (for two-thirds the distance) and cast iron and set at a track gauge of 1,422 mm (4 feet 8 ... Evans was commissioned to construct a steam-powered dredge to be used on the docks in Philadelphia. He built his dredge away from the Schuylkill River, having it move itself, ponderously, to its destination by rail. Early European railroads George Stephenson was the son of a mechanic and, because of his skill at operating Newcomen engines, served as chief mechanic at the Killingworth colliery northwest of Newcastle upon Tyne, Eng. In 1813 he examined the first practical and successful steam locomotive, that of John Blenkinsop, and, convinced that he could offer improvements, designed and built the Bl\u00fccher in 1814. Later he introduced the \u201csteam blast,\u201d by which exhaust was directed up the chimney, pulling air after it and increasing the draft. His success in designing several more locomotives brought him to the attention of the planners of a proposed railway linking the port of Stockton with Darlington, eight miles inland. Investment in the Bishop Auckland coalfield of western County Durham was heavily concentrated in Darlington, where there was agitation for improvement in the outward shipment of the increasing tonnages produced. The region had become the most extensive producer of coal, most of which was sent by coastal sloop to the London market. The mining moved inland toward the Pennine ridge and thus farther from the port at Stockton-on-Tees, which in 1810 had been made a true seaport by completion of the Tees Navigation. A canal linking the cities had been proposed in a survey by James Brindley as early as 1769 but was rejected because of cost, and by the early 19th century several of the gravity tramways or railways on Tyneside had been fitted with primitive locomotives. In 1818 the promoters settled on the construction of a railway, and in April 1821 parliamentary authorization was gained and George IV gave his assent.",
+      "source_url": "https://www.britannica.com/technology/railroad/Railroad-history",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "[PDF] Rolling West or the Story of ... ... the American Railroads The first railroad track in America, the so-called \u201cgravity road,\u201d was built for military purposes in 1764 at the Niagara portage in Lewiston, New York. The ...",
+      "source_url": "https://pl.usembassy.gov/wp-content/uploads/sites/23/Zoom-in-on-America-May-2013.pdf",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Provides dates and locations for the first railways in Spain and South America, and mentions early electric and steam locomotive developments, offering context to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions the Middleton Railway (1758) as the first in the Americas, the Swansea and Mumbles Railway (1807) as the first passenger railway, and the Lake Lock Rail Road (1796) as the first public railway, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States the Stockton & Darlington Railway (1825) was the first in the world to operate freight and passenger service with steam traction, directly answering the query about the first railway."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions the Granite Railway of Massachusetts (1826) as the first chartered and built in the US, and the Baltimore and Ohio railroad (1827) as the first regular carrier, providing relevant US context."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Provides information about the Baltimore and Ohio railroad construction starting in 1830, which is relevant to the history of early railways, though not the absolute first."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions railways existing as early as 1550 in Germany and the beginnings of modern rail transport, also noting US railroads since the 1820s and early steam locomotives in Britain."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states that on September 27, 1825, Locomotion No. 1 became the world's first steam locomotive to carry passengers on a public line, the Stockton and Darlington Railway."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses the construction of the Stockton and Darlington Railway starting in 1822 and its authorization in 1821, providing context for the first steam-powered railway."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States the first railroad track in America was built in 1764 at the Niagara portage in Lewiston, New York, directly addressing the query for the US context."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The first railway line in Spain, between Barcelona and Matar\u00f3, was built in 1848.",
+            "The first railway in South America, British Guyana, was built in 1848.",
+            "The first line in the Kingdom of Serbia was a 12 km long 600 mm wide gauge track constructed in 1882.",
+            "The Canadian Pacific was completed in 1885, linking eastern and western Canada.",
+            "The first large scale electric street railway in the US was installed in Richmond, Virginia in 1888."
+          ],
+          "reason": "Extracted facts about the construction dates and locations of various early railway lines, including the first in Spain, South America, Serbia, and the US electric street railway."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Middleton Railway in Leeds, opened in 1758, is still in use as a heritage line.",
+            "The Middleton Railway began using steam locomotive power in 1812.",
+            "The first railway in the Americas was built in Lewiston, New York in 1764.",
+            "The first passenger Horsecar or tram, Swansea and Mumbles Railway, was opened in 1807.",
+            "The first public edgeway, the Lake Lock Rail Road, was built in 1796.",
+            "The Surrey Iron Railway, south of London, was opened on July 26, 1803."
+          ],
+          "reason": "Extracted facts about various early railways, including the Middleton Railway (1758), the first in the Americas (1764), the Lake Lock Rail Road (1796), and the Surrey Iron Railway (1803)."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Stockton & Darlington Railway in England was the first railway in the world to operate freight and passenger service with steam traction.",
+            "The first engine on the Stockton & Darlington Railway ran from Darlington to Stockton on September 27, 1825.",
+            "George Stephenson equipped the Stockton & Darlington line after convincing Edward Pease that steam engines could pull more than horses.",
+            "On September 27, 1825, Stephenson pulled his train of wagons carrying 450 persons at a speed of 15 miles per hour."
+          ],
+          "reason": "Extracted key facts about the Stockton & Darlington Railway, highlighting its status as the first to use steam for freight and passengers, its opening date, and Stephenson's involvement."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Granite Railway of Massachusetts, chartered and built first, ran approximately three miles in 1826.",
+            "The Baltimore and Ohio railroad was the first regular carrier of passengers and freight, completed on February 28, 1827.",
+            "The South Carolina Canal and Railroad Company completed the first mechanical passenger train on Christmas Day, 1830.",
+            "Colonel John Stevens conceived the idea of constructing a railroad in the United States in 1812.",
+            "The earliest railroads constructed were horse-drawn cars running on tracks for transporting freight."
+          ],
+          "reason": "Extracted facts about early American railways, including the Granite Railway (1826), the Baltimore and Ohio railroad (1827), the first mechanical passenger train (1830), and the initial concept in 1812."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Surveying, mapping, and construction started on the Baltimore and Ohio in 1830.",
+            "Fourteen miles of track on the Baltimore and Ohio were opened before the end of 1830."
+          ],
+          "reason": "Extracted specific details about the start of construction and track opening for the Baltimore and Ohio railroad in 1830."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Railways existed as early as 1550 in Germany, called \"wagonways\".",
+            "The first steam locomotives originated in Great Britain at the dawn of the 19th century.",
+            "Americans have been using railroads since the 1820s.",
+            "American production of locomotives got off the ground in the early 1830s."
+          ],
+          "reason": "Extracted facts about the earliest known railways (1550 Germany), the origin of steam locomotives (early 19th century Britain), and the timeline of US railroad usage and production."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "On September 27, 1825, Locomotion No. 1 became the world's first steam locomotive to carry passengers on a public line, the Stockton and Darlington Railway."
+          ],
+          "reason": "Extracted the specific fact about Locomotion No. 1 being the world's first steam locomotive to carry passengers on a public line on September 27, 1825."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Construction of the Stockton and Darlington Railway began on May 13, 1822.",
+            "George Stephenson designed and built the Bl\u00fccher, the first practical and successful steam locomotive, in 1814."
+          ],
+          "reason": "Extracted facts related to the construction start date of the Stockton and Darlington Railway (1822) and the creation of an early practical steam locomotive by George Stephenson (1814)."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "The first railroad track in America, the \"gravity road,\" was built for military purposes in 1764 at the Niagara portage in Lewiston, New York."
+          ],
+          "reason": "Extracted the fact identifying the first railroad track in America, its purpose, location, and construction year (1764)."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides dates for the first railways in Spain, South America, and Serbia, but not the absolute first railway globally.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions several early railways with dates, including the Middleton Railway in 1758 and the first in the Americas in 1764, but doesn't definitively state the world's first.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "States the Stockton & Darlington Railway was the first to operate freight and passenger service with steam traction in 1825, but not necessarily the absolute first railway.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Lists early American railways from 1826 onwards and the concept in 1812, but doesn't identify the world's first railway.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Provides construction details for the Baltimore and Ohio railroad in 1830, which is not the earliest railway.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "Mentions railways existed as early as 1550 in Germany, which is the earliest date provided, but lacks specific details about it being the 'first'.",
+          "confidence": 0.78
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "States the Stockton and Darlington Railway was the first public line to carry passengers with a steam locomotive in 1825, but not the first railway overall.",
+          "confidence": 0.72
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "partially_supports",
+          "reason": "Gives the construction start date for the Stockton and Darlington Railway (1822) and an early steam locomotive (1814), but not the absolute first railway.",
+          "confidence": 0.68
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "partially_supports",
+          "reason": "Identifies the first railroad track in America in 1764, but the query asks for the first railway globally.",
+          "confidence": 0.62
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "early_railway_mentions",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d6",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents provide information on early railways and steam locomotives across different regions and time periods, but none definitively identify the absolute first railway globally."
+          },
+          {
+            "label": "irrelevant_details",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides details on the Baltimore and Ohio railroad construction in 1830, which is not the earliest railway."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence offers various details about early railways and steam locomotives across different regions and time periods, but there are no direct contradictions or disagreements among the claims.",
+        "clusters": [
+          {
+            "label": "early_railway_mentions",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d6",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents provide information on early railways and steam locomotives across different regions and time periods, but none definitively identify the absolute first railway globally."
+          },
+          {
+            "label": "irrelevant_details",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides details on the Baltimore and Ohio railroad construction in 1830, which is not the earliest railway."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "While multiple documents discuss early railways, none definitively identify the absolute first. The support is too sparse to reliably answer the specific question, warranting abstention."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "While multiple documents discuss early railways, none definitively identify the absolute first. The support is too sparse to reliably answer the specific question, warranting abstention.",
+        "final_reasoning": "The provided evidence discusses early railways but does not definitively identify the absolute first, leading to abstention."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents contain information about the first railways, but the answer does not reference any of them."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 17721,
+      "completion_tokens": 3683,
+      "total_tokens": 21404
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3115,
+        "completion_tokens": 789,
+        "total_tokens": 3904
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3070,
+        "completion_tokens": 1438,
+        "total_tokens": 4508
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1728,
+        "completion_tokens": 697,
+        "total_tokens": 2425
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2190,
+        "completion_tokens": 277,
+        "total_tokens": 2467
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2444,
+        "completion_tokens": 241,
+        "total_tokens": 2685
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 649,
+        "completion_tokens": 50,
+        "total_tokens": 699
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 804,
+        "completion_tokens": 92,
+        "total_tokens": 896
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3721,
+        "completion_tokens": 99,
+        "total_tokens": 3820
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:06.665569",
+        "prompt_tokens": 3115,
+        "completion_tokens": 789,
+        "total_tokens": 3904,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:12.994889",
+        "prompt_tokens": 3070,
+        "completion_tokens": 1438,
+        "total_tokens": 4508,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:16.594259",
+        "prompt_tokens": 1728,
+        "completion_tokens": 697,
+        "total_tokens": 2425,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:18.096959",
+        "prompt_tokens": 2190,
+        "completion_tokens": 277,
+        "total_tokens": 2467,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:19.545043",
+        "prompt_tokens": 2444,
+        "completion_tokens": 241,
+        "total_tokens": 2685,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:20.495935",
+        "prompt_tokens": 649,
+        "completion_tokens": 50,
+        "total_tokens": 699,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:21.443300",
+        "prompt_tokens": 804,
+        "completion_tokens": 92,
+        "total_tokens": 896,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:11:22.677788",
+        "prompt_tokens": 3721,
+        "completion_tokens": 99,
+        "total_tokens": 3820,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:11:03.817427",
+  "last_updated_at": "2026-04-17T19:11:22.678389"
+}

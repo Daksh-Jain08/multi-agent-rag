@@ -1,0 +1,383 @@
+{
+  "sample_id": "#0574",
+  "query": "Where does the blastocyst implant to become an embryo?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on cell signaling. By manipulating the cell signals during the blastula stage of development, various tissues can be formed. This potential can be instrumental in regenerative medicine for disease and injury cases. In vitro fertilisation involves implantation of a blastula into a mother's uterus. Blastula cell implantation could serve to eliminate infertility. The blastula stage of early embryo development begins with the appearance of the blastocoel. The origin of the blastocoele in \"Xenopus\" has been shown to be from the first cleavage furrow, which is widened and sealed with tight junctions to create a cavity. In many organisms the development",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2020-07-07"
+    },
+    {
+      "doc_id": "d2",
+      "text": "other organs and tissues are PEG10 and the cancer testis antigen PAGE4 expressed in cytotrophoblasts, CSH1and KISS1 expressed in syncytiotrophoblasts, and PAPPA2 and PRG2 expressed in extravillous trophoblasts. The placenta begins to develop upon implantation of the blastocyst into the maternal endometrium. The outer layer of the blastocyst becomes the trophoblast, which forms the outer layer of the placenta. This outer layer is divided into two further layers: the underlying cytotrophoblast layer and the overlying syncytiotrophoblast layer. The syncytiotrophoblast is a multinucleated continuous cell layer that covers the surface of the placenta. It forms as a result of differentiation and",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "develops into the umbilical cord to attach the placenta to the embryo. Arteries in the decidua are remodelled to increase the maternal blood flow into the intervillous spaces of the placenta, allowing gas exchange and the transfer of nutrients to the embryo. Waste products from the embryo will diffuse across the placenta. As the syncytiotrophoblast starts to penetrate the uterine wall, the inner cell mass (embryoblast) also develops. The inner cell mass is the source of embryonic stem cells, which are pluripotent and can develop into any one of the three germ layer cells,and which have the potency to give",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "in two, three times, forming first a cluster of two-cells, then four-cells, and finally eight-cells. One more cell division brings the number of cells to 16, at which time it is called a morula, instead of a zygote. This ball of 16 cells then reorganizes into a hollow sphere called a blastocyst. As the number of cells grows from 16 to between 40 and 150, the blastocyst differentiates into two layers, an outer sphere of cells called the trophoblast and an inner cell mass called the embryoblast. The spherical outer cell layer (trophoblast), after implantation in the wall of the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1994-11-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "to form ectodermal derivatives. The equatorial or marginal zone, which compose the walls of the blastocoel differentiate primarily into mesodermal tissue. The vegetal mass is composed of the blastocoel floor and primarily develops into endodermal tissue. In the mammalian blastocyst (term for mammalian blastula) there are three lineages that give rise to later tissue development. The epiblast gives rise to the fetus itself while the trophoblast develops into part of the placenta and the primitive endoderm becomes the yolk sac. In mouse embryo, blastocoele formation begins at the 32-cell stage. During this process, water enters the embryo, aided by an  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1992"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions in vitro fertilisation involves implantation of a blastula into a mother's uterus, which is relevant to blastocyst implantation."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that the placenta begins to develop upon implantation of the blastocyst into the maternal endometrium."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Discusses the development of the umbilical cord and placenta, but not the specific site of blastocyst implantation."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Explains the formation of the blastocyst and mentions 'after implantation in the wall of the', implying implantation site."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Discusses blastocyst differentiation and lineages but does not specify the implantation site."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In vitro fertilisation involves implantation of a blastula into a mother's uterus."
+          ],
+          "reason": "Extracted the fact about blastula implantation into the uterus, relevant to the query about where implantation occurs."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The placenta begins to develop upon implantation of the blastocyst into the maternal endometrium."
+          ],
+          "reason": "Extracted the specific location of blastocyst implantation (maternal endometrium) which is directly relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "As the syncytiotrophoblast starts to penetrate the uterine wall, the inner cell mass (embryoblast) also develops."
+          ],
+          "reason": "Extracted the fact that the syncytiotrophoblast penetrates the uterine wall, indicating the location of early embryonic development."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The spherical outer cell layer (trophoblast), after implantation in the wall of the uterus, differentiates into two layers."
+          ],
+          "reason": "Extracted the fact that implantation occurs in the wall of the uterus, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses blastocyst development and differentiation but does not specify the location of implantation."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States that blastula implantation occurs in the mother's uterus, directly addressing the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that the blastocyst implants into the maternal endometrium, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions penetration of the uterine wall, implying implantation location, but doesn't explicitly state where the blastocyst implants.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explicitly states that implantation occurs in the wall of the uterus, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The key facts discuss blastocyst development but do not mention the location of implantation.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_implantation_location",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 directly state that implantation occurs in the mother's uterus or maternal endometrium."
+          },
+          {
+            "label": "implied_implantation_location",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 implies the implantation location by mentioning penetration of the uterine wall."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Multiple sources agree on the location of implantation, with some providing more specific details like the endometrium.",
+        "clusters": [
+          {
+            "label": "implantation_in_uterus_or_endometrium",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 consistently state that implantation occurs in the mother's uterus or maternal endometrium."
+          },
+          {
+            "label": "penetration_of_uterine_wall",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 implies implantation by mentioning penetration of the uterine wall."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and complementary, providing a clear and reliable answer about the location of implantation."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Implantation occurs in the mother's uterus or maternal endometrium, with some documents indicating penetration of the uterine wall.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial documents consistently describe the location of implantation, with no significant conflicts."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that implantation occurs in the uterus/endometrium and mentions penetration of the uterine wall, all of which are directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8178,
+      "completion_tokens": 1633,
+      "total_tokens": 9811
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1386,
+        "completion_tokens": 349,
+        "total_tokens": 1735
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1341,
+        "completion_tokens": 378,
+        "total_tokens": 1719
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 781,
+        "completion_tokens": 320,
+        "total_tokens": 1101
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 914,
+        "completion_tokens": 176,
+        "total_tokens": 1090
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1119,
+        "completion_tokens": 178,
+        "total_tokens": 1297
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 563,
+        "completion_tokens": 38,
+        "total_tokens": 601
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 706,
+        "completion_tokens": 96,
+        "total_tokens": 802
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1368,
+        "completion_tokens": 98,
+        "total_tokens": 1466
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:16.354522",
+        "prompt_tokens": 1386,
+        "completion_tokens": 349,
+        "total_tokens": 1735,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:18.623384",
+        "prompt_tokens": 1341,
+        "completion_tokens": 378,
+        "total_tokens": 1719,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:21.780271",
+        "prompt_tokens": 781,
+        "completion_tokens": 320,
+        "total_tokens": 1101,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:23.006313",
+        "prompt_tokens": 914,
+        "completion_tokens": 176,
+        "total_tokens": 1090,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:24.375375",
+        "prompt_tokens": 1119,
+        "completion_tokens": 178,
+        "total_tokens": 1297,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:25.191660",
+        "prompt_tokens": 563,
+        "completion_tokens": 38,
+        "total_tokens": 601,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:26.184472",
+        "prompt_tokens": 706,
+        "completion_tokens": 96,
+        "total_tokens": 802,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:27.087304",
+        "prompt_tokens": 1368,
+        "completion_tokens": 98,
+        "total_tokens": 1466,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:08:13.914981",
+  "last_updated_at": "2026-04-17T20:08:27.087817"
+}

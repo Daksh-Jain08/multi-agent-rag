@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0603",
+  "query": "How many ncaa basketball championships has ucla won?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "1964\u0393\u00c7\u00f465 UCLA Bruins men's basketball team The 1964\u0393\u00c7\u00f465 UCLA Bruins men's basketball team won its second NCAA National Basketball Championship under head coach John R. Wooden. Before a crowd of 13,204 in Portland Memorial Coliseum, Portland, Oregon, the Bruins won the national championship over Michigan, 91\u0393\u00c7\u00f480, for the second consecutive year. Gail Goodrich's 42 points and Kenny Washington's 17 points helped UCLA to become the fifth team to win consecutive championships. Wooden liked Goodrich for his \"poise, quickness and speed\". After losing the season opener to Illinois, the team finished the season with a 28\u0393\u00c7\u00f42 record, winning the last 15",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d2",
+      "text": "1967 NCAA University Division Basketball Tournament The 1967 NCAA University Division Basketball Tournament involved 23 schools playing in single-elimination play to determine the national champion of men's NCAA Division I college basketball. It began on March 11, 1967, and ended with the championship game on March 25 in Louisville, Kentucky. A total of 27 games were played, including a third-place game in each region and a national third-place game. UCLA, coached by John Wooden, won the national title with a 79\u0393\u00c7\u00f464 victory in the final game over Dayton, coached by Don Donoher. Lew Alcindor (later named Kareem Abdul-Jabbar) of UCLA",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "1974\u0393\u00c7\u00f475 UCLA Bruins men's basketball team In head coach John R. Wooden's final game, the 1974\u0393\u00c7\u00f475 UCLA Bruins men's basketball team won the team's tenth National Championship in twelve years over the Kentucky Wildcats (92\u0393\u00c7\u00f485), in the San Diego Sports Arena, San Diego, California. The Bruins defeated Michigan in the first round. In the West Regional, UCLA beat Montana and Arizona State to advance to the Final Four. Washington scored 26 points to give UCLA an overtime victory over Louisville, 75\u0393\u00c7\u00f474, in the semi-finals game. After the game, Coach Wooden announced that the championship game would be his last game.",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d4",
+      "text": "1971 NCAA University Division Basketball Tournament The 1971 NCAA University Division Basketball Tournament involved 25 schools playing in single-elimination play to determine the national champion of men's NCAA Division I college basketball. It began on March 13, 1971, and ended with the championship game on March 27 in Houston, Texas. A total of 29 games were played, including a third place game in each region and a national third place game. UCLA, coached by John Wooden, won the national title with a 68\u0393\u00c7\u00f462 victory in the final game over Villanova, coached by Jack Kraft. Howard Porter of Villanova was named",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d5",
+      "text": "for third in softball, tied for fifth in men's tennis, tied for seventh in men's golf and tied for ninth in women's volleyball and women's tennis. UCLA also won the Vitalis Sun Bowl in football and captured seven conference championships and two post-season tournaments. In 2004-05, UCLA won three NCAA titles (men's water polo, men's tennis and women's water polo) and placed second in women's soccer, men's volleyball, women's golf and softball, tied for second in women's outdoor track and field, fourth in women's gymnastics and tied for fifth in women's volleyball. UCLA also earned its first NCAA post-season appearance  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly states that the 1964-65 UCLA Bruins men's basketball team won its second NCAA National Basketball Championship."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document details the 1967 NCAA tournament and states that UCLA, coached by John Wooden, won the national title."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document states that the 1974-75 UCLA Bruins men's basketball team won the team's tenth National Championship."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document describes the 1971 NCAA tournament and confirms that UCLA, coached by John Wooden, won the national title."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document mentions UCLA winning three NCAA titles in 2004-05 and other sports achievements, providing some context but not a direct count of basketball championships."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 1964\u201365 UCLA Bruins men's basketball team won its second NCAA National Basketball Championship.",
+            "The Bruins won the national championship over Michigan, 91\u201380, for the second consecutive year."
+          ],
+          "reason": "Extracted facts about UCLA winning their second NCAA championship and their consecutive championship win in 1964-65."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "UCLA, coached by John Wooden, won the national title with a 79\u201364 victory in the final game."
+          ],
+          "reason": "Extracted the fact that UCLA won the national title in the 1967 NCAA tournament."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In head coach John R. Wooden's final game, the 1974\u201375 UCLA Bruins men's basketball team won the team's tenth National Championship in twelve years."
+          ],
+          "reason": "Extracted the fact that UCLA won their tenth National Championship in 1974-75."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "UCLA, coached by John Wooden, won the national title with a 68\u201362 victory in the final game."
+          ],
+          "reason": "Extracted the fact that UCLA won the national title in the 1971 NCAA tournament."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "In 2004-05, UCLA won three NCAA titles (men's water polo, men's tennis and women's water polo)."
+          ],
+          "reason": "Extracted a fact about UCLA winning three NCAA titles in the 2004-05 season, though not specifically in basketball."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States UCLA won their second championship in 1964-65, but does not provide the total number of championships.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions UCLA winning a national title in 1967, contributing to the total count, but doesn't give the overall number.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explicitly states UCLA won their tenth National Championship in 1974-75, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Indicates UCLA won a national title in 1971, adding to the total, but doesn't provide the overall championship count.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Mentions NCAA titles won by UCLA in 2004-05, but these are in water polo and tennis, not basketball.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 directly states UCLA's tenth National Championship win in 1974-75."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 provide partial information about UCLA winning NCAA championships in specific years (1964-65, 1967, 1971) but do not state the total number of championships."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 is irrelevant as it discusses NCAA titles in water polo and tennis, not basketball."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence documents provide compatible details about UCLA's NCAA basketball championships across different years, with one document directly stating the total number of championships.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 directly states UCLA's tenth National Championship win in 1974-75."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 provide partial information about UCLA winning NCAA championships in specific years (1964-65, 1967, 1971) but do not state the total number of championships."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 is irrelevant as it discusses NCAA titles in water polo and tennis, not basketball."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with one document directly stating the total number of championships. No significant conflicts or irrelevancies prevent a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "UCLA won their tenth National Championship in 1974-75.",
+        "citations": [
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d3 directly states UCLA's tenth National Championship win in 1974-75, providing a direct and complete answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly states that UCLA won their tenth National Championship in 1974-75, which is fully supported by the cited document d3."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9708,
+      "completion_tokens": 2016,
+      "total_tokens": 11724
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1626,
+        "completion_tokens": 386,
+        "total_tokens": 2012
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1581,
+        "completion_tokens": 485,
+        "total_tokens": 2066
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 906,
+        "completion_tokens": 369,
+        "total_tokens": 1275
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1087,
+        "completion_tokens": 257,
+        "total_tokens": 1344
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1361,
+        "completion_tokens": 282,
+        "total_tokens": 1643
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 702,
+        "completion_tokens": 50,
+        "total_tokens": 752
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 857,
+        "completion_tokens": 90,
+        "total_tokens": 947
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1588,
+        "completion_tokens": 97,
+        "total_tokens": 1685
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:45.570101",
+        "prompt_tokens": 1626,
+        "completion_tokens": 386,
+        "total_tokens": 2012,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:47.711393",
+        "prompt_tokens": 1581,
+        "completion_tokens": 485,
+        "total_tokens": 2066,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:49.368888",
+        "prompt_tokens": 906,
+        "completion_tokens": 369,
+        "total_tokens": 1275,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:50.714764",
+        "prompt_tokens": 1087,
+        "completion_tokens": 257,
+        "total_tokens": 1344,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:52.057742",
+        "prompt_tokens": 1361,
+        "completion_tokens": 282,
+        "total_tokens": 1643,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:52.967475",
+        "prompt_tokens": 702,
+        "completion_tokens": 50,
+        "total_tokens": 752,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:53.987177",
+        "prompt_tokens": 857,
+        "completion_tokens": 90,
+        "total_tokens": 947,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:54.913444",
+        "prompt_tokens": 1588,
+        "completion_tokens": 97,
+        "total_tokens": 1685,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:16:43.819629",
+  "last_updated_at": "2026-04-17T20:16:54.913934"
+}

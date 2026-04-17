@@ -1,0 +1,524 @@
+{
+  "sample_id": "#0171",
+  "query": "What U.S. state has the highest gross domestic product?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Gross domestic product by state U.S. 2023 - Statista The gross domestic product (GDP) of California was about 3.23 trillion US dollars in 2023, meaning that it contributed the most out of any state to the country ... Statista R identifies and awards industry leaders, top providers, and exceptional brands through exclusive rankings and top lists in collaboration with renowned media brands worldwide. For more details, visit our website. U.S. gross domestic product 2023, by state The gross domestic product (GDP) of California was about 3.23 trillion U.S. dollars in 2023, meaning that it contributed the most out of any state to the country\u2019s GDP in that year. In contrast, Vermont had the lowest GDP in the United States, with 35.07 billion U.S. dollars. What is GDP? Gross domestic product, or GDP, is the total monetary value of all goods and services produced by an economy within a certain time period. GDP is used by economists to determine the economic health of an area, as well as to determine the size of the economy. GDP can be determined for countries, states and provinces, and metropolitan areas. While GDP is a good measure of the absolute size of a country's economy and economic activity, it does account for many other factors, making it a poor indicator for measuring the cost or standard of living in a country, or for making cross-country comparisons. Currently, you are using a shared account. To use individual functions (e.g., mark statistics as favourites, set statistic alerts) please log in with your personal account. If you are an admin, please authenticate by logging in again. BEA. (March 29, 2024). Gross domestic product of the United States in 2023, by state (in billion current U.S. dollars) [Graph]. In Statista. Retrieved January 08, 2025, from https://www.statista.com/statistics/248023/us-gross-domestic-product-gdp-by-state/ BEA. \"Gross domestic product of the United States in 2023, by state (in billion current U.S. dollars).\" Chart. March 29, 2024. Statista. Accessed January 08, 2025. https://www.statista.",
+      "source_url": "https://www.statista.com/statistics/248023/us-gross-domestic-product-gdp-by-state/",
+      "timestamp": "2024-07-05"
+    },
+    {
+      "doc_id": "d2",
+      "text": "List of U.S. states and territories by GDP - Wikipedia The three U.S. states with the highest GDPs were California ($4.080 trillion), Texas ($2.695 trillion), and New York ($2.284 trillion). The three U.S. states ... Nominal GDP does not take into account differences in the cost of living in different countries, and the results can vary greatly from one year to another based on fluctuations in the exchange rates of the country's currency. Such fluctuations may change a country's ranking from one year to the next, even though they often make little or no difference in the standard of living of its population.[2] Overall, in the calendar year 2024, the United States' Nominal GDP at Current Prices totaled at $29.017 trillion, as compared to $25.744 trillion in 2022. The three U.S. states with the highest GDPs were California ($4.080 trillion), Texas ($2.695 trillion), and New York ($2.284 trillion). The three U.S. states with the lowest GDPs were Vermont ($45.4 billion), Wyoming ($53.0 billion), and Alaska ($69.8 billion).",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP",
+      "timestamp": "2024-12-31"
+    },
+    {
+      "doc_id": "d3",
+      "text": "The 50 US States' GDP Compared to Countries - PGC Group Texas, known for its vast landscapes and economic prowess, boasts a GDP of $2.56 trillion. This places the Lone Star State's economy on par ... Despite the high tax rates and being in New York\u2019s shadow (literally \u2013 yYou can easily view New Jersey\u2019s skyline from Manhattan), New Jersey has everything a business needs to succeed in the US. The easy commute to New York is a main selling point of course, but the short ferry ride to Manhattan isn\u2019t the only benefit of doing business in New Jersey. #11-#30 US States GDP Compared to Countries We\u2019ve covered the top 10 US states with the highest GDP and as we can see they are extremely competitive with some significant global markets. But we\u2019re not done there. There are 40 more states whose GDP we can compare to countries; including strong business states like North Carolina and Massachusetts, in addition to up and coming states like Colorado. 11. North Carolina North Carolina\u2019s GDP of $767 billion is comparable to Taiwan\u2019s economy. 30. Oklahoma #31-#50 US States GDP Compared to Countries Nope we\u2019re not done yet! We\u2019ve covered off the top 30 states in the US ranked by GDP. That\u2019s only 60% of the entire US. Let\u2019s count down the last 20. Although these states do not have as high GDP in comparison to the previous entries in this list, these remaining states are still equal to countries like New Zealand, Greece, and Slovenia. 31. Iowa Iowa\u2019s GDP of $249 billion is comparable to New Zealand\u2019s economy, which is $249 billion. Iowa\u2019s strong agriculture industry reflects New Zealand\u2019s own agricultural sector. 32. Nevada 33. Kansas Kansas, with a GDP of $226 billion, is comparable to Qatar\u2019s economy, which is $234 billion. 34. Nebraska Nebraska\u2019s GDP of $178 billion matches Ukraine\u2019s economy, which is $177 billion. Nebraska\u2019s strength in agriculture and manufacturing industries are similar to Ukraine\u2019s agricultural and industrial sectors. 35.",
+      "source_url": "https://pgcgroup.com/blog/us-states-gdp-compared-to-countries",
+      "timestamp": "2024-06-21"
+    },
+    {
+      "doc_id": "d4",
+      "text": "GDP by State | U.S. Bureau of Economic Analysis (BEA) A comprehensive measure of the economies of each state and the District of Columbia. GDP estimates the value of the goods and services produced in a state. GDP by State Gross Domestic Product by State and Personal Income by State, 3rd Quarter 2024 Real gross domestic product increased in 46 states and the District of Columbia in the third quarter of 2024, with the percent change ranging from 6.9 percent at an annual rate in Arkansas to \u20132.3 percent in North Dakota. Personal income, in current dollars, increased in 49 states and the District of Columbia, with the percent change ranging from 5.4 percent at an annual rate in Arkansas to \u20130.7 percent in North Dakota. Data ArchivePreviously published estimates contain historical data and have since been revised. What is GDP by State? A comprehensive measure of the economies of each state and the District of Columbia. GDP estimates the value of the goods and services produced in a state. The data include breakdowns of industries' contributions to each state economy.",
+      "source_url": "https://www.bea.gov/data/gdp/gdp-state",
+      "timestamp": "2024-12-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Gross Domestic Product (GDP) by State - Investopedia The top five states by real GDP in the United States are California, Texas, New York, Florida, and Illinois. The top five states by real GDP per capita in the ... According to the Bureau of Economic Analysis (BEA), the top five states by real GDP in the United States were California, Texas, New York, Florida, and Illinois as of the first quarter of 2024. Key Takeaways The United States has had the largest economy in the world since 1871, despite not having the largest landmass or population in the world. Though U.S. GDP is the highest in the world, it is not evenly spread amongst all states. Some states have low GDPs while some have GDPs higher than many other countries. The top five states by real GDP in the United States are California, Texas, New York, Florida, and Illinois. The top five states by real GDP per capita in the United States are New York, Massachusetts, Washington, California, and Connecticut. Understanding Gross Domestic Product (GDP) Gross domestic product is the total monetary or market value of all the finished goods and services produced within a region's borders over a specific period. A location's GDP is composed of all private and public consumption, government outlays, investments, additions to private inventories, paid-in construction costs, and the foreign balance of trade (BOT). Although GDP gives a good impression of the U.S. economy's status as a whole, it doesn't explain which states contribute the most or the least to the total. For example, Texas's real GDP in Q1 2024 was $2.09 trillion. Conversely, Vermont's real GDP for the same period was substantially (relatively speaking) lower at $35.57 billion. Determining which regions of the U.S. are the most economically healthy by making the distinction among state contributions becomes substantially easier. It's less informative to analyze GDP on an even smaller scale, considering our research finds that there were 19,500 cities, towns, and villages in the U.S. as of 2023, compared to just 50 states. Several factors contribute to how much GDP a state can generate.",
+      "source_url": "https://www.investopedia.com/articles/investing/112415/5-states-highest-gdp-capita.asp",
+      "timestamp": "2024-09-10"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Gross Domestic Product by State - RAND State Statistics Washington had the highest GDP growth (67.6%), followed by Utah (63%), North Dakota (60.2%), California (58.7%) and Oregon (54.8%). Alaska had the lowest GDP ... Similarly, Washington had the highest Per Capita GDP growth (5.3%) and Alaska had the lowest Per Capita GDP growth (0.7%). Table 1\u2014Gross Domestic Product by State, 2018 - 2019 Table 2\u2014Per Capita Gross Domestic Product by State, 2018 - 2019 Figure 1 shows the states with the highest GDP in 2019 and Figure 2 shows the states with the highest Per Capita GDP in 2019. Figure 1\u2014Gross Domestic Product by State, 2019 Figure 2\u2014Per Capita Gross Domestic Product by State, 2019 From 2010-2019, the US experienced GDP growth of 43% and per capita GDP growth of 34.7%. Washington had the highest GDP growth (67.6%), followed by Utah (63%), North Dakota (60.2%), California (58.7%) and Oregon (54.8%). Alaska had the lowest GDP growth (2.7%), followed by Wyoming (8%), Louisiana (13.6%), West Virginia (20.8%), and Connecticut (20.9%) (See Figure 3). The highest GDP Per Capita in 2010-2019 was California (49.9%), followed by Washington (48.4%), New York (45.8%), North Dakota (41.9%), and Utah (41.1%). The lowest was Alaska (0.2%), followed by Wyoming (5.3%), Louisiana (11.1%), District of Columbia (15.9%), and Connecticut (21.4%) (See Figure 4).",
+      "source_url": "https://statestatistics.org/blog/business-economics/gross-domestic-product-by-state",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d7",
+      "text": "List of U.S. States and Territories by GDP - GeeksforGeeks The state with the highest GDP in the USA is California. What is the economic capital of USA? The economic capital of the USA is considered to ... List of U.S. States and Territories by GDP List of U.S States by GDP: The Gross Domestic Product (GDP) of each state shows how strong its economy is. In the United States, different states have different GDPs because of things like population, resources, and industries. California has the highest GDP because it has a big economy with lots of tech, entertainment, and farming. Other big states like Texas, New York, and Florida also have high GDPs because they contribute a lot to the country's economy. Even smaller states like Delaware and Wyoming are important for things like finance, energy, and tourism. In this article, we'll look at a list of U.S. states and territories by their gross domestic product (GDP). The data comes from the Bureau of Economic Analysis (BEA) in 2022. They measure GDP by adding up the value of everything made and sold in each state. List of U.S. States by GDP",
+      "source_url": "https://www.geeksforgeeks.org/list-of-u-s-states-and-territories-by-gdp/",
+      "timestamp": "2024-03-13"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Top U.S. States by Real GDP and Per Capita Real GDP In 2022, California's large real GDP of $3.2T was driven mainly by the Real Estate and the Professional and Scientific industries, i.e. Silicon ... Top U.S. States by Real GDP and Per Capita Real GDP Real Gross Domestic Product (GDP) is often used as a measure of economic prosperity. GDP measures the dollar value of all finished (or final) goods and services produced in an economy over a specified timespan, usually a year or a quarter of a year. Here we use annual data. Finished goods and services are those ready for final use by consumers, businesses, or government. Finally, real GDP removes any increase in dollar values that occur strictly due to price increases, so that real GDP measures the increase in production of goods and services and not increases in dollar values due to inflation. With last December\u2019s release of GDP numbers by the Bureau of Economic Analysis (BEA), the top five states \u2013 which contribute 41% of the total U.S. GDP in 2022 \u2013 were California, Texas, New York, Florida, and Illinois, in that order. Figure 1 shows the real GDP for these states in trillions of dollars. Size matters. For a given level of gross domestic product per person, larger states have larger levels of GDP. That means that larger states \u2013 larger in population \u2013 have a leg up in the GDP rankings. But productivity also matters. Real GDP per person, real GDP per capita, is one way to think about productivity. In a sense it provides a measure of average productivity per person. For two states with the same population, the state with higher real GDP per person will have a larger real GDP. Industry structure also matters. In 2022, California\u2019s large real GDP of $3.2T was driven mainly by the Real Estate and the Professional and Scientific industries, i.e. Silicon Valley. Texas had the second highest real GDP of $1.9T, with its Energy industry contributing the largest share of GDP, followed by Manufacturing and then by Real Estate. New York ranked third in overall real GDP, with its Finance and Insurance industry contributing the largest share of GDP. Florida contributed $1.2T of the U.S. GDP in 2022, with its Tourism and its Real Estate industries leading the way.",
+      "source_url": "https://perc.tamu.edu/blog/2024/02/gdp-vs-per-capita-gdp.html",
+      "timestamp": "2024-02-29"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Gross Domestic Product by State and Personal Income by State, 3rd ... Farm earnings, which increased in 33 states, was the leading contributor to the increase in Arkansas, Alabama, Delaware, and Mississippi, the ... News Release Gross Domestic Product by State and Personal Income by State, 3rd Quarter 2024 Real gross domestic product increased in 46 states and the District of Columbia in the third quarter of 2024, with the percent change ranging from 6.9 percent at an annual rate in Arkansas to \u20132.3 percent in North Dakota, according to statistics released today by the U.S. Bureau of Economic Analysis (table 1). Current-dollar gross domestic product (GDP) increased in 49 states and the District of Columbia, with the percent change ranging from 8.9 percent at an annual rate in Arkansas to \u20132.6 percent in North Dakota (table 1). Personal income, in current dollars, increased in 49 states and the District of Columbia, with the percent change ranging from 5.4 percent at an annual rate in Arkansas to \u20130.7 percent in North Dakota (table 3). Real GDP In the third quarter of 2024, real GDP for the nation grew at an annual rate of 3.1 percent. Real GDP increased in 16 of the 23 industry groups for which BEA prepares quarterly state estimates. Retail trade, health care and social assistance, and information were the leading contributors to growth in real GDP nationally (table 2). Agriculture, forestry, fishing, and hunting, which increased in 25 states, was the leading contributor to growth in five states including Arkansas, Alabama, and Mississippi, the states with the largest increases in real GDP. In contrast, this industry was the leading offset to growth in 14 states including North Dakota, Nebraska, South Dakota, and Montana, the only states with declines in real GDP. Retail trade, which increased in all 50 states and the District of Columbia, was the leading contributor to growth in 39 states including Idaho, the state with the fourth-largest increase in real GDP. Mining, which increased in 17 states, was the leading contributor to growth in West Virginia, the fifth-largest growing state. Personal income",
+      "source_url": "https://www.bea.gov/news/2024/gross-domestic-product-state-and-personal-income-state-3rd-quarter-2024",
+      "timestamp": "2024-12-20"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States California's GDP at $3.23 trillion in 2023, explicitly stating it contributed the most among states."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly lists California as the U.S. state with the highest GDP ($4.080 trillion), also mentioning Texas and New York."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Texas's GDP at $2.56 trillion and discusses other states' GDPs, implying a ranking context."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Explains what GDP by state is and discusses GDP growth rates across states, but does not directly state which state has the highest GDP."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states California, Texas, New York, Florida, and Illinois are the top five states by real GDP, with California being the highest."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Focuses on GDP growth rates and per capita GDP growth, not the absolute highest GDP by state."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Clearly states California has the highest GDP in the USA and lists other high-GDP states like Texas and New York."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists the top five states by real GDP in 2022, with California at $3.2T, followed by Texas and New York."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Discusses GDP growth and personal income changes across states in Q3 2024, but does not identify the state with the highest overall GDP."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The gross domestic product (GDP) of California was about 3.23 trillion US dollars in 2023.",
+            "California contributed the most out of any state to the country's GDP in 2023."
+          ],
+          "reason": "Extracted specific GDP figures for California in 2023, directly answering the query about the state with the highest GDP."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The three U.S. states with the highest GDPs were California ($4.080 trillion), Texas ($2.695 trillion), and New York ($2.284 trillion)."
+          ],
+          "reason": "Identified California as the state with the highest GDP, along with the GDPs of the next two highest states, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Texas boasts a GDP of $2.56 trillion.",
+            "North Carolina\u2019s GDP of $767 billion is comparable to Taiwan\u2019s economy."
+          ],
+          "reason": "Extracted GDP figures for Texas and North Carolina, providing data points related to state economies, though not directly answering which state has the highest GDP."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "GDP estimates the value of the goods and services produced in a state.",
+            "Real gross domestic product increased in 46 states and the District of Columbia in the third quarter of 2024."
+          ],
+          "reason": "Provided a definition of GDP by state and a general trend of GDP growth, but no specific data on which state has the highest GDP."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The top five states by real GDP in the United States were California, Texas, New York, Florida, and Illinois as of the first quarter of 2024.",
+            "California had the highest real GDP in the United States as of the first quarter of 2024.",
+            "Texas's real GDP in Q1 2024 was $2.09 trillion."
+          ],
+          "reason": "Explicitly stated California as having the highest real GDP in Q1 2024 and provided specific figures for California and Texas, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Washington had the highest GDP growth (67.6%) from 2018-2019.",
+            "California had the highest GDP growth (58.7%) from 2018-2019.",
+            "The highest GDP Per Capita in 2010-2019 was California (49.9%)."
+          ],
+          "reason": "Focused on GDP growth and per capita GDP, not the absolute highest GDP, therefore not directly answering the query about the highest gross domestic product."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "The state with the highest GDP in the USA is California.",
+            "California has the highest GDP because it has a big economy with lots of tech, entertainment, and farming.",
+            "Other big states like Texas, New York, and Florida also have high GDPs."
+          ],
+          "reason": "Directly stated that California has the highest GDP in the USA and provided reasons for its high GDP, clearly answering the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The top five states by GDP in 2022 were California, Texas, New York, Florida, and Illinois, in that order.",
+            "In 2022, California's large real GDP was $3.2T.",
+            "Texas had the second highest real GDP of $1.9T in 2022."
+          ],
+          "reason": "Identified California as the state with the highest GDP in 2022 and provided its specific GDP value, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Real gross domestic product increased in 46 states and the District of Columbia in the third quarter of 2024.",
+            "Current-dollar gross domestic product (GDP) increased in 49 states and the District of Columbia in the third quarter of 2024."
+          ],
+          "reason": "Provided information on GDP changes and trends in the third quarter of 2024 but did not specify which state has the highest overall GDP."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States California had the highest GDP in 2023 and provides its value, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly identifies California as the state with the highest GDP and provides specific figures for the top states.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Provides GDP for Texas and North Carolina, which are related, but does not identify the state with the highest GDP.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Defines GDP and discusses general growth trends but provides no specific data on which state has the highest GDP.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly states California had the highest real GDP in Q1 2024 and provides supporting figures.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Focuses on GDP growth rates and per capita GDP, not the absolute highest gross domestic product.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Directly states California has the highest GDP and explains why, clearly answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Identifies California as the state with the highest GDP in 2022 and provides its specific GDP value.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "Discusses GDP increases across many states in Q3 2024 but does not identify which state has the highest overall GDP.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d5",
+          "d7",
+          "d8"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d6",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_california_highest_gdp",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple documents directly state that California has the highest GDP, providing specific figures and timeframes (e.g., 2023, Q1 2024, 2022)."
+          },
+          {
+            "label": "partial_context_other_high_gdp_states",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "One document provides GDP figures for Texas and North Carolina, which are relevant but do not identify the state with the absolute highest GDP."
+          },
+          {
+            "label": "irrelevant_gdp_trends_or_growth",
+            "doc_ids": [
+              "d4",
+              "d6",
+              "d9"
+            ],
+            "summary": "Several documents discuss GDP definitions, growth trends, or per capita GDP, but do not provide the specific information about which state has the highest gross domestic product."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting evidence consistently identifies California as having the highest GDP, with various documents providing specific figures and timeframes, and other documents offering partial or irrelevant context.",
+        "clusters": [
+          {
+            "label": "California has the highest GDP",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple sources confirm California has the highest GDP, citing figures from 2023, Q1 2024, and 2022."
+          },
+          {
+            "label": "Partial GDP context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Provides GDP figures for Texas and North Carolina, which are relevant but do not identify the highest GDP state."
+          },
+          {
+            "label": "Irrelevant GDP information",
+            "doc_ids": [
+              "d4",
+              "d6",
+              "d9"
+            ],
+            "summary": "Documents discuss GDP definitions, growth trends, or per capita GDP, not the absolute highest gross domestic product."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the claim that California has the highest GDP, with no significant conflicts or major gaps."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "California has the highest GDP, with supporting figures provided for 2023, Q1 2024, and 2022.",
+        "citations": [
+          "d1",
+          "d2",
+          "d5",
+          "d7",
+          "d8"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Multiple supporting documents consistently state that California has the highest GDP, providing specific figures and timeframes. No conflicts were found."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies California as having the highest GDP and is fully supported by the cited documents, which provide figures for multiple years."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 18594,
+      "completion_tokens": 3303,
+      "total_tokens": 21897
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3374,
+        "completion_tokens": 671,
+        "total_tokens": 4045
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3329,
+        "completion_tokens": 1120,
+        "total_tokens": 4449
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1434,
+        "completion_tokens": 590,
+        "total_tokens": 2024
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1782,
+        "completion_tokens": 379,
+        "total_tokens": 2161
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2119,
+        "completion_tokens": 293,
+        "total_tokens": 2412
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 768,
+        "completion_tokens": 43,
+        "total_tokens": 811
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 916,
+        "completion_tokens": 116,
+        "total_tokens": 1032
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4872,
+        "completion_tokens": 91,
+        "total_tokens": 4963
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:00.855163",
+        "prompt_tokens": 3374,
+        "completion_tokens": 671,
+        "total_tokens": 4045,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:04.645024",
+        "prompt_tokens": 3329,
+        "completion_tokens": 1120,
+        "total_tokens": 4449,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:07.914414",
+        "prompt_tokens": 1434,
+        "completion_tokens": 590,
+        "total_tokens": 2024,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:10.480513",
+        "prompt_tokens": 1782,
+        "completion_tokens": 379,
+        "total_tokens": 2161,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:12.323991",
+        "prompt_tokens": 2119,
+        "completion_tokens": 293,
+        "total_tokens": 2412,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:13.219727",
+        "prompt_tokens": 768,
+        "completion_tokens": 43,
+        "total_tokens": 811,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:14.269382",
+        "prompt_tokens": 916,
+        "completion_tokens": 116,
+        "total_tokens": 1032,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:15.637807",
+        "prompt_tokens": 4872,
+        "completion_tokens": 91,
+        "total_tokens": 4963,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T16:09:57.784511",
+  "last_updated_at": "2026-04-17T16:10:15.638503"
+}

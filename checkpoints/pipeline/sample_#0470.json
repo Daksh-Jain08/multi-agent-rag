@@ -1,0 +1,389 @@
+{
+  "sample_id": "#0470",
+  "query": "Why does club soda work so well getting stains out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why You Shouldn't Focus On Franchise Lead Generation Quantity - Brand Journalists you see these two stories: \u0393\u00c7\u00a3Robert Harris, founder of Chem-Dry was on a plane on his way to a very important business meeting \u0393\u00c7\u00f6 he had to go directly from the airport to the meeting, and he spilled his dinner on his tie. The flight attendant came over and used club soda to get the stain out, and he was amazed. \u0393\u00c7\u00ffYou mean club soda will take a stain out?\u0393\u00c7\u00d6 he asked. The attendant explained the old cleaning trick, and a lightbulb went off in Harris\u0393\u00c7\u00d6 head. \u0393\u00c7\u00ffI wonder,\u0393\u00c7\u00d6 he thought, \u0393\u00c7\u00ffif you could use club soda on a large",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Crafter's Creations: TGIF when I managed to spill a little of my soda pop on the fabric. I managed to get the spot cleaned but the fabric was wet so I couldn't work on it anymore for the day. This is as far as I got today. So, I guess the day didn't turn out too bad. At least you managed to get the soda stain out! Great you managed to get a few stitches in at work :D Looking good Dawn. How did you get the soda stain out? That happened to me the other day too and I a curious to",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "10 Examples of Bad Days That Will Make Yours Much Better \u0393\u00c7\u00f4 Facts WT concerned, the worst drink in the world to spill is red wine. First of all, you are out a glass of wine. Second of all, it is almost impossible to get wine stains out of carpeting. It can be done, and I have done it, but it is definitely a lot of work. Make sure to blot the stain; don\u0393\u00c7\u00d6t rub it in. Cold water helps, and so does baking soda. Previous article 16 Photos Showing That You Often Receive \u2568\u00f3he Unexpected Next article 11 Amusing Images That Will Definitely Make You Say \u0393\u00c7\u00ffThat\u0393\u00c7\u00d6s Crazy\u0393\u00c7\u00d6 16 Photos Showing That You",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Sorry We\u0393\u00c7\u00d6re No Longer An Art Gallery- But We\u0393\u00c7\u00d6ll Help You Clean Your Floors! \u0393\u00c7\u00f4 Flooring Tips & Tricks waste club soda, however, this can be a great way to get rid of certain stains. Some of the stains that club soda can clean effectively are beer stains and red wine stains. There are people that are saying that it isn\u0393\u00c7\u00d6t really the truth to use club soda for this type of stain removal. However, if you are doing it correctly, it will be easy to use. The problem is that people don\u0393\u00c7\u00d6t really know how to clean these stains using the club soda. You might want to have shaving cream at hand for cleaning spots on carpets Shaving",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "June, 2014 | Classic Cleaners Does Club Soda Really Work on Spills? Caring for your Household Items, Stain Removal Everyone \u0393\u00c7\u00a3knows\u0393\u00c7\u00a5 club soda is the ultimate remedy for instant stain removal, but is it all it\u0393\u00c7\u00d6s cracked up to be? Our 107-year-old professional trade association, the Dry-cleaning & Laundry Institute (DLI), recently completed an in-depth study of the merits of club soda [\u0393\u00c7\u00aa] Should you invest in an HE Washing Machine? High Efficiency (HE) washing machines can cost up to twice as much as a regular top loading washing machine, but over time, you will save money on your electric and water bills. There are  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document describes an anecdote where club soda was used to successfully remove a stain, suggesting its effectiveness. It hints at the origin of the idea for stain removal."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "This document mentions successfully getting a soda stain out of fabric using an unspecified method, and asks how it was done. It implies club soda might be involved or effective for such stains."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses removing wine stains and mentions baking soda, but does not explain why club soda works or if it is effective for stains."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "This document directly addresses using club soda for stain removal, mentioning it can clean beer and red wine stains effectively if done correctly. It acknowledges some skepticism but supports its use."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document questions the effectiveness of club soda for stain removal and mentions a study by the Dry-cleaning & Laundry Institute, directly addressing the query's premise."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "A flight attendant used club soda to remove a dinner stain from a tie."
+          ],
+          "reason": "Extracted the anecdote about club soda being used to remove a stain, which is relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A soda stain was removed from fabric."
+          ],
+          "reason": "Extracted the mention of successfully removing a soda stain from fabric, which is relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses removing wine stains with cold water and baking soda, but does not mention club soda for stain removal."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Club soda can be a great way to get rid of certain stains, such as beer and red wine stains.",
+            "Some people claim club soda is not effective for stain removal, but it can be if used correctly."
+          ],
+          "reason": "Extracted facts about club soda's effectiveness on specific stains and the caveat that proper technique is needed."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Dry-cleaning & Laundry Institute (DLI) completed a study on the merits of club soda for stain removal."
+          ],
+          "reason": "Extracted the fact that a professional organization studied club soda's stain removal capabilities, which is directly relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides an anecdote of club soda removing a stain, but doesn't explain why it works.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions a soda stain was removed, implying club soda's effectiveness, but lacks explanation.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses stain removal with cold water and baking soda, not club soda.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "States club soda is effective for certain stains and requires correct usage, but doesn't explain the mechanism.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Indicates a study exists on club soda's stain removal merits, suggesting effectiveness, but doesn't provide the 'why'.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "anecdotal_evidence",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Anecdotal evidence suggests club soda can remove stains, but lacks explanation."
+          },
+          {
+            "label": "general_effectiveness",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents generally indicate club soda's effectiveness on certain stains, with a note on proper usage, but do not detail the mechanism."
+          },
+          {
+            "label": "professional_study_mention",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "A study by a professional organization on club soda's stain removal merits is mentioned, implying potential effectiveness without providing the 'why'."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources suggests club soda is effective for stain removal, with some sources mentioning specific stains and a professional study. No direct contradictions were found.",
+        "clusters": [
+          {
+            "label": "anecdotal_and_general_effectiveness",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Anecdotal and general claims suggest club soda can remove certain stains like beer and wine, with proper usage being a factor."
+          },
+          {
+            "label": "professional_study_mention",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "A professional organization studied the merits of club soda for stain removal, implying its potential effectiveness."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely complementary and suggests club soda's effectiveness on certain stains, with no direct contradictions found. Support is sufficient for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Club soda is generally considered effective for removing certain stains, with anecdotal evidence and general indications of its utility. A professional organization has also studied its merits for stain removal.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence is complementary, with multiple sources indicating club soda's effectiveness on certain stains. No direct contradictions were found, and the support is sufficient."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer is well-grounded in the provided documents, which mention club soda's use for stain removal and a study on its merits. The answer accurately reflects the general effectiveness and the existence of research."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9531,
+      "completion_tokens": 1863,
+      "total_tokens": 11394
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1759,
+        "completion_tokens": 403,
+        "total_tokens": 2162
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1714,
+        "completion_tokens": 393,
+        "total_tokens": 2107
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 794,
+        "completion_tokens": 336,
+        "total_tokens": 1130
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 942,
+        "completion_tokens": 269,
+        "total_tokens": 1211
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1190,
+        "completion_tokens": 186,
+        "total_tokens": 1376
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 614,
+        "completion_tokens": 49,
+        "total_tokens": 663
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 768,
+        "completion_tokens": 119,
+        "total_tokens": 887
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1750,
+        "completion_tokens": 108,
+        "total_tokens": 1858
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:59.998756",
+        "prompt_tokens": 1759,
+        "completion_tokens": 403,
+        "total_tokens": 2162,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:01.896921",
+        "prompt_tokens": 1714,
+        "completion_tokens": 393,
+        "total_tokens": 2107,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:04.402970",
+        "prompt_tokens": 794,
+        "completion_tokens": 336,
+        "total_tokens": 1130,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:06.655655",
+        "prompt_tokens": 942,
+        "completion_tokens": 269,
+        "total_tokens": 1211,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:07.985853",
+        "prompt_tokens": 1190,
+        "completion_tokens": 186,
+        "total_tokens": 1376,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:09.067082",
+        "prompt_tokens": 614,
+        "completion_tokens": 49,
+        "total_tokens": 663,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:10.515589",
+        "prompt_tokens": 768,
+        "completion_tokens": 119,
+        "total_tokens": 887,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:15.781852",
+        "prompt_tokens": 1750,
+        "completion_tokens": 108,
+        "total_tokens": 1858,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:42:57.853917",
+  "last_updated_at": "2026-04-17T19:43:15.782363"
+}

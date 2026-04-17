@@ -1,0 +1,377 @@
+{
+  "sample_id": "#0580",
+  "query": "How does hitting a beer bottle with the bottom of another beer bottle make it foam up?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Don\u0393\u00c7\u00d6t Lose Your Head | Birth.Movies.Death. of beer with a head on it just looks good! It looks right. Not only that, it's an important part of enjoying the beer's flavour. But where does it come from? Like any carbonated drink, beer will foam up when it's poured because of the carbon dioxide that's dissolved in the liquid. Beer is naturally carbonated during fermentation by yeast as it eats up the sugars and burps out CO2. For centuries this was the only way to 'condition' beer (condition = how much fizz it has), and in the case of traditional cask- and bottle-conditioned beer and most homebrew,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d2",
+      "text": "McHugh's Award Winning Off-Licences. Blog two-way valve, the beer runs down the inside of the bottle, filling it from the bottom and displacing the carbon dioxide. The beer only ever touches the bottle. Basically, we pressurize the bottle, counter-fill it under the pressure and cap off with foam, much like a bottling plant. What this means is that we can now offer fresh draught beer straight from the keg, which can be bought to enjoy at home and even stays fresh for up to two months. We will have four rotating taps at any one time, and endeavour to pour only the best in local,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2015-03-07"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Media Confidential: 2016-04-10 Cordic's most memorable running gags at both WWSW and KDKA were fake advertisements for \"Olde Frothingslosh\", \"the pale stale ale with the foam on the bottom.\" The beer was supposedly brewed by Sir Reginald Frothingslosh at Upper Crudney-on-the-Thames. In 1955, Pittsburgh Brewing Company began issuing special Christmas-season cans and bottles of Olde Frothingslosh filled with real beer. Since the Cordic ad read \"The foam is on the bottom\", the bottles & cans were packed upside down in the cases. The humorous labels changed every year and became favorites of collectors. The brewery (as well as a few other small local",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Traditions \u0393\u00c7\u00f4 German Culture get to the bottom of a beer stein without losing a bit of the rich taste of German beer. Choose your favorite kind of beer, or the kind mostly advised by your friend. Open the bottle. While pouring the beer into the glass, listen to the mild sound of the flowing beer and the soft noise of escaping carbonic acid. Enjoy the vesicles rising up and over the glass and building into a gorgeous foam crown. Inhale the full bouquet of the beer flavor. And now \u0393\u00c7\u00aa.. take the first desired sip. Taste all beer ingredients: the grain, the hop,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How to Make Your Own Alcohol for Post-SHTF [VIDEO] | Survival Sullivan As the week progresses, the rate of bubbling will begin to slow down substantially. Within two weeks, it should reduce dramatically or even stop. It is now ready to be bottled. You can start the bottling process by transferring the beer, using a sanitized siphon, from the fomenter to your clean bottling bucket. Open up the spigot and then place the bottle filler into a bottle. By pressing the filler to the bottom of the bucket, the beer will begin to flow. With the right materials and enough practice, you can easily become a decent beer brewer in your own  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Explains why beer foams when poured due to dissolved CO2 and natural carbonation, but doesn't address the specific method of hitting bottles together."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Describes a bottling method that fills from the bottom to displace CO2, but does not mention hitting bottles or causing foam."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Mentions a novelty beer called 'Olde Frothingslosh' with foam on the bottom, but provides no explanation for how this is achieved or related to hitting bottles."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses pouring beer into a stein and the resulting foam from escaping carbonic acid, but not the method of hitting bottles."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Details the process of bottling homemade alcohol using a siphon, but does not mention hitting bottles or causing foam."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Beer will foam up when it's poured because of the carbon dioxide that's dissolved in the liquid.",
+            "Beer is naturally carbonated during fermentation by yeast as it eats up the sugars and burps out CO2."
+          ],
+          "reason": "Extracted facts explaining that beer foams due to dissolved carbon dioxide and natural carbonation during fermentation by yeast."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document describes a bottling process for draught beer and does not contain information about how hitting a beer bottle with another makes it foam."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses a novelty beer brand called \"Olde Frothingslosh\" and its marketing, not the physical process of beer foaming."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Pouring beer into a glass releases escaping carbonic acid.",
+            "Vesicles rising up and over the glass build into a foam crown."
+          ],
+          "reason": "Extracted facts describing the release of carbonic acid and the formation of a foam crown when pouring beer."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document is about homebrewing alcohol and bottling beer, not about the specific phenomenon of hitting two beer bottles together to create foam."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Explains beer foams due to dissolved CO2 and fermentation, but doesn't directly address the impact of hitting bottles together.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a bottling process for draught beer and does not contain information about how hitting a beer bottle with another makes it foam.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a novelty beer brand and its marketing, not the physical process of beer foaming.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Describes foam formation from releasing carbonic acid when pouring, which is related to the CO2 in beer, but doesn't explain the bottle-hitting mechanism.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document is about homebrewing and bottling beer, not about the specific phenomenon of hitting two beer bottles together to create foam.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_context_on_foaming",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 explain the general principles of beer foaming due to dissolved carbon dioxide and its release, but do not directly address the specific query about hitting bottles together."
+          },
+          {
+            "label": "irrelevant_documents",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 are irrelevant as they discuss bottling processes, marketing, or homebrewing without addressing the core question."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence explains the general principles of beer foaming but does not contain information directly addressing the specific query about hitting beer bottles together to create foam. Therefore, there is no conflict among the relevant pieces of information.",
+        "clusters": [
+          {
+            "label": "partial_context_on_foaming",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 explain that beer foams due to dissolved carbon dioxide and its release, but do not address the specific query about hitting bottles together."
+          },
+          {
+            "label": "irrelevant_documents",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 are irrelevant as they discuss bottling processes, marketing, or homebrewing without addressing the core question."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided evidence is only partially relevant and does not directly address the user's specific question about hitting bottles together. Therefore, the support is too weak for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided evidence is only partially relevant and does not directly address the user's specific question about hitting bottles together. Therefore, the support is too weak for a reliable answer.",
+        "final_reasoning": "The available documents explain beer foaming principles but do not address the specific action of hitting bottles together. Abstaining due to insufficient direct evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. The documents do not explain how hitting a beer bottle with another bottle causes foaming."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8627,
+      "completion_tokens": 1838,
+      "total_tokens": 10465
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1451,
+        "completion_tokens": 376,
+        "total_tokens": 1827
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 377,
+        "total_tokens": 1783
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 795,
+        "completion_tokens": 358,
+        "total_tokens": 1153
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 959,
+        "completion_tokens": 242,
+        "total_tokens": 1201
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1194,
+        "completion_tokens": 237,
+        "total_tokens": 1431
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 634,
+        "completion_tokens": 54,
+        "total_tokens": 688
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 793,
+        "completion_tokens": 103,
+        "total_tokens": 896
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1395,
+        "completion_tokens": 91,
+        "total_tokens": 1486
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:33.663609",
+        "prompt_tokens": 1451,
+        "completion_tokens": 376,
+        "total_tokens": 1827,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:36.325526",
+        "prompt_tokens": 1406,
+        "completion_tokens": 377,
+        "total_tokens": 1783,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:38.129568",
+        "prompt_tokens": 795,
+        "completion_tokens": 358,
+        "total_tokens": 1153,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:39.482492",
+        "prompt_tokens": 959,
+        "completion_tokens": 242,
+        "total_tokens": 1201,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:41.342696",
+        "prompt_tokens": 1194,
+        "completion_tokens": 237,
+        "total_tokens": 1431,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:42.587043",
+        "prompt_tokens": 634,
+        "completion_tokens": 54,
+        "total_tokens": 688,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:43.801389",
+        "prompt_tokens": 793,
+        "completion_tokens": 103,
+        "total_tokens": 896,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:44.810918",
+        "prompt_tokens": 1395,
+        "completion_tokens": 91,
+        "total_tokens": 1486,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:09:30.800159",
+  "last_updated_at": "2026-04-17T20:09:44.811743"
+}

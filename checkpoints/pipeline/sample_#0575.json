@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0575",
+  "query": "Who was a member of the political party Workers' Party of Singapore?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Chinese authorities, Marshall spoke with Zhou and managed to have them released. After returning from China, Marshall stayed on the backbenches before quitting the Labour Front and as a member of the Legislative Assembly in 1957. On 7 November 1957, he founded the Workers' Party of Singapore (WP). He won a by-election in Anson on 15 July 1961. Marshall lost his seat in Cairnhill Single Member Constituency to Lim Yew Hock, the Chief Minister, in the 1959 general election as a WP candidate, but won in Anson Single Member Constituency in the 1961 by-election. After losing his seat again in",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "criticism by opposition parties. He also chided the WP for its \"failure to understand what makes inter-racialism work in Singapore and why we are different from the rest of the world\", referring the four points brought up by Ng Eng Hen as \"poisons\" Workers' Party chairman Sylvia Lim released a press statement on 22 January, responding to each of the four \"time bombs\" criticised by Ng and adding that the party was standing firmly by its manifesto. On 19 March, Lee Hsien Loong said that PAP was aiming to win all the constituencies including the two opposition wards in Hougang",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Singapore Democratic Party The Singapore Democratic Party (abbrev: SDP; ; ; ) is a social liberal political party in Singapore. The party was founded in 1980 by Chiam See Tong, who as Secretary-General became the party's first Member of Parliament (MP) in 1984 when he was elected as MP for Potong Pasir. At the 1991 general election, the party's best ever performance, two further SDP members, Ling How Doong and Cheo Chai Chen, were elected to Parliament giving the party a total of three MPs. However, Chiam fell out with the party's Central Executive Committee in 1993 and subsequently left",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2007-11-15"
+    },
+    {
+      "doc_id": "d4",
+      "text": "the main opposition party at the time, the Barisan Sosialis, boycotted the elections. The PAP maintained this 100% electoral record at the 1972, 1976 and 1980 general elections and all intervening by-elections up to 1981. In 1971, Jeyaretnam led a group of lawyers who took over the opposition Workers' Party (WP, which had been founded in 1957 by Singapore's former Chief Minister, David Marshall, but had become a fairly small and insignificant party during the 1960s), and became the party's Secretary-General. Jeyaretnam first stood for parliamentary elections in at the 1972 general election, when he contested the Farrer Park constituency",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1990-12-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "change, saying that: \"I cannot look the other way as more and more people experience the adverse effects of current PAP policies.\" Prior to the 2011 general election, Channel NewsAsia invited the main political parties in Singapore to record an hour-long televised pre-election forum (the first forum of this nature in Singapore since the 1988 general election). The programme, in English entitled, \"A political forum on Singapore's future\", brought together the ruling People's Action Party (PAP) and four opposition parties to discuss long and short-term challenges for the country. Dr Wijeysingha represented the SDP in the discussion. Just days before  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states David Marshall founded the Workers' Party of Singapore (WP) and was a member."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Workers' Party chairman Sylvia Lim and the party's manifesto, indicating membership and activity."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the Singapore Democratic Party (SDP) and its founder Chiam See Tong, not the Workers' Party."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States Jeyaretnam took over the Workers' Party (WP) and became its Secretary-General, confirming membership."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Mentions the SDP and PAP, but not the Workers' Party or its members."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "David Marshall founded the Workers' Party of Singapore (WP) on 7 November 1957.",
+            "Marshall won a by-election in Anson on 15 July 1961 as a WP candidate.",
+            "Marshall lost his seat in Cairnhill to Lim Yew Hock in the 1959 general election as a WP candidate."
+          ],
+          "reason": "Extracted facts about David Marshall's founding of and candidacy within the Workers' Party of Singapore, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Workers' Party chairman Sylvia Lim released a press statement on 22 January."
+          ],
+          "reason": "Extracted a fact about a Workers' Party member's action, relevant to the query about the party."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses the Singapore Democratic Party (SDP) and its members, not the Workers' Party of Singapore."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "J.B. Jeyaretnam led a group of lawyers who took over the opposition Workers' Party (WP) in 1971.",
+            "Jeyaretnam became the Secretary-General of the Workers' Party (WP).",
+            "The Workers' Party (WP) was founded in 1957 by David Marshall."
+          ],
+          "reason": "Extracted facts about J.B. Jeyaretnam's leadership and the founding of the Workers' Party, directly relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document mentions the People's Action Party (PAP) and the Singapore Democratic Party (SDP), but not the Workers' Party of Singapore."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states David Marshall founded the Workers' Party of Singapore and was a candidate, confirming his membership.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies Sylvia Lim as the Workers' Party chairman, confirming her membership in the party.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the Singapore Democratic Party (SDP), not the Workers' Party of Singapore.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Confirms J.B. Jeyaretnam led and became Secretary-General of the Workers' Party, establishing his membership.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document mentions other political parties (PAP, SDP) but provides no information about the Workers' Party of Singapore.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "founding_and_leadership",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide direct evidence about the founding of the Workers' Party by David Marshall and the leadership roles of J.B. Jeyaretnam."
+          },
+          {
+            "label": "party_membership_and_actions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 confirms the membership and actions of Sylvia Lim within the Workers' Party."
+          },
+          {
+            "label": "irrelevant_parties",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they focus on other political parties (SDP, PAP) and do not contain information about the Workers' Party."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence documents are complementary, with different clusters detailing the founding of the Workers' Party, its leadership, and specific member actions, without any contradictions.",
+        "clusters": [
+          {
+            "label": "founding_and_leadership",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide direct evidence about the founding of the Workers' Party by David Marshall and the leadership roles of J.B. Jeyaretnam."
+          },
+          {
+            "label": "party_membership_and_actions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 confirms the membership and actions of Sylvia Lim within the Workers' Party."
+          },
+          {
+            "label": "irrelevant_parties",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they focus on other political parties (SDP, PAP) and do not contain information about the Workers' Party."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and coherent, with no conflicts. The documents directly support the answer by detailing the party's founding, leadership, and member actions."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Workers' Party was founded by David Marshall, with J.B. Jeyaretnam holding leadership roles. Sylvia Lim is confirmed as a member with specific actions within the party.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide a coherent narrative on the Workers' Party founding, leadership, and member actions, directly answering the query without contradictions."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately identifying David Marshall as the founder and mentioning J.B. Jeyaretnam and Sylvia Lim's involvement with the Workers' Party of Singapore."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9071,
+      "completion_tokens": 2018,
+      "total_tokens": 11089
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 348,
+        "total_tokens": 1793
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1400,
+        "completion_tokens": 487,
+        "total_tokens": 1887
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 891,
+        "completion_tokens": 332,
+        "total_tokens": 1223
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1034,
+        "completion_tokens": 296,
+        "total_tokens": 1330
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1307,
+        "completion_tokens": 282,
+        "total_tokens": 1589
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 701,
+        "completion_tokens": 50,
+        "total_tokens": 751
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 856,
+        "completion_tokens": 116,
+        "total_tokens": 972
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1437,
+        "completion_tokens": 107,
+        "total_tokens": 1544
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:28.743312",
+        "prompt_tokens": 1445,
+        "completion_tokens": 348,
+        "total_tokens": 1793,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:30.795063",
+        "prompt_tokens": 1400,
+        "completion_tokens": 487,
+        "total_tokens": 1887,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:32.119901",
+        "prompt_tokens": 891,
+        "completion_tokens": 332,
+        "total_tokens": 1223,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:33.594242",
+        "prompt_tokens": 1034,
+        "completion_tokens": 296,
+        "total_tokens": 1330,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:35.069296",
+        "prompt_tokens": 1307,
+        "completion_tokens": 282,
+        "total_tokens": 1589,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:36.040879",
+        "prompt_tokens": 701,
+        "completion_tokens": 50,
+        "total_tokens": 751,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:37.366909",
+        "prompt_tokens": 856,
+        "completion_tokens": 116,
+        "total_tokens": 972,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:38.503156",
+        "prompt_tokens": 1437,
+        "completion_tokens": 107,
+        "total_tokens": 1544,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:08:27.089296",
+  "last_updated_at": "2026-04-17T20:08:38.503760"
+}

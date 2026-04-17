@@ -1,0 +1,413 @@
+{
+  "sample_id": "#0576",
+  "query": "Who was the mlb rookie of the year?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Carlos Correa Carlos Javier Correa Oppenheimer (born September 22, 1994) is a Puerto Rican professional baseball shortstop for the Houston Astros of Major League Baseball (MLB). The Astros selected Correa with first overall selection of the 2012 MLB draft. Correa made his MLB debut in 2015 and he won the American League (AL) Rookie of the Year Award. In 2017, Correa appeared in the World Baseball Classic, won the AL Player of the Month Award for May, was named an MLB All-Star, and won the 2017 World Series with the Astros. Correa was born in Ponce, Puerto Rico, to Carlos",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Florida, and was selected by the Marlins in the first round of the 2011 MLB draft. Fern\u251c\u00edndez made his MLB debut with the Marlins on April 7, 2013. He was named to the 2013 MLB All-Star Game and won the National League (NL) Rookie of the Month Award in July and August. After the season, he won the NL Rookie of the Year Award and finished third in Cy Young Award balloting. He underwent Tommy John surgery during the 2014 season, and made the MLB All-Star Game again in 2016. Fern\u251c\u00edndez died in a boating crash off the coast of",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2008-10-23"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Major League Baseball Rookie of the Year Award In Major League Baseball, the Rookie of the Year Award is annually given to one player from each league as voted on by the Baseball Writers' Association of America (BBWAA). The award was established in 1940 by the Chicago chapter of the BBWAA, which selected an annual winner from 1940 through 1946. The award became national in 1947; Jackie Robinson, the Brooklyn Dodgers' second baseman, won the inaugural award. One award was presented for both leagues in 1947 and 1948; since 1949, the honor has been given to one player each in",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2010-10-18"
+    },
+    {
+      "doc_id": "d4",
+      "text": "aren't rookies.\" Past winners such as Jackie Robinson, Don Newcombe, and Sam Jethroe had professional experience in the Negro Leagues. Major League Baseball Rookie of the Year Award In Major League Baseball, the Rookie of the Year Award is annually given to one player from each league as voted on by the Baseball Writers' Association of America (BBWAA). The award was established in 1940 by the Chicago chapter of the BBWAA, which selected an annual winner from 1940 through 1946. The award became national in 1947; Jackie Robinson, the Brooklyn Dodgers' second baseman, won the inaugural award. One award was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "was selected as the National League Rookie of the Year. In 1995, he was twice selected as National League Player of the Week (April 30 and July 5), he won the Rawlings Gold Glove Award and was selected to the 1995 Major League Baseball All-Star Game. He flew out to right field in his one at-bat in the All-Star game. He also competed in the Home Run Derby. Overall, he hit .285 with 26 home runs, 88 RBI, and 14 stolen bases. He had two hits in nine at-bats for the Dodgers in the 1995 National League Division Series loss  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2019"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Carlos Correa won the American League Rookie of the Year Award in 2015, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Jose Fernandez won the National League Rookie of the Year Award, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Provides context about the MLB Rookie of the Year Award, its history, and voting process, which is relevant background information."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses the eligibility for the Rookie of the Year Award and its history, providing relevant context to the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that a player (name not fully visible in snippet) was selected as the National League Rookie of the Year, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Carlos Correa won the American League (AL) Rookie of the Year Award in 2015."
+          ],
+          "reason": "Extracted the specific fact about Carlos Correa winning the AL Rookie of the Year award in 2015, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Jose Fernandez won the National League (NL) Rookie of the Year Award after his debut in 2013."
+          ],
+          "reason": "Extracted the specific fact about Jose Fernandez winning the NL Rookie of the Year award, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Major League Baseball Rookie of the Year Award is given annually to one player from each league.",
+            "The award became national in 1947, with Jackie Robinson winning the inaugural award.",
+            "Since 1949, the honor has been given to one player each in both leagues."
+          ],
+          "reason": "Extracted facts about the history and structure of the MLB Rookie of the Year Award, providing context to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Major League Baseball Rookie of the Year Award is given annually to one player from each league.",
+            "Jackie Robinson won the inaugural award in 1947."
+          ],
+          "reason": "Extracted facts about the MLB Rookie of the Year Award, including its establishment and the first winner, which are relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The document mentions a player who was selected as the National League Rookie of the Year, but does not name them."
+          ],
+          "reason": "Identified that the document refers to a National League Rookie of the Year but lacks the specific name, thus extracting this partial information."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states Carlos Correa won the American League Rookie of the Year Award in 2015, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states Jose Fernandez won the National League Rookie of the Year Award, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Provides context about the award's structure and history but does not name a specific winner.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions the award's structure and the first winner, Jackie Robinson, but doesn't cover all potential answers.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Indicates a National League Rookie of the Year exists but fails to provide the name, offering incomplete information.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2"
+        ],
+        "partial_docs": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_al_rookie",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly identifies Carlos Correa as the American League Rookie of the Year in 2015."
+          },
+          {
+            "label": "direct_support_nl_rookie",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly identifies Jose Fernandez as the National League Rookie of the Year."
+          },
+          {
+            "label": "award_context_and_history",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 provide general context about the MLB Rookie of the Year Award, including its structure and historical winners like Jackie Robinson, but do not name specific recent winners."
+          },
+          {
+            "label": "partial_nl_rookie_info",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions a National League Rookie of the Year but fails to provide the name, offering incomplete information."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides distinct information about different Rookie of the Year award winners and the award's history, with no contradictions.",
+        "clusters": [
+          {
+            "label": "Carlos Correa AL Rookie of the Year",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Carlos Correa won the American League Rookie of the Year Award in 2015."
+          },
+          {
+            "label": "Jose Fernandez NL Rookie of the Year",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Jose Fernandez won the National League Rookie of the Year Award."
+          },
+          {
+            "label": "Award Context and History",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "The MLB Rookie of the Year Award is given annually to one player from each league, with Jackie Robinson winning the inaugural award in 1947."
+          },
+          {
+            "label": "Incomplete NL Rookie of the Year Information",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "A player was selected as the National League Rookie of the Year, but their name is not provided."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and complementary, providing distinct information about different award winners and award history without any contradictions."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Carlos Correa was the American League Rookie of the Year in 2015, and Jose Fernandez was the National League Rookie of the Year. The MLB Rookie of the Year Award has been given annually since 1947, with Jackie Robinson winning the inaugural award.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents directly identify the winners of the AL and NL Rookie of the Year awards and provide historical context for the award."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately identifies both the AL and NL Rookie of the Year winners and provides historical context for the award, all of which are directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9240,
+      "completion_tokens": 2125,
+      "total_tokens": 11365
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1454,
+        "completion_tokens": 360,
+        "total_tokens": 1814
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1409,
+        "completion_tokens": 490,
+        "total_tokens": 1899
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 880,
+        "completion_tokens": 338,
+        "total_tokens": 1218
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1031,
+        "completion_tokens": 352,
+        "total_tokens": 1383
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1344,
+        "completion_tokens": 312,
+        "total_tokens": 1656
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 755,
+        "completion_tokens": 40,
+        "total_tokens": 795
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 135,
+        "total_tokens": 1035
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1467,
+        "completion_tokens": 98,
+        "total_tokens": 1565
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:40.806290",
+        "prompt_tokens": 1454,
+        "completion_tokens": 360,
+        "total_tokens": 1814,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:44.060445",
+        "prompt_tokens": 1409,
+        "completion_tokens": 490,
+        "total_tokens": 1899,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:45.791634",
+        "prompt_tokens": 880,
+        "completion_tokens": 338,
+        "total_tokens": 1218,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:47.482965",
+        "prompt_tokens": 1031,
+        "completion_tokens": 352,
+        "total_tokens": 1383,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:49.088714",
+        "prompt_tokens": 1344,
+        "completion_tokens": 312,
+        "total_tokens": 1656,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:50.043406",
+        "prompt_tokens": 755,
+        "completion_tokens": 40,
+        "total_tokens": 795,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:51.165144",
+        "prompt_tokens": 900,
+        "completion_tokens": 135,
+        "total_tokens": 1035,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:52.196470",
+        "prompt_tokens": 1467,
+        "completion_tokens": 98,
+        "total_tokens": 1565,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:08:38.511819",
+  "last_updated_at": "2026-04-17T20:08:52.197491"
+}

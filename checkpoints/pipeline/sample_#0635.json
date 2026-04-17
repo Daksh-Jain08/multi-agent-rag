@@ -1,0 +1,393 @@
+{
+  "sample_id": "#0635",
+  "query": "Which song has Flo Rida as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Sugar\" and \"Be on You\" peaked in the top twenty of the \"Billboard\" Hot 100. \"R.O.O.T.S.\" peaked at number 8 in the US and number 5 in the UK. In 2009, Flo Rida also appeared on \"The X Factor\" winner Alexandra Burke's \"Bad Boys\", a number-one single in both Ireland, and the UK. The following year, a featured appearance on The Saturdays' \"Higher\" managed to reach number 10 in the UK. Flo Rida's next two studio albums were announced in 2010 as a two-part oeuvre. \"Only One Flo (Part 1)\", which was released in November 2010 to showcase melodic talent,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2019-02-14"
+    },
+    {
+      "doc_id": "d2",
+      "text": "on \"The Tonight Show Starring Jimmy Fallon\", a halftime performance at an NFL playoff game on January 16, and its appearance as WrestleMania 32's theme song on April 3, jumping places from 23\u0393\u00c7\u00f412 and becoming the track to gain the most digital sales in a week on the chart. Steep rises in performance continued as the song once again jumped to number five the following week with the issue dated February 9, 2016, becoming Flo Rida's seventh top 5 single in his native United States. The song has been certified quadruple Platinum in the US. The song sold 2,217,000 copies",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rida performed his new single \"\"I Cry\"\" on \"America's Got Talent\". In an interview with New York Music News, Flo Rida said he is currently recording his next album and that he has finished shooting the music video for \"Let It Roll\". On December 9, he performed \"Let it Roll\" and \"Wild Ones\" at the 2012 edition of WWE's Tribute to the Troops. In November 2012, he collaborated with Olly Murs for his song \"Troublemaker\". In June 2013, Flo Rida collaborated with Marc Mysterio on the song \"Booty on the Floor\" to benefit the families and victims of the Boston",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "it was also featured in The Rock's Road to Wrestlemania vignettes where he prepares for his match with John Cena at the event. Flo Rida performed the songs \"Good Feeling\" and \"Wild Ones\" live at the event to precede Rock's entrance for the match. With over 6.5 million copies sold globally, it is Flo Rida's fourth best selling and one of the top 250 best-selling singles. The \"Titanium\" project got Sia into Guetta's powerful inner circle, including Atlantic Records director of A&R Ben Maddahi, who then introduced Sia to Flo Rida and his team, yielding \"Wild Ones\". The song serves",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023-04-13"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mike Epps makes a cameo appearance in the video. The TV Version does not have the G-Force Clips, instead, people are jumping in a hall and Furtado is animated. Jump (Flo Rida song) \"Jump\" is the fourth official single taken from Flo Rida's second album \"R.O.O.T.S.\" Nelly Furtado makes an appearance on the song with an upbeat hook. Flo-Rida said: \"I used a whole different delivery on this one. We're talking about different situations to get people hype in the club. 'Jump!' Whether you're an athlete running in the stadium or you're in the club. Get hype!\" The song was  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Flo Rida as a performer on \"Bad Boys\" and \"Higher\", and lists his albums and singles."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses a song's performance and sales, mentioning it became Flo Rida's seventh top 5 single in the US."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Explicitly lists songs Flo Rida performed or collaborated on, including \"I Cry\", \"Let It Roll\", \"Wild Ones\", and \"Troublemaker\"."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Flo Rida performed \"Good Feeling\" and \"Wild Ones\" live, and collaborated on \"Wild Ones\"."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Identifies \"Jump\" as a Flo Rida song and mentions Nelly Furtado's appearance on it."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In 2009, Flo Rida appeared on Alexandra Burke's \"Bad Boys\".",
+            "Flo Rida featured on The Saturdays' \"Higher\", which reached number 10 in the UK."
+          ],
+          "reason": "Extracted facts about Flo Rida's featured performances on songs by other artists, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The song became Flo Rida's seventh top 5 single in the United States."
+          ],
+          "reason": "Extracted a fact about Flo Rida's chart performance, which implies his involvement as a performer on a song."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Flo Rida performed his new single \"\"I Cry\"\" on \"America's Got Talent\".",
+            "Flo Rida performed \"Let it Roll\" and \"Wild Ones\" at the 2012 edition of WWE's Tribute to the Troops.",
+            "In November 2012, Flo Rida collaborated with Olly Murs for his song \"Troublemaker\".",
+            "In June 2013, Flo Rida collaborated with Marc Mysterio on the song \"Booty on the Floor\"."
+          ],
+          "reason": "Extracted facts detailing Flo Rida's performances and collaborations on specific songs, directly addressing the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Flo Rida performed the songs \"Good Feeling\" and \"Wild Ones\" live at an event.",
+            "The song \"Wild Ones\" was a collaboration between Sia and Flo Rida."
+          ],
+          "reason": "Extracted facts about Flo Rida performing specific songs and collaborating on \"Wild Ones\", directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "\"Jump\" is the fourth official single taken from Flo Rida's second album \"R.O.O.T.S.\".",
+            "Nelly Furtado makes an appearance on the song \"Jump\" by Flo Rida."
+          ],
+          "reason": "Extracted facts identifying \"Jump\" as a Flo Rida song and mentioning a featured artist, directly answering the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states Flo Rida performed on \"Bad Boys\" and was featured on \"Higher\".",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Implies Flo Rida performed a song by mentioning his chart performance, but doesn't name the song.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Lists multiple songs Flo Rida performed or collaborated on, directly answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Mentions Flo Rida performed \"Good Feeling\" and collaborated on \"Wild Ones\".",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Identifies \"Jump\" as a Flo Rida song and mentions a featured artist.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_performances_collaborations",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents directly list Flo Rida's featured performances and collaborations on specific songs."
+          },
+          {
+            "label": "implied_support_chart_performance",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document implies Flo Rida's involvement through chart performance but does not name the song."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence supports the query by listing Flo Rida's performances and collaborations on various songs, with one document implying involvement through chart success.",
+        "clusters": [
+          {
+            "label": "direct_support_performances_collaborations",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents directly list Flo Rida's featured performances and collaborations on specific songs like \"Bad Boys\", \"Higher\", \"Troublemaker\", \"Booty on the Floor\", \"Good Feeling\", \"Wild Ones\", and \"Jump\"."
+          },
+          {
+            "label": "implied_support_chart_performance",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document implies Flo Rida's involvement on a song by mentioning its chart performance as a top 5 single in the US, without naming the song."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and directly supports the query by listing Flo Rida's performances and collaborations. No significant conflicts or misinformation risks are present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Flo Rida has been featured on songs such as \"Bad Boys,\" \"Higher,\" \"Troublemaker,\" \"Booty on the Floor,\" \"Good Feeling,\" \"Wild Ones,\" and \"Jump.\" One document also implies his involvement in a song that reached the top 5 on US charts.",
+        "citations": [
+          "d1",
+          "d3",
+          "d4",
+          "d5",
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents directly list Flo Rida's featured performances and collaborations on specific songs, with one document implying involvement through chart performance."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately listing songs Flo Rida performed on or was featured in, with correct citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9125,
+      "completion_tokens": 2019,
+      "total_tokens": 11144
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1466,
+        "completion_tokens": 374,
+        "total_tokens": 1840
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1421,
+        "completion_tokens": 579,
+        "total_tokens": 2000
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 962,
+        "completion_tokens": 318,
+        "total_tokens": 1280
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1096,
+        "completion_tokens": 216,
+        "total_tokens": 1312
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1305,
+        "completion_tokens": 246,
+        "total_tokens": 1551
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 617,
+        "completion_tokens": 48,
+        "total_tokens": 665
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 770,
+        "completion_tokens": 146,
+        "total_tokens": 916
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1488,
+        "completion_tokens": 92,
+        "total_tokens": 1580
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:24.815033",
+        "prompt_tokens": 1466,
+        "completion_tokens": 374,
+        "total_tokens": 1840,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:26.807138",
+        "prompt_tokens": 1421,
+        "completion_tokens": 579,
+        "total_tokens": 2000,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:29.533458",
+        "prompt_tokens": 962,
+        "completion_tokens": 318,
+        "total_tokens": 1280,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:31.512152",
+        "prompt_tokens": 1096,
+        "completion_tokens": 216,
+        "total_tokens": 1312,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:33.134621",
+        "prompt_tokens": 1305,
+        "completion_tokens": 246,
+        "total_tokens": 1551,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:33.995475",
+        "prompt_tokens": 617,
+        "completion_tokens": 48,
+        "total_tokens": 665,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:35.025746",
+        "prompt_tokens": 770,
+        "completion_tokens": 146,
+        "total_tokens": 916,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:36.452124",
+        "prompt_tokens": 1488,
+        "completion_tokens": 92,
+        "total_tokens": 1580,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:23:23.120448",
+  "last_updated_at": "2026-04-17T20:23:36.452760"
+}

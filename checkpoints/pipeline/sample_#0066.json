@@ -1,0 +1,493 @@
+{
+  "sample_id": "#0066",
+  "query": "How many undergraduate students enrolled in Reed College in the most recent fall semester?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Historical Enrollment (fall census headcount) - Institutional Research New Undergraduate Students (fall) \u00b7 Total new, 422 ; Continuing Undergraduate Students (fall) \u00b7 Total continuing, 998 ; Special Programs (fall) \u00b7 Total special, 57 ... Enrollment Grand Totals (annual full-paying equivalent or FPE\u2020\u2020) \u2020Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% of full time, 0.5 FTE equals 50% or half time. FTE can be used to represent percentage of faculty time teaching, or time spent as a student. For example, a faculty member may teach three-fifths of the time, or 0.60 FTE; a quarter-time student would be 0.25 FTE. \u2020\u2020Full Paying Equivalent (FPE) is derived from dividing total tuition dollars collected by the full-time tuition rate. Tuition dollars collected include cash, loan, and financial aid monies used to pay tuition. A 1,230 FPE represents tuition for 1,230 full-paying students, though this may consist of some part-time and full-paying students. *Fall only, not annual **Starting fall 2013 students studying off-campus are not included in the enrollment totals. Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment_hist.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Enrollment - Institutional Research - Reed College Enrollment. Fall 2024 Enrollment (headcount). Student Level, Women, Men, NonBinary, Total. Undergraduate, 601 (45%), 444 (33%), 301 (22%), 1346. Graduate, 3 (25 ... Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Reed College | Data USA The total enrollment at Reed College in 2022, both undergraduate and graduate, is 1,534 students. The full-time enrollment at Reed College is 1,492 and the part ... In 2022, the undergraduate acceptance rate of Reed College was 30.8% (2,779 admissions from 9,023 applications). This is lower than the acceptance rate of 2021, which was 43.8%. Between 2021 and 2022, the number of applicants grew by 28.7%, while admissions declined by 9.51%. This chart compares the acceptance rate of Reed College (in red) with that of other similar universities, and the chart below shows the acceptance rate by gender. Reed College had a total enrollment of 1,534 students in 2022. The full-time enrollment at Reed College is 1,492 students and the part-time enrollment is 42. This means that 97.3% of students enrolled at Reed College are enrolled full-time. The enrolled student population at Reed College, both undergraduate and graduate, is 60% White, 11.8% Hispanic or Latino, 9.84% Two or More Races, 7.5% Asian, 1.04% Black or African American, and 0.196% American Indian or Alaska Native. Students enrolled at Reed College in full-time Undergraduate programs are most commonly White Female (33.7%), followed by White Male (26.3%) and Hispanic or Latino Female (7.91%). The total enrollment at Reed College in 2022, both undergraduate and graduate, is 1,534 students. The full-time enrollment at Reed College is 1,492 and the part-time enrollment is 42. This means that 97.3% of students enrolled at Reed College are enrolled full-time compared with 79.6% at similar Baccalaureate Colleges. This chart shows the full-time vs part-time enrollment status at Reed College (in red) compares to similar universities.",
+      "source_url": "https://datausa.io/profile/university/reed-college",
+      "timestamp": "2022-01-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Reed College - Wikipedia Reed College is a private liberal arts college in Portland, Oregon, United States. Founded in 1908, Reed is a residential college with a campus in the ... Reed is singled out as having little to no grade inflation over the years;[24] only ten students graduated with a perfect 4.0 GPA in the period from 1983 to 2012.[25] (Transcripts are accompanied by a card contextualizing Reed's grading approach so as not to penalize students' graduate school applications.)[26] Although Reed does not award Latin honors to graduates, it confers several awards for academic achievement at commencement, including naming students to Phi Beta Kappa.[27] Academics Reed categorizes its academic program into five Divisions and the Humanities program. Overall, Reed offers five Humanities courses, twenty-six department majors, twelve interdisciplinary majors, six dual-degree programs with other colleges and universities, and programs for pre-medical and pre-veterinary students. Its three most popular majors, based on 2023 graduates, were Psychology, Biology/Biological Sciences, and Computer and Information Sciences.[34] Divisions Division of Arts: includes the Art (Art History and Studio Art), Dance, Music, and Theatre Departments; Division of History and Social Sciences: includes the History, Anthropology, Economics, Political Science, and Sociology Departments, as well as the International and Comparative Policy Studies Program; Division of Literature and Languages: includes the Classics, Chinese, English, French, German, Russian, and Spanish Departments, as well as the Creative Writing and General Literature Programs; Division of Mathematics and Natural Sciences: includes the Mathematics, Biology, Chemistry, and Physics Departments, and Division of Philosophy, Religion, Psychology, and Linguistics: includes the Philosophy, Religion, Psychology, and Linguistics Departments.",
+      "source_url": "https://en.wikipedia.org/wiki/Reed_College",
+      "timestamp": "2025-03-31"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Detailed Enrollment - Institutional Research - Reed College Fall 2024 Enrollment (full-time equivalency or FTE\u2020) ... Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% or full ... Fall 2024 Enrollment (full-time equivalency or FTE\u2020) \u2020Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% or full time, 0.5 FTE equals 50% or half time. FTE can be used to represent percentage of faculty time teaching, or time spent as a student. For example, a faculty member may teach three-fifths of the time, or 0.60 FTE; a quarter-time student would be 0.25 FTE. Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment_more.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d6",
+      "text": "B. ENROLLMENT AND PERSISTENCE - Reed College Provide numbers of undergraduate students for each of the following categories as of the institution's official fall reporting date or as of October 19,. 2022.",
+      "source_url": "https://www.reed.edu/ir/cds/cds2223/CDS_secB_202223.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Reed College Reed College is a leading liberal arts college known for encouraging intellectual curiosity. Learn about our vibrant, inclusive community in Portland, Oregon. The silent video above depicts six scenes of campus: an aerial view of Old Dorm Block among green trees and grass, with the Portland skyline in the background; a bird\u00e2\u0080\u0099s eye view of eight students playing a pick-up soccer game; three students sitting in the grass, surrounded by trees; two students walking across the Blue Bridge over Reed canyon, a watershed with a lake and lush green trees; a close-up of two hands browsing a shelf of bound theses in the Thesis Tower; and several small groups of students lounging on the lawn in front of Old Dorm Block on a sunny day. Meet the Reedies I worked in the Reed canyon, made amazing friends\u00e2\u0080\u0094human, plant, and animal\u00e2\u0080\u0094and learned a lot about ecological restoration techniques and native plants. Elena Carmen Turner \u00e2\u0080\u009922Anthropology \u00e2\u0080\u009c Professor Kambiz GhaneaBassiri\u00e2\u0080\u0099s class on the erasure of Islam from the Western humanities was eye-opening and helped me finally understand some of the reasons why the distinction of the West historically arose. Aditya Gadkari \u00e2\u0080\u009922Economics \u00e2\u0080\u009c Professor David Perkinson let me work with him on a research project the summer after my sophomore year that ended up being a formative experience for me. I learned a lot of math, but more importantly I learned how fun research can be and what I am capable of. He also taught me the importance of good chalk. Olivia McGough \u00e2\u0080\u009923Mathematics \u00e2\u0080\u009c I was a team coordinator for Ultimate Frisbee, and it was a lot of fun building a sense of community through sport. I was also a peer career advisor with the Center for Life Beyond Reed. Joshua Park \u00e2\u0080\u009923Comparative Race and Ethnicity Studies \u00e2\u0080\u009c I\u00e2\u0080\u0099ve learned how to approach solving problems that are hard or confusing, and how to discuss my reasoning with others and work collaboratively toward a solution. I also think I\u00e2\u0080\u0099m more open to trying new things and exploring new experiences. Caden Corontzos \u00e2\u0080",
+      "source_url": "https://www.reed.edu/",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Average Class Size - Institutional Research - Reed College Number of Class Sections and Subsections With Undergraduates Enrolled in Fall 2024 ; 80 \u00b7 26 \u00b7 106 \u00b7 26% ; 151 \u00b7 75 \u00b7 226 \u00b7 55% ... Average Class Size Number of Class Sections and Subsections With Undergraduates Enrolled in Fall 2024 2-9 10-19 20-29 30-39 40-49 50-99 100+ Total Class Sections 80 151 55 7 3 3 1 300 Class Subsections 26 75 11 - - - - 112 Total 106 226 66 7 3 3 1 412 26% 55% 16% 2% <1% <1% <1% 100% Average Class Size Semester Year Average Class Size Number of Classes 2-10 11-15 16-24 25-34 35-49 50-99 100+ Total Spring 1994 17.5 82 104 91 13 4 10 4 308 Fall 1994 18.0 93 79 105 26 6 8 4 321 Spring 1995 16.6 97 95 96 22 3 8 3 324 Fall 1995 18.2 82 84 117 23 3 9 4 322 Spring 1996 16.8 91 98 103 10 8 5 4 319 Fall 1996 17.6 77 87 118 24 6 6 3 321 Spring 1997 16.9 90 84 113 17 5 4 4 317 Fall 1997 16.8 85 100 1",
+      "source_url": "https://www.reed.edu/ir/averageclssz.html",
+      "timestamp": "2024-01-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Provides historical enrollment data including new and continuing undergraduate students, but the specific fall semester is not explicitly stated as the most recent."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the Fall 2024 undergraduate enrollment headcount as 1346, answering the query for the most recent fall semester."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions total enrollment for 2022 but does not specify the undergraduate count for the most recent fall semester."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses Reed College's history, academics, and popular majors, but does not contain enrollment numbers."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Provides Fall 2024 enrollment data in Full-Time Equivalency (FTE), not the headcount of undergraduate students."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Indicates it provides undergraduate student numbers for the institution's official fall reporting date of October 19, 2022, which is relevant context."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "Describes Reed College's campus and student experiences but lacks specific enrollment figures."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Details average class sizes and number of sections for Fall 2024, but not the total undergraduate enrollment headcount."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In the fall, there were 422 new undergraduate students.",
+            "In the fall, there were 998 continuing undergraduate students.",
+            "In the fall, there were 57 special program students."
+          ],
+          "reason": "Extracted the number of new, continuing, and special program undergraduate students for the fall semester as requested by the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In Fall 2024, there were 1346 undergraduate students.",
+            "In Fall 2024, 601 undergraduate students were women (45%).",
+            "In Fall 2024, 444 undergraduate students were men (33%).",
+            "In Fall 2024, 301 undergraduate students identified as non-binary (22%)."
+          ],
+          "reason": "Extracted the total undergraduate enrollment for Fall 2024 and the breakdown by gender identity, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The total enrollment at Reed College in 2022, undergraduate and graduate, was 1,534 students.",
+            "In 2022, the undergraduate acceptance rate of Reed College was 30.8%."
+          ],
+          "reason": "Extracted the total enrollment for 2022 and the undergraduate acceptance rate. While not the most recent fall semester, it provides enrollment data."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses Reed College's history, academics, popular majors, and grading policies, but does not contain specific enrollment numbers for any fall semester."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document defines Full-Time Equivalent (FTE) and discusses its application to student enrollment but does not provide specific undergraduate enrollment numbers for any fall semester."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "The document requests undergraduate student numbers for the institution's official fall reporting date or as of October 19, 2022."
+          ],
+          "reason": "This document indicates a request for undergraduate student numbers as of a specific fall date (Oct 19, 2022) but does not provide the actual numbers themselves."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [],
+          "reason": "This document provides a general overview of Reed College, its campus, and student testimonials, but does not contain specific enrollment figures for any fall semester."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "In Fall 2024, there were 300 total class sections with undergraduates enrolled.",
+            "In Fall 2024, there were 412 total class subsections with undergraduates enrolled."
+          ],
+          "reason": "This document provides data on class sections and subsections with undergraduates enrolled in Fall 2024, but not the total number of undergraduate students."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides numbers for new, continuing, and special program undergraduate students in the fall, but not the total combined enrollment.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states the total number of undergraduate students enrolled in Fall 2024, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Provides total enrollment for 2022, which is not the most recent fall semester, and an acceptance rate, not enrollment numbers.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses Reed College's history and academics but lacks specific enrollment numbers for any fall semester.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Defines FTE and its application but does not provide specific undergraduate enrollment numbers for any fall semester.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Indicates a request for undergraduate student numbers for a specific fall date but does not provide the actual numbers.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "Provides a general overview of Reed College and student testimonials but lacks specific enrollment figures for any fall semester.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "Provides data on class sections and subsections with undergraduates enrolled in Fall 2024, not the total number of students.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_enrollment_data",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides direct total undergraduate enrollment for Fall 2024."
+          },
+          {
+            "label": "partial_enrollment_breakdown",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Offers a breakdown of undergraduate students (new, continuing, special) but not the total combined figure."
+          },
+          {
+            "label": "outdated_enrollment_data",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Contains total enrollment data for 2022, which is not the most recent fall semester."
+          },
+          {
+            "label": "no_enrollment_data",
+            "doc_ids": [
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Documents that do not contain specific undergraduate enrollment numbers for any fall semester."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from different sources provides compatible details about undergraduate enrollment, with one source offering a direct total and others providing breakdowns or older data.",
+        "clusters": [
+          {
+            "label": "direct_enrollment_data",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides direct total undergraduate enrollment for Fall 2024."
+          },
+          {
+            "label": "partial_enrollment_breakdown",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Offers a breakdown of undergraduate students (new, continuing, special) but not the total combined figure."
+          },
+          {
+            "label": "outdated_enrollment_data",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Contains total enrollment data for 2022, which is not the most recent fall semester."
+          },
+          {
+            "label": "no_enrollment_data",
+            "doc_ids": [
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Documents that do not contain specific undergraduate enrollment numbers for any fall semester."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence exists, and conflicts are complementary, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The total undergraduate enrollment for Fall 2024 is available.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly provides the total undergraduate enrollment for Fall 2024, fulfilling the user's request."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the Fall 2024 undergraduate enrollment is available and cites the correct document (d2) which contains this information."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 17055,
+      "completion_tokens": 2791,
+      "total_tokens": 19846
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3608,
+        "completion_tokens": 578,
+        "total_tokens": 4186
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3563,
+        "completion_tokens": 789,
+        "total_tokens": 4352
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1140,
+        "completion_tokens": 536,
+        "total_tokens": 1676
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1446,
+        "completion_tokens": 357,
+        "total_tokens": 1803
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1748,
+        "completion_tokens": 318,
+        "total_tokens": 2066
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 36,
+        "total_tokens": 780
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 885,
+        "completion_tokens": 82,
+        "total_tokens": 967
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3921,
+        "completion_tokens": 95,
+        "total_tokens": 4016
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:31.803891",
+        "prompt_tokens": 3608,
+        "completion_tokens": 578,
+        "total_tokens": 4186,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:34.591355",
+        "prompt_tokens": 3563,
+        "completion_tokens": 789,
+        "total_tokens": 4352,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:37.106354",
+        "prompt_tokens": 1140,
+        "completion_tokens": 536,
+        "total_tokens": 1676,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:38.589993",
+        "prompt_tokens": 1446,
+        "completion_tokens": 357,
+        "total_tokens": 1803,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:40.200980",
+        "prompt_tokens": 1748,
+        "completion_tokens": 318,
+        "total_tokens": 2066,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:41.051041",
+        "prompt_tokens": 744,
+        "completion_tokens": 36,
+        "total_tokens": 780,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:42.100022",
+        "prompt_tokens": 885,
+        "completion_tokens": 82,
+        "total_tokens": 967,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:20:43.321731",
+        "prompt_tokens": 3921,
+        "completion_tokens": 95,
+        "total_tokens": 4016,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T14:20:29.112115",
+  "last_updated_at": "2026-04-17T14:20:43.322663"
+}

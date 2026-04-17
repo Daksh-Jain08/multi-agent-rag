@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0563",
+  "query": "Who voices spider man in the animated series?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "he is voiced by Geoff Boothby. In 1995, BBC Radio commissioned a Spider-Man radio play which aired on BBC Radio 1 over 50 episodes on week days between January 15, 1996 and March 24, 1996. The performance was co-produced by Brian May, who also contributed to the musical arrangement and wrote and performed the theme tune. The scope of the story included a number of familiar characters from the Spider-Man comic books as well as key figures from the Marvel Universe such as the Fantastic Four, Namor the Submariner, and Doctor Doom. The role of Spider-Man was performed by William",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d2",
+      "text": "first season episode \"I Am Spider-Man\", on a list of understudies for the part of Spider-Man in Phil Coulson's high school play; he is the second to last choice while Peter Parker is the last choice. The third season, titled \"Ultimate Spider-Man: Web-Warriors\", shows various incarnations of Spider-Man, including Miles Morales (voiced initially by Donald Glover). The character would return for the fourth season, titled \"Ultimate Spider-Man vs The Sinister 6\", under the alias Kid Arachnid (now voiced by Ogie Banks). Miles Morales appears in the \"Marvel Super Hero Adventures\" episode \"That Drone Cat\", voiced by Zac Siewert. After battling",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d3",
+      "text": "a love story between a foreigner and a Greek. Each story represents a different generation falling in love during a time of socioeconomic turmoil that dominates Southern Europe as a whole, only to connect as a single story in the end. Simmons stars as Sebastian. Simmons reprised his role as the voice of J. Jonah Jameson in the animated series \"Ultimate Spider-Man\", \"\", and \"Avengers Assemble\". He has also expressed interest in reprising the role in Sony and Marvel Studios' reboot of the \"Spider-Man\" film series, \"\", released in 2017. In friend Reitman's film \"Young Adult\", he voiced the protagonist's",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Web selected Spider-Man to lead a team of heroes including Storm against a group of villains. An earlier draft of \"Secret Wars\" involved all of the X-Men, but transporting the voice cast to Los Angeles where production for the \"Spider-Man\" animated series was based from Canada had been too costly in previous crossovers, so the episode was re-written to include only Storm, whose actress, Iona Morris, lived in Los Angeles. Hulk and She-Hulk were excluded from the episodes because the \"Incredible Hulk\" animated series featuring the characters was airing on rival network UPN. The first season of the show brought",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2009-11-28"
+    },
+    {
+      "doc_id": "d5",
+      "text": "solo \"Spider-Man\" animated series, although this has since been disputed since both series were originally first aired at the same time on September 12, 1981. The two series are connected in the latter's third-season episode \"Origin of the Spider-Friends.\" Although not as well known as \"Spider-Man and His Amazing Friends\", it does remain faithful to the character's origin. The animation style of both incarnations and incidental music soundtrack are completely identical, although the voice actors are different. One seeming inconsistency is Norman Osborn (The Green Goblin). In this series, he is portrayed similarly in the comics: wearing a costume and  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Geoff Boothby and William voicing Spider-Man in a radio play, which is a form of audio adaptation, though not strictly an animated series."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query by stating Miles Morales is voiced by Donald Glover and Kid Arachnid by Ogie Banks in the 'Ultimate Spider-Man' animated series."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions J. Jonah Jameson's voice actor in the animated series 'Ultimate Spider-Man', providing related voice actor information for the Spider-Man universe."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Discusses voice cast costs for the 'Spider-Man' animated series but does not name the voice actor for Spider-Man himself."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Compares two 'Spider-Man' animated series and mentions voice actors are different, but does not specify who voices Spider-Man."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The role of Spider-Man was performed by William in a 1995 BBC Radio commissioned play.",
+            "Geoff Boothby voiced Spider-Man."
+          ],
+          "reason": "Extracted the names of voice actors for Spider-Man in a radio play and an animated series, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Miles Morales was voiced initially by Donald Glover in \"Ultimate Spider-Man: Web-Warriors\".",
+            "Kid Arachnid was voiced by Ogie Banks in \"Ultimate Spider-Man vs The Sinister 6\".",
+            "Miles Morales was voiced by Zac Siewert in \"Marvel Super Hero Adventures\"."
+          ],
+          "reason": "Extracted the voice actors for different incarnations of Spider-Man (Miles Morales, Kid Arachnid) in various animated series."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "J. Jonah Jameson was voiced by Simmons in the animated series \"Ultimate Spider-Man\"."
+          ],
+          "reason": "Extracted the voice actor for J. Jonah Jameson in the animated series \"Ultimate Spider-Man\", relevant to the query about Spider-Man voice actors."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The voice actress for Storm, Iona Morris, lived in Los Angeles, influencing casting for the \"Spider-Man\" animated series."
+          ],
+          "reason": "Extracted information about voice cast location influencing casting decisions for the \"Spider-Man\" animated series."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The voice actors are different between the \"Spider-Man\" animated series and \"Spider-Man and His Amazing Friends\"."
+          ],
+          "reason": "Extracted a factual statement comparing voice actors between two different \"Spider-Man\" animated series."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly names Geoff Boothby as the voice of Spider-Man in an animated series, answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Names voice actors for Miles Morales and Kid Arachnid in animated series, which are versions of Spider-Man, but not the primary Spider-Man.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Names the voice actor for J. Jonah Jameson, a character in the Spider-Man animated series, not Spider-Man himself.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses a voice actress's location influencing casting for the \"Spider-Man\" animated series, but does not name the voice actor for Spider-Man.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "States that voice actors differ between two animated series but does not identify who voices Spider-Man in either.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_spider_man_voice_actor",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly identifies Geoff Boothby as the voice actor for Spider-Man in a radio play."
+          },
+          {
+            "label": "related_spider_man_incarnations",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides voice actors for different versions of Spider-Man (Miles Morales, Kid Arachnid) in animated series."
+          },
+          {
+            "label": "irrelevant_characters_or_context",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 are irrelevant as they discuss other characters' voice actors, casting influences, or general comparisons without naming the primary Spider-Man voice actor."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims about who voiced Spider-Man. It offers direct identification, partial information on related characters, and irrelevant details.",
+        "clusters": [
+          {
+            "label": "direct_spider_man_voice_actor",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly identifies Geoff Boothby as the voice actor for Spider-Man in a radio play."
+          },
+          {
+            "label": "related_spider_man_incarnations",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides voice actors for different versions of Spider-Man (Miles Morales, Kid Arachnid) in animated series."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 are irrelevant as they discuss other characters' voice actors, casting influences, or general comparisons without naming the primary Spider-Man voice actor."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct evidence identifies Geoff Boothby as the voice actor for Spider-Man in a radio play, with no conflicting information present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Geoff Boothby was the voice actor for Spider-Man in a radio play.",
+        "citations": [
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d1 directly identifies Geoff Boothby as the voice actor for Spider-Man in a radio play. There is no conflicting information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states Geoff Boothby voiced Spider-Man in a radio play."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8926,
+      "completion_tokens": 2011,
+      "total_tokens": 10937
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 392,
+        "total_tokens": 1783
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1346,
+        "completion_tokens": 489,
+        "total_tokens": 1835
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 878,
+        "completion_tokens": 359,
+        "total_tokens": 1237
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 262,
+        "total_tokens": 1315
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1332,
+        "completion_tokens": 286,
+        "total_tokens": 1618
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 711,
+        "completion_tokens": 46,
+        "total_tokens": 757
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 862,
+        "completion_tokens": 88,
+        "total_tokens": 950
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1353,
+        "completion_tokens": 89,
+        "total_tokens": 1442
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:00.552230",
+        "prompt_tokens": 1391,
+        "completion_tokens": 392,
+        "total_tokens": 1783,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:02.290848",
+        "prompt_tokens": 1346,
+        "completion_tokens": 489,
+        "total_tokens": 1835,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:03.743128",
+        "prompt_tokens": 878,
+        "completion_tokens": 359,
+        "total_tokens": 1237,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:05.673243",
+        "prompt_tokens": 1053,
+        "completion_tokens": 262,
+        "total_tokens": 1315,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:07.113402",
+        "prompt_tokens": 1332,
+        "completion_tokens": 286,
+        "total_tokens": 1618,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:08.148757",
+        "prompt_tokens": 711,
+        "completion_tokens": 46,
+        "total_tokens": 757,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:09.204989",
+        "prompt_tokens": 862,
+        "completion_tokens": 88,
+        "total_tokens": 950,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:10.349585",
+        "prompt_tokens": 1353,
+        "completion_tokens": 89,
+        "total_tokens": 1442,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:05:58.636009",
+  "last_updated_at": "2026-04-17T20:06:10.350107"
+}

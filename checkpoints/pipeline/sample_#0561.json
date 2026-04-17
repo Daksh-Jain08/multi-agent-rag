@@ -1,0 +1,392 @@
+{
+  "sample_id": "#0561",
+  "query": "Which television series has Jamie Oliver as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Jamie Oliver (musician) Richard James Oliver (born 16 July 1975) is the current keyboardist for No Devotion and former keyboardist, turntablist and supporting vocalist for the Welsh rock band Lostprophets. Oliver and the band remotely knew each other, as they were part of the same music scene. Oliver used to play bass guitar in small local bands in his late teens, and was offered a place of the lead vocalist in Lee Gaze's first band Fleshbind; he declined the offer as he had to go to university The band have stated that Oliver was only added to the band so",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Jamie's School Dinners Jamie's School Dinners is a four-episode documentary series broadcast on Channel 4 in the United Kingdom from 23 February to 16 March 2005. The series was recorded between Spring to Winter 2004, in which it featured TV chef Jamie Oliver attempting to improve the quality and nutritional value of school dinners at a typical British school, Kidbrooke School in the Royal Borough of Greenwich \u0393\u00c7\u00f6 a goal which ultimately led to a broader campaign (called \"Feed Me Better\") to improve school dinners throughout Britain. At Kidbrooke, Oliver first encountered the school's seemingly fearsome head dinner lady, Nora",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "and 8, respectively), and Alt appears in seasons 7 and 8. All are prominent recipe testers or editors in Cook's Illustrated. Beginning in season 5, Cook\u0393\u00c7\u00d6s Illustrated staff chefs Hays, Bruce, Jeremy Sauer, and Matthew Card appeared in segments answering common viewer mail questions. Hays, Bruce, and Sauer joined the on-camera cast for season 6; Hays moved into credited cast member status beginning in season 7. Roof and Souza were added to the regular cast starting season 15. America's Test Kitchen America's Test Kitchen is a half-hour cooking show distributed to public television stations and Create in the United States,",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "episode \"Vengeance is Mine\". According to Moore, the writing and pre-production for season four began while season three was still in active production. On July 9, 2013, it was announced that Sam Heughan had been cast as Jamie Fraser, the male lead. Tobias Menzies was the second actor cast, on August 8, in dual roles of Frank and Jonathan Randall. Stephen Walters and Annette Badland were announced in the recurring roles of Angus Mhor and Mrs. Fitzgibbons on August 29, 2013, with Graham McTavish and Gary Lewis announced as the MacKenzie brothers on the September 4. Series lead Claire Beauchamp",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d5",
+      "text": "fourth, \"Gennaro's Easy Italian\", was published in March 2010. His most recent book, \"Panetteria: Gennaro's Italian Bakery\", was published in September 2016. Contaldo is also famous for his association with his prot\u251c\u2310g\u251c\u2310, Jamie Oliver, whom he first mentored at Neal Street Restaurant in the 1990s. The two chefs have since maintained a close friendship and professional relationship. Oliver even once put up a reward for information when Contaldo's restaurant, Passione, was burgled in 2003. Contaldo has appeared on many of Oliver's television shows, such as The Naked Chef. He made a comic appearance as one of Oliver's sous chefs on  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2008-05-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Jamie Oliver the musician, not the TV chef. It is irrelevant to the query about a television series cast member."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document describes the documentary series 'Jamie's School Dinners' featuring TV chef Jamie Oliver. This directly answers the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses the cast of 'America's Test Kitchen' and 'Cook's Illustrated', with no mention of Jamie Oliver."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document mentions a Jamie Fraser character and actors cast in a series, but not Jamie Oliver in relation to a TV series cast."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document mentions Jamie Oliver appearing on his own television shows, such as 'The Naked Chef', implying he is part of their cast."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Jamie Oliver (musician) is the current keyboardist for No Devotion.",
+            "Jamie Oliver (musician) was a former keyboardist, turntablist, and supporting vocalist for the Welsh rock band Lostprophets."
+          ],
+          "reason": "Extracted facts about Jamie Oliver's involvement in the band Lostprophets and No Devotion, as the query asks about television series cast members."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Jamie's School Dinners is a four-episode documentary series broadcast on Channel 4 in the UK.",
+            "The series was recorded between Spring to Winter 2004.",
+            "TV chef Jamie Oliver attempted to improve the quality and nutritional value of school dinners at Kidbrooke School."
+          ],
+          "reason": "Extracted facts about the documentary series 'Jamie's School Dinners' and Jamie Oliver's role in it, directly addressing the query about television series."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses cast members of 'America's Test Kitchen' but does not mention Jamie Oliver."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Sam Heughan was cast as Jamie Fraser, the male lead, on July 9, 2013."
+          ],
+          "reason": "This document mentions a 'Jamie Fraser' as a lead in a series but does not associate him with the chef Jamie Oliver."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Gennaro Contaldo has appeared on many of Jamie Oliver's television shows, such as The Naked Chef.",
+            "Jamie Oliver mentored Gennaro Contaldo at Neal Street Restaurant in the 1990s."
+          ],
+          "reason": "Extracted facts about Jamie Oliver's television shows and his professional relationship with Gennaro Contaldo, relevant to the query about his cast involvement."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The facts concern a musician named Jamie Oliver and his roles in bands, not a television series cast.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states Jamie Oliver was the subject of a documentary television series 'Jamie's School Dinners', implying his cast involvement.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses cast members of 'America's Test Kitchen' but does not mention Jamie Oliver.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document mentions a character named Jamie Fraser, not the chef Jamie Oliver, and does not relate to television series cast.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States Jamie Oliver had television shows and mentored someone for them, indicating his involvement as a cast member or host.",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_tv_series",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly supports the query by mentioning Jamie Oliver's involvement in the television series 'Jamie's School Dinners'."
+          },
+          {
+            "label": "indirect_support_tv_shows",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 supports the query by indicating Jamie Oliver's involvement in television shows and mentoring for them."
+          },
+          {
+            "label": "irrelevant_musician_or_character",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant as they discuss a musician named Jamie Oliver, cast members of a different show, or a character named Jamie Fraser."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary, with multiple sources supporting Jamie Oliver's involvement in television series and shows, either as a subject or host.",
+        "clusters": [
+          {
+            "label": "Jamie Oliver's TV Series Involvement",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide supporting evidence for Jamie Oliver's involvement in television series and shows, such as 'Jamie's School Dinners' and 'The Naked Chef'."
+          },
+          {
+            "label": "Irrelevant Information",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant, discussing a musician named Jamie Oliver, cast members of 'America's Test Kitchen', or a character named Jamie Fraser."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and directly supports the query, with no significant conflicts or irrelevant information."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Jamie Oliver has been involved in television series such as 'Jamie's School Dinners' and 'The Naked Chef', as well as other television shows where he has mentored.",
+        "citations": [
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d2 and d5 directly and complementarily answer the query about Jamie Oliver's television involvement."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided documents, accurately citing 'Jamie's School Dinners' and 'The Naked Chef' as television series involving Jamie Oliver."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9098,
+      "completion_tokens": 1990,
+      "total_tokens": 11088
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1461,
+        "completion_tokens": 374,
+        "total_tokens": 1835
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1416,
+        "completion_tokens": 507,
+        "total_tokens": 1923
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 903,
+        "completion_tokens": 337,
+        "total_tokens": 1240
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 300,
+        "total_tokens": 1353
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1331,
+        "completion_tokens": 232,
+        "total_tokens": 1563
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 673,
+        "completion_tokens": 37,
+        "total_tokens": 710
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 815,
+        "completion_tokens": 105,
+        "total_tokens": 920
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1446,
+        "completion_tokens": 98,
+        "total_tokens": 1544
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:34.660723",
+        "prompt_tokens": 1461,
+        "completion_tokens": 374,
+        "total_tokens": 1835,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:37.732910",
+        "prompt_tokens": 1416,
+        "completion_tokens": 507,
+        "total_tokens": 1923,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:40.191700",
+        "prompt_tokens": 903,
+        "completion_tokens": 337,
+        "total_tokens": 1240,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:41.606729",
+        "prompt_tokens": 1053,
+        "completion_tokens": 300,
+        "total_tokens": 1353,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:42.967018",
+        "prompt_tokens": 1331,
+        "completion_tokens": 232,
+        "total_tokens": 1563,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:43.767765",
+        "prompt_tokens": 673,
+        "completion_tokens": 37,
+        "total_tokens": 710,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:44.772583",
+        "prompt_tokens": 815,
+        "completion_tokens": 105,
+        "total_tokens": 920,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:46.028292",
+        "prompt_tokens": 1446,
+        "completion_tokens": 98,
+        "total_tokens": 1544,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:05:33.244112",
+  "last_updated_at": "2026-04-17T20:05:46.028865"
+}

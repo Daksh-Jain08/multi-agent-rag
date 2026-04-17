@@ -1,0 +1,527 @@
+{
+  "sample_id": "#0174",
+  "query": "Who is the X Corp.'s CEO?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "X Corp. - Wikipedia The next day, on May 12, 2023, he named Linda Yaccarino as the new CEO, adding that she \"will focus primarily on business operations, while I focus on product ... In a company-wide email that month, Musk announced that Twitter employees would receive stock in X Corp.[20] On May 11, 2023, Musk tweeted that he had found his replacement as Twitter and X Corp.'s CEO. The next day, on May 12, 2023, he named Linda Yaccarino as the new CEO, adding that she \"will focus primarily on business operations, while I focus on product design & new technology\".[22] Musk said he would transition his role to executive chairman and chief technology officer.[23] Yaccarino succeeded Musk on June 5, 2023.[24] At the end of May 2023, Fidelity Investments estimated the company's value at $15 billion.[25] This was later increased to a value of $27 billion by July,[26][27] and up to about $28.5 billion by the end of August.[28][29] The company erected a giant illuminated \"X\" on the roof of its San Francisco headquarters in July 2023 without obtaining required permits. 24 complaints were filed by neighbors concerned about the bright flashing light and structural integrity. Inspectors were twice denied roof access, and the city cited the company for a building code violation. X removed the sign after a few days.[30][31] In August 2023, CEO Linda Yaccarino stated that she has \"operational autonomy\" under owner Elon Musk to run the business, and that she is involved in everything that goes into running the company.[32][33] Yaccarino also opened up on the reasoning behind Twitter's \"controversial\" name change to X,[34] wherein she stated that the rebranding was essentially a \"liberation\" from Twitter. Yaccarino also went on to say that if users had stayed with Twitter, then changes would only be \"incremental\" and that with X, they think about \"what's possible\".[35]",
+      "source_url": "https://en.wikipedia.org/wiki/X_Corp.",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "X CEO Linda Yaccarino explains reason for getting rid of Twitter name X CEO Linda Yaccarino told CNBC on Thursday that the company's decision to get rid of its Twitter branding reflects owner Elon Musk's vision for the app. X CEO Linda Yaccarino told CNBC on Thursday that the company's decision to get rid of its Twitter branding reflects owner Elon Musk's vision for the app. \"Elon has been talking about X, the everything app, for a very long time,\" Yaccarino said in an interview with CNBC's Sara Eisen. \"Even when we announced that I was joining the company, I was joining the company to partner with Elon to transform Twitter into X, the everything app. \" Yaccarino, who started the job in June, said Musk has been working up to this since buying Twitter late last year. \"Think about what's happened since the acquisition,\" she said. \"Experiences and evolution into long-form video and articles, subscribe to your favorite creators, who are now earning a real living on the platform. You look at video, and soon you'll be able to make video chat calls without having to give your phone number to anyone on the platform. \" Yaccarino also highlighted the company's plans to enable payments between users and friends and creators. \"The rebrand represented really a liberation from Twitter,\" she said. \"A liberation that allowed us to evolve past a legacy mindset and thinking. And to reimagine how everyone, how everyone on Spaces who's listening, everybody who's watching around the world. It's going to change how we congregate, how we entertain, how we transact all in one platform. \" Eisen pushed Yaccarino on the power of the Twitter brand and compared it to Johnson & Johnson changing the name of Band-Aid. \"If you stay Twitter, or you stay whatever your previous brand is, change tends to be only incremental. And you get graded by a legacy report card,\" Yaccarino said. \"And at X we think about what's possible. Not the incremental change of what can't be done. \" She added that the recent product changes and infrastructure improvements \"answers the question of 'why rebrand?'\" Yaccarino has 'autonomy' under Musk Yaccarino said she has \"autonomy\" under Musk, adding that advertisers should be comfortable returning to the platform.",
+      "source_url": "https://www.cnbc.com/2023/08/10/x-corp-ceo-linda-yaccarino-says-she-has-autonomy-under-elon-musk.html",
+      "timestamp": "2023-08-10"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Linda Yaccarino - Wikipedia Linda Yaccarino (born December 21, 1963) is an American media proprietor serving since June 2023 as chief executive officer (CEO) of X Corp. 3] Twitter / X Yaccarino had long expressed an interest in Twitter,[14] and she had been a part of the company's \"Influence Council,\" which had advertisers advise the company on brand deals.[4] On three occasions while at NBCUniversal, Yaccarino proposed that Comcast executives buy Twitter outright. Early conversations around a potential $3 billion offer never resulted in a deal.[15] Following Elon Musk's acquisition, Yaccarino pledged to him that NBCUniversal, would continue advertising on the social network, according to people familiar with conversations.[4] Super Bowl ad space negotiations for NBCUniversal to run ads on Twitter were occurring in early 2023 between Yaccarino and Musk, which led to more frequent communications between the two.[4] She invited him to speak at an ad event in April of that year.[4] Weeks later, Yaccarino resigned from NBCUniversal on May 12, 2023, and on the same day, Musk announced that Yaccarino would be the new chief executive officer of X Corp. and X (formerly known as Twitter).[16] Yaccarino had been preparing for an upfronts presentation, and hadn't informed any colleagues of her departure.[4] She took over as CEO of Twitter on June 6, 2023.[4] Fortune and The New Republic described Yaccarino as a former Trump appointee who follows a number of conspiracy theorist and far-right accounts on Twitter.[17][18] Upon her appointment, the Financial Times noted that Yaccarino's previous work with the World Economic Forum (WEF) had earned backlash from some \"more conspiracy-minded Musk fans\" who distrusted international political organizations. Musk, a harsh critic of the WEF, stated that Yaccarino's links to the organization would not harm his self-proclaimed commitment to free speech on Twitter.[19] Upon her appointment, experts were concerned Yaccarino's role would be an example of the glass cliff.",
+      "source_url": "https://en.wikipedia.org/wiki/Linda_Yaccarino",
+      "timestamp": "2025-01-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "CES 2025 Keynote with CEO of X Corp, Linda Yaccarino - YouTube A transformative leader and visionary, Yaccarino is making waves as CEO of X Corp, where she is at the forefront of defining the future of ...",
+      "source_url": "https://www.youtube.com/watch?v=1R9LtHiZ74w",
+      "timestamp": "2025-10-21"
+    },
+    {
+      "doc_id": "d5",
+      "text": "X will be profitable in 2024, says CEO Linda Yaccarino - Fortune Linda Yaccarino, the CEO of X Corp. (formerly Twitter), said Wednesday that the platform is nearing the break-even point in terms of its operating cash flow.",
+      "source_url": "https://fortune.com/2023/09/28/linda-yaccarino-x-twitter-ceo-profit-code-conference/",
+      "timestamp": "2023-09-28"
+    },
+    {
+      "doc_id": "d6",
+      "text": "X Corp. CEO Linda Yaccarino told CNBC that she has \u201cautonomy ... X Corp. CEO Linda Yaccarino told CNBC that she has autonomy under owner Elon Musk in an interview Thursday, adding that advertisers should be comfortable ...",
+      "source_url": "https://www.facebook.com/cnbc/videos/x-corp-ceo-linda-yaccarino-told-cnbc-that-she-has-autonomy-under-owner-elon-musk/834518427839140/",
+      "timestamp": "2023-08-10"
+    },
+    {
+      "doc_id": "d7",
+      "text": "X hires former WSJ editor and bureau chief to lead news group ... X Corp. CEO Linda Yaccarino responded she was excited about the opportunity for journalists on X to \u201cexplore their craft,\u201d thrive, and make ... X hires former WSJ editor and bureau chief to lead news group X wants to make its platform a home to the future of news and journalism. On that front, the company has now hired John Stoll, a former editor and Detroit bureau chief at The Wall Street Journal, to lead its news group and partnership team at X. The hiring news was announced on Tuesday during X Corp.\u2019s keynote at CES 2025 in Las Vegas. After interviewer Catherine Herridge pushed as to whether or not X was considering launching a news portal of some sort on its platform, X Corp. CEO Linda Yaccarino responded she was excited about the opportunity for journalists on X to \u201cexplore their craft,\u201d thrive, and make a great living. The executive was referring to how creators on X can make money through the company\u2019s creator revenue share program, which is how it rewards popular content that increases engagement. On X, creators with a paid subscription who meet certain baseline requirements in terms of followers and impressions are paid based on engagement from other Premium X users with their content. Paying journalists based on clicks is not a new idea \u2014 BuzzFeed famously subsidized its harder news with gossip, quizzes, and pop culture stories, only to find itself later at the mercy of Facebook algorithm changes. X certainly could update its algorithm at some point to downplay news, if it made business sense. (Or perhaps, it would simply downplay the type of news that X owner Elon Musk seems to hate\u2026like news from established outlets.) \u201cThe future of news is not legacy media,\u201d Yaccarino said, during the CES keynote. \u201cLegacy media news has become almost like a fan service to make sure that you\u2019re speaking to a niche audience to make your budget. And what we want to do is make sure that we provide a great place for that journalistic curiosity to return,\u201d she added. Instead, she spoke of a platform where \u201cthe shift in the narrative is now in the user\u2019s hand\u201d and where change is inspired by what\u2019s allowed by \u201cprotected free speech and a two-way conversation.\u201d",
+      "source_url": "https://techcrunch.com/2025/01/07/x-hires-former-wsj-editor-and-bureau-chief-to-lead-news-group/",
+      "timestamp": "2025-10-21"
+    },
+    {
+      "doc_id": "d8",
+      "text": "X Corp. CEO Linda Yaccarino says she has 'autonomy' under Elon ... Linda Yaccarino, X Corp. CEO, joins 'Squawk on the Street' to discuss the company's decision to rebrand the name from Twitter to X, ...",
+      "source_url": "https://www.youtube.com/watch?v=ixlf2nJ_XqE",
+      "timestamp": "2023-08-10"
+    },
+    {
+      "doc_id": "d9",
+      "text": "X should be profitable next year, CEO Linda Yaccarino says in ... Linda Yaccarino, the CEO of X Corp. (formerly Twitter), said Wednesday that the platform is nearing the break-even point in terms of its ... X should be profitable next year, CEO Linda Yaccarino says in contentious interview Fortune\u00b7Jerod Harris\u2014Getty Images for Vox Media Kylie Robison Thu, Sep 28, 2023, 3:54 AM2 min read Linda Yaccarino, the CEO of X Corp. (formerly Twitter), said Wednesday that the platform is nearing the break-even point in terms of its operating cash flow, and she anticipates it turning a profit early next year. Yaccarino, who started as CEO of the Elon-Musk owned platform in June, appeared on-stage at the Code Conference in California where she faced pointed questions about repairing X's relationship with advertisers, its content moderation measures, and whether she has real sway at the company or if Musk still holds all the power. X Corp. generates most of its revenue from advertising on the platform, which has dropped off since Musk acquired the firm last year. Data from groups like the Anti-Defamation League (whom Musk has threatened to sue) suggests harmful content has inundated X under Musk. The onslaught has turned off brands that don't want their ads appearing alongside hate speech or violent content. Musk brought on Yaccarino, an ad veteran, to win back advertisers. On stage, Yaccarino said, \"90% of the top 100 advertisers have returned to the platform in the last 12 weeks alone; about 1,500 have returned.\" In explaining the company\u2014and herself\u2014on Wednesday, Yaccarino seemed flustered, often looking down at her hands and answering defensively. An hour before Yaccarino's panel, Twitter's former head of trust and safety Yoel Roth made an unannounced appearance on stage in which he talked about X Corp.'s struggle to attract advertisers. \"Advertisers aren't stupid,\" Roth said. \"For advertisers to come back to Twitter\u2014and to be clear, that's where the money comes from\u2014I think they're going to need evidence of progress on safety that Twitter. can't provide.",
+      "source_url": "https://finance.yahoo.com/news/x-profitable-next-ceo-linda-085439557.html",
+      "timestamp": "2023-09-28"
+    },
+    {
+      "doc_id": "d10",
+      "text": "X Corp. CEO Yaccarino on Threads rivalry and potential cage fight ... Linda Yaccarino, X Corp. CEO, joins 'Squawk on the Street' to discuss X's new competitor Threads and the possibility of a cage match between ...",
+      "source_url": "https://www.youtube.com/watch?v=nhhoM7KnxZk",
+      "timestamp": "2023-08-10"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states Linda Yaccarino was named CEO of X Corp. on May 12, 2023, succeeding Elon Musk."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Linda Yaccarino as X CEO and discusses her role and vision for the company."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explicitly states Linda Yaccarino is the CEO of X Corp. since June 2023 and details her appointment."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Refers to Linda Yaccarino as the CEO of X Corp. and discusses her leadership."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Linda Yaccarino as the CEO of X Corp. (formerly Twitter) and quotes her statements."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Linda Yaccarino is the CEO of X Corp. and discusses her autonomy."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Linda Yaccarino as X Corp. CEO in the context of hiring news and company strategy."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Linda Yaccarino as X Corp. CEO and discusses the company's rebranding."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Linda Yaccarino is the CEO of X Corp. (formerly Twitter) and discusses company performance."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Linda Yaccarino as X Corp. CEO and discusses company strategy and competition."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Elon Musk named Linda Yaccarino as the new CEO of X Corp. on May 12, 2023.",
+            "Linda Yaccarino succeeded Elon Musk as CEO on June 5, 2023.",
+            "Elon Musk stated he would transition to executive chairman and chief technology officer.",
+            "In August 2023, CEO Linda Yaccarino stated she has \"operational autonomy\" under owner Elon Musk."
+          ],
+          "reason": "Extracted key facts identifying Linda Yaccarino as CEO of X Corp., her start date, Musk's new role, and her stated autonomy."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "X CEO Linda Yaccarino told CNBC that the company's decision to get rid of its Twitter branding reflects owner Elon Musk's vision.",
+            "Yaccarino stated she was joining the company to partner with Elon Musk to transform Twitter into X, the everything app.",
+            "Yaccarino said she has \"autonomy\" under Musk, adding that advertisers should be comfortable returning to the platform."
+          ],
+          "reason": "Extracted facts about X Corp.'s CEO Linda Yaccarino, her role in the Twitter to X rebranding, and her stated autonomy."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Linda Yaccarino has been serving as chief executive officer (CEO) of X Corp. since June 2023.",
+            "Elon Musk announced on May 12, 2023, that Yaccarino would be the new chief executive officer of X Corp.",
+            "Yaccarino took over as CEO of Twitter on June 6, 2023."
+          ],
+          "reason": "Extracted facts confirming Linda Yaccarino's role as CEO of X Corp., the announcement date, and her official start date."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Linda Yaccarino is the CEO of X Corp."
+          ],
+          "reason": "Extracted the direct statement identifying Linda Yaccarino as the CEO of X Corp."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Linda Yaccarino is the CEO of X Corp. (formerly Twitter)."
+          ],
+          "reason": "Extracted the fact that Linda Yaccarino is the CEO of X Corp., including its former name."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "X Corp. CEO Linda Yaccarino told CNBC that she has autonomy under owner Elon Musk."
+          ],
+          "reason": "Extracted the fact that X Corp. CEO Linda Yaccarino stated she has autonomy under Elon Musk."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "X Corp. CEO Linda Yaccarino responded she was excited about the opportunity for journalists on X to explore their craft."
+          ],
+          "reason": "Extracted a statement from X Corp. CEO Linda Yaccarino regarding opportunities for journalists on the platform."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Linda Yaccarino is the X Corp. CEO."
+          ],
+          "reason": "Extracted the direct identification of Linda Yaccarino as the CEO of X Corp."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Linda Yaccarino, the CEO of X Corp. (formerly Twitter), anticipates the platform turning a profit early next year.",
+            "Yaccarino started as CEO of the Elon-Musk owned platform in June."
+          ],
+          "reason": "Extracted facts identifying Linda Yaccarino as CEO of X Corp. and her prediction for profitability."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Linda Yaccarino is X Corp. CEO."
+          ],
+          "reason": "Extracted the direct statement identifying Linda Yaccarino as the CEO of X Corp."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly names Linda Yaccarino as the new CEO of X Corp., her start date, and Elon Musk's transition.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies Linda Yaccarino as X Corp.'s CEO and discusses her role in the company's rebranding and vision.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms Linda Yaccarino's role as CEO of X Corp. and provides the announcement and start dates.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states that Linda Yaccarino is the CEO of X Corp.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states Linda Yaccarino is the CEO of X Corp., including its former name.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Identifies Linda Yaccarino as X Corp. CEO and mentions her statement about autonomy.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Refers to Linda Yaccarino as X Corp. CEO and quotes her statement about journalists.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Directly identifies Linda Yaccarino as the CEO of X Corp.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Identifies Linda Yaccarino as CEO of X Corp. and mentions her prediction for profitability.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "Directly states that Linda Yaccarino is X Corp. CEO.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_identification_of_ceo",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9",
+              "d10"
+            ],
+            "summary": "Multiple documents directly identify Linda Yaccarino as the CEO of X Corp., providing her start date, role in rebranding, and statements about her autonomy and the company's future."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently identifies Linda Yaccarino as the CEO of X Corp., with various documents adding compatible details about her role, start date, and statements.",
+        "clusters": [
+          {
+            "label": "Linda Yaccarino is CEO of X Corp.",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9",
+              "d10"
+            ],
+            "summary": "Multiple sources consistently identify Linda Yaccarino as the CEO of X Corp., detailing her start date, transition from Elon Musk, and her statements regarding autonomy and the company's future."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient and consistent evidence directly identifies Linda Yaccarino as CEO of X Corp., with no conflicts present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Linda Yaccarino is the CEO of X Corp. Multiple documents confirm her role, start date, and statements about the company's future.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "All supporting documents consistently identify Linda Yaccarino as CEO of X Corp., providing complementary details without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided documents, accurately identifying Linda Yaccarino as the CEO of X Corp. and citing multiple sources."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 16378,
+      "completion_tokens": 3009,
+      "total_tokens": 19387
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3148,
+        "completion_tokens": 685,
+        "total_tokens": 3833
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3103,
+        "completion_tokens": 997,
+        "total_tokens": 4100
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1287,
+        "completion_tokens": 625,
+        "total_tokens": 1912
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1663,
+        "completion_tokens": 237,
+        "total_tokens": 1900
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1893,
+        "completion_tokens": 200,
+        "total_tokens": 2093
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 598,
+        "completion_tokens": 41,
+        "total_tokens": 639
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 131,
+        "total_tokens": 875
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3942,
+        "completion_tokens": 93,
+        "total_tokens": 4035
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:50.719236",
+        "prompt_tokens": 3148,
+        "completion_tokens": 685,
+        "total_tokens": 3833,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:55.362823",
+        "prompt_tokens": 3103,
+        "completion_tokens": 997,
+        "total_tokens": 4100,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:57.298953",
+        "prompt_tokens": 1287,
+        "completion_tokens": 625,
+        "total_tokens": 1912,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:58.605025",
+        "prompt_tokens": 1663,
+        "completion_tokens": 237,
+        "total_tokens": 1900,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:10:59.919158",
+        "prompt_tokens": 1893,
+        "completion_tokens": 200,
+        "total_tokens": 2093,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:11:00.851828",
+        "prompt_tokens": 598,
+        "completion_tokens": 41,
+        "total_tokens": 639,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:11:02.189803",
+        "prompt_tokens": 744,
+        "completion_tokens": 131,
+        "total_tokens": 875,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:11:03.632418",
+        "prompt_tokens": 3942,
+        "completion_tokens": 93,
+        "total_tokens": 4035,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T16:10:48.444244",
+  "last_updated_at": "2026-04-17T16:11:03.633026"
+}

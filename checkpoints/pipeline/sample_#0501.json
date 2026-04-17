@@ -1,0 +1,411 @@
+{
+  "sample_id": "#0501",
+  "query": "what is the advantage of the multi-rotor design used for drones over that of the conventional helicopter rotor setup?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Selecting the Right Aircraft | Aerotas: Drone Data Processing for Surveyors Types of Drone Airframes for Surveyors There are three main types of survey drone airframes: small multi-rotors, large multi-rotors, and fixed-wings. Multi-rotors fly like helicopters: they take off and land vertically, can hover in place and make sharp right-angle turns. Fixed-wings fly more like airplanes, taking off and landing at a slope, needing to fly faster to stay aloft, and making large swooping turns. All three types are capable of being used as part of a drone survey program \u0393\u00c7\u00f4 with the right Standard Operating Procedures and data processing workflow \u0393\u00c7\u00f4 to produce final survey linework at 0.1\u0393\u00c7\u00d6 vertical accuracy.",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2004-10-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "New drone combines helicopter and aircraft capabilities - DTU UAS Event. And it looks nothing like a conventional drone. Boasting a unique design with two rotors in the fuselage, and two moving rotors on the wing tips, it is both capable of flying as a traditional multirotor/helicopter and as an ordinary fixed-wing aircraft, where all buoyancy comes from the wings. This gives the drone vertical take-off and landing capability as well as long range at relatively high speed. It also features a special precision GPS enabling it to manoeuvre with an accuracy of down to five centimetres\u0393\u00c7\u00f6something which is not possible with ordinary drones. Long range and glide capability",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Bart Theys's Blog - DIY Drones Bart Theys's Blog (4) Meet CargoCopter: our latest generation of high-speed, long-range drones At KU Leuven we have been developing a new generation of drones to double the speed and range of conventional multi-rotor drones. For quite some years already, multi-rotor drones are the preferred type of drone for typically applications\u0393\u00c7\u00aa Added by Bart Theys on May 29, 2017 at 3:00pm \u0393\u00c7\u00f6 15 Comments Which one has the highest range: VTOL, helicopter, multi-rotor (or flying squirrel?) With the increasing interest in the use of multi-rotor UAVs for long range applications such as pipeline inspection, large-area mapping, transporting packages or even",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1996-02-17"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Types of Drones: Multi-Rotor vs Fixed-Wing vs Single Rotor vs Hybrid VTOL - AUAV or fast forward flight, then a single-rotor heli is really your best bet. The downsides are their complexity, cost, vibration, and also the danger of their large spinning blades. While a multi-rotor prop can certainly leave you with a bad scar, it is unlikely to do much more than that. The long sharp blades of a heli can cause more serious damage if you get in their way, and there have been a number of fatalities from RC hobby and drone helicopters. In terms of difficulty, single-rotor heli drones lie somewhere between multi-rotors and fixed-wing aircraft. On one hand they",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1990-11-02"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Bell Touts Armed Tilt-Rotor Drone at Army Show | Military.com Bell Touts Armed Tilt-Rotor Drone at Army Show Textron Inc.'s Bell Helicopter unit on Monday touted its just unveiled tilt-rotor drone program for the Marine Corps, along with its V-280 Valor tilt-rotor entrant in the Army's Joint Multi-Role Technology Demonstrator competition. \"The Marines told us they needed a platform\" with the capabilities of the proposed V-247 Vigilant tilt-rotor unmanned aerial system, but Bell-Boeing was operating on the notion that \"if we build it, they will come\" for future sales, Vince Tobin, Bell vice president for advanced vertical lift development, said at the annual Association of the United States Army conference  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2021-07-10"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Compares multi-rotors to helicopters, noting vertical takeoff, hovering, and sharp turns, which are advantages over fixed-wings but doesn't directly compare to conventional helicopter rotor setup."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Describes a hybrid drone combining multi-rotor/helicopter and fixed-wing capabilities, highlighting vertical takeoff/landing and long range at high speed as advantages."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions developing drones to double the speed and range of conventional multi-rotor drones, but doesn't explain the advantages of the multi-rotor design itself."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Directly contrasts single-rotor helicopters with multi-rotors, highlighting multi-rotors' lower risk of serious injury from blades and simpler operation as advantages."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses tilt-rotor drones for military applications, which is a different technology than conventional helicopter or multi-rotor setups."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Multi-rotors fly like helicopters: they take off and land vertically, can hover in place and make sharp right-angle turns.",
+            "Fixed-wings fly more like airplanes, taking off and landing at a slope, needing to fly faster to stay aloft, and making large swooping turns."
+          ],
+          "reason": "Extracted facts comparing the flight characteristics and maneuverability of multi-rotor drones to fixed-wing aircraft, which are relevant to the query about design advantages."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A unique drone design with two rotors in the fuselage and two on the wing tips is capable of flying as a traditional multirotor/helicopter and as a fixed-wing aircraft.",
+            "This design gives the drone vertical take-off and landing capability as well as long range at relatively high speed."
+          ],
+          "reason": "Extracted facts about a hybrid drone design that combines multi-rotor and fixed-wing capabilities, highlighting its advantages in vertical take-off, landing, range, and speed."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "New drone generation aims to double the speed and range of conventional multi-rotor drones."
+          ],
+          "reason": "Extracted a fact about a new drone generation designed to improve speed and range compared to conventional multi-rotor drones, directly addressing the query's focus on advantages."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "A single-rotor heli is a best bet for fast forward flight.",
+            "Downsides of single-rotor helis include complexity, cost, vibration, and the danger of their large spinning blades.",
+            "A multi-rotor prop is unlikely to cause serious damage, unlike the long sharp blades of a heli."
+          ],
+          "reason": "Extracted facts comparing single-rotor helicopters and multi-rotors, highlighting the safety advantage of multi-rotor props over heli blades and the complexity/danger of single-rotor setups."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses tilt-rotor drone programs for military applications and does not contain information comparing multi-rotor designs to conventional helicopter rotor setups or their advantages."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Compares multi-rotors to fixed-wings, not conventional helicopters. Mentions vertical takeoff, hover, and sharp turns as characteristics, but not direct advantages over helicopters.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Describes a hybrid design with multi-rotor capabilities and its advantages (VTOL, range, speed), but doesn't directly compare it to conventional helicopter rotor setups.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "States new drones aim to improve speed and range over conventional multi-rotors, implying an advantage, but doesn't detail the design differences or specific advantages over helicopter rotors.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly contrasts single-rotor helicopters with multi-rotors, highlighting multi-rotor safety (less damage) and single-rotor complexity/danger as advantages.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document discusses tilt-rotor drone programs for military use and does not contain information comparing multi-rotor designs to conventional helicopter rotor setups or their advantages.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_comparison_safety_complexity",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Directly compares multi-rotors to single-rotor helicopters, highlighting multi-rotor safety and single-rotor complexity/danger as advantages."
+          },
+          {
+            "label": "partial_comparison_flight_characteristics",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Compares multi-rotors to fixed-wing aircraft, mentioning flight characteristics but not directly comparing advantages over helicopters."
+          },
+          {
+            "label": "hybrid_design_potential",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Describes a hybrid drone design with multi-rotor capabilities and its advantages, but without direct comparison to conventional helicopter rotors."
+          },
+          {
+            "label": "general_improvement_goals",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "States general goals for improved drone speed and range over conventional multi-rotors, implying advantages without specific design details or helicopter comparisons."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence provides complementary details on drone advantages, with one cluster directly comparing multi-rotors to helicopters on safety and complexity, and others offering partial comparisons or general improvement goals.",
+        "clusters": [
+          {
+            "label": "direct_comparison_safety_complexity",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Directly compares multi-rotors to single-rotor helicopters, highlighting multi-rotor safety and single-rotor complexity/danger as advantages."
+          },
+          {
+            "label": "partial_comparison_flight_characteristics",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Compares multi-rotors to fixed-wing aircraft, mentioning flight characteristics but not directly comparing advantages over helicopters."
+          },
+          {
+            "label": "hybrid_design_potential",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Describes a hybrid drone design with multi-rotor capabilities and its advantages, but without direct comparison to conventional helicopter rotors."
+          },
+          {
+            "label": "general_improvement_goals",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "States general goals for improved drone speed and range over conventional multi-rotors, implying advantages without specific design details or helicopter comparisons."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence directly compares multi-rotors to helicopters on safety and complexity. Other documents offer complementary details on flight characteristics and potential improvements, without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Multi-rotor drones offer advantages in safety and reduced complexity compared to single-rotor helicopters. Other sources discuss flight characteristics and potential improvements in drone speed and range, as well as hybrid designs.",
+        "citations": [
+          "d4",
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly compares multi-rotors to helicopters on safety and complexity. Additional documents provide complementary details on flight characteristics and potential improvements, without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer correctly identifies safety and complexity advantages of multi-rotor drones over single-rotor helicopters, supported by d4. Other points are also supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 10000,
+      "completion_tokens": 2308,
+      "total_tokens": 12308
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1585,
+        "completion_tokens": 398,
+        "total_tokens": 1983
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1540,
+        "completion_tokens": 560,
+        "total_tokens": 2100
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 966,
+        "completion_tokens": 394,
+        "total_tokens": 1360
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1163,
+        "completion_tokens": 346,
+        "total_tokens": 1509
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1468,
+        "completion_tokens": 333,
+        "total_tokens": 1801
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 770,
+        "completion_tokens": 52,
+        "total_tokens": 822
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 927,
+        "completion_tokens": 125,
+        "total_tokens": 1052
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1581,
+        "completion_tokens": 100,
+        "total_tokens": 1681
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:28.435459",
+        "prompt_tokens": 1585,
+        "completion_tokens": 398,
+        "total_tokens": 1983,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:30.861995",
+        "prompt_tokens": 1540,
+        "completion_tokens": 560,
+        "total_tokens": 2100,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:32.654127",
+        "prompt_tokens": 966,
+        "completion_tokens": 394,
+        "total_tokens": 1360,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:34.485815",
+        "prompt_tokens": 1163,
+        "completion_tokens": 346,
+        "total_tokens": 1509,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:36.084653",
+        "prompt_tokens": 1468,
+        "completion_tokens": 333,
+        "total_tokens": 1801,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:36.950605",
+        "prompt_tokens": 770,
+        "completion_tokens": 52,
+        "total_tokens": 822,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:38.240449",
+        "prompt_tokens": 927,
+        "completion_tokens": 125,
+        "total_tokens": 1052,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:39.454473",
+        "prompt_tokens": 1581,
+        "completion_tokens": 100,
+        "total_tokens": 1681,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:49:26.677763",
+  "last_updated_at": "2026-04-17T19:49:39.454986"
+}

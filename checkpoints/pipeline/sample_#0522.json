@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0522",
+  "query": "When do you wear a white bow tie?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "listed above are the strict, traditional definitions, which may not be followed in common use. For example, \"formal\" is often used to mean any of the first three, and \"informal\" to indicate what is classified here as \"casual\". Typical events: Weddings, state dinners, etc. Note that the use of white tie and morning dress has become rare in some countries (such as the United States and Australia), where black tie or a lounge suit (as appropriate) is often worn to the above events. Typical events: Theatre opening nights, charity balls, etc. There is some variation in style depending on whether",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Academic dress of the University of Oxford The University of Oxford has a long tradition of academic dress, which continues to the present day. Academic dress is still worn very often in Oxford, and every undergraduate and graduate must obtain a gown, cap, and white bow tie or black tie or black ribbon for the purpose of the University matriculation ceremony, where students formally become members of the University. Regulations regarding gowns differ from college to college, but gowns are commonly worn to: Gowns and caps are worn to disciplinary hearings in the Proctors' Court. In addition, gowns are worn",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d3",
+      "text": "in Hollywood movies,\" but \"not the mark of a ladies' man\" and \"not exactly sexy.\" To this image he attributes the association of the bow tie with newspaper editors (because of their fastidiousness with words), high-school principals, and bachelor English teachers. Most men, he observes, only wear bow ties with formal dress. The four-in-hand necktie is still more prominent in contemporary Western society, it being seen the most at business meetings, formal functions, schools, and sometimes even at home. However, the bow tie is making a comeback at fun-formal events such as dinners, cocktail parties, and nights out on the",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "their way into women's wear, especially business attire. The 1980s saw professional women, especially in law, banking, and the corporate world, donning very conservative tailored suits, with a rise of almost 6 million units in sales. These were often worn with buttoned-up blouses, some with pleats up the front like tuxedo shirts, and accessorized with bow ties that were slightly fuller than the standard bow ties worn by their male counterparts, but typically consisting of the same fabrics, colors, and patterns as men's ties. Russell Smith, style columnist for Toronto's \"The Globe and Mail,\" records mixed opinions of bow tie",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the Senate House. \"Sub-fusc\" means \"of a dark/dusky colour\", and refers to the clothes worn with full academic dress in Cambridge although the University officially does not use this term. Generally, this involves a dark suit and white shirt, collar, bands and bow tie for men (who must also wear black socks), and a dark suit and white blouse for women. The rules for dress on graduation for women also specify that women's attire must have long sleeves. Although only male graduands are required to wear white ties and bands by a regulation, nothing prevents female graduands doing so too  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1996"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions white tie as part of strict, traditional definitions for formal events like state dinners, though notes its rarity in some countries."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that a white bow tie is required for University matriculation ceremonies at Oxford, alongside a gown and cap."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.45,
+          "is_relevant": true,
+          "reason": "Mentions bow ties are worn with formal dress but doesn't specify when a white bow tie is worn."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses women wearing bow ties in business attire in the 1980s, but not specifically white bow ties or when they are worn."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Specifies that men wear a white bow tie with full academic dress (sub-fusc) at Cambridge for graduation ceremonies."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The use of white tie and morning dress has become rare in some countries, such as the United States and Australia."
+          ],
+          "reason": "Extracted the fact about the declining use of white tie in specific countries, which is relevant to when it is worn."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Undergraduates and graduates at the University of Oxford must obtain a white bow tie or black tie or black ribbon for the University matriculation ceremony."
+          ],
+          "reason": "Extracted the specific requirement of wearing a white bow tie for the University of Oxford's matriculation ceremony."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Most men only wear bow ties with formal dress."
+          ],
+          "reason": "Extracted the general observation that most men wear bow ties with formal dress."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In the 1980s, professional women wore bow ties with conservative tailored suits as part of their business attire."
+          ],
+          "reason": "Extracted the historical fact about professional women wearing bow ties with business attire in the 1980s."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "At Cambridge, men generally wear a dark suit and white shirt, collar, bands and bow tie for full academic dress.",
+            "Although only male graduands are required to wear white ties and bands by regulation at Cambridge, female graduands may also do so."
+          ],
+          "reason": "Extracted facts about the specific academic dress code at Cambridge, including when men wear white bow ties and the option for women."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions white tie but focuses on its declining use rather than when it is worn.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states a specific occasion (University of Oxford matriculation ceremony) when a white bow tie is required.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Indicates bow ties are worn with formal dress, but doesn't specify white bow ties or particular occasions.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions bow ties being worn by professional women in the 1980s with suits, but not specifically white bow ties or current practices.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Specifies that men generally wear a white bow tie for full academic dress at Cambridge, and it's an option for women.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "academic_dress_code",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide specific details on the requirement and option of wearing white bow ties for academic ceremonies at Oxford and Cambridge universities."
+          },
+          {
+            "label": "general_formal_wear",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 offers a general statement about bow ties being worn with formal dress, lacking specificity on white bow ties or particular occasions."
+          },
+          {
+            "label": "historical_and_declining_use",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 discuss the declining use of white tie and historical instances of bow tie wear in professional attire, respectively, which are less direct in answering when white bow ties are currently worn."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from different sources provides compatible details on the use of white bow ties in academic dress codes and general formal wear, with some historical context.",
+        "clusters": [
+          {
+            "label": "academic_dress_code",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide specific details on the requirement and option of wearing white bow ties for academic ceremonies at Oxford and Cambridge universities."
+          },
+          {
+            "label": "general_formal_wear",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 offers a general statement about bow ties being worn with formal dress, lacking specificity on white bow ties or particular occasions."
+          },
+          {
+            "label": "historical_and_declining_use",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 discuss the declining use of white tie and historical instances of bow tie wear in professional attire, respectively."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with specific details on academic dress codes and general formal wear, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "White bow ties are required or optional for academic ceremonies at Oxford and Cambridge universities. General formal wear may also include bow ties, though some sources note a declining use of white tie and historical instances of bow tie wear.",
+        "citations": [
+          "d2",
+          "d5",
+          "d3",
+          "d1",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence provide complementary details on the use of white bow ties in academic and formal settings, with some historical context, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting the conditions under which white bow ties are worn for academic ceremonies and general formal wear."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8635,
+      "completion_tokens": 2018,
+      "total_tokens": 10653
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1328,
+        "completion_tokens": 366,
+        "total_tokens": 1694
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1283,
+        "completion_tokens": 446,
+        "total_tokens": 1729
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 839,
+        "completion_tokens": 347,
+        "total_tokens": 1186
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1002,
+        "completion_tokens": 307,
+        "total_tokens": 1309
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1286,
+        "completion_tokens": 277,
+        "total_tokens": 1563
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 707,
+        "completion_tokens": 45,
+        "total_tokens": 752
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 857,
+        "completion_tokens": 134,
+        "total_tokens": 991
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1333,
+        "completion_tokens": 96,
+        "total_tokens": 1429
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:50.961524",
+        "prompt_tokens": 1328,
+        "completion_tokens": 366,
+        "total_tokens": 1694,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:53.212976",
+        "prompt_tokens": 1283,
+        "completion_tokens": 446,
+        "total_tokens": 1729,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:54.961676",
+        "prompt_tokens": 839,
+        "completion_tokens": 347,
+        "total_tokens": 1186,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:56.410811",
+        "prompt_tokens": 1002,
+        "completion_tokens": 307,
+        "total_tokens": 1309,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:58.229681",
+        "prompt_tokens": 1286,
+        "completion_tokens": 277,
+        "total_tokens": 1563,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:59.176048",
+        "prompt_tokens": 707,
+        "completion_tokens": 45,
+        "total_tokens": 752,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:00.382223",
+        "prompt_tokens": 857,
+        "completion_tokens": 134,
+        "total_tokens": 991,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:01.405415",
+        "prompt_tokens": 1333,
+        "completion_tokens": 96,
+        "total_tokens": 1429,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:53:49.119836",
+  "last_updated_at": "2026-04-17T19:54:01.405914"
+}

@@ -1,0 +1,398 @@
+{
+  "sample_id": "#0606",
+  "query": "What was the former name of st petersburg russia?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "stations and six parks. Older people sometimes use old names and old mailing addresses. The name Leningrad was heavily promoted in media, mainly in connection with the siege, so even authorities may call it \"Hero city Leningrad.\" Young people may use \"Leningrad\" as a vague protest against some social and economic changes. A popular ska punk band from Saint Petersburg is called Leningrad. Leningrad Oblast retained its name after a popular vote. It is a separate federal subject of Russia of which the city of St. Petersburg is the capital. In 1996, Vladimir Yakovlev was elected the head of the",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Peter the Great St. Petersburg Polytechnic University Peter the Great St. Petersburg Polytechnic University, abbreviated as SPbPU; also, formerly \"Saint Petersburg State Technical University\", abbreviated as SPbSTU) is a major Russian technical university situated in Saint Petersburg. Other former names included Peter the Great Polytechnic Institute () and Kalinin Polytechnic Institute (). The university is considered to be one of the top research facilities in Russian Federation and CIS member states and is a leading educational facility in the field of applied physics and mathematics, industrial engineering, chemical engineering, aerospace engineering and many other academic disciplines. On a national scale,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "the same year Ingermanland Governorate was further expanded to encompass the regions of Pskov, Novgorod and other towns of Western Russia. As with the rest of the governorates, neither the borders nor internal subdivisions of Ingermanland Governorate were defined; instead, the territory was defined as a set of cities and the lands adjacent to those cities. By another edict on June 3, 1710, the governorate was renamed St. Petersburg Governorate after the newly founded city of Saint Petersburg, and in 1721 the former Swedish Duchy of Ingria, and parts of the County of Kexholm and the County of Viborg and",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "selo of Urdom, was mentioned in the chronicles in 1323. In the end of the 14th century, the area was finally under control of Moscow. In the course of the administrative reform carried out in 1708 by Peter the Great, the area was split between Smolensk Governorate and Ingermanlandia Governorate (since 1710 known as Saint Petersburg Governorate). In 1727 Novgorod Governorate split off from Saint Petersburg Governorate. In 1775, Tver Viceroyalty was formed from the lands which previously belonged to Moscow and Novgorod Governorates, and the northeastern part of the area was transferred to Tver Viceroyalty, which in 1796 was",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Pereswetoff-Morath, a descendant of Russian noblemen, boyars, who had entered Swedish service in the first decades of the 17th century. Nyenskans, under the name Schl\u251c\u2562tburg, functioned in Russian service only for some weeks before it was retired as an active military garrison. In 1703, Peter decided to found Saint Petersburg, a brand new capital city for the Tsardom of Russia, from scratch in the Neva River delta on the land around Nyenskans. Peter had disliked Moscow, the largest city and historical capital of Russia, which he considered to be inconveniently located and too isolated from the rest of Europe. He  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2020"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions that older people sometimes use old names and that Leningrad was a former name for St. Petersburg, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions former names of a university in St. Petersburg, including \"Saint Petersburg State Technical University\", which is related but not the city's former name."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States that St. Petersburg Governorate was renamed from Ingermanland Governorate, implying Ingermanland was a former name for the region."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions that the area was split into governorates, including \"Saint Petersburg Governorate\" which was split from Novgorod Governorate, providing historical context."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States Peter the Great decided to found Saint Petersburg as a new capital, implying it was a new name for the area, and mentions Nyenskans."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Older people sometimes use old names and old mailing addresses for St. Petersburg.",
+            "The name Leningrad was heavily promoted in media, mainly in connection with the siege.",
+            "Young people may use \"Leningrad\" as a vague protest against some social and economic changes.",
+            "A popular ska punk band from Saint Petersburg is called Leningrad.",
+            "Leningrad Oblast retained its name after a popular vote."
+          ],
+          "reason": "Extracted facts about the use of the name 'Leningrad' in relation to St. Petersburg, including its historical and cultural significance."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Peter the Great St. Petersburg Polytechnic University was formerly \"Saint Petersburg State Technical University\".",
+            "Other former names for the university included Peter the Great Polytechnic Institute and Kalinin Polytechnic Institute."
+          ],
+          "reason": "Extracted former names of a university located in St. Petersburg, which indirectly relates to the city's naming history."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "By an edict on June 3, 1710, the Ingermanland Governorate was renamed St. Petersburg Governorate."
+          ],
+          "reason": "Extracted the fact that the governorate encompassing St. Petersburg was renamed after the city in 1710."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In the course of the administrative reform carried out in 1708 by Peter the Great, the area was split between Smolensk Governorate and Ingermanlandia Governorate (since 1710 known as Saint Petersburg Governorate)."
+          ],
+          "reason": "Extracted the historical administrative naming of the region as Saint Petersburg Governorate in 1710."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "In 1703, Peter decided to found Saint Petersburg, a brand new capital city for the Tsardom of Russia, from scratch in the Neva River delta."
+          ],
+          "reason": "Extracted the founding of Saint Petersburg in 1703 by Peter the Great as a new capital city."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions 'Leningrad' as an old name for St. Petersburg, but focuses on its modern usage and promotion rather than its historical status as the official name.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The former names mentioned are for a university in St. Petersburg, not for the city itself. This information does not answer the query about the city's former name.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This fact states that a governorate was renamed *after* St. Petersburg, not that St. Petersburg itself had a former name. It does not answer the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This fact mentions the administrative naming of a governorate as 'Saint Petersburg Governorate' in 1710, not a former name of the city of St. Petersburg itself.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This fact states that St. Petersburg was founded in 1703, but does not mention any former name for the city.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_mention_of_leningrad",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 partially supports by mentioning 'Leningrad' as an old name for St. Petersburg, but focuses on its modern usage and promotion rather than its historical status as the official name."
+          },
+          {
+            "label": "irrelevant_university_names",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 is irrelevant as it discusses former names of a university, not the city itself."
+          },
+          {
+            "label": "irrelevant_governorate_names",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 are irrelevant as they discuss the renaming of governorates related to St. Petersburg, not former names of the city."
+          },
+          {
+            "label": "irrelevant_founding_information",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 is irrelevant as it only mentions the founding of St. Petersburg without providing any former names."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Document d1 partially mentions 'Leningrad' in relation to St. Petersburg, while other documents are irrelevant.",
+        "clusters": [
+          {
+            "label": "partial_mention_of_leningrad",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 partially supports by mentioning 'Leningrad' as an old name for St. Petersburg, but focuses on its modern usage and promotion rather than its historical status as the official name."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, d4, and d5 are irrelevant as they discuss university names, governorate names, or the founding of the city, not former names of St. Petersburg itself."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence is insufficient, with only a partial mention of 'Leningrad' and no other supporting documents. This sparsity makes a reliable answer impossible."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence is insufficient, with only a partial mention of 'Leningrad' and no other supporting documents. This sparsity makes a reliable answer impossible.",
+        "final_reasoning": "The provided documents do not contain sufficient information to answer the query. Document d1 offers only a partial mention, and other documents are irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents mention Leningrad and St. Petersburg Governorate, but do not explicitly state a former name for the city of St. Petersburg."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9195,
+      "completion_tokens": 2140,
+      "total_tokens": 11335
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1379,
+        "completion_tokens": 384,
+        "total_tokens": 1763
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1334,
+        "completion_tokens": 548,
+        "total_tokens": 1882
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 937,
+        "completion_tokens": 393,
+        "total_tokens": 1330
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1143,
+        "completion_tokens": 318,
+        "total_tokens": 1461
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1466,
+        "completion_tokens": 245,
+        "total_tokens": 1711
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 730,
+        "completion_tokens": 48,
+        "total_tokens": 778
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 883,
+        "completion_tokens": 98,
+        "total_tokens": 981
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1323,
+        "completion_tokens": 106,
+        "total_tokens": 1429
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:21.161248",
+        "prompt_tokens": 1379,
+        "completion_tokens": 384,
+        "total_tokens": 1763,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:23.349311",
+        "prompt_tokens": 1334,
+        "completion_tokens": 548,
+        "total_tokens": 1882,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:25.136510",
+        "prompt_tokens": 937,
+        "completion_tokens": 393,
+        "total_tokens": 1330,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:27.107481",
+        "prompt_tokens": 1143,
+        "completion_tokens": 318,
+        "total_tokens": 1461,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:28.348174",
+        "prompt_tokens": 1466,
+        "completion_tokens": 245,
+        "total_tokens": 1711,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:29.498015",
+        "prompt_tokens": 730,
+        "completion_tokens": 48,
+        "total_tokens": 778,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:30.770145",
+        "prompt_tokens": 883,
+        "completion_tokens": 98,
+        "total_tokens": 981,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:31.906869",
+        "prompt_tokens": 1323,
+        "completion_tokens": 106,
+        "total_tokens": 1429,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:17:18.305817",
+  "last_updated_at": "2026-04-17T20:17:31.907388"
+}

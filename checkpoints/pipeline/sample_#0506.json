@@ -1,0 +1,404 @@
+{
+  "sample_id": "#0506",
+  "query": "Why does making movie cost so much money?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How Much Does it Really Cost to Make a Movie? | Work + Money are promotional costs staggering, they can make or break a movie\u0393\u00c7\u00d6s box office gross, and are a huge part of deciding whether or not a movie is a flop or a hit when these costs are factored in. According to Gizmodo, who spoke with a BoxOffice.com editor, marketing costs can equal half or more of a movie\u0393\u00c7\u00d6s production budget. They say the children\u0393\u00c7\u00d6s flick \u0393\u00c7\u00a3Megamind\u0393\u00c7\u00a5 cost between $130 million and $145 million to make, but had a promotional cost of $65 million. Movies that a studio thinks are going to flop receive less advertising in an attempt to curb their",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How Exactly Do Movies Make Money? Movie Genres That Make The Most Money Movie Vs. TV Industry: Which Is Most Profitable? How to Invest in Movies Top Grossing Sci-Fi Films Of All Time Why Movies Cost So Much To Make Product placement is a form of advertising in which branded goods and services are featured in a video production that targets a large audience. A business model is a company's core strategy for making a profit. It defines the product or service it will sell, the target market, and the costs. Learn about Advertising Costs Advertising costs are a category in financial accounting that covers expenses",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why is John Carter considered a flop? - Movies & TV Stack Exchange Why is John Carter considered a flop? According to Box Office Mojo John Carter grossed $284 million with a production budget of $250 million. I know that many things are not included in the production budget, possibly advertising and distribution. Do those things account for so much money that grossing $34 million over the production budget just doesn't cut it? People often forget that theaters get a cut of the box office money. After all it does cost money to run a theater, and they obviously want to make a profit too. - Usually the theaters get about 50 percent",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "How Much Does it Really Cost to Make a Movie? | Work + Money How Much Does it Really Cost to Make a Movie? It\u0393\u00c7\u00d6s notoriously difficult to figure out the actual costs of a Hollywood production. We did our best to find out. Have you ever wondered just how much that set on your favorite movie cost to make? Or just how much an actor actually gets paid just for a few months\u0393\u00c7\u00d6 worth of work? You\u0393\u00c7\u00d6re not alone. It\u0393\u00c7\u00d6s notoriously difficult to get the line-by-line costs of a movie. Film budgets are some of Hollywood\u0393\u00c7\u00d6s most closely guarded secrets since they really don\u0393\u00c7\u00d6t want anyone to know how much anyone else is",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Remakes Remakes REMAKES! to make. You're looking at movies that cost 200 million dollars to even more (Pirates of The Caribbean: On Stranger Tides cost 412 million bucks to make for example). Because a lot of these movies cost so much combined with the fact that the movie would have to make double or more than the budget in order to even turn in a profit, that makes studios extremely risk averse. A new idea or franchise is extremely risky to put so much money on. This, combined with the trend of nostalgia pandering, then it's clear to see why remakes are so  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains that marketing costs can be a huge part of a movie's budget, sometimes equaling half or more of the production budget, directly addressing why movies cost so much."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions 'Why Movies Cost So Much To Make' as a title but focuses on product placement and business models rather than detailing the costs themselves."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses how advertising and distribution costs, not always included in the production budget, contribute significantly to a movie's overall expense, impacting profitability."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "States that movie production costs are difficult to determine and are closely guarded secrets, implying that these costs are substantial and complex."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Provides examples of extremely high movie budgets (e.g., $412 million) and explains that needing to double the budget for profit makes studios risk-averse, contributing to high costs."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Promotional costs can equal half or more of a movie's production budget.",
+            "The children's flick 'Megamind' had a promotional cost of $65 million.",
+            "Movies predicted to flop receive less advertising to curb costs."
+          ],
+          "reason": "Extracted key facts about the significant impact and cost of movie marketing and advertising, directly addressing the query about why movies are expensive."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Product placement is a form of advertising featuring branded goods in productions.",
+            "Advertising costs are a category in financial accounting covering expenses."
+          ],
+          "reason": "Extracted facts related to advertising and product placement as cost components in movie production, relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Theaters typically receive about 50 percent of the box office money.",
+            "Costs like advertising and distribution are often not included in the production budget."
+          ],
+          "reason": "Extracted facts about theater revenue share and unincluded costs (advertising, distribution) that contribute to a movie's overall expense, relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "It is notoriously difficult to determine the actual costs of a Hollywood production.",
+            "Film budgets are closely guarded secrets by studios."
+          ],
+          "reason": "Extracted facts highlighting the secrecy and difficulty in determining movie production costs, which indirectly explains why the exact expenses are not transparent."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Movies like 'Pirates of The Caribbean: On Stranger Tides' can cost over $400 million to make.",
+            "Studios are risk-averse due to high production costs and the need to double the budget for profit.",
+            "New ideas or franchises are risky investments for studios."
+          ],
+          "reason": "Extracted facts about extremely high movie budgets and studio risk aversion due to costs, directly explaining why making movies is so expensive."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Highlights promotional costs as a significant factor, sometimes exceeding production budgets, directly explaining high movie expenses.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions product placement and advertising costs, which are components of movie expenses, but doesn't fully explain the overall high cost.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Discusses theater revenue share and unincluded costs like advertising and distribution, which contribute to overall expenses but don't detail production costs.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Focuses on the secrecy of film budgets rather than the reasons for high costs, offering no direct explanation for expenses.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states extremely high movie costs and explains studio risk aversion due to these high production expenses.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "high_promotional_costs",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Promotional costs can be a substantial part of a movie's overall expense, sometimes equaling or exceeding production budgets."
+          },
+          {
+            "label": "extreme_production_budgets",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Some movies have extremely high production costs, leading to studio risk aversion and the need for significant profit margins."
+          },
+          {
+            "label": "advertising_and_unincluded_costs",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Advertising, product placement, and distribution costs are significant components of movie expenses, though sometimes not explicitly detailed in production budgets."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible details about why movies are expensive, covering high promotional costs, extreme production budgets, and additional advertising/distribution expenses.",
+        "clusters": [
+          {
+            "label": "high_promotional_costs",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Promotional costs can be a substantial part of a movie's overall expense, sometimes equaling or exceeding production budgets."
+          },
+          {
+            "label": "extreme_production_budgets",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Some movies have extremely high production costs, leading to studio risk aversion and the need for significant profit margins."
+          },
+          {
+            "label": "advertising_and_unincluded_costs",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Advertising, product placement, and distribution costs are significant components of movie expenses, though sometimes not explicitly detailed in production budgets."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing a comprehensive overview of movie expenses without significant conflict, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Movies incur substantial expenses due to high promotional costs, which can equal or exceed production budgets, alongside extremely high production costs for some films. Additional significant costs include advertising, product placement, and distribution, which are often not detailed in production budgets.",
+        "citations": [
+          "d1",
+          "d5",
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial evidence are complementary, providing a comprehensive answer about movie expenses without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting the reasons for high movie production costs, including promotional expenses and advertising."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9389,
+      "completion_tokens": 2025,
+      "total_tokens": 11414
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1554,
+        "completion_tokens": 399,
+        "total_tokens": 1953
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1509,
+        "completion_tokens": 526,
+        "total_tokens": 2035
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 907,
+        "completion_tokens": 343,
+        "total_tokens": 1250
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1064,
+        "completion_tokens": 238,
+        "total_tokens": 1302
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1319,
+        "completion_tokens": 261,
+        "total_tokens": 1580
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 664,
+        "completion_tokens": 43,
+        "total_tokens": 707
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 812,
+        "completion_tokens": 122,
+        "total_tokens": 934
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1560,
+        "completion_tokens": 93,
+        "total_tokens": 1653
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:32.303584",
+        "prompt_tokens": 1554,
+        "completion_tokens": 399,
+        "total_tokens": 1953,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:34.625988",
+        "prompt_tokens": 1509,
+        "completion_tokens": 526,
+        "total_tokens": 2035,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:36.278948",
+        "prompt_tokens": 907,
+        "completion_tokens": 343,
+        "total_tokens": 1250,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:38.728668",
+        "prompt_tokens": 1064,
+        "completion_tokens": 238,
+        "total_tokens": 1302,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:39.984685",
+        "prompt_tokens": 1319,
+        "completion_tokens": 261,
+        "total_tokens": 1580,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:40.830154",
+        "prompt_tokens": 664,
+        "completion_tokens": 43,
+        "total_tokens": 707,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:42.329733",
+        "prompt_tokens": 812,
+        "completion_tokens": 122,
+        "total_tokens": 934,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:43.206675",
+        "prompt_tokens": 1560,
+        "completion_tokens": 93,
+        "total_tokens": 1653,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:50:29.600080",
+  "last_updated_at": "2026-04-17T19:50:43.207164"
+}

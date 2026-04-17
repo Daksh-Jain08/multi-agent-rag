@@ -1,0 +1,377 @@
+{
+  "sample_id": "#0662",
+  "query": "How many members form a jury in scotland?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "also changed the criteria for jury service in trials for high treason and misprision of treason committed in Scotland. It was repealed by section 2(1) of, and the Schedule to, the Treason Act 1945. Another Act in the same year, 19 Geo.II c.26, stated that people named in the Act would automatically be attainted of treason unless they surrendered to the authorities by 12 July 1746. Jurors (Scotland) Act 1745 The Jurors (Scotland) Act 1745 (19 Geo 2 c 9) was an Act of the Parliament of Great Britain, passed during the Jacobite Rising of 1745. Its long title was",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Team. The women's roll of honour initially included 12 players. Scottish FA International Roll of Honour The International Roll of Honour is a list established by the Scottish Football Association recognising players who have gained 50 or more international caps for Scotland. The roll of honour was launched in February 1988, when 11 players had already achieved the distinction. Each player inducted receives a commemorative gold medal, an invitation to every Scotland home match and has their portrait hung in the Scottish Football Museum. In July 2017, the SFA launched the Women's International Roll of Honour, which recognises players who",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Qualification Tournament in Cyprus. In addition, they accepted an invitation by FIVB and the CGF to enter a team of two women. Team Scotland announced the majority of its 11-strong squad (9 men and 2 women) on 30 November 2017. Following a men's light heavyweight box-off at the \"GB Boxing Championships\", another boxer was added on 12 December 2017. A further addition to the squad was made on 1 February 2018. Team Scotland announced its squad on 14 February 2018. Andy Fenn subsequently withdrew himself due to changes in his race programme, ergo the 15-strong squad now consists of 9",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d4",
+      "text": "many areas of western Scotland, the island's population declined steadily over the ensuing decades. However, there has been a small increase since 2001. During the decade from 2001 to 2011 Scottish island populations as a whole grew by 4% to 103,702. Alongside the long-term decline in Jura's population has been a decline in the number of Gaelic speakers. The 1881 census reported that 86.6% (out of 946 inhabitants) spoke Gaelic. In 1961, for the first time less than half (46.9%) spoke the language and by 2001, this figure had dropped to 10.6%. During the first half of the 20th century,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Board of Management of 8 members appointed by Her Majesty The Queen on the recommendation of the First Minister of Scotland. As of 28 July 2018, its current members are: By statute, at least one third of the Commission's members are required to be legally qualified (either an advocate or solicitor of at least 10 years' standing) and at least two thirds must have knowledge or experience of the criminal justice system. The Board members and the Chief Executive are required to work together to ensure that the Commission runs efficiently and effectively. The Commission's role is to review and  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2000-03-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "This document mentions jury service in Scotland in relation to treason trials but does not specify the number of members on a jury."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses football players and international caps, which is unrelated to jury composition in Scotland."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document is about sports teams and squad sizes, not jury composition."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses population decline and Gaelic speakers in western Scotland, unrelated to jury size."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document mentions a Board of Management with 8 members and legal qualifications for criminal justice system roles in Scotland, but not jury size."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Jurors (Scotland) Act 1745 (19 Geo 2 c 9) was an Act of the Parliament of Great Britain."
+          ],
+          "reason": "Extracted the specific Act related to jurors in Scotland, as mentioned in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses football player statistics and rolls of honor, containing no information about jury composition in Scotland."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document details the composition of a sports team (Team Scotland) and does not contain information about jury members."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses population and Gaelic speaker decline in western Scotland and provides no information on jury composition."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Board of Management consists of 8 members appointed by The Queen on the recommendation of the First Minister of Scotland.",
+            "At least one third of the Commission's members must be legally qualified (advocate or solicitor of at least 10 years' standing).",
+            "At least two thirds of the Commission's members must have knowledge or experience of the criminal justice system."
+          ],
+          "reason": "Extracted facts about the composition and qualification requirements for the Board of Management of a Scottish Commission, which is relevant to the query about jury formation."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document mentions an Act related to jurors but does not specify the number of members on a jury.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The key facts are about football player statistics and have no relation to jury composition in Scotland.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document discusses a sports team and does not contain information about the number of members on a jury in Scotland.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses population and Gaelic speakers, providing no information on jury composition in Scotland.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "The document describes the composition of a Board of Management, not a jury. It mentions 8 members but this is for a different body.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "irrelevant_documents",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "These documents are irrelevant as they do not contain information about jury composition in Scotland."
+          },
+          {
+            "label": "partially_relevant_composition_details",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides details on the composition of a Board of Management, which is not a jury, but offers some related context."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence is largely irrelevant or only partially relevant, with no direct conflicting claims about jury composition in Scotland. Document d5 offers some context but is not about juries.",
+        "clusters": [
+          {
+            "label": "irrelevant_documents",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "These documents do not contain information about jury composition in Scotland."
+          },
+          {
+            "label": "partially_relevant_composition_details",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 describes the composition of a Board of Management, not a jury, but provides some related context."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence is largely irrelevant or only partially relevant, with no direct information about jury composition in Scotland. Abstention is necessary due to insufficient supporting evidence."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence is largely irrelevant or only partially relevant, with no direct information about jury composition in Scotland. Abstention is necessary due to insufficient supporting evidence.",
+        "final_reasoning": "The provided documents do not contain information about jury composition in Scotland. Document d5 is only partially relevant as it discusses a Board of Management, not a jury. Therefore, abstention is necessary."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claim. The documents do not contain information about the number of members in a Scottish jury."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8468,
+      "completion_tokens": 1736,
+      "total_tokens": 10204
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1443,
+        "completion_tokens": 342,
+        "total_tokens": 1785
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1398,
+        "completion_tokens": 398,
+        "total_tokens": 1796
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 808,
+        "completion_tokens": 334,
+        "total_tokens": 1142
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 957,
+        "completion_tokens": 219,
+        "total_tokens": 1176
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1169,
+        "completion_tokens": 184,
+        "total_tokens": 1353
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 576,
+        "completion_tokens": 49,
+        "total_tokens": 625
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 730,
+        "completion_tokens": 110,
+        "total_tokens": 840
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1387,
+        "completion_tokens": 100,
+        "total_tokens": 1487
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:27:58.983924",
+        "prompt_tokens": 1443,
+        "completion_tokens": 342,
+        "total_tokens": 1785,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:00.738820",
+        "prompt_tokens": 1398,
+        "completion_tokens": 398,
+        "total_tokens": 1796,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:02.467483",
+        "prompt_tokens": 808,
+        "completion_tokens": 334,
+        "total_tokens": 1142,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:03.797472",
+        "prompt_tokens": 957,
+        "completion_tokens": 219,
+        "total_tokens": 1176,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:05.232000",
+        "prompt_tokens": 1169,
+        "completion_tokens": 184,
+        "total_tokens": 1353,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:06.150511",
+        "prompt_tokens": 576,
+        "completion_tokens": 49,
+        "total_tokens": 625,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:07.137919",
+        "prompt_tokens": 730,
+        "completion_tokens": 110,
+        "total_tokens": 840,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:28:08.173960",
+        "prompt_tokens": 1387,
+        "completion_tokens": 100,
+        "total_tokens": 1487,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:27:56.589848",
+  "last_updated_at": "2026-04-17T20:28:08.174462"
+}

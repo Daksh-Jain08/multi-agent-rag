@@ -1,0 +1,402 @@
+{
+  "sample_id": "#0609",
+  "query": "How do bookmakers calculate odds in play? Like how do they decide what odds to give on a certain person to score or an event to happen in such quick time?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How do bookmakers calculate starting price and change their odds? | iwinsoccerbets | Football Stats, Soccer Betting Tips and Football Betting Predictions guaranteed price on a betting exchange or bookmaker when the event starts. so, in horse racing this would be the final price before the horses leave the gate, whereas in soccer betting we're talking about when the match kicks off. Are odds based on probability? Do they reflect the actual result? The most common conception of bookies\u0393\u00c7\u00d6 odds (and even Betfair starting odds) is that they\u0393\u00c7\u00d6re based on probability \u0393\u00c7\u00f4 i.e. how likely it is that each outcome, in a given market, will actually happen. Is this the case, in reality? The answer is\u0393\u00c7\u00aa kind of. Bookies do start off",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What is a Bookmaker? basic methodology of fixed odds sports betting on a football match, the bookmaker will calculate the odds on the outcome of a football match. What they will do, is essentially lay a bet, which means that they will offer odds (which is based on calculations of percentages) of an event not happening. So if the match was Wigan v Chelsea, then the bookmaker for example may set a price on Wigan win at 5/1, which is essentially setting the odds against Chelsea winning. Once the bookmaker sets the odds against something happening, it is then up to you to agree",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2005-05-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Understanding the Betting Odds and How Bookmakers Make their Money money on a particular bet is entirely dependent on the odds and what value they represent. Let's consider the probability of an event happening. A 6-sided dice is rolled: rolling a one, two, three, four, five or six are all the same probability \u0393\u00c7\u00f4 16.67%: a one in six chance of correctly guessing the number the dice will fall on. Bookmakers offer this probability on events based on how likely they are to happen. By using a fraction or a decimal, these odds represent the value of the bet; it\u0393\u00c7\u00d6s then down to the punter to decide whether or not",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Bookmaking Unraveled \u0393\u00c7\u00f4 OddsLords How does a bookmaker operate? The bookmaker works to operate the odds so as to have them in their favor. They seek to achieve a balanced book. This is their primary focus. They try to achieve a balanced book by having bettors competing against each other for the same odds or the same event. They try to have a balance in their book by having a number of people placing bets on the happening of a certain event and the same or close to equal number of people wagering on the non happening of the same event. By doing so",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2015-07-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How do bookmakers calculate starting price and change their odds? | iwinsoccerbets | Football Stats, Soccer Betting Tips and Football Betting Predictions which bets offer good or bad value, and \u0393\u00c7\u00f4 from a broader perspective \u0393\u00c7\u00f4 which bookies tend to have more or less generous odds. Calculating margins isn\u0393\u00c7\u00d6t actually very hard. To do so, however, you will need to use decimal odds rather than fractional. To calculate the margins on a two-outcome market \u0393\u00c7\u00f4 Both Teams to Score, Over/Under Total Goals, and so on \u0393\u00c7\u00f4 here\u0393\u00c7\u00d6s the equation you need: (1/Option A) x 100 + (1/Option B) x 100 Let\u0393\u00c7\u00d6s say you\u0393\u00c7\u00d6re looking at a Both Teams To Score bet. The odds on Yes are 1.10, and the odds on No  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2008-09-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses how bookmakers calculate odds based on probability, which is relevant to the query about how odds are determined, though it focuses on starting prices rather than in-play."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Explains that bookmakers calculate odds based on probability percentages. This is relevant to the query, although it doesn't specifically address 'in-play' scenarios."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.6,
+          "is_relevant": true,
+          "reason": "Mentions bookmakers offer probabilities on events based on how likely they are to happen, which is a core concept for calculating odds, but doesn't detail the in-play aspect."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Explains a bookmaker's goal is to achieve a balanced book by having bettors on both sides of an event. This is related to odds calculation but not directly how in-play odds are set."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses how bookmakers calculate margins and odds, providing an equation for two-outcome markets. This is relevant to the query's core question about odds calculation, though not specifically 'in-play'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Bookmakers' odds are commonly conceived as being based on probability, reflecting how likely each outcome is to happen."
+          ],
+          "reason": "Extracted the core concept that bookmakers' odds are generally based on probability, which is relevant to how they are calculated."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Bookmakers calculate odds on the outcome of a football match based on calculations of percentages.",
+            "Bookmakers offer odds on an event not happening, essentially laying a bet."
+          ],
+          "reason": "Extracted the methodology of calculating odds based on percentages and the concept of 'laying a bet' against an event happening."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Bookmakers offer odds on events based on how likely they are to happen.",
+            "Odds represent the value of the bet."
+          ],
+          "reason": "Extracted the principle that bookmakers base odds on the likelihood of an event and that odds represent bet value."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Bookmakers operate odds to have them in their favor by seeking to achieve a balanced book.",
+            "They try to achieve a balanced book by having bettors competing against each other for the same odds or event."
+          ],
+          "reason": "Extracted the bookmaker's primary focus of achieving a balanced book and the strategy of having bettors compete against each other."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The margin on a two-outcome market can be calculated using the formula: (1/Option A) x 100 + (1/Option B) x 100."
+          ],
+          "reason": "Extracted a specific formula for calculating margins on two-outcome markets, which is a direct method used by bookmakers."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States that odds are based on probability, which is a fundamental aspect of how bookmakers calculate them.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Explains that bookmakers use percentage calculations to determine odds and also bet against events happening.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms odds are based on event likelihood and represent bet value, directly addressing the calculation basis.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Explains the goal of a balanced book but doesn't detail the specific odds calculation for in-play events.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Provides a specific formula for calculating margins on two-outcome markets, a direct method used by bookmakers.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "probability_and_percentage_basis",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d1, d2, and d3 explain that bookmakers' odds are fundamentally based on probability and percentage calculations, reflecting the likelihood of an event occurring."
+          },
+          {
+            "label": "margin_calculation_formula",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides a specific formula for calculating margins on two-outcome markets, illustrating a direct method used by bookmakers."
+          },
+          {
+            "label": "balanced_book_strategy",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 discusses the bookmaker's strategic goal of achieving a balanced book, though it does not detail the odds calculation process itself."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently supports the idea that bookmakers' odds are based on probability, percentage calculations, and strategic goals like a balanced book, with specific formulas for margin calculation.",
+        "clusters": [
+          {
+            "label": "probability_and_percentage_basis",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d1, d2, and d3 explain that bookmakers' odds are fundamentally based on probability and percentage calculations, reflecting the likelihood of an event occurring."
+          },
+          {
+            "label": "margin_calculation_formula",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides a specific formula for calculating margins on two-outcome markets, illustrating a direct method used by bookmakers."
+          },
+          {
+            "label": "balanced_book_strategy",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 discusses the bookmaker's strategic goal of achieving a balanced book, though it does not detail the odds calculation process itself."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing a strong basis for answering how bookmakers set odds using probability, percentages, and margin calculations."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Bookmakers set odds based on probability and percentage calculations, reflecting the likelihood of an event. They also use specific formulas to calculate margins on markets and aim for a balanced book as a strategic goal.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d5",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence is coherent and complementary, providing a strong basis for answering how bookmakers set odds using probability, percentages, and margin calculations."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting how bookmakers calculate odds based on probability, percentages, margins, and the goal of a balanced book."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9853,
+      "completion_tokens": 2093,
+      "total_tokens": 11946
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1712,
+        "completion_tokens": 429,
+        "total_tokens": 2141
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1667,
+        "completion_tokens": 481,
+        "total_tokens": 2148
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 895,
+        "completion_tokens": 324,
+        "total_tokens": 1219
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1010,
+        "completion_tokens": 298,
+        "total_tokens": 1308
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1285,
+        "completion_tokens": 289,
+        "total_tokens": 1574
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 710,
+        "completion_tokens": 46,
+        "total_tokens": 756
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 861,
+        "completion_tokens": 126,
+        "total_tokens": 987
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1713,
+        "completion_tokens": 100,
+        "total_tokens": 1813
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:07.479488",
+        "prompt_tokens": 1712,
+        "completion_tokens": 429,
+        "total_tokens": 2141,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:09.883003",
+        "prompt_tokens": 1667,
+        "completion_tokens": 481,
+        "total_tokens": 2148,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:11.532059",
+        "prompt_tokens": 895,
+        "completion_tokens": 324,
+        "total_tokens": 1219,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:12.869658",
+        "prompt_tokens": 1010,
+        "completion_tokens": 298,
+        "total_tokens": 1308,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:14.965439",
+        "prompt_tokens": 1285,
+        "completion_tokens": 289,
+        "total_tokens": 1574,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:15.911954",
+        "prompt_tokens": 710,
+        "completion_tokens": 46,
+        "total_tokens": 756,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:16.935336",
+        "prompt_tokens": 861,
+        "completion_tokens": 126,
+        "total_tokens": 987,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:18.062802",
+        "prompt_tokens": 1713,
+        "completion_tokens": 100,
+        "total_tokens": 1813,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:18:05.816332",
+  "last_updated_at": "2026-04-17T20:18:18.063340"
+}

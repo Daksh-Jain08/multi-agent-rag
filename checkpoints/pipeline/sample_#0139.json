@@ -1,0 +1,561 @@
+{
+  "sample_id": "#0139",
+  "query": "How many people from Princeton University have won the Fields Medal?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Fields Medal - Wikipedia In total, 64 people have been awarded the Fields Medal. The most recent ... Princeton University, US, Princeton University, US, \"For bringing the ideas ... Its purpose is to give recognition and support to younger mathematical researchers who have made major contributions. In 2014, the Iranian mathematician Maryam Mirzakhani became the first female Fields Medalist.[11][12][13] In total, 64 people have been awarded the Fields Medal. The most recent group of Fields Medalists received their awards on 5 July 2022 in an online event which was live-streamed from Helsinki, Finland. It was originally meant to be held in Saint Petersburg, Russia, but was moved following the 2022 Russian invasion of Ukraine. Conditions of the award The Fields Medal has for a long time been regarded as the most prestigious award in the field of mathematics and is often described as the Nobel Prize of Mathematics.[2][3][4] Unlike the Nobel Prize, the Fields Medal is only awarded every four years. The Fields Medal also has an age limit: a recipient must be under age 40 on 1 January of the year in which the medal is awarded. The under-40 rule is based on Fields's desire that \"while it was in recognition of work already done, it was at the same time intended to be an encouragement for further achievement on the part of the recipients and a stimulus to renewed effort on the part of others. \"[14] Moreover, an individual can only be awarded one Fields Medal; winners are ineligible to be awarded future medals.[15] First awarded in 1936, 64 people have won the medal as of 2022.[16] With the exception of two PhD holders in physics (Edward Witten and Martin Hairer),[17] only people with a PhD in mathematics have won the medal.[18] List of Fields medalists In certain years, the Fields medalists have been officially cited for particular mathematical achievements, while in other years such specificities have not been given. However, in every year that the medal has been awarded, noted mathematicians have lectured at the International Congress of Mathematicians on each medalist's body of work.",
+      "source_url": "https://en.wikipedia.org/wiki/Fields_Medal",
+      "timestamp": "2024-12-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "June Huh Awarded 2022 Fields Medal - Princeton Math Professor June Huh was awarded the Fields Medal on July 5th. ... The Fields Medal is awarded to up to four recipients every four years at the ICM ... Awarded 2022 Fields Medal Professor June Huh was awarded the Fields Medal on July 5th. The International Math Union recognizes Huh for \"bringing the ideas of Hodge theory to combinatorics, the proof of the Dowling\u2013Wilson conjecture for geometric lattices, the proof of the Heron\u2013Rota\u2013Welsh conjecture for matroids, the development of the theory of Lorentzian polynomials, and the proof of the strong Mason conjecture. \" The Fields Medal is awarded to up to four recipients every four years at the ICM to recognize outstanding mathematical achievement for existing work and for the promise of future achievement.",
+      "source_url": "https://www.math.princeton.edu/news/june-huh-awarded-2022-fields-medal",
+      "timestamp": "2024-07-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Complete List of Fields Medal Winners - areppim William P. Thurston, Male, United States, 1946, Princeton University, USA. 1982, Shing-Tung, Yau, Male, China ...",
+      "source_url": "https://stats.areppim.com/listes/list_fieldsxmedal.htm",
+      "timestamp": "2010-09-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Princeton mathematician June Huh awarded prestigious Fields Medal Princeton University mathematician June Huh was awarded today the 2022 Fields Medal, one of the most prestigious awards in mathematics. Princeton mathematician June Huh awarded prestigious Fields Medal Princeton University mathematician June Huh was awarded today the 2022 Fields Medal, one of the most prestigious awards in mathematics, in recognition of his work in combinatorics. The International Mathematical Union (IMU) presents the medal every four years to researchers under the age of 40 based on the influence of their existing work and on their \u201cpromise of future achievement.\u201d June Huh Photo by Denise Applewhite, Office of Communications The honor, often referred to as the \u201cNobel Prize of mathematics,\u201d was awarded to Huh and three other early career researchers at the 2022 IMU Award Ceremony in Helsinki, Finland. Awards were bestowed on two other Princeton professors at the ceremony: the Abacus Medal to Mark Braverman in the Department of Computer Science, and the Carl Friedrich Gauss Prize to Elliott Lieb, the Eugene Higgins Professor of Physics, Emeritus, and Professor of Mathematical Physics, Emeritus. The IMU citation for Huh (PDF) noted that \"using methods of Hodge theory, tropical geometry and singularity theory, June Huh, with his collaborators, has transformed the field of geometric combinatorics. \" Huh's research focuses on geometry, topology, and the combinatorics of algebraic varieties. At the award ceremony, the IMU played a video profiling Huh in which he explained his work. Among Huh's accomplishments cited by the IMU, he and collaborators Eric Katz and Karim Adiprasito proved the Rota conjecture in 2015 by applying Hodge theory, combining tools from disparate areas of mathematics in novel ways. In more recent works, Huh and collaborators proposed a general framework that treats discrete objects from a geometric viewpoint. This led to proofs of several other longstanding problems in combinatorics, such as the 1972 conjecture of Mason and the 1973 conjecture of Dowling--Wilson. Igor Rodnianski, a professor of mathematics and the department chair, said Huh is \"a remarkable mathematician whose work is reshaping the field of geometric combinatorics.",
+      "source_url": "https://www.princeton.edu/news/2022/07/05/princeton-mathematician-june-huh-awarded-prestigious-fields-medal",
+      "timestamp": "2022-07-05"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Princeton University Department of Mathematics - Wikipedia The university has been affiliated with 15 Fields Medalists, behind Harvard University (#1 with 18) and the University of Paris (#2 with 16). Some of these ... The lecture is free and open to the public.[13] The 24th Annual Albert Einstein Memorial Lecture was dedicated to \"Scientific Inquiry and Growth\". It featured Nobel Prize WinnerJack Szostak giving a presentation on \"The Origin of Life\".[14] Program in Applied and Computational Mathematics The department runs the Program in Applied and Computational Mathematics (PACM), an interdisciplinary and interdepartmental program for scholars interested in the application of mathematics to other fields. The PACM faculty consists of 15 core members, in addition to an executive committee, 34 graduate students, and 30 undergraduate certificate students.[15] The PACM has been at the forefront of research within the field of high-energy physics, notably leading the NSF-funded Institute for Research and Innovation in Software for High Energy Physics (IRIS-HEP), a coalition of 17 research universities that develops computing software for the Large Hadron Collider (LHC) at CERN in Geneva, Switzerland.[16] Women and Mathematics The Women and Mathematics program is co-directed by the department and the IAS. The initiative aims to \"recruit and retain more women in mathematics\" through its lectures and mentorship program.[21]Sun-Yung Alice Chang, the previous chairperson and first female chair, has taken a personal interest in attracting more women into the field.[22][23] The department encourages those interested in pursuing careers to participate in the Principia: The Princeton Undergraduate Mathematics Journal. The journal was founded to promote and encourage research and exposition in mathematics at the undergraduate level.[33] It was one of the first of its kind to be developed by undergraduates and has served as the model for academic journals at other universities.[34] Graduate Ph.D. candidates in the department conduct independent research under supervision of a faculty member. After completing a series of introductory-level courses, graduate students specialize in at least two special or advanced topics within the discipline.",
+      "source_url": "https://en.wikipedia.org/wiki/Princeton_University_Department_of_Mathematics",
+      "timestamp": "2024-12-06"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Fields Medal Winners - Sloan Foundation The Fields Medal honors the outstanding contributions to mathematics by a mathematician under the age of 40. Fields Medal Winners Awarded every four years by the International Congress of the International Mathematical Union, the Fields Medal honors the outstanding contributions to mathematics by a mathematician under the age of 40.",
+      "source_url": "https://sloan.org/fellowships/fields-medal-winners",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d7",
+      "text": "IMU Awards | Fields Medal - International Mathematical Union Missing: Princeton | Show results with:Princeton Breadcrumb Fields Medal The Fields Medal is awarded every four years on the occasion of the International Congress of Mathematicians to recognize outstanding mathematical achievement for existing work and for the promise of future achievement. The Fields Medal Committee is chosen by the Executive Committee of the International Mathematical Union and is normally chaired by the IMU President. It is asked to choose at least two, with a strong preference for four, Fields Medalists, and to have regard in its choice to representing a diversity of mathematical fields. A candidate's 40th birthday must not occur before January 1st of the year of the Congress at which the Fields Medals are awarded. The medals and cash prizes are funded by a trust established by J.C.Fields at the University of Toronto, which has been supplemented periodically, but is still significantly underfunded. The discrepancy in 2018 was made up by the University of Toronto and the Fields Institute. The name of the Chair of the Committee is made public, but the names of other members of the Committee remain anonymous until the award of the prize at the Congress. Statutes for the Fields Medal The details of the Award, the nomination, and the selection can be found in the Statutes for the Award. Physical Medal In the field is the word \u0391\u03a1XIMH\u0394\u039f\u03a5\u03a3 in Greek capitals and the artist's monogram and date RTM, MCNXXXIII. The inscription reads: TRANSIRE SUUM PECTUS MUNDOQUE POTIRI. Reverse The inscription on the tablet reads: CONGREGATI EX TOTO ORBE MATHEMATICI OB SCRIPTA INSIGNIA TRIBUERE It means: \"The mathematicians having congregated from the whole world awarded (this medal) because of outstanding writings\". The verb form \"tribuere\" (the first \"e\" is a long vowel) is a short form of \"tribuerunt\". In the background there is a representation of Archimedes' sphere being inscribed in a cylinder.",
+      "source_url": "https://www.mathunion.org/imu-awards/fields-medal",
+      "timestamp": "1998-08-05"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Three Princeton Faculty Claim Some Of World's Most Prestigious ... Three Princeton University faculty members have received highly prestigious awards for their accomplishments in mathematics. Princeton University faculty have claimed several international awards for outstanding work in ... [+] mathematics. getty Three Princeton University faculty members have received highly prestigious awards for their accomplishments in mathematics. The announcements of this year\u2019s Fields Medal, Gauss Prize, Abacus Medal and Chern Medal Award were made today by the International Mathematical Union (IMU), which was meeting in Helsinki, Finland. The Fields Medal Princeton mathematician June Huh was one of four scholars to be awarded the 2022 Fields Medal, considered to be one of the most prestigious awards in mathematics. The Fields Medal, sometimes referred to as the Nobel Prize for mathematics, is presented every four years to researchers under the age of 40 based on the influence of their existing work and on their promise of future achievement. The IMU citation for Huh stated that \u201cusing methods of Hodge theory, tropical geometry and singularity theory, June Huh, with his collaborators, has transformed the field of geometric combinatorics.\u201d According to Princeton\u2019s news release, \u201cHuh said he learned of the Fields honor in an after-hours phone call from the IMU president. Huh said he was excited but wasn\u2019t sure if he should awaken his wife. After waiting 10 minutes, he did. \u2018I told her the news and then she said, \u2018Oh, I knew it \u2014 it will happen,\u2019 and then fell back to sleep,\u2019 he said.\u201d The other three Fields Medal awardees were Hugo Duminil-Copin of the Universit\u00e9 de Gen\u00e8ve and Institut des Hautes \u00c9tudes Scientifiques (IH\u00c9S), James Maynard of Oxford University and Maryna Viazovska of the Swiss Federal Institute of Technology Lausanne (EPFL). The Gauss Prize This year\u2019s Gauss Prize was awarded to Elliott Lieb, the Eugene Higgins Professor of Physics, Emeritus, and Professor of Mathematical Physics, Emeritus at Princeton. The Gauss prize is named for the German mathematician and physicist, Carl Friedrich Gauss.",
+      "source_url": "https://www.forbes.com/sites/michaeltnietzel/2022/07/05/three-princeton-faculty-claim-some-of-worlds-most-prestigious-awards-for-mathematics/",
+      "timestamp": "2022-07-05"
+    },
+    {
+      "doc_id": "d9",
+      "text": "June Huh's Fields Medal Leads Princeton's Mathematics Awards The 39-year-old Huh was one of four mathematicians to earn the 2022 Fields Medal from the International Mathematical Union (IMU). Physicist Elliott Lieb received the Gauss Prize for his mathematic contributions to multiple fields, including quantum mechanics, statistical mechanics, computational chemistry, and quantum information theory. Computer scientist Mark Braverman earned the Abacus Medal for his research on information complexity and communication protocols. And alumnus Barry Mazur *59, a professor at Harvard, was honored with the Chern Medal, a lifetime achievement award, \u201cfor his profound discoveries in topology, arithmetic geometry and number theory, and his leadership and generosity in forming the next generation of mathematicians,\u201d according to the citation. Earlier in the year, Princeton professor Noga Alon shared the $1.2 million Shaw Prize in Mathematical Sciences, which recognizes breakthroughs and career achievements, with Ehud Hrushovski, a professor at the University of Oxford who was a Princeton instructor and visiting assistant professor in the 1980s. The Shaw Prize Foundation credited the two researchers \u201cfor their remarkable contributions to discrete mathematics and model theory with interaction notably with algebraic geometry, topology and computer sciences.\u201d Since 2004, the Shaw Prizes have annually honored laureates in three areas: astronomy, mathematical sciences, and life science and medicine. Past winners of the math prize include Princeton professors J\u00e1nos Koll\u00e1r (2017) and Andrew Wiles (2005). 1 Response Martin Scharlemann \u201969 Thank you for the September article (On the Campus) on June Huh, a fresh young faculty member who has just been awarded a Fields Medal, said to be equivalent in mathematics to the Nobel Prize. It is wonderful to see that Princeton remains a vibrant center of mathematics research. The article names other top mathematicians with Princeton connections who have won prestigious prizes this year. An important omission in this list was Dennis Sullivan *66, who in March 2022 won the Abel Prize, also bracketed with the Nobel.",
+      "source_url": "https://paw.princeton.edu/article/june-huhs-fields-medal-leads-princetons-mathematics-awards",
+      "timestamp": "2022-08-26"
+    },
+    {
+      "doc_id": "d10",
+      "text": "Fields Medal Award Winners List: Biggest Prize in Mathematics So far, there are two awardees of Indian origin \u2014 Akshay Venkatesh of the Institute for Advanced Study at Princeton (2018) and Manjul Bhargava ... The medal\u2019s rim bears the name of the awardee. Significance The Fields Medal indicates current fertile areas of mathematical research because the winners have usually made contributions that opened up entire fields or integrated technical ideas and tools from various disciplines. Many winners worked in highly abstract and integrative fields such as algebraic topology and geometry. To some extent, this trend reflects the influence and power of the French consortium of mathematicians, writing under the name of Nicolas Bourbaki since 1939. In their multivolume \u00c9l\u00e9ments de math\u00e9matiques, they sought a rigorous, modern, and comprehensive treatment of all mathematics and mathematical foundations. Nevertheless, individuals have also received medals for their work in more classical mathematics and mathematical physics fields, including solutions to problems that David Hilbert enunciated at the International Congress of Mathematicians in Paris in 1900. Interestingly, there are large clusters of Fields Medalists within certain research institutions. In fact, almost half of the medalists have held appointments at the Institute for Advanced Study, Princeton, N.J., U.S. FAQs How often is the Fields Medal awarded? The Fields Medal is awarded every four years on the occasion of the International Congress of Mathematicians for outstanding achievements in mathematics. What is the age limit to receive the Fields Medal? The Fields Medal is awarded to mathematicians who are not over 40 years of age. What is the Fields Medal made of? The Fields Medal is made of gold and displays the head of Archimedes along with a quotation attributed to him \u2013 \u201cTransire suum pectus mundoque potiri\u201d (\u201cRise above oneself and grasp the world\u201d). Which country has the most Fields Medals? Currently, the US has the most Fields Medals (15), followed by the UK (8).",
+      "source_url": "https://gauravtiwari.org/fields-medal-award-winners/?srsltid=AfmBOoqjI4mbSsmegaRiz_6BQBJeI1QuEY6M_RoMXznKYmvzKjTLmcoh",
+      "timestamp": "2024-11-07"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Princeton University in relation to Fields Medalists and provides general information about the award, including the total number of recipients."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that Princeton Professor June Huh was awarded the Fields Medal in 2022, providing specific details about his achievement."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Lists William P. Thurston and Shing-Tung Yau as Fields Medal winners affiliated with Princeton University, providing years and affiliations."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Confirms Princeton mathematician June Huh was awarded the 2022 Fields Medal and details his recognition and the award's prestige."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States Princeton University has been affiliated with 15 Fields Medalists, ranking it among top institutions, and provides context on the mathematics department."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Provides general information about the Fields Medal and its criteria but does not mention Princeton University or specific numbers of winners."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Explains the Fields Medal award process and criteria but does not mention Princeton University or specific numbers of winners."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Highlights that three Princeton University faculty members received prestigious awards, specifically naming June Huh as a 2022 Fields Medalist."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions June Huh's 2022 Fields Medal and lists other Princeton professors (Koll\u00e1r, Wiles) who have won prestigious math prizes."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Notes that nearly half of Fields Medalists have held appointments at Princeton's Institute for Advanced Study and mentions two awardees with Princeton connections."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Princeton University is affiliated with Fields Medalists.",
+            "As of 2022, 64 people have won the Fields Medal.",
+            "The Fields Medal is awarded to individuals under 40 for past achievements and future promise.",
+            "An individual can only be awarded one Fields Medal."
+          ],
+          "reason": "Extracted facts about Princeton's affiliation with Fields Medalists, the total number of recipients, and the award's criteria, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Professor June Huh of Princeton University was awarded the Fields Medal on July 5, 2022.",
+            "The Fields Medal is awarded to up to four recipients every four years at the ICM."
+          ],
+          "reason": "Extracted specific information about June Huh, a Princeton professor, receiving the Fields Medal in 2022, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "William P. Thurston, affiliated with Princeton University, won the Fields Medal in 1982.",
+            "Shing-Tung Yau, affiliated with Princeton University, won the Fields Medal in 1998."
+          ],
+          "reason": "Extracted specific instances of Princeton-affiliated individuals (Thurston and Yau) winning the Fields Medal, providing direct answers to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Princeton University mathematician June Huh was awarded the 2022 Fields Medal.",
+            "The Fields Medal is awarded every four years to researchers under 40."
+          ],
+          "reason": "Extracted the key fact that Princeton mathematician June Huh received the 2022 Fields Medal, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Princeton University's Mathematics Department has been affiliated with 15 Fields Medalists.",
+            "Harvard University has 18 Fields Medalists, and the University of Paris has 16."
+          ],
+          "reason": "Extracted the specific number of Fields Medalists affiliated with Princeton University (15), directly answering the query and providing comparative data."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [],
+          "reason": "This document describes the Fields Medal's purpose and award criteria but does not list specific winners or their affiliations, thus not providing facts relevant to the query."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [],
+          "reason": "This document details the Fields Medal's awarding process and statutes but does not list recipients or their university affiliations, making it irrelevant to the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Princeton mathematician June Huh was one of four scholars awarded the 2022 Fields Medal.",
+            "The Fields Medal is presented every four years to researchers under 40."
+          ],
+          "reason": "Extracted the fact that Princeton mathematician June Huh received the 2022 Fields Medal, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Princeton professor June Huh was awarded the 2022 Fields Medal.",
+            "Past winners with Princeton connections include J\u00e1nos Koll\u00e1r (2017) and Andrew Wiles (2005)."
+          ],
+          "reason": "Extracted specific Princeton professors (Huh, Koll\u00e1r, Wiles) who received the Fields Medal, directly answering the query with multiple examples."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Akshay Venkatesh of the Institute for Advanced Study at Princeton received the Fields Medal in 2018.",
+            "Manjul Bhargava also received the Fields Medal and is associated with Princeton.",
+            "Almost half of the Fields Medalists have held appointments at the Institute for Advanced Study, Princeton."
+          ],
+          "reason": "Extracted specific Princeton-affiliated Fields Medalists (Venkatesh, Bhargava) and noted the significant number of medalists associated with Princeton's Institute for Advanced Study."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States Princeton is affiliated with Fields Medalists but does not provide a specific count.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies June Huh, a Princeton professor, as a Fields Medalist in 2022, providing a direct answer.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Names William P. Thurston and Shing-Tung Yau, affiliated with Princeton, as Fields Medalists, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States Princeton mathematician June Huh received the 2022 Fields Medal, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states that Princeton University's Mathematics Department has been affiliated with 15 Fields Medalists.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Describes the Fields Medal but does not list winners or their affiliations.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "Details the awarding process but does not list recipients or their university affiliations.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "States Princeton mathematician June Huh was awarded the 2022 Fields Medal, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Names Princeton professors June Huh, J\u00e1nos Koll\u00e1r, and Andrew Wiles as Fields Medalists, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "Names Princeton-affiliated Fields Medalists Akshay Venkatesh and Manjul Bhargava, directly answering the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d6",
+          "d7"
+        ],
+        "evidence_summary": [
+          {
+            "label": "specific_recipients",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d8",
+              "d9",
+              "d10"
+            ],
+            "summary": "Multiple documents identify specific Princeton-affiliated individuals who have received the Fields Medal, including June Huh, William P. Thurston, Shing-Tung Yau, J\u00e1nos Koll\u00e1r, Andrew Wiles, Akshay Venkatesh, and Manjul Bhargava."
+          },
+          {
+            "label": "total_count",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document provides a specific count of 15 Fields Medalists affiliated with Princeton University's Mathematics Department."
+          },
+          {
+            "label": "general_affiliation",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document mentions Princeton University's affiliation with Fields Medalists but lacks specific numbers or names."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d6",
+              "d7"
+            ],
+            "summary": "Two documents discuss the Fields Medal's purpose, criteria, and awarding process but do not list recipients or their affiliations."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Multiple sources provide compatible details about Princeton University's affiliation with Fields Medalists, including specific recipients and a total count.",
+        "clusters": [
+          {
+            "label": "specific_recipients",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d8",
+              "d9",
+              "d10"
+            ],
+            "summary": "Several documents list specific Princeton-affiliated Fields Medalists like June Huh, William P. Thurston, Shing-Tung Yau, J\u00e1nos Koll\u00e1r, Andrew Wiles, Akshay Venkatesh, and Manjul Bhargava."
+          },
+          {
+            "label": "total_count",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document states that Princeton University's Mathematics Department has been affiliated with 15 Fields Medalists."
+          },
+          {
+            "label": "general_affiliation",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document generally mentions Princeton University's affiliation with Fields Medalists without providing specific numbers or names."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d6",
+              "d7"
+            ],
+            "summary": "Two documents describe the Fields Medal's purpose and awarding process but do not list recipients or their affiliations."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with no significant conflicts. Specific recipients and a total count are provided, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Princeton University's Mathematics Department has been affiliated with 15 Fields Medalists. Specific recipients include June Huh, William P. Thurston, Shing-Tung Yau, J\u00e1nos Koll\u00e1r, Andrew Wiles, Akshay Venkatesh, and Manjul Bhargava.",
+        "citations": [
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide a total count and specific names of Fields Medalists affiliated with Princeton University, allowing for a direct and comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited documents, accurately stating the number of Fields Medalists affiliated with Princeton and listing specific examples."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 19193,
+      "completion_tokens": 3516,
+      "total_tokens": 22709
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3704,
+        "completion_tokens": 737,
+        "total_tokens": 4441
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3659,
+        "completion_tokens": 1031,
+        "total_tokens": 4690
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1349,
+        "completion_tokens": 643,
+        "total_tokens": 1992
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1753,
+        "completion_tokens": 433,
+        "total_tokens": 2186
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2123,
+        "completion_tokens": 371,
+        "total_tokens": 2494
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 861,
+        "completion_tokens": 47,
+        "total_tokens": 908
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1013,
+        "completion_tokens": 163,
+        "total_tokens": 1176
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4731,
+        "completion_tokens": 91,
+        "total_tokens": 4822
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:46.569551",
+        "prompt_tokens": 3704,
+        "completion_tokens": 737,
+        "total_tokens": 4441,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:49.846891",
+        "prompt_tokens": 3659,
+        "completion_tokens": 1031,
+        "total_tokens": 4690,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:52.406626",
+        "prompt_tokens": 1349,
+        "completion_tokens": 643,
+        "total_tokens": 1992,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:54.342404",
+        "prompt_tokens": 1753,
+        "completion_tokens": 433,
+        "total_tokens": 2186,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:56.912327",
+        "prompt_tokens": 2123,
+        "completion_tokens": 371,
+        "total_tokens": 2494,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:57.960472",
+        "prompt_tokens": 861,
+        "completion_tokens": 47,
+        "total_tokens": 908,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:56:59.165289",
+        "prompt_tokens": 1013,
+        "completion_tokens": 163,
+        "total_tokens": 1176,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:57:00.598057",
+        "prompt_tokens": 4731,
+        "completion_tokens": 91,
+        "total_tokens": 4822,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:56:42.256820",
+  "last_updated_at": "2026-04-17T15:57:00.599017"
+}

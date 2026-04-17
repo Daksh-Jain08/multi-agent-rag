@@ -1,0 +1,376 @@
+{
+  "sample_id": "#0539",
+  "query": "Who is the second most subscribed channel on youtube?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "late August 2009, only to be removed a few days later, along with \"How to be Ninja\" and \"How to be Nerd\". In Spring 2010, \"How to be Ninja\", \"How to be Gangster\" and \"How to be Emo\" were made public once more. By December 2010, nigahiga has become the first YouTube channel to hit 3 million subscribers. According to Higa, the channel name, nigahiga, is the combination of \"niga\" which means \"rant\" in Japanese, and \"Higa\", his last name. A second channel, HigaTV, was created in 2011. This channel posts videos on behind the scenes action for the main",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Show. In July 2013, he overtook Jenna Marbles to become the second most-subscribed YouTube user, and reached 10 million subscribers on 9 July 2013. In August, PewDiePie signed with Maker's gaming sub-network, Polaris. Polaris functioned as a relaunching of The Game Station, Maker's gaming network. PewDiePie's subscriber count surpassed that of the leading channel, Smosh, on 15 August 2013. On becoming the most-subscribed YouTube user, PewDiePie commented, \"When I started my YouTube channel in 2010, I never imagined that one day it would be the most-subscribed channel in the world and that I would be a part of such a",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Smosh Smosh is an American sketch comedy YouTube channel created by Anthony Padilla and Ian Hecox. In 2002, Anthony Padilla created a website named \"smosh.com\" for making flash animations, and he was later joined by his friend Ian Hecox. Soon afterward, they began to post videos on Smosh's YouTube channel in the autumn of 2005 and quickly became one of the most popular channels on the site. , the Smosh channel has over 7 billion video views and over 23 million subscribers, making it the 31st most subscribed channel on YouTube. Since 2005, the Smosh brand has expanded to include",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "YouTube channel would remain active solely as an archive, with plans for the network to upload the early \"DailyGrace\" episodes and other Helbig content that had formerly been exclusive to the My Damn Channel website. On January 6, 2014, Helbig relaunched her personally owned, formerly secondary channel \"it'sGrace\" (renamed from \"GracieHinABox\") as her main YouTube channel. News of Helbig's departure from My Damn Channel and the shift back to her own independent channel contributed to a dramatic increase in \"it'sGrace\" subscribers, from just under 87,000 in the last week of 2013 to over a half million by the first week",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "shows music videos and film trailers. By July 2013, it had crossed 100 crore (1 billion) views, becoming the second Indian YouTube channel to cross the milestone after Rajshri Productions. In February 2017, T-Series surpassed PewDiePie to become the world's most-viewed YouTube channel. As of 19 December 2018 it has 5,600 crore (56 billion) views. The YouTube channel has reached 7.5 crore (75 million) subscribers, making it the second most-subscribed YouTube channel after PewDiePie. Currently, it is the most subscribed Asian and non-English-language YouTube channel. Reaching 5 crore (50 million) subscribers, the channel received a Custom Play Button on September  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2014-01-16"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document mentions nigahiga reaching 3 million subscribers in 2010, but does not provide information about the second most subscribed channel."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly states that PewDiePie overtook Jenna Marbles to become the second most-subscribed YouTube user in July 2013, and later surpassed Smosh to become the most-subscribed."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions Smosh as a popular channel and its subscriber count, but does not identify it as the second most subscribed."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the relaunch of a YouTube channel and subscriber increase, but is unrelated to the overall second most subscribed channel."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document states that T-Series has 7.5 crore (75 million) subscribers, making it the second most-subscribed YouTube channel after PewDiePie as of December 2018."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "By December 2010, nigahiga was the first YouTube channel to hit 3 million subscribers."
+          ],
+          "reason": "Extracted the fact about nigahiga being the first YouTube channel to reach 3 million subscribers in December 2010."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In July 2013, PewDiePie overtook Jenna Marbles to become the second most-subscribed YouTube user.",
+            "PewDiePie's subscriber count surpassed that of the leading channel, Smosh, on August 15, 2013."
+          ],
+          "reason": "Extracted facts about PewDiePie becoming the second most-subscribed YouTube user in July 2013 and surpassing Smosh in August 2013."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Smosh channel has over 23 million subscribers, making it the 31st most subscribed channel on YouTube."
+          ],
+          "reason": "Extracted the current subscriber count and ranking for the Smosh channel."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses channel relaunches and subscriber increases but does not provide information on the second most subscribed channel on YouTube."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "As of December 19, 2018, T-Series has 7.5 crore (75 million) subscribers, making it the second most-subscribed YouTube channel after PewDiePie."
+          ],
+          "reason": "Extracted the fact that T-Series is the second most-subscribed YouTube channel as of December 19, 2018, with 75 million subscribers."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the first channel to reach 3 million subscribers, not the second most subscribed channel.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States PewDiePie became the second most-subscribed YouTube user in July 2013, directly addressing the query for that time period.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document provides Smosh's subscriber count and ranking (31st), which does not answer who is the second most subscribed channel.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The document does not contain any information about the second most subscribed channel on YouTube.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States T-Series was the second most-subscribed YouTube channel as of December 19, 2018, directly answering the query for that specific date.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "historical_second_most_subscribed",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides information on PewDiePie being the second most subscribed channel in mid-2013."
+          },
+          {
+            "label": "recent_second_most_subscribed",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Indicates T-Series was the second most subscribed channel in late 2018."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "outdated",
+        "conflict_reason": "The evidence presents conflicting information about the second most subscribed YouTube channel, with one source from 2013 and another from 2018. The 2018 data is more recent and likely supersedes the older information.",
+        "clusters": [
+          {
+            "label": "historical_second_most_subscribed",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "In July 2013, PewDiePie became the second most-subscribed YouTube user, and by August 2013, surpassed the leading channel, Smosh."
+          },
+          {
+            "label": "recent_second_most_subscribed",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "As of December 19, 2018, T-Series was the second most-subscribed YouTube channel with 75 million subscribers."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The conflict is resolved by the recency of the data. The 2018 data is more relevant than the 2013 data for determining the current second most subscribed channel."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "As of December 19, 2018, T-Series was the second most-subscribed YouTube channel with 75 million subscribers.",
+        "citations": [
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The conflict is resolved by the recency of the data. The 2018 data is more relevant than the 2013 data for determining the current second most subscribed channel."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited document, accurately stating T-Series' subscriber count and ranking as of December 19, 2018."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8922,
+      "completion_tokens": 1934,
+      "total_tokens": 10856
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1490,
+        "completion_tokens": 404,
+        "total_tokens": 1894
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 474,
+        "total_tokens": 1919
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 874,
+        "completion_tokens": 352,
+        "total_tokens": 1226
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1041,
+        "completion_tokens": 200,
+        "total_tokens": 1241
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 234,
+        "total_tokens": 1474
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 601,
+        "completion_tokens": 58,
+        "total_tokens": 659
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 764,
+        "completion_tokens": 114,
+        "total_tokens": 878
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1467,
+        "completion_tokens": 98,
+        "total_tokens": 1565
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:41.993105",
+        "prompt_tokens": 1490,
+        "completion_tokens": 404,
+        "total_tokens": 1894,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:45.226265",
+        "prompt_tokens": 1445,
+        "completion_tokens": 474,
+        "total_tokens": 1919,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:47.080256",
+        "prompt_tokens": 874,
+        "completion_tokens": 352,
+        "total_tokens": 1226,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:48.441271",
+        "prompt_tokens": 1041,
+        "completion_tokens": 200,
+        "total_tokens": 1241,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:49.886867",
+        "prompt_tokens": 1240,
+        "completion_tokens": 234,
+        "total_tokens": 1474,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:50.937601",
+        "prompt_tokens": 601,
+        "completion_tokens": 58,
+        "total_tokens": 659,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:52.128489",
+        "prompt_tokens": 764,
+        "completion_tokens": 114,
+        "total_tokens": 878,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:59:53.229353",
+        "prompt_tokens": 1467,
+        "completion_tokens": 98,
+        "total_tokens": 1565,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:59:39.769059",
+  "last_updated_at": "2026-04-17T19:59:53.229819"
+}

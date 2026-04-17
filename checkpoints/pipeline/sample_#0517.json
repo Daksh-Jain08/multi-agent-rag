@@ -1,0 +1,405 @@
+{
+  "sample_id": "#0517",
+  "query": "Why do our brains register reflective surfaces such as metal as silver in colour if they're actually reflecting all of the colours around them?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Colour Perception and Retinal Neurons - Attempting to Map the Human Brain - NaturPhilosophie perception is all subjective. Colours only exist when three components are present: a viewer, an object, and light. Around 1665, Isaac Newton discovered that white light splits into its component colours when passing through a dispersive prism. But also, that if those bands of coloured light shine through another prism and re-join, they gather back up and emit a white beam. Although pure white light is perceived as being colourless, it actually contains all the colours in the visible spectrum. When white light hits an object, it selectively blocks some colours and reflects others. Only the colours that are reflected,",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Digital SLR Photography Issue 128 July 2017 | C\u251c\u00edmara | Exposici\u251c\u2502n (Fotograf\u251c\u00a1a) metallic finishes can prove too strong experience for learning which colour usually combine silver and gold in different and cause subjects to squint, so in these reflector works best in different situations, ratios to produce a highly efficient and situations use white instead. so take some time to experiment with effective reflectance. they're sometimes You'll find that almost all reflectors have different colours of reflector with a subject more expensive than standard silver and white on one side, with a metallic finish on placed in different lighting scenarios you'll gold, but if you're regularly shooting the other, although there are",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1992-05-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Colour Theory, light and Shade - Articles - DakkaDakka Sphere the colours grow brighter until on the outside , they are at their most intense. This variation in intensity is known as the Chroma. As you can clearly see this is a useful colour map for planning tone and shading. When we paint an Object we are trying to mimic light reflecting in 3 Dimensions, this is more a trick of the eye by convincing the brain it can see reflections that aren\u0393\u00c7\u00d6t actually there. It is important to place the Highlights (The stronger reflections of light) in the correct positions otherwise the result will automatically register in your",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Optical coating - Offline Wikipedia a reflectivity of around 88%-92% over the visible spectrum. More expensive is silver, which has a reflectivity of 95%-99% even into the far infrared, but suffers from decreasing reflectivity (<90%) in the blue and ultraviolet spectral regions. Most expensive is gold, which gives excellent (98%-99%) reflectivity throughout the infrared, but limited reflectivity at wavelengths shorter than 550 nm, resulting in the typical gold colour. By controlling the thickness and density of metal coatings, it is possible to decrease the reflectivity and increase the transmission of the surface, resulting in a half-silvered mirror. These are sometimes used as \"one-way mirrors\". The",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d5",
+      "text": "There are only two metals that are non-silver in colour, they are | Answers Home \u252c\u2557 Copper , Gold , Metals , Silver \u252c\u2557 There are only two metals that are non-silver in colour, they are There are only two metals that are non-silver in colour, they are Q. There are only two metals that are non-silver in colour, they are A. Nickel & Zinc B. Copper & Gold C. Palladium & Platinum D. Sodium & Magnesium Answer: Copper & Gold Metals are coloured because the absorption and re-emission of light are dependent on wavelength. Gold and copper have low reflectivity at short wavelengths, and yellow and red are preferentially reflected. Silver has a  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Explains how light reflection creates color perception but doesn't specifically address why reflective surfaces appear silver."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions silver and gold reflectors in photography but doesn't explain the underlying color perception."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses mimicking light reflection in painting and tricks of the eye, but not the specific phenomenon of silver color perception."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains that silver has high reflectivity across the visible spectrum, but decreases in blue/UV. This partially addresses why it appears silver."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States metals are colored due to wavelength-dependent light absorption/re-emission. Explains gold/copper reflect yellow/red, implying silver reflects broadly, thus appearing silver."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Colours only exist when three components are present: a viewer, an object, and light.",
+            "White light contains all the colours in the visible spectrum.",
+            "When white light hits an object, it selectively blocks some colours and reflects others."
+          ],
+          "reason": "Extracted facts about the fundamental components of color perception and how light interacts with objects, which are relevant to the query about color registration."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Metallic finishes can prove too strong for learning which colour usually combine silver and gold in different and cause subjects to squint.",
+            "Reflectors have different colours of reflector with a subject more expensive than standard silver and white on one side, with a metallic finish on placed in different lighting scenarios you'll gold, but if you're regularly shooting the other, although there are."
+          ],
+          "reason": "Extracted information about metallic finishes and reflectors, including silver and gold, which are tangentially related to the query's focus on reflective surfaces."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "When we paint an Object we are trying to mimic light reflecting in 3 Dimensions, this is more a trick of the eye by convincing the brain it can see reflections that aren't actually there.",
+            "It is important to place the Highlights (The stronger reflections of light) in the correct positions otherwise the result will automatically register in your."
+          ],
+          "reason": "Extracted facts about mimicking light reflections and the importance of highlights in visual perception, which relates to how the brain registers reflections."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Silver has a reflectivity of 95%-99% even into the far infrared, but suffers from decreasing reflectivity (<90%) in the blue and ultraviolet spectral regions.",
+            "Gold gives excellent (98%-99%) reflectivity throughout the infrared, but limited reflectivity at wavelengths shorter than 550 nm, resulting in the typical gold colour.",
+            "By controlling the thickness and density of metal coatings, it is possible to decrease the reflectivity and increase the transmission of the surface, resulting in a half-silvered mirror."
+          ],
+          "reason": "Extracted specific reflectivity data for silver and gold, explaining their spectral properties and how coatings affect their appearance, directly addressing the query's core concepts."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Metals are coloured because the absorption and re-emission of light are dependent on wavelength.",
+            "Gold and copper have low reflectivity at short wavelengths, and yellow and red are preferentially reflected.",
+            "Silver has a Answer:"
+          ],
+          "reason": "Extracted the fundamental reason why metals have color (wavelength-dependent light absorption/re-emission) and specific examples for gold, copper, and silver, which directly answers the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides foundational knowledge on color perception and light interaction, relevant but doesn't directly explain why reflective surfaces appear silver.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Discusses metallic finishes and reflectors in a confusing manner, but does not explain the perception of silver color from reflective surfaces.",
+          "confidence": 0.3
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Touches on how the brain perceives reflections and tricks of the eye, which is related to the query, but doesn't explain the specific silver color registration.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explains silver's high reflectivity across most of the spectrum but lower reflectivity in blue/UV, directly addressing why it appears silver despite reflecting all colors.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States metals are colored due to wavelength-dependent light absorption/re-emission and specifically mentions silver's properties, directly answering the query.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d2"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_explanation_of_silver_color",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 directly explain why silver appears silver by detailing its spectral reflectivity and wavelength-dependent light absorption properties."
+          },
+          {
+            "label": "foundational_color_perception",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 provides foundational knowledge on color perception and light interaction, which is relevant context but does not specifically explain silver's color."
+          },
+          {
+            "label": "perception_of_reflections",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 discusses the brain's perception of reflections and highlights, offering related insights into visual registration but not the specific color mechanism."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible and complementary information. Direct explanations of silver's spectral properties are supported by foundational knowledge on color perception and the brain's registration of reflections.",
+        "clusters": [
+          {
+            "label": "direct_explanation_of_silver_color",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 directly explain why silver appears silver by detailing its spectral reflectivity and wavelength-dependent light absorption properties."
+          },
+          {
+            "label": "foundational_color_perception",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 provides foundational knowledge on color perception and light interaction, which is relevant context but does not specifically explain silver's color."
+          },
+          {
+            "label": "perception_of_reflections",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 discusses the brain's perception of reflections and highlights, offering related insights into visual registration but not the specific color mechanism."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing direct explanations supported by foundational context. No abstention is needed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Silver appears silver due to its spectral reflectivity and wavelength-dependent light absorption properties, as explained by documents d4 and d5. This is further contextualized by foundational knowledge on color perception (d1) and the brain's processing of reflections (d3).",
+        "citations": [
+          "d4",
+          "d5",
+          "d1",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence are complementary, directly explaining silver's color with relevant contextual information. No abstention is necessary."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately explaining silver's color based on spectral reflectivity and light absorption as cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9867,
+      "completion_tokens": 2225,
+      "total_tokens": 12092
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1494,
+        "completion_tokens": 365,
+        "total_tokens": 1859
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1449,
+        "completion_tokens": 701,
+        "total_tokens": 2150
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1099,
+        "completion_tokens": 363,
+        "total_tokens": 1462
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1260,
+        "completion_tokens": 250,
+        "total_tokens": 1510
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1527,
+        "completion_tokens": 279,
+        "total_tokens": 1806
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 694,
+        "completion_tokens": 40,
+        "total_tokens": 734
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 839,
+        "completion_tokens": 134,
+        "total_tokens": 973
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1505,
+        "completion_tokens": 93,
+        "total_tokens": 1598
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:47.472093",
+        "prompt_tokens": 1494,
+        "completion_tokens": 365,
+        "total_tokens": 1859,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:49.724148",
+        "prompt_tokens": 1449,
+        "completion_tokens": 701,
+        "total_tokens": 2150,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:52.198545",
+        "prompt_tokens": 1099,
+        "completion_tokens": 363,
+        "total_tokens": 1462,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:54.333504",
+        "prompt_tokens": 1260,
+        "completion_tokens": 250,
+        "total_tokens": 1510,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:56.314493",
+        "prompt_tokens": 1527,
+        "completion_tokens": 279,
+        "total_tokens": 1806,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:57.112923",
+        "prompt_tokens": 694,
+        "completion_tokens": 40,
+        "total_tokens": 734,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:58.199520",
+        "prompt_tokens": 839,
+        "completion_tokens": 134,
+        "total_tokens": 973,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:59.344101",
+        "prompt_tokens": 1505,
+        "completion_tokens": 93,
+        "total_tokens": 1598,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:52:45.831508",
+  "last_updated_at": "2026-04-17T19:52:59.344683"
+}

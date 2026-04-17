@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0549",
+  "query": "When does new season of law and order svu start?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the show's second season. <onlyinclude> </onlyinclude> Law & Order: Special Victims Unit (season 6) The sixth season of the television series, \"\" premiered September 21, 2004 and ended May 24, 2005 on NBC. It aired on Tuesday nights at 10pm/9c. In January 2005, when the season was halfway through airing, Mariska Hargitay won the Golden Globe Award for Best Actress - Television Series Drama becoming the first regular cast member of any \"Law & Order\" series to win a Golden Globe. Emmy Ann Wooding, a long time assistant at Wolf Films, died in a car accident while the sixth season",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Law & Order: Special Victims Unit (season 5) The fifth season of the television series, \"\" premiered September 23, 2003, and ended May 18, 2004, on NBC. \"Law & Order: SVU\" moved away from its Friday night slot to Tuesday nights at 10pm/9c. Casey Novak, the unit's longest-serving ADA, was introduced in the fifth episode when Diane Neal joined the cast to fill the absence left by Stephanie March. Early reports about Stephanie March leaving the cast at the end of indicate that the first Season 5 episodes were written if not filmed by May 2003. The sixth episode, \"Coerced\",",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2014-01-07"
+    },
+    {
+      "doc_id": "d3",
+      "text": "on \"SVU\" for one final season. Production on season seventeen started in late May 2015 on the two-hour season premiere, afterwards the cast and crew took a hiatus and resumed filming on August 21, 2015. Executive producer Leight shared via Twitter that star Mariska Hargitay would be directing an episode this season as well, tweeting \"Of course Mariska will direct again this year. After 17 seasons, she's in a class of her own.\" The episode in question turned out to be \"A Misunderstanding\", which aired on January 20, 2016. Hargitay would also later direct \"Sheltered Outcasts\", which aired on March",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2014-03-03"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Law & Order: Special Victims Unit (season 18) The eighteenth season of \"\" debuted on Wednesday, September 21, 2016, on NBC and finished on Wednesday, May 24, 2017, with a two-hour season finale. Rick Eid, who previously worked on \"Law & Order\" and \"\", became the executive producer and showrunner, following Warren Leight's departure from the series at the conclusion of the seventeenth season. Eid himself departed the series at the end of the eighteenth season and was replaced by Michael S. Chernuchin. \"Law & Order: Special Victims Unit\" was renewed for an eighteenth season on February 1, 2016, by",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "<onlyinclude> </onlyinclude> \"Unstoppable\", written by Julie Martin and Rick Eid, inspired by the sexual misconduct allegations against then-presidential candidate Donald Trump and starring Gary Cole, was originally scheduled to air on October 26, 2016, but it was pulled from the schedule and has since been shelved. At the 2017 Television Critics Association winter press tour, Dick Wolf expressed his belief that the episode may air that spring. NBC currently has no plans to air the episode, therefore shelving it indefinitely. Law & Order: Special Victims Unit (season 18) The eighteenth season of \"\" debuted on Wednesday, September 21, 2016, on  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1993-09-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Provides the premiere date for season 6 of Law & Order: SVU (September 21, 2004), which is relevant context for when new seasons start."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Provides the premiere date for season 5 of Law & Order: SVU (September 23, 2003), which is relevant context for when new seasons start."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions production start for season 17 (late May 2015) and airing of an episode (January 20, 2016), giving context to new season timing."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that season 18 debuted on September 21, 2016, directly answering when a new season started."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that season 18 debuted on September 21, 2016, directly answering when a new season started."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Law & Order: Special Victims Unit season 6 premiered September 21, 2004.",
+            "Law & Order: Special Victims Unit season 6 ended May 24, 2005."
+          ],
+          "reason": "Extracted the premiere and end dates for season 6 of Law & Order: SVU, which are directly relevant to the query about when a new season starts."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Law & Order: Special Victims Unit season 5 premiered September 23, 2003.",
+            "Law & Order: Special Victims Unit season 5 ended May 18, 2004."
+          ],
+          "reason": "Extracted the premiere and end dates for season 5 of Law & Order: SVU, providing historical start date information."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Production on season seventeen of SVU started in late May 2015.",
+            "An episode directed by Mariska Hargitay aired on January 20, 2016."
+          ],
+          "reason": "Extracted information about the start of production for season seventeen and a specific air date within that season, relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Law & Order: Special Victims Unit season 18 debuted on Wednesday, September 21, 2016.",
+            "Law & Order: Special Victims Unit season 18 finished on Wednesday, May 24, 2017."
+          ],
+          "reason": "Extracted the debut date for season 18 of Law & Order: SVU, directly answering the query about when a new season starts."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Law & Order: Special Victims Unit season 18 debuted on Wednesday, September 21, 2016."
+          ],
+          "reason": "Extracted the debut date for season 18 of Law & Order: SVU, directly answering the query about when a new season starts."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides the start date for season 6 (2004), but the query implies a future or recent season, not one from nearly two decades ago.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Provides the start date for season 5 (2003), which is historical and not what the query likely seeks.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions production start for season 17 in 2015 and an air date in 2016. This is relevant but not a direct premiere date for a 'new' season.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states the debut date for Law & Order: Special Victims Unit season 18, answering when a new season started.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states the debut date for Law & Order: Special Victims Unit season 18, answering when a new season started.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_season_premiere",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 directly state the premiere date for season 18 of Law & Order: SVU, providing a clear answer to when a new season started."
+          },
+          {
+            "label": "historical_season_data",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide premiere and end dates for older seasons (season 6 and 5 respectively), offering historical context but not recent or future season information."
+          },
+          {
+            "label": "production_and_air_dates",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 mentions production start for season 17 and an air date within that season, which is relevant but not a direct premiere date for a new season."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides complementary information about different seasons of Law & Order: SVU, with some documents directly stating premiere dates for newer seasons and others offering historical data for older seasons.",
+        "clusters": [
+          {
+            "label": "direct_season_premiere",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d4 and d5 directly state the premiere date for season 18 of Law & Order: SVU, providing a clear answer to when a new season started."
+          },
+          {
+            "label": "historical_season_data",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide premiere and end dates for older seasons (season 6 and 5 respectively), offering historical context but not recent or future season information."
+          },
+          {
+            "label": "production_and_air_dates",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 mentions production start for season 17 and an air date within that season, which is relevant but not a direct premiere date for a new season."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, with multiple documents directly supporting the premiere date of season 18. No significant conflicts or irrelevancies are present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Season 18 of Law & Order: SVU premiered on September 22, 2016.",
+        "citations": [
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Documents d4 and d5 directly state the premiere date for season 18, providing a clear and supported answer to the user's query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.3,
+        "feedback": "The answer states the premiere date as September 22, 2016, but the cited documents (d4, d5) state the premiere date as September 21, 2016. This is a factual inaccuracy not supported by the evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9525,
+      "completion_tokens": 2241,
+      "total_tokens": 11766
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1480,
+        "completion_tokens": 412,
+        "total_tokens": 1892
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1435,
+        "completion_tokens": 555,
+        "total_tokens": 1990
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 945,
+        "completion_tokens": 380,
+        "total_tokens": 1325
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1138,
+        "completion_tokens": 315,
+        "total_tokens": 1453
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1430,
+        "completion_tokens": 306,
+        "total_tokens": 1736
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 50,
+        "total_tokens": 794
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 899,
+        "completion_tokens": 102,
+        "total_tokens": 1001
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1454,
+        "completion_tokens": 121,
+        "total_tokens": 1575
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:23.019723",
+        "prompt_tokens": 1480,
+        "completion_tokens": 412,
+        "total_tokens": 1892,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:25.732393",
+        "prompt_tokens": 1435,
+        "completion_tokens": 555,
+        "total_tokens": 1990,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:27.309560",
+        "prompt_tokens": 945,
+        "completion_tokens": 380,
+        "total_tokens": 1325,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:29.594008",
+        "prompt_tokens": 1138,
+        "completion_tokens": 315,
+        "total_tokens": 1453,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:31.362885",
+        "prompt_tokens": 1430,
+        "completion_tokens": 306,
+        "total_tokens": 1736,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:33.000589",
+        "prompt_tokens": 744,
+        "completion_tokens": 50,
+        "total_tokens": 794,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:33.908454",
+        "prompt_tokens": 899,
+        "completion_tokens": 102,
+        "total_tokens": 1001,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:35.152260",
+        "prompt_tokens": 1454,
+        "completion_tokens": 121,
+        "total_tokens": 1575,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:02:20.618600",
+  "last_updated_at": "2026-04-17T20:02:35.152788"
+}

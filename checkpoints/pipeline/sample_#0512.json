@@ -1,0 +1,396 @@
+{
+  "sample_id": "#0512",
+  "query": "What would you hear if you were travelling at the speed of sound towards/away from something making noise? What would you hear if you spoke?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Making The Olympics Sound Right, From A 'Swoosh' To A 'Splash' : The Torch : NPR hyper sound that I remember. And with the archery event, I wanted to hear the sounds of the arrow. I wanted to hear what you cannot hear anywhere else, and that's fundamentally where I start. RAZ: So what did you - how did you set up the microphones to capture the sound of the arrow flying through the air? BAXTER: I put the microphone in line of the pathway of the arrow so that you hear as the arrow moves across toward the target, you actually hear it go across the microphone and you get a (makes noise) type of",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2012-06-02"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Ask the Physicist! a baseball from 1/4 mile away. You will see the bat hit the ball then you will hear it. BEcause sound travels slower than light. If I were to travel at twice the speed of sound going towards the ball being hit and then back to my current position would that alter time in any way? Then why do scientists think If I were to travel towards old light, faster than the speed of that light and then back again anything would happen to time? Is there a simple answer for my pea brain? Light is a perfectly unique wave.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2014-05-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "toyota - Screeching noise when the wheels are rolling - Motor Vehicle Maintenance & Repair Stack Exchange based on the sound you hear: Is it a bad wheel bearing? or could it be something completely different? And would it be a difficult problem (In other words: expensive) problem to fix? toyota noise corolla wheel-bearing Alexander JohansenAlexander Johansen I didn't hear any \"screeching\". It is hard to tell from the sound clip what it is we are listening to. Therefore, we are unable to tell you what is causing the noise you hear. It could be anything; brakes, bearings, suspension, etc. If you are barley able to change a light bulb, the last thing you want is an",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1993-06-07"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Would I Be Able To Hear the Radio If I Drove My Car Faster Than the Speed of Sound? you pass, when she will hear a sonic boom and all the car noise. Note that if you are outrunning sound, you won\u0393\u00c7\u00d6t be able to hear any sounds coming from behind you, because they can\u0393\u00c7\u00d6t catch up with you. That\u0393\u00c7\u00d6s why you can see the flashing lights on that police car that\u0393\u00c7\u00d6s chasing you, but you can\u0393\u00c7\u00d6t hear the siren. I doubt, however, that the trooper will accept that as an excuse. How Did the Radio Get its Name, What Does Radio Mean in Latin, and Where Did the Radio Come From? Is The Universe Expanding Faster Than The",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "physics - What would sound sound like at the speed of sound? - Sound Design Stack Exchange big brain on @Colin. Nice explanation! \u0393\u00c7\u00f4 Steve Urban Jul 29 '10 at 14:49 This is the extreme limit of the doppler effect. You hear \"sound\" as the changes in pressure of the sound wave. If you are travelling along with the sound wave, then you won't get any changes in pressure so you won't hear it. One way to conceptualize it is that sound waves are like the grooves in a record. The normal situation is you (the needle) are standing still and the sound wave (record) travels past you at a fixed rate (the speed of sound in  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses capturing the sound of an arrow and Olympic events, which is unrelated to the Doppler effect or the speed of sound."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions traveling at twice the speed of sound towards a ball being hit, but it focuses on time alteration and light, not the auditory experience."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document is about screeching noises from a car's wheel bearing, which is irrelevant to the query about the speed of sound."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "This document directly addresses the query, stating that if outrunning sound, you cannot hear sounds from behind you because they cannot catch up."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explains that if traveling with a sound wave at the speed of sound, you won't hear it because there are no pressure changes. It directly answers the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The sound of an arrow flying through the air can be captured by placing a microphone in its pathway."
+          ],
+          "reason": "Extracted a specific detail about capturing the sound of a fast-moving object, relevant to the query about sound perception at high speeds."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "If traveling at twice the speed of sound towards a sound source, you would see the event before hearing it because sound travels slower than light."
+          ],
+          "reason": "Extracted a fact directly addressing the query about traveling towards a sound source at high speed and the perception of sound versus light."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses car noises and troubleshooting, containing no relevant facts about the physics of sound or speed of sound."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "If you are outrunning sound, you cannot hear any sounds coming from behind you because they cannot catch up with you.",
+            "If you are outrunning sound, you can see flashing lights but cannot hear the siren of a police car chasing you."
+          ],
+          "reason": "Extracted facts explaining the consequence of traveling faster than sound on the perception of sounds originating from behind."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "If you are travelling along with a sound wave, you won't get any changes in pressure and therefore won't hear it."
+          ],
+          "reason": "Extracted a key fact explaining that traveling at the speed of sound means not hearing the sound wave due to lack of pressure changes."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This fact describes capturing sound, not the perception of sound when moving at the speed of sound.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly addresses traveling towards a sound source at twice the speed of sound and the resulting perception.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document is about car noises and troubleshooting, containing no relevant information about the speed of sound or sound perception.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explains that if outrunning sound, sounds from behind cannot be heard because they cannot catch up.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States that traveling along with a sound wave means not hearing it due to lack of pressure changes.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "outrunning_sound",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents explain that when outrunning sound, sounds from behind cannot be heard as they cannot catch up, and traveling with a sound wave prevents hearing it due to lack of pressure changes."
+          },
+          {
+            "label": "approaching_sound_source",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Directly addresses the scenario of traveling towards a sound source at high speeds and the resulting perception."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Documents are irrelevant, discussing sound capture or car noises instead of sound perception at high speeds."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence documents provide compatible details about sound perception at high speeds, explaining different scenarios like outrunning sound, approaching a source, and traveling with a sound wave.",
+        "clusters": [
+          {
+            "label": "outrunning_sound",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents explain that when outrunning sound, sounds from behind cannot be heard as they cannot catch up, and traveling with a sound wave prevents hearing it due to lack of pressure changes."
+          },
+          {
+            "label": "approaching_sound_source",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Directly addresses the scenario of traveling towards a sound source at high speeds and the resulting perception."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Documents are irrelevant, discussing sound capture or car noises instead of sound perception at high speeds."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing sufficient support for a reliable answer without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "When outrunning sound, sounds from behind cannot be heard because they cannot catch up. Traveling with a sound wave also prevents hearing it due to a lack of pressure changes. Documents also address the perception of sound when traveling towards a sound source at high speeds.",
+        "citations": [
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide complementary information on sound perception at high speeds, explaining scenarios like outrunning sound and approaching a sound source."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately synthesizes information from the provided documents regarding sound perception at high speeds, including outrunning sound and traveling with a sound wave."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9144,
+      "completion_tokens": 1953,
+      "total_tokens": 11097
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1543,
+        "completion_tokens": 384,
+        "total_tokens": 1927
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1498,
+        "completion_tokens": 437,
+        "total_tokens": 1935
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 856,
+        "completion_tokens": 323,
+        "total_tokens": 1179
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 974,
+        "completion_tokens": 282,
+        "total_tokens": 1256
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1233,
+        "completion_tokens": 270,
+        "total_tokens": 1503
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 675,
+        "completion_tokens": 37,
+        "total_tokens": 712
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 817,
+        "completion_tokens": 127,
+        "total_tokens": 944
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1548,
+        "completion_tokens": 93,
+        "total_tokens": 1641
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:47.892716",
+        "prompt_tokens": 1543,
+        "completion_tokens": 384,
+        "total_tokens": 1927,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:50.947882",
+        "prompt_tokens": 1498,
+        "completion_tokens": 437,
+        "total_tokens": 1935,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:53.202001",
+        "prompt_tokens": 856,
+        "completion_tokens": 323,
+        "total_tokens": 1179,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:54.723745",
+        "prompt_tokens": 974,
+        "completion_tokens": 282,
+        "total_tokens": 1256,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:55.969133",
+        "prompt_tokens": 1233,
+        "completion_tokens": 270,
+        "total_tokens": 1503,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:56.751786",
+        "prompt_tokens": 675,
+        "completion_tokens": 37,
+        "total_tokens": 712,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:59.377187",
+        "prompt_tokens": 817,
+        "completion_tokens": 127,
+        "total_tokens": 944,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:00.555877",
+        "prompt_tokens": 1548,
+        "completion_tokens": 93,
+        "total_tokens": 1641,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:51:45.214693",
+  "last_updated_at": "2026-04-17T19:52:00.556415"
+}

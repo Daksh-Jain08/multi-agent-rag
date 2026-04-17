@@ -1,0 +1,381 @@
+{
+  "sample_id": "#0488",
+  "query": "what does fixed wing plane mean. Are there planes without fixed wings",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "DARPA Announces VTOL X-Plane Phase 2 Design | Science and Technology Research News Home Government DARPA Announces VTOL X-Plane Phase 2 Design DARPA\u0393\u00c7\u00d6s Vertical Takeoff and Landing Experimental Plane (VTOL X-Plane) program seeks to provide innovative cross-pollination between fixed-wing and rotary-wing technologies and develop and integrate novel subsystems to enable radical improvements in vertical and cruising flight capabilities. In an important step toward that goal, DARPA has awarded the Phase 2 contract for VTOL X-Plane to Aurora Flight Sciences. DARPA\u0393\u00c7\u00d6s VTOL Experimental Plane (VTOL X-Plane) program aims to overcome these challenges through innovative cross-pollination between fixed-wing and rotary-wing technologies and by developing and integrating novel subsystems to enable radical improvements in vertical and",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2016-06-09"
+    },
+    {
+      "doc_id": "d2",
+      "text": "FlyTech UAV presents the 2 in 1 VTOL update to their surveying fixed-wing BIRDIE - UnmannedNews.net surfaces, lack of proper takeoff and landing space. It only takes a few seconds to attach the extension modules between the body and wings of the plane. The dedicated flight controller adjusts the flight mode automatically. As a result, the plane takes off vertically (fully autonomously), then converts to the horizontal flight, follows the mission pattern and finally \u0393\u00c7\u00f4 lands vertically wherever you want. What is important, the module is used without the loss of data quality: for both BIRDIE fixed-wing and VTOL you can achieve the accuracy up to 3 cm and the resolution up to 1 cm/px. The",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How UAVPAL Uses Glympse to Monitor Quad-Copters and Fixed-Wing Planes Over Long Distances - Glympse Guest Post by Marc B\u251c\u255dhler, Founder and Main Contributor at UAVPAL Hi there, my name is Marc and I live and work in Singapore. I am the founder of uavpal.com, a community platform that flies remote controlled (RC) drones, such as quad-copters and fixed-wing planes, via mobile data networks (4G/LTE). Broadly what this means is, our software enables an RC pilot to fly his quad/plane over virtually unlimited distances. Apart from controlling a drone over a long distance, the pilot can even see the live video stream from the drone\u0393\u00c7\u00d6s camera in real-time. All of this involves some modification using",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Professionalism/Ernest Fitzgerald and the Lockheed C-5A - Wikibooks, open books for an open world uncovered 46 changes in the plane's design and 789 specification changes [6]. Fitzgerald claimed that the specifications appeared to be written based on the plane rather than vice versa. Despite all of these contract changes, aircraft tests in June 1969 yielded cracked wings from the stress of the cargo weight, which was lighter than the contract requirements mandated. A wing fix was designed to mitigate the problem, and the planes that were already built or under construction would have to be re-winged. The cost of this fix was not revealed to Congress, nor was it successful in testing. According to",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "1920 | 0174 | Flight Archive of flying without these struts, and that the first specimens which arrived at the front were, in fact, without them. Remarkable is also the employment bf a large fixed tail plane and the fitting of a fourth plane in the form of a wing-sectioned casing round the wheel axle. The power plant of these very light machines is a no h.p. Oberursel engine. \" A step between the Fokker triplanes and the Fokker D VII, which followed later, is formed by the Fokker D VI, shown in Fig. 10. As in the triplane, this machine has a fixed tail plane,  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2001-05-02"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions 'fixed-wing' technology in contrast to rotary-wing, implying a distinction and providing context for different types of aircraft."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains a 'fixed-wing' plane (BIRDIE) that can also take off vertically, directly addressing the concept and implying planes that are not solely fixed-wing."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses flying 'fixed-wing planes' and contrasts them with 'quad-copters', implicitly answering that not all planes are fixed-wing."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses design changes and wing issues of a specific aircraft (C-5A), but doesn't define 'fixed-wing' or discuss planes without them."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions a 'fixed tail plane' and contrasts it with other aircraft types, providing context for what constitutes a fixed-wing element."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "DARPA's Vertical Takeoff and Landing Experimental Plane (VTOL X-Plane) program seeks to provide innovative cross-pollination between fixed-wing and rotary-wing technologies.",
+            "The program aims to develop and integrate novel subsystems to enable radical improvements in vertical and cruising flight capabilities."
+          ],
+          "reason": "Extracted facts about DARPA's VTOL X-Plane program, focusing on its goal of integrating fixed-wing and rotary-wing technologies for improved flight capabilities."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "FlyTech UAV presents a 2 in 1 VTOL update to their surveying fixed-wing BIRDIE.",
+            "The plane takes off vertically, converts to horizontal flight, follows a mission pattern, and lands vertically.",
+            "For both BIRDIE fixed-wing and VTOL, accuracy up to 3 cm and resolution up to 1 cm/px can be achieved."
+          ],
+          "reason": "Extracted facts describing the BIRDIE surveying plane, its VTOL capabilities, and its accuracy, relevant to understanding fixed-wing planes and their variations."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "UAVPAL uses Glympse to monitor quad-copters and fixed-wing planes over long distances via mobile data networks (4G/LTE).",
+            "The software enables an RC pilot to fly a quad/plane over virtually unlimited distances and see a live video stream in real-time."
+          ],
+          "reason": "Extracted facts about UAVPAL's system for monitoring and controlling fixed-wing planes over long distances, providing context on their operation."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Aircraft tests in June 1969 yielded cracked wings from the stress of the cargo weight, which was lighter than contract requirements mandated.",
+            "A wing fix was designed for the Lockheed C-5A, and planes already built or under construction would have to be re-winged."
+          ],
+          "reason": "Extracted facts about design issues and fixes related to the wings of the Lockheed C-5A, providing specific details about a fixed-wing aircraft."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Some early flying specimens arrived without struts.",
+            "A large fixed tail plane was employed, and a fourth plane in the form of a wing-sectioned casing was fitted around the wheel axle.",
+            "The power plant of these very light machines is a no h.p. Oberursel engine."
+          ],
+          "reason": "Extracted facts describing the design features of early flying machines, including the presence of a fixed tail plane and wing-sectioned casing, relevant to understanding fixed-wing aircraft."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions 'fixed-wing' in contrast to rotary-wing, implying a distinction but not defining 'fixed-wing' or explicitly stating planes without fixed wings.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Describes a 'fixed-wing' plane with VTOL capabilities, suggesting a type of aircraft. It implies a distinction from purely VTOL craft but doesn't define 'fixed-wing' or mention planes without them.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Refers to 'fixed-wing planes' as a category monitored by UAVPAL, implying their existence but not defining the term or discussing alternatives.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Discusses 'wings' and a 'wing fix' for the Lockheed C-5A, implying it's a fixed-wing aircraft. However, it doesn't define 'fixed-wing' or address planes without them.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions a 'fixed tail plane' and 'wing-sectioned casing', suggesting features of fixed-wing aircraft. It implies a category but doesn't define it or discuss alternatives.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "fixed_wing_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents provide context and examples related to fixed-wing aircraft, including their design, capabilities, and integration with other technologies, but do not offer a direct definition or explicit contrast with non-fixed-wing aircraft."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents partially support the existence and context of fixed-wing aircraft without offering contradictory information. The evidence is consistent but lacks a direct definition or explicit comparison.",
+        "clusters": [
+          {
+            "label": "context_on_fixed_wing_aircraft",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss various aspects of fixed-wing aircraft, including technological programs, specific models with VTOL capabilities, monitoring systems, design features, and historical issues, all implying their existence and characteristics."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The provided documents offer consistent context on fixed-wing aircraft, though a direct definition is absent. The support is sufficient to proceed without abstention."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The provided documents offer context and examples related to fixed-wing aircraft, including their design, capabilities, and integration with other technologies. They discuss various aspects such as technological programs, specific models with VTOL capabilities, monitoring systems, design features, and historical issues, all implying their existence and characteristics.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The documents provide consistent context on fixed-wing aircraft, though a direct definition is absent. The evidence is sufficient to answer without abstention."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately summarizes that the documents provide context and examples of fixed-wing aircraft, which is supported by the citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9748,
+      "completion_tokens": 2134,
+      "total_tokens": 11882
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1560,
+        "completion_tokens": 395,
+        "total_tokens": 1955
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1515,
+        "completion_tokens": 678,
+        "total_tokens": 2193
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1063,
+        "completion_tokens": 426,
+        "total_tokens": 1489
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1301,
+        "completion_tokens": 179,
+        "total_tokens": 1480
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1493,
+        "completion_tokens": 171,
+        "total_tokens": 1664
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 541,
+        "completion_tokens": 48,
+        "total_tokens": 589
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 694,
+        "completion_tokens": 147,
+        "total_tokens": 841
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1581,
+        "completion_tokens": 90,
+        "total_tokens": 1671
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:34.572046",
+        "prompt_tokens": 1560,
+        "completion_tokens": 395,
+        "total_tokens": 1955,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:36.808766",
+        "prompt_tokens": 1515,
+        "completion_tokens": 678,
+        "total_tokens": 2193,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:39.026920",
+        "prompt_tokens": 1063,
+        "completion_tokens": 426,
+        "total_tokens": 1489,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:40.492822",
+        "prompt_tokens": 1301,
+        "completion_tokens": 179,
+        "total_tokens": 1480,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:42.350448",
+        "prompt_tokens": 1493,
+        "completion_tokens": 171,
+        "total_tokens": 1664,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:43.276705",
+        "prompt_tokens": 541,
+        "completion_tokens": 48,
+        "total_tokens": 589,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:44.310633",
+        "prompt_tokens": 694,
+        "completion_tokens": 147,
+        "total_tokens": 841,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:45.366344",
+        "prompt_tokens": 1581,
+        "completion_tokens": 90,
+        "total_tokens": 1671,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:46:33.028830",
+  "last_updated_at": "2026-04-17T19:46:45.367161"
+}

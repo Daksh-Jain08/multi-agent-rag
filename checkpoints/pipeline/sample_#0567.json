@@ -1,0 +1,406 @@
+{
+  "sample_id": "#0567",
+  "query": "Who owns the senkaku/diaoyu dao islands?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Record of the Imperial Envoy's Visit to Ry\u253c\u00bdky\u253c\u00bd\" () (1534). Adopted by the Chinese Imperial Map of the Ming Dynasty, the Chinese name for the island group (\"Diaoyu\") and the Japanese name for the main island (\"Uotsuri\") both mean \"fishing\". In 1171 (in the Southern Song Dynasty), Wang Dayou, who guarded Fujian Province, established a military camp in Penghu, and sent his generals to control the islands. Taiwan and its affiliated islands, including Diaoyu Island, were under the military jurisdiction of Penghu and administered by Jinjiang, Quanzhou, Fujian Province. In the 1470s( early Ming Dynasty), China had implemented effective jurisdiction",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d2",
+      "text": "repeatedly referred to as part of Chinese territory since 1534, and were later controlled by the Qing dynasty along with Taiwan. The earliest written record of \"Diaoyutai\" dates back to 1403 in a Chinese book \"Voyage with the Tail Wind\" (), which recorded the names of the islands that voyagers had passed on a trip from Fujian to the Ryukyu Kingdom. By 1534, all the major islets of the island group were identified and named in the book \"Record of the Imperial Envoy's Visit to Ryukyu \" (\u03a3\u255c\u2510\u03c4\u00c9\u00eb\u03c4\u00c9\u00e2\u0398\u00ee\u00e4). and were the Ming dynasty's (16th-century) sea-defense frontier. One of the islands,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "that Okinotorishima does not meet UNCLOS's criteria for an islet of being able to support human habitation, and thus that Japan cannot claim an EEZ around the strategically-located atoll. To maintain their claims, Japan has spent over to build observation posts and shore up the atoll against erosion and typhoon damage, and has also cultivated coral in the area in an attempt to slowly grow reefs into islands. The Senkaku Islands, also known as Diaoyu Islands in the People's Republic of China (PRC) and the Tiaoyutai Islands in the Republic of China (Taiwan), are a group of five uninhabited islands",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2014-11-06"
+    },
+    {
+      "doc_id": "d4",
+      "text": "facts above as evidence. In fact, in the fifteenth century, international law was not yet born. It is difficult for people to judge the behavior at that time without the existence of legal principles. However, based on the international law nowadays: According to the facts recorded in the historical documents, China's sovereignty over the Diaoyu Islands was based on its discovery, naming, use, and then effective enforcement. The Diaoyu Islands were not non-ownership land in 1885. They are considered as the affiliated islands that belong under the jurisdiction of Taiwan (specifically Gumalan district). From the 18th to the 19th century,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "security because of the rising competition between US and China for military primacy in the Asia-Pacific region. It secures the international trade and maintains the moral and legal ground for other countries\u0393\u00c7\u00d6 claims over the land. Last but not least, the Diaoyu islands are close to important shipping lines, which contributes another help for a country\u0393\u00c7\u00d6s economic. The Diaoyu Islands were first discovered, named and used by China. In the Southern Song Dynasty (1171), Wang Dayou, who originally guarded Fujian Province, had established a military camp in Penghu, and sent his troops to control them. Taiwan and its affiliated islands,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1997-10-13"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Provides historical Chinese claims and administration of the islands, including their Chinese name and early control."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Details historical Chinese records and administration of the islands, mentioning their Chinese name and inclusion in Ming Dynasty's defense."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Identifies the islands by both their Chinese and Japanese names and mentions the PRC and ROC claims, providing context for ownership disputes."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Discusses historical Chinese sovereignty based on discovery, naming, and effective enforcement, referencing international law and jurisdiction over Taiwan."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States China's discovery, naming, and use of the islands, and their control during the Southern Song Dynasty, linking them to Taiwan."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In 1171 (Southern Song Dynasty), Wang Dayou established a military camp in Penghu and sent generals to control the islands.",
+            "Taiwan and its affiliated islands, including Diaoyu Island, were under the military jurisdiction of Penghu and administered by Jinjiang, Quanzhou, Fujian Province.",
+            "In the 1470s (early Ming Dynasty), China had implemented effective jurisdiction over the islands."
+          ],
+          "reason": "Extracted facts detailing historical Chinese administration and jurisdiction over the Diaoyu Islands, including specific dates and administrative bodies."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The islands have been repeatedly referred to as part of Chinese territory since 1534.",
+            "The earliest written record of \"Diaoyutai\" dates back to 1403 in a Chinese book \"Voyage with the Tail Wind\".",
+            "By 1534, all major islets were identified and named in the book \"Record of the Imperial Envoy's Visit to Ryukyu\" and were the Ming dynasty's sea-defense frontier."
+          ],
+          "reason": "Extracted facts about the historical Chinese naming, territorial claims, and administrative status of the islands since the 15th century."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Senkaku Islands are also known as Diaoyu Islands in the People's Republic of China (PRC) and the Tiaoyutai Islands in the Republic of China (Taiwan).",
+            "The islands are a group of five uninhabited islands."
+          ],
+          "reason": "Extracted facts identifying the alternative names for the islands and their uninhabited status, relevant to ownership claims."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "China's sovereignty over the Diaoyu Islands is based on its discovery, naming, use, and then effective enforcement.",
+            "The Diaoyu Islands were considered affiliated islands under the jurisdiction of Taiwan (specifically Gumalan district) from the 18th to 19th century."
+          ],
+          "reason": "Extracted facts asserting China's historical basis for sovereignty and its jurisdiction over the islands as affiliated to Taiwan."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Diaoyu Islands were first discovered, named, and used by China.",
+            "In the Southern Song Dynasty (1171), Wang Dayou established a military camp in Penghu and sent troops to control the islands.",
+            "Taiwan and its affiliated islands were under Chinese control."
+          ],
+          "reason": "Extracted facts about the initial discovery, naming, use, and historical Chinese control of the Diaoyu Islands and their affiliation with Taiwan."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides historical evidence of Chinese administration and jurisdiction over the islands, directly addressing historical ownership claims.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Details historical Chinese naming, territorial claims, and administrative status since the 15th century, strongly supporting Chinese ownership claims.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Identifies alternative names and uninhabited status, which is relevant context but doesn't directly establish ownership.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Asserts China's historical basis for sovereignty and jurisdiction, directly supporting the claim of Chinese ownership.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Highlights initial discovery, naming, use, and historical Chinese control, providing strong evidence for Chinese ownership.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "historical_administration_and_jurisdiction",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 provide historical evidence of Chinese administration, jurisdiction, and control over the islands, including specific dynasties and administrative bodies."
+          },
+          {
+            "label": "historical_naming_and_territorial_claims",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 details historical Chinese naming, territorial claims, and administrative status of the islands since the 15th century."
+          },
+          {
+            "label": "island_identification_and_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides contextual information by identifying alternative names for the islands and their uninhabited status."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently supports historical Chinese administration, jurisdiction, and claims over the islands, with no conflicting information present.",
+        "clusters": [
+          {
+            "label": "historical_administration_and_jurisdiction",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 provide historical evidence of Chinese administration, jurisdiction, and control over the islands, including specific dynasties and administrative bodies."
+          },
+          {
+            "label": "historical_naming_and_territorial_claims",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 details historical Chinese naming, territorial claims, and administrative status of the islands since the 15th century."
+          },
+          {
+            "label": "island_identification_and_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides contextual information by identifying alternative names for the islands and their uninhabited status."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and consistently supports the historical administration, jurisdiction, and claims over the islands. There are no conflicts, and the support is sufficient for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Historical evidence from the 15th century onwards indicates Chinese administration, jurisdiction, territorial claims, and control over the islands, including specific dynasties and administrative bodies. Alternative names and the uninhabited status of the islands are also noted.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently detail historical Chinese administration, jurisdiction, and claims over the islands, with no conflicts present. Document d3 provides relevant context."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately summarizing historical claims and administrative details related to the islands."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9833,
+      "completion_tokens": 2206,
+      "total_tokens": 12039
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1531,
+        "completion_tokens": 356,
+        "total_tokens": 1887
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1486,
+        "completion_tokens": 678,
+        "total_tokens": 2164
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1060,
+        "completion_tokens": 329,
+        "total_tokens": 1389
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1201,
+        "completion_tokens": 296,
+        "total_tokens": 1497
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1474,
+        "completion_tokens": 275,
+        "total_tokens": 1749
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 694,
+        "completion_tokens": 53,
+        "total_tokens": 747
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 852,
+        "completion_tokens": 130,
+        "total_tokens": 982
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1535,
+        "completion_tokens": 89,
+        "total_tokens": 1624
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:38.240819",
+        "prompt_tokens": 1531,
+        "completion_tokens": 356,
+        "total_tokens": 1887,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:42.224937",
+        "prompt_tokens": 1486,
+        "completion_tokens": 678,
+        "total_tokens": 2164,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:43.668530",
+        "prompt_tokens": 1060,
+        "completion_tokens": 329,
+        "total_tokens": 1389,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:45.116891",
+        "prompt_tokens": 1201,
+        "completion_tokens": 296,
+        "total_tokens": 1497,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:46.569358",
+        "prompt_tokens": 1474,
+        "completion_tokens": 275,
+        "total_tokens": 1749,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:47.510902",
+        "prompt_tokens": 694,
+        "completion_tokens": 53,
+        "total_tokens": 747,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:48.694380",
+        "prompt_tokens": 852,
+        "completion_tokens": 130,
+        "total_tokens": 982,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:49.619289",
+        "prompt_tokens": 1535,
+        "completion_tokens": 89,
+        "total_tokens": 1624,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:06:36.713776",
+  "last_updated_at": "2026-04-17T20:06:49.619772"
+}

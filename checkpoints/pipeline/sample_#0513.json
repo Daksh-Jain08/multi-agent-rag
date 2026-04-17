@@ -1,0 +1,392 @@
+{
+  "sample_id": "#0513",
+  "query": "Who nominates the chairman of the public accounts committee of the indian parliament?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "than seven members of Rajya Sabha, the upper house of the Parliament. The members are elected every year from amongst its members of respective houses according to the principle of proportional representation by means of single transferable vote. The chairperson is appointed by the Lok Sabha speaker. The term of office of the members is one year. A minister is not eligible to become a member of the committee. If a member after his election to the committee becomes a Minister, he ceases to be a member from the date of such appointment. The first proposal for a separate committee",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "SC/ST welfare, Committee on Computers to Members of Rajya Sabha, Business Advisory Committee of Rajya Sabha, Parliamentary Forum on Population & Public Health, IPU Global Advisory Group on HIV/AIDS, Animal Welfare Board of India, Khadi & Village Industries Board of India, Secretary, Indian National Congress, Congress Party in charge for the Delimitation Exercise & Indo-US Parliamentarians Forum. Presently, Member, Public Accounts Committee, Standing Committee on Law & Personnel, Standing Committee on Social Justice, Consultative Committee on Road Transport & National Highways, Committee on Subordinate Legislation, India-Bhutan & India-Pakistan Parliamentarians Forum, Secretary General, Forum of SC/ST Parliamentarians, Secretary General, Forum of",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Public Accounts Committee Public Accounts Committee (PAC) refers to a committee in the legislature that must study public audits, invite ministers, permanent secretaries or other ministry officials to the committee for questioning, and issue a report of their findings subsequent to a government budget audit. Typically, the government is required to report back to parliament on PAC recommendations within a specified period, usually two to six months. More often than not, opposition members chair PACs in the commonwealth. Based on their findings, PACs often make recommendations to government ministries requiring that they change certain policies and procedures to improve their",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the organisation's administration. The current Chair of the CPA Executive Committee is Hon. Emilia Lifaka MP, Deputy Speaker of the National Assembly of Cameroon. Previous Chairpersons have included Hon. Shirin Sharmin Chaudhury, Speaker of Jatiyo Sangsad Bhaban of Bangladesh (2014-2017), who succeeded Rt Hon. Sir Alan Haselhurst MP (2011 \u0393\u00c7\u00f4 2014), formerly Chairman of Ways and Means of the UK Parliament. The current Vice-Chair is Hon. Alexandra Mendes MP, Parliament of Canada. The current Treasurer is Hon. Vicki Dunne, Deputy Speaker of Australian Capital Territory Legislative Assembly. The current Chairperson of the Commonwealth Women Parliamentarians is Hon. Noraini Ahmad, MP",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Sabha, the membership was reduced to 31 members\u0393\u00c7\u00f621 from Lok Sabha and 10 from Rajya Sabha. The inaugural chairperson of the committee was Buta Singh, former Minister of Home Affairs (1984-86) and Minister of Consumer Affairs, Food and Public Distribution (1995-96) and a member of Indian National Congress. The functions of the committee are stated as below : The Standing Committees shall not consider the matters of day to day administration of the department. After the general discussion on the Budget in the House is over, the Lok Sabha is adjourned for a fixed period. The Committee considers the Demands  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2016"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly states that the chairperson of the Public Accounts Committee is appointed by the Lok Sabha speaker."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document lists various committees and roles, including membership in the Public Accounts Committee, but does not mention who nominates the chairman."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "This document describes the function of a Public Accounts Committee and mentions that opposition members often chair them in the commonwealth, but doesn't specify nomination for the Indian parliament."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the chairpersons of the CPA Executive Committee and previous chairpersons from various countries, which is not relevant to the Indian Parliament's Public Accounts Committee."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions the membership and inaugural chairperson of a committee but does not specify who nominates the chairman of the Public Accounts Committee."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The chairperson of the Public Accounts Committee is appointed by the Lok Sabha speaker."
+          ],
+          "reason": "Extracted the specific fact about who appoints the chairperson of the committee, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document lists various committees and roles but does not state who nominates the chairman of the Public Accounts Committee."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Opposition members often chair Public Accounts Committees in the commonwealth."
+          ],
+          "reason": "Extracted a general fact about the chairing of PACs in the commonwealth, which is related to the query's topic."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses chairpersons of the CPA Executive Committee and other parliamentary roles, but not the nomination of the Indian Public Accounts Committee chairman."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The inaugural chairperson of the committee was Buta Singh."
+          ],
+          "reason": "Extracted a historical fact about the first chairperson of the committee, which is relevant to the query's subject matter."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that the Lok Sabha speaker appoints the chairperson of the Public Accounts Committee, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document lists committees but does not provide information on who nominates the chairman of the Indian Public Accounts Committee.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions opposition members often chairing PACs in the commonwealth, which is related but doesn't specify the nominator for the Indian PAC.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses other parliamentary roles and committees, but not the nomination process for the Indian Public Accounts Committee chairman.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "States who the inaugural chairperson was, but not who nominates the current chairman.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly states that the Lok Sabha speaker appoints the chairperson of the Public Accounts Committee."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides related context about opposition members chairing PACs in the commonwealth, but does not specify the nominator for the Indian PAC."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d4, and d5 are irrelevant as they list committees, discuss other roles, or mention historical chairpersons without addressing the nomination process for the Indian Public Accounts Committee chairman."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary. Document d1 directly answers the query, while d3 provides related context. Other documents are irrelevant.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "The Lok Sabha speaker appoints the chairperson of the Public Accounts Committee."
+          },
+          {
+            "label": "related_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Opposition members often chair Public Accounts Committees in the commonwealth."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d4, and d5 do not provide information on who nominates the Indian Public Accounts Committee chairman."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and directly supports the answer. There is no conflict, and the information is coherent."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Lok Sabha speaker appoints the chairperson of the Public Accounts Committee.",
+        "citations": [
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d1 directly answers the query. Document d3 provides related context but is not cited as it doesn't directly support the answer. Other documents are irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document d1, which states that the chairperson is appointed by the Lok Sabha speaker."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8311,
+      "completion_tokens": 1741,
+      "total_tokens": 10052
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 380,
+        "total_tokens": 1747
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1322,
+        "completion_tokens": 340,
+        "total_tokens": 1662
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 753,
+        "completion_tokens": 337,
+        "total_tokens": 1090
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 251,
+        "total_tokens": 1151
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1168,
+        "completion_tokens": 213,
+        "total_tokens": 1381
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 649,
+        "completion_tokens": 40,
+        "total_tokens": 689
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 794,
+        "completion_tokens": 90,
+        "total_tokens": 884
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1358,
+        "completion_tokens": 90,
+        "total_tokens": 1448
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:02.602612",
+        "prompt_tokens": 1367,
+        "completion_tokens": 380,
+        "total_tokens": 1747,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:04.464561",
+        "prompt_tokens": 1322,
+        "completion_tokens": 340,
+        "total_tokens": 1662,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:05.930821",
+        "prompt_tokens": 753,
+        "completion_tokens": 337,
+        "total_tokens": 1090,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:07.332081",
+        "prompt_tokens": 900,
+        "completion_tokens": 251,
+        "total_tokens": 1151,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:08.873313",
+        "prompt_tokens": 1168,
+        "completion_tokens": 213,
+        "total_tokens": 1381,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:09.746359",
+        "prompt_tokens": 649,
+        "completion_tokens": 40,
+        "total_tokens": 689,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:10.711325",
+        "prompt_tokens": 794,
+        "completion_tokens": 90,
+        "total_tokens": 884,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:11.599680",
+        "prompt_tokens": 1358,
+        "completion_tokens": 90,
+        "total_tokens": 1448,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:52:00.557815",
+  "last_updated_at": "2026-04-17T19:52:11.600229"
+}

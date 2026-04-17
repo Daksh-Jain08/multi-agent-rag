@@ -1,0 +1,390 @@
+{
+  "sample_id": "#0475",
+  "query": "A pound of excess weight lost is 4 pounds of pressure off of the knees.",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Bram Mask | Weight Loss Success Story Home > Medical Services > Weight Loss Surgery > Bram Mask Bram Mask of Pontotoc has lost 195 pounds since having weight loss surgery in June 2017 at NMMC. \u0393\u00c7\u00a3It\u0393\u00c7\u00d6s the best decision I\u0393\u00c7\u00d6ve ever made,\u0393\u00c7\u00a5 Bram says. \u0393\u00c7\u00a3I would say do it! 100 percent, no regrets.\u0393\u00c7\u00a5 When he weighed 425 pounds, Bram suffered from high blood pressure, high cholesterol, sleep apnea, knee pain and type 2 diabetes. Since losing 195 pounds thanks to weight loss surgery, he no longer needs blood pressure, diabetes or cholesterol medication and is off his CPAP machine. \u0393\u00c7\u00a3I can do anything I want to!",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Causes of Osteoarthritis | Summit Orthopedics of factors have been identified as contributing to your risk of getting osteoarthritis. Age. The older you are, the more \u0393\u00c7\u00a3wear and tear\u0393\u00c7\u00a5 your joints have experienced. This doesn\u0393\u00c7\u00d6t mean that osteoarthritis is inevitable, but if you are at risk, it is likely that symptoms will appear as you age. Obesity. Excess weight will stress lower body joints, and is a well-established factor in the development of osteoarthritis. Knees are particularly at risk. For every pound you gain, you add 4 pounds of pressure on your knees and 6 pounds of pressure on your hips. According to research, obesity poses",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2001"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Various Treatments For Knee Arthritis | Herbal Supplements a long period, no pumping is done, the fluid dries out quickly and so does the lubrication. Therefore, you are advised to do some simple stretching or bending exercises every twenty minutes throughout the day. Lose Those Extra Pounds If you are overweight, you must work on to lost those extra pounds. Excess body weight means excessive pressure on the knee joints, which can aggravate the arthritis condition in the knee. Various research works have been conducted in this regard and it has been found that just by losing 5-10% of your body weight can dramatically increase the mobility of",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2021-05-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Will Cortisone Help My Knee Pain? \u0393\u00c7\u00f6 LEVEL4 Physio-Wellness-Performance your water, and then go do some laps around your building. You\u0393\u00c7\u00d6ll find that if you do these little things, that over the course of, again, weeks, months, and years, your physical activity levels will improve. You want to make sure your weight is properly managed, and for every 10 pounds of excess weight that you carry in your body, that\u0393\u00c7\u00d6s anywhere between 30 and 70 pounds of extra pressure to your hips, knees, ankles, and low back. It\u0393\u00c7\u00d6s no wonder that being overweight or carrying excess weight is a cause for a lot of our health problems. Now, how",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Knee pain quiz | Dameron Hospital false: Being overweight has little effect on knee pain. False. Every excess pound that you carry puts about 4 extra pounds of pressure on your knees. If you're overweight, talk to a doctor about how losing weight could help protect your knees. True or false: Knee pain only indicates a problem if it's in the back of the knee. False. Knee pain that occurs anywhere around the knee joint may indicate a problem. Many things can cause knee problems. Mild pain may clear up with home care, but if it's severe or long-lasting, you may need to see a doctor,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": true,
+          "reason": "Mentions knee pain and weight loss, but doesn't quantify the pressure reduction per pound lost."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that for every pound gained, 4 pounds of pressure are added to the knees, supporting the query's premise."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains that excess weight increases pressure on knee joints and that losing 5-10% of body weight can increase mobility, indirectly supporting the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "States that for every 10 pounds of excess weight, there are 30-70 pounds of extra pressure on knees, which is related but not the exact ratio in the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly states that every excess pound puts about 4 extra pounds of pressure on the knees, confirming the query's claim."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Bram Mask lost 195 pounds since having weight loss surgery in June 2017.",
+            "When he weighed 425 pounds, Bram suffered from knee pain."
+          ],
+          "reason": "Extracted facts about a specific individual's weight loss and associated knee pain, relevant to the query's theme."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Excess weight stresses lower body joints, and is a well-established factor in the development of osteoarthritis.",
+            "Knees are particularly at risk from excess weight.",
+            "For every pound you gain, you add 4 pounds of pressure on your knees."
+          ],
+          "reason": "Extracted the direct relationship between excess weight, pressure on knees, and osteoarthritis risk, matching the query's core statement."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Excess body weight means excessive pressure on the knee joints, which can aggravate the arthritis condition in the knee.",
+            "Losing 5-10% of body weight can dramatically increase knee mobility."
+          ],
+          "reason": "Extracted facts linking excess weight to knee joint pressure and the positive impact of weight loss on knee mobility."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "For every 10 pounds of excess weight carried, there is between 30 and 70 pounds of extra pressure to hips, knees, ankles, and low back.",
+            "Being overweight or carrying excess weight is a cause for many health problems."
+          ],
+          "reason": "Extracted information on the increased pressure on knees due to excess weight, supporting the query's premise."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Every excess pound that you carry puts about 4 extra pounds of pressure on your knees.",
+            "Losing weight could help protect your knees."
+          ],
+          "reason": "Extracted the direct quantitative relationship between excess weight and knee pressure, confirming the query's statement."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions weight loss and knee pain but doesn't quantify the pressure reduction.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that for every pound gained, there are 4 pounds of pressure added to the knees, matching the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Links excess weight to knee pressure and weight loss to mobility but doesn't provide the specific 1:4 ratio.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "States excess weight adds pressure to knees but gives a range (30-70 lbs per 10 lbs) rather than the specific 4 lbs per 1 lb.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly states that every excess pound carries about 4 extra pounds of pressure on the knees, directly supporting the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_quantitative_support",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 directly state the 1:4 pressure ratio on knees for excess weight."
+          },
+          {
+            "label": "partial_quantitative_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 provide context on weight, knee pain, and pressure but lack the specific 1:4 ratio."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All evidence documents consistently support the claim that excess weight increases pressure on knee joints, with some providing specific quantitative details.",
+        "clusters": [
+          {
+            "label": "direct_quantitative_support",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 directly state the 1:4 pressure ratio on knees for excess weight."
+          },
+          {
+            "label": "partial_quantitative_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 provide context on weight, knee pain, and pressure but lack the specific 1:4 ratio."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the claim with specific quantitative details from multiple documents, making a reliable answer possible."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Excess weight increases knee joint pressure by a ratio of 1:4.",
+        "citations": [
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d2 and d5 directly provide the quantitative 1:4 pressure ratio for excess weight on knees, fulfilling the user's query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited documents, which state that for every pound of excess weight, there are 4 pounds of pressure added to the knees."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9450,
+      "completion_tokens": 1928,
+      "total_tokens": 11378
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1639,
+        "completion_tokens": 385,
+        "total_tokens": 2024
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1594,
+        "completion_tokens": 526,
+        "total_tokens": 2120
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 917,
+        "completion_tokens": 354,
+        "total_tokens": 1271
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1079,
+        "completion_tokens": 226,
+        "total_tokens": 1305
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1298,
+        "completion_tokens": 205,
+        "total_tokens": 1503
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 586,
+        "completion_tokens": 42,
+        "total_tokens": 628
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 733,
+        "completion_tokens": 93,
+        "total_tokens": 826
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1604,
+        "completion_tokens": 97,
+        "total_tokens": 1701
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:06.786976",
+        "prompt_tokens": 1639,
+        "completion_tokens": 385,
+        "total_tokens": 2024,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:08.816723",
+        "prompt_tokens": 1594,
+        "completion_tokens": 526,
+        "total_tokens": 2120,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:10.491380",
+        "prompt_tokens": 917,
+        "completion_tokens": 354,
+        "total_tokens": 1271,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:11.825687",
+        "prompt_tokens": 1079,
+        "completion_tokens": 226,
+        "total_tokens": 1305,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:13.532041",
+        "prompt_tokens": 1298,
+        "completion_tokens": 205,
+        "total_tokens": 1503,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:14.703317",
+        "prompt_tokens": 586,
+        "completion_tokens": 42,
+        "total_tokens": 628,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:15.672673",
+        "prompt_tokens": 733,
+        "completion_tokens": 93,
+        "total_tokens": 826,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:16.602651",
+        "prompt_tokens": 1604,
+        "completion_tokens": 97,
+        "total_tokens": 1701,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:44:05.131404",
+  "last_updated_at": "2026-04-17T19:44:16.602855"
+}

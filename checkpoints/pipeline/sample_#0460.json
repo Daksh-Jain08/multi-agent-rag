@@ -1,0 +1,395 @@
+{
+  "sample_id": "#0460",
+  "query": "How is gravity not faster than the speed of light?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Does Gravity Travel At The Speed Of Light | Hotels Vacations and Travel Wordwide Does Gravity Travel At The Speed Of Light Flat Earth and Gravity Does Not Exist, Just a Theory, Freemason Sir Isaac Newton Fooled the World to Prove the Spinning Ball Earth Model However, if operating on theories where such an indent is not accepted, then gravity must travel faster than the speed of light. Gravity does not help or hurt any part of the game of football. On Sept. 22, 2017, a ghostly particle ejected from a far distant supermassive black hole zipped down from the sky and through the ice of Antarctica at just below the speed of light,",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Homeschool High School Physics Course | Time4Learning field around a mass. Weight and weightlessness \u0393\u00c7\u00f4 Students learn how to explain the relationship between gravity and weight, and how to predict weight based on gravity. Kepler\u0393\u00c7\u00d6s laws and orbital motion \u0393\u00c7\u00f4 Students are introduced to Kepler\u0393\u00c7\u00d6s laws and orbital motion. Chapter 8 \u0393\u00c7\u00f4 Special Relativity The materials in this chapter introduce and cover special relativity. It is organized into sections that teach, reinforce and test students on the concepts of speed of light and Einstein\u0393\u00c7\u00d6s special theory of relativity. Speed of light \u0393\u00c7\u00f4 Students are taught that nothing travels faster than the speed of light, and that this",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2010-11-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Question about faster than light information transfer [Archive] - Cosmoquest Forum energy in a form that is non-gravitational (if that excists) to solid mass could be detected by an observer with a sensitive gravitometer, could that enable faster than light communication? Gravity does not works instantaneously, changes in the gravitational field propagates at light speed. I\u252c\u2524ve heard that gravity works instantaneously... Nope, changes in the gravitational field propagate at the speed of light. It was the Newtonian model to assume it was instantaneous action at a distance.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Gravity as a communication tool. [Archive] - Cosmoquest Forum waves in one direction. To send information via gravity waves efficiently, we would also need a method to guide the waves, something analogous to the reflector antenna. So here's the question fellow BABB members: how can we build \"gravity wave\" guides? It is easy to be misled into thinking that one could use entanglement to send signals faster than the speed of light, in violation of Einstein's special theory of relativity, but the probabilistic nature of quantum mechanics stymies such efforts. Naturally, many people have wondered if this effect could be used to transmit information faster than the speed of",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Is There Anything That Can Travel Faster Than Light? have the ability to alter the red dot in any way, to use it to send a message to another lunar resident at a speed faster than light. Speed of Light: Why is speed limited to light, if a pilot's voice in a cockpit is not limited to the speed of sound? Relativity: Is light attracted by gravity? Physics: Is modern theoretical physics more than just solving word problems?  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions that gravity must travel faster than light in some theories and that particles travel at the speed of light, providing context to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses gravity and special relativity but does not directly address if gravity is faster than light. It mentions the speed of light limit."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that changes in the gravitational field propagate at light speed, refuting the idea of instantaneous gravity and answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Discusses gravity waves and faster-than-light communication but doesn't directly answer how gravity is not faster than light. Mentions entanglement and relativity."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Poses questions about faster-than-light travel and light being attracted by gravity, but does not provide answers relevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "If operating on theories where such an indent is not accepted, then gravity must travel faster than the speed of light.",
+            "On Sept. 22, 2017, a ghostly particle ejected from a far distant supermassive black hole zipped down from the sky and through the ice of Antarctica at just below the speed of light."
+          ],
+          "reason": "Extracted facts discussing the speed of gravity relative to the speed of light and a particle traveling near light speed."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Students are taught that nothing travels faster than the speed of light."
+          ],
+          "reason": "Extracted the core principle from the document that nothing travels faster than the speed of light, which is relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Changes in the gravitational field propagates at light speed.",
+            "It was the Newtonian model to assume it was instantaneous action at a distance."
+          ],
+          "reason": "Extracted facts stating that gravitational field changes propagate at light speed, contrasting with the Newtonian model."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "It is easy to be misled into thinking that one could use entanglement to send signals faster than the speed of light, in violation of Einstein's special theory of relativity, but the probabilistic nature of quantum mechanics stymies such efforts."
+          ],
+          "reason": "Extracted a fact explaining why entanglement cannot be used for faster-than-light communication, relevant to the query's theme."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "The document poses questions about speed limits and gravity but does not provide factual answers relevant to how gravity is not faster than light."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions theories where gravity travels faster than light and a particle near light speed, but doesn't directly explain why gravity isn't faster.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States the fundamental principle that nothing travels faster than the speed of light, which is directly relevant to the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that changes in the gravitational field propagate at light speed, contrasting with older theories.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses entanglement and faster-than-light communication, which is not directly related to the speed of gravity itself.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document poses questions but provides no factual answers regarding the speed of gravity.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "fundamental_principle",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "States the core principle that nothing travels faster than the speed of light."
+          },
+          {
+            "label": "gravity_at_light_speed",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Confirms that gravitational field changes propagate at light speed, contrasting with older models."
+          },
+          {
+            "label": "theoretical_considerations",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Mentions theoretical scenarios where gravity might exceed light speed and particles traveling near light speed, but lacks direct explanation."
+          },
+          {
+            "label": "unrelated_concepts",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discussing entanglement for FTL communication or posing unanswered questions are irrelevant to the speed of gravity."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence consistently supports that gravity propagates at the speed of light, with one document offering theoretical considerations and others establishing the fundamental principle.",
+        "clusters": [
+          {
+            "label": "gravity_propagates_at_light_speed",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 confirm that nothing travels faster than light and that gravitational field changes propagate at light speed, contrasting with older Newtonian models."
+          },
+          {
+            "label": "theoretical_and_observational_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 mentions theories where gravity might exceed light speed and a particle traveling near light speed, providing context but not direct contradiction."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely consistent, with supporting documents confirming gravity propagates at light speed. The partial document offers theoretical context without direct contradiction, allowing for a grounded answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Gravitational field changes propagate at the speed of light, a principle that nothing travels faster than.",
+        "citations": [
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d2 and d3 directly confirm that gravity propagates at the speed of light. Document d1 provides theoretical context without contradiction."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited documents, which state that gravitational field changes propagate at the speed of light and that nothing travels faster than light."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8813,
+      "completion_tokens": 1884,
+      "total_tokens": 10697
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1423,
+        "completion_tokens": 380,
+        "total_tokens": 1803
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1378,
+        "completion_tokens": 466,
+        "total_tokens": 1844
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 865,
+        "completion_tokens": 335,
+        "total_tokens": 1200
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1014,
+        "completion_tokens": 270,
+        "total_tokens": 1284
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1289,
+        "completion_tokens": 193,
+        "total_tokens": 1482
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 648,
+        "completion_tokens": 51,
+        "total_tokens": 699
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 804,
+        "completion_tokens": 94,
+        "total_tokens": 898
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1392,
+        "completion_tokens": 95,
+        "total_tokens": 1487
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:28.248263",
+        "prompt_tokens": 1423,
+        "completion_tokens": 380,
+        "total_tokens": 1803,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:30.377948",
+        "prompt_tokens": 1378,
+        "completion_tokens": 466,
+        "total_tokens": 1844,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:32.701561",
+        "prompt_tokens": 865,
+        "completion_tokens": 335,
+        "total_tokens": 1200,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:35.470373",
+        "prompt_tokens": 1014,
+        "completion_tokens": 270,
+        "total_tokens": 1284,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:36.805174",
+        "prompt_tokens": 1289,
+        "completion_tokens": 193,
+        "total_tokens": 1482,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:37.737916",
+        "prompt_tokens": 648,
+        "completion_tokens": 51,
+        "total_tokens": 699,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:38.797387",
+        "prompt_tokens": 804,
+        "completion_tokens": 94,
+        "total_tokens": 898,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:36:39.865241",
+        "prompt_tokens": 1392,
+        "completion_tokens": 95,
+        "total_tokens": 1487,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:36:25.882248",
+  "last_updated_at": "2026-04-17T19:36:39.865849"
+}

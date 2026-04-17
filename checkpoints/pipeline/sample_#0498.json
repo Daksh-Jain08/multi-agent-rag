@@ -1,0 +1,395 @@
+{
+  "sample_id": "#0498",
+  "query": "When did hunger games catching fire come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the 2013 MTV Movie Awards on April 14, presented by Liam Hemsworth, and the trailer was posted on TheHungerGamesExplorer and YouTube after the ceremony. \"Beyond Fire\" by T.T.L. was played as the trailer music. An exclusive new trailer debuted at the San Diego Comic-Con International on July 20, 2013, also being released online on that day. Walmart released the first TV spot on their Facebook page on October 14, featuring Coldplay's song, \"Atlas\". On October 27, 2013, during the fifth inning of game 4 of the 2013 World Series, the final trailer was released. Three days later, on October 30,",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "unforgiving nature of war, unashamedly political in its motives and quietly devastating in its emotional effect.\" On August 8, 2017, Variety reported that Lionsgate CEO Jon Feltheimer has interest in having spinoffs made for \"The Hunger Games\", and wants to create a writers room to explore the idea. When asked about the idea of Hunger Games spinoffs, Jennifer Lawrence said \"I think it's too soon. They've got to let the body get cold, in my opinion.\" The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 2 The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 2 is a 2015 American dystopian science fiction adventure film directed",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2019-06-06"
+    },
+    {
+      "doc_id": "d3",
+      "text": "school for many readers. It was also published as an audiobook on the same day. Advance reading copies were available at BookExpo America in New York City, and were sent out to some booksellers, and offered as prizes in Scholastic's \"How Would You Survive\" writing contest in May 2009. An eBook version was also published on June 3, 2010. \"Catching Fire\" had an initial print of 350,000 copies, a number which had grown to over 750,000 by February 2010. The release of \"Mockingjay\", the third novel of the series, followed on August 24, 2010. , the book has sold over",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1997-03-25"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Francis Lawrence stated: \"we recently saw the 3-D version of \"Mockingjay \u0393\u00c7\u00f4 Part 1\" before its release in China, and the new level of immersion was really fantastic.\" \"The Hunger Games: Mockingjay Part 1\" was released on Digital HD on February 17, 2015, and was followed by a Blu-ray/DVD release on March 6, 2015. It topped the home video sales chart for two consecutive weeks despite facing competition from \"\". The entire Hunger Games series was released on 4K UHD Blu-Ray on November 8, 2016. \"The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 1\" grossed $337.1 million in the USA & Canada,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2011-10-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Vision format in Dolby Cinemas, which is the first ever for Lionsgate. Internationally, it was released day-and-date across 87 countries, starting from November 18, in certain markets like Belgium, Brazil, France and the Netherlands and on November 19 in Australia, Germany, Russia, Italy, and the United Kingdom, followed by China, Mexico, Japan, the United States, Canada, and 19 other markets, on November 20, as part of the biggest movie rollout ever by Lionsgate. The only big territories where the film did not open on the same weekend are Spain, Greece and India, which released the movie on November 27. \"The  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions trailers and TV spots for 'Catching Fire' released in October and November 2013, indicating its release period."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses spinoffs and the release of 'Mockingjay Part 2' in 2015, not the release date of 'Catching Fire'."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Focuses on the release of the 'Catching Fire' novel in 2009 and 'Mockingjay' in 2010, not the film's release date."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the release of 'Mockingjay Part 1' in 2015 and the entire series on 4K UHD Blu-Ray in 2016, not 'Catching Fire'."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Provides international release dates for a Hunger Games film in November 2014, strongly suggesting it's about 'Catching Fire'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "An exclusive new trailer for The Hunger Games: Catching Fire debuted at the San Diego Comic-Con International on July 20, 2013.",
+            "Walmart released the first TV spot for The Hunger Games: Catching Fire on their Facebook page on October 14, 2013.",
+            "The final trailer for The Hunger Games: Catching Fire was released on October 27, 2013."
+          ],
+          "reason": "Extracted specific dates related to trailers and TV spots for The Hunger Games: Catching Fire, which are relevant to its release timeline."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Hunger Games: Mockingjay Part 2 is a 2015 American dystopian science fiction adventure film."
+          ],
+          "reason": "Extracted the release year for a film in The Hunger Games series, which is a verifiable fact."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "An eBook version of the book 'Catching Fire' was published on June 3, 2010.",
+            "The release of 'Mockingjay', the third novel of the series, followed on August 24, 2010."
+          ],
+          "reason": "Extracted publication dates for books in The Hunger Games series, specifically mentioning 'Catching Fire' and 'Mockingjay'."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Hunger Games: Mockingjay Part 1 was released on Digital HD on February 17, 2015.",
+            "The Hunger Games: Mockingjay Part 1 had a Blu-ray/DVD release on March 6, 2015.",
+            "The entire Hunger Games series was released on 4K UHD Blu-Ray on November 8, 2016."
+          ],
+          "reason": "Extracted release dates for home video formats of films in The Hunger Games series, providing specific details about 'Mockingjay Part 1' and the entire series."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Internationally, The Hunger Games: Mockingjay Part 1 was released day-and-date across 87 countries, starting from November 18, 2014.",
+            "In certain markets like Belgium, Brazil, France and the Netherlands, The Hunger Games: Mockingjay Part 1 was released on November 18, 2014.",
+            "In Australia, Germany, Russia, Italy, and the United Kingdom, The Hunger Games: Mockingjay Part 1 was released on November 19, 2014.",
+            "China, Mexico, Japan, the United States, Canada, and 19 other markets released The Hunger Games: Mockingjay Part 1 on November 20, 2014."
+          ],
+          "reason": "Extracted specific international release dates for The Hunger Games: Mockingjay Part 1 in various countries, providing a detailed timeline."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides dates for trailers and TV spots (July 20, Oct 14, Oct 27, 2013) for 'Catching Fire', but not the official release date.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Mentions 'Mockingjay Part 2' release year (2015), which is a different film in the series and does not answer the query about 'Catching Fire'.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Provides publication dates for the books 'Catching Fire' (June 3, 2010) and 'Mockingjay' (August 24, 2010), not the film release date.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Lists release dates for 'Mockingjay Part 1' and the entire series on home video formats, not the release date for 'Catching Fire'.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Details international release dates for 'Mockingjay Part 1' in November 2014, which is a different film and year than 'Catching Fire'.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "trailer_release_dates",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Provides dates for trailers and TV spots for 'Catching Fire', but not the official release date."
+          },
+          {
+            "label": "other_film_releases",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Contains release information for other films in The Hunger Games series ('Mockingjay Part 1' and 'Part 2'), not 'Catching Fire'."
+          },
+          {
+            "label": "book_publication_dates",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Provides publication dates for the books 'Catching Fire' and 'Mockingjay', not the film release date."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. One document offers partial support by listing trailer release dates, while others are irrelevant, providing information on different films or book publications.",
+        "clusters": [
+          {
+            "label": "partial_evidence",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Provides dates for trailers and TV spots for 'Catching Fire', but not the official release date."
+          },
+          {
+            "label": "irrelevant_evidence",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Contains release information for other films in The Hunger Games series ('Mockingjay Part 1' and 'Part 2'), book publication dates, or home video releases, not 'Catching Fire'."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided evidence is insufficient to answer the question about the official release date of 'Catching Fire'. The only partially relevant document only contains trailer release dates."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided evidence is insufficient to answer the question about the official release date of 'Catching Fire'. The only partially relevant document only contains trailer release dates.",
+        "final_reasoning": "The evidence does not contain the official release date for 'Catching Fire', only trailer release dates. Therefore, the query cannot be answered."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claim. The documents do not contain the release date for 'Catching Fire'."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 10164,
+      "completion_tokens": 2347,
+      "total_tokens": 12511
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1558,
+        "completion_tokens": 415,
+        "total_tokens": 1973
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1513,
+        "completion_tokens": 754,
+        "total_tokens": 2267
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1134,
+        "completion_tokens": 423,
+        "total_tokens": 1557
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1373,
+        "completion_tokens": 284,
+        "total_tokens": 1657
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1635,
+        "completion_tokens": 223,
+        "total_tokens": 1858
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 647,
+        "completion_tokens": 50,
+        "total_tokens": 697
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 802,
+        "completion_tokens": 100,
+        "total_tokens": 902
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1502,
+        "completion_tokens": 98,
+        "total_tokens": 1600
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:47.621689",
+        "prompt_tokens": 1558,
+        "completion_tokens": 415,
+        "total_tokens": 1973,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:50.328800",
+        "prompt_tokens": 1513,
+        "completion_tokens": 754,
+        "total_tokens": 2267,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:52.258365",
+        "prompt_tokens": 1134,
+        "completion_tokens": 423,
+        "total_tokens": 1557,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:53.564055",
+        "prompt_tokens": 1373,
+        "completion_tokens": 284,
+        "total_tokens": 1657,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:54.750128",
+        "prompt_tokens": 1635,
+        "completion_tokens": 223,
+        "total_tokens": 1858,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:55.658359",
+        "prompt_tokens": 647,
+        "completion_tokens": 50,
+        "total_tokens": 697,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:56.545858",
+        "prompt_tokens": 802,
+        "completion_tokens": 100,
+        "total_tokens": 902,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:57.570014",
+        "prompt_tokens": 1502,
+        "completion_tokens": 98,
+        "total_tokens": 1600,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:48:44.594822",
+  "last_updated_at": "2026-04-17T19:48:57.570561"
+}

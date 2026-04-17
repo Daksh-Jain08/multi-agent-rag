@@ -1,0 +1,393 @@
+{
+  "sample_id": "#0477",
+  "query": "What three groups composed french society in the late 1700s?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the bourgeoisie were still wealthy, ambitious, and where in control over the private property. Yet, this new state was still agrarian despite the fact that they were modernized to an industrial and capitalist society (176-177). After 1789, the society barely picked up their economic situation after the revolution halting progress. The situation continued to deteriorate, after 1814, the French new industry couldn\u0393\u00c7\u00d6t compete with Britain, they lacked connection, and \u0393\u00c7\u00a3know how\u0393\u00c7\u00a5 (177). The state was in a mode of celebration because they accomplished the resolving of domestic, military, and removal of the feudal system (177-179). Domestic problems in the state",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d2",
+      "text": "that periods of liberalism in domestic policy coincided with periods of a pacific foreign policy. In order to pay for war, the French state had to increase taxation to raise the necessary funds. In \"Ancien R\u251c\u2310gime\" France, society was divided into three legal categories; the First Estate (the Catholic Church), the Second Estate (the nobility) and the Third Estate (the commoners). The first two estates, which comprised the more wealthier elements of French society were exempt from taxation and to make up the shortfall in revenue, the Third Estate was taxed more heavily than what had been the case if",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2023-04-23"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Ecclesiastical Society Under the Ancient Regime; a Study of Angers in the Eighteenth Century\", was published helping to establish him as a respected scholar of French history. It was a detailed examination of church life on a local level in a small provincial city. The study of common society contrasted with most of the works of the time that only concentrated on the upper class. While at Leicester he published \"French revolution and the church\" and \"Church and State in France, 1870-1914\". He won the 1982 Wolfson History Prize for \"Death and the Enlightenment\". In a 1986 review Joseph Tempesta",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2013-08-08"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Acad\u251c\u2310mie royale d'architecture in 1671),; other societies were set up in Paris, such as the Acad\u251c\u2310mie nationale de m\u251c\u2310decine in 1731 and the Acad\u251c\u2310mie nationale de m\u251c\u2310decine in 1776. Clergy and, to a lesser extent, nobility formed the majority of the membership. Provincial societies acted to bond together the intellectual \u251c\u2310lite of French towns. Their social composition shows that privileged men were less prominent than in Paris: 37% from the nobility, 20% from the Church. Commoners represented the other 43%. Merchants and manufacturers were a small minority (4%). Neighbouring academies, public libraries and lecture halls flourished, often involving the same",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d5",
+      "text": "revolted and established the Paris Commune, which maintained a radical left-wing regime for two months until its bloody suppression by the Thiers government in May 1871. The following repression of the would have disastrous consequences for the labor movement. The French legislative election of 1871, held in the aftermath of the collapse of the regime of Napoleon III, resulted in a monarchist majority in the French National Assembly that was favourable to making a peace agreement with Prussia. The \"Legitimists\" in the National Assembly supported the candidacy of a descendant of King Charles X, the last monarch from the senior  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions the bourgeoisie and discusses the state's economic situation after 1789, which is related to the query's time period but doesn't directly list the three societal groups."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query by stating that French society in the 'Ancien R\u00e9gime' was divided into the First Estate (Church), Second Estate (nobility), and Third Estate (commoners)."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Focuses on the author's scholarly works about French history, particularly the church and revolution, but does not describe the societal groups of the late 1700s."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": true,
+          "reason": "Discusses intellectual societies and their membership composition (clergy, nobility, commoners) in the 18th century, offering some insight into societal divisions but not explicitly listing the three main groups."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses events in 1871, such as the Paris Commune and legislative elections, which are too late for the query's focus on the late 1700s."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The bourgeoisie were wealthy, ambitious, and controlled private property."
+          ],
+          "reason": "Extracted a fact about the bourgeoisie, a social group relevant to the query, from the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In \"Ancien R\u00e9gime\" France, society was divided into three legal categories: the First Estate (the Catholic Church), the Second Estate (the nobility), and the Third Estate (the commoners)."
+          ],
+          "reason": "Extracted the three legal categories that composed French society in the late 1700s, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses historical publications and prizes related to French history but does not contain facts about the composition of French society in the late 1700s."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In provincial societies, 37% of members were from the nobility, 20% from the Church, and 43% were commoners.",
+            "Merchants and manufacturers represented a small minority (4%) in provincial societies."
+          ],
+          "reason": "Extracted facts about the social composition of provincial societies, which are relevant to understanding French society, though not the primary division."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses events in 1871 and the French National Assembly, which are outside the specified time frame of the late 1700s."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions the bourgeoisie, one component of French society, but does not list all three groups or the primary divisions.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly lists the three legal categories (Estates) that composed French society in the late 1700s, fully answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document discusses historical publications and prizes, not the composition of French society in the late 1700s.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Provides percentages of social groups in provincial societies, which are related but do not directly state the three main societal divisions of France.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document discusses events in 1871, which is outside the specified time frame of the late 1700s.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly lists the three legal categories that composed French society in the late 1700s."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide partial information about social groups (bourgeoisie, nobility, church, commoners) and their proportions in provincial societies, but do not fully describe the primary societal divisions of the time."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they discuss historical publications/prizes or events outside the specified time frame."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary. Document d2 directly answers the query by listing the three legal categories of French society. Documents d1 and d4 provide additional, compatible details about specific social groups and their proportions.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly lists the three legal categories that composed French society in the late 1700s."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide partial information about social groups (bourgeoisie, nobility, church, commoners) and their proportions in provincial societies, but do not fully describe the primary societal divisions of the time."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they discuss historical publications/prizes or events outside the specified time frame."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and directly supports the query. Document d2 provides a direct answer, while d1 and d4 offer additional context without conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "In the late 1700s, French society was legally divided into three estates: the clergy, the nobility, and the commoners (Third Estate).",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly lists the three legal categories of French society. Documents d1 and d4 provide complementary context about social groups and their proportions."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately identifies the three legal categories of French society in the late 1700s, directly supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9243,
+      "completion_tokens": 2017,
+      "total_tokens": 11260
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1532,
+        "completion_tokens": 437,
+        "total_tokens": 1969
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1487,
+        "completion_tokens": 423,
+        "total_tokens": 1910
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 843,
+        "completion_tokens": 360,
+        "total_tokens": 1203
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1011,
+        "completion_tokens": 255,
+        "total_tokens": 1266
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1283,
+        "completion_tokens": 293,
+        "total_tokens": 1576
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 711,
+        "completion_tokens": 49,
+        "total_tokens": 760
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 865,
+        "completion_tokens": 107,
+        "total_tokens": 972
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1511,
+        "completion_tokens": 93,
+        "total_tokens": 1604
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:30.696830",
+        "prompt_tokens": 1532,
+        "completion_tokens": 437,
+        "total_tokens": 1969,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:33.694336",
+        "prompt_tokens": 1487,
+        "completion_tokens": 423,
+        "total_tokens": 1910,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:35.334469",
+        "prompt_tokens": 843,
+        "completion_tokens": 360,
+        "total_tokens": 1203,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:36.504642",
+        "prompt_tokens": 1011,
+        "completion_tokens": 255,
+        "total_tokens": 1266,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:37.749740",
+        "prompt_tokens": 1283,
+        "completion_tokens": 293,
+        "total_tokens": 1576,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:38.650378",
+        "prompt_tokens": 711,
+        "completion_tokens": 49,
+        "total_tokens": 760,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:39.942695",
+        "prompt_tokens": 865,
+        "completion_tokens": 107,
+        "total_tokens": 972,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:40.970133",
+        "prompt_tokens": 1511,
+        "completion_tokens": 93,
+        "total_tokens": 1604,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:44:28.745312",
+  "last_updated_at": "2026-04-17T19:44:40.970622"
+}

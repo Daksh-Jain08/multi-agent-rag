@@ -1,0 +1,543 @@
+{
+  "sample_id": "#0188",
+  "query": "What is the most powerful processor on the latest iPhone models?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Compare iPhone Models - Apple Compare features and technical specifications for iPhone 16 Pro, iPhone 16 Pro Max, iPhone 16, iPhone 16 Plus, iPhone SE, and many more. 8 update. Additional features and languages will be available in April, with more languages coming over the course of the year. Languages supported in 2025 include Chinese, English (India, Singapore), French, German, Italian, Japanese, Korean, Portuguese, Spanish, and Vietnamese. 3 Roadside Assistance, Emergency SOS, and Messages via satellite are included for free for two years with the activation of any iPhone 14 or later model. Connection and response times vary based on location, site conditions, and other factors. Messages via satellite requires a carrier plan. SMS messaging via satellite is available on supported carriers. SMS message rates may apply. See https://support.apple.com/kb/HT213885 for more information. All battery claims depend on network configuration and many other factors; actual results will vary. Battery has limited recharge cycles and may eventually need to be replaced. Battery life and charge cycles vary by use and settings. See apple.com/batteries and apple.com/iphone/battery.html for more information. 6 Compared to USB 2. USB 3 cable with 10Gb/s speed required. 7 Data plan required. 5G, Gigabit LTE, LTE, VoLTE, and Wi-Fi calling are available in select markets and through select carriers. Speeds are based on theoretical throughput and vary based on site conditions and carrier. For details on 5G and LTE support, contact your carrier and see apple.com/iphone/cellular. Available space is less and varies due to many factors. A standard configuration uses approximately 12GB to 17GB of space, including iOS 18 with its latest features and Apple apps that can be deleted. Apple apps that can be deleted use about 4.5GB of space, and you can download them back from the App Store. Storage capacity subject to change based on software version, settings, and iPhone model. 10 Size and weight vary by configuration and manufacturing process. 11 Wi\u2011Fi 6E and Wi-Fi 7 available in countries and regions where supported. 12 Ultra Wideband availability varies by region.",
+      "source_url": "https://www.apple.com/iphone/compare/",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Best iPhones 2025: Which iPhone model should you buy? - ZDNET Review: Apple iPhone SE (2022)\u200b\u200b For example, the latest model brings Sub-6 5G support (mmWave is not supported) and an improved A15 processor ... Like iOS 17, iPhone models as old as the XR will be eligible to receive the iOS 18 update. The list includes the iPhone 11 to iPhone 15 series and the iPhone SE (2nd generation or later). What's not included is the iPhone X and iPhone 8 series. Those, unfortunately, won't be receiving any more operating system updates. What is the new iPhone? The latest iPhone is the iPhone 16, announced on Monday, September 9, during Apple's \"It's Glowtime\" event. There are four iPhone 16 models: iPhone 16, iPhone 16 Plus, iPhone 16 Pro, and iPhone 16 Pro Max. All will come with iOS 18 and Apple Intelligence built in. Lightning port vs. USB-C One of the biggest upgrades with the iPhone 15 series is the USB-C port, a faster, more powerful, and more universal charging standard than the Lightning port on previous models. There's really no argument for the Lightning port unless you still own legacy Apple accessories, like the AirPods, and would much rather stick with the one charging standard. Which iPhone models support Apple's new AI features? Apple's existing (and upcoming) AI features, branded as \"Apple Intelligence,\" are available on iPhones with at least an A17 Pro processor. That means the iPhone 16 series and 15 Pro series will support the new AI tools. What storage size should I buy for my iPhone? It wasn't until 2021 that Apple began selling both its non-Pro and Pro iPhones with a base storage of 128GB. The only exception here is the iPhone SE model. While not as flashy of an upgrade as larger camera sensors and 120Hz displays, this double-up of storage meant that consumers had more space than ever to store apps, photos, videos, and more. Maurice Klaehne, senior market research analyst at Counterpoint Research, suggests that higher storage options are generally better as they will help with the longevity of the device,",
+      "source_url": "https://www.zdnet.com/article/best-iphone/",
+      "timestamp": "2024-12-18"
+    },
+    {
+      "doc_id": "d3",
+      "text": "iPhone 16 Pro Max: A Review and Some Thoughts on Which Model ... All iPhone 16 models share the same-generation processor (A18 in the iPhone 16 and iPhone 16 Plus, A18 Pro in the iPhone 16 Pro and iPhone 16 ... But it was not until doing research for this review that I discovered this was more than just a year-old memory: The iPhone 14 Pro Max weighs 8.47 ounces. One thing that did jump out to me that was rather unexpected, was how much of a presence the iPhone 16 Pro Max was in my pocket the first few times I carried it. Perhaps it is that I came from a year with the smaller Pro model, as I do remember marveling at how small and lightweight that phone was the first few times I put it in my pocket. ('Small' and 'lightweight' are relative terms: when thinking of small phones, the 2021 iPhone 13 Mini takes the cake here\u2014a device I really wanted to love but for its understandably poor battery life.) Or perhaps it is that the slightly larger size of this year\u2019s model felt that much bigger. Regardless, the iPhone 16 Pro Max is definitely not a phone you will forget you are carrying\u2014especially if you are new to a Pro Max or Plus model. Performance The primary way I measure performance of a device is by how quickly VoiceOver (the built-in screen reader standard on all Apple devices) responds to touch gestures and, to a lesser extent, how quickly apps and screens load. For the first time in recent years, Apple has included the same-generation processor and same 8GB of ram across all four iPhone 16 models. Recent non-Pro iPhone models, such as the iPhone 15 and iPhone 15 Plus, included the processor from the previous year\u2019s Pro models; it could arguably be said that users buying the non-Pro iPhones were actually buying the previous year\u2019s technology repackaged with a current-generation name. But that is not the case this year, and this is wonderful for consumers. So what does all this mean? In practical terms, Apple\u2019s including the same-generation processor and ram across all of its iPhone 16 line means that, in all but the most demanding use cases, users should expect the same high level of performance across the board.",
+      "source_url": "https://www.applevis.com/blog/iphone-16-pro-max-review-some-thoughts-which-model-buy",
+      "timestamp": "2024-10-15"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Apple iPhone 16 and iPhone 16 Plus Review: Why Go Pro? - WIRED The iPhone 16 Pro devices have the A18 Pro, which features larger CPU cache sizes and an extra graphics core for slightly better overall ... This helps support our journalism. Learn more. Please also consider subscribing to WIRED In recent years, Apple started giving the iPhone Pro models a significant chip upgrade to increase the performance gap between the phones, but this year they're all on the same starting point: the A18 chipset. The iPhone 16 Pro devices have the A18 Pro, which features larger CPU cache sizes and an extra graphics core for slightly better overall performance. That said, in my benchmark tests, the iPhone 16 and iPhone 16 Plus are just behind the Pros and still more powerful than any other phone on the market. I played AAA games like Resident Evil and Assassin's Creed Mirage, though I did run into a few more stutters than on the Pro models (and just as many crashes, though this could have been because I was running a developer beta of iOS 18.1). I want to note that these games are currently the cream of the crop in graphical fidelity, so I'm purposefully stress-testing. Most of the titles you'll play will run perfectly. The Pro models this year have improved thermal performance, but Apple made some tweaks to improve the heat dissipation on the standard iPhones too, and I have not noticed the phones getting significantly hot. More importantly, every iPhone 16 model will be capable of running Apple Intelligence, the suite of artificial intelligence features coming in an update in October. I go over exactly what's included in Apple Intelligence in my iOS 18 guide, and have broadly evaluated the current experience in my iPhone 16 Pro review. There are some helpful day-to-day features, like real-time transcriptions in Voice Notes or call recordings, but we'll have to wait until Apple brings the full kit. Battery life is a high note. I eked out better battery life on the iPhone 16 Plus than on the Pro Max, hitting more than seven hours of screen-on time with 36 percent left in the tank at 1 am. The iPhone 16 is no slouch, giving me six hours of screen-on time with around 20 percent remaining. And that's with a mix of doomscrolling on Instagram,",
+      "source_url": "https://www.wired.com/review/apple-iphone-16-and-iphone-16-plus/",
+      "timestamp": "2024-09-23"
+    },
+    {
+      "doc_id": "d5",
+      "text": "What iPhone models will have Apple Intelligence? The iPhone 15 Pro and iPhone 15 Pro Max use the A17 processor with a 6 core GPU, where the standard iPhone 15 has the A16 processor with only a 5 core GPU. The ... I totally agree with you the iPhone 14 Pro Max is a good flagship phone that is even still beating the new ones out now and for them to say no i14 you are not getting AI is just unfair if they can atleast bring some features. We cannot say a phone that is barely 2 years old is considered a Dinosaur Device restrictions are going to be tied to the available hardware. The iPhone 15 Pro and iPhone 15 Pro Max use the A17 processor with a 6 core GPU, where the standard iPhone 15 has the A16 processor with only a 5 core GPU. The newly announced AI features are going to need more processing power that is currently only available in the Pro and Max versions of the iPhone 15. The iPhone 14 also has only the 5 core GPU and the iPhone 13 has a 4 core GPU. There apparently is not enough computing power in those models. \"Apple Intelligence will be available in beta on iPhone 15 Pro, iPhone 15 Pro Max, and iPad and Mac with M1 and later, with Siri and device language set to U.S. English, as part of iOS 18, iPadOS 18, and macOS Sequoia this fall. Some features, additional languages, and platforms will be coming over the course of the next year. \" I believe that all of the platforms on the initial compatibility list have Apple Silicon processors (A-series or M-series) and at least 8 GB of RAM. There are no Intel Macs to be seen, and no iPhones or iPads with less than 8 GB of RAM to be seen. It's easy to guess that Apple wants to be able to count on the presence of Neural Engine hardware and a reasonable amount of RAM. That said, the footnote on the Preview page holds out the possibility (not a guarantee) that other iPhones might get Apple Intelligence features \"over the course of the next year\" after the beta comes out. Apple intelligence cannot run on older devices because of hardware restrictions. The iPhone 15 pro and 15 pro max have A18 Pro chip which is capable of processing the work on device since it cannot be done on the cloud because of privacy reasons.",
+      "source_url": "https://discussions.apple.com/thread/255643725",
+      "timestamp": "2024-06-11"
+    },
+    {
+      "doc_id": "d6",
+      "text": "iPhone 16 Pro Review: More 'Pro' Than Ever With a Larger Display ... Apple's most advanced smartphone now has a larger display and its fastest processor ... The iPhone 16 Pro models run on Apple's A18 Pro processor, ... Using an iPhone SE (2020) running on the A13 Bionic processor and iOS 18 for reference, we can safely say iPhones running on Apple's base processors can maintain most of their performance for five iPhone processor generations. With that in mind, we can surmise the iPhone 16 Pro and the A18 Pro could run almost like new (assuming a healthy battery) for six generations, while the iPhone 16 and base A18 processor should hold up for five generations. Note that long-term performance and longevity will vary from user to user, depending on factors like battery age, storage, and apps. AD Display: Still the top-tier iPhone screens If there's one advantage that the iPhone 16 Pro has over the iPhone 16, it's the display. Not only is it a bit larger, but the visual experience is significantly better. The iPhone 16 Pro uses Apple's ProMotion OLED display, with a refresh rate of up to 120Hz for fluid animations and gaming. It can also reduce down to 1Hz for static images and the always-on display to reduce battery drain. Apple's ProMotion technology and always-on display continue to set apart the base and Pro models among the best iPhones, as the base iPhone 16 retains an outdated 60Hz display. Note the difference in fluidity between the 60Hz refresh rate of an older base iPhone model (left) and the 120Hz display on an iPhone Pro model (right). Antonio Villas-Boas/Business Insider All iPhone 16 models \u2014 standard and Pro \u2014 can reach up to 2,000 nits brightness, which makes everything on the display clearly visible in vibrant color, even under bright sunlight. A super bright screen is an underrated and noticeable upgrade if you're coming from an older iPhone model with a lower maximum brightness, like the iPhone 13 Pro and older,",
+      "source_url": "https://www.businessinsider.com/guides/tech/iphone-16-pro-review",
+      "timestamp": "2024-11-04"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Which iPhone had the biggest upgrade in the processor department ... This question is asking about which iPhone model had the most ... Example, AMD Ryzen 3000 series processors; Apple iPhone XR, XS, XS Max?",
+      "source_url": "https://www.quora.com/Which-iPhone-had-the-biggest-upgrade-in-the-processor-department-and-was-so-much-faster-than-its-previous-generation",
+      "timestamp": "2024-06-18"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Which iPhone Should I Get? | Reviews by Wirecutter And both models have new, more powerful, more versatile microphones. The 16 Pro Max has a bigger screen and longer battery life than the 16 ... The entry-level flagship iPhones also get two new side buttons: a customizable Action button, for tasks like quickly enabling Focus Mode or turning off your ringer, and a Camera Control button, which lets you quickly capture photos and videos, as well as cycle through camera settings. The iPhone 16 Plus has all of the same features as the iPhone 16, but it has a larger battery that can outlast those on the iPhone 16 and the iPhone 16 Pro. It\u2019s ideal for those who prefer a larger screen without paying extra money for an iPhone 16 Pro Max. Upgrade pick The iPhone 16 Pro has a larger screen and a powerful chip that powers Apple\u2019s AI features (but they\u2019re underwhelming so far). New camera features and excellent battery life make the iPhone 16 Pro a worthy upgrade. Buying Options The Apple iPhone 16 Pro and iPhone 16 Pro Max have larger screens\u20146.3 inches and 6.9 inches, respectively\u2014than last year\u2019s Pro iPhones, and both run on Apple\u2019s faster A18 Pro processor. The latest chip is more power-efficient and handles console-level gaming better than last year\u2019s Pro phones. The Pro models also have upgraded camera systems, which include a 48-megapixel main camera, a high-resolution 48-megapixel ultrawide camera, and a 12-megapixel telephoto camera with 5x optical zoom. For musicians and filmmakers, the iPhone 16 Pro models also gain four powerful microphones to capture clearer voice audio recordings, and the 16 Pro Max delivers the best battery life of all the latest iPhones. Budget pick The 3rd-generation iPhone SE has a faster processor than you might expect in such a comparatively inexpensive phone. It also has a good camera\u2014and it costs almost half the price of the iPhone 16. Its low price, small size, and Touch ID fingerprint reader make it an easy upgrade for anyone wanting to spend less. But its battery doesn\u2019t last as long as those on Apple\u2019s more expensive models.",
+      "source_url": "https://www.nytimes.com/wirecutter/reviews/the-iphone-is-our-favorite-smartphone/",
+      "timestamp": "2024-10-28"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Every iPhone and Mac Apple chip benchmarked - Macworld The iPhone 14 and iPhone SE both have an A15 Bionic processor, but the iPhone 14 has one more GPU core than the iPhone 13, so it offers better ... At the heart of every Apple device is an Apple processor. Apple has been using its own chips in its iPhones and iPads for more than a decade, while Apple silicon in the Mac is already in its fourth generation. What\u2019s remarkable about Apple silicon is its performance and power efficiency. But all chips aren\u2019t created equally. Understanding the performance differences between each chip will help with your buying decisions, especially when you\u2019re deciding between iPhone 16 or MacBook models. Knowing how each chip performs gives you a better idea of what products to buy and whether or not it\u2019s worth your money to step up to a higher model. Let\u2019s take a look at how the new processors compare with the rest of the processors in the iPhone, iPad, and Mac lineup and see how each performs and what that means to you. For the sake of consistency, we\u2019ve used Geekbench 6 benchmarks. Here\u2019s every chip and how the benchmarks compare with each other. Update November 13, 2024: Added benchmarks for the M4 chips. Every current processor compared Results are scores. Higher scores/longer bars are faster. Chips in this chart are currently available in Apple devices. Before we get into the individual processors, let\u2019s let the chips fall where they may. In the above chart, we\u2019ve only included chips that are in Apple\u2019s current product lineups for the sake of keeping the chart manageable. The Mac section below includes all of the chips, from the M1 to the current chip. If you\u2019re looking for scores of chips that are no longer being used in Apple\u2019s active iPhone or iPad lineups (such as the A12 Bionic), check out the Geekbench Browser. It\u2019s a somewhat predictable chart, with the fastest Mac chips at the top, followed by a mix of iPads and iPhones. But there are still some fascinating results: owners of the iPad Pro can say their tablet is about as fast as a MacBook Air and that wouldn\u2019t be much of a reach. And the difference between the $399 iPhone SE and the $899 iPhone 14 isn\u2019t as huge as their price difference indicates.",
+      "source_url": "https://www.macworld.com/article/556384/apple-processors-pro-max-ultra-iphone-ipad-mac-benchmarks.html",
+      "timestamp": "2024-11-14"
+    },
+    {
+      "doc_id": "d10",
+      "text": "What Chip Does Each iPhone Model Use? - ThingLabs The iPhone 13 series predominantly uses the A15 Bionic chip. This powerful processor features a 6-core CPU, which includes 2 performance cores ... This chip also has a 6-core CPU, split into 2 performance cores and 4 efficiency cores, and operates at a speed of 3.0 GHz\u200b\u200b. iPhone 13 Processor The iPhone 13 series predominantly uses the A15 Bionic chip. This powerful processor features a 6-core CPU, which includes 2 performance cores and 4 efficiency cores. Additionally, it boasts a 5-core GPU and a 16-core Neural Engine, which significantly enhances its machine learning capabilities\u200b\u200b. iPhone 14 Processor The iPhone 14 uses two different processors, which can be a bit confusing. The iPhone 14 and iPhone 14 Plus use the A15 Bionic chip, which was first introduced in the iPhone 13 series. This chip still offers great performance, but it\u2019s not the absolute latest. On the other hand, the iPhone 14 Pro and iPhone 14 Pro Max got an upgrade with the A16 Bionic chip. This newer chip boasts improvements in speed, efficiency, and graphics processing, making it a more powerful option for demanding tasks and games. So, while the entire iPhone 14 lineup delivers a smooth user experience, the Pro models have a slight edge in processing power thanks to the A16 chip. iPhone 15 Processor The iPhone 15 and iPhone 15 Plus are both equipped with the A16 Bionic chip, representing a significant leap in efficiency and performance tailored to the needs of the iPhone 15 series. The iPhone 15 Pro and iPhone 15 Pro Max are equipped with the A17 Pro Bionic chip, setting a new standard in the industry as the first widely available 3-nanometer chip. This chip contains an astonishing 19 billion transistors and incorporates a 6-core CPU, promising unparalleled performance and efficiency. iPhone 16 Processor The iPhone 16 series introduces a new generation of Apple\u2019s custom silicon, with two distinct processors powering the lineup.",
+      "source_url": "https://thinglabs.io/what-chip-does-each-iphone-model-use",
+      "timestamp": "2024-10-04"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document compares iPhone models but focuses on general features and cellular support, not specifically the most powerful processor on the latest models."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the A17 Pro processor for AI features and notes the iPhone 16 series announcement, providing context for latest processors."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that iPhone 16 models share the same-generation processor (A18/A18 Pro) and discusses performance implications."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies the A18 chipset as standard for iPhone 16 and A18 Pro for Pro models, detailing performance differences and AI capabilities."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses iPhone 15 processors (A17 Pro vs A16) and their relation to AI features, providing context for processor power in recent models."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States iPhone 16 Pro models run on the A18 Pro processor, calling it Apple's most advanced smartphone processor and fastest."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document is a question about processor upgrades and mentions iPhone XR/XS/XS Max, which are not the latest models."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Confirms iPhone 16 Pro and Pro Max run on Apple's faster A18 Pro processor, noting its power efficiency and gaming capabilities."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Discusses Apple processors generally and mentions iPhone 16, providing context on performance differences between chips."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Focuses on iPhone 13 and 14 processors (A15 Bionic), which are not the latest models mentioned in the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [],
+          "reason": "This document compares iPhone models but does not specify processor details or identify the most powerful one."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The latest iPhone is the iPhone 16.",
+            "Apple Intelligence features are available on iPhones with at least an A17 Pro processor."
+          ],
+          "reason": "Extracted facts about the latest iPhone model and processor requirements for AI features."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "All iPhone 16 models share the same-generation processor: A18 in the iPhone 16 and iPhone 16 Plus, and A18 Pro in the iPhone 16 Pro and iPhone 16 Pro Max.",
+            "Apple has included the same-generation processor and RAM across all four iPhone 16 models."
+          ],
+          "reason": "Extracted facts detailing the processors used across the iPhone 16 line and the uniformity of processors within the generation."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The iPhone 16 Pro devices have the A18 Pro chipset, featuring larger CPU cache sizes and an extra graphics core for slightly better overall performance.",
+            "Every iPhone 16 model will be capable of running Apple Intelligence."
+          ],
+          "reason": "Extracted facts specifying the A18 Pro processor in Pro models and its performance advantages, and confirmed all iPhone 16 models support Apple Intelligence."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The iPhone 15 Pro and iPhone 15 Pro Max use the A17 processor with a 6-core GPU.",
+            "The standard iPhone 15 has the A16 processor with a 5-core GPU.",
+            "Newly announced AI features require processing power currently only available in the Pro and Max versions of the iPhone 15."
+          ],
+          "reason": "Extracted facts comparing processors and GPUs between Pro and standard iPhone 15 models, and their relevance to AI features."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "The iPhone 16 Pro models run on Apple's A18 Pro processor.",
+            "Apple's most advanced smartphone now has its fastest processor."
+          ],
+          "reason": "Extracted facts identifying the A18 Pro as the processor for iPhone 16 Pro models and stating it is Apple's fastest processor."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [],
+          "reason": "This document poses a question about processor upgrades but does not provide specific facts about the most powerful processor on the latest iPhones."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The Apple iPhone 16 Pro and iPhone 16 Pro Max run on Apple\u2019s faster A18 Pro processor.",
+            "The A18 Pro processor is more power-efficient and handles console-level gaming better than last year\u2019s Pro phones."
+          ],
+          "reason": "Extracted facts identifying the A18 Pro processor in the iPhone 16 Pro models and detailing its performance benefits."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "The iPhone 14 and iPhone SE both have an A15 Bionic processor.",
+            "Apple silicon in the Mac is already in its fourth generation."
+          ],
+          "reason": "Extracted facts about older iPhone processors (A15) and Mac processors, which are not directly relevant to the most powerful processor on the latest iPhones."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "The iPhone 14 and iPhone 14 Plus use the A15 Bionic chip.",
+            "The iPhone 13 series predominantly uses the A15 Bionic chip."
+          ],
+          "reason": "Extracted facts about the A15 Bionic chip used in iPhone 13 and iPhone 14 models, which are not the latest models."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document compares iPhone models but does not specify processor details or identify the most powerful one.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Identifies the latest iPhone model (iPhone 16) and a processor requirement (A17 Pro) for AI features, but doesn't explicitly state the most powerful processor.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Details processors for iPhone 16 models (A18, A18 Pro) but states they are the same generation across all models, not explicitly identifying the single most powerful.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explicitly states the iPhone 16 Pro devices have the A18 Pro chipset and notes its performance advantages, implying it's the most powerful.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Discusses iPhone 15 processors, which are not the latest models. The query is about the most powerful processor on the *latest* iPhone models.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Identifies the A18 Pro processor in iPhone 16 Pro models and directly states it is Apple's fastest processor, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "This document poses a question about processor upgrades but does not provide specific facts about the most powerful processor on the latest iPhones.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "States the iPhone 16 Pro models run on the faster A18 Pro processor and details its performance benefits, confirming it as the most powerful.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "Facts concern older iPhone processors (A15) and Mac processors, which are not relevant to the most powerful processor on the latest iPhone models.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "irrelevant",
+          "reason": "Discusses processors for iPhone 14 and iPhone 13 models, which are not the latest models. The query is about the most powerful processor on the *latest* iPhones.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4",
+          "d6",
+          "d8"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d5",
+          "d7",
+          "d9",
+          "d10"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_latest_pro_processor",
+            "doc_ids": [
+              "d4",
+              "d6",
+              "d8"
+            ],
+            "summary": "Documents d4, d6, and d8 directly identify the A18 Pro processor in the iPhone 16 Pro models as the most powerful and fastest, detailing its performance advantages."
+          },
+          {
+            "label": "partial_context_latest_models_and_ai",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 provide context about the latest iPhone 16 models and processor requirements for AI features, but do not definitively state the single most powerful processor."
+          },
+          {
+            "label": "irrelevant_older_models_or_off_topic",
+            "doc_ids": [
+              "d1",
+              "d5",
+              "d7",
+              "d9",
+              "d10"
+            ],
+            "summary": "Documents d1, d5, d7, d9, and d10 are irrelevant as they discuss older iPhone models, Mac processors, or pose questions without providing specific answers about the most powerful processor on the latest iPhones."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All relevant documents agree on the A18 Pro processor in the iPhone 16 Pro models being the most powerful and fastest, with supporting documents providing additional details.",
+        "clusters": [
+          {
+            "label": "latest_pro_processor_details",
+            "doc_ids": [
+              "d4",
+              "d6",
+              "d8"
+            ],
+            "summary": "Documents d4, d6, and d8 confirm the A18 Pro processor in iPhone 16 Pro models is the most powerful and fastest, detailing its performance benefits."
+          },
+          {
+            "label": "context_on_latest_models",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 provide context about the iPhone 16 lineup and processor requirements for AI features, complementing the main findings."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d5",
+              "d7",
+              "d9",
+              "d10"
+            ],
+            "summary": "These documents are irrelevant as they discuss older models, Mac processors, or lack specific information about the most powerful processor on the latest iPhones."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct support exists, and all relevant documents are in agreement, indicating a reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The A18 Pro processor in the iPhone 16 Pro models is identified as the most powerful and fastest, offering significant performance advantages.",
+        "citations": [
+          "d4",
+          "d6",
+          "d8"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents directly identify the A18 Pro processor as the most powerful and fastest, with no conflicting information present."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies the A18 Pro as the most powerful processor and is fully supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 20159,
+      "completion_tokens": 3479,
+      "total_tokens": 23638
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3680,
+        "completion_tokens": 751,
+        "total_tokens": 4431
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3635,
+        "completion_tokens": 1015,
+        "total_tokens": 4650
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1317,
+        "completion_tokens": 748,
+        "total_tokens": 2065
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1811,
+        "completion_tokens": 410,
+        "total_tokens": 2221
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2174,
+        "completion_tokens": 323,
+        "total_tokens": 2497
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 822,
+        "completion_tokens": 41,
+        "total_tokens": 863
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 968,
+        "completion_tokens": 103,
+        "total_tokens": 1071
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 5752,
+        "completion_tokens": 88,
+        "total_tokens": 5840
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:39.318539",
+        "prompt_tokens": 3680,
+        "completion_tokens": 751,
+        "total_tokens": 4431,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:43.119613",
+        "prompt_tokens": 3635,
+        "completion_tokens": 1015,
+        "total_tokens": 4650,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:45.664887",
+        "prompt_tokens": 1317,
+        "completion_tokens": 748,
+        "total_tokens": 2065,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:47.266341",
+        "prompt_tokens": 1811,
+        "completion_tokens": 410,
+        "total_tokens": 2221,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:49.007925",
+        "prompt_tokens": 2174,
+        "completion_tokens": 323,
+        "total_tokens": 2497,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:49.994843",
+        "prompt_tokens": 822,
+        "completion_tokens": 41,
+        "total_tokens": 863,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:51.034038",
+        "prompt_tokens": 968,
+        "completion_tokens": 103,
+        "total_tokens": 1071,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:52.534881",
+        "prompt_tokens": 5752,
+        "completion_tokens": 88,
+        "total_tokens": 5840,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T16:16:32.821467",
+  "last_updated_at": "2026-04-17T16:16:52.535528"
+}

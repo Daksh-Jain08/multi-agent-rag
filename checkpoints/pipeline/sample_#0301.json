@@ -1,0 +1,547 @@
+{
+  "sample_id": "#0301",
+  "query": "Which game won the Spiel des Jahres award most recently?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Spiel des Jahres | Wiki - BoardGameGeek Previous winners ; 2023, Dorfromantik: The Board Game \u00b7 Michael Palm and Lukas Zach ; 2022, Cascadia \u00b7 Randy Flynn ; 2021, MicroMacro: Crime City \u00b7 Johannes Sich Also Recommended Special awards for children's games are listed here up until 2001, when the Kinderspiel des Jahres award was created. Games are listed with the standardized BGG name, which in some cases is different from the name listed at the Spiel des Jahres website.",
+      "source_url": "https://boardgamegeek.com/wiki/page/Spiel_des_Jahres",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Spiel des Jahres - Wikipedia 2022 awards ; Zauberberg (Magic Mountain), Jens-Peter Schliemann and Bernhard Weber, Amigo, Won ; Auch schon clever (Ganz Sch\u00f6n Clever Kids), Wolfgang Warsch ... Machine translation, like DeepL or Google Translate, is a useful starting point for translations, but translators must revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia. Consider adding a topic to this template: there are already 2,159 articles in the main category, and specifying|topic= will aid in categorization. Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article. You must provide copyright attribution in the edit summary accompanying your translation by providing an interlanguage link to the source of your translation. A model attribution edit summary is Content in this edit is translated from the existing German Wikipedia article at [[:de:Spiel des Jahres]]; see its history for attribution. You may also add the template {{Translated|de|Spiel des Jahres}} to the talk page. The Spiel des Jahres (German:[\u02c8\u0283pi\u02d0ld\u0259s\u02c8ja\u02d0\u0281\u0259s], 'Game of the Year') is an award for board and card games, created in 1978 with the purpose of rewarding family-friendly game design, and promoting excellent games in the German market.[1] It is thought that the existence and popularity of the award was one of the major drivers of the quality of games coming out of Germany, particularly in the 1980s and 1990s.[2] A Spiel des Jahres nomination can increase the typical sales of a game from 500\u20133,000 copies to around 10,000, and the winner can usually expect to sell as many as 500,000 copies.[3] Award criteria The award is given by a jury of German-speaking board game critics from Germany, Austria, and Switzerland,[1] who review games released in Germany in the preceding twelve months. The games considered for the award are family-style games. War games, role-playing games, collectible card games, and other complicated, highly competitive, or hobbyist games are outside the scope of the award. Since 1989, there has been a separate award for children's games.",
+      "source_url": "https://en.wikipedia.org/wiki/Spiel_des_Jahres",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Spiel des Jahres Winners 2024 - Board Game Gumbo Spiel des Jahres 2024 (family game of the year): SKY TEAM \u00b7 Kennerspiel des Jahres 2024 (connoisseur's game of the year): DAYBREAK E-MISSION ... On Sunday, July 21, 2024, the Jury announced this year\u2019s winners of the three categories for game of the year in Germany. I watched the live feed on YouTube this year, and the Jury had many of the actual designers and publishers represented at the awards. They even had an amusing German comic give a long spiel about her love of board games right before announcing the Spiel. Unfortunately, I did not get a chance to play all of the nominees, but that did not stop me from predicting the winners. How did I do? For Spiel, I have played Captain Flipand Sky Team many, many times. (I still have yet to play In the Footsteps of Darwin). Captain Flip just seemed like the perfect family weight game \u2014 easy to teach, one or two simple decisions each turn (do I flip? where do I place the tile?), addictive \u2014 and so while my heart was pulling for Captain Flip, I predicted Sky Team would win. For Kennerspiel, I also played two of the three \u2014 Guild of Merchant Explorers and TTR Legacy. My gut told me that Daybreak was going to win, but I picked The Guild of Merchant Explorers instead. Since I did not go to BGG Spring, I was not able to play or watch a play of any of the Kinderspiel games. Just based on what I read, I picked Gro\u00dfe kleine Edelsteine by Wolfgang Warsch. But Magic Key was the winner. And so, I went only one of three on my predictions this year. I chalk it up to the fact that I was not able to play some of the winners. Hopefully I can make it back to Dallas next year and play next year\u2019s nominees!",
+      "source_url": "https://boardgamegumbo.wordpress.com/2024/07/22/spiel-des-jahres-winners-2024/",
+      "timestamp": "2024-07-22"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Award winners 2024 - Spiel des Jahres Missing: most | Show results with:most",
+      "source_url": "https://www.spiel-des-jahres.de/en/award-winners-2024/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Spiel des Jahres Winners \u2013 2024 - boardGOATS This afternoon, the 2024 Spiel des Jahres (German Game of the Year) winner was announced as the cooperative two-player game, Sky Team. In this game, the players are the pilot and co-pilot at the controls of an airliner working together as a team to land the airplane in different airports around the world. Cooperative games can operate in different ways, but this is a limited communication game that runs over a fixed number of turns as the plane descends. Before the descent, the pilot and copilot discuss the strategy. Once the players have agreed their plan, they are on their own until the end of the turn, throwing their own dice and carrying out their own actions. \u2013 Image by BGG contributor JuiceNeutron There has been some precedent for cooperative games over the years, with Hanabi, Paleo and last year\u2019s winner Dorfromantic, receiving prizes as well as Pandemic Legacy: Season 2 which was given a special award. What makes Sky Team unusual as a Spiel des Jahres winner, however, is the fact is is a two player game. Although there have been a number of games that play particularly well with two (Scotland Yard or Lord of the Rings for example) and there has been a special awards for Seti (which is a two player game), this is the first time the Spiel des Jahres (or indeed the Kennerspiel des jahres) Award, traditionally a family prize, has gone to a two player game. In Daybreak, one to four players work together to battle climate change with each player controlling a World Power. If too many people from any World Power are in crisis, everyone loses, but if if by working together global emissions are reduced to net-zero, everyone wins. This concept has been used previously in a game, in particular CO2, but Daybreak is far more accessible. Daybreak also focuses on the the human cost of climate change and the benefits to humans that the solutions might bring, as such, as well as a good game in its own right, it also delivers an important message.",
+      "source_url": "https://boardgoats.org/2024/07/21/spiel-des-jahres-winners-2024/",
+      "timestamp": "2024-07-21"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Dorfromantik: The Board Game wins the 2023 Spiel des Jahres award Germany's prestigious Spiel des Jahres award goes to Dorfromantik: The Board Game. by Oli Welsh. Jul 18, 2023, 6:46 AM PDT. Oli Welshis senior editor, U.K., providing news, analysis, and criticism of film, TV, and games. He has been covering the business & culture of video games for two decades. This doesn\u2019t happen every year \u2014 in fact, it\u2019s never happened before. This year\u2019s Spiel des Jahres, a prestigious German award for the best board game of the year, has gone to a video game adaptation: Dorfromantik: The Board Game. Video game adaptations are common enough in tabletop gaming, and many of them are excellent, but the Spiel des Jahres award belongs at the traditional heart of the board game industry. Since its inception in 1978, it has remained focused on broadly accessible, family-friendly board games, as opposed to war games, role-playing games, collectible card games, and other more complex or hobbyist forms of tabletop gaming. Previous winners include canonical classics like Carcassonne and Ticket to Ride, so a video game adaptation winning the award is a big deal. But when you consider the game in question, perhaps it\u2019s not so unexpected. Dorfromantik is a minimalist tile-placement game about building beautiful, pastoral landscapes of towns, rivers, forests, farms, and train tracks. Though it\u2019s quite tightly designed, there are no competitive elements to it, and no resources or populations to worry about. It\u2019s very much like Catan or, especially, Carcassonne, reimagined as a meditative single-player chillout game. And it\u2019s absolutely wonderful. Dorfromantik: The Board Game, by Michael Palm and Lukas Zach, adapts the video game\u2019s design while opening it up to as many as six players, although it remains a purely cooperative, non-competitive experience. The Spiel des Jahres jury chairman Harald Schrapers praised the game\u2019s relaxed approach: \u201cThis cooperative, feelgood game has new, exciting goals from game to game, but you can never lose,\u201d Schrapers said (via Google Translate). At time of writing, Dorfromantik: The Board Game is out of stock at Amazon, but you can find a copy at Cardhaus Games.",
+      "source_url": "https://www.polygon.com/tabletop-games/23798614/spiel-des-jahres-2023-dorfromantik-the-board-game",
+      "timestamp": "2023-07-18"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Dorfromantik has won Spiel des Jahres 2023 : r/boardgames - Reddit Dorfromantik won, it ticks a lot of boxes of what the jury usually likes. Challengers won Kennerspiel and Mysterium Kids won Kinderspiel.",
+      "source_url": "https://www.reddit.com/r/boardgames/comments/151d7w3/dorfromantik_has_won_spiel_des_jahres_2023/",
+      "timestamp": "2023-07-16"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Dorfromantik \u2013 The Board Game awarded 2023 Spiel des Jahres Dorfromantik \u2013 The Board Game by Lukas Zach and Michael Palm, published by Pegasus Spiele, has been awarded the title Spiel des Jahres 2023. Dorfromantik \u2013 The Board Game awarded 2023 Spiel des Jahres Pegasus Spiele is thrilled to share that Dorfromantik \u2013 The Board Game has been named Game of the Year 2023! Friedberg, July 19, 2023: The Spiel des Jahres jury announced the annual winners for Kinderspiel (Children\u2019s Game), Kennerspiel (Core Game) and Spiel des Jahres (Game of the Year) on Sunday evening. Dorfromantik \u2013 The Board Game by Lukas Zach and Michael Palm, published by Pegasus Spiele, won over the jury and has been awarded the title 2023 Game of the Year. Pegasus Spiele is proud to have celebrated eight awards from the Spiel des Jahres jury between 2012 and 2022, most recently for Living Forest, which won the Kennerspiel des Jahres 2022. In 2021, the jury awarded MicroMacro: Crime City (with partner Edition Spielwiese) the Spiel des Jahres and Dragomino the Kinderspiel des Jahres. For 2023, Pegasus Spiele has secured the illustrious Spiel des Jahres again with Dorfromantik \u2013 The Board Game. Dorfromantik, the 2021 video game by Toukana Interactive, delighted the gaming community with its cute villages, burbling rivers, rustling forests, and wheat fields swaying in the wind. This peaceful building game inspired the core design of Dorfromantik \u2013 The Board Game by Lukas Zach and Michael Palm, who delivered the experience to the tabletop in Autumn 2022. In this fully cooperative tile placement game, one to six players work together to create an idyllic countryside that fulfills the wishes of the townspeople. Each player in turn will draw and place a single hexagonal tile, and the group is encouraged to work together towards achieving their goals. Ideal tile placement will score points for all completed tasks, in addition to the longest railway, the longest stream, and large enclosed areas of landscape marked by flags.",
+      "source_url": "https://pegasus.de/en/press/press-releases/dorfromantik-the-board-game-awarded-2023-spiel-des-jahres",
+      "timestamp": "2023-07-19"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Best of the rest: 8 Spiel des Jahres winners you haven't heard of 5. Thurn und Taxis ... This is the most recent Spiel des Jahres winner on the list, having won in 2006, but it's been regrettably sidelined ... Best of the rest: 8 Spiel des Jahres winners you haven\u2019t heard of The Spiel des Jahres is often seen as the biggest prize in board gaming. There\u2019s a big fanfare over the nominees and winner every year that can translate into hundreds of thousands of extra copies sold. However, the 'Game of the Year' prize has far more humble roots, dating right back to 1979 when it was established to promote excellence in the German market for family-friendly games. From the outset it was made clear this was a critic's award, chosen by jury consensus rather than a popularity contest. Overlooked Spiel des Jahres winners Given the long history of the award and the refinement of player taste and design over that period, it\u2019s unsurprising that most of the older Spiel des Jahres winners have fallen out of favour. But that doesn\u2019t mean that it\u2019s fair. While some of these titles feel clunky and underdeveloped to the modern gamer, others ought to be considered as minor classics or vital stepping stones on the pathway to the current hobby. Here are eight board game winners of the Spiel des Jahres, all of which can be picked up for bargain prices secondhand or played online, that deserve some modern-day love. 1. Hare and Tortoise On your marks for this surprisingly thinky race game Hare and Tortoise was the first board game to win the Spiel des Jahres, and remains well worth playing over 40 years later. | Image credit: Gibsons What better way to start than with the winner of the inaugural Spiel des Jahres award back in 1979? This race game is still in print and with good reason; it still feels relatively fresh today, and so must have seemed an astonishing piece of innovation to that first jury back in the day. The concept is very simple: a race game without randomness where you pay carrot cards to move, the cost growing higher the further you choose to go. However, the course is full of wrinkles. You can\u2019t land on spaces with other players, you have to land on at least three lettuce squares, while other spaces reward you with carrots based on their printed value and your race position.",
+      "source_url": "https://www.dicebreaker.com/topics/spiel-des-jahres/best-games/overlooked-spiel-des-jahres-winners",
+      "timestamp": "2023-07-10"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly lists the Spiel des Jahres winners by year, clearly stating '2023, Dorfromantik: The Board Game' as the most recent winner."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "This document provides general information about the Spiel des Jahres award, its history, and criteria, but does not explicitly state the most recent winner."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document discusses the 2024 winners, mentioning 'SKY TEAM' for Spiel des Jahres, but the query asks for the *most recent* which could be interpreted as 2023 if 2024 is not yet finalized or widely recognized as the absolute latest."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document is titled 'Award winners 2024 - Spiel des Jahres' and implies it contains information about the latest winners, though it doesn't explicitly state the most recent winner in the snippet."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document announces 'the 2024 Spiel des Jahres (German Game of the Year) winner was announced as the cooperative two-player game, Sky Team.' This directly answers the query if 2024 is considered the most recent."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly states 'Dorfromantik: The Board Game wins the 2023 Spiel des Jahres award', directly answering the query for the most recent winner."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This Reddit post title clearly states 'Dorfromantik has won Spiel des Jahres 2023', directly answering the query."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document states 'Dorfromantik \u2013 The Board Game awarded 2023 Spiel des Jahres' and 'has been awarded the title 2023 Game of the Year', directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "This document mentions 'Thurn und Taxis ... This is the most recent Spiel des Jahres winner on the list, having won in 2006', but this is outdated and not the actual most recent winner."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Dorfromantik: The Board Game won the Spiel des Jahres award in 2023.",
+            "Cascadia won the Spiel des Jahres award in 2022.",
+            "MicroMacro: Crime City won the Spiel des Jahres award in 2021."
+          ],
+          "reason": "Extracted the most recent winners of the Spiel des Jahres award, including the 2023 winner, as requested by the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Spiel des Jahres award was created in 1978 to reward family-friendly game design and promote excellent games in the German market.",
+            "A Spiel des Jahres nomination can increase a game's sales significantly, with winners often selling up to 500,000 copies.",
+            "The award is given by a jury of German-speaking board game critics from Germany, Austria, and Switzerland.",
+            "Since 1989, there has been a separate award for children's games."
+          ],
+          "reason": "Extracted general information about the Spiel des Jahres award, its purpose, and its impact, which provides context but not the specific answer to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "SKY TEAM won the Spiel des Jahres award in 2024.",
+            "DAYBREAK won the Kennerspiel des Jahres award in 2024.",
+            "The Spiel des Jahres 2024 winners were announced on Sunday, July 21, 2024."
+          ],
+          "reason": "Extracted the winner of the 2024 Spiel des Jahres award, which is the most recent year mentioned in the document."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The document lists award winners for 2024."
+          ],
+          "reason": "Extracted the year for which award winners are listed, indicating it contains recent information relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Sky Team was announced as the 2024 Spiel des Jahres winner on July 21, 2024.",
+            "Sky Team is a cooperative two-player game.",
+            "This is the first time the Spiel des Jahres award has gone to a two-player game."
+          ],
+          "reason": "Extracted the winner of the 2024 Spiel des Jahres award and relevant details about the game, directly answering the query about the most recent winner."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Dorfromantik: The Board Game won the 2023 Spiel des Jahres award.",
+            "The Spiel des Jahres award has been focused on broadly accessible, family-friendly board games since its inception in 1978."
+          ],
+          "reason": "Extracted the winner of the 2023 Spiel des Jahres award, which is the most recent year for which a winner is explicitly stated in this document."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Dorfromantik won Spiel des Jahres 2023.",
+            "Challengers won Kennerspiel 2023.",
+            "Mysterium Kids won Kinderspiel 2023."
+          ],
+          "reason": "Extracted the winner of the 2023 Spiel des Jahres award, directly answering the query about the most recent winner mentioned in this document."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Dorfromantik \u2013 The Board Game was awarded the title Spiel des Jahres 2023.",
+            "The Spiel des Jahres jury announced the 2023 winners on Sunday evening, July 19, 2023.",
+            "Dorfromantik \u2013 The Board Game is a cooperative tile placement game for one to six players."
+          ],
+          "reason": "Extracted the winner of the 2023 Spiel des Jahres award, which is the most recent year explicitly stated in this document."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Thurn und Taxis was the most recent Spiel des Jahres winner on the list, having won in 2006."
+          ],
+          "reason": "Extracted the winner from 2006, noting it as the most recent on the provided list, though acknowledging that newer winners exist in other documents."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Lists 2023 winner but the query asks for the most recent, and 2024 is mentioned in other documents.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Provides general information about the award but does not name any specific winners.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that SKY TEAM won the Spiel des Jahres award in 2024, which is the most recent year.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Indicates the document lists 2024 winners, implying it contains the answer, but doesn't explicitly name the game.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Clearly identifies Sky Team as the 2024 Spiel des Jahres winner, directly answering the query for the most recent winner.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "States the 2023 winner but not the most recent winner, as 2024 is mentioned elsewhere.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "Identifies the 2023 winner, which is not the most recent as 2024 winners are available in other documents.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "partially_supports",
+          "reason": "Names the 2023 winner, but the query asks for the most recent, and 2024 winners are present in other documents.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "States the most recent winner on its list is from 2006, which is not the most recent overall.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "most_recent_winner_2024",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 directly identify SKY TEAM as the 2024 Spiel des Jahres winner, providing the most current information."
+          },
+          {
+            "label": "recent_winner_2023",
+            "doc_ids": [
+              "d1",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Documents d1, d6, d7, and d8 mention Dorfromantik: The Board Game as the 2023 winner, which is relevant but not the most recent."
+          },
+          {
+            "label": "indicates_recent_data",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 indicates the presence of 2024 winners but does not name the specific game."
+          },
+          {
+            "label": "general_award_info",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides background information on the Spiel des Jahres award but no specific winners."
+          },
+          {
+            "label": "outdated_winner",
+            "doc_ids": [
+              "d9"
+            ],
+            "summary": "Document d9 mentions a winner from 2006, which is not the most recent."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "outdated",
+        "conflict_reason": "The evidence presents a clear temporal progression of winners. While 2023 winners are mentioned, the 2024 winner is identified as the most recent, superseding older information.",
+        "clusters": [
+          {
+            "label": "current_evidence",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "SKY TEAM won the Spiel des Jahres award in 2024, as stated by multiple recent sources."
+          },
+          {
+            "label": "stale_evidence",
+            "doc_ids": [
+              "d1",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Dorfromantik: The Board Game won the Spiel des Jahres award in 2023, which is an older, superseded result."
+          },
+          {
+            "label": "outdated_winner_mention",
+            "doc_ids": [
+              "d9"
+            ],
+            "summary": "Mentions a winner from 2006, which is significantly outdated."
+          },
+          {
+            "label": "contextual_information",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides general background on the Spiel des Jahres award, not specific winners."
+          },
+          {
+            "label": "indicates_recent_data",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Indicates the presence of 2024 winners without naming the specific game."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence clearly identifies the 2024 winner, with older information being superseded. The support is sufficient and coherent."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "SKY TEAM is the winner of the 2024 Spiel des Jahres award.",
+        "citations": [
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting documents clearly identify SKY TEAM as the 2024 winner, superseding older information. The evidence is coherent and directly answers the query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies SKY TEAM as the 2024 Spiel des Jahres winner, directly supported by citations d3 and d5."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 18329,
+      "completion_tokens": 3616,
+      "total_tokens": 21945
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3372,
+        "completion_tokens": 787,
+        "total_tokens": 4159
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3327,
+        "completion_tokens": 1106,
+        "total_tokens": 4433
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 632,
+        "total_tokens": 2045
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1807,
+        "completion_tokens": 464,
+        "total_tokens": 2271
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2196,
+        "completion_tokens": 394,
+        "total_tokens": 2590
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 889,
+        "completion_tokens": 44,
+        "total_tokens": 933
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1038,
+        "completion_tokens": 96,
+        "total_tokens": 1134
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4287,
+        "completion_tokens": 93,
+        "total_tokens": 4380
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:35.997556",
+        "prompt_tokens": 3372,
+        "completion_tokens": 787,
+        "total_tokens": 4159,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:42.521479",
+        "prompt_tokens": 3327,
+        "completion_tokens": 1106,
+        "total_tokens": 4433,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:44.884028",
+        "prompt_tokens": 1413,
+        "completion_tokens": 632,
+        "total_tokens": 2045,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:46.562493",
+        "prompt_tokens": 1807,
+        "completion_tokens": 464,
+        "total_tokens": 2271,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:49.045748",
+        "prompt_tokens": 2196,
+        "completion_tokens": 394,
+        "total_tokens": 2590,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:51.330705",
+        "prompt_tokens": 889,
+        "completion_tokens": 44,
+        "total_tokens": 933,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:52.401993",
+        "prompt_tokens": 1038,
+        "completion_tokens": 96,
+        "total_tokens": 1134,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:40:53.563944",
+        "prompt_tokens": 4287,
+        "completion_tokens": 93,
+        "total_tokens": 4380,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:40:31.324133",
+  "last_updated_at": "2026-04-17T17:40:53.564611"
+}

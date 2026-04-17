@@ -1,0 +1,395 @@
+{
+  "sample_id": "#0636",
+  "query": "When was the first new york times published?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "of volume two. Both journals were consolidated into \"Hom\u253c\u00f4opathic Times\" in 1875, which published a volume three under the editorship of Drs. Egbert Guernsey, Alfred K. Hills and J. B. Gilbert and continued until 1881, when it became the \"New York Medical Times\", with hom\u253c\u00f4opathy being no longer being included. New York Medical Times The New York Medical Times was a monthly medical journal published by E.P. Coby & Co. published between 1881\u0393\u00c7\u00f41896 and edited by Dr. Egbert Guernsey. Another journal of the same name was published between 1851\u0393\u00c7\u00f41856. The Medical Union published two volumes in New York City from",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "New York Times\", now one of the best-known newspapers in the world, was founded in 1851 by George Jones and Henry Raymond. It established the principle of balanced reporting in high-quality writing. Its prominence emerged in the 20th century. The parties created an internal communications system designed to keep in close touch with the voters. The critical communications system was a national network of partisan newspapers. Nearly all weekly and daily papers were party organs until the early 20th century. Thanks to the invention of high-speed presses for city papers, and free postage for rural sheets, newspapers proliferated. In 1850,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "ceased on December 13, 1906. Like other New York publishers, Wood created a German-language edition of his paper titled \"New-Yorker Tages-Nachrichten\" in 1870 and Sunday edition \"Sonntags-Nachrichten\" in 1872. New York Daily News (19th century) The New York Daily News was a daily New York City newspaper from 1855 to 1906, unrelated to the present-day \"Daily News\" founded in 1919. Founded in 1855, it flourished under the stewardship of Benjamin Wood, becoming one of the highest circulation papers in the United States. It was notable for its racist and pro-Confederate views. The paper faltered after Wood's death in 1900, and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "In 1919, \"The New York Times\" first trans-Atlantic delivery to London occurred by dirigible balloon. In 1920, during the 1920 Republican National Convention, a \"4 A.M. Airplane Edition\" was sent to Chicago by plane, so it could be in the hands of convention delegates by evening. Ochs died in 1935, and was succeeded as publisher by his son-in-law, Arthur Hays Sulzberger. Under his leadership, and that of his son-in-law (and successor), Orvil Dryfoos, the paper extended its breadth and reach, beginning in the 1940s. The crossword began appearing regularly in 1942, and the fashion section first appeared in 1946. \"The",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2022-04-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "In addition to more popular sporting events, the \"New York Clipper\" also wrote about billiards, bowling, and even chess. It began covering American football in 1880. The \"New York World\" was founded in 1860 but was a relatively unsuccessful New York newspaper from 1860 to 1883. Joseph Pulitzer purchased it in 1883, and a new, aggressive era of circulation building began. In 1890, Pulitzer built the New York World Building, the tallest office building in the world at the time (it was razed in 1955). The \"New York Journal\" was established in 1868, as a paper published every other day.  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2020-03-04"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses the 'New York Medical Times', a medical journal, not the 'New York Times' newspaper. Its publication dates are irrelevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly states that the 'New York Times' was founded in 1851, answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document discusses the 'New York Daily News' and its publication history, which is unrelated to the founding date of the 'New York Times'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions 'The New York Times' but focuses on its trans-Atlantic delivery and later developments, not its initial publication date."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions the 'New York World' and 'New York Journal', but not the founding date of the 'New York Times'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The New York Medical Times was a monthly medical journal published between 1881 and 1896."
+          ],
+          "reason": "Extracted the publication dates for the New York Medical Times, which is relevant to the query about when a New York publication was first published."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The New York Times was founded in 1851 by George Jones and Henry Raymond."
+          ],
+          "reason": "Extracted the founding date and founders of The New York Times, directly answering the user's query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The New York Daily News was a daily New York City newspaper from 1855 to 1906."
+          ],
+          "reason": "Extracted the publication dates for the New York Daily News, which is relevant to the query about when a New York publication was first published."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses events related to The New York Times after its founding, such as trans-Atlantic delivery and the introduction of sections, but does not state its initial publication date."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The New York World was founded in 1860.",
+            "The New York Journal was established in 1868."
+          ],
+          "reason": "Extracted the founding dates for two New York newspapers, The New York World and The New York Journal, which are relevant to the query about when a New York publication was first published."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions a 'New York Medical Times' published from 1881, but the query is about 'The New York Times'.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that The New York Times was founded in 1851, answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions the New York Daily News was published from 1855, but the query is about 'The New York Times'.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses events after the founding of The New York Times but does not provide the initial publication date.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Provides founding dates for The New York World (1860) and The New York Journal (1868), but not for The New York Times.",
+          "confidence": 0.5
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly states the founding date of The New York Times."
+          },
+          {
+            "label": "partial_support_other_publications",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d3, and d5 provide founding dates for other New York publications, which are related but not the primary subject of the query."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 discusses The New York Times but does not contain its founding date."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence is complementary. Document d2 directly supports the founding date of The New York Times, while other documents provide information on related but distinct New York publications.",
+        "clusters": [
+          {
+            "label": "direct_support_new_york_times",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 states The New York Times was founded in 1851."
+          },
+          {
+            "label": "other_new_york_publications",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d3, and d5 provide founding dates for the New York Medical Times (1881-1896), New York Daily News (1855-1906), New York World (1860), and New York Journal (1868), which are distinct from The New York Times."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 discusses The New York Times but does not provide its founding date."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct support exists for the founding date of The New York Times, and other documents are complementary rather than conflicting."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The New York Times was founded in 1851.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly supports the founding date of The New York Times. Other documents are complementary or irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states the New York Times was founded in 1851."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9133,
+      "completion_tokens": 1928,
+      "total_tokens": 11061
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1502,
+        "completion_tokens": 381,
+        "total_tokens": 1883
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1457,
+        "completion_tokens": 437,
+        "total_tokens": 1894
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 836,
+        "completion_tokens": 360,
+        "total_tokens": 1196
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1012,
+        "completion_tokens": 229,
+        "total_tokens": 1241
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1258,
+        "completion_tokens": 310,
+        "total_tokens": 1568
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 702,
+        "completion_tokens": 43,
+        "total_tokens": 745
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 850,
+        "completion_tokens": 78,
+        "total_tokens": 928
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1516,
+        "completion_tokens": 90,
+        "total_tokens": 1606
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:49.429528",
+        "prompt_tokens": 1502,
+        "completion_tokens": 381,
+        "total_tokens": 1883,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:51.259321",
+        "prompt_tokens": 1457,
+        "completion_tokens": 437,
+        "total_tokens": 1894,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:52.829077",
+        "prompt_tokens": 836,
+        "completion_tokens": 360,
+        "total_tokens": 1196,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:54.239248",
+        "prompt_tokens": 1012,
+        "completion_tokens": 229,
+        "total_tokens": 1241,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:57.212358",
+        "prompt_tokens": 1258,
+        "completion_tokens": 310,
+        "total_tokens": 1568,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:58.375036",
+        "prompt_tokens": 702,
+        "completion_tokens": 43,
+        "total_tokens": 745,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:59.494893",
+        "prompt_tokens": 850,
+        "completion_tokens": 78,
+        "total_tokens": 928,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:02.127458",
+        "prompt_tokens": 1516,
+        "completion_tokens": 90,
+        "total_tokens": 1606,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:23:36.457495",
+  "last_updated_at": "2026-04-17T20:24:02.128077"
+}

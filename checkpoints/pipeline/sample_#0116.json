@@ -1,0 +1,508 @@
+{
+  "sample_id": "#0116",
+  "query": "Where is EMNLP this year?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "emnlp 2022: The 2022 Conference on Empirical Methods in Natural ... EMNLP 2022 will take place in Abu Dhabi from December 7th to December 11th, 2022. And it will be held in hybrid mode, both online and offline.",
+      "source_url": "https://2022.emnlp.org/",
+      "timestamp": "2022-12-07"
+    },
+    {
+      "doc_id": "d2",
+      "text": "EMNLP 2024 Welcome! EMNLP 2024 took place in Miami, Florida from Nov 12th to Nov 16th, 2024, at the Hyatt Regency Miami Hotel.",
+      "source_url": "https://2024.emnlp.org/",
+      "timestamp": "2016-11-12"
+    },
+    {
+      "doc_id": "d3",
+      "text": "EMNLP: Empirical Methods in Natural Language Processing EMNLP 2021 \u00b7 Nov 7, 2021 - Nov 11, 2021, Punta Cana, Dominican Republic, May 10, 2021 ; EMNLP 2020, Conference on Empirical Methods in Natural Language Processing. Present CFP : 2024 EMNLP 2024 invites the submission of long and short papers featuring substantial, original, and unpublished research on empirical methods for Natural Language Processing. EMNLP2024 has a goal of a diverse technical program\u00e2\u0080\u0094in addition to traditional research results, papers may contribute negative findings, survey an area, announce the creation of a new resource, argue a position, report novel linguistic insights derived using existing computational techniques, and reproduce, or fail to reproduce, previous results. As in recent years, some of the presentations at the conference will be of papers accepted by the Transactions of the ACL (TACL) and the Computational Linguistics (CL) journals. EMNLP 2024 aims to have a broad technical program. Relevant topics for the conference include, but are not limited to, the following areas:",
+      "source_url": "http://www.wikicfp.com/cfp/program?id=883",
+      "timestamp": "2024-11-12"
+    },
+    {
+      "doc_id": "d4",
+      "text": "EMNLP 2021 The 2021 Conference on Empirical Methods in Natural Language Processing 7th \u2013 11th November 2021 Online and in the Barcel\u00f3 B\u00e1varo Convention Centre, Punta Cana ...",
+      "source_url": "https://2021.emnlp.org/",
+      "timestamp": "2021-11-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Empirical Methods in Natural Language Processing - Wikipedia Locations \u00b7 United States. EMNLP 2024, Miami, Florida, United States \u00b7 Singapore. EMNLP 2023, Singapore \u00b7 United Arab Emirates. EMNLP 2022, Abu Dhabi, United Arab ...",
+      "source_url": "https://en.wikipedia.org/wiki/Empirical_Methods_in_Natural_Language_Processing",
+      "timestamp": "2024-03-29"
+    },
+    {
+      "doc_id": "d6",
+      "text": "EMNLP 2023 Welcome! EMNLP 2023 will take place in Singapore from Dec 6th to Dec 10th, 2023. More information will be announced soon.",
+      "source_url": "https://2023.emnlp.org/",
+      "timestamp": "2023-11-30"
+    },
+    {
+      "doc_id": "d7",
+      "text": "EMNLP 2021 : Conference on Empirical Methods in Natural ... Discover the latest ranking, metrics and conference call for papers for EMNLP 2021 : Conference on Empirical Methods in Natural Language Processing (EMNLP).",
+      "source_url": "https://research.com/conference/emnlp-2021-conference-on-empirical-methods-in-natural-language-processing-emnlp",
+      "timestamp": "2021-01-01"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Proceedings of the 2021 Conference on Empirical Methods in ... Year: 2021; Address: Online and Punta Cana, Dominican Republic; Venue ... emnlp-main.0/) (Moens et al., EMNLP 2021). Proceedings of the 2021 Conference ...",
+      "source_url": "https://aclanthology.org/2021.emnlp-main.0/",
+      "timestamp": "2021-11-17"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Registration - EMNLP 2021 Registering for EMNLP 2021. Follow this link for registration. EMNLP 2021 is currently officially scheduled to be held in hybrid mode, online and in Punta Cana ... Registering for EMNLP 2021 Follow this link for registration. Early Registration: Ends Friday, October 15, 2021 11:59pm ET Onsite Registration: In-Person registration will reopen Saturday evening at 5pm, November 6th and continue to be open all days during the conference. Late Registration: Will remain open until the 24th of November for virtual attendees and access to recordings of the conference presentations EMNLP 2021 is currently officially scheduled to be held in hybrid mode, online and in Punta Cana, in the Dominican Republic. We have a 2-tier registration form: one will ask if you plan to attend virtually only and this answer will present a virtual registration form and if answering that you plan to attend in-person, a separate in-person registration form will be presented. We made a great effort to provide an excellent program while keeping registration fees as low as possible for both the virtual meeting and, especially, for the in-person meeting. The fees are: Full conference Virtual In-Person Reg-Early $200.00 $725.00 Reg-Late/Onsite $250.00 $900.00 Stud-Early $75.00 $200.00 Stud-Late/Onsite $100.00 $400.00 Student and Other Volunteers $ - $ - Recipients of D&I Awards $ - $ - Recipients of WiNLP Awards $ - $ - Conference Organizers (Per General Chair) $ - $ - Staff $ - $ - Keynote Speakers $ - $ - Tutorial Presenters $ - $ - Invited Sponsors and Exhibitors $ - $ - Reminder: It is ACL\u2019s policy that at least one author of each accepted paper (including Findings papers) must register for the conference.",
+      "source_url": "https://2021.emnlp.org/registration/",
+      "timestamp": "2021-10-15"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly states EMNLP 2022 was held in Abu Dhabi from December 7th to December 11th, 2022."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States EMNLP 2024 took place in Miami, Florida from Nov 12th to Nov 16th, 2024."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions EMNLP 2024 and its call for papers, implying it's a current or recent event, though the location is not explicitly stated for 2024 in this snippet."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Provides location and dates for EMNLP 2021, which is relevant context for past events."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists EMNLP 2024 in Miami, Florida, and EMNLP 2023 in Singapore, directly answering the query for multiple years."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States EMNLP 2023 took place in Singapore from Dec 6th to Dec 10th, 2023."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Provides information about EMNLP 2021, including its location and dates, offering historical context."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Confirms EMNLP 2021 was held online and in Punta Cana, Dominican Republic, providing location details for a past event."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Details registration for EMNLP 2021, including its hybrid format and location in Punta Cana, Dominican Republic, offering historical context."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "EMNLP 2022 took place in Abu Dhabi from December 7th to December 11th, 2022.",
+            "EMNLP 2022 was held in a hybrid mode, both online and offline."
+          ],
+          "reason": "Extracted the location and dates for EMNLP 2022, as well as its hybrid format, directly from the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "EMNLP 2024 took place in Miami, Florida from Nov 12th to Nov 16th, 2024.",
+            "EMNLP 2024 was held at the Hyatt Regency Miami Hotel."
+          ],
+          "reason": "Extracted the location and dates for EMNLP 2024, including the specific venue, as requested by the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "EMNLP 2024 invites submissions for long and short papers.",
+            "EMNLP 2024 aims to have a broad technical program."
+          ],
+          "reason": "Extracted information about EMNLP 2024's call for papers and program scope, which is relevant to the conference's current status."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "EMNLP 2021 was held from November 7th to 11th, 2021.",
+            "EMNLP 2021 was held online and in the Barcel\u00f3 B\u00e1varo Convention Centre, Punta Cana."
+          ],
+          "reason": "Extracted the dates and location for EMNLP 2021, providing specific details about the venue."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "EMNLP 2024 was held in Miami, Florida, United States.",
+            "EMNLP 2023 was held in Singapore.",
+            "EMNLP 2022 was held in Abu Dhabi, United Arab Emirates."
+          ],
+          "reason": "Extracted the locations for EMNLP 2024, 2023, and 2022, directly answering the query about where the conference is held."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "EMNLP 2023 took place in Singapore from Dec 6th to Dec 10th, 2023."
+          ],
+          "reason": "Extracted the location and dates for EMNLP 2023, providing specific details about the conference."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "EMNLP 2021 was held from Nov 7, 2021 - Nov 11, 2021, in Punta Cana, Dominican Republic."
+          ],
+          "reason": "Extracted the location and dates for EMNLP 2021, directly answering the query about where the conference was held."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "EMNLP 2021 was held online and in Punta Cana, Dominican Republic."
+          ],
+          "reason": "Extracted the location for EMNLP 2021, providing specific details about the conference venue."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "EMNLP 2021 was officially scheduled to be held in hybrid mode, online and in Punta Cana, in the Dominican Republic."
+          ],
+          "reason": "Extracted the location and format for EMNLP 2021, confirming its hybrid nature and specific location."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2022.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that EMNLP 2024 was held in Miami, Florida, from Nov 12th to Nov 16th, 2024.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses paper submissions and program scope for EMNLP 2024, not its location.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2021.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States EMNLP 2024 was held in Miami, Florida, United States, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2023.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2021.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2021.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year', but the document only provides information for EMNLP 2021.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_emnlp_2024",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 directly state that EMNLP 2024 was held in Miami, Florida."
+          },
+          {
+            "label": "irrelevant_past_conferences",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d6",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Documents d1, d4, d6, d7, d8, and d9 provide information about past EMNLP conferences (2021, 2022, 2023) and are irrelevant to the query about 'this year'."
+          },
+          {
+            "label": "irrelevant_topic_emnlp_2024",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 discusses EMNLP 2024's call for papers and program scope, not its location, making it irrelevant."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All supporting documents agree on the location and dates for EMNLP 2024. Irrelevant documents pertain to other years or topics.",
+        "clusters": [
+          {
+            "label": "EMNLP 2024 Location and Dates",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "EMNLP 2024 was held in Miami, Florida, from November 12th to November 16th, 2024."
+          },
+          {
+            "label": "Irrelevant Information (Past Conferences/Topics)",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d6",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "These documents provide information about EMNLP conferences from previous years (2021, 2022, 2023) or discuss topics other than location for EMNLP 2024, making them irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The supporting documents provide consistent information about the EMNLP 2024 location, and there are no significant conflicts. The irrelevant documents do not detract from the reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "EMNLP 2024 was held in Miami, Florida, from November 12th to November 16th, 2024.",
+        "citations": [
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting documents directly and consistently answer the query about the location and dates of EMLNP 2024."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited documents, which clearly state the location and dates for EMNLP 2024."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 12902,
+      "completion_tokens": 3170,
+      "total_tokens": 16072
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2117,
+        "completion_tokens": 697,
+        "total_tokens": 2814
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2072,
+        "completion_tokens": 942,
+        "total_tokens": 3014
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1263,
+        "completion_tokens": 619,
+        "total_tokens": 1882
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1647,
+        "completion_tokens": 381,
+        "total_tokens": 2028
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1990,
+        "completion_tokens": 279,
+        "total_tokens": 2269
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 776,
+        "completion_tokens": 55,
+        "total_tokens": 831
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 936,
+        "completion_tokens": 105,
+        "total_tokens": 1041
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 2101,
+        "completion_tokens": 92,
+        "total_tokens": 2193
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:18.355432",
+        "prompt_tokens": 2117,
+        "completion_tokens": 697,
+        "total_tokens": 2814,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:24.438894",
+        "prompt_tokens": 2072,
+        "completion_tokens": 942,
+        "total_tokens": 3014,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:26.601570",
+        "prompt_tokens": 1263,
+        "completion_tokens": 619,
+        "total_tokens": 1882,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:28.324175",
+        "prompt_tokens": 1647,
+        "completion_tokens": 381,
+        "total_tokens": 2028,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:30.294137",
+        "prompt_tokens": 1990,
+        "completion_tokens": 279,
+        "total_tokens": 2269,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:31.220042",
+        "prompt_tokens": 776,
+        "completion_tokens": 55,
+        "total_tokens": 831,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:32.323497",
+        "prompt_tokens": 936,
+        "completion_tokens": 105,
+        "total_tokens": 1041,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:38:33.599491",
+        "prompt_tokens": 2101,
+        "completion_tokens": 92,
+        "total_tokens": 2193,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:38:15.641587",
+  "last_updated_at": "2026-04-17T15:38:33.600050"
+}

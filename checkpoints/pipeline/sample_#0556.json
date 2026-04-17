@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0556",
+  "query": "Why have movie trailers not only become much longer but now most seem to include the entire plot and end scenes condensed into the trailer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "One Girl's Opinion: Penelope plot of the film, and isn't nearly as fun and certainly wouldn't have made me want to go see the movie. If you have to give away the ending of your movie in the trailer, then how much faith do you have in your actual movie? Maybe film students are different from most viewers, but most people I know can tell if the trailer gives away the end and really resent it. Anyway, all of that aside. I didn't watch that trailer until just now, and I did watch the good ones. So I watched the film the other night",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Jason Reitman | A Swede Talks Movies where the plot of an entire movie is given away. Sometimes including the ending! The Cast Away trailer is a perfect example of this. WARNING! This trailer gives away the ending of Cast Away! Cast Away is an extreme example, but even in cases where the ending is left unspoilt, knowing too much about what\u0393\u00c7\u00d6s going to happen in a film can have a detrimental effect on how we enjoy it. There is great joy to be had by going into a movie not knowing anything but the very base premise. The second danger of trailers is that they can",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2013-08-21"
+    },
+    {
+      "doc_id": "d3",
+      "text": "New Shaun The Sheep Movie: Release Date, Cast, Plot, Trailer, News joining the cast. What must be said here is that in animated films, what becomes the most important is the performance of the animators. The more realistic and authentic a scene looks, the more connected the audience will be to the story. In an animated movie, the entire scene is created out of imagination. There is a limitless scope to try anything out to create a scene in this form. Thus here the animators and the ones who do the storyboard are the real artists. Farmageddon: A Shaun The Sheep Movie: Plot: What is it about? The makers have released",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Blockbluster: Black Mass the entire cast is stuck in a time warp. It's not a major issue, but it's a shortcoming nonetheless. Additionally, the trailer makes the movie seem as if it has a lot more action in it than it does. The movie isn't in any way an action film, and really the only scene in the movie that could be described as such is shown in the trailer, which is a bit misleading (though it is a good scene). That's not so much a criticism of the movie as it is of the trailer, but it's good to know going in",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2012-07-24"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Money War: Movie Studios and Theatre Owners - Good Film Hunting Yeah, not so much. The owners cancelled pre-sales for Iron Man 3 tickets. Disney blinked. And they resolved their movie ticket issues a week before the movie was released. Shorter Trailers \u0393\u00c7\u00f4 Have you noticed how movie trailers are getting longer and longer? So have theatre owners. Don\u0393\u00c7\u00d6t get me wrong, I\u0393\u00c7\u00d6ve long complained that trailers are getting ridiculous, revealing far too much of the plot. The theatres say that the trailers are delaying movies and need a limit of no longer than 2 minutes. Of course the studios are pissed because this is their prime-captive-audience-advertising-real-estate. Keep in mind there\u0393\u00c7\u00d6s  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2020"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Discusses how trailers giving away the plot and ending can negatively impact movie enjoyment, directly addressing the query's premise."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Explicitly states that trailers often give away the entire plot and ending, providing an example and explaining the negative effect on viewer enjoyment."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Focuses on animation techniques and plot summary for 'Shaun The Sheep Movie', not on trailer length or content issues."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions a trailer being misleading about a movie's action content, which is tangentially related but doesn't address the core query about plot and ending spoilers."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the query, noting that trailers are getting longer and revealing too much of the plot, and discusses studio/theatre owner perspectives."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Giving away the ending of a movie in the trailer indicates a lack of faith in the actual movie.",
+            "Most viewers resent trailers that give away the movie's ending."
+          ],
+          "reason": "Extracted facts about the negative impact of trailers revealing movie endings and the audience's resentment towards this practice."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Some trailers give away the plot of an entire movie, sometimes including the ending.",
+            "Knowing too much about a film's plot in advance can negatively affect enjoyment.",
+            "There is joy in experiencing a movie without knowing more than the basic premise."
+          ],
+          "reason": "Extracted facts detailing how trailers can reveal entire plots and endings, diminishing viewer enjoyment and the value of surprise."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In animated films, the performance of animators is crucial for audience connection to the story.",
+            "Animated movies offer limitless scope for creativity in scene creation."
+          ],
+          "reason": "Extracted facts about the importance of animators' performance and the creative freedom in animated films, which are not directly related to trailer content."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "A trailer for 'Black Mass' made the movie seem to have more action than it actually does.",
+            "The trailer for 'Black Mass' showed the only scene that could be described as action, which is misleading."
+          ],
+          "reason": "Extracted facts about a specific trailer misleadingly portraying a movie's genre and content, highlighting trailer inaccuracies."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Movie trailers are getting longer and revealing too much of the plot.",
+            "Movie theatre owners believe trailers should be limited to no longer than 2 minutes.",
+            "Studios view trailers as prime advertising space with a captive audience."
+          ],
+          "reason": "Extracted facts confirming trailers are getting longer, revealing too much plot, and the conflict between theatre owners' desire for shorter trailers and studios' advertising interests."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Addresses the issue of trailers giving away endings and audience resentment, which is a component of the query.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that trailers give away plots and endings, negatively affecting enjoyment, aligning with the query's premise.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Facts discuss animation specifics and creativity, not trailer content or length.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Highlights trailer inaccuracies and misleading content, which is related to the query's concern about excessive plot reveal.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Confirms trailers are getting longer and revealing too much plot, directly addressing the core of the query.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_plot_reveal",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 directly confirm that trailers reveal entire plots and endings, and are becoming longer, negatively impacting viewer enjoyment."
+          },
+          {
+            "label": "misleading_content",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 highlight issues with trailers giving away endings and misleadingly portraying movie content, contributing to audience dissatisfaction."
+          },
+          {
+            "label": "unrelated_content",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 discusses animation specifics and creativity, which is irrelevant to the query about trailer content."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting and partially supporting documents agree that movie trailers are revealing too much plot and misleading audiences, with no contradictory evidence found.",
+        "clusters": [
+          {
+            "label": "trailers reveal too much plot and are getting longer",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 directly confirm that trailers reveal entire plots and endings, and are becoming longer, negatively impacting viewer enjoyment."
+          },
+          {
+            "label": "trailers give away endings and mislead with content",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 highlight issues with trailers giving away endings and misleadingly portraying movie content, contributing to audience dissatisfaction."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and directly supports the claim that trailers reveal too much plot and are misleading, with no conflicts."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Movie trailers are increasingly revealing entire plots and endings, and are becoming longer, which negatively impacts viewer enjoyment. Additionally, trailers sometimes mislead audiences by misrepresenting movie content.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial documents consistently indicate that trailers reveal too much plot and can be misleading, with no conflicting information present."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-supported by the cited documents, accurately reflecting claims about trailers revealing plots, endings, and misleading content."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9065,
+      "completion_tokens": 1928,
+      "total_tokens": 10993
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1472,
+        "completion_tokens": 378,
+        "total_tokens": 1850
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1427,
+        "completion_tokens": 536,
+        "total_tokens": 1963
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 934,
+        "completion_tokens": 323,
+        "total_tokens": 1257
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1056,
+        "completion_tokens": 237,
+        "total_tokens": 1293
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1310,
+        "completion_tokens": 210,
+        "total_tokens": 1520
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 628,
+        "completion_tokens": 42,
+        "total_tokens": 670
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 775,
+        "completion_tokens": 112,
+        "total_tokens": 887
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1463,
+        "completion_tokens": 90,
+        "total_tokens": 1553
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:26.359785",
+        "prompt_tokens": 1472,
+        "completion_tokens": 378,
+        "total_tokens": 1850,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:28.353490",
+        "prompt_tokens": 1427,
+        "completion_tokens": 536,
+        "total_tokens": 1963,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:30.253290",
+        "prompt_tokens": 934,
+        "completion_tokens": 323,
+        "total_tokens": 1257,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:32.405005",
+        "prompt_tokens": 1056,
+        "completion_tokens": 237,
+        "total_tokens": 1293,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:33.694295",
+        "prompt_tokens": 1310,
+        "completion_tokens": 210,
+        "total_tokens": 1520,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:34.452602",
+        "prompt_tokens": 628,
+        "completion_tokens": 42,
+        "total_tokens": 670,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:35.536598",
+        "prompt_tokens": 775,
+        "completion_tokens": 112,
+        "total_tokens": 887,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:36.498080",
+        "prompt_tokens": 1463,
+        "completion_tokens": 90,
+        "total_tokens": 1553,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:04:24.261912",
+  "last_updated_at": "2026-04-17T20:04:36.498582"
+}

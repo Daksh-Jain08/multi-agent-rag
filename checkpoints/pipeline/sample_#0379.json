@@ -1,0 +1,716 @@
+{
+  "sample_id": "#0379",
+  "query": "Are identical twins genetically identical?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Twins - identical and fraternal - Better Health Channel Twins sharing an inner membrane (which means they share the amniotic sac) carry an even higher risk of complications, as there is the potential for their umbilical cords to become tangled and to cut off their blood supply. In this case the pregnancy is monitored even more closely, and it may be recommended that your twins be delivered earlier. Giving birth to multiple babies It is advised that women carrying twins give birth in hospital, rather than at home. The babies can be delivered vaginally, but caesarean section delivery may be considered a better alternative in some circumstances. For the babies, increased risks include being born prematurely, and birth complications due to a shared placenta or blood vessels, and uterine restriction. Zygosity testing It is difficult to tell if twins are identical or fraternal at birth. Some identical twins may be born with individual sets of membranes, which may lead to the mistaken assumption that the babies are fraternal. One way to tell the difference is to have the twins DNA-tested. Identical twins share the same genetic information, while fraternal twins share around half. The test can be done with a sample of cheek cells (collected painlessly) or blood group examinations. While the distinction may not seem important if you have two (or more) healthy babies, it can be useful to know for health reasons because identical twins have a high likelihood of experiencing the same illnesses or having the same health condition. Identical twins are also compatible for organ transplantation, should it be required. Content disclaimer Content on this website is provided for information purposes only. Information about a therapy, service, product or treatment does not in any way endorse or support such therapy, service, product or treatment and is not intended to replace advice from your doctor or other registered health professional. The information and materials contained on this website are not intended to constitute a comprehensive guide concerning all aspects of the therapy, product or treatment described on the website.",
+      "source_url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/twins-identical-and-fraternal",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Genomes of identical twins reveal epigenetic changes that may play ... Genomes of identical twins reveal epigenetic changes that may play role in lupus December 22, 2009 \u2013 Identical twins look the same and are nearly genetically identical, but environmental factors and the resulting cellular changes could cause disease in one sibling and not the other. In a study published online in Genome Research (www.genome.org), scientists have studied twins discordant for the autoimmune disease lupus, mapping DNA modifications across the genome and shedding light on epigenetic changes that may play a role in the disease. Because the genetic makeup of monozygotic twins (commonly known as identical twins) is nearly identical, phenotypic traits and heritable diseases are often concordant, manifesting in both siblings. However, some phenotypes and diseases such as autoimmune disease can arise in only one sibling, suggesting other factors such as environment likely play a role in determining phenotypic differences. Epigenetic modifications, cellular changes that can influence expression of genes, are now widely recognized to influence phenotype and frequently occur in disease. Furthermore, environmental factors such as diet and chemical exposure can change the epigenetic status of genes. Recent research has identified epigenetic modifications at several aberrantly regulated genes in autoimmune diseases such as systemic lupus erythematosus (SLE), and other studies have suggested that epigenetic differences are associated with phenotypic discordance between identical twins. In this work, researchers from Spain and the United States performed the first genome-wide high-throughput analysis of a specific epigenetic modification, DNA methylation, in the context of autoimmune disease. Taking advantage of the identical genetic background in monozygotic twins, the group directly compared DNA methylation in healthy twins and twins discordant for autoimmune diseases, including SLE, looking for changes that could be related to pathogenesis in one sibling and not the other.",
+      "source_url": "https://genome.cshlp.org/site/press/gr100289.xhtml",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Some identical twins don't have identical DNA Share this: On average, identical twins differ by 5.2 genetic changes, researchers report January 7 in Nature Genetics. The finding is important because identical twins \u2014 also called monozygotic twins because they come from a single fertilized egg \u2014 are often studied to determine whether particular traits, diseases or conditions result from genetics or from environmental influences. Identical twins were thought to be genetically the same, so differences in their health were considered to be the product of their environment. The new finding suggests that some genetic changes could also account for differences between twins. Researchers in Iceland deciphered the complete genetic makeup, or genome, of 381 pairs of identical twins. Of those, 38 pairs were genetic duplicates of each other, but most had some differences in DNA that probably arose very early in development, either just before one embryo split to form two or shortly after the split. Some of the twins had many genetic differences, including 39 pairs who had more than 100 changes between the twins. Patterns of mutations among twins suggest that embryos don\u2019t split neatly when twins form, the findings suggest. Some twins may arise when a single cell or a small group of cells splits off from the embryo. The number of cells that a twin originates from may determine how genetically different they are from their twin, with more uneven splits of the embryo leading to a greater number of differences between the twins. Citations Tina Hesman Saey is the senior staff writer and reports on molecular biology. She has a Ph.D. in molecular genetics from Washington University in St. Louis and a master\u2019s degree in science journalism from Boston University. This article was supported by readers like you. Our mission is to provide accurate, engaging news of science to the public. That mission has never been more important than it is today. As a nonprofit news organization, we cannot do it without you. Your support enables us to keep our content free and accessible to the next generation of scientists and engineers. Invest in quality science journalism by donating today.",
+      "source_url": "https://www.sciencenews.org/article/some-identical-twins-dont-have-identical-dna-genetics",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "No two of us are alike -- even identical twins: Pinpointing genetic ... No two of us are alike -- even identical twins: Pinpointing genetic determinants of schizophrenia Date: March 28, 2011 Source: University of Western Ontario Summary: Just like snowflakes, no two people are alike, even if they're identical twins according to new genetic research. Scientists have been working to determine the genetic sequencing of schizophrenia using identical or monozygotic twins. Just like snowflakes, no two people are alike, even if they're identical twins according to new genetic research from The University of Western Ontario. Molecular geneticist Shiva Singh has been working with psychiatrist Dr. Richard O'Reilly to determine the genetic sequencing of schizophrenia using identical or monozygotic twins. The study is published in this month's PLoS ONE. Singh looked at about one million markers of identical twins (and their two parents) where only one twin had schizophrenia. \"The most informative feature of schizophrenia is that it sometimes runs in the family. So, for example, the risk of developing schizophrenia is much higher if your brother, sister, mother or father have the disease,\" says Singh, noting in the general population about one percent have schizophrenia. \"We started with the belief that monozygotic twins are genetically identical, so if one member of identical twins has schizophrenia, then the risk for the other twin should be 100 percent, if it's all due to genes. However, studies over the years have shown that the risk of the disease in both twins is only 50 percent.\" That means either the twins are genetically not identical or the familial disease involves non-genetic (random) effects. Singh and his team have now demonstrated that the monozygotic twins are not genetically identical. \"So if schizophrenia is in the genes, then the difference in the genetic makeup of monozygotic twins, with only one disease twin, must have something to do with the disease.\"",
+      "source_url": "https://www.sciencedaily.com/releases/2011/03/110328151740.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Fraternal twins & identical twins | Raising Children Network For example, they might have different hair or eye colour. Occasionally they look quite similar. Fraternal twins happen in about 70% of twin births in Australia. Very rarely, fraternal twins share a placenta. These types of twins are called chimaeric twins. Identical twins Sometimes a fertilised egg splits within a few days of conception to produce genetically identical twins. Because these twins come from one zygote, they\u2019re also known as monozygotic. Identical twins are the same sex. There are 3 types of identical twins. About one-third of identical twins split soon after fertilisation and form completely separate twins. Like fraternal twins, these twins have separate placentas. The other two-thirds split after they attach to the wall of the womb. As a result, they share a placenta. The technical name for this is monochorionic. In a very small number of identical twins, splitting might happen even later. In this case, both twins share an inner sac, called the amnion, in addition to sharing a placenta. The technical name for this is monoamniotic twins. They\u2019re often called MoMo twins. Identical twins happen in around 1 in 250 pregnancies in Australia. Although identical twins have the same genes, they don\u2019t always look the same. This is because children\u2019s health and development are shaped not only by genes but also by experiences in the womb and after birth. For example, a twin who gets less blood from a shared placenta might weigh less at birth. Sharing a placenta or inner sac: why it\u2019s important to know Sharing a placenta means that twins share a blood supply during pregnancy. Sometimes the blood supply is shared unequally, which can cause health problems for both twins. Women who are pregnant with twins sharing a placenta need to be checked more often than women who are pregnant with twins with separate placentas. Frequent checks help to pick up any complications early. Twins sharing an inner sac (monoamniotic)",
+      "source_url": "https://raisingchildren.net.au/pregnancy/health-wellbeing/twin-pregnancy/twins",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Identical Twins Don't Have Identical DNA | DNA Worldwide New Discovery - Identical Twins Don't Have Identical DNA DNA Worldwide Group and their laboratory partners Eurofins Forensic are the first in the world to discover and prove that identical twins have differences in their genetic makeup. This not only changes the teaching that identical twins have the same DNA but it also means for the first time forensic and paternity testing can identify which identical twin was involved. This has all been possible thanks to a dedicated team that have successfully completed a research project to genetically discriminate \u201cidentical\u201d monozygotic twins. Until this point it has been only theory that monozygotic twins are 100% genetically identical. On a statistical level about 6 in 1,000 males are identical twins. However, until now DNA testing could not be used in criminal or paternity cases involving identical twins as you could not tell them apart. With cases involving identical twins hitting the world press on a regular basis covering cases from murder, child custody or inheritance it is a pressing issue. Even the best Forensic labs around the world accepted that analytical restrictions meant nothing further could be done, however, the team at the DNA Worldwide partner lab pushed the limit of DNA testing to great success. To do this they took Forensic DNA profiling and Genomic Sequencing and combined them together. Technically, the scientists applied ultra-deep next generation sequencing and combined this with bioinformatics. Sequencing of DNA from sperm samples of two twins and from the blood sample of the child of one twin was conducted. The Bioinformatic analysis identified five differences (mutations), called Single Nucleotide Polymorphisms (SNPs) present in the twin father and the child, but not in the twin uncle. These SNPs differences were confirmed by what is known as Sanger sequencing. Combining these results give experimental evidence for the hypothesis that rare mutations in the genes will occur early after or before the human blastocyst has split into two, at the origin of twins, and that such mutations will be carried on and are taken into life.",
+      "source_url": "https://www.dna-worldwide.com/blog/194/new-discovery-identical-twins-dont-have-identical-dna",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Do Identical Twins Have the Same DNA? Research Says Not Quite If you\u2019re a parent of twins, one of the first questions you\u2019ll probably get asked is if your children are identical or fraternal twins. If your twins are identical, the excitement is often palpable once people find out. The idea of dressing children in the same clothes and struggling to tell them apart is such a fun concept in pop culture. Yet after centuries of societal assumptions that identical twins were well, identical \u2014 right down to genetic composition in recent times \u2014 the reality might be somewhat different than we thought. Unless you\u2019re well versed in biology and conception, many people are confused about the distinguishing difference between fraternal and identical twins. It\u2019s about more than just two people looking like each other \u2014 or not. Fraternal twins (dizygotic) are conceived when two eggs are fertilized in the same ovulation window. Identical twins (monozygotic), on the other hand, are conceived from a single egg that splits into two distinctive embryos. To break it down even further, identical twins are created from the combination of a single egg and sperm. In contrast, fraternal twins are the product of two separate eggs being fertilized by different sperm. So, whereas identical twins come from the same genetic material, fraternal twins do not. (Fraternal twins will have genes in common the way any siblings from the same biological parents do.) Of the two twin scenarios, identical twins are more likely to occur by chance. Although giving birth to fraternal twins can also happen naturally, this type of twin birth is more commonly seen in people who undergo fertility treatments. That\u2019s because fertility drugs can increase the number of eggs released in a cycle \u2014 or, with in vitro fertilization, multiple embryos can be reinserted into the uterus. According to a 2021 study, an estimated 15 percent of identical twin pairs may have one member that exhibits significant genetic variation from their twin. In the lab study, researchers tried to figure out how many genetic mutations that cause monozygotic twins to have different DNA typically occur.",
+      "source_url": "https://www.healthline.com/health/do-identical-twins-have-the-same-dna",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Insights From Identical Twins Insights From Identical Twins Because identical twins develop from a single fertilized egg, they have the same genome. So any differences between twins are due to their environments, not genetics. Recent studies have shown that many environmentally induced differences are reflected in the epigenome. Nature AND Nurture Chromosome 3 pairs in each set of twins are digitally superimposed. One twin's epigenetic tags are dyed red and the other twin's tags are dyed green. When red and green overlap, that region shows up as yellow. The 50-year old twins have more epigenetic tags in different places than do 3-year-old twins. The insight we gain from studying twins helps us to better understand how nature and nurture work together. For well over a century, researchers have compared characteristics in twins in an effort to determine the extent to which certain traits are inherited, like eye color, and which traits are learned from the environment, such as language. Typically taking place in the field of Behavioral Genetics, classical twin studies have identified a number of behavioral traits and diseases that are likely to have a genetic component, and others that are more strongly influenced by the environment. Depending on the study and the particular trait of interest, data is collected and compared from identical or fraternal twins who have been raised together or apart. Finding similarities and differences between these sets of twins is the start to determining the degree to which nature and environment play a role in the trait of interest. Twin studies have identified some traits that have a strong genetic component, including reading disabilities like dyslexia. Other traits, like arthritis, are more likely influenced by the environment. Twin studies uncover genetic and environmental contributions Twins share the same genes but their environments become more different as they age. This unique aspect of twins makes them an excellent model for understanding how genes and the environment contribute to certain traits, especially complex behaviors and diseases. For example, when just one twin gets a disease, researchers can look for elements in the twins' environments that are different.",
+      "source_url": "https://learn.genetics.utah.edu/content/epigenetics/twins",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Identical Twins Accumulate Genetic Differences in the Womb | The ... Identical twins are not as identical as previously assumed, according to a study published today (January 7) in Nature Genetics. Rather than having exactly the same DNA sequences, twins start accumulating genetic variation from the earliest stages of development, researchers at Iceland-based company deCODE genetics found, meaning that one twin harbors variants that aren\u2019t present in the other. Also known as monozygotic twins because they develop from a single fertilized egg, identical twins have long been central to research on the relative effects of genes and environment\u2014aka \u201cnature versus nurture.\u201d Although everyone accumulates some genetic mutations during their lifetime, the differences in identical twins were assumed to be minimal, particularly when twins are young, allowing researchers to study how different environments influence the development of people with the same genotype. The new study focuses specifically on mutations that occur as or before embryos form from the mass of cells inside the blastocyst, a structure that implants in the uterine wall. During this stage of development, this inner cell mass can split to form two separately developing embryos. Drawing on deCODE\u2019s genetic databases to analyze variation in multiple cells sampled from 381 monozygotic twin pairs and their immediate family members, the researchers pinpointed a number of mutations that arose during this stage of development in just one member of each pair, meaning that at birth, so-called identical twins may already differ genetically from each other. K\u00e1ri Stef\u00e1nsson, CEO and founder of deCODE and a coauthor on the new study, spoke to The Scientist about how he and his team managed to identify these mutations, and about what the findings mean for research in genetics and developmental biology. The Scientist: How were you and your colleagues able to identify mutations that had arisen specifically during development? K\u00e1ri Stef\u00e1nsson MAGNUS ANDERSEN K\u00e1ri Stef\u00e1nsson: To be able to do this study, we had to sequence the genomes of identical twins, their parents, their children, and their spouses.",
+      "source_url": "https://www.the-scientist.com/news-opinion/identical-twins-accumulate-genetic-differences-in-the-womb-68324",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "Are Twins Genetically Identical? | Sequencing.com Are Twins Genetically Identical? We may be wrong about identical twins. They may not be as identical as we think, which is why they may look different and suffer from different diseases. Learn more here. One of the most common questions ask online is, \u201cAre twins genetically identical?\u201d Most people would think twins are genetically identical, but that may not be true according to a recent study. How Are Identical Twins Formed Twinning refers to the formation of twins during conception. There are two types of twins: fraternal twins and identical twins. Fraternal twins form when one sperm cell fertilizes an egg and, at the same time, another sperm cell fertilizes a different egg cell. This creates two different fertilized eggs during the same pregnancy. Identical or monozygotic twins occur when there\u2019s one egg that is fertilized by one sperm, and this single fertilized egg splits into two eggs. Since identical twins arise from the same fertilized egg, it makes sense that the twins would have identical DNA. Over the years, twin studies have tried to come up with a reason many twins end up having differences. Up until recently, environmental factors were the answer to the difference between them, but that may not be the only factor. Genetic Differences Among Twins \u2060Many studies as far back as 2008 have been performed that have found genetic differences between identical twins, but there\u2019s hasn\u2019t been a study that has shown significant differences. Geneticist Carl Bruder of the University of Alabama at Birmingham and colleagues compared the genomes of 19 sets of adult identical twins. One of the twin\u2019s DNA differed from the others on some points of the genome, specifically one had a different number of copies of the same gene, which is called copy number variants. Usually, people have two copies of every gene. Some parts of a human genome called copy number variations (CNVs) may have more than two copies, though. CNVs may have over 14 copies! Can One Identical Twin Have a Genetic Disorder?",
+      "source_url": "https://sequencing.com/blog/post/are-twins-genetically-identical",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "Identical twins don't share 100% of their DNA | Live Science Identical twins don't share 100% of their DNA Identical twins form from the same egg and get the same genetic material from their parents \u2014 but that doesn't mean they're genetically identical by the time they're born. That's because so-called identical twins pick up genetic mutations in the womb, as their cells weave new strands of DNA and then split into more and more cells. On average, pairs of twins have genomes that differ by an average of 5.2 mutations that occur early in development, according to a new study. \"One particularly surprising observation is that in many twin pairs, some mutations are carried by nearly all cells in one twin but completely absent in the other,\" Ziyue Gao, an assistant professor of genetics at the University of Pennsylvania, who was not involved in the research, said in an email. The study authors estimate that, in about 15% of identical twin pairs, one twin carries a \"substantial\" number of mutations that the other does not share. \"That can be up to about 10 to 15 mutations,\" said senior author Kari Stefansson, CEO of deCODE genetics, a subsidiary of the biopharmaceutical company Amgen that studies the human genome. The study did not specify where in the genome these mutations occur, or if they mostly crop up in genes that code for specific kinds of proteins; this could be an area of future research, Stefansson said. Twinning occurs when a single fertilized egg, called a zygote, splits and gives rise to two separate embryos; this typically occurs between one and seven days after fertilization, Stefansson said, although in rarer cases, twinning can occur between Day 8 and 13. The later the split occurs, the more cells will have accumulated when the twins separate. So when one twin has many mutations that the other doesn't, it's possible that the siblings may have split from each other extremely early in development, soon after their shared egg first divided into two separate cells, Gao said.",
+      "source_url": "https://www.livescience.com/identical-twins-dont-share-all-dna.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "Identical twin | Britannica Cognitive or behavioral characteristics that are entirely under genetic control would be predicted to be the same, or concordant, in monozygotic twins, who share identical genes regardless of their upbringing. These same characteristics would be predicted to be less concordant in\u2026 \u2026genetically identical\u2014with the exception of identical twins, which develop from a single fertilized ovum. The same conclusion applies to all organisms that reproduce sexually; every individual represents a unique genetic configuration that will likely never be repeated again. This enormous reservoir of genetic variation in natural populations provides virtually unlimited\u2026 In a major nonfraternal type of twinning, only one egg is fertilized, but during the cleavage of this single zygote into two cells, the resulting pair somehow become separated. Each of the two cells may implant in the uterus separately and grow into\u2026 heritability of intelligence studies \u2026intelligence is the study of identical twins who were separated at an early age and reared apart. If the twins were raised in separate environments, and if it is assumed that when twins are separated they are randomly distributed across environments (often a dubious assumption), then the twins would have\u2026 mental disorders \u2026both members of pairs of identical (monozygous) twins is compared with its frequency in both members of a pair of fraternal (dizygous) twins. A higher concordance for disease among the identical than the fraternal twins suggests a genetic component. Further information on the relative importance of genetic and environmental factors\u2026 twin types \u2026kinds: the one-egg (monozygotic), or identical, type and the two-egg (dizygotic), or fraternal, type. The latter type is more usual and can be thought of simply as a litter of two. In humans, psychological studies of sets of identical twins, since they are genetically identical, have provided much otherwise unobtainable\u2026 zygotes In humans, identical twins develop from a zygote that splits into two separate cell masses at a relatively early stage in its growth.",
+      "source_url": "https://www.britannica.com/science/identical-twin",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d13",
+      "text": "Genetically identical twins show comparable tau PET load and ... Abstract Tau accumulation starts during the preclinical phase of Alzheimer's disease and is closely associated with cognitive decline. For preventive purposes, it is important to identify factors associated with tau accumulation and spread. Studying genetically identical twin-pairs may give insight into genetic and environmental contributions to tau pathology, as similarities in identical twin-pairs largely result from genetic factors, while differences in identical twin-pairs can largely be attributed to non-shared, environmental factors. This study aimed to examine similarities and dissimilarities in a cohort of genetically identical older twin-pairs in (i) tau load; and (ii) spatial distribution of tau, measured with 18F-flortaucipir PET. We selected 78 genetically identical twins (39 pairs; average age 73 \u00b1 6 years), enriched for amyloid-\u03b2 pathology and APOE \u03b54 carriership, who underwent dynamic 18F-flortaucipir PET. We extracted binding potentials (BPND) in entorhinal, temporal, widespread neocortical and global regions, and examined within-pair similarities in BPND using age and sex corrected intra-class correlations. Furthermore, we tested whether twin-pairs showed a more similar spatial 18F-flortaucipir distribution compared to non-twin pairs, and whether the participant's co-twin could be identified solely based on the spatial 18F-flortaucipir distribution. Last, we explored whether environmental (e.g. physical activity, obesity) factors could explain observed differences in twins of a pair in 18F-flortaucipir BPND. On visual inspection, Alzheimer's disease-like 18F-flortaucipir PET patterns were observed, and although we mainly identified similarities in twin-pairs, some pairs showed strong dissimilarities. 18F-flortaucipir BPND was correlated in twins in the entorhinal (r = 0.40; P = 0.01), neocortical (r =",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35022652/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d14",
+      "text": "NOVA Online | Teachers | Viewing Ideas | NOVA scienceNOW ... As a class, brainstorm analogy examples such as: Keysof a piano are to the genome as fingers are to the epigenome. Wires in an electric circuit are to the genome as switches are to the epigenome. Then ask teams to generate other ways of showing the relationship of the genome to the epigenome. Have teams share their work. Discuss \"nature versus nurture\" questions about identical and fraternal twins. On the board, diagram how identical and fraternal twins compare genetically. Explain that with identical twins, a single fertilized egg splits into two genetically identical parts, each having the same DNA. With fraternal twins, two separate eggs are fertilized. Point out that identical twins are genetically identical, while fraternal twins are only as genetically similar as typical siblings are. Divide the class into groups and have groups discuss, research, and prepare responses to the following nature/nurture-related questions: Which type of twins, identical or fraternal, always shares the same blood type? (Identical) Should blood type be used to determine whether a set of twins is identical or fraternal? Why or why not? (No, fraternal twins may have the same blood type.) Do identical twins always have the same handedness? Why or Why not? (Not always, right or left handedness isn't entirely determined by genetics.) Do identical twins always have the same eye color? (Almost always, though some diseases can change eye color.) Hair color? Explain your answer. (Natural hair color is almost always the same, but hair can be dyed.) Do identical twins always have the same fingerprints? Why or why not? (Not necessarily, some identical twins have mirror-image prints.) Would identical or fraternal twins prefer the same type of music? Explain your answer. (Not necessarily. Answers will vary.)",
+      "source_url": "https://www.pbs.org/wgbh/nova/teachers/viewing/3411_02_nsn.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d15",
+      "text": "Phenotypic differences in genetically identical organisms: the ... Abstract Human monozygotic twins and other genetically identical organisms are almost always strikingly similar in appearance, yet they are often discordant for important phenotypes including complex diseases. Such variation among organisms with virtually identical chromosomal DNA sequences has largely been attributed to the effects of environment. Environmental factors can have a strong effect on some phenotypes, but evidence from both animal and human experiments suggests that the impact of environment has been overstated and that our views on the causes of phenotypic differences in genetically identical organisms require revision. New theoretical and experimental opportunities arise if epigenetic factors are considered as part of the molecular control of phenotype. Epigenetic mechanisms may explain paradoxical findings in twin and inbred animal studies when phenotypic differences occur in the absence of observable environmental differences and also when environmental differences do not significantly increase the degree of phenotypic variation. INTRODUCTION Identical human twins have been a source of superstition and fascination throughout human history, from Romulus and Remus, the mythical founders of Rome, to movies such as Cronenberg's \u2018Dead Ringers\u2019, to the twin paradox in the theory of special relativity (1). For biologists and psychologists, twins have been an important resource for exploring the etiology of disease and for understanding the role of genetic and environmental factors in determining phenotype, and this fundamental question was first enunciated in its alliterated form by Galton in the 19th century (2). The relative contribution of nature versus nurture can be estimated by comparing the degree of phenotypic similarities in monozygotic (MZ) versus dizygotic (DZ) twins. MZ twins arise from the same zygote, whereas dizygotic twins arise from a pair of separate eggs, fertilized by two different sperm. As a result, MZ twins have the same chromosomal DNA sequence, except for very small errors of DNA replication after the four to eight cell zygote stage. MZ twins share all of their nuclear DNA, whereas DZ twins share only 50% of DNA sequence variation, on average.",
+      "source_url": "https://academic.oup.com/hmg/article/14/suppl_1/R11/560905",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "States identical twins share the same genetic information, directly addressing the query. Also mentions DNA testing as a differentiator."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Explicitly states monozygotic twins are 'nearly genetically identical' and discusses genetic background, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states identical twins are not genetically the same, with an average of 5.2 genetic changes, answering the query with nuance."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "States monozygotic twins are not genetically identical, directly answering the query and providing context on research into genetic differences."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions identical twins have the same genes but don't always look the same, implying genetic identity but acknowledging other factors."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Announces the discovery that identical twins have differences in their genetic makeup, directly contradicting the assumption of identical DNA."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains identical twins come from a single egg and share the same genetic material, directly answering the query."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.88,
+          "is_relevant": true,
+          "reason": "States identical twins develop from a single fertilized egg and have the same genome, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.96,
+          "is_relevant": true,
+          "reason": "States identical twins are not as identical as previously assumed and accumulate genetic variation from early development."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.93,
+          "is_relevant": true,
+          "reason": "Questions the assumption of identical DNA in identical twins and mentions studies finding genetic differences, directly addressing the query."
+        },
+        {
+          "doc_id": "d11",
+          "relevance_score": 0.97,
+          "is_relevant": true,
+          "reason": "Directly states identical twins don't share 100% of their DNA due to mutations acquired in the womb."
+        },
+        {
+          "doc_id": "d12",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions identical twins develop from a single fertilized ovum and are genetically identical, but also discusses variation and research implications."
+        },
+        {
+          "doc_id": "d13",
+          "relevance_score": 0.78,
+          "is_relevant": true,
+          "reason": "Discusses genetically identical twin-pairs and attributes differences to non-shared environmental factors, implying a high degree of genetic identity."
+        },
+        {
+          "doc_id": "d14",
+          "relevance_score": 0.82,
+          "is_relevant": true,
+          "reason": "States identical twins are genetically identical and share the same DNA, while also noting exceptions like fingerprints."
+        },
+        {
+          "doc_id": "d15",
+          "relevance_score": 0.94,
+          "is_relevant": true,
+          "reason": "States MZ twins have the same chromosomal DNA sequence, except for small errors after the zygote stage, directly addressing the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Identical twins share the same genetic information.",
+            "Identical twins have a high likelihood of experiencing the same illnesses or having the same health condition.",
+            "Identical twins are compatible for organ transplantation."
+          ],
+          "reason": "Extracted facts stating that identical twins share genetic information, are prone to similar illnesses, and are compatible for organ transplants, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Monozygotic twins (identical twins) are nearly genetically identical.",
+            "Phenotypic traits and heritable diseases are often concordant in identical twins.",
+            "Environmental factors likely play a role in determining phenotypic differences between identical twins."
+          ],
+          "reason": "Extracted facts confirming identical twins are nearly genetically identical but also highlighting environmental influences on phenotypic differences, relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "On average, identical twins differ by 5.2 genetic changes.",
+            "Most identical twins have some differences in DNA that arose early in development.",
+            "Some identical twins have many genetic differences, including over 100 changes between them."
+          ],
+          "reason": "Extracted specific quantitative data on genetic differences between identical twins, directly contradicting the notion of perfect genetic identity and answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Identical (monozygotic) twins are not genetically identical.",
+            "Differences in the genetic makeup of monozygotic twins can be related to disease."
+          ],
+          "reason": "Extracted the direct statement that identical twins are not genetically identical and linked these genetic differences to disease, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Although identical twins have the same genes, they don't always look the same.",
+            "Children's health and development are shaped by genes, experiences in the womb, and after birth."
+          ],
+          "reason": "Extracted facts stating identical twins have the same genes but can differ in appearance due to environmental factors, relevant to the query about genetic identity."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Identical twins have differences in their genetic makeup.",
+            "DNA testing can now identify which identical twin was involved in forensic or paternity cases."
+          ],
+          "reason": "Extracted the discovery that identical twins have genetic differences, which changes previous understanding and allows for differentiation in testing, directly answering the query."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Identical twins (monozygotic) are conceived from a single egg that splits into two distinctive embryos.",
+            "Identical twins come from the same genetic material."
+          ],
+          "reason": "Extracted the definition of identical twins originating from a single egg and stated they come from the same genetic material, providing foundational information for the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Because identical twins develop from a single fertilized egg, they have the same genome.",
+            "Differences between identical twins are due to their environments, not genetics."
+          ],
+          "reason": "Extracted the statement that identical twins have the same genome, attributing differences to environment, which is a common perspective but contrasts with other findings."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Identical twins are not as identical as previously assumed.",
+            "Twins start accumulating genetic variation from the earliest stages of development.",
+            "At birth, identical twins may already differ genetically from each other."
+          ],
+          "reason": "Extracted key findings that identical twins accumulate genetic variation early in development and may differ genetically at birth, directly answering the query."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Identical twins may not be as identical as we think.",
+            "Many studies have found genetic differences between identical twins.",
+            "One twin's DNA differed on some points, specifically having a different number of copies of the same gene (copy number variants)."
+          ],
+          "reason": "Extracted findings that identical twins are not perfectly identical and cite specific genetic differences like copy number variants, directly answering the query."
+        },
+        {
+          "doc_id": "d11",
+          "key_facts": [
+            "Identical twins don't share 100% of their DNA.",
+            "Identical twins pick up genetic mutations in the womb.",
+            "On average, pairs of twins have genomes that differ by an average of 5.2 mutations."
+          ],
+          "reason": "Extracted direct statements that identical twins do not share 100% of their DNA and accumulate mutations in the womb, providing quantitative data on differences."
+        },
+        {
+          "doc_id": "d12",
+          "key_facts": [
+            "Identical twins develop from a single fertilized ovum.",
+            "Identical twins are genetically identical, with the exception of mutations that occur after the zygote stage."
+          ],
+          "reason": "Extracted the definition of identical twins originating from a single ovum and stated they are genetically identical, with a caveat about post-zygote mutations."
+        },
+        {
+          "doc_id": "d13",
+          "key_facts": [
+            "Genetically identical twins largely share similarities due to genetic factors.",
+            "Differences in genetically identical twins can largely be attributed to non-shared environmental factors."
+          ],
+          "reason": "Extracted facts stating that similarities in identical twins are genetic and differences are environmental, providing context for the query about genetic identity."
+        },
+        {
+          "doc_id": "d14",
+          "key_facts": [
+            "Identical twins are genetically identical, while fraternal twins are only as genetically similar as typical siblings.",
+            "Identical twins do not always have the same handedness.",
+            "Identical twins do not always have the same fingerprints."
+          ],
+          "reason": "Extracted facts stating identical twins are genetically identical but noting exceptions like handedness and fingerprints, which are influenced by factors beyond pure genetics."
+        },
+        {
+          "doc_id": "d15",
+          "key_facts": [
+            "Monzygotic (MZ) twins have the same chromosomal DNA sequence, except for very small errors of DNA replication after the four to eight cell zygote stage.",
+            "MZ twins share all of their nuclear DNA, whereas dizygotic twins share only 50% of DNA sequence variation, on average."
+          ],
+          "reason": "Extracted facts stating MZ twins share nuclear DNA except for minor replication errors, directly addressing the genetic identity aspect of the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States identical twins share the same genetic information, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "States identical twins are nearly genetically identical but acknowledges environmental influences on differences.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Provides quantitative data showing identical twins have genetic differences, directly contradicting perfect identity.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states identical twins are not genetically identical and links differences to disease.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions identical twins have the same genes but appearance differs due to environment, indirectly addressing genetic identity.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "States identical twins have genetic differences, allowing for differentiation in testing, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "States identical twins come from the same genetic material, which is generally true but doesn't account for post-zygotic mutations.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "partially_supports",
+          "reason": "Claims identical twins have the same genome, attributing differences to environment, which is a common but not entirely accurate view.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Highlights that identical twins accumulate genetic variation and may differ genetically at birth, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "States identical twins are not perfectly identical and cites specific genetic differences, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d11",
+          "verdict": "supports",
+          "reason": "Directly states identical twins don't share 100% DNA and accumulate mutations, providing quantitative data on differences.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d12",
+          "verdict": "partially_supports",
+          "reason": "States identical twins are genetically identical except for post-zygote mutations, which is a nuanced but direct answer.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d13",
+          "verdict": "partially_supports",
+          "reason": "Attributes similarities to genetics and differences to environment, providing context but not a direct answer on perfect identity.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d14",
+          "verdict": "partially_supports",
+          "reason": "States identical twins are genetically identical but notes non-genetic differences like fingerprints, which indirectly relates to the query.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d15",
+          "verdict": "supports",
+          "reason": "States MZ twins share nuclear DNA except for minor replication errors, directly addressing the genetic identity aspect.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d6",
+          "d9",
+          "d10",
+          "d11",
+          "d15"
+        ],
+        "partial_docs": [
+          "d2",
+          "d5",
+          "d7",
+          "d8",
+          "d12",
+          "d13",
+          "d14"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_contradiction_of_perfect_identity",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6",
+              "d9",
+              "d10",
+              "d11"
+            ],
+            "summary": "Multiple documents directly state that identical twins are not genetically identical, citing accumulating variations, mutations, and specific differences like copy number variants."
+          },
+          {
+            "label": "nuanced_genetic_identity",
+            "doc_ids": [
+              "d1",
+              "d12",
+              "d15"
+            ],
+            "summary": "Some documents support the idea of near-genetic identity, with minor exceptions for post-zygotic mutations or replication errors."
+          },
+          {
+            "label": "environmental_influence_on_differences",
+            "doc_ids": [
+              "d2",
+              "d5",
+              "d8",
+              "d13",
+              "d14"
+            ],
+            "summary": "Several documents acknowledge that while identical twins share genetic material, environmental factors contribute to phenotypic differences, or that non-genetic traits can differ."
+          },
+          {
+            "label": "foundational_definition",
+            "doc_ids": [
+              "d7"
+            ],
+            "summary": "One document provides the basic definition of identical twins originating from the same genetic material."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "Evidence presents conflicting claims about the genetic identity of identical twins, with some stating they are identical and others detailing significant genetic differences.",
+        "clusters": [
+          {
+            "label": "Identical Twins are Genetically Different",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6",
+              "d9",
+              "d10",
+              "d11"
+            ],
+            "summary": "Multiple sources assert that identical twins are not genetically identical, citing accumulating variations, mutations, and specific differences like copy number variants."
+          },
+          {
+            "label": "Identical Twins are Genetically Identical (with caveats)",
+            "doc_ids": [
+              "d1",
+              "d12",
+              "d15"
+            ],
+            "summary": "Some documents support the idea of near-genetic identity, with minor exceptions for post-zygotic mutations or replication errors."
+          },
+          {
+            "label": "Environmental Influence on Differences",
+            "doc_ids": [
+              "d2",
+              "d5",
+              "d7",
+              "d8",
+              "d13",
+              "d14"
+            ],
+            "summary": "Several documents acknowledge that while identical twins share genetic material, environmental factors contribute to phenotypic differences, or that non-genetic traits can differ."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "While there's a conflict, the majority of evidence supports that identical twins are not perfectly genetically identical due to mutations and variations, with some acknowledging near-identity and environmental influences. A nuanced answer is possible."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Identical twins are not perfectly genetically identical. While they originate from the same genetic material, accumulating variations, mutations, and specific differences like copy number variants mean they are not identical. Some sources acknowledge near-genetic identity with minor exceptions, and environmental factors also contribute to phenotypic differences.",
+        "citations": [
+          "d1",
+          "d3",
+          "d4",
+          "d6",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d15",
+          "d2",
+          "d5",
+          "d8",
+          "d13",
+          "d14"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The majority of evidence supports that identical twins are not perfectly genetically identical due to mutations and variations, with some acknowledging near-identity and environmental influences. A nuanced answer is possible."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that identical twins are not perfectly genetically identical, citing evidence of accumulating variations and mutations. All claims are well-supported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 27340,
+      "completion_tokens": 4788,
+      "total_tokens": 32128
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 5387,
+        "completion_tokens": 1049,
+        "total_tokens": 6436
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 5342,
+        "completion_tokens": 1611,
+        "total_tokens": 6953
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1780,
+        "completion_tokens": 959,
+        "total_tokens": 2739
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2425,
+        "completion_tokens": 478,
+        "total_tokens": 2903
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2824,
+        "completion_tokens": 340,
+        "total_tokens": 3164
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 865,
+        "completion_tokens": 61,
+        "total_tokens": 926
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1031,
+        "completion_tokens": 193,
+        "total_tokens": 1224
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 7686,
+        "completion_tokens": 97,
+        "total_tokens": 7783
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:42.518186",
+        "prompt_tokens": 5387,
+        "completion_tokens": 1049,
+        "total_tokens": 6436,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:48.090833",
+        "prompt_tokens": 5342,
+        "completion_tokens": 1611,
+        "total_tokens": 6953,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:51.167739",
+        "prompt_tokens": 1780,
+        "completion_tokens": 959,
+        "total_tokens": 2739,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:53.451852",
+        "prompt_tokens": 2425,
+        "completion_tokens": 478,
+        "total_tokens": 2903,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:55.877709",
+        "prompt_tokens": 2824,
+        "completion_tokens": 340,
+        "total_tokens": 3164,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:56.927723",
+        "prompt_tokens": 865,
+        "completion_tokens": 61,
+        "total_tokens": 926,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:40:59.077403",
+        "prompt_tokens": 1031,
+        "completion_tokens": 193,
+        "total_tokens": 1224,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:01.330072",
+        "prompt_tokens": 7686,
+        "completion_tokens": 97,
+        "total_tokens": 7783,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:40:30.868073",
+  "last_updated_at": "2026-04-17T18:41:01.330776"
+}

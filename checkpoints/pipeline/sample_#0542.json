@@ -1,0 +1,383 @@
+{
+  "sample_id": "#0542",
+  "query": "Who wrote the jazz classic i got rhythm?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "video of the band performing the song is on the DVD \"Family Jewels\". The song is also featured in the 2006 film \"\". Girls Got Rhythm \"Girls Got Rhythm\" is a song by popular rock band AC/DC. It is found on their 1979 album \"Highway to Hell.\" The song was released as a single the same year. An EP was released in 1979 containing the songs: A1. \"Girls Got Rhythm\"; A2. \"If You Want Blood (You've Got It)\"; B1. \"Hell Ain't a Bad Place to Be\" (live; taken from \"If You Want Blood\"); B2. \"Rock and Roll Damnation\" (live; taken",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1991-09-23"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Blue Rhythm Band entitled \"There's Rhythm in Harlem\" which had been composed and arranged by Garland. Before offering it to Miller, Garland sold it in 1938 to Artie Shaw, who chose not to record it because the original arrangement was too long. But he did perform it in concert. Artie Shaw's version was over six minutes long and met a lackluster audience response. Jerry Gray arranged Shaw's version. The band later performed a shorter version. The Hayes recording was over three minutes in length to fit on one side of a 78 record. The song was sold in 1939 to",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "as his debut single, Delray's version featured guest vocals from Cash, as well as a guest appearance by him in the music video. It peaked at #27 on the country charts. Get Rhythm \"Get Rhythm\" is a song written and recorded by American singer-songwriter and musician Johnny Cash. It was originally released as the B-side to the single release \"I Walk the Line\" in 1956 on Sun 241. It was re-released with overdubbed \"live\" effects in September 1969 as an A-side single and reached number 60 on the Billboard Pop chart. The song is about optimism, centering on a shoeshine",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2011-08-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "typical dance fare of the era. However, during the period between November 1929 and March 1931, there was a scattering of hot jazz versions of popular tunes, with notable solos by Bunny Berigan, Tommy Dorsey, Jimmy Dorsey, Joe Venuti, and Eddie Lang. These celebrated recordings include 'A Peach of a Pair\" (October 29, 1930), \"I Got Rhythm\"(October 29, 1930), \"Cheerful Little Earful\" (November 19, 1930), and \"I'm Tickled Pink with a Blue-Eyed Baby\" (November 19, 1930). As \"Freddie Rich,\" he recorded dozens of popular-title piano rolls in the 1920s for the Aeolian Company, both for its reproducing Duo-Art system and",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "a flop Broadway musical, \"Change Your Luck\", which starred Hamtree Harrington and Alberta Hunter. He had greater success, however, in writing songs for Bessie Smith - including \"Black Mountain Blues\", \"Haunted House Blues\", and \"Empty Bed Blues\" (later recorded by LaVern Baker) - and for Fats Waller - including \"Believe It, Beloved\", \"Rhythm and Romance\", and \"You Stayed Away Too Long\". Some of his songs in this period, including two hits for the Boswell Sisters, \"That's How Rhythm Was Born\" and \"Don't Let Your Love Go Wrong\", were written in collaboration with Nat Burton and George Whiting. He also worked  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1998-01-25"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses a song by AC/DC titled \"Girls Got Rhythm\", which is unrelated to the jazz classic \"I Got Rhythm\"."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions a song titled \"There's Rhythm in Harlem\" and discusses its composition and arrangement, but not \"I Got Rhythm\"."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about Johnny Cash's song \"Get Rhythm\", not the jazz classic \"I Got Rhythm\"."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document explicitly mentions \"I Got Rhythm\" as a hot jazz version of a popular tune recorded in 1930, providing context for its era."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses songs written by an unnamed individual for Bessie Smith and Fats Waller, and mentions \"Rhythm and Romance\", but not \"I Got Rhythm\"."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "\"Girls Got Rhythm\" is a song by AC/DC, found on their 1979 album \"Highway to Hell.\""
+          ],
+          "reason": "Extracted the artist and album for the song \"Girls Got Rhythm\" as it was present in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The song \"There's Rhythm in Harlem\" was composed and arranged by Garland and sold in 1938 to Artie Shaw."
+          ],
+          "reason": "Extracted information about the song \"There's Rhythm in Harlem,\" its composer, and its sale to Artie Shaw."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "\"Get Rhythm\" is a song written and recorded by Johnny Cash, originally released as the B-side to \"I Walk the Line\" in 1956."
+          ],
+          "reason": "Extracted the writer and original release details for the song \"Get Rhythm.\""
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "\"I Got Rhythm\" was recorded on October 29, 1930, as a hot jazz version of a popular tune."
+          ],
+          "reason": "Extracted the recording date and genre for the song \"I Got Rhythm.\""
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Songs written by the subject include \"Black Mountain Blues\", \"Haunted House Blues\", and \"Empty Bed Blues\" for Bessie Smith.",
+            "Songs written by the subject for Fats Waller include \"Believe It, Beloved\", \"Rhythm and Romance\", and \"You Stayed Away Too Long\".",
+            "\"That's How Rhythm Was Born\" and \"Don't Let Your Love Go Wrong\" were written in collaboration with Nat Burton and George Whiting."
+          ],
+          "reason": "Extracted facts about songs written by the subject for various artists and collaborations."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses AC/DC's song \"Girls Got Rhythm,\" which is not the jazz classic \"I Got Rhythm.\"",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document is about the song \"There's Rhythm in Harlem,\" not the jazz classic \"I Got Rhythm.\"",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses Johnny Cash's song \"Get Rhythm,\" not the jazz classic \"I Got Rhythm.\"",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "This document mentions \"I Got Rhythm\" and its recording date and genre, but does not state who wrote it.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document lists songs written by the subject for Bessie Smith and Fats Waller, but does not mention \"I Got Rhythm.\"",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Contains partial information about the song \"I Got Rhythm\" but lacks details on its writer."
+          },
+          {
+            "label": "irrelevant_songs",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents discuss songs with similar titles or themes but are not the jazz classic \"I Got Rhythm\" or do not mention it."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Most documents are irrelevant, and one offers partial information about the song \"I Got Rhythm\" without contradicting other sources.",
+        "clusters": [
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Contains partial information about the song \"I Got Rhythm\" but lacks details on its writer."
+          },
+          {
+            "label": "irrelevant_songs",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents discuss songs with similar titles or themes but are not the jazz classic \"I Got Rhythm\" or do not mention it."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence is sparse and mostly irrelevant, with only partial information available. This lack of sufficient supporting detail makes it impossible to provide a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence is sparse and mostly irrelevant, with only partial information available. This lack of sufficient supporting detail makes it impossible to provide a reliable answer.",
+        "final_reasoning": "The provided documents do not contain sufficient information to answer the query. The available evidence is either irrelevant or only partially addresses the topic."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. There are no citations to support the claim, and the documents do not contain the answer to the query."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8874,
+      "completion_tokens": 1900,
+      "total_tokens": 10774
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1477,
+        "completion_tokens": 383,
+        "total_tokens": 1860
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1432,
+        "completion_tokens": 508,
+        "total_tokens": 1940
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 901,
+        "completion_tokens": 350,
+        "total_tokens": 1251
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1067,
+        "completion_tokens": 215,
+        "total_tokens": 1282
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1275,
+        "completion_tokens": 204,
+        "total_tokens": 1479
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 574,
+        "completion_tokens": 48,
+        "total_tokens": 622
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 727,
+        "completion_tokens": 96,
+        "total_tokens": 823
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1421,
+        "completion_tokens": 96,
+        "total_tokens": 1517
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:18.996339",
+        "prompt_tokens": 1477,
+        "completion_tokens": 383,
+        "total_tokens": 1860,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:21.363426",
+        "prompt_tokens": 1432,
+        "completion_tokens": 508,
+        "total_tokens": 1940,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:23.323713",
+        "prompt_tokens": 901,
+        "completion_tokens": 350,
+        "total_tokens": 1251,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:24.419762",
+        "prompt_tokens": 1067,
+        "completion_tokens": 215,
+        "total_tokens": 1282,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:25.599347",
+        "prompt_tokens": 1275,
+        "completion_tokens": 204,
+        "total_tokens": 1479,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:26.701955",
+        "prompt_tokens": 574,
+        "completion_tokens": 48,
+        "total_tokens": 622,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:27.805664",
+        "prompt_tokens": 727,
+        "completion_tokens": 96,
+        "total_tokens": 823,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:28.864023",
+        "prompt_tokens": 1421,
+        "completion_tokens": 96,
+        "total_tokens": 1517,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:00:17.421766",
+  "last_updated_at": "2026-04-17T20:00:28.864543"
+}

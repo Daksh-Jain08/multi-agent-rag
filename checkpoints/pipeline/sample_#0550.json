@@ -1,0 +1,407 @@
+{
+  "sample_id": "#0550",
+  "query": "Who plays lilly on the young and the restless?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Lily Winters Lily Winters is a fictional character from the American CBS soap opera \"The Young and the Restless\". Created by William J. Bell, the character appeared as a child for her first five-year period. In 2002, Christel Khalil began portraying Lily as a teenager after the character rapidly aged. In 2005, Khalil left the series, resulting in the character's recasting with Davetta Sherwood; however, Sherwood's portrayal was brief when Khalil asked to return the following year. Khalil began playing the character as a \"rebellious, yet naive teenager\", later becoming one of the soap opera's heroines. Winters is the daughter",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2018-03-04"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of supermodel-turned-executive Drucilla Winters (Victoria Rowell) born in the midst of a questioned paternity storyline, with Neil Winters (Kristoff St. John) believing he was her father. Eleven years later, the storyline was readdressed with the revelation that Malcolm Winters (Shemar Moore) is her biological father. Lily later began a relationship with Daniel Romalotti (Michael Graziadei), a romance inspired by \"Romeo and Juliet\". The couple were popular with viewers, who were saddened at their separation (because of Daniel's addiction to pornography). Lily was later paired with leading character Cane Ashby (Daniel Goddard), a romance that has attracted significant fan attention. In",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2012-02-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "a 6-year-old, portrayed by Sophie Pollono, when the character was diagnosed with leukemia. Pollono portrayed the role for two years until October 2013, when the character was struck by a car and killed. However, Pollono continues to make appearances as a hallucination to other characters. Delia was born in February 2009, at the Abbott cabin, with Billy and Lily Winters (Christel Khalil) helping deliver her. Since the character's rapid aging, Delia had been kidnapped, and was later diagnosed with acute myeloid leukemia and was in need of a bone marrow transplant. All of her relatives get tested to become her",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "names of those Shakespearean characters as Lily became Ibejuliet and Daniel took on the name Iberomeo. Two months after Khalil's departure, the \"Young and the Restless\" attempted to convince the actress to come back to the role. Those attempts failed.<ref name=\"SoapsInDepth 10/31/06\"></ref> The show's then head writer and executive producer John F. Smith planned to recast the role and promised to \"bring an entirely new level\" to Daniel and Lily's story. Davetta Sherwood was hired as the Lily recast. Sherwood expressed unconcern in taking the place of an actress who took part in creating the popular Daniel and Lily romance.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Holden Snyder and Lily Walsh Holden Snyder and Lily Walsh Snyder are fictional characters and the signature supercouple of the CBS daytime soap opera \"As the World Turns\". The role of Lily was first portrayed by actress Lucy Deakins from 1984 until her departure in 1985, when actress Martha Byrne joined the cast in 1985, which began the pairing of Lily with Holden opposite actor Jon Hensley. Byrne departed the role of Lily in 1989, and it was recast with actress Heather Rattray. In 1993, Rattray was let go from the series and Byrne returned to the role. In 2008,  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2004-03-25"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that Christel Khalil began portraying Lily Winters as a teenager in 2002 and returned in 2006."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Provides context about Lily Winters' character, including her relationships and parentage, which is relevant to the character's portrayal."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions Lily Winters (Christel Khalil) in the context of delivering a baby, which is relevant to the character's storyline."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Discusses Davetta Sherwood being hired as a recast for Lily and mentions Christel Khalil's departure and return, directly addressing who plays the role."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses a character named Lily Walsh from a different soap opera, \"As the World Turns,\" which is not relevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Christel Khalil began portraying Lily Winters as a teenager in 2002.",
+            "Davetta Sherwood briefly portrayed Lily in 2005 after Christel Khalil left.",
+            "Christel Khalil returned to portray Lily in 2006."
+          ],
+          "reason": "Extracted facts about the actresses who have played the character Lily Winters on \"The Young and the Restless\" and the timeline of their portrayals."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Lily Winters is the daughter of Drucilla Winters and biological daughter of Malcolm Winters.",
+            "Lily Winters had a relationship with Daniel Romalotti.",
+            "Lily Winters was later paired with Cane Ashby."
+          ],
+          "reason": "Extracted facts about Lily Winters' parentage and significant romantic relationships on the show."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "A 6-year-old Lily Winters was portrayed by Sophie Pollono.",
+            "Lily Winters helped deliver Delia in February 2009."
+          ],
+          "reason": "Extracted facts about the actress who played a younger Lily Winters and her involvement in another character's birth."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Davetta Sherwood was hired to recast the role of Lily after Christel Khalil's departure.",
+            "The \"Young and the Restless\" attempted to convince Christel Khalil to return to the role of Lily."
+          ],
+          "reason": "Extracted facts regarding the recasting of Lily Winters and attempts to bring back the original actress."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The role of Lily Walsh Snyder on \"As the World Turns\" was first portrayed by Lucy Deakins from 1984 to 1985.",
+            "Martha Byrne portrayed Lily Walsh Snyder from 1985 until 1989.",
+            "Heather Rattray portrayed Lily Walsh Snyder from 1989 until 1993.",
+            "Martha Byrne returned to the role of Lily Walsh Snyder in 1993."
+          ],
+          "reason": "Extracted facts about the actresses who played Lily Walsh Snyder on \"As the World Turns\" and the timeline of their portrayals."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Identifies Christel Khalil as the primary actress playing Lily Winters since 2002, with a brief recasting by Davetta Sherwood.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Provides information about Lily Winters' family and relationships, but not about the actress who plays her.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Sophie Pollono played a young Lily Winters, but doesn't identify the main adult actress.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Confirms Davetta Sherwood recast Lily after Christel Khalil left and that efforts were made to bring Khalil back.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Discusses actresses who played Lily Walsh Snyder on \"As the World Turns,\" a different character and show.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "primary_actress_info",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide strong evidence about Christel Khalil being the primary actress for Lily Winters, with Davetta Sherwood as a recasting."
+          },
+          {
+            "label": "child_actress_mention",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 partially supports by mentioning a child actress for Lily Winters, but lacks information on the main adult portrayal."
+          },
+          {
+            "label": "off_topic_information",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 are irrelevant, with d2 discussing character relationships and d5 detailing actresses for a different character on another show."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence is consistent, with primary sources identifying Christel Khalil as the main actress for Lily Winters and Davetta Sherwood as a brief recasting. Other documents are either irrelevant or provide partial, non-conflicting details.",
+        "clusters": [
+          {
+            "label": "primary_actress_info",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide strong evidence about Christel Khalil being the primary actress for Lily Winters, with Davetta Sherwood as a recasting."
+          },
+          {
+            "label": "child_actress_mention",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 partially supports by mentioning a child actress for Lily Winters, but lacks information on the main adult portrayal."
+          },
+          {
+            "label": "off_topic_information",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 are irrelevant, with d2 discussing character relationships and d5 detailing actresses for a different character on another show."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and sufficient, clearly identifying Christel Khalil as the primary actress for Lily Winters, with no significant conflicts."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Christel Khalil is the primary actress for Lily Winters, with Davetta Sherwood having been a recasting. Document d3 partially mentions a child actress for the role.",
+        "citations": [
+          "d1",
+          "d4",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d1 and d4 clearly identify Christel Khalil as the primary actress for Lily Winters, with Davetta Sherwood as a recasting. Document d3 partially supports by mentioning a child actress for the role."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies Christel Khalil as the primary actress and Davetta Sherwood as a recasting, both supported by the cited documents. Document d3's mention of a child actress is also accurate."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9265,
+      "completion_tokens": 2127,
+      "total_tokens": 11392
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1430,
+        "completion_tokens": 380,
+        "total_tokens": 1810
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1385,
+        "completion_tokens": 586,
+        "total_tokens": 1971
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 965,
+        "completion_tokens": 336,
+        "total_tokens": 1301
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1115,
+        "completion_tokens": 252,
+        "total_tokens": 1367
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1384,
+        "completion_tokens": 295,
+        "total_tokens": 1679
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 710,
+        "completion_tokens": 44,
+        "total_tokens": 754
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 859,
+        "completion_tokens": 128,
+        "total_tokens": 987
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 106,
+        "total_tokens": 1523
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:36.649893",
+        "prompt_tokens": 1430,
+        "completion_tokens": 380,
+        "total_tokens": 1810,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:39.128902",
+        "prompt_tokens": 1385,
+        "completion_tokens": 586,
+        "total_tokens": 1971,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:40.768692",
+        "prompt_tokens": 965,
+        "completion_tokens": 336,
+        "total_tokens": 1301,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:42.245255",
+        "prompt_tokens": 1115,
+        "completion_tokens": 252,
+        "total_tokens": 1367,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:43.697748",
+        "prompt_tokens": 1384,
+        "completion_tokens": 295,
+        "total_tokens": 1679,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:44.634329",
+        "prompt_tokens": 710,
+        "completion_tokens": 44,
+        "total_tokens": 754,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:45.661964",
+        "prompt_tokens": 859,
+        "completion_tokens": 128,
+        "total_tokens": 987,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:46.619023",
+        "prompt_tokens": 1417,
+        "completion_tokens": 106,
+        "total_tokens": 1523,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:02:35.154176",
+  "last_updated_at": "2026-04-17T20:02:46.619588"
+}

@@ -1,0 +1,386 @@
+{
+  "sample_id": "#0510",
+  "query": "why nasal congestion seems to switch from nostril to nostril periodically while sick",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "A Sinus Infection Solution; Served on a Silver Platter swear by. A neti pot is a commonly-found container that is designed to wash debris or mucus from the nasal cavity. To try this approach, dilute \u252c\u255d teaspoon of colloidal silver into \u252c\u255c cup of lukewarm water in the neti pot, bend over the sink, and turn your head to the right while putting the tapered end of the neti pot in the right nostril. Pour the solution through the nasal cavity (in the right nostril and out through the left nostril and into the sink). Flush the sinus for 15 seconds on one side before switching over to the",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Home Remedies for Congestion | Health Doyen into one nostril \u0393\u00c7\u00f4 it will come out the other nostril, washing away mucous and irritants. Do this for a minute or more, then switch sides. Repeat once or twice daily for a few days. Ginger has many medicinal properties which help to cure a wide range of diseases and disorders. Ginger is a natural anti-viral and anti-histamine that can destroy all types of microbes and help reduce the inflammation in the mucous membranes, which makes it suitable for treating a cold or nasal congestion. As an anti-inflammatory, ginger may also reduce swollen sinus membranes to assist in clearing sinus",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "What is Nasal Congestion? (with pictures) the neti pot seems awkward to use, because it is literally a pot of saline water that you pour into your nostril holding your head in such a way that the water comes out the other nostril after going through your sinuses and rinsing them out. In fact, I thought it would just feel too weird, but after getting tired of being stuffed up, I thought I should at least try it. And the immediate relief was amazing and it did not feel weird at all, not even a little bit when the water went from nostril to nostril. Occasionally",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2022-07-18"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Deviated Septum Boynton Beach | Nose Dr Delray Beach be identified by the presence of the following symptoms: Noisy breathing during sleep periods (snoring or sleep apnea) Headaches and sinus pressure in the nasal cavity Frequent nasal congestion (one nostril is usually more affected) Obstruction making it difficult to breathe through one or both of the nostrils Dry mouth due to consistent mouth breathing If not accessed early enough, or currently causes sleep apnea or breathing difficulties, surgery may be recommended to straighten the septum. While about 80% of the population is affected by this condition to some degree, a deviated septum is not something to be underestimated. While",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The dubious practice of detox - Harvard Health use of a small pitcher (neti pot) or syringe to stream a saline solution into first one nostril, then the other. The solution passes through the nasal passage and out the other nostril or the mouth. Purpose. Clinicians sometimes recommend nasal irrigation to rid the nose of environmental irritants, alleviate post-nasal drip, and reduce congestion from colds and allergies by flushing mucus, foreign particles, bacteria, and viruses out of the sinuses. Daily nasal irrigation is promoted for preventing sinus infections and headaches. Evidence of effectiveness. In a handful of studies, nasal lavage has been shown to lower bacterial concentrations in  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Discusses using a neti pot for nasal irrigation, but does not explain the phenomenon of congestion switching nostrils."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions switching sides with nasal irrigation and ginger's anti-inflammatory properties for colds, but doesn't explain the periodic switching of congestion."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Describes using a neti pot and the sensation of water going from nostril to nostril, but doesn't address the query about periodic congestion switching."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions frequent nasal congestion, with one nostril often more affected, and breathing difficulties, but doesn't explain the periodic switching."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Explains nasal irrigation to reduce congestion by flushing mucus, but does not address the query about why congestion switches nostrils."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "A neti pot is used to wash debris or mucus from the nasal cavity.",
+            "The process involves pouring a saline solution through one nostril, allowing it to exit the other."
+          ],
+          "reason": "Extracted facts about the function and usage of a neti pot for nasal cavity cleansing, which is relevant to nasal congestion."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Ginger is a natural anti-viral and anti-histamine that can help reduce inflammation in mucous membranes.",
+            "Ginger may reduce swollen sinus membranes to assist in clearing sinus congestion."
+          ],
+          "reason": "Extracted facts about ginger's medicinal properties as an anti-viral, anti-histamine, and anti-inflammatory agent for treating nasal congestion."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "A neti pot is a pot of saline water poured into one nostril, exiting the other, to rinse sinuses."
+          ],
+          "reason": "Extracted the description of how a neti pot works for nasal rinsing, which is relevant to the query about nasal congestion."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Frequent nasal congestion, with one nostril usually more affected, is a symptom of a deviated septum.",
+            "A deviated septum can cause obstruction making it difficult to breathe through one or both nostrils."
+          ],
+          "reason": "Extracted facts linking a deviated septum to frequent nasal congestion and difficulty breathing through one or both nostrils."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Nasal irrigation uses a neti pot or syringe to stream a saline solution into one nostril, then the other.",
+            "The solution passes through the nasal passage and out the other nostril or mouth.",
+            "Nasal irrigation can alleviate post-nasal drip and reduce congestion from colds and allergies by flushing mucus."
+          ],
+          "reason": "Extracted facts describing nasal irrigation, its purpose in flushing mucus, and its use for reducing congestion."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The facts describe how to use a neti pot for nasal cleansing, but do not explain the periodic switching of nasal congestion between nostrils.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The facts discuss ginger's properties for reducing inflammation and congestion, but do not address the phenomenon of nasal congestion switching nostrils.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document explains how a neti pot works, which is not relevant to why nasal congestion switches from one nostril to another.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions frequent nasal congestion with one nostril usually more affected, which is related to the query's observation of switching, but doesn't explain the periodic nature.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Describes nasal irrigation for congestion relief but does not explain the phenomenon of congestion switching between nostrils.",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "deviated_septum_connection",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 partially supports by linking deviated septum to frequent nasal congestion in one nostril, but does not explain the periodic switching."
+          },
+          {
+            "label": "unrelated_nasal_treatments",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 are irrelevant as they describe neti pots, ginger, and general nasal irrigation without addressing the specific phenomenon of alternating nasal congestion."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. One document partially supports a potential cause for nasal congestion, while others are deemed irrelevant as they do not address the specific phenomenon of alternating congestion.",
+        "clusters": [
+          {
+            "label": "potential_cause_deviated_septum",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 partially supports by linking deviated septum to frequent nasal congestion in one nostril, but does not explain the periodic switching."
+          },
+          {
+            "label": "irrelevant_nasal_treatments",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 are irrelevant as they describe neti pots, ginger, and general nasal irrigation without addressing the specific phenomenon of alternating nasal congestion."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence is too sparse and only partially supports the query. Document d4 links deviated septum to nasal congestion but doesn't explain the alternating nature, and other documents are irrelevant. Therefore, a reliable answer cannot be formed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence is too sparse and only partially supports the query. Document d4 links deviated septum to nasal congestion but doesn't explain the alternating nature, and other documents are irrelevant. Therefore, a reliable answer cannot be formed.",
+        "final_reasoning": "The provided evidence is insufficient to answer the query, as it only partially supports a potential cause for nasal congestion without explaining the alternating nature, and other documents are irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8842,
+      "completion_tokens": 1973,
+      "total_tokens": 10815
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1395,
+        "completion_tokens": 374,
+        "total_tokens": 1769
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1350,
+        "completion_tokens": 523,
+        "total_tokens": 1873
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 914,
+        "completion_tokens": 359,
+        "total_tokens": 1273
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1080,
+        "completion_tokens": 208,
+        "total_tokens": 1288
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1317,
+        "completion_tokens": 240,
+        "total_tokens": 1557
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 639,
+        "completion_tokens": 64,
+        "total_tokens": 703
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 808,
+        "completion_tokens": 119,
+        "total_tokens": 927
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1339,
+        "completion_tokens": 86,
+        "total_tokens": 1425
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:21.862554",
+        "prompt_tokens": 1395,
+        "completion_tokens": 374,
+        "total_tokens": 1769,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:24.117639",
+        "prompt_tokens": 1350,
+        "completion_tokens": 523,
+        "total_tokens": 1873,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:25.876852",
+        "prompt_tokens": 914,
+        "completion_tokens": 359,
+        "total_tokens": 1273,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:27.576800",
+        "prompt_tokens": 1080,
+        "completion_tokens": 208,
+        "total_tokens": 1288,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:28.903994",
+        "prompt_tokens": 1317,
+        "completion_tokens": 240,
+        "total_tokens": 1557,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:29.792844",
+        "prompt_tokens": 639,
+        "completion_tokens": 64,
+        "total_tokens": 703,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:31.732002",
+        "prompt_tokens": 808,
+        "completion_tokens": 119,
+        "total_tokens": 927,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:32.923867",
+        "prompt_tokens": 1339,
+        "completion_tokens": 86,
+        "total_tokens": 1425,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:51:19.746686",
+  "last_updated_at": "2026-04-17T19:51:32.924382"
+}

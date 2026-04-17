@@ -1,0 +1,384 @@
+{
+  "sample_id": "#0632",
+  "query": "What do mathematicians do when trying to solve an unsolved math problem? Why is there an unsolved math problem to begin with?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Learn How To Solve The Impossible Four-Color Map Problem was not until 1976 that mathematicians were able to solve this problem. The solution relied on the use of a computer as well. The master of math problems and the YouTube user that has been creating informative YouTube videos about mathematics, Numberphile, has broken down the problem into a much simpler form in his latest Youtube video. The video has been titled \u0393\u00c7\u00ffA Colorful Unsolved Problem,\u0393\u00c7\u00d6 and you can watch as the YouTube user, Numberphile, breaks down the math problem explaining to the viewers how to understand the math problem and how it can be tackled. Using his love for",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Millennium Prize Problems - Maths Careers Home Articles Millennium Prize Problems The 1670 edition of Diophantus\u0393\u00c7\u00d6 Arithmetica includes Fermat\u0393\u00c7\u00d6s commentary, particularly his \u0393\u00c7\u00ffLast Theorem\u0393\u00c7\u00d6. When you are at school it might seem like every problem in maths has already been solved by somebody else. There is always an answer at the back of a text book or a solution ready to be given by your teacher. In fact there are still many unsolved mathematical problems waiting to be unraveled by the next generation of mathematicians. Sometimes mathematical problems can remain unsolved for hundreds of years, and people wonder whether a proof is even possible. This was",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Learn About Maths Unsolved Mysteries | The Superprof Blog - UK list of \u0393\u00c7\u00a3Problems of the millennium\u0393\u00c7\u00a5. Solving the hypothesis would lead to a prize of $1 million! Could this be a reason to take maths lessons, to maybe one day solve the problem known as the \u0393\u00c7\u00a3holy grail of mathematicians\u0393\u00c7\u00a5? In 1859, Bernard Riemann published an article entitled \u0393\u00c7\u00a3On the number of primes less than a given quantity\u0393\u00c7\u00a5, without knowing that he had just posed the most complicated question in the history of mathematics. His hypothesis began to tackle a question to which mathematicians haven\u0393\u00c7\u00d6t been able to answer for the last 2000 years: the origin of prime numbers. Following",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1993-05-28"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Learn How To Solve The Impossible Four-Color Map Problem was not until 1976 that mathematicians were able to solve this problem. The solution relied on the use of a computer as well. The master of math problems and the YouTube user that has been creating informative YouTube videos about mathematics, Numberphile, has broken down the problem into a much simpler form in his latest Youtube video. The video has been titled \u0393\u00c7\u00ffA Colorful Unsolved Problem,\u0393\u00c7\u00d6 and you can watch as the YouTube user, Numberphile, breaks down the math problem explaining to the viewers how to understand the math problem and how it can be tackled. Using his love for",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "nothinglikeadane \u0393\u00c7\u00f4 Holy (sometimes) ramblings of a vicar in the Portway and Danebury Ministry Team Thankfully there are others who live and breathe numbers, signs and co-signs, but even for them there are some mathematical dilemmas which are just unsolvable. IMDB / Imagine Entertainment In 2000, the Clay Mathematics Institute announced the Millennium Prize problems. These were a collection of seven of the most important maths problems that remain unsolved. One of these was solved in 2006, but there are still six problems waiting to be solved, and a million dollar prize to be claimed. Famously, Grigori Perelman, the mathematician par excellence, turned down the prize after solving the Poincare Conjecture. One of the problems  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions mathematicians solving the Four-Color Map Problem and a YouTube video breaking down how it can be tackled, offering insight into solving unsolved problems."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explains that many math problems remain unsolved for centuries, with people wondering if a proof is possible, directly addressing why unsolved problems exist."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Discusses the Millennium Prize Problems and the Riemann Hypothesis, highlighting a problem mathematicians haven't answered for 2000 years, explaining the existence of unsolved problems."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions mathematicians solving the Four-Color Map Problem and a YouTube video breaking down how it can be tackled, offering insight into solving unsolved problems."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Introduces the Millennium Prize Problems as seven important unsolved math problems and mentions a mathematician who solved one, explaining the existence of unsolved problems."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Mathematicians were able to solve the Four-Color Map Problem in 1976.",
+            "The solution to the Four-Color Map Problem relied on the use of a computer.",
+            "Numberphile created a YouTube video explaining how to understand and tackle the Four-Color Map Problem."
+          ],
+          "reason": "Extracted facts about the solution of a specific unsolved math problem, including the tools used and resources available for understanding it."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Fermat's 'Last Theorem' is included in the 1670 edition of Diophantus' Arithmetica.",
+            "There are still many unsolved mathematical problems waiting to be unraveled.",
+            "Mathematical problems can sometimes remain unsolved for hundreds of years."
+          ],
+          "reason": "Extracted facts about the existence of unsolved math problems and their historical context, including Fermat's Last Theorem."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Solving a 'Problem of the millennium' would lead to a prize of $1 million.",
+            "Bernard Riemann posed a complicated question in 1859 regarding the origin of prime numbers.",
+            "Mathematicians have not been able to answer the question about the origin of prime numbers for the last 2000 years."
+          ],
+          "reason": "Extracted facts about the 'Problems of the millennium,' the prize money, and a specific long-standing unsolved problem concerning prime numbers."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Mathematicians were able to solve the Four-Color Map Problem in 1976.",
+            "The solution to the Four-Color Map Problem relied on the use of a computer.",
+            "Numberphile created a YouTube video explaining how to understand and tackle the Four-Color Map Problem."
+          ],
+          "reason": "Extracted facts about the solution of a specific unsolved math problem, including the tools used and resources available for understanding it."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "In 2000, the Clay Mathematics Institute announced seven Millennium Prize problems.",
+            "Six of the Millennium Prize problems remain unsolved, with a million dollar prize for each.",
+            "Grigori Perelman solved the Poincare Conjecture but turned down the prize."
+          ],
+          "reason": "Extracted facts about the Millennium Prize problems, the number of unsolved problems, the prize money, and a specific mathematician's achievement."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides an example of a solved problem and how it was tackled (using a computer), but doesn't explain the general process or why problems remain unsolved.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions that many problems remain unsolved and can persist for centuries, but doesn't explain the process mathematicians use or why problems exist.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Highlights a specific unsolved problem and its duration, and mentions prize money, but doesn't detail the process mathematicians use or the reasons for unsolved problems.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Provides an example of a solved problem and how it was tackled (using a computer), but doesn't explain the general process or why problems remain unsolved.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Discusses unsolved 'Problems of the millennium' and a solved one, but doesn't explain the general process mathematicians use or why problems remain unsolved.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "solved_and_unsolved_problems",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents provide examples of both solved and unsolved mathematical problems, including historical context, specific famous problems, and associated prizes, but do not detail the general process or reasons for problems remaining unsolved."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents discuss mathematical problems, with some being solved and others remaining unsolved. There are no contradictory claims, only complementary information about the status and nature of these problems.",
+        "clusters": [
+          {
+            "label": "mathematical_problems_overview",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents detail both solved (Four-Color Map Problem) and unsolved mathematical problems (Fermat's Last Theorem, Millennium Prize problems, prime number origin). They mention historical context, computer use in solutions, and prize money for unsolved problems."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The provided documents offer a good overview of solved and unsolved mathematical problems, with no conflicts. The evidence is sufficient for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Mathematical problems can be categorized as either solved or unsolved. Examples include the Four-Color Map Problem, which has been solved, and Fermat's Last Theorem and the Millennium Prize problems, which remain unsolved. Historical context, the use of computers in finding solutions, and prize money for unsolved problems are also relevant aspects.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The provided documents offer a good overview of solved and unsolved mathematical problems, with no conflicts. The evidence is sufficient for a reliable answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately summarizes the provided documents, citing examples of solved and unsolved problems, and mentioning relevant aspects like computer use and prize money. All claims are supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9855,
+      "completion_tokens": 2061,
+      "total_tokens": 11916
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1666,
+        "completion_tokens": 388,
+        "total_tokens": 2054
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1621,
+        "completion_tokens": 632,
+        "total_tokens": 2253
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1022,
+        "completion_tokens": 386,
+        "total_tokens": 1408
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1209,
+        "completion_tokens": 177,
+        "total_tokens": 1386
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1399,
+        "completion_tokens": 180,
+        "total_tokens": 1579
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 548,
+        "completion_tokens": 46,
+        "total_tokens": 594
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 699,
+        "completion_tokens": 150,
+        "total_tokens": 849
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1691,
+        "completion_tokens": 102,
+        "total_tokens": 1793
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:48.739055",
+        "prompt_tokens": 1666,
+        "completion_tokens": 388,
+        "total_tokens": 2054,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:51.063486",
+        "prompt_tokens": 1621,
+        "completion_tokens": 632,
+        "total_tokens": 2253,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:53.334698",
+        "prompt_tokens": 1022,
+        "completion_tokens": 386,
+        "total_tokens": 1408,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:54.787615",
+        "prompt_tokens": 1209,
+        "completion_tokens": 177,
+        "total_tokens": 1386,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:56.185242",
+        "prompt_tokens": 1399,
+        "completion_tokens": 180,
+        "total_tokens": 1579,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:57.096186",
+        "prompt_tokens": 548,
+        "completion_tokens": 46,
+        "total_tokens": 594,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:58.754167",
+        "prompt_tokens": 699,
+        "completion_tokens": 150,
+        "total_tokens": 849,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:59.859896",
+        "prompt_tokens": 1691,
+        "completion_tokens": 102,
+        "total_tokens": 1793,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:22:46.266820",
+  "last_updated_at": "2026-04-17T20:22:59.860390"
+}

@@ -1,0 +1,402 @@
+{
+  "sample_id": "#0519",
+  "query": "What are the odds of winning a game of solitaire?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "One-Handed Solitaire One-Handed Solitaire, is a solitaire card game played with a traditional 52 card deck. It can be played in one hand and does not require a table, hence its name. Taking a standard, shuffled 52-card deck of playing cards (without Jokers), hold the deck face down in your hand. Draw from the back of the deck four cards and place them on top fanned out so that the suit and number can be seen. If the first and fourth card are the same suit, discard the two middle cards, placing them on your lap if seated or in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2005-02-20"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Ace and ending with King, all of the same suit, on one of the four foundations, at which time the player would have won. There are different ways of dealing the remainder of the deck from the stock to the talon, including the following: If the player can no longer move any reasonable cards, the game is considered lost. At this point, winning is impossible. For a standard game of Klondike, drawing three cards at a time and placing no limit on the number of re-deals, the number of possible hands is over , or an 8 followed by 67",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2015-02-24"
+    },
+    {
+      "doc_id": "d3",
+      "text": "above process of discarding until the first and fourth card are neither the same suit nor number, upon which you draw one card from the back of the deck and place it after the fourth card, rearranging the drawn cards so that only four are visible. Continue in this fashion until the end of the deck is reached. If all cards are discarded, you win the game. The odds of winning are very low, approximately one in 140. An optional rule to increase the odds slightly allows cards that have previously been drawn to be redrawn after the deck has",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "has shown that between 71% and 72% of all games are possible to win. In the average game, 40 cards were moved to the foundation. Because the reserve cards are hidden, and because the three-at-a-time dealing of cards from the stock means that cards played early in the game can impact which stock cards are available much later, it is very difficult by normal playing standards to come anywhere near theoretically possible win rates. The highest potential win rates for strategic expert-level players averages at about 35%. In the Storehouse variant, a greater potential to win increases rates to about",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the ace and the king which start each foundation). Arnold's rule set allows two redeals. To do this, the piles are picked up in the order they were dealt (especially the order set above) and the cards are then redealt without shuffling. At each redeal, the restrictions again apply until all cards are dealt. The game is considered won when all of the cards are played on the foundations. Only Solsuite and Mac Solitaire have versions of the game. The rules of each electronic version are almost the same as the printed rules, but with modifications. The rule set Solsuite  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Describes how to play one-handed solitaire but does not mention winning odds."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses winning conditions and mentions the number of possible hands, implying odds, though not explicitly stating them."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the odds of winning a standard game of solitaire are approximately one in 140."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Provides statistics on win rates for different player levels and variants, directly addressing the query about odds."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Explains rules and variants of solitaire, including redeals, but does not mention winning odds."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "One-Handed Solitaire is played with a traditional 52 card deck.",
+            "It can be played in one hand and does not require a table."
+          ],
+          "reason": "Extracted facts describing the game 'One-Handed Solitaire' and its basic setup, relevant to the query about solitaire odds."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "For a standard game of Klondike, drawing three cards at a time with unlimited re-deals, the number of possible hands is over 8 followed by 67 zeros."
+          ],
+          "reason": "Extracted a specific statistic about the number of possible hands in a standard Klondike solitaire game, relevant to the query about winning odds."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "If all cards are discarded, you win the game.",
+            "The odds of winning are very low, approximately one in 140."
+          ],
+          "reason": "Extracted the win condition and the approximate odds of winning for a solitaire game, directly answering the user's query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Between 71% and 72% of all games are possible to win.",
+            "The highest potential win rates for strategic expert-level players averages at about 35%."
+          ],
+          "reason": "Extracted statistics on the possibility of winning and expert-level win rates for solitaire games, directly relevant to the query about odds."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The game is considered won when all of the cards are played on the foundations."
+          ],
+          "reason": "Extracted the win condition for a solitaire game, which is a factual statement relevant to the query about winning odds."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document describes the setup of 'One-Handed Solitaire' but does not provide any information about the odds of winning.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "This document mentions the number of possible hands in Klondike solitaire, which is related to the complexity but doesn't directly state the odds of winning.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "This document directly states the win condition and provides the approximate odds of winning a solitaire game, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "This document provides statistics on the winnability of solitaire games and expert win rates, directly addressing the query about odds.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "This document states the win condition for solitaire, which is relevant to understanding winning, but does not provide the actual odds.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d4"
+        ],
+        "partial_docs": [
+          "d2",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_odds_information",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 provide direct statistics and approximate odds of winning solitaire games."
+          },
+          {
+            "label": "win_condition_context",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 offer related context about the number of hands and win conditions, but not the direct odds."
+          },
+          {
+            "label": "irrelevant_setup_details",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 describes game setup but lacks information on winning odds."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible information. Some documents directly state winning odds, while others offer context on win conditions and game complexity, all contributing to understanding solitaire odds.",
+        "clusters": [
+          {
+            "label": "direct_odds_information",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 provide direct statistics and approximate odds of winning solitaire games."
+          },
+          {
+            "label": "win_condition_context",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 offer related context about the number of hands and win conditions, but not the direct odds."
+          },
+          {
+            "label": "irrelevant_setup_details",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 describes game setup but lacks information on winning odds."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and provides sufficient information to answer the question about solitaire odds."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Documents d3 and d4 provide direct statistics and approximate odds of winning solitaire games, while documents d2 and d5 offer related context about the number of hands and win conditions.",
+        "citations": [
+          "d3",
+          "d4",
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial documents are complementary, providing direct odds information and relevant context on win conditions for solitaire games."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately summarizes the grounding of the provided documents regarding solitaire win odds and conditions."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8533,
+      "completion_tokens": 1927,
+      "total_tokens": 10460
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1322,
+        "completion_tokens": 337,
+        "total_tokens": 1659
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1277,
+        "completion_tokens": 482,
+        "total_tokens": 1759
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 873,
+        "completion_tokens": 356,
+        "total_tokens": 1229
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1042,
+        "completion_tokens": 268,
+        "total_tokens": 1310
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1283,
+        "completion_tokens": 253,
+        "total_tokens": 1536
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 640,
+        "completion_tokens": 35,
+        "total_tokens": 675
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 780,
+        "completion_tokens": 114,
+        "total_tokens": 894
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1316,
+        "completion_tokens": 82,
+        "total_tokens": 1398
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:13.892109",
+        "prompt_tokens": 1322,
+        "completion_tokens": 337,
+        "total_tokens": 1659,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:16.030050",
+        "prompt_tokens": 1277,
+        "completion_tokens": 482,
+        "total_tokens": 1759,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:17.823004",
+        "prompt_tokens": 873,
+        "completion_tokens": 356,
+        "total_tokens": 1229,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:19.318513",
+        "prompt_tokens": 1042,
+        "completion_tokens": 268,
+        "total_tokens": 1310,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:21.287317",
+        "prompt_tokens": 1283,
+        "completion_tokens": 253,
+        "total_tokens": 1536,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:22.238218",
+        "prompt_tokens": 640,
+        "completion_tokens": 35,
+        "total_tokens": 675,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:23.548944",
+        "prompt_tokens": 780,
+        "completion_tokens": 114,
+        "total_tokens": 894,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:24.538747",
+        "prompt_tokens": 1316,
+        "completion_tokens": 82,
+        "total_tokens": 1398,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:53:12.237599",
+  "last_updated_at": "2026-04-17T19:53:24.539275"
+}

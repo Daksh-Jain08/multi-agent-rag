@@ -1,0 +1,401 @@
+{
+  "sample_id": "#0545",
+  "query": "When was the first battle royale game made?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "heavily influenced by animation episodes from One Year War storylines, namely \"Mobile Suit Gundam\", \"The 08th MS Team\", \"\", and \"Blue Destiny\". This game plays similarly to another Bandai Gundam game for the Sony PlayStation 2, \"\". Gundam Battle Royale is a game released for the PlayStation Portable. The game was released only in Japan and South Korea on October 5, 2006. The game features many mobile suits and mobile armors from the Universal Century up to and including \"Zeta Gundam\". It is the sequel to \"Gundam Battle Tactics\". A sequel called \"Gundam Battle Chronicles\" has been released on 25",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d2",
+      "text": "the first-person shooter market similar to how \"\" also changed the landscape of shooters when it was released in 2007, and believed it did this by being an anti-\"Call of Duty\" in terms of pacing and strategy. \"Battlegrounds\" is considered the defining game of the battle royale game genre due to its popularity, even though other games, including Greene's previous mods, were already on the market. After its large early access sales numbers, other games followed with battle royale mechanics, with either existing games that added a battle royale mode or fully new games. Notably, Epic Games updated their in-development",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Junior High School children forced to kill one another. When finally published in April 1999, it went on to become a bestseller, and only a year later was made into both a manga and a feature film. The novel was translated into English by Yuji Oniki and published by Viz Media in 2003. An expanded English edition was later published by Haika Soru, a division of Viz Media, in 2009. The first manga also began being released in English in 2003, by Tokyopop, with the last volume published in 2006. As well as being critically acclaimed, the \"Battle Royale\" series",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "revealed on the April 26, 2012 episode of \"GTTV\" as \"PlayStation All-Stars Battle Royale\". In May 2012, in an interview to Digital Trends, game director Omar Kendall was asked about the possibility of PlayStation Vita version of \"PlayStation All-Stars Battle Royale\", and he simply replied, \"Maybe... stay tuned.\" A Vita version was announced at the Electronic Entertainment Expo 2012, to be developed by Bluepoint Games, and was confirmed to feature cross-play with the PlayStation 3. In July 2012, it was announced that former \"Capcom\" community manager and \"Evolution Championship Series\" co-founder Seth Killian had taken a role at Sony Santa",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "stalk each other through the woods. The concept was inspired in part by the short story \"The Most Dangerous Game\" by Richard Connell. In 1981, Gaines and eleven others played the first game of paintball, using Nel-Spot pistols which were intended for marking trees and livestock by ranchers. This initial game was a capture the flag style scenario. Later, Bob Gurnsey formed the National Survival Game company, which was the first firm to sell paintball equipment. In 1997 Gaines published a novel entitled \"Survival Games\" which features inventors of paintball, probably based upon Gaines and Gurnsey, as the main characters.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document discusses a Gundam game called 'Gundam Battle Royale' released in 2006, which is not the first battle royale game in the genre."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document mentions 'Battlegrounds' as the defining game of the battle royale genre and notes that other games and mods existed before it, implying it wasn't the absolute first but a key one."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "This document discusses the novel 'Battle Royale' published in 1999, which inspired the genre. While not a game, it's a significant precursor and relevant to the origin of the concept."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about 'PlayStation All-Stars Battle Royale', a fighting game, not the first battle royale game in the genre."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses paintball and a novel called 'Survival Games', which are related to survival concepts but not directly to the first battle royale game."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Gundam Battle Royale was released for the PlayStation Portable.",
+            "The game was released only in Japan and South Korea on October 5, 2006."
+          ],
+          "reason": "Extracted release date and platform for Gundam Battle Royale, a game with 'Battle Royale' in its title."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "\"Battlegrounds\" is considered the defining game of the battle royale game genre due to its popularity.",
+            "Other games followed with battle royale mechanics after \"Battlegrounds\"'s early access sales."
+          ],
+          "reason": "Identified \"Battlegrounds\" as the defining game of the battle royale genre and noted the subsequent emergence of similar games."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The novel \"Battle Royale\" was published in April 1999.",
+            "The novel \"Battle Royale\" was made into a manga and feature film a year after publication.",
+            "The novel was translated into English and published by Viz Media in 2003."
+          ],
+          "reason": "Extracted publication and translation dates for the novel \"Battle Royale\", which predates other mentioned games."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "\"PlayStation All-Stars Battle Royale\" was revealed on April 26, 2012.",
+            "A PlayStation Vita version of \"PlayStation All-Stars Battle Royale\" was announced at E3 2012."
+          ],
+          "reason": "Extracted reveal and announcement dates for the game \"PlayStation All-Stars Battle Royale\"."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "In 1981, the first game of paintball was played.",
+            "Bob Gurnsey formed the National Survival Game company, the first firm to sell paintball equipment.",
+            "In 1997, Gaines published a novel entitled \"Survival Games\"."
+          ],
+          "reason": "Extracted historical facts about paintball and a novel titled \"Survival Games\", which relates to game concepts."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions a game with 'Battle Royale' in its title and its release date, but it's not the first game of the genre.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Identifies a defining game of the genre but doesn't state it was the first. It implies others followed.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Provides the publication date of the novel \"Battle Royale\" (1999), which is the earliest 'Battle Royale' related item mentioned.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The game \"PlayStation All-Stars Battle Royale\" was released much later and is not the first battle royale game.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Facts about paintball and a novel titled \"Survival Games\" are not directly related to the first battle royale video game.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "earliest_related_item",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "The novel \"Battle Royale\" published in 1999 is the earliest related item identified."
+          },
+          {
+            "label": "genre_defining_game",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 identifies \"Battlegrounds\" as a defining game of the genre, with others following."
+          },
+          {
+            "label": "game_with_similar_title",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 mentions Gundam Battle Royale, released in 2006, but it is not the first of its kind."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence does not present conflicting claims. It identifies the earliest related item (a novel), a genre-defining game, and another game with a similar title, all without contradiction.",
+        "clusters": [
+          {
+            "label": "earliest_related_item",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "The novel \"Battle Royale\" published in 1999 is the earliest related item identified."
+          },
+          {
+            "label": "genre_defining_game",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 identifies \"Battlegrounds\" as a defining game of the genre, with others following."
+          },
+          {
+            "label": "game_with_similar_title",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 mentions Gundam Battle Royale, released in 2006, but it is not the first of its kind."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and there are no conflicts. The system can provide a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The novel \"Battle Royale,\" published in 1999, is the earliest related item. \"Battlegrounds\" is identified as a defining game of the genre, with others following. Gundam Battle Royale was released in 2006 but was not the first of its kind.",
+        "citations": [
+          "d3",
+          "d2",
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial documents provide a clear timeline and identify key items related to the query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer correctly identifies the earliest related item (novel 'Battle Royale' in 1999) and mentions 'Battlegrounds' as a defining game. All claims are supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9007,
+      "completion_tokens": 2089,
+      "total_tokens": 11096
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1400,
+        "completion_tokens": 414,
+        "total_tokens": 1814
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1355,
+        "completion_tokens": 547,
+        "total_tokens": 1902
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 928,
+        "completion_tokens": 358,
+        "total_tokens": 1286
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1100,
+        "completion_tokens": 231,
+        "total_tokens": 1331
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1348,
+        "completion_tokens": 261,
+        "total_tokens": 1609
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 659,
+        "completion_tokens": 40,
+        "total_tokens": 699
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 804,
+        "completion_tokens": 131,
+        "total_tokens": 935
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 107,
+        "total_tokens": 1520
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:11.505662",
+        "prompt_tokens": 1400,
+        "completion_tokens": 414,
+        "total_tokens": 1814,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:13.730885",
+        "prompt_tokens": 1355,
+        "completion_tokens": 547,
+        "total_tokens": 1902,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:15.096561",
+        "prompt_tokens": 928,
+        "completion_tokens": 358,
+        "total_tokens": 1286,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:16.555614",
+        "prompt_tokens": 1100,
+        "completion_tokens": 231,
+        "total_tokens": 1331,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:18.041935",
+        "prompt_tokens": 1348,
+        "completion_tokens": 261,
+        "total_tokens": 1609,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:18.838481",
+        "prompt_tokens": 659,
+        "completion_tokens": 40,
+        "total_tokens": 699,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:19.886438",
+        "prompt_tokens": 804,
+        "completion_tokens": 131,
+        "total_tokens": 935,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:01:20.799544",
+        "prompt_tokens": 1413,
+        "completion_tokens": 107,
+        "total_tokens": 1520,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:01:09.630362",
+  "last_updated_at": "2026-04-17T20:01:20.800101"
+}

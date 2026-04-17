@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0479",
+  "query": "If the internet is primarily dependent on cables that run through oceans connecting different countries and continents. During a war, anyone can cut off a country's access to the internet. Are there any backup or mitigant in place to avoid this? What happens if you cut the cable?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "internet \u0393\u00c7\u00f4 @lissnup When the outage happened, the BGP routes to Syrian IP space were all simultaneously withdrawn from all of Syria\u0393\u00c7\u00d6s upstream providers. The effect of this is that networks were unable to route traffic to Syrian IP space, effectively cutting the country off the Internet. Syria has 4 physical cables that connect it to the rest of the Internet. Three are undersea cables that land in the city of Tartous, Syria. The fourth is an over-land cable through Turkey. In order for a whole-country outage, all four of these cables would have had to been cut simultaneously. That is unlikely to",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "2 Ways an Entire Country Can Lose Access to the Internet-and Why the U.S. is Resistant - The Akamai Blog Her spade cut open the only terrestrial cable that happened to run through Georgia and into the neighboring country. Stories like this one are not uncommon - in 2012, a ship's anchor dragged through the wrong area outside of Mombasa, Kenya and cut a fiber-optic Internet cable, causing an Internet blackout and costing Kenyan businesses hundreds of millions of dollars. Earlier this June, a Vervet monkey fell on a transformer in Nairobi, Kenya, shutting off the power to the plant and causing a country-wide electrical blackout which disconnected the whole nation from the Internet. Countries with more interconnected domestic networks",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2000-03-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What the Internet looks like: Undersea cables wiring ends of the Earth in that country it's not acceptable, you expect seamless high quality net access all the time. In Europe, the U.S. and Asia people don't have to think \"what happens if Internet goes down and I can't send an important email?\" That has disappeared. You don't think about it. But if you're in Bangladesh you still worry. Every country is seeking to provide users with high-quality resilient Internet access such that the role of submarine cable fades into the background and you don't think about them. If a cable is cut there are different paths to back it up. courtesy TeleGeography",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Network Outages Happen. Make Sure Your Business is Ready. cut a fiber cable which resulted in an hours-long outage for local businesses. Business continuity is a key part in keeping you successful, and Internet connectivity is the most critical part of keeping your operations up and running. Since a majority of outages not within your control. It is important that you think about your continuity plan. Steps to help you stay connected during outages: Watch this video to get prepared for a potential service outage. Consider an internet backup. An automatic internet backup connection can help you stay connected to the internet even during an unforeseen outage.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Internet Access via Cable TV Network | Seminar Report and PPT for IT Students Internet is a network of networks in which various computers connect each other through out the world. The connection to other computers is possible with the help of ISP (Internet Service Provider). Each Internet users depend dialup connections to connect to Internet. This has many disadvantages like very poor speed, may time cut downs etc. To solve the problem, Internet data can be transferred through Cable networks wired to the user computer. Different type connections used are PSTN connection, ISDN connection and Internet via Cable networks. Various advantages are High availability, High bandwidth to low cost, high speed data access,  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains how Syria was cut off by BGP route withdrawal, mentioning physical cables and the unlikelihood of all four being cut simultaneously."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Provides examples of countries losing internet access due to cut cables (ship anchor, monkey incident) and mentions terrestrial cables."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly addresses the query by stating that if a cable is cut, there are different paths to back it up, ensuring resilient internet access."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Discusses network outages and suggests considering an internet backup connection to stay connected during unforeseen outages."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Focuses on internet access via cable TV networks and connection types, not on mitigations for undersea cable cuts during wartime."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Syria has 4 physical cables connecting it to the Internet: three undersea cables landing in Tartous and one over-land cable through Turkey.",
+            "Simultaneously cutting all four of Syria's physical internet cables would be required for a whole-country outage."
+          ],
+          "reason": "Extracted facts about Syria's internet infrastructure and the conditions required for a complete outage, directly addressing the query about cable cutting."
+        },
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "When an outage occurred, BGP routes to Syrian IP space were withdrawn, effectively cutting the country off the Internet."
+          ],
+          "reason": "Extracted the specific mechanism used to cut off Syria from the internet, which is a factual detail relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A ship's anchor cut a fiber-optic Internet cable outside Mombasa, Kenya in 2012, causing an Internet blackout and significant financial losses.",
+            "A monkey falling on a transformer in Nairobi, Kenya caused an electrical blackout that disconnected the nation from the Internet."
+          ],
+          "reason": "Extracted specific instances of internet outages caused by physical damage (anchor cutting cable) and power failure, illustrating the vulnerability of internet access."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "If an internet cable is cut, there are different paths to back it up.",
+            "Countries are seeking to provide users with high-quality resilient Internet access."
+          ],
+          "reason": "Extracted information about backup paths for cut cables and the general goal of resilient internet access, directly answering the query about mitigations."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "An automatic internet backup connection can help maintain internet connectivity during unforeseen outages."
+          ],
+          "reason": "Extracted a specific mitigation strategy (automatic internet backup) for maintaining connectivity during outages, directly addressing the user's query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses internet access via cable TV networks and historical connection methods but does not contain facts relevant to undersea cables, war-time scenarios, or backup mitigations for country-wide outages."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Discusses Syria's specific cable infrastructure and how an outage occurred, but doesn't directly address general backup mitigations for war-time scenarios.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Explains how Syria was cut off, which is relevant to the 'what happens' part of the query, but doesn't cover backup systems.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Provides examples of cable cutting and outages, illustrating the vulnerability mentioned in the query, but doesn't detail backup or mitigant strategies.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that backup paths exist for cut internet cables and that countries aim for resilient internet access, answering the mitigation question.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Mentions automatic internet backup connections as a way to maintain connectivity during outages, directly addressing the query about mitigations.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document discusses cable TV networks and historical internet access, not undersea cables, war-time scenarios, or country-wide outage mitigations.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d4"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_mitigation_strategies",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 directly describe backup paths and automatic backup connections as mitigations for internet outages."
+          },
+          {
+            "label": "specific_outage_context",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide specific examples and context regarding internet outages and infrastructure vulnerabilities, but do not detail general backup strategies."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from different sources complements each other, with some documents detailing specific outage scenarios and infrastructure, while others focus on general mitigation strategies and backup solutions for internet connectivity.",
+        "clusters": [
+          {
+            "label": "mitigation_strategies",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 explain that backup paths exist for cut internet cables and that automatic backup connections can maintain connectivity during outages."
+          },
+          {
+            "label": "outage_context_and_vulnerabilities",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide specific examples of internet outages, detailing Syria's infrastructure and past incidents in Kenya, illustrating vulnerabilities but not general backup solutions."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting and partial evidence exists, and the conflict is complementary, allowing for a grounded answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Backup paths and automatic backup connections can mitigate internet outages by maintaining connectivity.",
+        "citations": [
+          "d3",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d3 and d4 directly address mitigation strategies for internet outages, specifically mentioning backup paths and automatic connections. Other documents provide context but are not needed for the direct answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited documents, which mention backup paths and automatic backup connections as mitigations for internet outages."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9204,
+      "completion_tokens": 2042,
+      "total_tokens": 11246
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1453,
+        "completion_tokens": 362,
+        "total_tokens": 1815
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 576,
+        "total_tokens": 1984
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1000,
+        "completion_tokens": 437,
+        "total_tokens": 1437
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1190,
+        "completion_tokens": 221,
+        "total_tokens": 1411
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1402,
+        "completion_tokens": 219,
+        "total_tokens": 1621
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 595,
+        "completion_tokens": 39,
+        "total_tokens": 634
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 739,
+        "completion_tokens": 98,
+        "total_tokens": 837
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 90,
+        "total_tokens": 1507
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:55.507796",
+        "prompt_tokens": 1453,
+        "completion_tokens": 362,
+        "total_tokens": 1815,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:58.271912",
+        "prompt_tokens": 1408,
+        "completion_tokens": 576,
+        "total_tokens": 1984,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:00.947782",
+        "prompt_tokens": 1000,
+        "completion_tokens": 437,
+        "total_tokens": 1437,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:02.363974",
+        "prompt_tokens": 1190,
+        "completion_tokens": 221,
+        "total_tokens": 1411,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:03.784524",
+        "prompt_tokens": 1402,
+        "completion_tokens": 219,
+        "total_tokens": 1621,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:04.721438",
+        "prompt_tokens": 595,
+        "completion_tokens": 39,
+        "total_tokens": 634,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:05.952247",
+        "prompt_tokens": 739,
+        "completion_tokens": 98,
+        "total_tokens": 837,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:07.282953",
+        "prompt_tokens": 1417,
+        "completion_tokens": 90,
+        "total_tokens": 1507,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:44:53.604824",
+  "last_updated_at": "2026-04-17T19:45:07.283483"
+}

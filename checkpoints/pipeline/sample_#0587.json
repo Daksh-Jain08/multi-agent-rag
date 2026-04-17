@@ -1,0 +1,369 @@
+{
+  "sample_id": "#0587",
+  "query": "Which album has Jason Becker as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "uncredited. In October Beck began to record instrumentals at AIR Studios with Max Middleton, bassist Phil Chen and drummer Richard Bailey, using George Martin as producer and arranger. Jeff Beck's solo album \"Blow by Blow\" (March 1975) evolved from these sessions and showcased Beck's technical prowess in jazz-rock. The album reached number four in the charts and is Beck's most commercially successful release. Beck, fastidious about overdubs and often dissatisfied with his solos, often returned to AIR Studios until he was satisfied. A couple of months after the sessions had finished producer George Martin received a telephone call from Beck,",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d2",
+      "text": "only studio album, as Beck's departure forced a sudden dissolution in 1974. with: Beck, Bogert & Appice (album) Beck, Bogert & Appice is the 1973 debut album by the band Beck, Bogert & Appice. The group was a power trio featuring guitarist Jeff Beck (who had already been a member of The Yardbirds), bassist Tim Bogert, and drummer Carmine Appice (both formerly with Vanilla Fudge and Cactus). The album contains Beck's version of the song \"Superstition\" which was written by Stevie Wonder. Beck had appeared on Wonder's original recording of the song in 1972. \"Beck, Bogert & Appice\" was released",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2011-01-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Truth (Jeff Beck album) Truth is the debut album by Jeff Beck, released in 1968 in the United Kingdom on Columbia Records and in the United States on Epic Records. It introduced the talents of his backing band the Jeff Beck Group, specifically Rod Stewart and Ronnie Wood, to a larger audience, and peaked at number 15 on the \"Billboard\" 200. After leaving the Yardbirds in late 1966, Jeff Beck had released three commercial singles, two in 1967 featuring Beck on lead vocals, and one without vocals in 1968. All had been hits on the British singles chart, and all",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "preview section of Yusuf's new musical \"Moonshadow\". 2010 saw the release of Jeff Beck's first studio album in over six years, released on Rhino. In support of this album, entitled \"Emotion & Commotion\", Beck embarked on a tour of Australia, New Zealand, Japan, Korea, the US and Europe. Goldsmith also reassembled legendary rock band Faces to perform a handful of UK dates. In April 2010 Goldsmith was honoured as the International Music Person of the Year for his outstanding contributions to the Music Industry at the Musexpo by the City of West Hollywood. Goldsmith promoted a concert at the beginning",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1995-05-10"
+    },
+    {
+      "doc_id": "d5",
+      "text": "don't work\". Robert Christgau at \"The Village Voice\" gave it a 'B' grade, labelling it as \"funk-metal fusion\" and \"the best LP of [Beck's] pathologically spotty career\"; the latter due to Rodgers' production. Flash (Jeff Beck album) Flash is the fourth studio album by guitarist Jeff Beck, released in July 1985 through Epic Records. The album reached No. 39 on the U.S. \"Billboard\" 200 chart as well as reaching the top 60 in four other countries. Two singles also charted: the first being a reunion with singer Rod Stewart (from the Jeff Beck Group) for a cover of \"People Get  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Jeff Beck's album \"Blow by Blow\" and does not mention Jason Becker."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about the band Beck, Bogert & Appice and features guitarist Jeff Beck, not Jason Becker."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Jeff Beck's debut album \"Truth\" and does not mention Jason Becker."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document mentions Jeff Beck's album \"Emotion & Commotion\" but does not mention Jason Becker."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Jeff Beck's album \"Flash\" and does not mention Jason Becker."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Jeff Beck's solo album \"Blow by Blow\" (March 1975) evolved from sessions with Max Middleton, Phil Chen, and Richard Bailey, produced by George Martin."
+          ],
+          "reason": "Extracted the album title, release date, and key collaborators for Jeff Beck's \"Blow by Blow\" album."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Beck, Bogert & Appice is the 1973 debut album by the band Beck, Bogert & Appice.",
+            "The album features guitarist Jeff Beck, bassist Tim Bogert, and drummer Carmine Appice."
+          ],
+          "reason": "Extracted the album title, release year, band members, and performer information relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Truth is the debut album by Jeff Beck, released in 1968."
+          ],
+          "reason": "Extracted the album title and release year for Jeff Beck's debut album."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In 2010, Jeff Beck released his first studio album in over six years, entitled \"Emotion & Commotion\"."
+          ],
+          "reason": "Extracted the album title and release year for Jeff Beck's \"Emotion & Commotion\" album."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Flash is the fourth studio album by guitarist Jeff Beck, released in July 1985."
+          ],
+          "reason": "Extracted the album title, performer, and release date for Jeff Beck's \"Flash\" album."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention Jeff Beck, not Jason Becker, as the performer on \"Blow by Blow\".",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention Jeff Beck, not Jason Becker, as a performer in Beck, Bogert & Appice.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention Jeff Beck, not Jason Becker, as the performer on \"Truth\".",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention Jeff Beck, not Jason Becker, as the performer on \"Emotion & Commotion\".",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention Jeff Beck, not Jason Becker, as the performer on \"Flash\".",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "mismatched_artist",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All documents pertain to Jeff Beck, not Jason Becker, and are therefore irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents are irrelevant to the query, focusing on Jeff Beck instead of Jason Becker. There is no conflicting information presented.",
+        "clusters": [
+          {
+            "label": "irrelevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All documents discuss albums by Jeff Beck, not Jason Becker, making them irrelevant."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant to the query, focusing on Jeff Beck instead of Jason Becker. There is no supporting evidence, thus abstention is necessary."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant to the query, focusing on Jeff Beck instead of Jason Becker. There is no supporting evidence, thus abstention is necessary.",
+        "final_reasoning": "All provided documents are irrelevant to the query, focusing on Jeff Beck instead of Jason Becker. Abstention is necessary due to lack of supporting evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded as no documents mention Jason Becker. The citations are empty, and the answer contains factual claims."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8245,
+      "completion_tokens": 1635,
+      "total_tokens": 9880
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1412,
+        "completion_tokens": 338,
+        "total_tokens": 1750
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 449,
+        "total_tokens": 1816
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 841,
+        "completion_tokens": 331,
+        "total_tokens": 1172
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 989,
+        "completion_tokens": 156,
+        "total_tokens": 1145
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1158,
+        "completion_tokens": 123,
+        "total_tokens": 1281
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 484,
+        "completion_tokens": 49,
+        "total_tokens": 533
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 638,
+        "completion_tokens": 100,
+        "total_tokens": 738
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1356,
+        "completion_tokens": 89,
+        "total_tokens": 1445
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:24.935566",
+        "prompt_tokens": 1412,
+        "completion_tokens": 338,
+        "total_tokens": 1750,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:26.719086",
+        "prompt_tokens": 1367,
+        "completion_tokens": 449,
+        "total_tokens": 1816,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:28.289108",
+        "prompt_tokens": 841,
+        "completion_tokens": 331,
+        "total_tokens": 1172,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:29.945657",
+        "prompt_tokens": 989,
+        "completion_tokens": 156,
+        "total_tokens": 1145,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:31.338505",
+        "prompt_tokens": 1158,
+        "completion_tokens": 123,
+        "total_tokens": 1281,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:32.344304",
+        "prompt_tokens": 484,
+        "completion_tokens": 49,
+        "total_tokens": 533,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:33.329695",
+        "prompt_tokens": 638,
+        "completion_tokens": 100,
+        "total_tokens": 738,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:34.362326",
+        "prompt_tokens": 1356,
+        "completion_tokens": 89,
+        "total_tokens": 1445,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:13:23.456290",
+  "last_updated_at": "2026-04-17T20:13:34.363364"
+}

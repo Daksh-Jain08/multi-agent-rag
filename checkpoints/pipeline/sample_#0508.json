@@ -1,0 +1,398 @@
+{
+  "sample_id": "#0508",
+  "query": "Premier league record for most wins in a row?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "numerous Premier League records over the course of the season, including: most points (100), most wins (32), most away wins (16), most goals (106), most consecutive league wins (18), highest goal difference (+79), most passes in a game (903), fewest minutes behind in matches (153 minutes) and biggest winning points margin (19). All three promoted clubs avoided relegation for the first time since the 2011\u0393\u00c7\u00f412 campaign, and for only the third time in Premier League history. From this season on, club strips can feature sleeve sponsorship, whereby sponsors' logos will appear on the left sleeve of the strip in lieu",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2015-09-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "during the season, including: most points (100), most away points (50), most points ahead of second (19), most wins (32), most away wins (16), most goals (106), best goal difference (+79) and most consecutive victories (18). The team also equalled the record for the earliest Premier League title win (5 games to spare), beating of every other team in the league throughout the season and recording the most consecutive away wins (11). An Amazon Original docuseries of the season titled \"\" was released on Amazon Video on 17 August 2018. On 1 November, Sergio Ag\u251c\u255dero scored his 178th City goal",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "in 1975, with the club losing a couple of early matches, but a hard fought win over Manly in round four proved the catalyst for a revival, with Easts going on a 19 game winning streak through the rest of the regular season. This is still a premiership record for most consecutive wins in first grade rugby league in Australia.This winning streak resulted in the Roosters claiming the minor premiership by 10 points (or five extra wins)!! The team's dominance also included that year's mid week Amco Cup. Like the previous season, the Roosters lost their semi final match (and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d4",
+      "text": "most consecutive league wins after 18 victories in a row, including a victory in Manchester Derby, which helped them widen the gap between them and second-placed Manchester United in the Premier League. City broke plenty of Premier League records this season, including, the most points (100), the most goals scored (106), the most wins (32), the most away wins (16), most away points (50), highest goal differential (+79), and highest gap between the top 2 teams (19), while equalling Manchester United 2000/01's record for games to play with title won (5). History of Manchester City F.C. The history of the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2020-07-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "confident his side would retain the league and told the media: \"Nobody will finish above us in the league. It wouldn't surprise me if we were to go unbeaten for the whole of the season\". Arsenal set a new top-flight record in their opening game of the 2002\u0393\u00c7\u00f403 season; a 2\u0393\u00c7\u00f40 victory against Birmingham City was their 14th league win in succession. They continued their fine start by overhauling Nottingham Forest's top-flight record of 22 away league matches without defeat and later surpassed Manchester United's Premier League total of 29 matches unbeaten. Arsenal lost to Everton in October 2002, which  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the Premier League record for most consecutive league wins is 18."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions 'most consecutive victories (18)' in the context of Premier League records."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Discusses rugby league records in Australia, not Premier League football."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Confirms the record of '18 victories in a row' for most consecutive league wins in the Premier League."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions Arsenal's 14 consecutive league wins, which is a record but not the overall record for most wins in a row."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Premier League record for most consecutive league wins is 18."
+          ],
+          "reason": "Extracted the specific Premier League record for most consecutive wins from the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The record for most consecutive victories in the Premier League is 18."
+          ],
+          "reason": "Extracted the Premier League record for most consecutive victories."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The record for most consecutive wins in first grade rugby league in Australia is 19 games."
+          ],
+          "reason": "Extracted a rugby league record, noting it is not a Premier League record."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Manchester City achieved 18 consecutive league wins, setting a Premier League record."
+          ],
+          "reason": "Extracted the Premier League record for most consecutive league wins and the team that achieved it."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Arsenal set a new top-flight record with 14 league wins in succession in the 2002-03 season."
+          ],
+          "reason": "Extracted a top-flight record for consecutive league wins, noting it is not the overall Premier League record."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states the Premier League record for most consecutive league wins is 18.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states the Premier League record for most consecutive victories is 18.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This fact pertains to rugby league in Australia, not the Premier League football record.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Confirms the Premier League record of 18 consecutive wins and identifies Manchester City as the team.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions a consecutive win record (14) but specifies it's an older top-flight record, not the overall Premier League record.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_premier_league_record",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 directly confirm the Premier League record for most consecutive wins is 18."
+          },
+          {
+            "label": "related_but_not_premier_league_record",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions a consecutive win record, but it is an older top-flight record, not the current Premier League record."
+          },
+          {
+            "label": "irrelevant_sports_record",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides a record for rugby league, which is irrelevant to the Premier League football query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All relevant evidence consistently supports the Premier League record of 18 consecutive wins. Other records mentioned are clearly distinguished as not being the Premier League record.",
+        "clusters": [
+          {
+            "label": "Premier League record",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 directly confirm the Premier League record for most consecutive wins is 18."
+          },
+          {
+            "label": "Older top-flight record",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions a consecutive win record of 14, but specifies it is an older top-flight record, not the current Premier League record."
+          },
+          {
+            "label": "Irrelevant rugby league record",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides a record for rugby league, which is irrelevant to the Premier League football query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the Premier League record. Conflicts are minor and explainable, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Premier League record for most consecutive wins is 18.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently confirm the Premier League record for consecutive wins is 18. Other records are clearly distinguished as not being the Premier League record."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly states the Premier League record for most consecutive wins as 18, which is supported by citations d1, d2, and d4."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8756,
+      "completion_tokens": 1790,
+      "total_tokens": 10546
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1492,
+        "completion_tokens": 341,
+        "total_tokens": 1833
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1447,
+        "completion_tokens": 371,
+        "total_tokens": 1818
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 767,
+        "completion_tokens": 324,
+        "total_tokens": 1091
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 906,
+        "completion_tokens": 249,
+        "total_tokens": 1155
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1172,
+        "completion_tokens": 270,
+        "total_tokens": 1442
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 682,
+        "completion_tokens": 44,
+        "total_tokens": 726
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 831,
+        "completion_tokens": 94,
+        "total_tokens": 925
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1459,
+        "completion_tokens": 97,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:58.829923",
+        "prompt_tokens": 1492,
+        "completion_tokens": 341,
+        "total_tokens": 1833,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:01.154669",
+        "prompt_tokens": 1447,
+        "completion_tokens": 371,
+        "total_tokens": 1818,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:02.692974",
+        "prompt_tokens": 767,
+        "completion_tokens": 324,
+        "total_tokens": 1091,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:03.999358",
+        "prompt_tokens": 906,
+        "completion_tokens": 249,
+        "total_tokens": 1155,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:05.523534",
+        "prompt_tokens": 1172,
+        "completion_tokens": 270,
+        "total_tokens": 1442,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:06.474821",
+        "prompt_tokens": 682,
+        "completion_tokens": 44,
+        "total_tokens": 726,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:07.515051",
+        "prompt_tokens": 831,
+        "completion_tokens": 94,
+        "total_tokens": 925,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:51:08.503572",
+        "prompt_tokens": 1459,
+        "completion_tokens": 97,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:50:56.565379",
+  "last_updated_at": "2026-04-17T19:51:08.504091"
+}

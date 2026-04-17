@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0495",
+  "query": "Why does the Fibonacci sequence show up in nature.",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Fibonacci Sequence - History, Other Fibonacci Sequences, The Fibonacci Sequence In Nature - JRank Articles History, Other Fibonacci Sequences, The Fibonacci Sequence In Nature The Fibonacci sequence is a series of numbers in which each succeeding number (after the second) is the sum of the previous two. The most famous Fibonacci sequence is 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89.... This sequence expresses many naturally occurring relationships in the plant world. Fibonacci Sequence - History Fibonacci Sequence - Other Fibonacci Sequences Fibonacci Sequence - The Fibonacci Sequence In Nature",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "What Does The Fibonacci Sequence Converge To | The Scientific A joint venture between the School of Health Sciences and the. After CONVERGENCE OF r-GENERALIZED FIBONACCI SEQUENCES AND AN. Then {VH}*\u0393\u00e4\u00f3Q does not converge for any choice of the initial conditions. What does The phibonacci Rule become if we use powers of \u0393\u00c7\u00f4phi. We found the Fibonacci numbers appearing as sums of. Instead, it would be nice if a closed form formula for the sequence of numbers in the Fibonacci sequence existed. Fortunately, a closed form formula does exist. Sep 29, 2000. Why does the ratio F(n+1)/F(n) for the Fibonacci numbers converge to the golden ratio? No genital mutilation this",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How Does The Fibonacci Sequence Work | Understand Science on a chart. That\u0393\u00c7\u00d6s not true of the Fibonacci sequence, which originated in India and was brought. Roman numeral system inherited from the ancient world. While Roman numerals work well enough for cornerstones. By way of analogy, storing angles in a deep convolutional neural network layer from a distribution of images does not. the digits of the Fibonacci sequence in the natural order according to a. Dec 3, 2010. How does the Fibonacci Sequence Work? <ul><li>The Fibonacci sequence is derived from the Fibonacci numbers. The Fibonacci numbers are. Nov 04, 2013 \u252c\u2556 The rabbit problem is obviously very contrived, but",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2004-07-14"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Fibonacci Sequence Explains Why Four-Leaf Clovers Are So Rare | Inverse mutation that overrides the three-leaf gene. In 1994, a Swarthmore College mathematician answered a query about the rarity of four-leaf clovers by stating simply, \u0393\u00c7\u00a3Four is not a Fibonacci number.\u0393\u00c7\u00a5 It\u0393\u00c7\u00d6s true \u0393\u00c7\u00f6 the sequence begins 0, 1, 1, 2, 3, 5, 8, 13, 21, and continues indefinitely. The idea behind this statement is that nature seems to favor growth that follows the Fibonacci sequence, and so when a clover sprouts an extra leaf, it does so in defiance of this natural, mathematical law. The world\u0393\u00c7\u00d6s wealth of three-leaved clovers tells us that most shamrocks are conformists while the four-leaved",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1991-01-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Fibonacci Sequence In The World | Knowledge of Science is simple enough to generate. This sequence of numbers is called the Fibonacci Sequence, named after the Italian mathematician Leonardo Fibonacci. When Fibonacci was born in 1175, most people in Europe still used the Roman numeral system for numbers (e.g. IVX or MCMLIV). The famous Fibonacci sequence, a series of numbers in which each is the sum of the preceding two (1, 1, 2, 3, 5, 8,.), shows up everywhere in nature\u0393\u00c7\u00f6in nautilus shells, in pinecones, and now in. Yes, a properly timed delivery of a few fun facts about the famed Fibonacci sequence just might leave your friends clamoring.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1996-11-25"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the Fibonacci sequence appears in nature and lists examples, addressing the query's core."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses convergence and closed-form formulas for the Fibonacci sequence, but not its appearance in nature."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions the Fibonacci sequence's origin and how it works, but not why it appears in nature."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains how the Fibonacci sequence relates to the rarity of four-leaf clovers, providing a specific natural example and hinting at a 'natural law'."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the Fibonacci sequence shows up everywhere in nature and gives examples like nautilus shells and pinecones, directly addressing the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Fibonacci sequence is a series of numbers where each succeeding number (after the second) is the sum of the previous two.",
+            "The sequence is 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...",
+            "This sequence expresses many naturally occurring relationships in the plant world."
+          ],
+          "reason": "Extracted the definition of the Fibonacci sequence and its relevance to natural relationships in plants, as stated in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The ratio F(n+1)/F(n) for the Fibonacci numbers converges to the golden ratio."
+          ],
+          "reason": "Extracted the fact about the convergence of the Fibonacci sequence ratio to the golden ratio, which is a key mathematical property."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Fibonacci sequence originated in India and was brought to Europe."
+          ],
+          "reason": "Extracted the historical origin of the Fibonacci sequence as mentioned in the document."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Nature seems to favor growth that follows the Fibonacci sequence.",
+            "Four-leaf clovers are rare because four is not a Fibonacci number.",
+            "The sequence begins 0, 1, 1, 2, 3, 5, 8, 13, 21, and continues indefinitely."
+          ],
+          "reason": "Extracted facts linking the Fibonacci sequence to natural growth patterns, the rarity of four-leaf clovers, and the sequence's starting numbers."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Fibonacci sequence is named after the Italian mathematician Leonardo Fibonacci.",
+            "The sequence is a series of numbers where each is the sum of the preceding two (1, 1, 2, 3, 5, 8...).",
+            "The Fibonacci sequence shows up everywhere in nature, such as in nautilus shells and pinecones."
+          ],
+          "reason": "Extracted the origin of the name, the definition of the sequence, and examples of its appearance in nature."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States the Fibonacci sequence expresses naturally occurring relationships in the plant world, directly addressing why it appears in nature.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions the golden ratio, which is related to the Fibonacci sequence's appearance in nature, but doesn't explicitly explain the 'why'.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses the historical origin of the Fibonacci sequence, which does not explain its presence in nature.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States nature favors growth following the Fibonacci sequence and provides examples, directly answering why it shows up in nature.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly states the Fibonacci sequence shows up everywhere in nature and provides examples like nautilus shells and pinecones.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_explanation_nature",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents directly explain the Fibonacci sequence's presence in nature with examples of plant growth, natural relationships, and specific organisms."
+          },
+          {
+            "label": "related_mathematical_property",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Mentions the convergence to the golden ratio, a related mathematical property but not a direct explanation for its natural occurrence."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence supports the presence and properties of the Fibonacci sequence in nature, with different documents offering complementary details and explanations.",
+        "clusters": [
+          {
+            "label": "Fibonacci sequence in nature",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents directly explain the Fibonacci sequence's presence in nature with examples of plant growth, natural relationships, and specific organisms."
+          },
+          {
+            "label": "Mathematical property of Fibonacci sequence",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Mentions the convergence to the golden ratio, a related mathematical property but not a direct explanation for its natural occurrence."
+          },
+          {
+            "label": "Historical origin",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Discusses the historical origin of the Fibonacci sequence, which is irrelevant to its presence in nature."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence directly explains the Fibonacci sequence's presence in nature. Conflicts are complementary, providing different facets of the topic without contradiction."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Fibonacci sequence appears in nature, with examples found in plant growth, natural relationships, and specific organisms. While a related mathematical property is the convergence to the golden ratio, the primary focus of the supporting documents is the sequence's presence in natural phenomena.",
+        "citations": [
+          "d1",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents directly explain the Fibonacci sequence's presence in nature. Complementary evidence adds related mathematical properties without contradiction, fulfilling the user's request."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting the presence of the Fibonacci sequence in nature as described in the cited sources."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9545,
+      "completion_tokens": 2012,
+      "total_tokens": 11557
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1602,
+        "completion_tokens": 358,
+        "total_tokens": 1960
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1557,
+        "completion_tokens": 568,
+        "total_tokens": 2125
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 339,
+        "total_tokens": 1291
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1105,
+        "completion_tokens": 220,
+        "total_tokens": 1325
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1316,
+        "completion_tokens": 253,
+        "total_tokens": 1569
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 610,
+        "completion_tokens": 47,
+        "total_tokens": 657
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 762,
+        "completion_tokens": 133,
+        "total_tokens": 895
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1641,
+        "completion_tokens": 94,
+        "total_tokens": 1735
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:08.949477",
+        "prompt_tokens": 1602,
+        "completion_tokens": 358,
+        "total_tokens": 1960,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:10.992771",
+        "prompt_tokens": 1557,
+        "completion_tokens": 568,
+        "total_tokens": 2125,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:12.903063",
+        "prompt_tokens": 952,
+        "completion_tokens": 339,
+        "total_tokens": 1291,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:14.605010",
+        "prompt_tokens": 1105,
+        "completion_tokens": 220,
+        "total_tokens": 1325,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:15.945985",
+        "prompt_tokens": 1316,
+        "completion_tokens": 253,
+        "total_tokens": 1569,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:16.754510",
+        "prompt_tokens": 610,
+        "completion_tokens": 47,
+        "total_tokens": 657,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:18.222170",
+        "prompt_tokens": 762,
+        "completion_tokens": 133,
+        "total_tokens": 895,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:19.184921",
+        "prompt_tokens": 1641,
+        "completion_tokens": 94,
+        "total_tokens": 1735,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:47:59.318734",
+  "last_updated_at": "2026-04-17T19:48:19.185554"
+}

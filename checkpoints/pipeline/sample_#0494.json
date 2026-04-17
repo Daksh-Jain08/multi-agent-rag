@@ -1,0 +1,383 @@
+{
+  "sample_id": "#0494",
+  "query": "The voice of buzz lightyear in toy story?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "an English accent). He has voiced various NPCs in \"Everquest 2\". He voiced the Berserker Darklings in \"The Darkness\", Bumble in \"Kinectimals\" and Kaos in \"\". Horvitz also voiced \"Green Grapes\" in the Fruit of the Loom commercials. He has also acted on stage, including in Jeffrey Hatcher's \"Mrs. Mannerly\" in Boston. Richard Steven Horvitz Richard Steven Horvitz (born July 29, 1966), sometimes credited as Richard Wood, is an American actor and voice actor. In the world of animation, he has voiced mentally unstable and neurotic characters. He is known for his work as the voice of the original Alpha",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2009-11-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "to Bonnie's house, where Andy passes them on to enjoy life with a new owner. As Andy drives away to college, Woody says an emotional and final farewell to him, saying \"So long, partner\". Woody made a cameo in the outtakes of Pixar's 1998 film \"A Bug's Life\" as a crew member, clapping the upside-down clapperboard. Then he appeared in the Andy's room sequence of \"\" where he was voiced by Jim Hanks (Tom Hanks' brother), and the Andy's room intro of the \"Buzz Lightyear of Star Command\" television series as a cameo. Later, he appeared in the end credit",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d3",
+      "text": "John Ratzenberger John Dezso Ratzenberger (born April 6, 1947) is an American actor, voice actor, and entrepreneur. He played Cliff Clavin in the TV show \"Cheers\", for which he earned two Emmy nominations, and plays voice roles in Pixar Animation Studios' films, including Hamm in the \"Toy Story\" franchise, The Underminer in \"The Incredibles\" franchise, and Mack in the \"Cars\" franchise. He is the only actor to appear in all of Pixar's feature films, and with minor appearances in major films such as \"Superman\" and \"The Empire Strikes Back\", he is one of the most successful actors of all time",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000-12-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "in terms of box-office receipts. Born in Bridgeport, Connecticut, Ratzenberger began his entertainment career while living in London in the 1970s. He had minor film and television roles throughout the late 70s and early 1980s before creating, and then landing, the role of the know-it-all mailman Cliff Clavin on \"Cheers\" (1982\u0393\u00c7\u00f41993), a role he portrayed throughout the show's eleven seasons. His first Pixar role was the voice of Hamm the Piggy Bank in \"Toy Story\" (1995) and has voiced Pixar characters in films and video games ever since. From 2004 to 2008 he hosted the TV documentary series \"Made in",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mike MacRae Mike MacRae (born July 29, 1977) is an American stand-up comedian, actor, voice actor and impressionist. A native of St. Louis, Missouri, MacRae moved to Houston, Texas in 1995 where he graduated from Rice University in 1999 and started performing in The Laff Stop. He appeared on television for the first time in 2001 with Comedy Central's \"Premium Blend\" and is a regular on \"The Bob & Tom Show\". For ADV Films, he has also voiced in numerous English language dubs of anime. In other additions to his voice roles, he currently voices the Disney/Pixar character Buzz Lightyear  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2025-01-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Richard Steven Horvitz and his voice acting roles, but does not mention Buzz Lightyear or Toy Story."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions Buzz Lightyear of Star Command and Jim Hanks voicing Woody, but does not identify the voice actor for Buzz Lightyear in Toy Story."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses John Ratzenberger and his roles in Pixar films, including Hamm in Toy Story, but does not mention Buzz Lightyear's voice actor."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document mentions John Ratzenberger's role as Hamm in Toy Story, but does not provide information about the voice actor for Buzz Lightyear."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document explicitly states that Mike MacRae voices the Disney/Pixar character Buzz Lightyear."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Richard Steven Horvitz is an American actor and voice actor, born July 29, 1966."
+          ],
+          "reason": "Extracted biographical information about the voice actor Richard Steven Horvitz, who is mentioned in relation to voice acting."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Woody made a cameo in the Andy's room intro of the \"Buzz Lightyear of Star Command\" television series."
+          ],
+          "reason": "Extracted a factual statement about a cameo appearance related to Buzz Lightyear, as mentioned in the document."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "John Ratzenberger plays voice roles in Pixar Animation Studios' films, including Hamm in the \"Toy Story\" franchise."
+          ],
+          "reason": "Extracted information about John Ratzenberger's voice acting roles in Pixar films, specifically mentioning Toy Story."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "John Ratzenberger's first Pixar role was the voice of Hamm the Piggy Bank in \"Toy Story\" (1995)."
+          ],
+          "reason": "Extracted a specific fact about John Ratzenberger's first role in Toy Story, which is relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Mike MacRae currently voices the Disney/Pixar character Buzz Lightyear."
+          ],
+          "reason": "Extracted the direct answer to the query: Mike MacRae voices Buzz Lightyear."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document provides biographical information about Richard Steven Horvitz, but does not mention his role as Buzz Lightyear or any connection to Toy Story.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document mentions a cameo in the \"Buzz Lightyear of Star Command\" television series, which is related to the character but not the voice actor in the Toy Story films.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document states John Ratzenberger voices Hamm in Toy Story, but does not mention Buzz Lightyear or his voice actor.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document focuses on John Ratzenberger's role as Hamm, not the voice of Buzz Lightyear in Toy Story.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "This document directly states that Mike MacRae currently voices the Disney/Pixar character Buzz Lightyear, answering the query.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 directly identifies Mike MacRae as the voice actor for Buzz Lightyear."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, d3, and d4 provide information about other actors or related characters but do not identify the voice actor for Buzz Lightyear in the context of Toy Story."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "There is no conflict among the evidence. Document d5 directly supports that Mike MacRae voices Buzz Lightyear, while other documents are irrelevant.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 directly identifies Mike MacRae as the voice actor for Buzz Lightyear."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, d3, and d4 provide information about other actors or related characters but do not identify the voice actor for Buzz Lightyear in the context of Toy Story."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence directly supports the claim with a single document, and there is no conflict. The answer can be reliably grounded."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Mike MacRae is the voice actor for Buzz Lightyear.",
+        "citations": [
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d5 directly supports the claim that Mike MacRae voices Buzz Lightyear, and there is no conflicting information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which explicitly states that Mike MacRae voices Buzz Lightyear."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8748,
+      "completion_tokens": 1774,
+      "total_tokens": 10522
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1486,
+        "completion_tokens": 373,
+        "total_tokens": 1859
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1441,
+        "completion_tokens": 423,
+        "total_tokens": 1864
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 820,
+        "completion_tokens": 364,
+        "total_tokens": 1184
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 998,
+        "completion_tokens": 192,
+        "total_tokens": 1190
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1219,
+        "completion_tokens": 213,
+        "total_tokens": 1432
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 596,
+        "completion_tokens": 43,
+        "total_tokens": 639
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 79,
+        "total_tokens": 823
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1444,
+        "completion_tokens": 87,
+        "total_tokens": 1531
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:50.381815",
+        "prompt_tokens": 1486,
+        "completion_tokens": 373,
+        "total_tokens": 1859,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:52.257100",
+        "prompt_tokens": 1441,
+        "completion_tokens": 423,
+        "total_tokens": 1864,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:53.928672",
+        "prompt_tokens": 820,
+        "completion_tokens": 364,
+        "total_tokens": 1184,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:55.223977",
+        "prompt_tokens": 998,
+        "completion_tokens": 192,
+        "total_tokens": 1190,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:56.348071",
+        "prompt_tokens": 1219,
+        "completion_tokens": 213,
+        "total_tokens": 1432,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:57.101164",
+        "prompt_tokens": 596,
+        "completion_tokens": 43,
+        "total_tokens": 639,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:58.037103",
+        "prompt_tokens": 744,
+        "completion_tokens": 79,
+        "total_tokens": 823,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:59.316780",
+        "prompt_tokens": 1444,
+        "completion_tokens": 87,
+        "total_tokens": 1531,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:47:48.461982",
+  "last_updated_at": "2026-04-17T19:47:59.317324"
+}

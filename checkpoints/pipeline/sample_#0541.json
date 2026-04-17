@@ -1,0 +1,389 @@
+{
+  "sample_id": "#0541",
+  "query": "When did the first free settlers arrived in australia?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Immigration history of Australia The immigration history of Australia began with the initial human migration to the continent around 80,000 years ago when the ancestors of Australian Aboriginals arrived on the continent via the islands of Maritime Southeast Asia and New Guinea. From the early 17th century onwards, the continent experienced the first coastal landings and exploration by European explorers. Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales. From early federation in 1901, Australia maintained the White Australia Policy, which was abolished after World War II, heralding the modern era",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "as domestic help to soldiers. Those convicts who behaved were eventually issued with ticket of leave, which allowed them a certain degree of freedom. Those who saw out their full sentences or were granted a pardon usually remained in Australia as free settlers, and were able to take on convict servants themselves. In 1789 former convict James Ruse produced the first successful wheat harvest in NSW. He repeated this success in 1790 and, because of the pressing need for food production in the colony, was rewarded by Governor Phillip with the first land grant made in New South Wales. Ruse's",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the issue of immigration remains highly sensitive in Australia. Immigration history of Australia The immigration history of Australia began with the initial human migration to the continent around 80,000 years ago when the ancestors of Australian Aboriginals arrived on the continent via the islands of Maritime Southeast Asia and New Guinea. From the early 17th century onwards, the continent experienced the first coastal landings and exploration by European explorers. Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales. From early federation in 1901, Australia maintained the White Australia Policy, which was",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "settlement of Sydney by Watkin Tench, a captain of the marines on the First Fleet to arrive in 1788. In 1819, poet, explorer, journalist and politician William Wentworth published the first book written by an Australian: \"A Statistical, Historical, and Political Description of the Colony of New South Wales and Its Dependent Settlements in Van Diemen's Land, With a Particular Enumeration of the Advantages Which These Colonies Offer for Emigration and Their Superiority in Many Respects Over Those Possessed by the United States of America\", in which he advocated an elected assembly for New South Wales, trial by jury and",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Britain experienced overcrowding of its prisons and sought to ease the problems by transportation of its prisoners. In 1787 the First Fleet of 11 ships and about 1350 people under the command of Captain Arthur Phillip sailed for Australia. On 26 January 1788 a landing was made at Sydney Cove. The new colony was formally proclaimed as the Colony of New South Wales on 7 February. Other transport fleets bringing further convicts as well as freemen to the colony followed. As a result of agitation by the free settlers in Sydney, transportation of convicts to Sydney ended in 1840. It  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions European settlement began in 1788 with a penal colony, but doesn't specify when free settlers arrived."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains that convicts who served their sentences or were pardoned could remain as free settlers, implying their arrival was tied to the penal colony's timeline."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "States permanent European settlement began in 1788 with a penal colony, but lacks specific information on the arrival of free settlers."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions the First Fleet arrived in 1788 and discusses emigration, indirectly relating to free settlers' potential arrival around that time."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "States that 'freemen' arrived with further transport fleets after 1788 and that transportation ended in 1840 due to free settlers' agitation."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales."
+          ],
+          "reason": "Extracted the date of the first permanent European settlement, which is relevant to the arrival of settlers."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Those who saw out their full sentences or were granted a pardon usually remained in Australia as free settlers."
+          ],
+          "reason": "Identified a condition under which individuals became free settlers, relevant to the query about settlers."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales."
+          ],
+          "reason": "Extracted the date of the first permanent European settlement, which is relevant to the arrival of settlers."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The First Fleet arrived in 1788."
+          ],
+          "reason": "Extracted the arrival year of the First Fleet, which marks the beginning of European settlement and the arrival of settlers."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "On 26 January 1788 a landing was made at Sydney Cove.",
+            "The new colony was formally proclaimed as the Colony of New South Wales on 7 February.",
+            "Other transport fleets bringing further convicts as well as freemen to the colony followed.",
+            "Transportation of convicts to Sydney ended in 1840."
+          ],
+          "reason": "Extracted key dates and information about the arrival of convicts and freemen, and the end of convict transportation, which are relevant to settler arrival."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States permanent European settlement began in 1788 with a penal colony, directly answering when settlers arrived.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Explains how individuals became free settlers but doesn't specify the arrival date of the first free settlers.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "States permanent European settlement began in 1788 with a penal colony, directly answering when settlers arrived.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Confirms the arrival year of the First Fleet in 1788, marking the beginning of settler arrival.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Provides the specific date of landing in 1788 and mentions subsequent arrivals of freemen, directly addressing settler arrival.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "settler_arrival_date",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents confirm that permanent European settlement began in 1788, with specific mentions of the First Fleet's arrival and landing at Sydney Cove."
+          },
+          {
+            "label": "settler_status_conditions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document explains how individuals became free settlers but does not provide specific dates for their arrival."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary, with multiple sources agreeing on the date of permanent European settlement and providing additional details about the arrival of settlers and their status.",
+        "clusters": [
+          {
+            "label": "settler_arrival_date",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents confirm that permanent European settlement began in 1788, with specific mentions of the First Fleet's arrival and landing at Sydney Cove."
+          },
+          {
+            "label": "settler_status_conditions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document explains how individuals became free settlers but does not provide specific dates for their arrival."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and the evidence is complementary with no significant conflicts, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Permanent European settlement in Australia began in 1788, marked by the arrival of the First Fleet and their landing at Sydney Cove.",
+        "citations": [
+          "d1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Multiple supporting documents consistently state that permanent European settlement began in 1788, directly answering the user's query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that permanent European settlement began in 1788 with the First Fleet's arrival at Sydney Cove, which is directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8340,
+      "completion_tokens": 1836,
+      "total_tokens": 10176
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1333,
+        "completion_tokens": 388,
+        "total_tokens": 1721
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1288,
+        "completion_tokens": 458,
+        "total_tokens": 1746
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 848,
+        "completion_tokens": 338,
+        "total_tokens": 1186
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1001,
+        "completion_tokens": 190,
+        "total_tokens": 1191
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1220,
+        "completion_tokens": 211,
+        "total_tokens": 1431
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 592,
+        "completion_tokens": 42,
+        "total_tokens": 634
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 739,
+        "completion_tokens": 109,
+        "total_tokens": 848
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1319,
+        "completion_tokens": 100,
+        "total_tokens": 1419
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:06.995070",
+        "prompt_tokens": 1333,
+        "completion_tokens": 388,
+        "total_tokens": 1721,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:09.699098",
+        "prompt_tokens": 1288,
+        "completion_tokens": 458,
+        "total_tokens": 1746,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:11.740963",
+        "prompt_tokens": 848,
+        "completion_tokens": 338,
+        "total_tokens": 1186,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:13.120347",
+        "prompt_tokens": 1001,
+        "completion_tokens": 190,
+        "total_tokens": 1191,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:14.577295",
+        "prompt_tokens": 1220,
+        "completion_tokens": 211,
+        "total_tokens": 1431,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:15.359355",
+        "prompt_tokens": 592,
+        "completion_tokens": 42,
+        "total_tokens": 634,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:16.232918",
+        "prompt_tokens": 739,
+        "completion_tokens": 109,
+        "total_tokens": 848,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:00:17.419836",
+        "prompt_tokens": 1319,
+        "completion_tokens": 100,
+        "total_tokens": 1419,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:00:05.150139",
+  "last_updated_at": "2026-04-17T20:00:17.420345"
+}

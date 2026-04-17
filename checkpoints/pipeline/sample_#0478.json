@@ -1,0 +1,386 @@
+{
+  "sample_id": "#0478",
+  "query": "Who played the original robin in batman and robin?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Jason Hillhouse provides the voice of Dick Grayson, while Kevin Conroy and Mark Hamill reprise their respective roles (from the DC animated universe) as Batman and the Joker in the storyboard sequence. Burton planned to cast Northern Irish actor Ricky Addison Reed as Robin, but later felt it was unimportant to the story and cut Robin out altogether. In an earlier script of \"Batman Returns\", he was portrayed as a technologically savvy street kid who would help Batman following his narrow escape when The Penguin tried to kill him. He would later play a crucial role in Batman's final confrontation",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "leads to their deaths, which he reacts to with a lot of callousness), and thinking that nature is so dangerous he needs to be on edge and eat whatever he can find. An episode also showed that he had a backup Robin squad which features Carrie Kelly, a darker Tim Drake, and the upbeat 60s version all voiced by Scott. In director Lambert Hillyer's 1943 film serial \"Batman\", Robin was played by Douglas Croft. Croft was the only actor to portray Robin at the actual age of sixteen; subsequent live-action actors have either been in their early to late 20s.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "hooded villain whose identity remains a mystery throughout the serial until the end. \"Batman\" (also known as \"Batman: The Movie\") is a 1966 film adaptation of the popular \"Batman\" television series, and was the first full-length theatrical adaptation of the DC Comics character. The 20th Century Fox release starred Adam West as Batman and Burt Ward as Robin, as well as Lee Meriwether as Catwoman, Cesar Romero as the Joker, Burgess Meredith as the Penguin and Frank Gorshin as the Riddler. The film was directed by Leslie H. Martinson, who also directed a pair of \"Batman\" episodes: \"The Penguin Goes",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2002-12-03"
+    },
+    {
+      "doc_id": "d4",
+      "text": "drummer Micky Dolenz was attached to star as the Riddler, the film's main antagonist. Also, Harvey Dent's transformation into Two-Face was supposed to occur in the film, with Billy Dee Williams reprising his role as Dent from the first film, after turning down the offer to appear in \"Batman Returns\". Along with these, Michelle Pfeiffer was attached to return as Catwoman, Marlon Wayans was attached to star as Robin, and Rene Russo was attached to star as Dr. Chase Meridian. However, when Warner Bros. observed that the script was just as gloomy as the previous film, they decided to put",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1995-03-26"
+    },
+    {
+      "doc_id": "d5",
+      "text": "and Alfred. Also, Adam West is a playable character. The Batmobile from the show is also included as a drivable vehicle. The end credits sequence remakes the Batclimb window cameos. Batman (TV series) Batman is a 1960s American live action television series, based on the DC comic book character of the same name. It stars Adam West as Batman and Burt Ward as Robin \u0393\u00c7\u00f4 two crime-fighting heroes who defend Gotham City from a variety of arch villains. It is known for its camp style, upbeat theme music, and its intentionally humorous, simplistic morality (aimed at its largely teenage audience).  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1993"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions Ricky Addison Reed was planned for Robin but cut. It doesn't state who played the original Robin in 'Batman & Robin'."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Mentions Douglas Croft played Robin in the 1943 serial. It doesn't specify the actor for the 'Batman & Robin' movie."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that Burt Ward starred as Robin in the 1966 film adaptation 'Batman'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": true,
+          "reason": "Mentions Marlon Wayans was attached to star as Robin, but this was for a different film and not the original 'Batman & Robin'."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Burt Ward starred as Robin in the 1960s American live-action television series 'Batman'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Burton planned to cast Ricky Addison Reed as Robin, but later cut Robin from the story."
+          ],
+          "reason": "Extracted the fact about a planned casting for Robin that was ultimately removed from the story, as mentioned in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In director Lambert Hillyer's 1943 film serial \"Batman\", Robin was played by Douglas Croft.",
+            "Douglas Croft was the only actor to portray Robin at the actual age of sixteen."
+          ],
+          "reason": "Extracted facts identifying Douglas Croft as the actor who played Robin in the 1943 film serial and noting his age at the time."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The 1966 film adaptation of \"Batman\" starred Burt Ward as Robin."
+          ],
+          "reason": "Extracted the fact that Burt Ward played Robin in the 1966 \"Batman\" film adaptation."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Marlon Wayans was attached to star as Robin in a film, but the script was deemed too gloomy."
+          ],
+          "reason": "Extracted the fact that Marlon Wayans was considered for the role of Robin in a film that was ultimately not made as planned."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The 1960s American live action television series \"Batman\" stars Burt Ward as Robin."
+          ],
+          "reason": "Extracted the fact that Burt Ward played Robin in the 1960s \"Batman\" television series."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a planned casting for Robin that was cut from the story, not the original actor who played Robin.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies Douglas Croft as the actor who played Robin in the 1943 film serial, which is an early portrayal.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "States Burt Ward played Robin in the 1966 film adaptation, a significant early portrayal.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Marlon Wayans being attached to play Robin in a film that was not made, not an actual original portrayal.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Confirms Burt Ward played Robin in the 1960s television series, a prominent early role.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "early_robin_portrayals",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide specific actors (Douglas Croft, Burt Ward) and contexts (1943 serial, 1966 film, 1960s TV series) for early portrayals of Robin."
+          },
+          {
+            "label": "unrealized_casting",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 discuss planned castings for Robin that were ultimately cut or did not materialize, making them irrelevant to actual portrayals."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides compatible details about different actors who portrayed Robin in various early adaptations, without contradiction.",
+        "clusters": [
+          {
+            "label": "early_robin_portrayals",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide specific actors (Douglas Croft, Burt Ward) and contexts (1943 serial, 1966 film, 1960s TV series) for early portrayals of Robin."
+          },
+          {
+            "label": "unrealized_casting",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 discuss planned castings for Robin that were ultimately cut or did not materialize, making them irrelevant to actual portrayals."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, with sufficient supporting documents to answer the query about early Robin portrayals without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Early portrayals of Robin included Douglas Croft in the 1943 serial and Burt Ward in the 1966 film and 1960s TV series.",
+        "citations": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide complementary information about early Robin portrayals, directly answering the query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately citing Douglas Croft and Burt Ward as early portrayals of Robin."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8576,
+      "completion_tokens": 1852,
+      "total_tokens": 10428
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1374,
+        "completion_tokens": 374,
+        "total_tokens": 1748
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1329,
+        "completion_tokens": 446,
+        "total_tokens": 1775
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 840,
+        "completion_tokens": 340,
+        "total_tokens": 1180
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 991,
+        "completion_tokens": 221,
+        "total_tokens": 1212
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1241,
+        "completion_tokens": 232,
+        "total_tokens": 1473
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 644,
+        "completion_tokens": 43,
+        "total_tokens": 687
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 792,
+        "completion_tokens": 107,
+        "total_tokens": 899
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1365,
+        "completion_tokens": 89,
+        "total_tokens": 1454
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:43.934773",
+        "prompt_tokens": 1374,
+        "completion_tokens": 374,
+        "total_tokens": 1748,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:45.830957",
+        "prompt_tokens": 1329,
+        "completion_tokens": 446,
+        "total_tokens": 1775,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:47.337902",
+        "prompt_tokens": 840,
+        "completion_tokens": 340,
+        "total_tokens": 1180,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:49.362856",
+        "prompt_tokens": 991,
+        "completion_tokens": 221,
+        "total_tokens": 1212,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:50.692935",
+        "prompt_tokens": 1241,
+        "completion_tokens": 232,
+        "total_tokens": 1473,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:51.592405",
+        "prompt_tokens": 644,
+        "completion_tokens": 43,
+        "total_tokens": 687,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:52.536600",
+        "prompt_tokens": 792,
+        "completion_tokens": 107,
+        "total_tokens": 899,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:53.603047",
+        "prompt_tokens": 1365,
+        "completion_tokens": 89,
+        "total_tokens": 1454,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:44:40.972027",
+  "last_updated_at": "2026-04-17T19:44:53.603518"
+}

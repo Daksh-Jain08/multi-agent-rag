@@ -1,0 +1,386 @@
+{
+  "sample_id": "#0568",
+  "query": "What is the first ghost that visited scrooge?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "be a cheap funeral, if anyone comes at all. One businessman said he would go \u0393\u00c7\u00f4 but only if lunch is provided. Next, Scrooge is shown the same dead person's belongings being stolen by Scrooge's charwoman Mrs. Dilber, Scrooge's laundress, and the local undertaker and sold to a fence called Old Joe. He also sees a shrouded corpse, which he implores the Ghost not to unmask. Scrooge asks the ghost to show anyone who feels any emotion over the man's death. The ghost can only show him a poor couple indebted to the man momentarily rejoicing that the man is",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2003-05-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "comments that Tiny Tim might not survive until next Christmas unless the course of events changes. Before the spirit vanishes, Scrooge is warned that life is too short and to do as much as he can in what little time he has. Left alone in the street, Scrooge is visited by the Ghost of Christmas Yet to Come, a silent, cloaked figure who takes him into the future. Scrooge and the spirit witness Tom and the other citizens rejoicing at the death of Scrooge. The spirit transports Scrooge to Bob's house, where he discovers that Tiny Tim had died. The",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the weasels leave, Scrooge asks whose grave this belongs to. The ghost lights a cigar, revealing his face (he was actually Pete) and darkly remarks \"Why yours, Ebenezer Scrooge; the richest man in the cemetery\". The ghost shoves him into his empty coffin which opens to reveal the fires of Hell, laughing uproariously while Scrooge vows to repent. Awakening in his bedroom on Christmas Day, Scrooge decides to surprise Bob\u0393\u00c7\u00d6s family with a turkey dinner and ventures out to spread happiness and joy around London. He accepts Fred's invitation, then donates a sizable amount of money to the gentlemen he",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2017-11-20"
+    },
+    {
+      "doc_id": "d4",
+      "text": "is content with their small dinner, Scrooge taking pity on Bob's ill son Tiny Tim (played by Robin the Frog). The Ghost of Christmas Present abruptly ages, commenting that Tiny Tim will likely not survive until next Christmas. Scrooge and the Ghost go to a cemetery, where the latter fades away. The Ghost of Christmas Yet to Come then approaches Scrooge, appearing as a tall, silent cloaked figure. While Dickens and Rizzo abandon the audience to avoid being frightened, the Ghost takes Scrooge into the future. Scrooge and the Ghost witness a group of businessmen discussing the death of an",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the joys and wonder of Christmas Day. Scrooge and the Ghost visit Cratchit's house, learning his family is content with their small dinner, Scrooge taking pity on Cratchit's ill son Tiny Tim. The Ghost eventually ages, commenting that Tiny Tim will likely not survive until next Christmas. As the Ghost dies, he warns Scrooge about the evils of \"Ignorance\" and \"Want\", two demonic children who manifest themselves before Scrooge as two wretched children. The Ghost of Christmas Yet to Come arrives, appearing as a tall, silent cloaked figure, and takes Scrooge into the future. At the stock exchange, Scrooge's acquaintances  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2019-04-20"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document mentions a shrouded corpse and a ghost, but does not identify the first ghost to visit Scrooge or provide context about the sequence of visits."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "This document mentions Scrooge being visited by the 'Ghost of Christmas Yet to Come' after other spirits have vanished. This implies it is not the first ghost."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document describes the Ghost of Christmas Yet to Come and Scrooge's repentance, but does not mention the first ghost to visit him."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document mentions the 'Ghost of Christmas Present' and then the 'Ghost of Christmas Yet to Come' approaching Scrooge. This suggests the Ghost of Christmas Present is not the first."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document mentions the 'Ghost of Christmas Present' and then the 'Ghost of Christmas Yet to Come' arriving. This implies the Ghost of Christmas Present is not the first ghost."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Scrooge sees a shrouded corpse, which he implores the Ghost not to unmask.",
+            "Scrooge asks the ghost to show anyone who feels any emotion over the man's death.",
+            "The ghost can only show him a poor couple indebted to the man momentarily rejoicing that the man is dead."
+          ],
+          "reason": "Extracted facts about Scrooge's interactions with a ghost and his reaction to seeing a shrouded corpse, which are relevant to the query about ghosts visiting Scrooge."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Scrooge is visited by the Ghost of Christmas Yet to Come, a silent, cloaked figure who takes him into the future."
+          ],
+          "reason": "Extracted the fact that Scrooge is visited by the Ghost of Christmas Yet to Come, which directly answers the query about the first ghost to visit Scrooge."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Scrooge asks whose grave this belongs to.",
+            "The ghost reveals his face (he was actually Pete) and darkly remarks \"Why yours, Ebenezer Scrooge; the richest man in the cemetery\"."
+          ],
+          "reason": "Extracted facts about Scrooge interacting with a ghost in a cemetery and the ghost revealing his identity, which are relevant to the query about ghosts visiting Scrooge."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Ghost of Christmas Yet to Come then approaches Scrooge, appearing as a tall, silent cloaked figure."
+          ],
+          "reason": "Extracted the fact that the Ghost of Christmas Yet to Come approaches Scrooge, which is relevant to the query about ghosts visiting Scrooge."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Ghost of Christmas Yet to Come arrives, appearing as a tall, silent cloaked figure, and takes Scrooge into the future."
+          ],
+          "reason": "Extracted the fact that the Ghost of Christmas Yet to Come arrives and takes Scrooge into the future, which is relevant to the query about ghosts visiting Scrooge."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions Scrooge interacting with a ghost and a shrouded corpse, but doesn't explicitly identify it as the first ghost.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that the Ghost of Christmas Yet to Come is the ghost that visits Scrooge, implying it's the first.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Describes Scrooge interacting with a ghost in a cemetery and the ghost revealing his identity as Ebenezer Scrooge, but doesn't confirm it's the first ghost.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions the Ghost of Christmas Yet to Come approaching Scrooge, but doesn't explicitly state it's the first ghost to visit.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "States the Ghost of Christmas Yet to Come arrives and takes Scrooge into the future, but doesn't confirm it's the first ghost.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly identifies the Ghost of Christmas Yet to Come as the visiting ghost."
+          },
+          {
+            "label": "partial_context_ghost_interactions",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d3, d4, and d5 describe interactions with ghosts, including the Ghost of Christmas Yet to Come, but do not explicitly confirm it as the first ghost."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary. Document d2 directly identifies the Ghost of Christmas Yet to Come as the visiting ghost, while other documents provide additional context about ghost interactions and the Ghost of Christmas Yet to Come's appearance and actions.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly identifies the Ghost of Christmas Yet to Come as the visiting ghost."
+          },
+          {
+            "label": "partial_context_ghost_interactions",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d3, d4, and d5 describe interactions with ghosts, including the Ghost of Christmas Yet to Come, but do not explicitly confirm it as the first ghost."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and directly supports the claim that the Ghost of Christmas Yet to Come is the visiting ghost, with other documents providing additional context."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Ghost of Christmas Yet to Come is identified as the visiting ghost.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly identifies the Ghost of Christmas Yet to Come as the visiting ghost, and the refusal indicates no abstention is necessary."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies the Ghost of Christmas Yet to Come as the visiting ghost, directly supported by the cited document d2."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8751,
+      "completion_tokens": 1947,
+      "total_tokens": 10698
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1369,
+        "completion_tokens": 401,
+        "total_tokens": 1770
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1324,
+        "completion_tokens": 528,
+        "total_tokens": 1852
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 919,
+        "completion_tokens": 370,
+        "total_tokens": 1289
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1101,
+        "completion_tokens": 194,
+        "total_tokens": 1295
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1324,
+        "completion_tokens": 231,
+        "total_tokens": 1555
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 616,
+        "completion_tokens": 48,
+        "total_tokens": 664
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 769,
+        "completion_tokens": 85,
+        "total_tokens": 854
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1329,
+        "completion_tokens": 90,
+        "total_tokens": 1419
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:52.239957",
+        "prompt_tokens": 1369,
+        "completion_tokens": 401,
+        "total_tokens": 1770,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:54.375956",
+        "prompt_tokens": 1324,
+        "completion_tokens": 528,
+        "total_tokens": 1852,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:55.968135",
+        "prompt_tokens": 919,
+        "completion_tokens": 370,
+        "total_tokens": 1289,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:57.570224",
+        "prompt_tokens": 1101,
+        "completion_tokens": 194,
+        "total_tokens": 1295,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:59.039500",
+        "prompt_tokens": 1324,
+        "completion_tokens": 231,
+        "total_tokens": 1555,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:59.917596",
+        "prompt_tokens": 616,
+        "completion_tokens": 48,
+        "total_tokens": 664,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:00.762409",
+        "prompt_tokens": 769,
+        "completion_tokens": 85,
+        "total_tokens": 854,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:01.676753",
+        "prompt_tokens": 1329,
+        "completion_tokens": 90,
+        "total_tokens": 1419,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:06:49.621408",
+  "last_updated_at": "2026-04-17T20:07:01.677346"
+}

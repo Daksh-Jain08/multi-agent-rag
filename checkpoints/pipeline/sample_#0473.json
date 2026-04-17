@@ -1,0 +1,380 @@
+{
+  "sample_id": "#0473",
+  "query": "What day of the year is mothers day always celebrated?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "contributed to it for twenty years. That same year, she wrote her \"Appeal to womanhood throughout the world\", later known as the Mother's Day Proclamation, which asked women around the world to join for world peace. (See .) She authored it soon after she evolved into a pacifist and an anti-war activist. In 1872, she asked that \"Mother's Day\" be celebrated on the 2nd of June. Her efforts were not successful, and by 1893 she was wondering if the 4th of July could be remade into \"Mother's Day\". In 1874, she edited a coeducational defense titled \"Sex and Education\". She",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d2",
+      "text": "has since been copied by other Arab countries. In Argentina, Mother's Day is celebrated on the third Sunday of October. The holiday was originally celebrated on 11 October, the old liturgical date for the celebration of the Maternity of the Blessed Virgin Mary but after the Second Vatican Council, which moved the Virgin Mary festivity to 1 January, the Mother's Day started to be celebrated the third Sunday of October because of popular tradition. Argentina is the only country in the world that celebrates Mother's Day on this date. In Armenia, Mother's Day is celebrated on 8 March, and on",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d3",
+      "text": "from the story of Maudgalyayana and his mother. Mother's day is celebrated in 8 March . The origin of 8 March holiday dates back to 1908 and is associated with a tragic event. A group of workers at a textile factory in New York strikes against extreme working conditions. On 8 March, the factory was shut down and the workers remained trapped inside. Suddenly a fire broke out, where 129 mothers died. Mother's Day in most Arab countries is celebrated on 21 March. It was introduced in Egypt by journalist Mustafa Amin and was first celebrated in 1956. The practice",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "efforts of their mothers. In Panama, Mother's Day is celebrated on 8 December, the same day as the Feast of the Immaculate Conception. This date was suggested in 1930 by the wife of Panama's President Florencio Harmodio Arosemena. 8 December was adopted as Mother's Day under Law 69, which was passed the same year. According to another account, in 1924 the Rotary Club of Panama asked that Mother's Day be celebrated on 11 May. Politician An\u251c\u00a1bal D. R\u251c\u00a1os changed the proposal so that the celebration would be held on 8 December. He then established Mother's Day as a national holiday",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d5",
+      "text": "celebrated on 12 May 1957 in Assisi, at the initiative of Reverend Otello Migliosi, the parish priest of the Tordibetto church. This celebration was so popular that in the following year Mother's Day was adopted throughout Italy. On 18 December 1958, a proposal was presented to the Italian Senate to make the holiday official. In Japan, was initially commemorated during the Sh\u253c\u00ecwa period as the birthday of Empress K\u253c\u00ecjun (mother of Emperor Akihito) on 6 March. This was established in 1931 when the Imperial Women's Union was organized. In 1937, the first meeting of \"Praise Mothers\" was held on 8  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2000-07-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": true,
+          "reason": "Mentions Julia Ward Howe's proposal for Mother's Day on June 2nd and July 4th, indicating it wasn't always on a fixed date."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "States Mother's Day in Argentina is celebrated on the third Sunday of October, and previously on October 11th, showing it varies by country and tradition."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions Mother's Day is celebrated on March 8th in some regions and March 21st in Arab countries, indicating it's not a single fixed day globally."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "States Mother's Day in Panama is celebrated on December 8th, and there was a proposal for May 11th, showing date variations."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions Mother's Day was celebrated on May 12th in Italy and March 6th in Japan, indicating different dates historically and internationally."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In 1872, Julia Ward Howe asked that \"Mother's Day\" be celebrated on the 2nd of June.",
+            "By 1893, she was wondering if the 4th of July could be remade into \"Mother's Day\"."
+          ],
+          "reason": "Extracted specific dates Julia Ward Howe proposed for Mother's Day celebrations, directly addressing the query about when it is celebrated."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In Argentina, Mother's Day is celebrated on the third Sunday of October.",
+            "The holiday was originally celebrated on 11 October in Argentina."
+          ],
+          "reason": "Extracted the current and original celebration dates for Mother's Day in Argentina, relevant to the query about when the day is celebrated."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Mother's day is celebrated in 8 March in some contexts.",
+            "Mother's Day in most Arab countries is celebrated on 21 March.",
+            "Mother's Day was first celebrated in Egypt in 1956."
+          ],
+          "reason": "Extracted specific dates for Mother's Day celebrations in different regions (8 March, 21 March) and the year it was first celebrated in Egypt."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "In Panama, Mother's Day is celebrated on 8 December.",
+            "In 1924, the Rotary Club of Panama asked that Mother's Day be celebrated on 11 May."
+          ],
+          "reason": "Extracted the current date for Mother's Day in Panama (8 December) and a past proposal for a different date (11 May)."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Mother's Day was celebrated on 12 May 1957 in Assisi, Italy.",
+            "In Japan, Mother's Day was initially commemorated on 6 March as the birthday of Empress K\u014djun."
+          ],
+          "reason": "Extracted specific dates Mother's Day was celebrated in Italy and Japan, addressing the query about when the day is celebrated."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions proposed dates for Mother's Day but does not state the universally recognized or current date.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Provides specific dates for Mother's Day in Argentina, but not a universal date.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Lists different dates for Mother's Day in various regions, but not a single, consistent date.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Gives a specific date for Panama and a past proposal, but not the universally celebrated date.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Provides specific past celebration dates in Italy and Japan, not the current or universal date.",
+          "confidence": 0.6
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "regional_celebrations",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents provide specific dates for Mother's Day celebrations in various countries and historical contexts, but no single universal date is identified."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence details various regional and historical dates for Mother's Day celebrations, but does not present conflicting claims about a single, universally recognized date.",
+        "clusters": [
+          {
+            "label": "regional_and_historical_dates",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents list different dates for Mother's Day in various countries (e.g., Argentina, Panama, Arab countries) and historical proposals or celebrations (e.g., Julia Ward Howe's proposals, Italy, Japan)."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence, while not identifying a single universal date, consistently points to various regional and historical celebrations of Mother's Day on different dates. This is not a conflict, but a factual description of varied observances."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Mother's Day is celebrated on various dates across different countries and has historical variations, with no single universal date identified in the provided documents.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence consistently shows regional and historical variations in Mother's Day dates, directly answering the query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately reflects that Mother's Day is celebrated on different dates globally, as supported by all cited documents which list various dates for different countries."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8890,
+      "completion_tokens": 1911,
+      "total_tokens": 10801
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1463,
+        "completion_tokens": 409,
+        "total_tokens": 1872
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1418,
+        "completion_tokens": 570,
+        "total_tokens": 1988
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 961,
+        "completion_tokens": 330,
+        "total_tokens": 1291
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1101,
+        "completion_tokens": 161,
+        "total_tokens": 1262
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1275,
+        "completion_tokens": 174,
+        "total_tokens": 1449
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 526,
+        "completion_tokens": 62,
+        "total_tokens": 588
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 693,
+        "completion_tokens": 110,
+        "total_tokens": 803
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1453,
+        "completion_tokens": 95,
+        "total_tokens": 1548
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:42.526665",
+        "prompt_tokens": 1463,
+        "completion_tokens": 409,
+        "total_tokens": 1872,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:44.339602",
+        "prompt_tokens": 1418,
+        "completion_tokens": 570,
+        "total_tokens": 1988,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:45.762784",
+        "prompt_tokens": 961,
+        "completion_tokens": 330,
+        "total_tokens": 1291,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:46.861726",
+        "prompt_tokens": 1101,
+        "completion_tokens": 161,
+        "total_tokens": 1262,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:48.007969",
+        "prompt_tokens": 1275,
+        "completion_tokens": 174,
+        "total_tokens": 1449,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:48.875727",
+        "prompt_tokens": 526,
+        "completion_tokens": 62,
+        "total_tokens": 588,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:50.018048",
+        "prompt_tokens": 693,
+        "completion_tokens": 110,
+        "total_tokens": 803,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:52.299874",
+        "prompt_tokens": 1453,
+        "completion_tokens": 95,
+        "total_tokens": 1548,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:43:41.026581",
+  "last_updated_at": "2026-04-17T19:43:52.300373"
+}

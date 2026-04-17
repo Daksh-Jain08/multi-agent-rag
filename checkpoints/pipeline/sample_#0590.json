@@ -1,0 +1,378 @@
+{
+  "sample_id": "#0590",
+  "query": "Where did the 2017 eclipse start and end?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "visible within a narrow corridor wide, crossing fourteen of the contiguous United States: Oregon, Idaho, Montana, Wyoming, Nebraska, Kansas, Iowa, Missouri, Illinois, Kentucky, Tennessee, Georgia, North Carolina, and South Carolina. It was first seen from land in the U.S. shortly after 10:15 a.m. PDT (17:15 UTC) at Oregon's Pacific coast, and then it progressed eastward through Salem, Oregon; Idaho Falls, Idaho; Casper, Wyoming; Lincoln, Nebraska; Kansas City, Missouri; St. Louis, Missouri; Hopkinsville, Kentucky; and Nashville, Tennessee; before reaching Columbia, South Carolina about 2:41 p.m.; and finally Charleston, South Carolina. A partial eclipse was seen for a greater time period, beginning",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Solar eclipse of December 26, 2019 An annular solar eclipse will occur on December 26, 2019. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image of the Sun for a viewer on Earth. An annular solar eclipse occurs when the Moon's apparent diameter is smaller than the Sun's, blocking most of the Sun's light and causing the Sun to look like an annulus (ring). An annular eclipse appears as a partial eclipse over a region of the Earth thousands of kilometres wide. The total annular eclipse will be visible",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Solar eclipse of September 26, 2117 A total solar eclipse will occur on September 26, 2117. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image of the Sun for a viewer on Earth. A total solar eclipse occurs when the Moon's apparent diameter is larger than the Sun's, blocking all direct sunlight, turning day into darkness. Totality occurs in a narrow path across Earth's surface, with the partial solar eclipse visible over a surrounding region thousands of kilometres wide. It will be visible at sunrise across eastern Asia and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2005-02-08"
+    },
+    {
+      "doc_id": "d4",
+      "text": "in Saudi Arabia, Qatar, United Arab Emirates, Oman, southern India, Sri Lanka, Sumatra, Malaysia, Maldives, Indonesia, Singapore, parts of Borneo, other parts of Southeast Asia, some parts of Australia, and Guam. Population centers in the path of the total annular eclipse include Kozhikode, Coimbatore, Jaffna, Trincomalee, Sibolga, Batam, Singapore, Singkawang and Guam. Cities such as Doha, Madurai, Pekanbaru, Dumai and Kuching will narrowly miss the annular path. <BR>Animated path Astronomers Without Borders collected eclipse glasses for redistribution to Latin America and Asia for their 2019 eclipses from the Solar eclipse of August 21, 2017. Solar eclipse of December 26, 2019",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1994-05-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Solar eclipse of November 13, 2012 A total solar eclipse took place on 13\u0393\u00c7\u00f414 November 2012 (UTC). Because it crossed the International Date Line it began in local time on November 14 west of the date line over northern Australia, and ended in local time on November 13 east of the date line near the west coast of South America. Its greatest magnitude was 1.0500, occurring only 12 hours before perigee, with greatest eclipse totality lasting just over four minutes. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2018-03-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly answers the query by detailing the path of the 2017 eclipse across the United States, including start and end points and times."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the solar eclipse of December 26, 2019, not the 2017 eclipse. It is off-topic."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document describes a solar eclipse in the year 2117, which is not relevant to the 2017 eclipse query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document mentions the 2017 eclipse in passing while discussing the 2019 eclipse. It does not provide details on the start and end of the 2017 eclipse."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document discusses the solar eclipse of November 13, 2012, not the 2017 eclipse. It is off-topic."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 2017 eclipse was first seen from land in the U.S. shortly after 10:15 a.m. PDT (17:15 UTC) at Oregon's Pacific coast.",
+            "The eclipse progressed eastward through Oregon, Idaho, Wyoming, Nebraska, Missouri, Kentucky, Tennessee, and South Carolina.",
+            "The eclipse reached Columbia, South Carolina about 2:41 p.m.",
+            "The eclipse finally reached Charleston, South Carolina."
+          ],
+          "reason": "Extracted the starting and ending locations and times of the 2017 eclipse as it crossed the contiguous United States."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document describes the solar eclipse of December 26, 2019, not the 2017 eclipse, and contains no information about its start or end locations."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document describes a solar eclipse in the year 2117, not the 2017 eclipse, and provides no information about its start or end locations."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document mentions the 2017 eclipse in passing but focuses on the December 26, 2019 eclipse and its path, not the start and end of the 2017 eclipse."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document describes the solar eclipse of November 13, 2012, not the 2017 eclipse, and therefore does not contain the requested information."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides the starting location (Oregon coast) and progression eastward, mentioning several states and ending locations like Charleston, South Carolina.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the 2019 eclipse, not the 2017 eclipse, and contains no information about the requested start and end locations.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a future eclipse in 2117, not the 2017 eclipse, and provides no information about its start or end locations.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document mentions the 2017 eclipse but focuses on the 2019 eclipse path, not the start and end of the 2017 eclipse.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the 2012 eclipse, not the 2017 eclipse, and therefore does not contain the requested information.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly supports the query by providing the start and end locations and progression of the 2017 eclipse across the contiguous United States."
+          },
+          {
+            "label": "irrelevant_documents",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, d4, and d5 are irrelevant as they discuss different solar eclipses (2019, 2117, 2012) or focus on other aspects without providing the requested start and end locations for the 2017 eclipse."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All relevant documents consistently support the provided information about the 2017 eclipse. Irrelevant documents were correctly filtered out.",
+        "clusters": [
+          {
+            "label": "2017 eclipse details",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 provides specific start and end locations and the path of the 2017 solar eclipse across the contiguous United States."
+          },
+          {
+            "label": "irrelevant documents",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, d4, and d5 discuss different solar eclipses (2019, 2117, 2012) or focus on unrelated aspects, making them irrelevant to the 2017 eclipse query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and coherent, with no conflicts. Document d1 directly supports the query regarding the 2017 eclipse."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Document d1 provides the start and end locations and progression of the 2017 eclipse across the contiguous United States.",
+        "citations": [
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query about the 2017 eclipse's path. No conflicts were found, and irrelevant documents were correctly identified."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that document d1 provides the start and end locations and progression of the 2017 eclipse, which is directly supported by the text in d1."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9062,
+      "completion_tokens": 1994,
+      "total_tokens": 11056
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1471,
+        "completion_tokens": 409,
+        "total_tokens": 1880
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1426,
+        "completion_tokens": 456,
+        "total_tokens": 1882
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 873,
+        "completion_tokens": 380,
+        "total_tokens": 1253
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1064,
+        "completion_tokens": 264,
+        "total_tokens": 1328
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1321,
+        "completion_tokens": 238,
+        "total_tokens": 1559
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 657,
+        "completion_tokens": 46,
+        "total_tokens": 703
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 808,
+        "completion_tokens": 100,
+        "total_tokens": 908
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1442,
+        "completion_tokens": 101,
+        "total_tokens": 1543
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:14.156463",
+        "prompt_tokens": 1471,
+        "completion_tokens": 409,
+        "total_tokens": 1880,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:18.129525",
+        "prompt_tokens": 1426,
+        "completion_tokens": 456,
+        "total_tokens": 1882,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:19.775001",
+        "prompt_tokens": 873,
+        "completion_tokens": 380,
+        "total_tokens": 1253,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:21.123750",
+        "prompt_tokens": 1064,
+        "completion_tokens": 264,
+        "total_tokens": 1328,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:22.621309",
+        "prompt_tokens": 1321,
+        "completion_tokens": 238,
+        "total_tokens": 1559,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:23.627023",
+        "prompt_tokens": 657,
+        "completion_tokens": 46,
+        "total_tokens": 703,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:24.624184",
+        "prompt_tokens": 808,
+        "completion_tokens": 100,
+        "total_tokens": 908,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:25.723910",
+        "prompt_tokens": 1442,
+        "completion_tokens": 101,
+        "total_tokens": 1543,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:14:12.331413",
+  "last_updated_at": "2026-04-17T20:14:25.724502"
+}

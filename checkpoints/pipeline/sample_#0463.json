@@ -1,0 +1,398 @@
+{
+  "sample_id": "#0463",
+  "query": "Forms the bony structure of the nasal cavity?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "nasofrontal ducts. Often, craniofacial osteoma presents itself through ocular signs and symptoms (such as proptosis). Osteoma An osteoma (plural: \"osteomata\") is a new piece of bone usually growing on another piece of bone, typically the skull. It is a benign tumor. When the bone tumor grows on other bone it is known as \"homoplastic osteoma\"; when it grows on other tissue it is called \"heteroplastic osteoma\". Osteoma represents the most common benign neoplasm of the nose and paranasal sinuses. The cause of osteomata is uncertain, but commonly accepted theories propose embryologic, traumatic, or infectious causes. Osteomata are also found in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2012-02-03"
+    },
+    {
+      "doc_id": "d2",
+      "text": "sinus, allowing the animal to exhale air through the lower hole of the nasal vestibule. The upper half of the nasal cavity was the main respiratory tract, allowing air to enter via the upper hole of the nasal vestibule. An unusually strongly ossified hard palate was present. The air passages may have allowed the animal to cool the air that it breathed and limit water loss. The hard palate allowed it to eat tough plants. All this suggested that it lived in a hot, arid, environment. There is even some evidence that the animal may have possessed a salt gland",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d3",
+      "text": "spine. Anterior nasal aperture The anterior nasal aperture (piriform or pyriform aperture) is a heart- or pear-shaped opening in the human skull. Its long axis is vertical, and narrow end upward; in the recent state it is much contracted by the lateral nasal cartilage and the greater and lesser alar cartilages of the nose. It is bounded above by the inferior borders of the nasal bones; laterally by the thin, sharp margins which separate the anterior from the nasal surfaces of the maxilla; and below by the same borders, where they curve medialward to join each other at the anterior",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d4",
+      "text": "osteoderms of the snout\u0393\u00c7\u00f6completely roofed the enlarged opening of the nostrils, giving a bulbous appearance. The nostrils also had an intranarial septum, which separated the nasal passage from the sinus. Each side of the snout had five sinuses, four of which expanded into the maxilla bone. The nasal cavities (or chambers) of \"Ankylosaurus\" were elongated and separated by a septum at the midline, which divided the inside of the snout into two mirrored halves. The septum had two openings, including the choanae (internal nostrils). The maxillae expanded to the sides, giving the impression of a bulge, which may have been",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Rhinolith A rhinolith is a calculus present in the nasal cavity. The word is derived from the roots \"rhino-\" and \"-lith\", literally meaning \"nose stone\". It is an uncommon medical phenomenon, not to be confused with dried nasal mucus. A rhinolith usually forms around the nucleus of a small exogenous foreign body, blood clot or secretion by slow deposition of calcium and magnesium salts. Over a period of time, they grow into large irregular masses that fill the nasal cavity. They may cause pressure necrosis of the nasal septum or lateral wall of nose. Rhinoliths can cause nasal obstruction, epistaxis,  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2003-11-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses osteomas in the nasal sinuses, but not the bony structure of the nasal cavity itself."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions the nasal cavity and ossified hard palate, but focuses on animal respiration and diet, not the bony structure."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Describes the anterior nasal aperture, bounded by nasal bones and maxilla, which forms part of the nasal cavity's bony structure."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Details nasal cavities and sinuses in Ankylosaurus, including maxilla bone, but is specific to an animal and not general human anatomy."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Discusses rhinoliths (nasal stones) within the nasal cavity and their impact, but not the underlying bony structure."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Osteoma represents the most common benign neoplasm of the nose and paranasal sinuses."
+          ],
+          "reason": "Extracted the fact about osteoma being a common benign neoplasm of the nose and paranasal sinuses, which relates to the nasal cavity's structure."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The upper half of the nasal cavity was the main respiratory tract."
+          ],
+          "reason": "Extracted the fact that the upper half of the nasal cavity served as the main respiratory tract, providing information about its function and structure."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The anterior nasal aperture is bounded above by the inferior borders of the nasal bones."
+          ],
+          "reason": "Extracted the fact that the anterior nasal aperture is bounded by the nasal bones, directly relating to the bony structure of the nasal cavity."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The nasal cavities (or chambers) of \"Ankylosaurus\" were elongated and separated by a septum at the midline."
+          ],
+          "reason": "Extracted the fact describing the structure of the nasal cavities, including their separation by a septum, which is relevant to the nasal cavity's bony structure."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A rhinolith is a calculus present in the nasal cavity."
+          ],
+          "reason": "Extracted the definition of a rhinolith as a calculus in the nasal cavity. While not directly about the bony structure, it describes a formation within the cavity."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The fact discusses neoplasms (tumors) of the nasal cavity, not its bony structure.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions the nasal cavity's structure but focuses on its function as a respiratory tract, not its bony components.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that nasal bones form the boundaries of the anterior nasal aperture, addressing the bony structure.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Describes the nasal cavities' structure (elongated, separated by septum) but doesn't explicitly mention the bony elements forming it.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The fact defines a rhinolith (a calculus) within the nasal cavity, which is unrelated to the cavity's bony structure.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [
+          "d2",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_bony_structure",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Directly describes the bony boundaries of the nasal cavity."
+          },
+          {
+            "label": "structural_context_without_bone_focus",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Provides information on the nasal cavity's structure and function but does not explicitly detail its bony components."
+          },
+          {
+            "label": "unrelated_content",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Discusses neoplasms and calculi within the nasal cavity, which are irrelevant to its bony structure."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided evidence is either directly supportive, provides structural context, or is irrelevant. There are no conflicting claims regarding the nasal cavity's bony structure.",
+        "clusters": [
+          {
+            "label": "direct_bony_structure",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Directly describes the bony boundaries of the nasal cavity."
+          },
+          {
+            "label": "structural_context_without_bone_focus",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Provides information on the nasal cavity's structure and function but does not explicitly detail its bony components."
+          },
+          {
+            "label": "unrelated_content",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Discusses neoplasms and calculi within the nasal cavity, which are irrelevant to its bony structure."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting and partial evidence exists, and there is no conflict. A reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The nasal cavity is defined by its bony boundaries, as described in the supporting documentation. Additional context on its structure and function is available, though it does not focus on the bony components.",
+        "citations": [
+          "d3",
+          "d2",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The direct evidence from d3 describes the bony boundaries. Partial evidence from d2 and d4 provides structural context. No conflict exists, and the refusal indicates a reliable answer can be provided."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.3,
+        "feedback": "The answer is too vague and does not specify the bony structures forming the nasal cavity. Citations do not directly support the claim that the nasal cavity is defined by its bony boundaries."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8498,
+      "completion_tokens": 1876,
+      "total_tokens": 10374
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1370,
+        "completion_tokens": 364,
+        "total_tokens": 1734
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1325,
+        "completion_tokens": 429,
+        "total_tokens": 1754
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 824,
+        "completion_tokens": 343,
+        "total_tokens": 1167
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 982,
+        "completion_tokens": 222,
+        "total_tokens": 1204
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1221,
+        "completion_tokens": 250,
+        "total_tokens": 1471
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 635,
+        "completion_tokens": 40,
+        "total_tokens": 675
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 780,
+        "completion_tokens": 127,
+        "total_tokens": 907
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1361,
+        "completion_tokens": 101,
+        "total_tokens": 1462
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:17.803793",
+        "prompt_tokens": 1370,
+        "completion_tokens": 364,
+        "total_tokens": 1734,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:19.314351",
+        "prompt_tokens": 1325,
+        "completion_tokens": 429,
+        "total_tokens": 1754,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:21.461717",
+        "prompt_tokens": 824,
+        "completion_tokens": 343,
+        "total_tokens": 1167,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:22.643113",
+        "prompt_tokens": 982,
+        "completion_tokens": 222,
+        "total_tokens": 1204,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:24.573254",
+        "prompt_tokens": 1221,
+        "completion_tokens": 250,
+        "total_tokens": 1471,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:25.626319",
+        "prompt_tokens": 635,
+        "completion_tokens": 40,
+        "total_tokens": 675,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:27.179816",
+        "prompt_tokens": 780,
+        "completion_tokens": 127,
+        "total_tokens": 907,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:37:28.204858",
+        "prompt_tokens": 1361,
+        "completion_tokens": 101,
+        "total_tokens": 1462,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:37:15.473972",
+  "last_updated_at": "2026-04-17T19:37:28.205058"
+}

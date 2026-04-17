@@ -1,0 +1,524 @@
+{
+  "sample_id": "#0167",
+  "query": "Is sugar the primary cause of cavities?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Sugars and dental caries Sugars and dental caries Key facts Dental caries (also known as tooth decay or dental cavities) is the most common noncommunicable disease worldwide. Severe dental caries affects general health and often causes pain and infection, which may result in tooth extraction. Dental caries is an expensive disease to treat, consuming 5\u201310% of healthcare budgets in industrialized countries, and is among the main reasons for hospitalization of children in some high-income countries. Free sugars are the essential dietary factor in the development of dental caries. Dental caries develops when bacteria in the mouth metabolize sugars to produce acid that demineralizes the hard tissues of the teeth (enamel and dentine). In many countries, sugars-sweetened beverages, including fruit-based and milk-based sweetened drinks and 100% fruit juices, are a primary source of free sugars, as well as confectionery, cakes, biscuits, sweetened cereals, sweet desserts, sucrose, honey, syrups and preserves. Limiting free sugars intake to less than 10% of total energy intake \u2013 and ideally even further, to less than 5% \u2013 minimizes the risk of dental caries throughout the lifecourse. Severe dental caries is a frequent cause of absenteeism at school or work. An association between dental caries and undernutrition in children has been reported in some low- and middle-income countries; however, whether this is cause or effect, or both, remains to be determined. Dental caries is a major public health problem globally and is the most widespread noncommunicable disease (NCD). It is also the most prevalent condition included in the 2015 Global Burden of Disease Study, ranking first for decay of permanent teeth (2.3 billion people) and 12th for deciduous teeth (560 million children). Dental caries can be prevented by avoiding dietary free sugars.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Tooth decay - Wikipedia This is driven by local environmental change, such as frequent sugar intake or inadequate biofilm removal (toothbrushing).[27] If left untreated, the disease can lead to pain, tooth loss and infection.[28] The mouth contains a wide variety of oral bacteria, but only a few specific species of bacteria are believed to cause dental caries: Streptococcus mutans and Lactobacillusspecies among them. Streptococcus mutans are gram-positive bacteria which constitute biofilms on the surface of teeth. These organisms can produce high levels of lactic acid following fermentation of dietary sugars and are resistant to the adverse effects of low pH, properties essential for cariogenic bacteria.[23] As the cementum of root surfaces is more easily demineralized than enamel surfaces, a wider variety of bacteria can cause root caries, including Lactobacillus acidophilus, Actinomyces spp., Nocardia spp., and Streptococcus mutans. Bacteria collect around the teeth and gums in a sticky, creamy-coloured mass called plaque, which serves as a biofilm. Some sites collect plaque more commonly than others, for example, sites with a low rate of salivary flow (molar fissures). Grooves on the occlusal surfaces of molar and premolar teeth provide microscopic retention sites for plaque bacteria, as do the interproximal sites. Plaque may also collect above or below the gingiva, where it is referred to as supra- or sub-gingival plaque, respectively.",
+      "source_url": "https://en.wikipedia.org/wiki/Tooth_decay",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Twice Dental Yes, genetics do play a role in the risk for decay, but is not the cause of cavities. Quite simply, cavities are caused by a combination of a substrate (food, sugar, debris left on the teeth), a perfect (acidic) environment, and bacteria. This perfect storm is fueled by poor home care. Basically, anything other than water can contribute to cavities. Carbohydrates are a huge hidden cause of cavities. Kids need and love carbs. But carbs break down into sugars that, when left behind on the teeth, can easily lead to decay. The ultimate key is good nighttime brushing and flossing, which means parents need to help. Research shows that children do not clean their teeth well enough until the age of seven. \u00c2 Do they really even do a good job then? We encourage parents to make it a routine to brush and floss kids\u00e2\u0080\u0099 teeth properly after the kids have completed their routine. This is not easy - I can tell you from personal experience as a mom. These habits reliably help prevent cavities in your kids. \u00c2 4. Breastfeeding Breastfeeding is one of the best things you can do for your child and also the toughest subject for me. As a mom, I know how hard these recommendations are. As a pediatric dentist, I know how important they are. When a child has teeth and is eating solid food, breastfeeding throughout the night after brushing their teeth is almost guaranteed to cause cavities. Breast milk contains sugar, which creates an environment where dental bacteria thrive and can cause decay. As a mom, I know how hard it is to wean feedings. My first recommendation is to brush their teeth at night before bed to ensure removal of gross debris from food and breastmilk throughout the day. Secondly, after breastfeeding your child to sleep or throughout the night, try to wipe off their teeth with a damp washcloth or wipe. This does not replace brushing but helps to decrease the milk residue left behind on teeth. Lastly, work on weaning the night feeds to prevent cavities. In a perfect world, brush after the last feed and then nothing to eat or drink except water, including breastmilk,",
+      "source_url": "https://www.trusttwice.com/post/your-childs-first-dental-visit",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "How Sugar Causes Cavities and Destroys Your Teeth This helps strengthen your teeth. However, the repeated cycle of acid attacks causes mineral loss in the enamel. Over time, this weakens and destroys the enamel, forming a cavity. Simply put, a cavity is a hole in the tooth caused by tooth decay. It\u2019s the result of harmful bacteria digesting the sugar in foods and producing acids. If left untreated, the cavity can spread into the deeper layers of the tooth, causing pain and possible tooth loss. The signs of tooth decay include a toothache, pain when chewing and sensitivity to sweet, hot or cold foods and drinks. Drinking Sugary and Acidic Beverages In addition to sugar, these drinks have high levels of acids that can cause tooth decay. In a large study in Finland, drinking 1\u20132 sugar-sweetened beverages a day was linked to a 31% higher risk of cavities (8). Also, an Australian study in children aged 5\u201316 found that the number of sugar-sweetened drinks consumed was directly correlated to the number of cavities found (9). What\u2019s more, one study involving more than 20,000 adults showed that just one occasional sugary drink resulted in a 44% increase in the risk of losing 1\u20135 teeth, compared to those who did not drink any sugary drinks (10). This means that drinking a sugary drink more than twice daily nearly triples your risk of losing more than six teeth. Fortunately, one study found that reducing your sugar intake to less than 10% of daily calories decreases your risk of tooth decay (11). Sipping on Sugary Beverages If you constantly sip sugary drinks throughout the day, it\u2019s time to rethink that habit. Research has shown that the way you drink your beverages affects your risk of developing cavities. One study showed that holding sugar-sweetened beverages in your mouth for a prolonged time or constantly sipping on them increased the risk of cavities (3).",
+      "source_url": "https://www.healthline.com/nutrition/how-sugar-destroys-teeth",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "FAQs Family Dentistry | Columbus Dental Group | United States A Good Diet Equals Healthy Teeth One of the most important factors associated with dental cavities is the diet. Children get primarily two types of cavities, those in-between the teeth and those on the grooves or biting surfaces. Cavities in between the teeth are caused primarily by sweetened liquids such as juices, soda, chocolate milk, etc.. Children should be encouraged to drink water between meals and all other drinks at meal and snack times. After brushing at bed time a child should drink only water. Cavities on the grooves or biting surfaces of the teeth are caused by sticky sweet foods such as Fruit Roll-Ups, Gummy Bears, Skittles, Starburst ,etc.. Foods such as raisins, although healthy, can cause dental cavities. Starches such as potato chips, pretzels, and crackers can also turn to sugar over time and therefore should be given with caution. These types of foods should be given in moderation and it is a good idea to tie them to meals as opposed to in-between meals. When possible, tooth brushing should be encouraged after these foods. The in-between snacks should be the healthier foods such as fruit slices, vegetables slices, cheese, yogurt, etc.. How Do I Prevent Cavities? Good oral hygiene removes bacteria and the left over food particles that combine to create cavities. For infants, use a wet gauze or clean washcloth to wipe the plaque from gums. Avoid putting your child to bed with a bottle filled with anything other than water. See \"Baby Bottle Tooth Decay\" for more information. if teeth are present please use an infant toothbrush. For older children, brush their teeth at least twice a day. Also, watch the number of snacks containing sugar that you give your children. The American Academy of Pediatric Dentistry recommends six month visits to the pediatric dentist beginning at your child\u2019s first birthday. Routine visits will start your child on a lifetime of good dental health.",
+      "source_url": "https://www.columbusdentalgroup.com/faqs-pediatric-dentistry",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Can Children Inherit Bad Teeth From Their Parents? 345 twins at age 6. About a third of them had cavities, and nearly a quarter had advanced cavities. However, when researchers compared the oral health of identical twins, they found it wasn\u2019t any more similar than that of fraternal twins. This led them to conclude that cavity risk was mostly related to environmental factors, not genetics. You Set the Table Tooth decay is caused by many factors, but probably the biggest one is diet. Families often experience similar cavity risk because they tend to eat the same foods. But this is something you can control. Sugar is the primary cause of tooth decay, so you can reduce your risk by reducing your sugar. If you tended to have soda or high-sugar Kool-Aid as a drink growing up, you don\u2019t have to do that for your kids. Instead, you can make water or milk the normal drink with meals, keeping the sugary drinks for special treat meals. You can also change some of the recipes that your parents used. Some of them probably have more sugar than is necessary. Plus, it\u2019s a good idea to change your snacking habits. Limit snacking between meals and encourage consumption of foods that are less likely to cause cavities: vegetables and proteins like eggs and nuts. You can even get kids in the habit of chewing sugar-free gum after meals and instead of snacking (but be aware that too much gum can put them at risk for TMJ). Teach Your Children Well Children often get their parents\u2019 bad teeth because parents teach them oral hygiene. And if the parents don\u2019t floss or don\u2019t floss often, then children won\u2019t either. So it\u2019s important to make sure your children know how to properly clean their teeth. Teach them how to brush and how to floss. But there\u2019s one more important step you need to do: you need to practice good oral hygiene. Kids will listen to what you say, but they\u2019re more likely to do as you do. If you don\u2019t brush regularly and never floss, your kids will know\u2013and as soon as you stop making them brush and floss,",
+      "source_url": "https://www.columbuscosmeticdental.com/blog/do-kids-inherit-bad-teeth/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Understanding How Cavities Connect to The Modern Diet \u2013 Golden ... Understanding How Cavities Connect to The Modern Diet Cavities are the most common disease among today\u2019s youth, yet diet is a topic often neglected in dental offices. Everyone knows that sugar is bad for their teeth, but this in-depth explanation shows exactly how the modern diet is driving the dental disease. How Does Your Diet Impact Your Dental Health? It\u2019s no secret that sugar causes cavities by damaging the protective layer of enamel on your teeth. However, this simplified explanation is what leads many people to underestimate the true power their diet has over their oral health. Unfortunately, many people are not seeing the full picture because making good food choices is such an under-discussed topic in modern dental offices, which has led many people to believe that they can eat whatever they want, so long as they brush and floss twice a day. However, that\u2019s simply not true. As I always say, you can\u2019t out-brush a bad diet. How Does Sugar Cause Cavities? The National Institute of Dental and Craniofacial Research (NICDR) recognizes that our mouths are filled with hundreds of bacteria. Some bacteria are beneficial to our oral health, but certain types of harmful bacteria actually feed on sugar. Thus, the sugar in the foods we consume powers them, resulting in the production of acids that destroy tooth enamel. Cavities, which are caused by bacterial infection, are a direct result of these acids. Cavities begin in the enamel, but are generally not diagnosed until the hole has eroded deeper into the inner layers of the tooth where the infection can eventually lead to tooth pain and tooth loss if not treated properly. Why Cavities Used To Be Rare With the above information in mind, it seems that the most logical thing to do is begin watching your sugar intake, but that\u2019s a lot harder than you may think. The truth is, sugar is hiding in all sorts of modern foods that have long been purported as healthy.",
+      "source_url": "https://www.yatescenterdental.com/understanding-how-cavities-connect-to-the-modern-diet/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Dental: Cavities in Baby Teeth Dental: Cavities in Baby Teeth Cavities (tooth decay) in baby teeth used to be known as baby bottle tooth decay. Now it is called early childhood caries. Caries is the medical word for cavities. Children of any age can get cavities, but they form faster in baby teeth than in adult (permanent) teeth. They can start to develop as soon as baby teeth come in, usually between 6 months to one year of age. Causes of Cavities in Baby Teeth Cavities are caused by sugar and a type of bacteria living in the mouth. Bacteria in the mouth change sugar in foods and drinks, including breast milk, into an acid that can eat into the hard, outer layer (enamel) of teeth. The enamel of baby teeth is thinner than the enamel of permanent teeth. This makes it easier for the acid to harm the teeth and cause cavities. Each time your child drinks or eats something, the acid can form within 20 minutes. Acid stays on the teeth unless removed. Saliva (spit) helps wash away some of the acid. When sleeping, the flow of saliva slows down and a baby swallows less often. Then, bacteria have more time to change sugars into acid. The upper front teeth and first molars are damaged first. The first signs of decay are white spots on the teeth. These may later turn into brown holes. There is no way to avoid eating sugar. Most foods have some. This includes: How to Prevent Cavities and Have Healthy Teeth Children are at risk for cavities when they drink or eat things with sugar often, during the day or at night and do not clean their teeth afterwards. Clean your baby's teeth, gums and tongue at least twice a day with a clean wet cloth after feeding and at bedtime. Clean again after giving any medicine that has sugar (Picture 1). Brush teeth with fluoride toothpaste as soon as the first tooth comes in, at least twice a day. Use a bottle at feeding time only. Do not use a bottle or breastfeeding as a pacifier.",
+      "source_url": "https://www.nationwidechildrens.org/family-resources-education/health-wellness-and-safety-resources/helping-hands/dental-cavities-in-baby-teeth",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Tooth Cavities: Separating Fact From Fiction - Dental Associates of ... Tooth Cavities: Separating Fact From Fiction Family Dentist in Alabama As one of the most common oral health concerns, there is great confusion surrounding the topic of tooth cavities. What causes cavities? Are some people just more prone to this problem than others? The answers to these questions may surprise you! So, what is a cavity? A cavity is a form of tooth decay. The bacteria that is found in the mouth is highly acidic and interacts with plaque to eat away at your tooth\u2019s enamel. Over time, this results in a hole in your tooth that will continue to grow deeper if you don\u2019t receive professional care. While cavities in their early stages are invisible to the untrained eye, they will begin to cause a toothache or pain once reaching the inside of the tooth. Fortunately, cavities are easily treatable through a process called a dental filling. Now that we know more about what a cavity really is, let\u2019s take a look at some of the most common myths about tooth cavities. Myth: Only Kids Get Cavities A cavity is often the first type of oral health problem a child experiences. Because of this, many people are under the impression that only kids get cavities. However, this is simply a myth! Patients of every age are susceptible to tooth cavities. In fact, due to advancements in dentistry over the past 20 years, children are now at a lower risk for developing cavities than their older family members. Myth: Sugar is The Only Thing That Causes Cavities This is where things get tricky. While this is mostly a myth, there is some truth behind it! The primary culprit in causing cavities is bacteria in the mouth. This bacteria is responsible for the production of the destructive acid that begins to eat through the enamel of your teeth. Where does this bacteria come from? The primary food groups that cause cavities are carbohydrates. Carbohydrates are naturally occurring sugars and are exist in a variety of foods including bread, rice, potatoes, and more.",
+      "source_url": "https://hamptoncove.dentalassociatesnearme.com/general-dentist/tooth-cavities-separating-fact-from-fiction/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that free sugars are the essential dietary factor in the development of dental caries and explains the mechanism."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Explains that frequent sugar intake drives tooth decay and that bacteria ferment sugars to produce acid, contributing to cavities."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States cavities are caused by a combination of food (sugar, debris), an acidic environment, and bacteria, fueled by poor home care."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly explains how sugar causes cavities by bacteria digesting it to produce acids, leading to enamel destruction."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions that foods like raisins and starches can turn to sugar and contribute to cavities, especially sweetened liquids."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Explicitly states sugar is the primary cause of tooth decay and reducing sugar intake reduces risk."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains how sugar connects to the modern diet and drives dental disease, emphasizing its role in cavity formation."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States cavities are caused by sugar and bacteria living in the mouth, especially when sugar intake is frequent and teeth aren't cleaned."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Clarifies that while bacteria are the primary cause, they feed on carbohydrates (sugars) to produce acid that erodes enamel."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Free sugars are the essential dietary factor in the development of dental caries.",
+            "Dental caries develops when bacteria in the mouth metabolize sugars to produce acid that demineralizes the hard tissues of the teeth.",
+            "Sugars-sweetened beverages, confectionery, cakes, biscuits, and sweetened cereals are primary sources of free sugars.",
+            "Limiting free sugars intake to less than 10% of total energy intake minimizes the risk of dental caries."
+          ],
+          "reason": "Extracted key facts establishing the role of free sugars and bacteria in dental caries development and risk reduction strategies."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Dental caries is driven by frequent sugar intake or inadequate biofilm removal.",
+            "Streptococcus mutans and Lactobacillus species are believed to cause dental caries.",
+            "These bacteria produce lactic acid following fermentation of dietary sugars.",
+            "Plaque, a biofilm of bacteria, collects around teeth and gums."
+          ],
+          "reason": "Extracted facts detailing the drivers of dental caries, specific bacteria involved, and the role of plaque."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Cavities are caused by a combination of food/sugar/debris, an acidic environment, and bacteria.",
+            "Genetics play a role in cavity risk but are not the cause.",
+            "Breast milk contains sugar, which can create an environment where dental bacteria thrive."
+          ],
+          "reason": "Extracted facts explaining the multifactorial cause of cavities, including substrate, environment, bacteria, and the role of breast milk."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Harmful bacteria digest sugar in foods, producing acids that cause mineral loss in tooth enamel.",
+            "The repeated cycle of acid attacks weakens and destroys enamel, forming a cavity.",
+            "Holding or sipping sugar-sweetened beverages for prolonged periods increases cavity risk."
+          ],
+          "reason": "Extracted facts explaining the mechanism by which sugar consumption leads to cavities through bacterial acid production and enamel demineralization."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Foods like raisins, starches (potato chips, pretzels, crackers) can contribute to cavities.",
+            "Cavities between teeth are primarily caused by sweetened liquids like juices and chocolate milk.",
+            "Good oral hygiene removes bacteria and food particles that combine to create cavities."
+          ],
+          "reason": "Extracted facts identifying specific food types and liquids that contribute to cavities and emphasizing the role of oral hygiene."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Sugar is the primary cause of tooth decay.",
+            "Reducing sugar intake and changing snacking habits can reduce cavity risk.",
+            "Cavity risk is mostly related to environmental factors, not genetics.",
+            "Diet is a significant factor in tooth decay."
+          ],
+          "reason": "Extracted facts stating sugar as the primary cause of tooth decay, emphasizing environmental factors and diet over genetics."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Sugar is hiding in many modern foods, including those purported as healthy.",
+            "The modern diet is driving the increase in dental disease.",
+            "You cannot out-brush a bad diet in preventing cavities."
+          ],
+          "reason": "Extracted facts highlighting the pervasive nature of sugar in the modern diet and its significant contribution to dental disease."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Cavities are caused by sugar and a type of bacteria living in the mouth.",
+            "Children are at risk when consuming sugary items frequently without cleaning their teeth.",
+            "Cavities can start developing as soon as baby teeth come in."
+          ],
+          "reason": "Extracted facts stating the combined cause of sugar and bacteria for cavities and identifying risk factors for children."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "The primary culprit in causing cavities is bacteria in the mouth, which produce destructive acid.",
+            "Carbohydrates are the primary food groups that cause cavities.",
+            "Cavities are caused by bacteria interacting with plaque to eat away at tooth enamel."
+          ],
+          "reason": "Extracted facts clarifying that bacteria are the primary cause, fueled by carbohydrates (sugars), leading to enamel erosion."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States free sugars are the essential dietary factor in dental caries development, metabolized by bacteria into acid.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions sugar intake as a driver but emphasizes bacteria and biofilm removal as key factors.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Identifies sugar as one factor among others (food/debris, acid, bacteria) causing cavities.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explains how harmful bacteria digest sugar, producing acids that cause enamel demineralization and cavities.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Lists foods contributing to cavities, including sweetened liquids, and highlights oral hygiene's role.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Directly states sugar is the primary cause of tooth decay and emphasizes diet's significance.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Highlights sugar's prevalence in the modern diet as a driver of dental disease and cavities.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "States cavities are caused by sugar and mouth bacteria, identifying frequent sugary item consumption as a risk.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "partially_supports",
+          "reason": "Identifies bacteria as the primary culprit, fueled by carbohydrates (sugars), leading to enamel erosion.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3",
+          "d5",
+          "d9"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_sugar_caries_link",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple documents directly support that sugar is a primary cause of dental caries, detailing the mechanism involving bacteria and acid production, and highlighting the prevalence of sugar in the modern diet."
+          },
+          {
+            "label": "partial_context_multifactorial_causes",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5",
+              "d9"
+            ],
+            "summary": "These documents provide partial support by mentioning sugar as a driver of caries but also emphasize other contributing factors such as bacteria, biofilm, oral hygiene, and specific food types, or by focusing on bacteria as the primary cause fueled by carbohydrates."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence consistently identifies sugar as a primary driver of dental caries, with supporting documents detailing the mechanism and partial support documents adding context about bacteria, oral hygiene, and other contributing factors.",
+        "clusters": [
+          {
+            "label": "sugar_as_primary_cause_of_caries",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple sources directly affirm that sugar is a primary cause of dental caries, explaining the process of bacterial metabolism into acid, enamel demineralization, and the impact of dietary sugar prevalence."
+          },
+          {
+            "label": "multifactorial_causes_and_bacteria_emphasis",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5",
+              "d9"
+            ],
+            "summary": "These sources acknowledge sugar's role but also highlight other significant factors like bacteria, biofilm, oral hygiene, and specific food types, or primarily focus on bacteria as the cause fueled by carbohydrates."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with no significant conflicts. A reliable answer can be constructed by synthesizing the direct support for sugar as a primary cause with the additional context provided by other documents."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Sugar is a primary cause of dental caries. Bacteria in the mouth metabolize sugar, producing acid that demineralizes tooth enamel. While sugar is a key driver, other factors such as bacteria, biofilm, oral hygiene, and specific food types also contribute to caries development.",
+        "citations": [
+          "d1",
+          "d4",
+          "d6",
+          "d7",
+          "d8",
+          "d2",
+          "d3",
+          "d5",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence directly supports sugar as a primary cause of dental caries and provides complementary information on other contributing factors, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that sugar is a primary cause of cavities and is well-supported by the cited documents, which explain the mechanism involving bacteria and acid production."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 16981,
+      "completion_tokens": 3160,
+      "total_tokens": 20141
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2861,
+        "completion_tokens": 629,
+        "total_tokens": 3490
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2816,
+        "completion_tokens": 1059,
+        "total_tokens": 3875
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1339,
+        "completion_tokens": 571,
+        "total_tokens": 1910
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1672,
+        "completion_tokens": 312,
+        "total_tokens": 1984
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1961,
+        "completion_tokens": 277,
+        "total_tokens": 2238
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 720,
+        "completion_tokens": 58,
+        "total_tokens": 778
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 883,
+        "completion_tokens": 157,
+        "total_tokens": 1040
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4729,
+        "completion_tokens": 97,
+        "total_tokens": 4826
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:08:54.704647",
+        "prompt_tokens": 2861,
+        "completion_tokens": 629,
+        "total_tokens": 3490,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:08:58.906621",
+        "prompt_tokens": 2816,
+        "completion_tokens": 1059,
+        "total_tokens": 3875,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:02.285041",
+        "prompt_tokens": 1339,
+        "completion_tokens": 571,
+        "total_tokens": 1910,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:03.843582",
+        "prompt_tokens": 1672,
+        "completion_tokens": 312,
+        "total_tokens": 1984,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:05.366259",
+        "prompt_tokens": 1961,
+        "completion_tokens": 277,
+        "total_tokens": 2238,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:06.453792",
+        "prompt_tokens": 720,
+        "completion_tokens": 58,
+        "total_tokens": 778,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:07.712401",
+        "prompt_tokens": 883,
+        "completion_tokens": 157,
+        "total_tokens": 1040,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:09:08.863526",
+        "prompt_tokens": 4729,
+        "completion_tokens": 97,
+        "total_tokens": 4826,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T16:08:52.193409",
+  "last_updated_at": "2026-04-17T16:09:08.864123"
+}

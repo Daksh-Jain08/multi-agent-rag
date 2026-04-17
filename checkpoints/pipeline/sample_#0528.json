@@ -1,0 +1,384 @@
+{
+  "sample_id": "#0528",
+  "query": "Who planted the bomb at the atlanta olympics?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ridge and Waco. Eric Rudolph executed a series of terrorist attacks between 1996 and 1998. He carried out the 1996 Centennial Olympic Park bombing\u0393\u00c7\u00f6which claimed two lives and injured 111\u0393\u00c7\u00f6aiming to cancel the games, claiming they promoted global socialism and to embarrass the U.S. government. Rudolph confessed to bombing an abortion clinic in Sandy Springs, an Atlanta suburb, on January 16, 1997, the Otherside Lounge, an Atlanta lesbian bar, on February 21, 1997, injuring five and an abortion clinic in Birmingham, Alabama on January 29, 1998, killing Birmingham police officer and part-time clinic security guard Robert Sanderson and critically injuring",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of a Militant\", and in April 2013, the U.S. Attorney General seized $200 to help pay off the $1 million that Rudolph owes in restitution to the state of Alabama. The book has since been republished and has been made available through the Army of God website. Eric Rudolph Eric Robert Rudolph (born September 19, 1966), also known as the Olympic Park Bomber, is an American domestic terrorist convicted for a series of anti-abortion and anti-gay-motivated bombings across the southern United States between 1996 and 1998, which killed two people and injured over 120 others. Rudolph spent five years on",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d3",
+      "text": "liberation attempt. A German police officer and five terrorists also perished. Following the selection of Barcelona, Spain to host the 1992 Summer Olympics, the separatist ETA terrorist organisation launched attacks in the region, including the 1991 Vic bombing that killed ten people in a town that would also hold events. Terrorism affected the last two Olympic Games held in the United States. During the Summer Olympics in 1996 in Atlanta, Georgia, a bomb was detonated at the Centennial Olympic Park, which killed two and injured 111 others. The bomb was set by Eric Rudolph, an American domestic terrorist, who is",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1991-01-19"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Rudolph's book, \"Between the Lines of Drift: The Memoirs of a Militant\", and in April 2013 the U.S. Attorney General seized his $200 royalty to help pay off the $1 million that Rudolph owes in restitution to the state of Alabama. Centennial Olympic Park bombing The Centennial Olympic Park bombing was a domestic terrorist pipe bombing attack on the Centennial Olympic Park in Atlanta, Georgia, on July 27 during the 1996 Summer Olympics. The blast directly killed 1 person and injured 111 others; another person later died of a heart attack. It was the first of four bombings committed by",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "clearly affected by Parkinson's disease, lit the Olympic torch and received a replacement medal for the one he had discarded in 1960. The latter event took place not at the boxing ring but in the basketball arena, at the demand of US television. The atmosphere at the Games was marred, however, when a bomb exploded during the celebration in Centennial Olympic Park. In June 2003, the principal suspect in this bombing, Eric Robert Rudolph, was arrested. The 2000 Summer Olympics were held in Sydney, Australia, and showcased individual performances by local favorite Ian Thorpe in the pool, Briton Steve Redgrave  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2022-09-28"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states Eric Rudolph carried out the 1996 Centennial Olympic Park bombing, answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Identifies Eric Rudolph as the 'Olympic Park Bomber' and convicted for the bombings, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states the bomb at the Centennial Olympic Park during the 1996 Atlanta Olympics was set by Eric Rudolph."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies the Centennial Olympic Park bombing as a domestic terrorist attack committed by Eric Rudolph."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States Eric Robert Rudolph was the principal suspect arrested for the bombing in Centennial Olympic Park."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Eric Rudolph carried out the 1996 Centennial Olympic Park bombing, which claimed two lives and injured 111.",
+            "Rudolph aimed to cancel the games, claiming they promoted global socialism and to embarrass the U.S. government.",
+            "Rudolph confessed to bombing an abortion clinic in Sandy Springs on January 16, 1997.",
+            "Rudolph confessed to bombing the Otherside Lounge, an Atlanta lesbian bar, on February 21, 1997, injuring five."
+          ],
+          "reason": "Extracted facts identifying Eric Rudolph as the bomber of Centennial Olympic Park, his motives, and other bombings he confessed to."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Eric Rudolph is also known as the Olympic Park Bomber.",
+            "Eric Rudolph is an American domestic terrorist convicted for a series of anti-abortion and anti-gay-motivated bombings between 1996 and 1998.",
+            "Rudolph's bombings killed two people and injured over 120 others."
+          ],
+          "reason": "Extracted facts identifying Eric Rudolph as the Olympic Park Bomber and detailing his conviction for a series of bombings."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "During the 1996 Summer Olympics in Atlanta, Georgia, a bomb was detonated at the Centennial Olympic Park.",
+            "The bomb at Centennial Olympic Park killed two and injured 111 others.",
+            "The bomb was set by Eric Rudolph, an American domestic terrorist."
+          ],
+          "reason": "Extracted facts directly stating Eric Rudolph set the bomb at Centennial Olympic Park during the 1996 Atlanta Olympics."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Centennial Olympic Park bombing was a domestic terrorist pipe bombing attack on July 27 during the 1996 Summer Olympics.",
+            "The blast directly killed 1 person and injured 111 others; another person later died of a heart attack.",
+            "It was the first of four bombings committed by Eric Rudolph."
+          ],
+          "reason": "Extracted facts confirming the Centennial Olympic Park bombing, its date, casualties, and identifying it as the first of four bombings by Eric Rudolph."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A bomb exploded during the celebration in Centennial Olympic Park.",
+            "In June 2003, the principal suspect in this bombing, Eric Robert Rudolph, was arrested."
+          ],
+          "reason": "Extracted facts stating a bomb exploded in Centennial Olympic Park and identifying Eric Rudolph as the principal suspect arrested in connection with it."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly identifies Eric Rudolph as the perpetrator of the Centennial Olympic Park bombing and provides details about his motives and other confessed bombings.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies Eric Rudolph as the 'Olympic Park Bomber' and details his conviction for a series of bombings, directly supporting the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that Eric Rudolph set the bomb at Centennial Olympic Park during the 1996 Atlanta Olympics, answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Confirms the Centennial Olympic Park bombing and identifies it as the first of four bombings committed by Eric Rudolph.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States a bomb exploded in Centennial Olympic Park and identifies Eric Rudolph as the principal suspect arrested in connection with the bombing.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "eric_rudolph_olympic_bomber",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents directly identify Eric Rudolph as the perpetrator of the Centennial Olympic Park bombing, providing details on his motives, other confessed bombings, and his conviction."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided documents consistently identify Eric Rudolph as the perpetrator of the Centennial Olympic Park bombing, offering complementary details about the event, his motives, and other related incidents.",
+        "clusters": [
+          {
+            "label": "eric_rudolph_olympic_bomber",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents directly identify Eric Rudolph as the perpetrator of the Centennial Olympic Park bombing, providing details on his motives, other confessed bombings, and his conviction."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the claim, with no conflicts or irrelevant information."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Eric Rudolph was identified as the perpetrator of the Centennial Olympic Park bombing. Multiple documents detail his motives, other bombings he confessed to, and his conviction.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently identify Eric Rudolph as the Olympic Park bomber, providing complementary details about the event and his conviction."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, which clearly identify Eric Rudolph as the perpetrator of the Atlanta Olympics bombing."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9138,
+      "completion_tokens": 1897,
+      "total_tokens": 11035
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 345,
+        "total_tokens": 1803
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 664,
+        "total_tokens": 2077
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1041,
+        "completion_tokens": 344,
+        "total_tokens": 1385
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1199,
+        "completion_tokens": 144,
+        "total_tokens": 1343
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1384,
+        "completion_tokens": 163,
+        "total_tokens": 1547
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 526,
+        "completion_tokens": 36,
+        "total_tokens": 562
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 667,
+        "completion_tokens": 112,
+        "total_tokens": 779
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 89,
+        "total_tokens": 1539
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:45.453036",
+        "prompt_tokens": 1458,
+        "completion_tokens": 345,
+        "total_tokens": 1803,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:49.033887",
+        "prompt_tokens": 1413,
+        "completion_tokens": 664,
+        "total_tokens": 2077,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:50.575738",
+        "prompt_tokens": 1041,
+        "completion_tokens": 344,
+        "total_tokens": 1385,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:51.594889",
+        "prompt_tokens": 1199,
+        "completion_tokens": 144,
+        "total_tokens": 1343,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:52.959413",
+        "prompt_tokens": 1384,
+        "completion_tokens": 163,
+        "total_tokens": 1547,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:53.774891",
+        "prompt_tokens": 526,
+        "completion_tokens": 36,
+        "total_tokens": 562,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:54.973705",
+        "prompt_tokens": 667,
+        "completion_tokens": 112,
+        "total_tokens": 779,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:55.855700",
+        "prompt_tokens": 1450,
+        "completion_tokens": 89,
+        "total_tokens": 1539,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:56:43.809054",
+  "last_updated_at": "2026-04-17T19:56:55.856235"
+}

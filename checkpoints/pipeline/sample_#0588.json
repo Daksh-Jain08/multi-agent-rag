@@ -1,0 +1,395 @@
+{
+  "sample_id": "#0588",
+  "query": "why is \"night vision\" green?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why is night vision green? Why is night vision green? | Optics and Lab Equipment If you have ever watched a movie in which night vision was used, or you have ever used a device that takes advantage of this technology to help people see in the dark, you have most probably noticed that the image shown through such devices is always green. The two come together so well that the moment someone mentions night vision binoculars to you, that instantly brings in front of your eyes that green image you are so familiar with. The advantages of seeing what our eyes can\u0393\u00c7\u00d6t see in the dark are tremendous. For military applications, as well as",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "LED Flashlights and Their Affect on Night Vision | NAET Europe flashlights instead of white in order to preserve and protect their night vision. Preserving Your Night Vision Now that you have a better idea as to what some of the inner-workings of the human eye are, it\u0393\u00c7\u00d6s time to choose the best LED flashlight for your night vision needs. Though most people choose LED flashlights that mimic daylight due to being more comfortable in the day time (and our cones can pick up on both color and detail), it\u0393\u00c7\u00d6s time to think about what flashlight is best for your night vision. There are LED flashlights that can emit yellow-green, blue-green,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Green Dot Vs Red Dot: A Comparison Guide for Beginners between the red dot and the green dot optic is just a laser, so it will not matter which size you choose. You will get the benefit of looking through the window with both your eyes open. As the experiments are carried out by the experts to check which color is best for the night vision. They tested every color, and they found that all the colors make the night vision image and that are more accurately recognized. But it is also said that in the night vision the green color suits the best and you can save more energy",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "LED Flashlights and Their Affect on Night Vision | NAET Europe vision shape after the eye is exposed to bright light. The light spectrum where rods and cones are more sensitive is also another interesting component of the inner-workings of the human eyeball. On one side, the yellow-green section of the light spectrum, cones are more sensitive, hence why newer crosswalk signs are a bright yellow-green color so that they can stand out to drivers. On the other side, the blue-green section of the light spectrum, rods are more sensitive. So, colors such as red are harder for rods to pick up on. Hence why many outdoorsmen prefer using colored LED",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2003-11-13"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Podcast:Precipice - Battlestar Wiki and ultimately helps them to play the role in a way they like. You need me to stop... RDM: All this night vision footage here, this green stuff. They really shot this with a real night scope. This is really the thing, we're not faking this in post. They really used night scopes to shoot this. This was Sergio's idea. It wasn't in the script and Sergio called and wanted to do it. He had this vision of doing this sequence in the green light, in the night vision lens, and what I think of this scene... it's fantastic. I  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1997"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the query about why night vision is green and mentions its common association with the technology."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions yellow-green and blue-green light in the context of LED flashlights and night vision, providing related information."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses experiments comparing red and green dots for night vision, stating green is best and saves energy, which is relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.6,
+          "is_relevant": true,
+          "reason": "Explains rod and cone sensitivity to different light spectrums, mentioning yellow-green and blue-green light, which is contextually relevant to night vision colors."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions 'green stuff' and 'night vision lens' in a film context, but doesn't explain why night vision is green."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The image shown through night vision devices is always green.",
+            "The green image is familiar when night vision binoculars are mentioned."
+          ],
+          "reason": "Extracted facts about the common visual characteristic of night vision technology and its association with binoculars."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "LED flashlights can emit yellow-green and blue-green light.",
+            "Some people choose LED flashlights that mimic daylight for comfort."
+          ],
+          "reason": "Extracted facts about the colors of light emitted by LED flashlights that can affect night vision."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Experiments suggest green color suits night vision best.",
+            "Green color in night vision may help save more energy.",
+            "Experts tested every color for night vision and found all colors make the image more accurately recognized."
+          ],
+          "reason": "Extracted findings from expert experiments comparing colors for night vision, highlighting green's suitability and energy-saving potential."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Rods are more sensitive to the blue-green section of the light spectrum.",
+            "Cones are more sensitive to the yellow-green section of the light spectrum.",
+            "Red colors are harder for rods to pick up on."
+          ],
+          "reason": "Extracted facts about the sensitivity of rods and cones to different parts of the light spectrum, relevant to color perception in low light."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Night vision footage in a movie sequence was shot using a real night scope.",
+            "The decision to film a sequence in green light using a night vision lens was a director's idea."
+          ],
+          "reason": "Extracted facts about the use of real night vision equipment and the creative decision behind filming a movie sequence in green light."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States the image is always green and familiar, but doesn't explain why.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Discusses LED flashlight colors, not the reason for green in night vision devices.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Suggests green suits night vision best, may save energy, and experts found it effective.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explains human eye sensitivity to blue-green and yellow-green light, which is relevant to why green is used.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Discusses movie filming choices, not the technical or biological reasons for green in night vision.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d4"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "expert_findings",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Expert experiments suggest green is optimal for night vision, potentially saving energy and improving recognition."
+          },
+          {
+            "label": "biological_basis",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Human eye sensitivity to blue-green and yellow-green light spectrums provides a biological reason for the use of green in night vision."
+          },
+          {
+            "label": "common_perception",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "The common perception of night vision images being green is noted, though the underlying reason is not fully detailed."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence complements each other by providing expert findings, biological explanations for human eye sensitivity, and noting the common perception of green in night vision.",
+        "clusters": [
+          {
+            "label": "expert_findings_and_biological_basis",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Expert experiments suggest green is optimal for night vision, potentially saving energy and improving recognition, supported by human eye sensitivity to blue-green and yellow-green light."
+          },
+          {
+            "label": "common_perception",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "The common perception of night vision images being green is noted, though the underlying reason is not fully detailed."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence exists, and the conflict is complementary, allowing for a grounded answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Expert experiments suggest green is optimal for night vision, potentially saving energy and improving recognition. This is supported by the human eye's sensitivity to blue-green and yellow-green light spectrums, which provides a biological basis for the common perception of green night vision images.",
+        "citations": [
+          "d3",
+          "d4",
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence complement each other to explain why green is optimal for night vision, citing expert findings, biological basis, and common perception."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting claims about green being optimal for night vision and the eye's sensitivity to certain light spectrums."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8645,
+      "completion_tokens": 1906,
+      "total_tokens": 10551
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1397,
+        "completion_tokens": 374,
+        "total_tokens": 1771
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1352,
+        "completion_tokens": 494,
+        "total_tokens": 1846
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 874,
+        "completion_tokens": 319,
+        "total_tokens": 1193
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1009,
+        "completion_tokens": 260,
+        "total_tokens": 1269
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1246,
+        "completion_tokens": 188,
+        "total_tokens": 1434
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 605,
+        "completion_tokens": 37,
+        "total_tokens": 642
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 747,
+        "completion_tokens": 134,
+        "total_tokens": 881
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1415,
+        "completion_tokens": 100,
+        "total_tokens": 1515
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:46.162645",
+        "prompt_tokens": 1397,
+        "completion_tokens": 374,
+        "total_tokens": 1771,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:52.094707",
+        "prompt_tokens": 1352,
+        "completion_tokens": 494,
+        "total_tokens": 1846,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:53.439920",
+        "prompt_tokens": 874,
+        "completion_tokens": 319,
+        "total_tokens": 1193,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:54.899161",
+        "prompt_tokens": 1009,
+        "completion_tokens": 260,
+        "total_tokens": 1269,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:56.329999",
+        "prompt_tokens": 1246,
+        "completion_tokens": 188,
+        "total_tokens": 1434,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:57.269705",
+        "prompt_tokens": 605,
+        "completion_tokens": 37,
+        "total_tokens": 642,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:58.310886",
+        "prompt_tokens": 747,
+        "completion_tokens": 134,
+        "total_tokens": 881,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:13:59.424301",
+        "prompt_tokens": 1415,
+        "completion_tokens": 100,
+        "total_tokens": 1515,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:13:34.365554",
+  "last_updated_at": "2026-04-17T20:13:59.424808"
+}

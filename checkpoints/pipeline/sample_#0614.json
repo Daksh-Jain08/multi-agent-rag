@@ -1,0 +1,366 @@
+{
+  "sample_id": "#0614",
+  "query": "When was the calico act passed in england what did it say?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "any animals covers within the law and expanded by the Cruelty to Animals Act 1876, and repealed by the Protection of Animals Act 1911. Cruelty to Animals Act 1849 The Cruelty to Animals Act 1849 is an Act of the Parliament of the United Kingdom (12 & 13 Vict. c. 92) with the long title \"An Act for the more effectual Prevention of Cruelty to Animals.\" The Act repealed two previous Acts, the Cruel Treatment of Cattle Act 1822 and the Cruelty to Animals Act 1835, and reiterated the offences of beating, ill-treating, over-driving, abusing and torturing animals with a",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "1 penny to several shillings on a number of different legal documents including insurance policies, documents used as evidence in courts, grants of honour, grants of probate and letters of administration. It raised around \u252c\u00fa50,000 a year and although it was initially a temporary measure, it proved so successful that its use was continued. The Stamp Act of 1712 was an act passed in the United Kingdom on 1 August 1712 to create a new tax on publishers, particularly of newspapers. The initial assessed rate of tax was one penny per whole newspaper sheet, a halfpenny for a half sheet,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Coin Act 1696 The Coin Act 1696 (8&9 Will.3 c.26) was an Act of the Parliament of England which made it high treason to make or possess equipment useful for counterfeiting coins. Its title was \"An Act for the better preventing the counterfeiting the current Coin of this Kingdom.\" It was extended to cover Scotland by the Treason Act 1708. The Act came into effect on 15 May 1697. Section 1 made it treason to \"knowingly make or mend, or begin or proceed to make or mend, or assist in the making or mending of\" any stamp, mould or the",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Calendar (New Style) Act 1750 The Calendar (New Style) Act 1750 (c.23) (also known as Chesterfield's Act after Philip Stanhope, 4th Earl of Chesterfield) was an Act of the Parliament of Great Britain. The Act had two parts: first, it reformed the calendar of England and the British Dominions so that the new legal year began on 1 January rather than 25 March (Lady Day); and, second, Great Britain and its Dominions adopted (in effect) the Gregorian calendar, as already used in most of western Europe. Chesterfield introduced the Bill into Parliament on 25 February 1751 (1750 Old Style). It",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2024-07-23"
+    },
+    {
+      "doc_id": "d5",
+      "text": "movement. Such was the perceived weakness of the Act, that vivisection opponents chose, on at least one occasion \u0393\u00c7\u00f4 the Brown Dog affair \u0393\u00c7\u00f4 to incite a libel suit rather than seek a prosecution under the Act. The Act states, in part: Cruelty to Animals Act, 1876 The Cruelty to Animals Act, 1876, was an Act passed by the Parliament of the United Kingdom (39 & 40 Vict., Public Acts, c. 77.) which set limits on the practice of, and instituted a licensing system for animal experimentation, amending the Cruelty to Animals Act 1849. Its long title was \"An Act  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "1997"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions the Cruelty to Animals Act 1849, but the query is about the 'Calico Act' and its content, not animal cruelty."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the Stamp Act of 1712 and taxes on publishers, which is unrelated to the 'Calico Act'."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Details the Coin Act 1696 concerning counterfeiting, not the 'Calico Act'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Describes the Calendar (New Style) Act 1750, unrelated to the 'Calico Act'."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the Cruelty to Animals Act 1876, which is not the 'Calico Act' mentioned in the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Cruelty to Animals Act 1849 is an Act of the Parliament of the United Kingdom.",
+            "The Act's long title was \"An Act for the more effectual Prevention of Cruelty to Animals.\"",
+            "The Act reiterated the offences of beating, ill-treating, over-driving, abusing and torturing animals."
+          ],
+          "reason": "Extracted key facts about the Cruelty to Animals Act 1849, including its origin, title, and scope, which are relevant to the query about acts related to animal cruelty."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses the Stamp Act of 1712 and taxes on publishers, which is not relevant to the query about the Calico Act."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses the Coin Act 1696, which is about counterfeiting coins and not relevant to the query about the Calico Act."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses the Calendar (New Style) Act 1750, which reformed the calendar and is not relevant to the query about the Calico Act."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Cruelty to Animals Act, 1876, was an Act passed by the Parliament of the United Kingdom.",
+            "The Act set limits on animal experimentation and instituted a licensing system.",
+            "The Act amended the Cruelty to Animals Act 1849."
+          ],
+          "reason": "Extracted facts about the Cruelty to Animals Act 1876, including its origin, purpose, and relation to a previous act, which are relevant to the query about animal cruelty legislation."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the Calico Act, but this document discusses the Cruelty to Animals Act 1849, which is unrelated.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the Stamp Act of 1712, which is unrelated to the Calico Act.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the Coin Act 1696, which is unrelated to the Calico Act.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the Calendar (New Style) Act 1750, which is unrelated to the Calico Act.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the Calico Act, but this document discusses the Cruelty to Animals Act 1876, which is unrelated.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All provided documents were deemed irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents are irrelevant to the query, indicating no conflicting information is present.",
+        "clusters": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All provided documents were deemed irrelevant to the query about the Calico Act."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant to the query, so no answer can be reliably formed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant to the query, so no answer can be reliably formed.",
+        "final_reasoning": "All provided documents were irrelevant to the query, preventing an answer from being formed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The query asks about the 'calico act' which is not mentioned in any of the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8553,
+      "completion_tokens": 1670,
+      "total_tokens": 10223
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1474,
+        "completion_tokens": 366,
+        "total_tokens": 1840
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1429,
+        "completion_tokens": 482,
+        "total_tokens": 1911
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 892,
+        "completion_tokens": 353,
+        "total_tokens": 1245
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1056,
+        "completion_tokens": 146,
+        "total_tokens": 1202
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1215,
+        "completion_tokens": 113,
+        "total_tokens": 1328
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 464,
+        "completion_tokens": 36,
+        "total_tokens": 500
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 605,
+        "completion_tokens": 74,
+        "total_tokens": 679
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1418,
+        "completion_tokens": 100,
+        "total_tokens": 1518
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:08.238577",
+        "prompt_tokens": 1474,
+        "completion_tokens": 366,
+        "total_tokens": 1840,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:12.232238",
+        "prompt_tokens": 1429,
+        "completion_tokens": 482,
+        "total_tokens": 1911,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:14.384062",
+        "prompt_tokens": 892,
+        "completion_tokens": 353,
+        "total_tokens": 1245,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:15.382945",
+        "prompt_tokens": 1056,
+        "completion_tokens": 146,
+        "total_tokens": 1202,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:16.506921",
+        "prompt_tokens": 1215,
+        "completion_tokens": 113,
+        "total_tokens": 1328,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:17.295108",
+        "prompt_tokens": 464,
+        "completion_tokens": 36,
+        "total_tokens": 500,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:18.296035",
+        "prompt_tokens": 605,
+        "completion_tokens": 74,
+        "total_tokens": 679,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:19.294622",
+        "prompt_tokens": 1418,
+        "completion_tokens": 100,
+        "total_tokens": 1518,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:19:06.397952",
+  "last_updated_at": "2026-04-17T20:19:19.294857"
+}

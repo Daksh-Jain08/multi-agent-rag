@@ -1,0 +1,405 @@
+{
+  "sample_id": "#0591",
+  "query": "Survivorship Bias and how to apply it",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Re: Survivorship bias | Sir Abe | 200 Words a Day Re: Survivorship bias Parent post: Survivorship bias I know what you're talking about Seun. So I wanted to actually go out on a limb. It's one of the scariest things I think people in civilized society can do. It's to say they're going to do something. Say it unabashed and yet continue to say it aloud. One thing I respect Gary Vee a ton for is his consistent announcement of how he will buy the New York Jets. A lot of people laugh at him, some people now cheer him on. And me, I don't care about the Jets, but",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2005-11-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Survivorship Bias - Overview, Impact, and How to Prevent ensure that their data sets do not contain survivorship bias. It can be done by implementing new rules and procedures, complying with strict standards or educating staff about best practices when it comes to logging data. How to Prevent Survivorship Bias In order to prevent survivorship bias, researchers must be very selective with their data sources. Researchers must ensure that the data sources that they have selected do not omit observations that are no longer in existence in order to reduce the risk of survivorship bias. Cognitive BiasCognitive BiasA cognitive bias is an error in cognition that arises in a",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1991-09-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Survivorship Bias and Global Equity Returns the SEC in N-Q filings, which can be found on SEC.gov. Survivorship bias occurs when international investors fail to account for assets that no longer exist when calculating performance over time. Screening for international stocks or ETFs introduces survivorship bias by eliminating those assets that no longer exist from consideration. International investors can avoid survivorship bias using international ETFs or by looking for ETFs or other assets that have been shut down. How to Build a Diversified Global Portfolio Global Investment Risk Factors How to Calculate and Use the CAPE Ratio to Improve Returns Why Value Investing Is Making a",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2013-06-20"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Anthropic Probabilities: a different approach is not an instance of the survivorship bias. The survivorship bias applies if the elements we refer to as fulfilling X have been pre-selected to fulfill X. This is not the case when noting that there are any survivors, but it is the case when we already know that there are survivors, talk to a random one among them, and then note that that person is a survivor. The presumptuous philosopher problem also depends on facts about consciousness, which strikes me as exactly the right answer. If it is indeed true that we win a lottery at birth, tossed into",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2012-06-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Survivorship bias - Wikipedia of Financial Studies. 9 (4): 1097\u0393\u00c7\u00f41120. doi:10.1093/rfs/9.4.1097. In this paper the researchers eliminate survivorship bias by following the returns on all funds extant at the end of 1976. They show that other researchers have drawn spurious conclusions by failing to include the bias in regressions on fund performance. ^ Michael Shermer (2014-08-19). \"How the Survivor Bias Distorts Reality\". Scientific American. ^ Carmine Gallo (2012-12-07). \"High-Tech Dropouts Misinterpret Steve Jobs' Advice\". Forbes. ^ Robert J Zimmer (2013-03-01). \"The Myth of the Successful College Dropout: Why It Could Make Millions of Young Americans Poorer\". The Atlantic. ^ Karen E. Klein. \"How Survivorship  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions survivorship bias but focuses on personal anecdotes and Gary Vee's aspirations, not its application or definition."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Directly addresses survivorship bias, its impact, and provides actionable methods on how to prevent it, aligning with the query's application aspect."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explains survivorship bias in the context of global equity returns and offers methods to avoid it, directly addressing the 'how to apply' part of the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Discusses survivorship bias in a philosophical context, differentiating it from other concepts, but doesn't directly explain its application or prevention."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "References a paper that eliminates survivorship bias by following specific fund returns, implying a method of application or analysis for the bias."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Gary Vee consistently announces his intention to buy the New York Jets."
+          ],
+          "reason": "Extracted a specific example of a public announcement of intent, which is tangentially related to the concept of making bold statements, as discussed in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "To prevent survivorship bias, researchers must be selective with data sources.",
+            "Researchers must ensure selected data sources do not omit observations that no longer exist.",
+            "Preventing survivorship bias can be achieved by implementing new rules and procedures, complying with strict standards, or educating staff on data logging best practices."
+          ],
+          "reason": "Extracted key methods for preventing survivorship bias, directly addressing the 'how to apply it' aspect of the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Survivorship bias occurs when international investors fail to account for assets that no longer exist when calculating performance over time.",
+            "Screening for international stocks or ETFs can introduce survivorship bias by eliminating assets that no longer exist.",
+            "International investors can avoid survivorship bias using international ETFs or by looking for ETFs or other assets that have been shut down."
+          ],
+          "reason": "Extracted facts explaining what survivorship bias is in the context of global equity returns and how to avoid it."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Survivorship bias applies if elements fulfilling a condition have been pre-selected to fulfill that condition.",
+            "It is not survivorship bias to note there are survivors, but it is if one talks to a random survivor and notes they are a survivor, having already known survivors exist."
+          ],
+          "reason": "Extracted a nuanced definition of survivorship bias and clarified when a situation does or does not constitute this bias."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Researchers eliminated survivorship bias by following the returns on all funds extant at the end of 1976.",
+            "Other researchers drew spurious conclusions by failing to include survivorship bias in regressions on fund performance."
+          ],
+          "reason": "Extracted specific research methodologies used to eliminate survivorship bias and the consequences of not accounting for it in fund performance analysis."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The key facts about Gary Vee's intentions are unrelated to the concept of survivorship bias or how to apply it.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly outlines methods and procedures for preventing survivorship bias, addressing the 'how to apply it' aspect of the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explains what survivorship bias is in an investment context and provides actionable advice on how international investors can avoid it.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Provides a nuanced definition and clarification of survivorship bias, which is related but doesn't directly explain how to apply or prevent it.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Illustrates practical research methodologies used to eliminate survivorship bias and highlights the consequences of its omission.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1"
+        ],
+        "evidence_summary": [
+          {
+            "label": "prevention_methods",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide direct methods and examples for preventing or eliminating survivorship bias in research and investment contexts."
+          },
+          {
+            "label": "nuanced_definition",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 offers a more detailed and nuanced explanation of survivorship bias, clarifying its application."
+          },
+          {
+            "label": "irrelevant_content",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 is unrelated to the topic of survivorship bias."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All relevant documents consistently explain and provide methods for avoiding survivorship bias, with one document offering a more nuanced definition.",
+        "clusters": [
+          {
+            "label": "prevention_methods",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide direct methods and examples for preventing or eliminating survivorship bias in research and investment contexts."
+          },
+          {
+            "label": "nuanced_definition",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 offers a more detailed and nuanced explanation of survivorship bias, clarifying its application."
+          },
+          {
+            "label": "irrelevant_content",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 is unrelated to the topic of survivorship bias."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and supportive, with no significant conflicts. The documents collectively provide methods for prevention and a nuanced definition, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Survivorship bias can be prevented or eliminated in research and investment contexts by employing methods and examples detailed in the provided documents. Document d4 offers a more nuanced explanation of this bias.",
+        "citations": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently provide methods for preventing survivorship bias and a nuanced definition, allowing for a direct and reliable answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer is well-grounded in the provided documents, accurately summarizing how survivorship bias can be prevented and referencing document d4 for a nuanced explanation. Citations are appropriate."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8998,
+      "completion_tokens": 2052,
+      "total_tokens": 11050
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1374,
+        "completion_tokens": 378,
+        "total_tokens": 1752
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1329,
+        "completion_tokens": 570,
+        "total_tokens": 1899
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 344,
+        "total_tokens": 1296
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1111,
+        "completion_tokens": 270,
+        "total_tokens": 1381
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1354,
+        "completion_tokens": 224,
+        "total_tokens": 1578
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 635,
+        "completion_tokens": 49,
+        "total_tokens": 684
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 789,
+        "completion_tokens": 115,
+        "total_tokens": 904
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1454,
+        "completion_tokens": 102,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:27.563750",
+        "prompt_tokens": 1374,
+        "completion_tokens": 378,
+        "total_tokens": 1752,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:29.595155",
+        "prompt_tokens": 1329,
+        "completion_tokens": 570,
+        "total_tokens": 1899,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:31.260910",
+        "prompt_tokens": 952,
+        "completion_tokens": 344,
+        "total_tokens": 1296,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:32.518129",
+        "prompt_tokens": 1111,
+        "completion_tokens": 270,
+        "total_tokens": 1381,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:34.636159",
+        "prompt_tokens": 1354,
+        "completion_tokens": 224,
+        "total_tokens": 1578,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:35.508451",
+        "prompt_tokens": 635,
+        "completion_tokens": 49,
+        "total_tokens": 684,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:36.560930",
+        "prompt_tokens": 789,
+        "completion_tokens": 115,
+        "total_tokens": 904,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:37.578146",
+        "prompt_tokens": 1454,
+        "completion_tokens": 102,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:14:25.725918",
+  "last_updated_at": "2026-04-17T20:14:37.578676"
+}

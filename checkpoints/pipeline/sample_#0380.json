@@ -1,0 +1,453 @@
+{
+  "sample_id": "#0380",
+  "query": "Were radios used in the Trenches during World War I?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Wireless Telegraph Archives - Page 2 of 2 - Innovating in Combat There were several reasons for this: the equipment was bulky; the accumulators needed frequent re-charging; and there was a genuine fear that the enemy would be able to intercept the messages. This situation was to change later in the war when radio had proved to be the only reliable way to communicate, particularly when troops were on the move. The BF Trench Set One of the earliest radios to be used in the trenches was the 50-watt Trench Set, also known as the BF Set (Figure 2) which was used for communication from Brigade to Division. This went into action in the Battle of Loos in September 1915 and in the first Battle of the Somme on July 1st 1916. The transmitting portion of set was based on the design of the No 1 Aircraft Spark set. The receiving portion used a carborundum crystal detector. It was powered from an accumulator and also required dry-cell batteries for biasing the carborundum crystal and an internal test buzzer. Its range was 3.7km with aerials mounted on masts but this reduced to 1.1km when the aerial was run close to the ground. Careful planning of frequencies was required in order to minimize interference from neighbouring spark transmitters, a problem much simplified when CW sets came into use. The BF set was used extensively during the second half of the war and approximately 1200 were manufactured. 130-watt Wilson Trench Set & Short Wave Tuner Mk. III The Wilson Transmitter was used primarily for Division to Corps communication and Corps Directing Station. This set came into service about the same time as the BF Trench Set. It had a fixed spark gap with a motor-driven, high-speed interrupter rather than the slower magnetic interrupter. The greater number of sparks produced a musical note in the headphones, making the Morse signal more easy to hear through interference. The transmitter had the same frequencies as the BF set and the higher power meant that the range was up to 8.3km. The set was supplied by an accumulator.",
+      "source_url": "https://blogs.mhs.ox.ac.uk/innovatingincombat/category/wireless-telegraph/page/2/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Command, Control, Communication, Electricity, 1917 - Scientific ... Command, Control, Communication, Electricity, 1917 Communications in 1917: during an attack, the signals squad climbed out of the trenches to follow the advancing troops, laying down networks of telephone and telegraph lines as they went. Credit: Scientific American Supplement, March 17, 1917 Advertisement Armies in the First World War were vast compared with armies in preceding wars. The telephone, telegraph and the appearance of effective wireless radio sets were replacing older communication methods. The article in Scientific American from March 17, 1917, says: \u201cWith an army strung out over miles of irregular trenches prompt communication by the older method is obviously impossible, although special instructions carried by fast motorcycles have been found greatly superior to the old horse-mounted messengers; but where rapid communication with the commanders of long lines of trenches, and numerous widely scattered batteries of guns, is necessary something vastly more prompt and certain is required, and in this emergency recourse is had to the telephone, which has proved to be indispensable. By means of telephones, operated through heavily insulated wires that can be run rapidly from point to point, resting directly upon the ground without any supports or elaborate fixtures, orders may be transmitted along miles of trenches within a few minutes, where flags could not be seen, and where messengers even on the fastest motorcycles would require hours, even if they got through safely at all, thus enabling rapid cooperative action to be taken, or special advances organized and properly supported both by troops and guns.\u201d A German field telephone setup\u2014portable of course\u2014from 1914. Credit: Scientific American, December 19, 1914 Artillery, though, frequently cut telephone wires, so \u201crunners\u201d carrying messages back and forth were widely used. As warfare became more mobile late in the war, static telephone lines became less useful, while radios were becoming more portable. (Carrier pigeons, it should be noted, remained useful until well after the Second World War.) The views expressed are those of the author and are not necessarily those of Scientific American. Scientific American is part of Springer Nature,",
+      "source_url": "https://blogs.scientificamerican.com/anecdotes-from-the-archive/command-control-communication-electricity-1917/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Fighting talk: First World War telecommunications - The National ... Major T F Purves, commissioned officer in the Royal Engineers, worked with Post Office engineers to oversee the provision of over 200 items of special telecommunications apparatus. These were adapted to fit the needs of British soldiers in the trenches and ranged from modified cavalry field radios to field communication devices for gun spotters. This improved telecommunications equipment made it easier for troops and officers to get information up and down the chain of command; from forces headquarters to the front line and back. One important piece of apparatus for sending intelligence and operational updates was the portable morse code machine, used by the British army throughout the conflict and often in trench holes at the heart of the battle. During this period, work was also being done to improve the military\u2019s ability to attack and defend. One of these techniques was sound ranging, a process that uses sound to work out the position and coordinates of enemy artillery firing \u2013 you can see the devices used to conduct experiments into sound ranging below in fascinating photographs from the Ministry of Aviation. Within a report held by BT Archives covering the Engineering Department\u2019s work during the First World War, a letter written by General Douglas Haig, Commanding-in-Chief, British Armies in France, to Joseph Pease, Postmaster General, thanks officers for the great assistance provided in connection with sound ranging. Thanks for the courtesy shown and the assistance rendered, which has been of material advantage towards furthering military operations. Sound ranging equipment (cat ref: AVIA 7/2768) Records belonging to the Geographical Section of the General Staff, a department of the War Office, also reveal some wonderful illustrative diagrams. The diagram below, detailing instructions on how to determine the location of gun fire, demonstrates the complexity of this procedure prior to the development of sound ranging equipment. Diagram from the Geographical Section of the General Staff (cat ref: WO 297/73)",
+      "source_url": "https://www.nationalarchives.gov.uk/first-world-war/telecommunications-in-war/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Tactics and Logistics on Land | Canada and the First World War Communication Communication between the rear areas and front line units, as well as laterally along the front line, was always difficult, and often led to failures in battle. Vulnerable Communication on the Ground On the ground, signalers used a variety of devices and methods to send messages. Telephones were reliable, but their long, strung-out wires were vulnerable to shellfire and frequently cut. Burying the lines deep into the ground was labour intensive and time consuming, and still did not always protect against shellfire. Pigeons were surprisingly effective in carrying messages, but required special handlers and could become disoriented by the noise of artillery barrages. Bulky and Fragile Radios Wireless telegraphy (radio) could transmit Morse code in 1914, but the wireless sets were bulky and fragile, with relatively short ranges. Later, more robust wireless sets were used by observers to direct artillery fire. Limited Communication with Aircraft Aircraft flew \u201ccontact patrols\u201d to observe the forward movement of troops. They were only fitted with transmitting wireless sets, as receivers added too much weight to the airframe. Aircraft could also drop messages near a headquarters or friendly position. Troops on the ground used various methods, such as signal lamps, panels, and flares, to send messages to aircraft. Unresolved Problems Despite these tools, communication often broke down between the attacking infantry and their headquarters in the rear. When this happened, commanders did not know the location of their troops and were unable to support them with accurate artillery fire, ammunition, or supplies. This failure in communication was never fully solved during the war.",
+      "source_url": "https://www.warmuseum.ca/firstworldwar/history/battles-and-fighting/tactics-and-logistics-on-land/communication/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Military communication - WWI, 1940, Technology | Britannica Thus electrical communication in the form of the telephone and telegraph gradually extended to the smaller units until front-line platoons were frequently kept in touch with their company headquarters through these mediums. Despite efforts to protect the wire lines, they were frequently cut at critical times as the result of the intense artillery fire. This led all the belligerents to develop and use radio (wireless) as an alternate means of communication. Prewar radio sets were too heavy and bulky to be taken into the trenches, and they also required large and highly visible aerials. Radio engineers of the belligerent nations soon developed smaller and more portable sets powered by storage batteries and using low, inconspicuous aerials. Although radio equipment came to be issued to the headquarters of all units, including battalions, the ease of enemy interception, the requirements for cryptographing or encoding messages, and the inherent unreliability of these early systems caused them to be regarded as strictly auxiliary to the wire system and reserved for emergency use when the wire lines were cut. Visual signaling returned to the battlefield in World War I with the use of electric signal lamps. Pyrotechnics, rockets, Very pistols, and flares had a wide use for transmitting prearranged signals. Messenger service came to be highly developed, and motorcycle, bicycle, and automobile messenger service was employed. Homing pigeons were used extensively as one-way messengers from front to rear and acquitted themselves extremely well. Dogs were also used as messengers and, in the German army, reached a high degree of efficiency. A new element in warfare, the airplane, introduced in World War I, immediately posed a problem in communication. During most of the war, communication between ground and air was difficult and elementary. To make his reports the pilot had to land or drop messages, and he received instructions while in the air from strips of white and black cloth called \u201cpanels\u201d laid out in an open field according to prearranged designs. Extensive efforts were made to use radiotelegraph and radiotelephone between the airplanes and ground headquarters.",
+      "source_url": "https://www.britannica.com/technology/military-communication/From-World-War-I-to-1940",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Getting the Message Through-Chapter 5 -distance communications, soon caused the German Army to reinstate wire telegraphy as part of its signaling system.95 Although radio held great promise for military communications, the instruments available during World War I proved unsuitable for extensive frontline use. The prewar radios used by the Signal Corps had been relatively high-powered sets designed for a large operating area; they were not meant to be used in the restricted conditions of trench warfare where their inability to be finely tuned caused them to interfere with the sets used by the Allies. Moreover, the spark-gap equipment weighed too much-up to 500 pounds-to be easily moved and often broke down. With the assistance of European radio experts, the Signal Corps developed its own models and had approximately twenty-five different types in production when the war ended. In the meantime, American forces used French radios. Despite some improvements, particularly in the production of vacuum tubes, \"radio carried little of the war's communications load,\" a fact that had a direct impact on the battlefield.96 The high combat casualty rates of World War I can partly be attributed to the lack of a reliable wireless communications system. Once soldiers went \"over the top,\" they found themselves isolated. During deafening artillery barrages a commander could not control his men with his voice, and vision became limited amid the fog of battle. In order to maintain contact, troops tended to move in groups that made them easy targets for enemy machine gunners. Although wire lines were portable, they could not last long under constant and withering artillery bombardment that chewed them to bits; what the shellfire spared often fell victim to the treads of tanks or other vehicles. With their communications cut off, attackers found it difficult if not impossible to call for reinforcements or artillery support. The situation did not improve significantly under defensive conditions. Shelling continued to destroy wire lines, and standard radio antennas proved a [186] popular enemy target.",
+      "source_url": "https://history.army.mil/books/30-17/s_5.htm",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly discusses the use of radios, specifically the 'BF Trench Set', in trenches during WWI, answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions radios becoming more portable and useful as warfare became mobile late in the war, implying their use in trench contexts."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that telecommunications apparatus was adapted for British soldiers in trenches, including modified cavalry field radios, directly addressing the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Discusses bulky and fragile radios used by observers to direct artillery fire, and mentions communication difficulties in trench warfare, implying their presence."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.88,
+          "is_relevant": true,
+          "reason": "Explains that prewar radios were too heavy for trenches but engineers developed smaller, portable sets, and that radio was used as an auxiliary communication means."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Notes that instruments available during WWI proved unsuitable for extensive frontline use and weighed too much for trench warfare conditions, but acknowledges radio's promise."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The BF Trench Set was one of the earliest radios used in the trenches, designed for communication from Brigade to Division.",
+            "Approximately 1200 BF sets were manufactured and used extensively during the second half of the war.",
+            "The 130-watt Wilson Trench Set was used for Division to Corps communication and went into action at the Battle of Loos in September 1915 and the Battle of the Somme in July 1916.",
+            "Early radio equipment was bulky, required frequent accumulator re-charging, and posed a risk of enemy interception."
+          ],
+          "reason": "Extracted facts about specific radio models used in trenches, their usage, and early limitations, directly addressing the query about radios in WWI trenches."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "As warfare became more mobile late in the war, static telephone lines became less useful, while radios were becoming more portable.",
+            "The telephone, telegraph, and wireless radio sets were replacing older communication methods.",
+            "Prompt communication by older methods was impossible with armies strung out over miles of trenches."
+          ],
+          "reason": "Extracted information on the increasing portability and utility of radios as warfare evolved, and their role in replacing older communication methods in trench warfare."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Modified cavalry field radios and field communication devices for gun spotters were adapted for British soldiers in the trenches.",
+            "Improved telecommunications equipment made it easier for troops and officers to get information up and down the chain of command."
+          ],
+          "reason": "Extracted facts about the adaptation and use of modified field radios and communication devices for trench warfare, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Wireless telegraphy (radio) could transmit Morse code in 1914, but the wireless sets were bulky and fragile with relatively short ranges.",
+            "Later, more robust wireless sets were used by observers to direct artillery fire.",
+            "Aircraft were fitted with transmitting wireless sets, but receivers added too much weight."
+          ],
+          "reason": "Extracted information on the early limitations of radio sets (bulky, fragile) and their later use by observers, relevant to their presence and function in WWI."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Prewar radio sets were too heavy and bulky to be taken into the trenches and required large aerials.",
+            "Radio engineers developed smaller, more portable sets powered by storage batteries for trench use.",
+            "Radio equipment was issued to headquarters of all units, but regarded as auxiliary to wire systems and reserved for emergencies."
+          ],
+          "reason": "Extracted facts detailing the evolution of radio sets from pre-war bulkiness to more portable versions suitable for trench use, and their auxiliary role."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Instruments available during WWI proved unsuitable for extensive frontline trench use.",
+            "Prewar radios were high-powered, not meant for restricted trench conditions, and interfered with Allied sets.",
+            "Spark-gap equipment weighed too much (up to 500 pounds) and often broke down.",
+            "Radio carried little of the war's communications load, partly due to the lack of a reliable wireless system."
+          ],
+          "reason": "Extracted facts explaining why radios were largely unsuitable for extensive frontline trench use during WWI, citing issues with weight, portability, tuning, and reliability."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly mentions specific radio models (BF Trench Set, Wilson Trench Set) used in trenches during WWI, detailing their purpose and usage.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States that radios were becoming more portable and useful as warfare evolved, replacing older communication methods in trench warfare.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms that modified field radios were adapted for British soldiers in trenches and improved telecommunications facilitated command and control.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions wireless telegraphy existed but was bulky and fragile early on, later used by observers. It implies limited use rather than widespread adoption.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explains the development of smaller, portable radio sets for trench use and their issuance to headquarters, confirming their presence.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "Highlights that radios were largely unsuitable for extensive frontline trench use due to weight, reliability, and interference, suggesting limited practical application.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4",
+          "d6"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "specific_models_and_usage",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Documents d1 details specific radio models like the BF Trench Set and Wilson Trench Set, their intended use, manufacturing numbers, and operational periods during WWI."
+          },
+          {
+            "label": "evolution_and_portability",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 highlight the increasing portability and development of smaller radio sets for trench warfare, noting their role in replacing older communication methods and their issuance to headquarters."
+          },
+          {
+            "label": "adaptation_and_command_control",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 confirms the adaptation of modified field radios for trench use and their contribution to improved command and control communication."
+          },
+          {
+            "label": "limitations_and_practicality",
+            "doc_ids": [
+              "d4",
+              "d6"
+            ],
+            "summary": "Documents d4 and d6 collectively describe the early limitations of radio sets, including bulkiness, fragility, and limited range, and also point out that radios were largely unsuitable for extensive frontline trench use due to weight, reliability issues, and interference, suggesting a more auxiliary or specialized role rather than widespread frontline adoption."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence collectively describes the evolution, limitations, and usage of radios in WWI trenches, with no direct contradictions.",
+        "clusters": [
+          {
+            "label": "Radio Models and Usage",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Details specific radio models like BF Trench Set and Wilson Trench Set, their purpose, manufacturing, and operational periods."
+          },
+          {
+            "label": "Evolution and Portability",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Highlights increasing portability and development of smaller sets for trench warfare, replacing older methods and issued to headquarters."
+          },
+          {
+            "label": "Adaptation and Command Control",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Confirms adaptation of modified field radios for trench use, improving command and control communication."
+          },
+          {
+            "label": "Limitations and Practicality",
+            "doc_ids": [
+              "d4",
+              "d6"
+            ],
+            "summary": "Describes early limitations (bulkiness, fragility, range) and unsuitability for extensive frontline use due to weight, reliability, and interference."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing a comprehensive overview of radio usage, evolution, and limitations in WWI trenches without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "During WWI, specific radio models like the BF Trench Set and Wilson Trench Set were adapted for trench warfare, contributing to improved command and control. While efforts were made to increase portability and develop smaller sets, early radios had limitations such as bulkiness, fragility, limited range, and reliability issues, making them largely unsuitable for extensive frontline use and more auxiliary or specialized.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial evidence documents collectively describe the specific models, evolution, adaptation, and limitations of radios in WWI trenches, providing a comprehensive and complementary answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately reflects the information in the provided documents, detailing the use of specific radio models in trenches, their limitations, and their auxiliary role."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 14920,
+      "completion_tokens": 2752,
+      "total_tokens": 17672
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2706,
+        "completion_tokens": 446,
+        "total_tokens": 3152
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2661,
+        "completion_tokens": 853,
+        "total_tokens": 3514
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1207,
+        "completion_tokens": 417,
+        "total_tokens": 1624
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1423,
+        "completion_tokens": 414,
+        "total_tokens": 1837
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1794,
+        "completion_tokens": 313,
+        "total_tokens": 2107
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 812,
+        "completion_tokens": 46,
+        "total_tokens": 858
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 963,
+        "completion_tokens": 169,
+        "total_tokens": 1132
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3354,
+        "completion_tokens": 94,
+        "total_tokens": 3448
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:41.357869",
+        "prompt_tokens": 2706,
+        "completion_tokens": 446,
+        "total_tokens": 3152,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:46.946328",
+        "prompt_tokens": 2661,
+        "completion_tokens": 853,
+        "total_tokens": 3514,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:49.257485",
+        "prompt_tokens": 1207,
+        "completion_tokens": 417,
+        "total_tokens": 1624,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:51.405389",
+        "prompt_tokens": 1423,
+        "completion_tokens": 414,
+        "total_tokens": 1837,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:52.991351",
+        "prompt_tokens": 1794,
+        "completion_tokens": 313,
+        "total_tokens": 2107,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:53.942595",
+        "prompt_tokens": 812,
+        "completion_tokens": 46,
+        "total_tokens": 858,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:55.538044",
+        "prompt_tokens": 963,
+        "completion_tokens": 169,
+        "total_tokens": 1132,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:41:56.906528",
+        "prompt_tokens": 3354,
+        "completion_tokens": 94,
+        "total_tokens": 3448,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:41:30.237502",
+  "last_updated_at": "2026-04-17T18:41:56.907125"
+}

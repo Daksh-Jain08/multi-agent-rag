@@ -1,0 +1,527 @@
+{
+  "sample_id": "#0340",
+  "query": "How many LauncherOne's flights have successfully reached the Low Earth orbit?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Virgin Orbit: Facts about the bankrupt air-launch provider - Space.com Seven satellites were successfully launched to Low Earth Orbit for the U.S. Space Force. The satellites were from multiple government agencies ... Mojave Air and Space Port, California: Above The Clouds LauncherOne successfully delivered a payload of satellites to Low Earth Orbit, including several research and development satellites for US government agencies, two nanosatellites for SatRevolution, and one satellite imaging satellite for Spire Global. Seven satellites were successfully launched to Low Earth Orbit for the U.S. Space Force. The satellites were from multiple government agencies with the purpose of researching space communications, navigation, and climate change. This mission was supposed to be the first orbital launch from British soil but ultimately failed. LauncherOne, carrying a payload of nine satellites for customers including the U.K. Ministry of Defence and the aerospace firm Space Forge, launched from Spaceport Cornwall and successfully fired both its first and second stages. At an altitude of around 180 km, the rocket's first second stage burn ended prematurely due to an anomaly and the launch failed. Cosmic Girl: Virgin orbit's airplane Cosmic Girl was Virgin Orbit's modified Boeing 747-400 used to carry the LauncherOne rocket so it can be launched from the air with around 75 percent of Earth's atmosphere already below it. Built in 2001 and originally operated by Virgin Group's commercial airline company Virgin Atlantic, the former passenger airliner was purchased by Virgin Galactic in 2015 and then transferred to Virgin Orbit in 2017. Cosmic Girl is 225 ft in length (69 meters) with a wingspan of 211 ft (64 m). The aircraft carried the LauncherOne rocket underneath its left wing and typically released it at around 35,000 ft (10,668 m) at a speed of Mach 0.67. The combined weight of the two vehicles together at takeoff is around 275 tons (approximately 250 metric tonnes). The LauncherOne rocket is attached to Cosmic Girl via a pylon situated on the aircraft's fifth engine mount \u2014",
+      "source_url": "https://www.space.com/42975-virgin-orbit.html",
+      "timestamp": "2023-06-03"
+    },
+    {
+      "doc_id": "d2",
+      "text": "LauncherOne Achieves Second Successful Mission, Lifts Seven ... On its 2nd flight of 2021, @VirginOrbit's #LauncherOne air-launched booster has lifted 7 payloads for 3 nations to low-Earth orbit. \u201cNice to see you again, space,\u201d tweeted Virgin Orbit, as LauncherOne returned this astonishing first view of the journey to low-Earth orbit. It was the second LauncherOne success of 2021. Photo Credit: Virgin Orbit For the second time in under six months, Virgin Orbit\u2019s LauncherOne air-launched booster has completed a flawless flight to space, delivering seven small payloads into low-Earth orbit for the Department of Defense, the Royal Netherlands Air Force (RNLAF) and the Wroclaw, Poland-based NewSpace firm SatRevolution. Borne aloft from the Mojave Air and Space Port in California, nestled beneath the wing of a modified Boeing 747-400\u2014nicknamed \u201cCosmic Girl\u201d\u2014the two-stage LauncherOne provided the requisite push to lift the payloads into a circular orbit about 310 miles (500 km) above Earth, inclined 60 degrees to the equator. And for Virgin Group founder Sir Richard Branson, releasing LauncherOne precisely on time at 7:47 a.m. PDT Wednesday was almost as exciting as the mission itself. Video Credit: Virgin Orbit Designated \u201cTubular Bells: Part One\u201d, Wednesday\u2019s LauncherOne mission honors the self-titled debut album of multi-instrumentalist Mike Oldfield, the first-ever release under Sir Richard Branson\u2019s Virgin Records label in 1973. And whilst its spacegoing Tubular Bells namesake has not been around for anywhere near so long, its hardware has been deep into processing for some time. Interestingly, however, the formal contracts to launch three of its payloads were not even signed until earlier this year, following hard on the heels of LauncherOne\u2019s first fully successful mission in January.",
+      "source_url": "https://www.americaspace.com/2021/06/30/launcherone-achieves-second-successful-mission-lifts-seven-payloads-to-orbit/",
+      "timestamp": "2021-06-30"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Virgin Orbit - eoPortal \u201cWe are so, so proud to say that LauncherOne has now completed its first mission to space, carrying nine CubeSat missions into low Earth orbit ...",
+      "source_url": "https://www.eoportal.org/other-space-activities/virgin-orbit",
+      "timestamp": "2022-05-10"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Virgin Orbit completes fourth launch | Aerospace Testing International Satellite-launch company Virgin Orbit has successfully launched its fourth consecutive mission using its air-launched rocket technology.",
+      "source_url": "https://www.aerospacetestinginternational.com/news/space/virgin-orbit-completes-fourth-launch.html",
+      "timestamp": "2022-07-05"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Virgin Orbit - Wikipedia LauncherOne made six flights from 2020 to 2023, resulting in four successes and two failures. After the second failure in January 2023 and amid an inability to ... On December 30, 2021, Virgin Orbit underwent a SPAC merger with NextGen Acquisition Corp, and became a publicly traded company (symbol VORB) at the NASDAQ stock exchange.[3] Upon listing Virgin Orbit was valued at $3.7 billion.[4] LauncherOne made six flights from 2020 to 2023, resulting in four successes and two failures. After the second failure in January 2023 and amid an inability to secure additional financing,[5] the company laid off staff and suspended operations in March 2023, finalizing Chapter 11 bankruptcy auction on May 22, 2023.[6][7] Remaining assets were divested for $36 million, less than 1% of the company's valuation upon IPO.[8] On January 9, 2023,[18][19] LauncherOne failed to orbit despite a nominal drop from the aircraft, with Virgin Orbit citing \"an anomaly\" with the upper stage.[20] The failed payload included nine satellites from seven different customers.[21] This was Virgin Orbit's first attempted launch from the UK at Spaceport Cornwall; previous launches were from Mojave Air and Space Port. Cosmic Girl Cosmic Girl was the name of the modified Boeing 747-400 that Virgin Orbit used to launch its rockets.[22] In 2022, Virgin Orbit announced plans to acquire additional 747s with the ability to transport the rocket and ground support equipment internally.[citation needed] A few months prior to going public, Virgin Orbit was owned by Richard Branson's Virgin Group and the Emirati state-owned Mubadala, which had invested about $1 billion in Virgin Orbit through August 2021.[citation needed] In August 2021 when the SPAC merger was announced, Virgin Orbit estimated it needed $420 million in cash, starting in the second half of 2021, to reach positive cash flow in 2024.",
+      "source_url": "https://en.wikipedia.org/wiki/Virgin_Orbit",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Virgin Orbit \u2013 History, launches, and failure - Space Explored LauncherOne flew for a total six times with four of them being successful. A rather impressive launch rate for a new company pushing its technology to the ... Virgin Orbit Virgin Orbit was an air-launch, SmallSat launch company based in Long Beach, California. The company spun out of Virgin Galactic and was own by Richard Branson\u2019s Virgin Group. The company\u2019s mission was based on an, at the time, pioneering idea called \u201crapid responsive launch.\u201d The plan would be able to launch anywhere in the world within months or weeks of purchasing the flight. Now we see that happen everywhere in the launch industry. Virgin Orbit\u2019s method would consist of launching a liquid fueled, two-stage rocket from the wing of a Boeing 747 airplane. The rocket, called LauncherOne, and the aircraft, CosmicGirl, could operate from almost any commercial runway in the world. LauncherOne flew for a total six times with four of them being successful. A rather impressive launch rate for a new company pushing its technology to the limits. However it was not enough to save the company. LauncherOne\u2019s first flight was in May of 2020 with intern and student built satellites. However, it failed to reach orbit due to a problem with the first stage. Virgin Orbit went on to successfully launch four straight LauncherOne rockets. The final flight of LauncherOne took place out of Spaceport Cornwall in the UK in January 2023, the previous flights originated out of Mojave Air and Space Port. This flight failed due to an issue with the rocket\u2019s second stage, losing the handful of satellites it carried. This turned out to be the final straw that broke its back as Virgin Orbit went on to file for Chapter 11 bankruptcy in April 2023. The company was strapped for cash for a few quarters already and continued to fail at the very idea it originated, rapid launches. Its competitors divided up its remaining assets in a an auction with Rocket Lab, Firefly, Stratolaunch, and Launcher gaining much of its technology, equipment, and facilities. We have an update this week on the current status of Virgin Orbit\u2019s bankruptcy as the company looks to continue operations under a new owner.",
+      "source_url": "https://spaceexplored.com/guides/virgin-orbit/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Virgin orbit provided satellite launch services and space travel On June 30th, 2021 Virgin Orbit successfully conducted the first commercial flight with a LauncherOne mission. ... were successfully deployed to 500 km Low-Earth ... LauncherOne used a two-stage rocket to deliver small satellites (those weighing up to 660 lbs) to low-Earth orbit, after being deployed by a modified aircraft that takes off like a traditional jumbojet. The LauncherOne vehicle then deploys from a high altitude, reducing the fuel costs of launch and making it possible to deliver small payloads to space for as little as 12 million USD per launch. The fact that LauncherOne was reusable and was essentially just a modified plane that didn\u2019t require special infrastructure, would allow the company to offer relatively affordable rates, 10 million USD per flight. The air-launched LauncherOne was be able to carry 440 lbs. (200kgs) into standard sun-synchronous orbits, or more than 880 lbs. (400kgs) to low Earth orbit. In November 2019 the company received final approval on a 7.35 million UKP (9.5 million USD) grant from the U.K. Space Agency (UKSA). The funds will be used by Virgin Orbit to help set up its new Cornwall-based launch facility, i.e., Spaceport Cornwall as part of Cornwall Airport Newquay with UK\u2019s largest runway of 2,744m. The maiden flight of LauncherOne took place on May 25th 2020. The flight failed a few seconds after the ignition of the rocket due to the premature shutdown of the first stage\u2019s engine caused by a break in a propellant feed line, and the rocket did not reach space. On June 30th, 2021 Virgin Orbit successfully conducted the first commercial flight with a LauncherOne mission. The carrier aircraft Cosmic Girl took off from a flight runway at the Mojave Air and Space Port in California and dropped the rocket when it had reached about 45,000 feet in altitude. LauncherOne orbited three CubeSat satellites for the U.S.",
+      "source_url": "https://sky-brokers.com/supplier/virgin-orbit/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Virgin Orbit: First satellite launch from the UK failed due to an 'anomaly' Virgin Orbit's LauncherOne rocket and a group of nine satellites it was taking to low-Earth orbit may have burned up in the atmosphere as the launch failed. The first orbital satellite launch from the UK took off from Spaceport Cornwall in Newquay, but failed to deploy its satellites to orbit. Virgin Orbit\u2019s LauncherOne rocket, which took off attached to a Boeing 747 plane at 10.01pm GMT, began its ascent to orbit after about an hour into the flight, but around 25 minutes later the launcher \u201csuffered an anomaly\u201d and had to abort its mission. It isn\u2019t certain whether the rocket and its satellites burned up in Earth\u2019s atmosphere on reentry or came to ground over unpopulated areas. Thousands of people were gathered near the runway to watch and cheer on the plane, Cosmic Girl, as it took off amid fierce winds and speakers blaring Start Me Up by the Rolling Stones. While there may not have been much to see in the skies, there was a festival atmosphere keeping spirits high on the ground, with food trucks and a silent disco lining the runway. After Cosmic Girl left the airport, a large monitor tracked the plane\u2019s progress towards the Irish Sea, where it was supposed to deploy the rocket and its payload of nine satellites. Advertisement When the LauncherOne rocket was dropped from Cosmic Girl, it began its journey to low-Earth orbit. The first stage successfully took it to about 12,900 kilometres per hour. The second stage accelerated the rocket to its cruise phase at 28,000 kilometres per hour. According to a spokesperson for the UK Space Agency (UKSA), the rocket reached low-Earth orbit but suffered an \u201canomaly\u201d which caused it to abort its mission. A ripple of groans and mutters of \u201cOh no\u201d spread through the crowd lining the runway as they learned that the satellite launch was not successful.",
+      "source_url": "https://www.newscientist.com/article/2354092-first-satellite-launch-from-the-uk-failed-due-to-an-anomaly/",
+      "timestamp": "2023-01-10"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Virgin Orbit reaches space for the second time LauncherOne carried a total of seven satellites to Low Earth Orbit (LEO) for this rideshare mission: four R&D CubeSats for the US Department of Defense, two ... Pilot Kelly Latimer flew Virgin Orbit\u2019s 747 carrier aircraft Cosmic Girl from Mojave Air and Space Port out to a launch site over the Pacific Ocean, about 50 miles south of the Channel Islands. Kelly was joined in the cockpit by Chief Pilot Eric Bippert, who has more than 1,000 hours of experience in test flights alone. They were observed from the jumpseat by Flight Lt. Matthew Stannard (AKA Stanny), a Royal Air Force pilot on secondment with the Virgin Orbit team. Virgin Orbit After a smooth release from the aircraft, the LauncherOne rocket ignited and propelled itself towards space, ultimately deploying its payload into a precise target orbit approximately 500km above the Earth\u2019s surface. Virgin Orbit Virgin Orbit\u2019s novel launch system uses a technique called air launch, in which a rocket is launched from under the wing of a jet aircraft, rather than from a traditional launch pad on the ground. In addition to improving the payload capacity of the rocket, this technique allows the LauncherOne system to be the world\u2019s most flexible and responsive launch service - flying on short notice and from a wide variety of locations to access any orbit. What did Virgin Orbit send into orbit? LauncherOne carried a total of seven satellites to Low Earth Orbit (LEO) for this rideshare mission: four R&D CubeSats for the US Department of Defense, two optical satellites for SatRevolution, and the Royal Netherlands Air Force\u2019s first military satellite. Virgin Orbit Small satellites have huge potential to change people\u2019s lives for the better. They connect us to each other, help us understand the world around us, keep us safe, grow the world\u2019s economies, and expand the limits of human knowledge. What\u2019s next? This successful commercial mission follows on from Virgin Orbit\u2019s first Launch Demo in January. Virgin Orbit \u201cA flawless launch demo followed up by this perfectly executed mission is a one-two punch that really speaks to our team\u2019s abilities.",
+      "source_url": "https://www.virgin.com/about-virgin/latest/virgin-orbit-reaches-space-for-the-second-time",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions a successful launch of seven satellites to Low Earth Orbit for the U.S. Space Force, implying a successful LauncherOne mission, but doesn't explicitly state the total number of successful flights."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states LauncherOne achieved its second successful mission in 2021, lifting seven payloads to low-Earth orbit. This directly contributes to answering the query about successful flights."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States LauncherOne has completed its first mission to space, carrying nine CubeSat missions into low Earth orbit. This is a key piece of information for counting successful flights."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States Virgin Orbit has successfully launched its fourth consecutive mission. This directly indicates at least four successful flights, contributing to the query's answer."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly states LauncherOne made six flights from 2020-2023, resulting in four successes and two failures. This provides a clear count of successful flights."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Virgin Orbit successfully launched four straight LauncherOne rockets and that LauncherOne flew a total of six times with four successful missions. This directly answers the query."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions the maiden flight failed but that on June 30th, 2021, Virgin Orbit successfully conducted the first commercial flight with a LauncherOne mission, deploying payloads to Low-Earth orbit."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Describes a specific failed launch from the UK, mentioning the rocket reached low-Earth orbit but suffered an anomaly. It doesn't provide a total count of successful flights."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States LauncherOne reached space for the second time and carried seven satellites to Low Earth Orbit. This implies at least two successful flights, contributing to the total count."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Seven satellites were successfully launched to Low Earth Orbit for the U.S. Space Force."
+          ],
+          "reason": "Extracted the fact about successful satellite launches to Low Earth Orbit, which is relevant to the query about successful flights."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "On its 2nd flight of 2021, LauncherOne lifted 7 payloads for 3 nations to low-Earth orbit.",
+            "It was the second LauncherOne success of 2021.",
+            "LauncherOne delivered seven small payloads into low-Earth orbit for the Department of Defense, the Royal Netherlands Air Force, and SatRevolution."
+          ],
+          "reason": "Extracted facts detailing successful LauncherOne flights, the number of payloads, and the recipients, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "LauncherOne has completed its first mission to space, carrying nine CubeSat missions into low Earth orbit."
+          ],
+          "reason": "Extracted the fact about LauncherOne's first mission to space and carrying missions to low Earth orbit, directly relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Virgin Orbit has successfully launched its fourth consecutive mission using its air-launched rocket technology."
+          ],
+          "reason": "Extracted the fact about Virgin Orbit's fourth consecutive successful mission, indicating successful flights to orbit."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "LauncherOne made six flights from 2020 to 2023, resulting in four successes and two failures."
+          ],
+          "reason": "Extracted the total number of successful and failed flights for LauncherOne, providing a quantitative answer to the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Virgin Orbit went on to successfully launch four straight LauncherOne rockets.",
+            "LauncherOne flew for a total six times with four of them being successful."
+          ],
+          "reason": "Extracted the number of successful LauncherOne flights and the total number of flights, directly answering the query about successful launches."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "On June 30th, 2021 Virgin Orbit successfully conducted the first commercial flight with a LauncherOne mission.",
+            "On June 30th, 2021 Virgin Orbit successfully conducted the first commercial flight with a LauncherOne mission."
+          ],
+          "reason": "Extracted facts about successful commercial flights of LauncherOne to Low Earth Orbit, directly relevant to the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The first orbital satellite launch from the UK took off from Spaceport Cornwall in Newquay, but failed to deploy its satellites to orbit.",
+            "Virgin Orbit's LauncherOne rocket ... began its ascent to orbit after about an hour into the flight, but around 25 minutes later the launcher \u2019suffered an anomaly\u2019 and had to abort its mission."
+          ],
+          "reason": "Extracted facts about a specific failed launch from the UK, detailing the anomaly and mission abort, which contrasts with successful launches."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "LauncherOne carried a total of seven satellites to Low Earth Orbit (LEO) for this rideshare mission.",
+            "Virgin Orbit reaches space for the second time.",
+            "LauncherOne carried a total of seven satellites to Low Earth Orbit (LEO) for this rideshare mission."
+          ],
+          "reason": "Extracted facts about successful missions carrying satellites to Low Earth Orbit and reaching space, directly relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions successful launches to Low Earth Orbit but does not specify if they were LauncherOne flights or the total number.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that LauncherOne successfully delivered seven payloads to low-Earth orbit on its second flight of 2021.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms LauncherOne's first mission successfully carried nine CubeSat missions into low Earth orbit.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Indicates Virgin Orbit's fourth consecutive successful mission but doesn't specify if it was LauncherOne or the total number of successful flights.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States LauncherOne made six flights from 2020-2023, with four successes and two failures, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Explicitly states Virgin Orbit successfully launched four LauncherOne rockets, with four out of six total flights being successful.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Confirms a successful commercial flight with a LauncherOne mission to Low Earth Orbit on June 30th, 2021.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "Describes a specific failed LauncherOne mission from the UK, which does not contribute to the count of successful flights.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "States LauncherOne carried seven satellites to Low Earth Orbit (LEO) for a rideshare mission, marking its second time reaching space.",
+          "confidence": 0.94
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d5",
+          "d6",
+          "d7",
+          "d9"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d8"
+        ],
+        "evidence_summary": [
+          {
+            "label": "successful_launcherone_flights",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5",
+              "d6",
+              "d7",
+              "d9"
+            ],
+            "summary": "Multiple documents confirm successful LauncherOne flights, detailing payload counts, mission types (commercial, rideshare), and specific dates."
+          },
+          {
+            "label": "overall_flight_statistics",
+            "doc_ids": [
+              "d5",
+              "d6"
+            ],
+            "summary": "Documents d5 and d6 provide a quantitative overview of LauncherOne's flight history, including the total number of flights, successes, and failures."
+          },
+          {
+            "label": "general_successful_launches",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 mention successful launches to Low Earth Orbit and consecutive successful missions, respectively, but lack specific details about LauncherOne."
+          },
+          {
+            "label": "failed_launch_details",
+            "doc_ids": [
+              "d8"
+            ],
+            "summary": "Document d8 describes a specific failed mission, which is not relevant to the query about successful flights."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence supports the claim of successful satellite launches, with different documents offering compatible details about payload counts, mission types, and overall flight statistics.",
+        "clusters": [
+          {
+            "label": "successful_launcherone_flights",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d7",
+              "d9"
+            ],
+            "summary": "Multiple documents confirm successful LauncherOne flights, detailing payload counts, mission types (commercial, rideshare), and specific dates."
+          },
+          {
+            "label": "overall_flight_statistics",
+            "doc_ids": [
+              "d5",
+              "d6"
+            ],
+            "summary": "Documents d5 and d6 provide a quantitative overview of LauncherOne's flight history, including the total number of flights, successes, and failures."
+          },
+          {
+            "label": "general_successful_launches",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 mention successful launches to Low Earth Orbit and consecutive successful missions, respectively, but lack specific details about LauncherOne."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is overwhelmingly supportive and complementary, with no significant conflicts. The supporting documents provide sufficient detail for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Multiple documents confirm successful LauncherOne flights, detailing payload counts, mission types (commercial, rideshare), and specific dates. Documents d5 and d6 provide a quantitative overview of LauncherOne's flight history, including the total number of flights, successes, and failures.",
+        "citations": [
+          "d2",
+          "d3",
+          "d5",
+          "d6",
+          "d7",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting sources agree and directly answer the query about successful satellite launches, providing specific details on LauncherOne flights and overall statistics."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies that multiple documents confirm successful LauncherOne flights and accurately cites the relevant documents that provide a quantitative overview of its flight history."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 17285,
+      "completion_tokens": 3287,
+      "total_tokens": 20572
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3153,
+        "completion_tokens": 742,
+        "total_tokens": 3895
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3108,
+        "completion_tokens": 937,
+        "total_tokens": 4045
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1252,
+        "completion_tokens": 621,
+        "total_tokens": 1873
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1631,
+        "completion_tokens": 412,
+        "total_tokens": 2043
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1980,
+        "completion_tokens": 297,
+        "total_tokens": 2277
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 786,
+        "completion_tokens": 43,
+        "total_tokens": 829
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 934,
+        "completion_tokens": 142,
+        "total_tokens": 1076
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4441,
+        "completion_tokens": 93,
+        "total_tokens": 4534
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:51.997396",
+        "prompt_tokens": 3153,
+        "completion_tokens": 742,
+        "total_tokens": 3895,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:54.965181",
+        "prompt_tokens": 3108,
+        "completion_tokens": 937,
+        "total_tokens": 4045,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:56.977482",
+        "prompt_tokens": 1252,
+        "completion_tokens": 621,
+        "total_tokens": 1873,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:55:59.780803",
+        "prompt_tokens": 1631,
+        "completion_tokens": 412,
+        "total_tokens": 2043,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:56:01.377074",
+        "prompt_tokens": 1980,
+        "completion_tokens": 297,
+        "total_tokens": 2277,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:56:02.397462",
+        "prompt_tokens": 786,
+        "completion_tokens": 43,
+        "total_tokens": 829,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:56:03.755635",
+        "prompt_tokens": 934,
+        "completion_tokens": 142,
+        "total_tokens": 1076,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:56:05.205049",
+        "prompt_tokens": 4441,
+        "completion_tokens": 93,
+        "total_tokens": 4534,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:55:47.754934",
+  "last_updated_at": "2026-04-17T17:56:05.205815"
+}

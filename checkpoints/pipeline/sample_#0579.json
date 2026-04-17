@@ -1,0 +1,398 @@
+{
+  "sample_id": "#0579",
+  "query": "When did china become a member of the united nations?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "represent China at the UN. Every year the United States was able to assemble enough votes to block this resolution. Both sides rejected compromise proposals to allow both states to participate in the UN, based on the One-China policy. The admission of newly independent developing nations in the 1960s gradually turned the General Assembly from being Western-dominated to being dominated by countries sympathetic to Beijing. Not only the newly founded developing countries, but also most of the Western countries eventually decided to recognise the PRC. During the 1950s and 1960s, United Kingdom, Switzerland, Sweden, and France shifted their recognition of",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "in 1995, China encouraged African states to demand seats for themselves as a counter-move to Japan's ambitions, and thereby nullified the Japanese initiative. China and the United Nations China is one of the charter members of the United Nations and is one of five permanent members of its Security Council. It has used its veto the least of any of the permanent members. One of the victorious Allies of the Second World War (locally known as the Second Sino-Japanese War), Republic of China (ROC) joined the UN at its founding in 1945. The subsequent resumption of the Chinese Civil War",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d3",
+      "text": "UN Security Council. In recent decades, China has played an increasing role in calling for free trade areas and security pacts amongst its Asia-Pacific neighbours. China became a member of the World Trade Organization (WTO) on 11 December 2001. In 2004, it proposed an entirely new East Asia Summit (EAS) framework as a forum for regional security issues. The EAS, which includes ASEAN Plus Three, India, Australia and New Zealand, held its inaugural summit in 2005. China is also a founding member of the Shanghai Cooperation Organization (SCO), along with Russia and the Central Asian republics. In 2000, the United",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2014"
+    },
+    {
+      "doc_id": "d4",
+      "text": "United Nations General Assembly Resolution 1668 United Nations General Assembly Resolution 1668 (XVI) was an act of the UN General Assembly that deemed the issue of China representation at the UN an important question under the UN Charter; therefore any proposal to change the designated representation of China at the UN would require a two-thirds majority vote. The impetus for UN Resolution 1668 (1961) was raised by Australia, Colombia, Italy, Japan, and the United States and passed with 61 UN Member States voting in its favor, 34 UN Member States voted against it, 7 UN Member States abstaining, and 2",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mongolia until 1961, when the Soviet Union announced that unless Mongolia was admitted, it would block the admission of all of the newly independent African states. Faced with this pressure, the ROC relented under protest. After the Republic of China's expulsion from the United Nations in 1971, the first veto cast by the present occupant, the People's Republic of China, was issued on 25 August 1972 over Bangladesh's admission to the United Nations. As of February 2017, the People's Republic of China has used its veto eleven times. Observers have noted a preference for China to abstain rather than the  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Discusses China's representation at the UN and the shift in recognition, but doesn't state the specific year of membership."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that the Republic of China (ROC) joined the UN at its founding in 1945, directly answering the query about China's membership."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions China's membership in the WTO and other organizations, but not its UN membership date."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Discusses a UN resolution regarding China's representation in 1961, but not the initial date of membership."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the expulsion of the Republic of China from the UN in 1971 and the subsequent role of the People's Republic of China, providing context around China's UN history."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The United States was able to assemble enough votes to block the resolution to represent China at the UN every year."
+          ],
+          "reason": "Extracted the fact about the US blocking China's representation at the UN, which is relevant to the query about UN membership."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Republic of China (ROC) joined the UN at its founding in 1945.",
+            "China is one of the charter members of the United Nations and is one of five permanent members of its Security Council."
+          ],
+          "reason": "Extracted facts stating the ROC joined in 1945 and that China is a charter member, directly addressing the query about UN membership."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "China became a member of the World Trade Organization (WTO) on 11 December 2001."
+          ],
+          "reason": "Extracted the date China became a member of the WTO. While not the UN, it's a related international organization membership date."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "United Nations General Assembly Resolution 1668 (1961) deemed the issue of China representation at the UN an important question requiring a two-thirds majority vote."
+          ],
+          "reason": "Extracted information about a UN resolution in 1961 concerning China's representation, which is relevant to the query about UN membership."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Republic of China's expulsion from the United Nations occurred in 1971.",
+            "The People's Republic of China cast its first veto on 25 August 1972."
+          ],
+          "reason": "Extracted the year of the ROC's expulsion from the UN and the date of the PRC's first veto, providing context around China's UN membership status."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This fact discusses the US blocking China's representation, not when China became a member.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that China (as ROC) joined the UN at its founding in 1945 and is a charter member.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This fact is about WTO membership in 2001, not UN membership.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This fact discusses a 1961 resolution on representation, not the initial membership date.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions the expulsion of the ROC in 1971 and the PRC's first veto in 1972, providing context but not the joining date.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly states that China (as ROC) joined the UN at its founding in 1945 and is a charter member."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 provides context about the expulsion of the ROC in 1971 and the PRC's first veto in 1972, but not the initial joining date."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant as they discuss US blocking of representation, WTO membership, and a 1961 resolution, respectively, none of which address the initial UN membership date."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence is largely consistent, with one document directly supporting China's founding membership in the UN in 1945, and another providing related but not contradictory temporal context.",
+        "clusters": [
+          {
+            "label": "founding_membership",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 states that the Republic of China joined the UN at its founding in 1945 and is a charter member."
+          },
+          {
+            "label": "related_temporal_context",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions the ROC's expulsion in 1971 and the PRC's first veto in 1972, providing context around China's UN status but not the initial joining date."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant as they discuss US blocking of representation, WTO membership, and a 1961 resolution, respectively."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports China's founding membership in the UN in 1945. Other documents provide relevant context without contradiction."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Republic of China (ROC) joined the United Nations at its founding in 1945 and is a charter member.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly supports that the Republic of China joined the UN in 1945 as a charter member. Other documents provide context but do not contradict this information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states that the Republic of China (ROC) joined the UN at its founding in 1945 and is a charter member."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9023,
+      "completion_tokens": 2101,
+      "total_tokens": 11124
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1377,
+        "completion_tokens": 385,
+        "total_tokens": 1762
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1332,
+        "completion_tokens": 512,
+        "total_tokens": 1844
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 905,
+        "completion_tokens": 344,
+        "total_tokens": 1249
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1063,
+        "completion_tokens": 319,
+        "total_tokens": 1382
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1355,
+        "completion_tokens": 284,
+        "total_tokens": 1639
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 49,
+        "total_tokens": 793
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 898,
+        "completion_tokens": 105,
+        "total_tokens": 1003
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1349,
+        "completion_tokens": 103,
+        "total_tokens": 1452
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:20.451492",
+        "prompt_tokens": 1377,
+        "completion_tokens": 385,
+        "total_tokens": 1762,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:22.571497",
+        "prompt_tokens": 1332,
+        "completion_tokens": 512,
+        "total_tokens": 1844,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:24.342821",
+        "prompt_tokens": 905,
+        "completion_tokens": 344,
+        "total_tokens": 1249,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:26.464735",
+        "prompt_tokens": 1063,
+        "completion_tokens": 319,
+        "total_tokens": 1382,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:27.826969",
+        "prompt_tokens": 1355,
+        "completion_tokens": 284,
+        "total_tokens": 1639,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:28.820915",
+        "prompt_tokens": 744,
+        "completion_tokens": 49,
+        "total_tokens": 793,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:29.821775",
+        "prompt_tokens": 898,
+        "completion_tokens": 105,
+        "total_tokens": 1003,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:30.797883",
+        "prompt_tokens": 1349,
+        "completion_tokens": 103,
+        "total_tokens": 1452,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:09:17.025342",
+  "last_updated_at": "2026-04-17T20:09:30.798628"
+}

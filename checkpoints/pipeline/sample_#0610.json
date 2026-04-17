@@ -1,0 +1,383 @@
+{
+  "sample_id": "#0610",
+  "query": "When they do the first human head transplant, is the person in the head getting a new body or is the human in the body getting a new head?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Valery Spiridonov Set to Receive First Ever Head Transplant in 2017 | Inverse NoneShareSubscribe Valery Spiridonov Set to Receive First Ever Head Transplant in 2017 Who is this guy who volunteered to get his head chopped off? Meet Valery Spiridonov. In 2017, he\u0393\u00c7\u00d6s set to become the first person ever to receive a head transplant. Though, it is perhaps more accurate to call it a body transplant: Spiridonov will keep his head and gain someone else\u0393\u00c7\u00d6s body \u0393\u00c7\u00f6 if all goes according to plan. The 30-year-old Russian man hopes to survive the first human head transplant. Why would he volunteer for such a thing, you ask? Spiridonov suffers Werdnig-Hoffmann Disease, a rare genetic",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d2",
+      "text": "First Human Head Transplant - Gizmo Snack from Parkinson\u0393\u00c7\u00d6s disease and finally, he spent his 35 years of his life working towards head and body transplant. In his head transplant, he explained that a wheelchair-bound Russian citizen will be the first person to undergo a head transplant, Valery Spiridonov will be getting a new body. Spiridonov, 31-year-old who is suffering from Werdnig-Hoffman which is a muscle-wasting disease which is incurable agrees to give the head transplant a shot. He is cramped to a wheelchair with very limited movement of his arms and has problems in breathing and swallowing. With his condition worsening every day, he belongs to",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d3",
+      "text": "All you need to know about Human Head Transplantation the help of advanced technology in the field of medical science, he and his team of collaborators are going to do a human head transplant this year. Volunteer and the Transplant procedure Valery Spiridonov, a 31 year old Russian man, agreed to undergo this head transplant this year. Mr. Spiridonov who suffers from a rare spinal muscular atrophy has spent all his life on a wheel chair. He hopes this surgery will help him attain a fully functional body. The objective of this surgery is to transplant Spiridonov\u0393\u00c7\u00d6s head to a body of a brain dead person. This would involve",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1999-02-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Surgeon plans first human head transplant in 2017 - ExtremeTech leaves him wheelchair bound and dependent on others for basic needs. Canavero wants to put his head on a body that doesn\u0393\u00c7\u00d6t have Werdnig-Hoffman\u0393\u00c7\u00d6s, but finding such a body will be the first hurdle. According to Canavero, the donor body will come from someone who is brain dead and whose organs would be considered acceptable for transplantation. Things get wild when Canavero explains the process of disposing of the old body. The patient would be cooled in order to slow damage to brain cells, then surgeons would sever the soft tissue in the neck. Tubes would be affixed to all",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Human head transplant is performed in China - Innovation House Xiaoping Ren, who has successfully carried out head transplant on monkey\u0393\u00c7\u00d6s body. Previously, in 2015, Professor Canavero has shocked the world with his statements that in the next two years he will perform head transplant of alive human on new body. Russian computer scientist Valery Spiridonov, who suffers from a muscle-wasting disease, was chosen to be the first patient. It was stated that the surgery will likely to be performed in China that is rather liberal as to the body transplant experiments. But a short time ago it has transpired that it is more than likely that the Russian national  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that Valery Spiridonov will keep his head and gain someone else's body, answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly mentions Valery Spiridonov will be getting a new body, directly answering the user's question."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States the objective is to transplant Spiridonov's head to a body of a brain dead person, clarifying the procedure."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explains Canavero wants to put his head on a body that doesn't have Werdnig-Hoffman's, indicating the head is transplanted to a new body."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions Valery Spiridonov was chosen to be the first patient for a head transplant on a new body."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Valery Spiridonov volunteered to receive the first human head transplant, planned for 2017.",
+            "The procedure is described as a body transplant where Spiridonov will keep his head and receive someone else's body.",
+            "Spiridonov suffers from Werdnig-Hoffmann Disease."
+          ],
+          "reason": "Extracted facts about the planned head transplant, the volunteer, the nature of the procedure (head on new body), and the volunteer's medical condition."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Valery Spiridonov, a wheelchair-bound Russian citizen, will be the first person to undergo a head transplant.",
+            "Spiridonov will be getting a new body.",
+            "He suffers from Werdnig-Hoffman disease, a muscle-wasting disease."
+          ],
+          "reason": "Extracted facts confirming Valery Spiridonov as the first recipient and clarifying that he will receive a new body due to his medical condition."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Valery Spiridonov, a 31-year-old Russian man, agreed to undergo a human head transplant.",
+            "Spiridonov suffers from a rare spinal muscular atrophy and has spent his life in a wheelchair.",
+            "The objective is to transplant Spiridonov's head to the body of a brain-dead person."
+          ],
+          "reason": "Extracted facts identifying the volunteer, his medical condition, and the objective of the surgery: transplanting his head onto a new body."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The plan is to put the patient's head on a body that does not have Werdnig-Hoffmann's disease.",
+            "The donor body will come from someone who is brain dead and whose organs are acceptable for transplantation."
+          ],
+          "reason": "Extracted facts clarifying that the head will be placed on a donor body from a brain-dead individual, distinct from the patient's condition."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Russian computer scientist Valery Spiridonov, who suffers from a muscle-wasting disease, was chosen to be the first patient for a head transplant.",
+            "The surgery was stated to likely be performed in China.",
+            "The procedure involves transplanting an alive human's head onto a new body."
+          ],
+          "reason": "Extracted facts identifying the patient, his condition, the location, and confirming the procedure involves placing his head on a new body."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states the head transplant involves the person keeping their head and receiving someone else's body.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Confirms the recipient will be getting a new body, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Clearly states the objective is to transplant Spiridonov's head to the body of a brain-dead person.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Explains the plan is to put the patient's head on a donor body, clarifying the recipient of the new body.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States the procedure involves transplanting an alive human's head onto a new body, directly answering the query.",
+          "confidence": 0.97
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "head_transplant_details",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents confirm Valery Spiridonov as the volunteer for a head transplant, detailing that his head will be transplanted onto a new body, often from a brain-dead donor, due to his Werdnig-Hoffmann Disease."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided documents consistently describe Valery Spiridonov as the volunteer for a head transplant, detailing the procedure and his medical condition without contradiction.",
+        "clusters": [
+          {
+            "label": "head_transplant_details",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Valery Spiridonov, suffering from Werdnig-Hoffmann Disease, volunteered for a head transplant, planned for 2017, where his head would be placed on a new body, often from a brain-dead donor. The procedure was stated to likely be performed in China."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and there are no conflicts, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Valery Spiridonov, diagnosed with Werdnig-Hoffmann Disease, volunteered for a head transplant. The procedure involved transplanting his head onto a new body, typically from a brain-dead donor, and was anticipated to occur in China.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "All supporting documents consistently describe Valery Spiridonov as the volunteer for a head transplant, detailing the procedure and his medical condition without contradiction."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that Valery Spiridonov, suffering from Werdnig-Hoffmann Disease, volunteered for a head transplant, and his head would be transplanted onto a new body, likely from a brain-dead donor. The location in China is also mentioned. All claims are supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9534,
+      "completion_tokens": 2024,
+      "total_tokens": 11558
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1573,
+        "completion_tokens": 374,
+        "total_tokens": 1947
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1528,
+        "completion_tokens": 648,
+        "total_tokens": 2176
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1047,
+        "completion_tokens": 328,
+        "total_tokens": 1375
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1169,
+        "completion_tokens": 185,
+        "total_tokens": 1354
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 185,
+        "total_tokens": 1552
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 561,
+        "completion_tokens": 38,
+        "total_tokens": 599
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 704,
+        "completion_tokens": 138,
+        "total_tokens": 842
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1585,
+        "completion_tokens": 128,
+        "total_tokens": 1713
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:19.749996",
+        "prompt_tokens": 1573,
+        "completion_tokens": 374,
+        "total_tokens": 1947,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:22.465038",
+        "prompt_tokens": 1528,
+        "completion_tokens": 648,
+        "total_tokens": 2176,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:24.403374",
+        "prompt_tokens": 1047,
+        "completion_tokens": 328,
+        "total_tokens": 1375,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:25.851534",
+        "prompt_tokens": 1169,
+        "completion_tokens": 185,
+        "total_tokens": 1354,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:27.061397",
+        "prompt_tokens": 1367,
+        "completion_tokens": 185,
+        "total_tokens": 1552,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:28.303262",
+        "prompt_tokens": 561,
+        "completion_tokens": 38,
+        "total_tokens": 599,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:29.357657",
+        "prompt_tokens": 704,
+        "completion_tokens": 138,
+        "total_tokens": 842,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:30.553892",
+        "prompt_tokens": 1585,
+        "completion_tokens": 128,
+        "total_tokens": 1713,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:18:18.064785",
+  "last_updated_at": "2026-04-17T20:18:30.554664"
+}

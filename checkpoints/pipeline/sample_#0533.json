@@ -1,0 +1,380 @@
+{
+  "sample_id": "#0533",
+  "query": "What female hormone that isn't produced by the follicle is now being produced by the corpus luteum?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "sometimes called Graafian follicles (after Regnier de Graaf). In humans, oocytes are established in the ovary before birth and may lie dormant awaiting initiation for up to 50 years. After rupturing, the follicle is turned into a corpus luteum. In a larger perspective, the whole folliculogenesis from primordial to preovulatory follicle is located in the stage of meiosis I of ootidogenesis in oogenesis. Embryonic development in males and females follows a common pathway before gametogenesis. Once gametogonia enter the gonadal ridge, however, they attempt to associate with these somatic cells. Development proceeds and the gametogonia turn into oogonia, which become",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d2",
+      "text": "placental hormone chorionic gonadotropin continues to maintain the corpus luteum, but in some species it will eventually degrade sometime during pregnancy. If pregnancy occurs in equine, the placental hormone equine chorionic gonadotropin released by endometrial cup continue to maintain the progesterone by acting as LH and FSH for follicles in ovary which will in return lead to increase in amount of corpus luteum. Luteolysis Luteolysis (also known as luteal regression) is the structural and functional degradation of the corpus luteum (CL), which occurs at the end of the luteal phase of both the estrous and menstrual cycles in the absence",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "is essential for establishing and maintaining pregnancy in females. The corpus luteum secretes progesterone, which is a steroid hormone responsible for the decidualization of the endometrium (its development) and maintenance, respectively. It also produces relaxin, a hormone responsible for softening of the pubic symphysis which helps in parturition. If the egg is not fertilized, the corpus luteum stops secreting progesterone and decays (after approximately 10 days in humans). It then degenerates into a corpus albicans, which is a mass of fibrous scar tissue. The uterine lining (endometrium) is expelled through the vagina (in mammals that go through a menstrual cycle).",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Human chorionic gonadotropin Human chorionic gonadotropin (hCG) is a hormone produced by the placenta after implantation. The presence of hCG is detected in some pregnancy tests (HCG pregnancy strip tests). Some cancerous tumors produce this hormone; therefore, elevated levels measured when the patient is not pregnant may lead to a cancer diagnosis and, if high enough, paraneoplastic syndromes, however, it is not known whether this production is a contributing cause, or an effect of carcinogenesis. The pituitary analog of hCG, known as luteinizing hormone (LH), is produced in the pituitary gland of males and females of all ages. Regarding endogenous",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "also responded to SS isomer but the RS isomer elicited little to no response from any males. The regulation of the female sex pheromone production, calling behaviour and release is regulated directly and indirectly by the corpora allata and juvenile hormone. Smith and Schal came to this conclusion because both pheromone production and calling failed to occur after allatectomy; both pheromone production and calling could be restored by a corpora allata implantation or treatment with juvenile hormones; applications of a juvenile hormones to intact females advanced the age of pheromone production and NCA-I \"transection\", which activates the copora allata in  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses folliculogenesis and the transformation of a follicle into a corpus luteum, but does not mention hormones produced by the corpus luteum."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions the corpus luteum and its maintenance by hormones, but focuses on equine chorionic gonadotropin and luteolysis, not specific hormones produced by the corpus luteum."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that the corpus luteum secretes progesterone and also produces relaxin, answering the query about hormones produced by the corpus luteum."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses human chorionic gonadotropin (hCG) produced by the placenta and luteinizing hormone (LH), but not hormones produced by the corpus luteum."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Focuses on insect pheromones and juvenile hormone regulation in insects, which is unrelated to female hormones in humans produced by the corpus luteum."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "After rupturing, the follicle is turned into a corpus luteum."
+          ],
+          "reason": "Extracted the fact that a ruptured follicle transforms into a corpus luteum, which is relevant to the query about corpus luteum function."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The placental hormone chorionic gonadotropin continues to maintain the corpus luteum."
+          ],
+          "reason": "Extracted the fact that chorionic gonadotropin maintains the corpus luteum, which is relevant to the query about hormones and the corpus luteum."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The corpus luteum secretes progesterone.",
+            "The corpus luteum also produces relaxin."
+          ],
+          "reason": "Extracted the key hormones (progesterone and relaxin) produced by the corpus luteum, directly addressing the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses human chorionic gonadotropin (hCG) and luteinizing hormone (LH) but does not mention their production by the corpus luteum or their role in relation to female hormones not produced by follicles."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses pheromone production and juvenile hormone in relation to corpora allata, which is not relevant to the query about female hormones produced by the corpus luteum."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document explains the origin of the corpus luteum but does not mention any hormones it produces or their relation to follicles.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document states that chorionic gonadotropin maintains the corpus luteum, but it does not state that chorionic gonadotropin is produced by the corpus luteum.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that the corpus luteum secretes progesterone and produces relaxin, answering the query about hormones produced by the corpus luteum.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses hCG and LH but does not link their production to the corpus luteum or address the query's specific hormone requirements.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document discusses pheromones and juvenile hormones in relation to corpora allata, which is unrelated to the query about female hormones and the corpus luteum.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Directly identifies hormones (progesterone, relaxin) produced by the corpus luteum."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss related topics like corpus luteum origin, hormone maintenance, or unrelated biological processes, but do not directly answer the query about hormones produced by the corpus luteum."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence is consistent, with one document directly supporting the query and others being irrelevant.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Directly identifies hormones (progesterone, relaxin) produced by the corpus luteum."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss related topics like corpus luteum origin, hormone maintenance, or unrelated biological processes, but do not directly answer the query about hormones produced by the corpus luteum."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the query, with no conflicts or irrelevant information that would prevent a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The corpus luteum produces progesterone and relaxin.",
+        "citations": [
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query about hormones produced by the corpus luteum."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies progesterone and relaxin as hormones produced by the corpus luteum, directly supported by the cited document d3."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8253,
+      "completion_tokens": 1745,
+      "total_tokens": 9998
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1352,
+        "completion_tokens": 397,
+        "total_tokens": 1749
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1307,
+        "completion_tokens": 391,
+        "total_tokens": 1698
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 808,
+        "completion_tokens": 368,
+        "total_tokens": 1176
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 980,
+        "completion_tokens": 188,
+        "total_tokens": 1168
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1197,
+        "completion_tokens": 198,
+        "total_tokens": 1395
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 577,
+        "completion_tokens": 42,
+        "total_tokens": 619
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 724,
+        "completion_tokens": 70,
+        "total_tokens": 794
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1308,
+        "completion_tokens": 91,
+        "total_tokens": 1399
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:11.101701",
+        "prompt_tokens": 1352,
+        "completion_tokens": 397,
+        "total_tokens": 1749,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:12.988018",
+        "prompt_tokens": 1307,
+        "completion_tokens": 391,
+        "total_tokens": 1698,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:14.391918",
+        "prompt_tokens": 808,
+        "completion_tokens": 368,
+        "total_tokens": 1176,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:15.725463",
+        "prompt_tokens": 980,
+        "completion_tokens": 188,
+        "total_tokens": 1168,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:16.975508",
+        "prompt_tokens": 1197,
+        "completion_tokens": 198,
+        "total_tokens": 1395,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:18.733145",
+        "prompt_tokens": 577,
+        "completion_tokens": 42,
+        "total_tokens": 619,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:19.626835",
+        "prompt_tokens": 724,
+        "completion_tokens": 70,
+        "total_tokens": 794,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:20.820579",
+        "prompt_tokens": 1308,
+        "completion_tokens": 91,
+        "total_tokens": 1399,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:58:08.712995",
+  "last_updated_at": "2026-04-17T19:58:20.821391"
+}

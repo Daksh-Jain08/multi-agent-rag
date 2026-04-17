@@ -1,0 +1,506 @@
+{
+  "sample_id": "#0377",
+  "query": "How many UC schools are there in the United States?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Campuses & locations | University of California Our campuses & locations \u00b7 10 campuses \u00b7 6 academic health centers \u00b7 3 national laboratories. UC\u2019s statewide network of researchers and educators delivers science-based solutions to California\u2019s most pressing problems in agriculture, natural resources, economic growth, nutrition and youth development. Their mission is to improve the lives of all Californians. UC Agriculture and Natural Resources (UC ANR) brings research and education to all 58 California counties through UC Cooperative Extension and 13 statewide programs such as 4-H, UC Master Gardener, and CalFresh Healthy Living, UC, along with nine Research and Extension Centers across the state. The University of California opened its doors in 1869 with just 10 faculty members and 40 students. Today, the UC system has more than 295,000 students and 265,000 faculty and staff, with 2.0 million alumni living and working around the world.",
+      "source_url": "https://www.universityofcalifornia.edu/campuses-locations",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "University of California - Wikipedia Headquartered in Oakland, the system is composed of its ten campuses at Berkeley, Davis, Irvine, Los Angeles, Merced, Riverside, San Diego, San Francisco, Santa ... Davis (1959), UC Riverside (1959), UC San Diego (1960), and UCSF (1964).[48][49] Each campus was also granted the right to have its own chancellor upon promotion. In response to California's continued population growth, UC opened two additional general campuses in 1965, with UC Irvine opening in Irvine and UC Santa Cruz opening in Santa Cruz.[48] The youngest campus, UC Merced opened in fall 2005 to serve the San Joaquin Valley. After losing campuses in Los Angeles and Santa Barbara to the University of California system, supporters of the California State College system arranged for the state constitution to be amended in 1946 to prevent similar losses from happening again in the future.[47] With decentralization complete, it was decided in 1986 that the UC president should no longer be based at the Berkeley campus, and the UC Office of the President moved to Kaiser Center in Oakland in 1989.[50] That lakefront location was subject to widespread criticism as \"too elegant and too corporate for a public university\".[51] In 1998, the Office of the President moved again, to a newly constructed but much more modest building near the former site of the College of California in Oakland.[52] Modern history The Master Plan for Higher Education of 1960 established that UC must admit undergraduates from the top 12.5% (one-eighth) of graduating high school seniors in California. Prior to the promulgation of the Master Plan, UC was to admit undergraduates from the top 15%. UC does not currently adhere to all tenets of the original Master Plan, such as the directives that no campus was to exceed total enrollment of 27,500 students (in order to ensure quality) and that public higher education should be tuition-free for California residents. Five campuses, Berkeley, Davis, Irvine, Los Angeles, and San Diego, each have current total enrollment at over 30,000, and of these five,",
+      "source_url": "https://en.wikipedia.org/wiki/University_of_California",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "University of California Schools - CSUSB University of California schools, also known as UCs, are public 4-year institutions that are located across the state of California. Nine of these campuses offer both undergraduate and graduate education. *UC San Francisco is a graduate and professional school only. UC's and Cost UCs are public institutions and financial aid, including scholarships is available for students to help manage costs. Visit our FAFSA or California DREAM Actpages for further information. Moreover, you can apply to all UC campuses using the same application,My UC Application. An application fee of $70 is required for each campus you apply to. There is a fee waiver that can cover the application fee for up to 4 campuses, if eligible. To learn more about tuition and cost of attendance, click on the following link: How do UC schools differ from CSUs? Although UC schools generally have higher prestige, both Cal States and UC's are good choices and offer a quality education while still having their own drawbacks. To learn more about the aspects of attending a UC campus, click on 10 Important Things to Know About the University of California for further information. Requirements for enrollment - UCs High School GPA The UC or CSU GPA used when determining admission only includes grades for classes in Grades 10 and 11. Remember, GPA calculation is different from A-G requirements. For further information, visit UC Admissions Requirements site. Every UC has their own specific way to calculate the grade point average (GPA) it requires for admission. However, California applicants must earn at least a 3.0 GPA and nonresidents must earn a minimum 3.4 GPA in all A-G or college-preparatory courses to meet this requirement. Entrance Test Scores UC will be \"test-optional\" for Fall 2021 and Fall 2022. Freshman applicants are not required to submit SAT/ACT test scores. To learn more about the updated requirements to enroll in a UC school, visit the following: Writing College Essays & PIQs - Prepare the perfect first impression The Personal Insight Questions (PIQs) are a vital part of your UC Application for admission and scholarships.",
+      "source_url": "https://www.csusb.edu/cal-soap/prepare-college/university-california-schools",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Campuses & majors - UC Admissions - University of California Every one of UC's nine campuses has something amazing to offer\u2014and each is different from the next. Different programs. Different people. Different things to ...",
+      "source_url": "https://admission.universityofcalifornia.edu/campuses-majors/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "What Are the Best UC Schools? - BestColleges.com How many UC schools are there? ... There are 10 University of California schools in total. Nine offer undergraduate and graduate programs. UCSD is ... The sections include questions about the campuses you\u2019re applying to, the majors you\u2019re interested in, and your academic history. The personal insight section lets you boast about your awards, honors, extracurricular activities, life experiences, and ambitions. Submit Your Application to Each Campus Upon completing your application, you can send it to any or all of the nine undergraduate UC schools. There is an application fee of $70 per school ($80 for international students). You may, however, qualify for a fee waiver, which lets you apply for up to four campuses for free. Which UC school is easiest to get into? UC Merced, with an acceptance rate of 87%, is the easiest UC school to get into. It\u2019s the UC system\u2019s newest campus, offering 25 majors and 18 graduate programs. Its three schools focus on engineering, natural sciences, social sciences, humanities, and art. It is the only campus with a research station in Yosemite National Park. How many UC schools are there? There are 10 University of California schools in total. Nine offer undergraduate and graduate programs. UCSD is at the southern tip of California, while UC Davis lays claim to the most northern UC campus. UCSF is a research university dedicated solely to graduate and professional schools in health sciences. What is the most popular UC school? UCLA generally experiences the highest number of applicants, making it one of the most popular UC schools. In 2022, UCLA received 139,489 applicants. It\u2019s also the most selective, with a 9% acceptance rate. Close runners-up include UC Berkeley, UCSD, and UCI. Which UC campus is the nicest? Four UC schools made California.com\u2019s most beautiful college campuses list. These include UCLA, UCSC, UCSB, and UC Berkeley.",
+      "source_url": "https://www.bestcolleges.com/united-states/california/uc-schools/",
+      "timestamp": "2023-07-31"
+    },
+    {
+      "doc_id": "d6",
+      "text": "[PDF] Map of the University of California (UC) Campuses There are nine (9) University of California (UC) campuses for ingoing freshmen. Please see the map below as to their location of each campus.",
+      "source_url": "https://aae.lewiscenter.org/documents/AAE/Counseling/UC%20Campus%20Map%20-3-.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "University of California | Campus Guide for All Nine Campuses While the nine undergraduate campuses (UC Berkeley, UCLA, UC Santa Barbara, UC San Diego, UC Davis, UC Irvine, UC Santa Cruz, UC Riverside, and UC Merced) share ... \u00c2 Application Review Process The UC system is known for its comprehensive review process of 13 factors that each of its nine campuses uses to evaluate applications holistically. However, each campus provides additional information on their admissions pages about their procedures and processes. Be sure to thoroughly read through campus-specific requirements and considerations before applying!\u00c2 Location\u00c2 \u00e2\u0080\u008d The UC campuses are scattered throughout California, from big cities to smaller towns. Location accounts for one of the most significant differences between the UC schools and may be an important factor to consider when determining which UC might be the best fit for you. Rankings \u00e2\u0080\u008d While important, rankings are just one of many factors that a prospective student should consider when choosing which colleges to apply. \u00c2 Tuition The UC system is a public, state university system with a mission to serve students in the state of California. Due to high rankings and prestige, the UC schools receive thousands of applications a year from out-of-state and international students as well as California residents. To balance institutional mission and priorities along with demand, the UCs add a non-resident supplemental fee to the base tuition rate for all non-CA residents. \u00c2 Fall 2023 Undergraduate Enrollment Data \u00e2\u0080\u008d At Prompt, we have helped thousands of students get admitted into their top-choice institutions. If the UC\u00e2\u0080\u0099s are on your list of dream schools, and you want to increase your chances of admission by writing compelling essays, reach out to us today!\u00c2 Campus Overviews Berkeley\u00c2 Founded in 1868, UC Berkeley boasts being the oldest of the UC schools. UC Berkeley offers 150 different undergraduate programs and majors housed within 5 colleges and 1 school.",
+      "source_url": "https://www.myprompt.com/post/university-of-california-campus-guide",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "[PDF] the university of california at a glance march 2024 eight of uc's 10 campuses are members of the prestigious. 71-member association of american universities (aau), a representation no other state system can match ...",
+      "source_url": "https://ucop.edu/institutional-research-academic-planning/_files/uc-facts-at-a-glance.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "UC Schools Ranked: Discover The Best UC Schools in 2024 Explore the top UC schools of 2024 based on ranking, size, acceptance rate, and more. Discover what makes them unique and their global ... A larger campus can offer a wide variety of programs, clubs, and extracurricular activities, providing a vibrant and diverse student life. However, it can also mean larger class sizes and potentially less personalized attention from faculty. Students who thrive in bustling, dynamic environments might find these campuses particularly appealing. Mid-Sized Campuses:UC Irvine and UC Santa Barbara With enrollments ranging from approximately 23,000 to 28,000 students, these mid-sized campuses offer a balance between the vast resources of a large university and the more intimate community feel of a smaller institution. Both UC Irvine and UC Santa Barbara also boast favorable student-to-faculty ratios (18:1 and 17:1, respectively), which can enhance access to faculty and personalized support.",
+      "source_url": "https://www.crimsoneducation.org/us/blog/uc-schools-ranked/",
+      "timestamp": "2024-10-23"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States there are 10 campuses in the University of California system and provides context about their mission and history."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists the ten UC campuses and discusses their founding dates and system history, directly addressing the number of UC schools."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions UC schools are located across California and that nine offer undergraduate and graduate education, with UC San Francisco being graduate-only."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that UC has nine campuses and that each offers something unique, implying a specific number of institutions."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly answers the question stating there are 10 University of California schools in total, with nine offering undergraduate and graduate programs."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Indicates there are nine UC campuses for incoming freshmen and provides a map, suggesting a specific count of institutions."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions the UC system serves students in California and lists nine undergraduate campuses, providing context for the number of UC schools."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions eight of UC's 10 campuses are members of the AAU, implying there are 10 UC campuses in total."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses UC schools and mentions UC Irvine and UC Santa Barbara as mid-sized campuses, implying a larger system with multiple institutions."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The University of California (UC) system has 10 campuses.",
+            "UC has 6 academic health centers.",
+            "UC has 3 national laboratories."
+          ],
+          "reason": "Extracted the number of UC campuses, academic health centers, and national laboratories as stated in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The University of California system is composed of ten campuses.",
+            "UC opened two additional general campuses in 1965: UC Irvine and UC Santa Cruz.",
+            "The youngest campus, UC Merced, opened in fall 2005."
+          ],
+          "reason": "Extracted the total number of UC campuses and the opening dates of specific campuses mentioned in the text."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "University of California schools are public 4-year institutions located across the state of California.",
+            "Nine of these campuses offer both undergraduate and graduate education.",
+            "UC San Francisco is a graduate and professional school only."
+          ],
+          "reason": "Extracted facts about the nature and number of UC campuses, specifying that UC San Francisco is graduate-only."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Every one of UC's nine campuses has something amazing to offer.",
+            "Each UC campus is different from the next, with different programs, people, and offerings."
+          ],
+          "reason": "Extracted the statement that UC has nine campuses and that each is unique."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "There are 10 University of California schools in total.",
+            "Nine UC schools offer undergraduate and graduate programs.",
+            "Students can apply to any or all of the nine undergraduate UC schools."
+          ],
+          "reason": "Extracted the total number of UC schools and the number offering undergraduate programs, as well as application information."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "There are nine (9) University of California (UC) campuses for incoming freshmen."
+          ],
+          "reason": "Extracted the specific number of UC campuses available for incoming freshmen."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "The UC system is a public, state university system serving students in California.",
+            "There are nine undergraduate campuses in the UC system.",
+            "UC Berkeley is the oldest of the UC schools, founded in 1868."
+          ],
+          "reason": "Extracted information about the UC system's nature, the number of undergraduate campuses, and the founding date of UC Berkeley."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Eight of UC's 10 campuses are members of the Association of American Universities (AAU)."
+          ],
+          "reason": "Extracted the fact that eight out of ten UC campuses are members of the AAU."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "UC Irvine and UC Santa Barbara are described as mid-sized campuses.",
+            "UC Irvine and UC Santa Barbara have enrollments ranging from approximately 23,000 to 28,000 students."
+          ],
+          "reason": "Extracted information classifying UC Irvine and UC Santa Barbara as mid-sized and providing their approximate enrollment figures."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states the University of California system has 10 campuses, answering the query about the number of UC schools.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Explicitly states the University of California system is composed of ten campuses, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions UC schools are in California and that nine offer undergraduate/graduate education, but doesn't give a total count directly.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "States UC has nine campuses, which is close but not the total number of schools mentioned in other documents.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Clearly states there are 10 University of California schools in total, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "States there are nine UC campuses for freshmen, which is a subset and not the total number of UC schools.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "Mentions nine undergraduate campuses in the UC system, but the query asks for the total number of schools.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "Discusses membership in the AAU for eight out of ten campuses, not the total number of UC schools.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "Focuses on specific campus sizes and enrollments, not the total number of UC schools.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d3",
+          "d4",
+          "d6",
+          "d7"
+        ],
+        "irrelevant_docs": [
+          "d8",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_total_count",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents directly state the total number of UC campuses is 10."
+          },
+          {
+            "label": "partial_campus_counts",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6",
+              "d7"
+            ],
+            "summary": "Documents provide counts related to specific types of campuses (e.g., undergraduate, freshmen) or mention a number close to the total but not explicitly the total number of schools."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Documents consistently state there are 10 UC campuses, with some providing additional details about campus types and openings.",
+        "clusters": [
+          {
+            "label": "total_uc_campuses",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Multiple documents explicitly state the University of California system has 10 campuses."
+          },
+          {
+            "label": "campus_details",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6",
+              "d7"
+            ],
+            "summary": "Documents provide details on campus types (undergraduate, graduate-only) and specific openings, aligning with the total count."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the claim that there are 10 UC campuses. Partial documents provide complementary details without introducing conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The University of California system comprises 10 campuses.",
+        "citations": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently state there are 10 UC campuses. Partial documents offer complementary details without contradiction."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited documents, which consistently state there are 10 UC campuses."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 14590,
+      "completion_tokens": 2781,
+      "total_tokens": 17371
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2740,
+        "completion_tokens": 642,
+        "total_tokens": 3382
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2695,
+        "completion_tokens": 863,
+        "total_tokens": 3558
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1165,
+        "completion_tokens": 595,
+        "total_tokens": 1760
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1520,
+        "completion_tokens": 263,
+        "total_tokens": 1783
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1760,
+        "completion_tokens": 203,
+        "total_tokens": 1963
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 601,
+        "completion_tokens": 46,
+        "total_tokens": 647
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 752,
+        "completion_tokens": 83,
+        "total_tokens": 835
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3357,
+        "completion_tokens": 86,
+        "total_tokens": 3443
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:00.622568",
+        "prompt_tokens": 2740,
+        "completion_tokens": 642,
+        "total_tokens": 3382,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:04.168978",
+        "prompt_tokens": 2695,
+        "completion_tokens": 863,
+        "total_tokens": 3558,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:06.537883",
+        "prompt_tokens": 1165,
+        "completion_tokens": 595,
+        "total_tokens": 1760,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:07.780250",
+        "prompt_tokens": 1520,
+        "completion_tokens": 263,
+        "total_tokens": 1783,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:09.590767",
+        "prompt_tokens": 1760,
+        "completion_tokens": 203,
+        "total_tokens": 1963,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:10.654111",
+        "prompt_tokens": 601,
+        "completion_tokens": 46,
+        "total_tokens": 647,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:11.697978",
+        "prompt_tokens": 752,
+        "completion_tokens": 83,
+        "total_tokens": 835,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:37:13.383173",
+        "prompt_tokens": 3357,
+        "completion_tokens": 86,
+        "total_tokens": 3443,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:36:58.027410",
+  "last_updated_at": "2026-04-17T18:37:13.383804"
+}

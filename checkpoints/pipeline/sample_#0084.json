@@ -1,0 +1,477 @@
+{
+  "sample_id": "#0084",
+  "query": "Is cloud computing more secure than traditional IT systems?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why the public cloud is more secure than an on-premises data center Why the public cloud is more secure than an on-premises data center Yet while 53 percent of corporate data is now stored in the cloud, a great deal of information still remains in on-premises data centers. One reason for the reluctance to move more data into the cloud is concerns about IT security. According to a 2018 survey, nine out of ten cybersecurity professionals report they\u2019re still troubled by cloud security issues, including questions of data loss and breaches. However, while some degree of caution is prudent, the public cloud is actually more secure than an on-premises data center. According to Gartner, \"Through 2020, public cloud infrastructure as a service (IaaS) workloads will suffer at least 60% fewer security incidents than those in traditional data centers.\" Let\u2019s cover 5 reasons why the public cloud is more secure than alternative options, and in the process, bust some of the most common cloud myths and misconceptions. 1. Greater technical expertise Unless your company is already in the business of IT security, spending time and effort on securing your on-premises data distracts from your core functions. Most organizations likely don\u2019t have a robust, experienced team of cybersecurity professionals at their disposal to properly protect their on-premises data. When 73 percent of businesses admit they\u2019re not prepared for a cyberattack, how can they continue to believe that their information is secure on-premises? Public cloud providers have made it their company mission to give customers the cloud storage and services they need to function as a business. Their profitability and reputation depend on ensuring that customers\u2019 data remains secure within the cloud. As such, cloud providers may employ hundreds or thousands of developers and IT professionals. And here at Eplexity, every engineer is AWS Certified. We strive to deliver secure, innovative, and affordable AWS cloud services and solutions, so you don't have to spend valuable resources securing your environment. 2. Physical separation Concerns about cloud security often overlook one of the most important vectors of attack on IT resources: physical access.",
+      "source_url": "https://www.eplexity.com/blog/why-the-public-cloud-is-more-secure-than-an-on-premises-data-center",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Clouds are more secure than traditional IT systems \u2014 and here's why Clouds are more secure than traditional IT systems \u2014 and here\u2019s why \u201cI speak to many in traditional IT that I call the \u201cfolded arms gang.\u201d These are IT executives who need to address the use of cloud computing \u2014 typically because the CEO or their board of directors is demanding it \u2014 but feel that cloud computing still has too many shortcomings. They want to hear about cloud computing, but they don\u2019t believe in its use. The good news is that the \u201cfolded arms gang\u201d has lost many members as cloud computing proves its value. However, the argument around security and privacy issues in the cloud still comes up often. While there is a certain amount of emotion, and sometimes politics, at play, you must educate those in enterprise IT around the real issues and the real risks. Indeed, I\u2019ve been finding that clouds are more secure than traditional systems, generally speaking. Control does not mean security. According to Alert Logic\u2019s Fall 2012 State of Cloud Security Report, the variations in threat activity are not as important as where the infrastructure is located. Anything that can be possibly accessed from outside \u2014 whether enterprise or cloud \u2014 has equal chances of being attacked, because attacks are opportunistic in nature. The report further finds that Web application-based attacks hit both service provider environments (53% of organizations) and on-premises environments (44%). However, on-premises environment users or customers actually suffer more incidents than those of service provider environments. On-premises environment users experience an average of 61.4 attacks, while service provider environment customers averaged only 27.8. On-premises environment users also suffered significantly more brute force attacks compared to their counterparts. Clearly, there are myths that cloud computing is inherently less secure than traditional approaches. The paranoia is due largely to the fact that the approach itself feels insecure, with your data stored on servers and systems you don\u2019t own or control. However, control does not mean security. As we\u2019ve discovered in this report, and in incidences over the last several years, the physical location of your data matters less than the means of access. This is the case for both cloud-based systems and traditional enterprise computing.",
+      "source_url": "https://axoncs.com/clouds-secure-traditional-systems-heres/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Cloud storage vs. on-premises servers: 9 things to keep in mind According to Gartner estimates, public cloud service workloads will suffer at least 60% fewer security incidents than those in traditional data centers. The top cloud providers offer comprehensive, multi-layered security that includes the following: Access control systems Continual threat monitoring Encryption for data in transit and at rest Physical data center security Network protection Application security Data redundancy Continuous validation Mass file deletion protection, Suspicious login and activity monitoring Unlike on-premises storage, you\u2019ll have a team of global cybersecurity experts helping to safeguard your business assets and data at all times. Still, breaches can happen, just like they can with on-premises. Businesses who use the cloud can mitigate this using onboarding and offboarding processes to manage employee access and address how and when their employees use external applications. 3. Compliance Many companies in the financial and healthcare industries (and beyond) are subject to compliance with mandates such as HIPAA, GDPR or CCPA, to name a few. So, which makes more sense in terms of choosing on-premise vs. cloud compliance? On-premises Whether you\u2019re dealing with local, international or industry-specific regulations\u2014staying compliant means you\u2019ll need specialized knowledge and expertise. If you choose to build or continue with your on-prem infrastructure, it can be costly. You\u2019ll have to make sure you properly configure and maintain your systems to stay in compliance, as well as have the right employees and resources at hand to get it done. Meeting compliance rules means hiring staff familiar with your particular regulations, continuously monitoring systems/logins, creating incident procedures and using data encryption. If something goes wrong, the responsibility falls 100% on your business, as it owns the servers and storage. If you\u2019re audited or fined for being out of compliance, that can add to the cost. Cloud Using a compliant cloud provider can take much of the costly compliance burden off your plate. Unlike an on-",
+      "source_url": "https://www.microsoft.com/en-ww/microsoft-365/business-insights-ideas/resources/cloud-storage-vs-on-premises-servers",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Problems with Cloud Computing For many people, security is the main concern when using cloud computing services Cloud Security Breaches The following examples show that security can be a primary risk of using cloud computing. According to a survey conducted in 2016 (Patrick, 2016), 64% of organisations consider cloud technology more secure than the traditional IT infrastructure and 31% (which is the highest in the survey) also believed that security was the main challenge they faced when using the clouds. In 2012, Dropbox announced that they had 69 million user accounts hacked and someone stole the users\u2019 details (Bradford, 2019). In 2014, someone hacked Apple iCloud and they exposed several celebrities private photos to the Internet. In 2016, someone stole nearly 170 million email addresses and passwords from the LinkedIn social media platform (Bradford 2019). Benefits to Using Cloud Implementation of security standards, policies, procedures and processes is imperative to protecting data and services in the cloud. Security is the highest priority for any cloud provider and by leveraging technologies and best practices, a cloud can be even more secure than traditional IT infrastructures. In the event of a local disaster, the data remains safe because the provider stores and backs up data remotely, making the data more secure. Regardless of the security concern, cloud technology is the only solution for many individuals and businesses to ensure a secure environment. There are many benefits to using clouds. Centralised Security One of the main advantages of cloud is the centralisation of computing resources which leads to all the benefits of cloud computing including flexibility, scalability, cost reduction etc. This allows centralisation in security. Overall, protecting a decentralised system is harder than protecting a centralised one because of the fewer instances of software, communication hardware and policies. Less Administration Secure cloud reduces the frequency and the number of security configurations as opposed to traditional non-cloud systems. Therefore, less administration and resources are required for a secure cloud. When using a public cloud, the cloud provider supplies all the security. When using a private cloud, we still need less security administration than traditional IT infrastructures.",
+      "source_url": "https://www.futurelearn.com/info/courses/key-topics-in-digital-transformation/0/steps/262275",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Security in the Cloud: What You Need to Know | Aureon The associated costs of cloud security are often built-in to a hosted cloud services plan. And your level of protection is scalable based on the needs of your business. Overall, a cloud network is more secure because of its strong perimeters and surveillance for legacy systems, controlled access, third-party cybersecurity expertise, and detailed and frequent auditing. When switching to a cloud-based infrastructure and other cloud services, companies need to rethink how to protect and secure data and applications. Cloud infrastructure involves the hardware and cloud-based software elements \u2014 storage, servers, network, and virtualization software \u2014 required to support a cloud computing model. In a cloud computing model, computing resources are provided over the internet. Cloud computing providers such as Aureon control the physical or virtual cloud server that is hosted and delivered via a cloud platform. Cloud Security Considerations for Your Business Here are some recommendations for what businesses need to consider as they are switching to cloud security with a cloud services provider. Note that a cloud services or managed IT services provider can also help you assess your current IT system and determine security needs. Examine Your Existing Cybersecurity Plan Take a look at your existing cybersecurity plan and precautions. What needs to change as you switch your resources and data over to the cloud? This includes plans to manage the cloud perimeter. Think about what applications need updates to align with risk tolerance, existing application architecture, resources, and cloud strategy. Rewriting code or changing architectures for cloud applications results in stronger security, better performance, and lower operating costs. According to McKinsey, the majority of companies refrain from rearchitecting applications because redesigning applications for cloud-based services can slow the migration rate. Instead, they just migrate the applications without altering them for the cloud. This presents a problem because the cybersecurity model will not fulfill the needs of the cloud system, opening cloud infrastructure solutions to attacks and breaches. Develop New Cybersecurity Controls and Determine Responsibilities Many companies are quick to rely on cybersecurity controls outlined by a hosted cloud services provider, but this process is different from traditional outsourcing.",
+      "source_url": "https://www.aureon.com/network/cloud/security-in-the-cloud-highlights-you-need-to-know/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Cloud ETFs Poised to Benefit from Generative AI Boom Cloud ETFs Poised to Benefit from Generative AI Boom Most sophisticated artificial intelligence models require enormous computational power, particularly since they work with massive datasets and complex algorithms. Cloud computing is essential for the development and deployment of AI. Since most generative AI models require substantial computing power to train and run, the cloud technology is poised for a major boost from the computing demands of a generative AI boom. Enterprise spending on cloud computing grew at a slower pace over the past few quarters as companies tried to control costs due to an economic slowdown. But according to some experts, the worst may be over now. Many companies now prefer to rely on cloud-based service providers for highly specialized computing services so that they can focus on their core businesses. Cloud computing is not only more secure but also cheaper than traditional systems. Additionally, it provides firms with a lot of flexibility and agility in scaling up or down their computing capacity according to business needs. The First Trust Cloud Computing ETF SKYY tracks a strength-weighted index of infrastructure, platform, and software cloud companies. Microsoft MSFT , Amazon AMZN and Alphabet GOOG are among its top holdings. The Global X Cloud Computing ETF CLOU holds companies that are positioned to benefit from the increased adoption of cloud computing. Zscaler ZS and Twilio TWLO are its top holdings. The WisdomTree Cloud Computing ETF WCLD tracks an equal-weighted index of emerging companies focused on cloud software and services. MongoDB MDB and Shopify SHOP are the top holdings in the fund currently.",
+      "source_url": "https://finance.yahoo.com/news/cloud-etfs-poised-benefit-generative-212100094.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Cloud Email Security: Shared Responsibility Model - Atmail email ... Compliance Company News headlines are full of various data breaches, and millions of records being leaked in various places. We\u2019re talking about user accounts, passwords, other ways that people get into systems and exploit the information available. This is why security is a very important topic for all of us; the moment we deal with the use of data, the security of large-scale systems becomes a very big concern to everyone. This post looks at how to share responsibility between multiple providers, and how to securely leverage the cloud to add to your advantage. (We will often refer to AWS, because we know their systems well, but most concepts apply equally across all major cloud providers.) But first, let\u2019s address the perennial question\u2026 Is cloud computing secure? We agree with the former White House CIO, Vivek Kundra, who said that cloud computing is often far more secure than traditional computing because Google and Amazon can attract and retain cybersecurity personnel of a higher quality than many [companies] and governmental agencies. These highly focussed personnel are akin to professional athletes in big sports teams, who practice five days a week and then play important matches on the weekends. They start proficient, but their amount of specialised practice means that they\u2019re constantly iterating and getting better at what they do. When game day comes, the amateurs who show up only on weekends for a bit of exercise are no match to the professionals who regularly practice game day scenarios Monday to Friday. In a security context, the clickbait news headlines might make you think that cloud computing is not secure, but the big cloud providers (such as AWS, Azure, Alibaba, Google Cloud, and IBM Cloud) thwart attempted security attacks every day. They are much, much better prepared for it than most companies that run their systems on-premises, and we don\u2019t think there a lot of companies that have spare terabits per second of bandwidth available in their datacentre, let alone some to waste on cyberattacks. In short, the big cloud providers are experts at stopping bad actors, and we\u2019d much rather have them on the field with us than a hobbyist who doesn\u2019t practice \u2013 and tries to assume every field position himself.",
+      "source_url": "https://www.atmail.com/blog/security-shared-responsibility/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "The Advantages of SaaS PLM When Working Remotely Cloud security is typically more affordable because the vendor is managing it for a large number of customers, so it is more scalable. Cost \u2013 There are a lot of factors that account for why SaaS applications are much more affordable than on-premise software. As mentioned above, one of these is security. It is cheaper for manufacturers to pay for their SaaS provider to manage security (holding to very specific SLAs), than it is to handle this in-house for on-premise solutions. Also, rollout and implementation is much more affordable for SaaS, which drives down the initial and overall costs of the application. In addition, because SaaS apps are more scalable, they also tend to be priced a little lower. But of course, there is huge variability in SaaS pricing, and critical enterprise solutions can be similar in cost to their on-premise counterparts. The most common misconception about SaaS PLM There\u2019s a common misconception that keeps food manufacturers from experiencing the strategic benefits of a SaaS PLM. This misconception is that SaaS PLMs are not secure. This simply isn\u2019t true. SaaS PLMs manage DevSecOps and utilize data encryption, multifactor authentication, and other security measures to keep their products secure for remote access. These companies run continuous automated security testing and also manually conduct penetration tests to attempt to hack into their own systems. Unfortunately, the security misconception began over two decades ago, and today cloud security is just as secure if not more so than on-premise software. Advantages of SaaS PLM for the food industry during remote work With the unsecure misconception out of the way, let\u2019s explore the advantages that food manufacturers experience when switching to a SaaS PLM. Continued innovation and competitive advantage With unprecedented numbers of office workers suddenly working from home all around the world, there are two very different experiences occurring. For companies that were already utilizing 100% SaaS applications, their information and creative workers are not dealing with mass changes to their work. Sure, they can\u2019t conduct in-person meetings,",
+      "source_url": "https://www.specpage.com/advantages-saas-plm/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states public cloud is more secure than on-premises, citing statistics and reasons like greater technical expertise of cloud providers."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "Asserts clouds are generally more secure than traditional systems, addressing common misconceptions and citing reduced brute force attacks."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Compares cloud vs. on-premises security, highlighting cloud providers' multi-layered security and expert teams, and reduced compliance burden."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses security in cloud computing, noting that while some find it harder to protect decentralized systems, a majority consider cloud more secure than traditional IT."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.88,
+          "is_relevant": true,
+          "reason": "Explains cloud security benefits like built-in costs, scalability, strong perimeters, and third-party expertise, concluding cloud networks are more secure."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States cloud computing is not only more secure but also cheaper than traditional systems, offering flexibility and agility."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Argues cloud computing is often far more secure than traditional computing due to large providers' superior cybersecurity personnel and infrastructure."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States cloud security is just as secure, if not more so, than on-premise software, and often more affordable due to vendor management and scalability."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "According to Gartner, through 2020, public cloud infrastructure as a service (IaaS) workloads were projected to suffer at least 60% fewer security incidents than those in traditional data centers.",
+            "Nine out of ten cybersecurity professionals reported being troubled by cloud security issues in a 2018 survey.",
+            "Most organizations likely do not have a robust, experienced team of cybersecurity professionals to properly protect their on-premises data."
+          ],
+          "reason": "Extracted statistics and expert opinions comparing cloud security to traditional data centers, including specific Gartner projections and cybersecurity professional concerns."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Clouds are generally more secure than traditional IT systems.",
+            "On-premises environment users suffered significantly more brute force attacks compared to their counterparts.",
+            "Paranoia about cloud security is largely due to the feeling of data being stored on systems not owned or controlled."
+          ],
+          "reason": "Extracted direct statements and comparative attack data asserting cloud security superiority over traditional systems, and identified a reason for lingering security concerns."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "According to Gartner estimates, public cloud service workloads will suffer at least 60% fewer security incidents than those in traditional data centers.",
+            "Top cloud providers offer comprehensive, multi-layered security including access control, threat monitoring, encryption, and physical data center security.",
+            "Unlike on-premises storage, cloud providers offer a team of global cybersecurity experts to safeguard business assets."
+          ],
+          "reason": "Extracted Gartner estimates on security incidents, listed specific security measures offered by cloud providers, and highlighted the benefit of expert teams."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Protecting a decentralized system is harder than protecting a centralized one due to fewer instances of software, communication hardware, and policies.",
+            "Secure cloud reduces the frequency and number of security configurations compared to traditional non-cloud systems, requiring less administration.",
+            "A 2016 survey indicated 64% of organizations considered cloud technology more secure than traditional IT infrastructure."
+          ],
+          "reason": "Extracted facts about the complexity of decentralized systems, the administrative benefits of secure cloud, and survey data on perceived security."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A cloud network is more secure due to strong perimeters, surveillance for legacy systems, controlled access, third-party cybersecurity expertise, and detailed auditing.",
+            "Cloud security costs are often built into hosted cloud services plans and are scalable based on business needs.",
+            "Cloud computing providers control the physical or virtual cloud server hosted and delivered via a cloud platform."
+          ],
+          "reason": "Extracted reasons why cloud networks are considered more secure, including cost structure and provider control over infrastructure."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Cloud computing is considered more secure than traditional systems.",
+            "Cloud computing provides firms with flexibility and agility in scaling computing capacity.",
+            "Many companies now prefer to rely on cloud-based service providers to focus on their core businesses."
+          ],
+          "reason": "Extracted a direct statement on cloud security compared to traditional systems, and noted the flexibility and business focus benefits."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Cloud computing is often far more secure than traditional computing because major providers can attract and retain higher quality cybersecurity personnel.",
+            "Big cloud providers are experts at stopping bad actors and are much better prepared than most companies running systems on-premises.",
+            "Major cloud providers like AWS, Azure, and Google Cloud thwart attempted security attacks daily."
+          ],
+          "reason": "Extracted expert opinions and direct statements comparing the security capabilities of major cloud providers to on-premises systems, emphasizing their expertise and preparedness."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Cloud security is just as secure, if not more so, than on-premise software.",
+            "SaaS applications are much more affordable than on-premise software, partly due to security costs being managed by the vendor.",
+            "It is cheaper for manufacturers to pay a SaaS provider to manage security than to handle it in-house for on-premise solutions."
+          ],
+          "reason": "Extracted statements asserting cloud security parity or superiority to on-premise software and highlighted the cost-effectiveness of cloud security management."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides Gartner projections of fewer security incidents in cloud IaaS and notes that most organizations lack robust cybersecurity teams for on-premises protection.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states clouds are more secure, provides comparative attack data showing fewer brute force attacks on cloud users, and explains paranoia reasons.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Cites Gartner estimates of fewer security incidents in public cloud, lists provider security measures, and highlights the advantage of expert teams.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Contrasts decentralized cloud security complexity with centralized systems, notes reduced administration for secure cloud, and cites survey data favoring cloud security.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Lists reasons for cloud network security superiority including strong perimeters, controlled access, third-party expertise, and auditing, plus provider control.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Directly states cloud computing is more secure than traditional systems and mentions business benefits like flexibility and focus.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Explains cloud security superiority due to better personnel, provider expertise in stopping attacks, and daily thwarting of security attempts.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Asserts cloud security is equal or superior to on-premise and highlights cost-effectiveness due to vendors managing security for SaaS.",
+          "confidence": 0.91
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "cloud_security_superiority",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple documents assert that cloud computing is more secure than traditional on-premises systems, citing Gartner projections, comparative attack data, expert opinions, and survey results. Key reasons include specialized cybersecurity personnel, advanced security measures, controlled access, and reduced administrative burden."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently supports the claim that cloud computing is more secure than traditional on-premises systems, offering various reasons and data points.",
+        "clusters": [
+          {
+            "label": "cloud_security_superiority",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8"
+            ],
+            "summary": "Multiple documents assert that cloud computing is more secure than traditional on-premises systems, citing Gartner projections, comparative attack data, expert opinions, and survey results. Key reasons include specialized cybersecurity personnel, advanced security measures, controlled access, and reduced administrative burden."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and there are no conflicts, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Cloud computing is generally considered more secure than traditional on-premises systems. This is attributed to specialized cybersecurity personnel, advanced security measures, controlled access, and a reduced administrative burden, as supported by Gartner projections, comparative attack data, expert opinions, and survey results.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "All supporting documents consistently affirm that cloud computing is more secure than on-premises systems, providing a clear and unified answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately summarizing the consensus that cloud computing is more secure than traditional IT systems and citing relevant supporting evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 17186,
+      "completion_tokens": 2900,
+      "total_tokens": 20086
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3198,
+        "completion_tokens": 586,
+        "total_tokens": 3784
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3153,
+        "completion_tokens": 1068,
+        "total_tokens": 4221
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1378,
+        "completion_tokens": 547,
+        "total_tokens": 1925
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1701,
+        "completion_tokens": 224,
+        "total_tokens": 1925
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1926,
+        "completion_tokens": 192,
+        "total_tokens": 2118
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 589,
+        "completion_tokens": 38,
+        "total_tokens": 627
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 732,
+        "completion_tokens": 148,
+        "total_tokens": 880
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4509,
+        "completion_tokens": 97,
+        "total_tokens": 4606
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:34.905331",
+        "prompt_tokens": 3198,
+        "completion_tokens": 586,
+        "total_tokens": 3784,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:38.401602",
+        "prompt_tokens": 3153,
+        "completion_tokens": 1068,
+        "total_tokens": 4221,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:40.895059",
+        "prompt_tokens": 1378,
+        "completion_tokens": 547,
+        "total_tokens": 1925,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:42.775834",
+        "prompt_tokens": 1701,
+        "completion_tokens": 224,
+        "total_tokens": 1925,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:44.168663",
+        "prompt_tokens": 1926,
+        "completion_tokens": 192,
+        "total_tokens": 2118,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:45.008979",
+        "prompt_tokens": 589,
+        "completion_tokens": 38,
+        "total_tokens": 627,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:46.243943",
+        "prompt_tokens": 732,
+        "completion_tokens": 148,
+        "total_tokens": 880,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:28:47.644246",
+        "prompt_tokens": 4509,
+        "completion_tokens": 97,
+        "total_tokens": 4606,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T14:28:32.571663",
+  "last_updated_at": "2026-04-17T14:28:47.644826"
+}

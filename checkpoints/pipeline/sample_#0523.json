@@ -1,0 +1,394 @@
+{
+  "sample_id": "#0523",
+  "query": "Who was the dude in the big lebowski?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Apocalypse Weekend\" and the \"A Week in Paradise\" modification. The game also features a cameo by Gary Coleman, acting as himself, who appears early on as the objective of one of the game's tasks (travel to the local shopping mall to get Gary's autograph). The player can choose to fight and kill Coleman or simply have the book signed peacefully (after enduring a long line-up). The Dude twice mistakes Coleman as having starred in \"What's Happening!!\" and \"The Facts of Life\", when he actually starred in \"Diff'rent Strokes\". Regardless of the Dude's actions, the police storm the building in an",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "$50 million budget at the box office. It was up against another explosive-themed film, \"Speed\", which had been released a few weeks before Bridges' film. On July 11, 1994, Bridges received a star on the Hollywood Walk of Fame for his contributions to the motion picture industry. The star is located at 7065 Hollywood Boulevard. In 1998, he starred as what is arguably his most famous role, The Dude, in the Coen brothers' film \"The Big Lebowski\". In 2000, he received his fourth Academy Award nomination, for his role in \"The Contender\". He also starred in the 2005 Terry Gilliam",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Dudes The Dudes are a Canadian indie rock band, formed in 1996 in Calgary, Alberta. Dan Vacon is The Dudes' major creative force in the band. The group also includes guitarist Bob Quaschnick, bassist Brock Geiger and newest member Matt Doherty on drums replacing Scott Ross. Critics have likened their musical style to Modest Mouse, although band members cite their influences as The Flaming Lips, The Descendents, Joel Plaskett, Thrush Hermit and Weezer. The Dudes gained popularity in Calgary both for their lo-fi approach to recording and releasing albums and for their live stage-show. On their album, \"Brain Heart",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Benjamin Franklin in a Boston stage production of \"1776\" is referenced in the book \"Assassination Vacation\" by Sarah Vowell, referring to him as \"the actor who played The Big Lebowski in \"The Big Lebowski\".\" In 2009 he appeared in the thriller \"Locker 13\". Huddleston was also featured in the 2010 special \"It's Always Sunny in Philadelphia: It's a Very Sunny Christmas\" released directly to DVD, Blu-ray and Digital Download. On August 2, 2016, Huddleston died of heart and kidney disease in Santa Fe, New Mexico at the age of 85. David Huddleston David William Huddleston (September 17, 1930 \u0393\u00c7\u00f4 August",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Dude of Life Steve Pollak, best known by his stage name The Dude of Life, is a musician and lyricist. Steve Pollak is from White Plains. He attended high school in the early 1980s. He earned the alias Dude of Life in highschool while playing with the teenage band Space Antelope, along with fellow student Trey Anastasio. While going to boarding school at Taft in Watertown, Connecticut, he got the name from classmates when he appearaed in a friend's dorm with orange goggles and draped in a tapestry, and saying otherwordly things. In his band Space Antelope, they wrote  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2022"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": true,
+          "reason": "Mentions 'The Dude' in the context of a video game, referencing his interactions and mistakes. Provides some context but not a direct answer to who he is."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states that Jeff Bridges starred as 'The Dude' in the Coen brothers' film 'The Big Lebowski' in 1998."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses a Canadian indie rock band named 'The Dudes', which is unrelated to the query about a character."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions an actor playing 'The Big Lebowski' in 'The Big Lebowski', indirectly referencing the character and the film."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses 'The Dude of Life' (Steve Pollak), a musician, which is a different person and not the character from the film."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Dude twice mistakes Gary Coleman as having starred in \"What's Happening!!\" and \"The Facts of Life\", when he actually starred in \"Diff'rent Strokes\"."
+          ],
+          "reason": "Extracted a specific interaction involving 'The Dude' and Gary Coleman, relevant to identifying 'The Dude'."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In 1998, Jeff Bridges starred as The Dude in the Coen brothers' film \"The Big Lebowski\"."
+          ],
+          "reason": "Identified Jeff Bridges as playing 'The Dude' in 'The Big Lebowski', directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document describes a Canadian indie rock band named 'The Dudes' and contains no information about the character from 'The Big Lebowski'."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "David Huddleston played the actor who played The Big Lebowski in \"The Big Lebowski\"."
+          ],
+          "reason": "Extracted information about David Huddleston's role in relation to 'The Big Lebowski', providing context about an actor associated with the film."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Steve Pollak is a musician and lyricist best known by his stage name The Dude of Life."
+          ],
+          "reason": "Extracted the identity of 'The Dude of Life', a musician, which is distinct from the query's focus on 'The Dude' from the film."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions 'The Dude' and provides a specific interaction, but doesn't directly identify who he is.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that Jeff Bridges starred as 'The Dude' in 'The Big Lebowski', answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Describes a band named 'The Dudes' and is unrelated to the character from the film.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions 'The Big Lebowski' and an actor associated with it, but not the character 'The Dude' himself.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Identifies 'The Dude of Life', a musician, which is distinct from the query's focus on the film character.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_identification",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Directly identifies Jeff Bridges as playing 'The Dude' in 'The Big Lebowski'."
+          },
+          {
+            "label": "related_context",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Provides context about 'The Dude' and related actors/interactions but does not fully identify the character."
+          },
+          {
+            "label": "unrelated_mentions",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Mentions 'The Dudes' (band) and 'The Dude of Life' (musician), which are distinct from the film character."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All evidence is either directly supporting, provides related context, or is clearly irrelevant. There are no contradictory claims.",
+        "clusters": [
+          {
+            "label": "direct_identification",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Directly identifies Jeff Bridges as playing 'The Dude' in 'The Big Lebowski'."
+          },
+          {
+            "label": "related_context",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Provides context about 'The Dude' and related actors/interactions but does not fully identify the character."
+          },
+          {
+            "label": "unrelated_mentions",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Mentions 'The Dudes' (band) and 'The Dude of Life' (musician), which are distinct from the film character."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence directly identifies the character and actor, with no conflicts present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Jeff Bridges plays the character 'The Dude' in the movie 'The Big Lebowski'.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly identifies Jeff Bridges as playing 'The Dude' in 'The Big Lebowski', with no conflicts present."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states Jeff Bridges starred as The Dude in 'The Big Lebowski'."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8757,
+      "completion_tokens": 1855,
+      "total_tokens": 10612
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1444,
+        "completion_tokens": 385,
+        "total_tokens": 1829
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1399,
+        "completion_tokens": 429,
+        "total_tokens": 1828
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 834,
+        "completion_tokens": 344,
+        "total_tokens": 1178
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 992,
+        "completion_tokens": 232,
+        "total_tokens": 1224
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1242,
+        "completion_tokens": 252,
+        "total_tokens": 1494
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 649,
+        "completion_tokens": 35,
+        "total_tokens": 684
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 789,
+        "completion_tokens": 88,
+        "total_tokens": 877
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 90,
+        "total_tokens": 1498
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:03.173393",
+        "prompt_tokens": 1444,
+        "completion_tokens": 385,
+        "total_tokens": 1829,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:05.868681",
+        "prompt_tokens": 1399,
+        "completion_tokens": 429,
+        "total_tokens": 1828,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:07.384432",
+        "prompt_tokens": 834,
+        "completion_tokens": 344,
+        "total_tokens": 1178,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:08.700935",
+        "prompt_tokens": 992,
+        "completion_tokens": 232,
+        "total_tokens": 1224,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:09.837319",
+        "prompt_tokens": 1242,
+        "completion_tokens": 252,
+        "total_tokens": 1494,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:10.784535",
+        "prompt_tokens": 649,
+        "completion_tokens": 35,
+        "total_tokens": 684,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:12.258078",
+        "prompt_tokens": 789,
+        "completion_tokens": 88,
+        "total_tokens": 877,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:54:13.199165",
+        "prompt_tokens": 1408,
+        "completion_tokens": 90,
+        "total_tokens": 1498,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:54:01.407286",
+  "last_updated_at": "2026-04-17T19:54:13.199688"
+}

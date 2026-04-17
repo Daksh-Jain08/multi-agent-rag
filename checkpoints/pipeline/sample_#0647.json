@@ -1,0 +1,402 @@
+{
+  "sample_id": "#0647",
+  "query": "Who has the most home runs in a single season in major league baseball?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "In 1996, Brady Anderson of the Baltimore Orioles hit 50 home runs, twice the number he hit during any other season. Of more note was Mark McGwire of the Oakland Athletics, who first drew attention by hitting a league-leading 52 home runs that season while only playing in 130 games. The 1997 home run chase featured McGwire against Ken Griffey, Jr. of the Seattle Mariners. It was during that season that full-fledged interest over the record kicked in as both players were on record pace well into the summer. McGwire finished with 58 home runs following his mid-season trade to",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2007-03-15"
+    },
+    {
+      "doc_id": "d2",
+      "text": "team, including teams no longer active (prior to 1900) as well as by individual players. Gary Sheffield hit the 250,000th home run in MLB history with a grand slam on September 8, 2008. Sheffield had hit MLB's 249,999th home run against Gio Gonz\u251c\u00edlez in his previous at-bat. The all-time, verified professional baseball record for career home runs for one player, excluding the U. S. Negro Leagues during the era of segregation, is held by Sadaharu Oh. Oh spent his entire career playing for the Yomiuri Giants in Japan's Nippon Professional Baseball, later managing the Giants, the Fukuoka SoftBank Hawks and",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "for 57 years until eclipsed by Mark McGwire's 49 in 1987; his NL record was tied by Frank Robinson in , but has not been broken. Berger still shares the major league record for home runs by a first-year player (no prior major league games) and for being the fastest player to hit 20 home runs (51 games), shared with Gary S\u251c\u00ednchez (who accomplished the feat on September 27, 2016) and Cody Bellinger (June 19, 2017). Berger batted .310 that season, and his 119 runs batted in were also an NL rookie record, since topped by Albert Pujols in 2001.",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d4",
+      "text": "of steroid use against the three players who had, by then, hit more than 61 home runs in a season (Mark McGwire, Sammy Sosa and Barry Bonds), the North Dakota Senate wrote to Major League Baseball to express the opinion that Roger Maris' 61 home runs should be recognized as the single season record. Newman Signs Inc., which holds the naming rights to Newman Outdoor Field in Fargo, continues to use billboard signage to declare Maris as the \"legitimate home run king.\" Maris and Mantle starred in a 1962 film, \"Safe at Home!\", playing themselves. That year, Maris, Mantle, and",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2008-04-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "it was enough for a starter to pitch 6\u0393\u00c7\u00f47 innings and turn the game over to the team's closer, a position which grew in importance over these decades. As stolen bases increased, home run totals dropped. After Willie Mays hit 52 home runs in 1965, only one player (George Foster) reached that mark until the 1990s. Routinely in the late 1990s and early 2000s, baseball players hit 40 or 50 home runs in a season, a feat that was considered rare even in the 1980s. It has since become apparent that at least some of this power surge was a  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2025-10-28"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions Mark McGwire hitting 52 home runs in 1996 and 58 in 1997, directly addressing single-season home run records."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Discusses career home runs and historical milestones, but not the single-season record holder."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions Mark McGwire's 49 home runs in 1987 and rookie records, but not the single-season record."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses Roger Maris' 61 home runs and the debate around it being the single-season record, providing relevant context."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions Willie Mays hitting 52 home runs and general trends in home run totals, but doesn't identify the single-season record holder."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In 1996, Brady Anderson hit 50 home runs.",
+            "Mark McGwire hit a league-leading 52 home runs in 1996.",
+            "Mark McGwire finished the 1997 season with 58 home runs."
+          ],
+          "reason": "Extracted specific single-season home run totals for players mentioned in the document, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses career home run records and historical milestones, not single-season records, making it irrelevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Mark McGwire hit 49 home runs in 1987.",
+            "Gary S\u00e1nchez and Cody Bellinger share the record for fastest to hit 20 home runs (51 games)."
+          ],
+          "reason": "Extracted McGwire's 1987 home run total and a shared record for fastest to 20 home runs, which are related to single-season performance."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Roger Maris hit 61 home runs in a season.",
+            "The North Dakota Senate expressed the opinion that Roger Maris' 61 home runs should be recognized as the single season record."
+          ],
+          "reason": "Extracted Roger Maris' single-season home run total and the sentiment that it should be recognized as the record, directly relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Willie Mays hit 52 home runs in 1965.",
+            "In the late 1990s and early 2000s, players routinely hit 40 or 50 home runs in a season."
+          ],
+          "reason": "Extracted Willie Mays' single-season home run total and general trends in home run hitting during specific periods, which are relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides multiple single-season home run totals, including league-leading figures, directly addressing the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document discusses career home run records, not single-season records, making it irrelevant to the specific query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Mark McGwire's 1987 total, which is a single-season record but not the highest. The other fact is about speed, not total home runs.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States Roger Maris' single-season home run total and the opinion that it should be recognized as the record, directly relevant.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Provides Willie Mays' 1965 total and general trends, which are relevant but don't definitively state the highest single-season record.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4"
+        ],
+        "partial_docs": [
+          "d3",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d2"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_single_season_totals",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide direct single-season home run totals for players like Brady Anderson, Mark McGwire, and Roger Maris, with d1 also noting league-leading figures."
+          },
+          {
+            "label": "partial_context_single_season_performance",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 offer relevant single-season data (McGwire's 1987 total, Mays' 1965 total) and general trends, but do not definitively establish the highest single-season record."
+          },
+          {
+            "label": "irrelevant_career_records",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 is irrelevant as it focuses on career home run records rather than single-season performance."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides various single-season home run totals for different players and years, offering complementary details rather than contradictions.",
+        "clusters": [
+          {
+            "label": "direct_support_single_season_totals",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents d1 and d4 provide direct single-season home run totals for players like Brady Anderson, Mark McGwire, and Roger Maris, with d1 also noting league-leading figures."
+          },
+          {
+            "label": "partial_context_single_season_performance",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 offer relevant single-season data (McGwire's 1987 total, Mays' 1965 total) and general trends, but do not definitively establish the highest single-season record."
+          },
+          {
+            "label": "irrelevant_career_records",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 is irrelevant as it focuses on career home run records rather than single-season performance."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and provides sufficient direct and partial support for single-season home run totals, without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Documents d1 and d4 provide direct single-season home run totals for players like Brady Anderson, Mark McGwire, and Roger Maris, with d1 also noting league-leading figures. Documents d3 and d5 offer relevant single-season data for McGwire's 1987 total and Mays' 1965 total, along with general trends, but do not definitively establish the highest single-season record.",
+        "citations": [
+          "d1",
+          "d4",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence is complementary, with direct support from d1 and d4, and partial support from d3 and d5, providing a comprehensive overview of single-season home run data without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.4,
+        "feedback": "The answer does not directly state who has the most home runs in a single season. It discusses several players and their home run totals but fails to identify the record holder."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9578,
+      "completion_tokens": 2230,
+      "total_tokens": 11808
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1495,
+        "completion_tokens": 383,
+        "total_tokens": 1878
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 525,
+        "total_tokens": 1975
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 931,
+        "completion_tokens": 364,
+        "total_tokens": 1295
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1103,
+        "completion_tokens": 329,
+        "total_tokens": 1432
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1405,
+        "completion_tokens": 305,
+        "total_tokens": 1710
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 753,
+        "completion_tokens": 42,
+        "total_tokens": 795
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 183,
+        "total_tokens": 1083
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1541,
+        "completion_tokens": 99,
+        "total_tokens": 1640
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:55.288037",
+        "prompt_tokens": 1495,
+        "completion_tokens": 383,
+        "total_tokens": 1878,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:57.344320",
+        "prompt_tokens": 1450,
+        "completion_tokens": 525,
+        "total_tokens": 1975,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:59.070346",
+        "prompt_tokens": 931,
+        "completion_tokens": 364,
+        "total_tokens": 1295,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:26:00.512316",
+        "prompt_tokens": 1103,
+        "completion_tokens": 329,
+        "total_tokens": 1432,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:26:01.862584",
+        "prompt_tokens": 1405,
+        "completion_tokens": 305,
+        "total_tokens": 1710,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:26:02.711232",
+        "prompt_tokens": 753,
+        "completion_tokens": 42,
+        "total_tokens": 795,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:26:03.988419",
+        "prompt_tokens": 900,
+        "completion_tokens": 183,
+        "total_tokens": 1083,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:26:04.988338",
+        "prompt_tokens": 1541,
+        "completion_tokens": 99,
+        "total_tokens": 1640,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:25:52.976963",
+  "last_updated_at": "2026-04-17T20:26:04.988833"
+}

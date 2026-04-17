@@ -1,0 +1,371 @@
+{
+  "sample_id": "#0566",
+  "query": "Where is going to be the next world cup in 2026?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "for 2022\". A 2014 investigation by The Guardian reported that migrant workers who had been constructing luxurious offices for the organizers of the 2022 World Cup had not been paid in over a year, and were \"working illegally from cockroach-infested lodgings.\" The Qatar 2022 organising committee have responded to various allegations by claiming that hosting the World Cup in Qatar would act as a \"catalyst for change\" in the region. International criticism of Qatar for worker abuse caused authorities to make a wide-ranging review of conditions, led by the Ministry of Labour. Qatar authorities have also sought to improve the",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "but withdrew theirs on 28 September 2009, while Indonesia had their bid rejected for lack of government support on 19 March 2010. Five of the remaining nine bids, South Korea, Qatar, Japan, Australia and United States were only for the 2022 World Cup, while all the others bid for both the 2018 and 2022 World Cups. However, since all of the bids for the 2018 World Cup were from European nations, and FIFA's rules dictate that countries belonging to confederations that hosted either of the two preceding tournaments are not eligible to host, all UEFA bids were forced to be",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Australia 2022 FIFA World Cup bid Australia submitted an unsuccessful bid for the 2022 FIFA World Cup. On 2 December 2010 FIFA announced that the event would be held in Qatar. Australia also lodged a bid for the 2018 World Cup, but withdrew the bid on 10 June 2010. The 2018 and 2022 World Cups will be the 21st and 22nd editions of the FIFA World Cup. The bidding procedure to host both the 2018 and 2022 FIFA World Cup began in January 2009, and national associations had until 2 February 2009 to register their interest. The bid was presented",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the vote in relation to allegations of corruption regarding their votes. The decision to host the 2022 World Cup in Qatar, which was graded as having \"high operational risk\", generated criticism from media commentators. It has been criticised as many to be part of the FIFA corruption scandals. The voting patterns were as follows: There have been allegations of bribery and corruption in the selection process involving members of FIFA's executive committee. These allegations are being investigated by FIFA. Qatar is the smallest nation by area ever to have been awarded a FIFA World Cup \u0393\u00c7\u00f4 the next smallest by",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the 2018 and 2022 FIFA World Cups were announced. This led to fears from some people that it could ruin England's chances of hosting the former tournament, with some accusing the BBC of being unpatriotic; however, the BBC defended these claims. Russia ultimately won the right to host the FIFA World Cup in 2018, with Qatar emerging victorious for the 2022 tournament. The question of whether the documentary was a crucial factor in England losing the contest was brought up after the result was announced. The programme received 52 complaints from viewers. FIFA's Dirty Secrets \"FIFA's Dirty Secrets\" is an  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2011-02-14"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the 2022 World Cup in Qatar, focusing on labor issues and criticisms, but does not mention the 2026 World Cup location."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document mentions bids for the 2022 World Cup, including the United States, but does not provide information about the 2026 World Cup."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document focuses on Australia's bid for the 2022 World Cup and the eventual awarding of the tournament to Qatar. It does not mention the 2026 World Cup."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses allegations of corruption related to the 2022 World Cup in Qatar but does not mention the location of the 2026 World Cup."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document mentions Russia hosting the 2018 World Cup and Qatar hosting the 2022 World Cup, but provides no information about the 2026 World Cup."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 2022 World Cup was hosted in Qatar."
+          ],
+          "reason": "Extracted the fact that Qatar hosted the 2022 World Cup, which is relevant to the query about World Cup locations."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The United States was one of the bidders for the 2022 World Cup."
+          ],
+          "reason": "Extracted that the United States was a bidder for the 2022 World Cup, which is a verifiable fact related to World Cup hosting."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "On December 2, 2010, FIFA announced that the 2022 World Cup would be held in Qatar.",
+            "Australia also lodged a bid for the 2018 World Cup."
+          ],
+          "reason": "Extracted the official announcement date and location for the 2022 World Cup and Australia's bid for the 2018 World Cup."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The decision to host the 2022 World Cup was made in Qatar.",
+            "Qatar is the smallest nation by area ever to have been awarded a FIFA World Cup."
+          ],
+          "reason": "Extracted facts about the 2022 World Cup host nation, Qatar, including its size relative to other hosts."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Russia won the right to host the FIFA World Cup in 2018.",
+            "Qatar emerged victorious for the 2022 tournament."
+          ],
+          "reason": "Extracted the confirmed hosts for the 2018 and 2022 FIFA World Cups."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document states that Qatar hosted the 2022 World Cup, but the query asks about the 2026 World Cup.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document mentions the United States as a bidder for the 2022 World Cup, which is not relevant to the 2026 World Cup location.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document confirms Qatar as the host for the 2022 World Cup and Australia's bid for 2018, neither of which answers the query about 2026.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document focuses on Qatar hosting the 2022 World Cup and its size, providing no information about the 2026 World Cup location.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document confirms hosts for 2018 and 2022 World Cups, but does not mention the location for the 2026 World Cup.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "no_relevant_information",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the provided documents contain information about the 2026 World Cup location."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents are irrelevant to the query about the 2026 World Cup, indicating no conflicting information is present.",
+        "clusters": [
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss the 2018 and 2022 World Cups, but not the 2026 World Cup."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant to the query. There is no supporting evidence to provide a reliable answer, thus abstention is necessary."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant to the query. There is no supporting evidence to provide a reliable answer, thus abstention is necessary.",
+        "final_reasoning": "All provided documents are irrelevant to the query about the 2026 World Cup location. Therefore, abstention is necessary due to a lack of supporting evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": false,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. The documents discuss the 2022 World Cup but do not mention the location of the 2026 World Cup. No citations were provided for the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8482,
+      "completion_tokens": 1841,
+      "total_tokens": 10323
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1412,
+        "completion_tokens": 419,
+        "total_tokens": 1831
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 479,
+        "total_tokens": 1846
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 875,
+        "completion_tokens": 398,
+        "total_tokens": 1273
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1082,
+        "completion_tokens": 155,
+        "total_tokens": 1237
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1250,
+        "completion_tokens": 135,
+        "total_tokens": 1385
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 495,
+        "completion_tokens": 45,
+        "total_tokens": 540
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 645,
+        "completion_tokens": 100,
+        "total_tokens": 745
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1356,
+        "completion_tokens": 110,
+        "total_tokens": 1466
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:26.480743",
+        "prompt_tokens": 1412,
+        "completion_tokens": 419,
+        "total_tokens": 1831,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:28.627858",
+        "prompt_tokens": 1367,
+        "completion_tokens": 479,
+        "total_tokens": 1846,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:31.187728",
+        "prompt_tokens": 875,
+        "completion_tokens": 398,
+        "total_tokens": 1273,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:32.180677",
+        "prompt_tokens": 1082,
+        "completion_tokens": 155,
+        "total_tokens": 1237,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:33.490675",
+        "prompt_tokens": 1250,
+        "completion_tokens": 135,
+        "total_tokens": 1385,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:34.356728",
+        "prompt_tokens": 495,
+        "completion_tokens": 45,
+        "total_tokens": 540,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:35.493254",
+        "prompt_tokens": 645,
+        "completion_tokens": 100,
+        "total_tokens": 745,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:36.712276",
+        "prompt_tokens": 1356,
+        "completion_tokens": 110,
+        "total_tokens": 1466,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:06:24.907149",
+  "last_updated_at": "2026-04-17T20:06:36.712619"
+}

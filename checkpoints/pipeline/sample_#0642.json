@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0642",
+  "query": "Who wrote all i really want to do?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "its highest-debuting single of their career (surpassing \"Want To\", which debuted at #36 in 2006). Overall, it is the duo's third Number One hit on the \"Billboard\" country charts. All I Want to Do \"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland. It was released in May 2008 as the first single from their album \"Love on the Inside\", which was released on July 22, 2008. The duo's two members, lead vocalist Jennifer Nettles and mandolinist/background vocalist Kristian Bush, wrote the song with singer Bobby Pinson, with whom the duo also",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "was first released on Dylan's 1964 album \"Another Side of Bob Dylan\". The song was also included on the Dylan compilations \"Bob Dylan's Greatest Hits Vol. II\" in 1971 and the 3-disc edition of \"Dylan\" in 2007. In addition, two live versions of the song have been released: one, recorded in 1978, on \"Bob Dylan at Budokan\" and the other, recorded in 1964, on \"\". Dylan wrote the song in 1964 and recorded it in one take on June 9, 1964. Like other songs on \"Another Side of Bob Dylan\", \"All I Really Want to Do\" was inspired by Dylan's",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "All I Want to Do \"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland. It was released in May 2008 as the first single from their album \"Love on the Inside\", which was released on July 22, 2008. The duo's two members, lead vocalist Jennifer Nettles and mandolinist/background vocalist Kristian Bush, wrote the song with singer Bobby Pinson, with whom the duo also co-wrote their late-2006 single \"Want To\". On the \"Billboard\" Hot Country Songs chart dated for August 16, 2008, \"All I Want to Do\" became Sugarland's third Number One hit.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "general situations that people experience but also some of my own personal experiences.\" Kim also said she was incredible with the song's chart performance; \"It seemed like a dream at the time.\" The song's music video was made by BlissCo Media and released by BMG and Jive. All I Really Want (Kim Lukas song) \"All I Really Want\" is the first single recorded by English singer Kim Lukas. It was released in September 1999 as the lead single from the album, \"With a K\". The song reached the top 10 in Austria, Canada, Denmark, and Italy. \"All I Really Want\"",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1995-06-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "of the traditional song, \"See See Rider\", arranged by Sonny Bono, Charles Greene, and Robert Stone. Other covers on the album are \"She Thinks I Still Care\", \"The Bells of Rhymney\", and \"Come and Stay With Me\". During the album recording sessions, Cher recorded a song written by Bono, titled \"I'm Gonna Love You\", which did not appear on the album but was issued as the B-side of the \"All I Really Want to Do\" single. The song was later included on the 1967 Sonny & Cher soundtrack album, \"Good Times\". \"All I Really Want to Do\" has received positive  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses a song titled \"All I Want to Do\" by Sugarland, not \"All I Really Want to Do\"."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly states that Bob Dylan wrote the song \"All I Really Want to Do\" and provides details about its recording and release."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses a song titled \"All I Want to Do\" by Sugarland, not \"All I Really Want to Do\"."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions a song titled \"All Really Want\" by Kim Lukas, which is different from the query's song title."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document mentions that Cher recorded a song titled \"All I Really Want to Do\" as the B-side of a single, implying it was written by someone else (Bono)."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "\"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland.",
+            "Jennifer Nettles, Kristian Bush, and Bobby Pinson wrote the song."
+          ],
+          "reason": "Extracted facts about the co-writers and performers of the song \"All I Want to Do\" as requested by the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Bob Dylan wrote the song \"All I Really Want to Do\" in 1964.",
+            "The song was first released on Dylan's 1964 album \"Another Side of Bob Dylan\"."
+          ],
+          "reason": "Extracted the author and release information for \"All I Really Want to Do\" directly answering the user's query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "\"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland.",
+            "Jennifer Nettles, Kristian Bush, and Bobby Pinson wrote the song."
+          ],
+          "reason": "Extracted facts about the co-writers and performers of the song \"All I Want to Do\" as requested by the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "\"All Really Want\" is the first single recorded by English singer Kim Lukas.",
+            "The song was released in September 1999."
+          ],
+          "reason": "Extracted facts about the singer and release date of the song \"All Really Want\" which is similar to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Cher recorded a song written by Bono, titled \"I'm Gonna Love You\", which was issued as the B-side of the \"All I Really Want to Do\" single."
+          ],
+          "reason": "Extracted information about a song related to \"All I Really Want to Do\" and its writer, Sonny Bono."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a song titled \"All I Want to Do\" by Sugarland, not the song the query is asking about.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that Bob Dylan wrote the song \"All I Really Want to Do\" in 1964.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a song titled \"All I Want to Do\" by Sugarland, not the song the query is asking about.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a song titled \"All Really Want\" by Kim Lukas, which is different from the song in the query.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions a song titled \"All I Really Want to Do\" and its B-side, but attributes the B-side writer (Bono) rather than the main song writer.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly identifies Bob Dylan as the writer of \"All I Really Want to Do\" in 1964."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions \"All I Really Want to Do\" in relation to a B-side song, providing some context but not directly answering the primary query about the main song's writer."
+          },
+          {
+            "label": "irrelevant_songs",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 discuss songs with similar titles (\"All I Want to Do\" by Sugarland, \"All Really Want\" by Kim Lukas) but are not the song requested in the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence does not present conflicting claims. Document d2 directly supports Bob Dylan as the writer of \"All I Really Want to Do\", while other documents are either irrelevant or provide tangential information.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 directly identifies Bob Dylan as the writer of \"All I Really Want to Do\" in 1964."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions \"All I Really Want to Do\" in relation to a B-side song, providing some context but not directly answering the primary query about the main song's writer."
+          },
+          {
+            "label": "irrelevant_songs",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 discuss songs with similar titles (\"All I Want to Do\" by Sugarland, \"All Really Want\" by Kim Lukas) but are not the song requested in the query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence directly supports Bob Dylan as the writer of \"All I Really Want to Do\", with no conflicting information. Other documents are either irrelevant or provide tangential context."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Bob Dylan wrote the song \"All I Really Want to Do\" in 1964.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly supports the claim that Bob Dylan wrote \"All I Really Want to Do\" in 1964. There is no conflicting information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states Bob Dylan wrote the song in 1964."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9242,
+      "completion_tokens": 2089,
+      "total_tokens": 11331
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1436,
+        "completion_tokens": 386,
+        "total_tokens": 1822
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 516,
+        "total_tokens": 1907
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 903,
+        "completion_tokens": 366,
+        "total_tokens": 1269
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1084,
+        "completion_tokens": 274,
+        "total_tokens": 1358
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1375,
+        "completion_tokens": 310,
+        "total_tokens": 1685
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 747,
+        "completion_tokens": 52,
+        "total_tokens": 799
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 904,
+        "completion_tokens": 96,
+        "total_tokens": 1000
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1402,
+        "completion_tokens": 89,
+        "total_tokens": 1491
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:48.743978",
+        "prompt_tokens": 1436,
+        "completion_tokens": 386,
+        "total_tokens": 1822,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:51.383092",
+        "prompt_tokens": 1391,
+        "completion_tokens": 516,
+        "total_tokens": 1907,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:54.653039",
+        "prompt_tokens": 903,
+        "completion_tokens": 366,
+        "total_tokens": 1269,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:56.024847",
+        "prompt_tokens": 1084,
+        "completion_tokens": 274,
+        "total_tokens": 1358,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:57.435421",
+        "prompt_tokens": 1375,
+        "completion_tokens": 310,
+        "total_tokens": 1685,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:58.453427",
+        "prompt_tokens": 747,
+        "completion_tokens": 52,
+        "total_tokens": 799,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:24:59.862057",
+        "prompt_tokens": 904,
+        "completion_tokens": 96,
+        "total_tokens": 1000,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:01.010237",
+        "prompt_tokens": 1402,
+        "completion_tokens": 89,
+        "total_tokens": 1491,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:24:46.287786",
+  "last_updated_at": "2026-04-17T20:25:01.010765"
+}

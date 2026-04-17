@@ -1,0 +1,387 @@
+{
+  "sample_id": "#0577",
+  "query": "Where did the social gospel movement take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "as the New Democratic Party, was founded on social gospel principles in the 1930s by J. S. Woodsworth, a Methodist minister, and Alberta MP William Irvine. Woodsworth wrote extensively about the social gospel from experiences gained while working with immigrant slum dwellers in Winnipeg from 1904 to 1913. His writings called for the Kingdom of God \"here and now\". This political party took power in the province of Saskatchewan in 1944. This group, led by Tommy Douglas, a Baptist minister, introduced universal medicare, family allowance and old age pensions. This political party has since largely lost its religious basis, and",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2025-08-27"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Philadelphia, this movement was counteracted by bringing revivalist Billy Sunday, himself firmly anti-union, who believed \"that the organized shops destroyed individual freedom.\" While the Social Gospel was short-lived historically, it had a lasting impact on the policies of most of the mainline denominations in the United States. Most began programs for social reform, which led to ecumenical cooperation in 1910 while in the formation of the Federal Council of Churches. Although this cooperation was about social issues that often led to charges of socialism. It is likely that the Social Gospel's strong sense of leadership by the people led to",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "with the Social Gospel movement. Walter Rauschenbusch, one of the leading early theologians of the Social Gospel in the United States, indicated that his theology had been inspired by Sheldon's novels. In 1892, Rauschenbusch and several other leading writers and advocates of the Social Gospel formed a group called the Brotherhood of the Kingdom. Members of this group produced many of the written works that defined the theology of the Social Gospel movement and gave it public prominence. These included Rauschenbusch's \"Christianity and the Social Crisis\" (1907) and \"Christianizing the Social Order\" (1912), as well as Samuel Zane Batten's \"The",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Social Christian Movement Social Christian Movement (, MSC) was a Chilean political party existing during the 1980s, formed mainly by dissidents of the Christian Democratic Party (PDC). The first signs of former Christian Democratic militants and leaders meeting to adhere to the military dictatorship of Augusto Pinochet appeared in 1980, when a group of them called to vote favorably on the constitutional referendum of that year. The movement was founded in December 1983 by Juan de Dios Carmona, after having returned from Spain after serving functions as Chilean ambassador to that country. It also joined William Thayer Arteaga, who had",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "women's suffrage, and that the emphasis it placed on morality led to prohibition. Biographer Randall Woods argues that Social Gospel themes learned from childhood allowed Lyndon B. Johnson to transform social problems into moral problems. This helps explain his longtime commitment to social justice, as exemplified by the Great Society and his commitment to racial equality. The Social Gospel explicitly inspired his foreign-policy approach to a sort of Christian internationalism and nation building. The Social Gospel Movement has been described as \"the most distinctive American contribution to world Christianity.\" The Cooperative Commonwealth Federation, a political party that was later reformed  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2000-06-28"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the social gospel principles founding a political party in the 1930s and experiences in Winnipeg, Canada, suggesting a geographical context."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states the Social Gospel had a lasting impact on mainline denominations in the United States and mentions Philadelphia."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Identifies Walter Rauschenbusch as a leading theologian of the Social Gospel in the United States and mentions the formation of the Brotherhood of the Kingdom."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses a Chilean political party called the Social Christian Movement, which is unrelated to the Social Gospel movement."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Describes the Social Gospel Movement as the 'most distinctive American contribution to world Christianity' and mentions its influence on Lyndon B. Johnson."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Social Gospel movement's principles influenced the founding of the New Democratic Party in the 1930s by J. S. Woodsworth.",
+            "Woodsworth gained experiences working with immigrant slum dwellers in Winnipeg from 1904 to 1913."
+          ],
+          "reason": "Extracted facts about the Social Gospel's influence on a political party and its origins in Winnipeg, Canada, relevant to the movement's location and activities."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Social Gospel movement was counteracted in Philadelphia by revivalist Billy Sunday.",
+            "The Social Gospel had a lasting impact on the policies of most mainline denominations in the United States.",
+            "The Federal Council of Churches was formed in 1910 due to ecumenical cooperation on social issues."
+          ],
+          "reason": "Extracted facts placing the Social Gospel movement in Philadelphia and the United States, and noting its impact on denominations and ecumenical cooperation."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Walter Rauschenbusch was a leading early theologian of the Social Gospel in the United States.",
+            "Rauschenbusch and others formed the Brotherhood of the Kingdom in 1892 to define the theology of the Social Gospel movement."
+          ],
+          "reason": "Extracted facts identifying key figures and organizations associated with the Social Gospel movement in the United States, specifying its theological development."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document describes the Social Christian Movement in Chile, which is distinct from the Social Gospel movement and does not provide information about its location."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Social Gospel Movement is described as the most distinctive American contribution to world Christianity.",
+            "The Cooperative Commonwealth Federation was a political party reformed from the Social Gospel movement."
+          ],
+          "reason": "Extracted facts identifying the Social Gospel Movement as an American contribution and mentioning its influence on a political party, relevant to its geographical context."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Mentions the Social Gospel's influence on a Canadian political party and its origins with immigrant slum dwellers in Winnipeg, Canada, indicating a location.",
+          "confidence": 0.8
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states the movement was counteracted in Philadelphia and had a lasting impact on denominations in the United States, clearly indicating its location.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Identifies key figures and organizations of the Social Gospel movement in the United States, directly supporting its geographical context.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Describes a distinct movement in Chile and provides no information about the location of the Social Gospel movement.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly calls the Social Gospel Movement the 'most distinctive American contribution,' directly supporting its location in the United States.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "US_context",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide strong evidence for the Social Gospel movement's presence and impact in the United States, mentioning key figures, organizations, and its status as an American contribution."
+          },
+          {
+            "label": "Canadian_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 indicates the Social Gospel movement's influence on a Canadian political party and its origins in Winnipeg, Canada."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources complements each other by detailing the Social Gospel movement's presence and influence in both the United States and Canada.",
+        "clusters": [
+          {
+            "label": "US_context",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide strong evidence for the Social Gospel movement's presence and impact in the United States, mentioning key figures, organizations, and its status as an American contribution."
+          },
+          {
+            "label": "Canadian_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 indicates the Social Gospel movement's influence on a Canadian political party and its origins in Winnipeg, Canada."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and coherent, with complementary contexts for the US and Canada. No significant conflicts or misinformation risks are present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Social Gospel movement had a presence and impact in the United States, with key figures and organizations, and is considered an American contribution. It also influenced a Canadian political party and originated in Winnipeg, Canada.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide complementary evidence for the Social Gospel movement's presence in both the United States and Canada, directly answering the query without conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting the movement's presence in the United States and its influence in Canada, with specific details supported by citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8685,
+      "completion_tokens": 1920,
+      "total_tokens": 10605
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1358,
+        "completion_tokens": 369,
+        "total_tokens": 1727
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1313,
+        "completion_tokens": 529,
+        "total_tokens": 1842
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 920,
+        "completion_tokens": 342,
+        "total_tokens": 1262
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1078,
+        "completion_tokens": 197,
+        "total_tokens": 1275
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1304,
+        "completion_tokens": 213,
+        "total_tokens": 1517
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 603,
+        "completion_tokens": 44,
+        "total_tokens": 647
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 752,
+        "completion_tokens": 125,
+        "total_tokens": 877
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1357,
+        "completion_tokens": 101,
+        "total_tokens": 1458
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:53.789125",
+        "prompt_tokens": 1358,
+        "completion_tokens": 369,
+        "total_tokens": 1727,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:56.948657",
+        "prompt_tokens": 1313,
+        "completion_tokens": 529,
+        "total_tokens": 1842,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:59.522175",
+        "prompt_tokens": 920,
+        "completion_tokens": 342,
+        "total_tokens": 1262,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:01.099654",
+        "prompt_tokens": 1078,
+        "completion_tokens": 197,
+        "total_tokens": 1275,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:02.209318",
+        "prompt_tokens": 1304,
+        "completion_tokens": 213,
+        "total_tokens": 1517,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:03.287231",
+        "prompt_tokens": 603,
+        "completion_tokens": 44,
+        "total_tokens": 647,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:04.470654",
+        "prompt_tokens": 752,
+        "completion_tokens": 125,
+        "total_tokens": 877,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:05.507291",
+        "prompt_tokens": 1357,
+        "completion_tokens": 101,
+        "total_tokens": 1458,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:08:52.198384",
+  "last_updated_at": "2026-04-17T20:09:05.507979"
+}

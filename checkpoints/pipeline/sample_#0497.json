@@ -1,0 +1,382 @@
+{
+  "sample_id": "#0497",
+  "query": "Why does the extra copy of Pair 21 cause down syndrome",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Causes - Special needs project *Downs Syndrome is caused during cell division of a sperm and egg. Usually a person has 23 pairs of chromosomes, but a person with Downs Syndrome has extra genetic material on one chromosome. This affects development and characteristic features. There are three genetic variations that cause Downs Syndrome: 1. Trisomy 21- when a person has an extra copy of chromosome 21 in some cells. (Most common) 2. Mosaic Downs Syndrome- when a person has some cells with an extra copy of chromosome 21. When cells divide, it creates a \"mosaic\" of normal and abnormal cells in the person's body. (Rare)",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Down Syndrome | RxWiki usually be corrected. Down Syndrome Causes Someone with Down syndrome has an extra copy of chromosome number 21 in the cells of their body. This is also known as trisomy 21. Trisomy refers to the fact that there are three copies of chromosome 21. Because there is an extra chromosome 21, there is extra genetic material in the body. This causes the typical features of Down syndrome. There are different ways that trisomy 21 can occur. Down Syndrome Diagnosis A diagnosis of Down syndrome after birth is often based initially on physical signs of the syndrome. But because individuals with",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How a mismatched pair of socks can raise awareness about Down syndrome | Parenting News, The Indian Express socks are used to raise awareness about Down Syndrome. (Source: Getty Images) By Dr Preety Vashisth March 21 is World Down Syndrome Day, the day established by the United Nations in 2012 to raise awareness and promote the rights of those with Down syndrome, also known as Trisomy 21. It\u0393\u00c7\u00d6s a genetic disorder that arises from a defect involving chromosome 21 (usually an extra copy). In fact, it\u0393\u00c7\u00d6s the role of chromosome 21 that led to the selection of March 21 as the observance day for Down Syndrome. Down syndrome is a genetic disorder. (Source: Getty Images) So, why are",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d4",
+      "text": "NHS Website \u0393\u00c7\u00f4 Health A-Z include some types of muscular dystrophy, haemophilia and type 1 neurofibromatosis. Some conditions are not caused by a mutation on a specific gene, but by an abnormality in a person's chromosomes, such as having too many or too few chromosomes, rather than the normal 23 pairs. Examples of conditions caused by chromosomal abnormalities include: Down's syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 21 Edwards' syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 18 Patau's syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 13 Turner syndrome \u0393\u00c7\u00f4 a disorder that only affects females and",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The NIFTY test: learn more about the conditions screened for Home / Information About Conditions A trisomy is a term for a genetic condition in which there are three chromosomes instead of the usual pair. Trisomy 21 / Down Syndrome Trisomy 21, more commonly known as Down Syndrome, is a condition caused by an extra copy of chromosome 21. Unfortunately, miscarriage occurs in about 30% of pregnancies with Down Syndrome. Those children born with Down Syndrome will need extra medical care depending on the child\u0393\u00c7\u00d6s specific health problems. Most children with Down Syndrome have intellectual disabilities that range from mild to moderate. Early intervention has proven to be essential in  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explains that Down Syndrome is caused by an extra copy of chromosome 21 (Trisomy 21), directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Down Syndrome is caused by an extra copy of chromosome 21, also known as trisomy 21, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions Down syndrome arises from an extra copy of chromosome 21, directly relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Lists Down's syndrome as caused by an extra copy of chromosome 21, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Defines Trisomy 21 (Down Syndrome) as a condition caused by an extra copy of chromosome 21, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Down Syndrome is caused during cell division of a sperm and egg.",
+            "A person with Downs Syndrome has extra genetic material on one chromosome.",
+            "Trisomy 21 is when a person has an extra copy of chromosome 21 in some cells.",
+            "Mosaic Downs Syndrome occurs when a person has some cells with an extra copy of chromosome 21."
+          ],
+          "reason": "Extracted facts explaining the cause of Down Syndrome, including Trisomy 21 and Mosaic Downs Syndrome, directly from the text."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Someone with Down syndrome has an extra copy of chromosome number 21 in their cells.",
+            "This is also known as trisomy 21, meaning there are three copies of chromosome 21.",
+            "The extra chromosome 21 leads to extra genetic material, causing the typical features of Down syndrome."
+          ],
+          "reason": "Extracted key facts defining Down Syndrome as trisomy 21 and explaining the presence of extra genetic material due to an extra chromosome 21."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Down syndrome, also known as Trisomy 21, is a genetic disorder that arises from a defect involving chromosome 21.",
+            "This defect usually involves an extra copy of chromosome 21."
+          ],
+          "reason": "Extracted the definition of Down Syndrome as a genetic disorder involving chromosome 21, specifically mentioning the usual cause of an extra copy."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Down's syndrome is caused by having an extra copy of chromosome 21.",
+            "It is an example of a condition caused by chromosomal abnormalities."
+          ],
+          "reason": "Extracted the direct cause of Down's syndrome as an extra copy of chromosome 21 and its classification as a chromosomal abnormality."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Trisomy 21, more commonly known as Down Syndrome, is a condition caused by an extra copy of chromosome 21.",
+            "A trisomy is a genetic condition where there are three chromosomes instead of the usual pair."
+          ],
+          "reason": "Extracted the definition of Down Syndrome as Trisomy 21 and its cause being an extra copy of chromosome 21."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Explains Down Syndrome is caused by extra genetic material on chromosome 21, including Trisomy 21 and Mosaic Downs Syndrome.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Defines Down Syndrome as trisomy 21, caused by an extra copy of chromosome 21 leading to extra genetic material.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Defines Down Syndrome as Trisomy 21, a genetic disorder usually caused by an extra copy of chromosome 21.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states Down's syndrome is caused by an extra copy of chromosome 21.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Defines Down Syndrome as Trisomy 21, caused by an extra copy of chromosome 21.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_cause_of_down_syndrome",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All documents consistently state that Down Syndrome is caused by an extra copy of chromosome 21, often referred to as Trisomy 21, leading to extra genetic material."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided documents consistently explain that Down Syndrome is caused by an extra copy of chromosome 21, often referred to as Trisomy 21. The evidence is complementary, with each document adding to the understanding of the condition.",
+        "clusters": [
+          {
+            "label": "cause_of_down_syndrome",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Down Syndrome is caused by an extra copy of chromosome 21, leading to extra genetic material. This is also known as Trisomy 21 and can include Mosaic Downs Syndrome."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and complementary, providing a clear and reliable answer about the cause of Down Syndrome."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Down Syndrome is caused by an extra copy of chromosome 21, also known as Trisomy 21, which results in additional genetic material. This can also include Mosaic Down Syndrome.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting documents consistently and complementarily explain the cause of Down Syndrome, providing a clear and direct answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately explains that Down Syndrome is caused by an extra copy of chromosome 21 (Trisomy 21) and mentions Mosaic Down Syndrome, all of which are directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9250,
+      "completion_tokens": 1943,
+      "total_tokens": 11193
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1533,
+        "completion_tokens": 374,
+        "total_tokens": 1907
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1488,
+        "completion_tokens": 601,
+        "total_tokens": 2089
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 984,
+        "completion_tokens": 343,
+        "total_tokens": 1327
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1139,
+        "completion_tokens": 177,
+        "total_tokens": 1316
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1329,
+        "completion_tokens": 182,
+        "total_tokens": 1511
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 550,
+        "completion_tokens": 39,
+        "total_tokens": 589
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 694,
+        "completion_tokens": 119,
+        "total_tokens": 813
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1533,
+        "completion_tokens": 108,
+        "total_tokens": 1641
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:33.563782",
+        "prompt_tokens": 1533,
+        "completion_tokens": 374,
+        "total_tokens": 1907,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:35.769276",
+        "prompt_tokens": 1488,
+        "completion_tokens": 601,
+        "total_tokens": 2089,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:38.687099",
+        "prompt_tokens": 984,
+        "completion_tokens": 343,
+        "total_tokens": 1327,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:39.971046",
+        "prompt_tokens": 1139,
+        "completion_tokens": 177,
+        "total_tokens": 1316,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:41.442389",
+        "prompt_tokens": 1329,
+        "completion_tokens": 182,
+        "total_tokens": 1511,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:42.420957",
+        "prompt_tokens": 550,
+        "completion_tokens": 39,
+        "total_tokens": 589,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:43.491318",
+        "prompt_tokens": 694,
+        "completion_tokens": 119,
+        "total_tokens": 813,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:48:44.592589",
+        "prompt_tokens": 1533,
+        "completion_tokens": 108,
+        "total_tokens": 1641,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:48:31.962916",
+  "last_updated_at": "2026-04-17T19:48:44.593124"
+}

@@ -1,0 +1,733 @@
+{
+  "sample_id": "#0346",
+  "query": "Does centrifugal force exist?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Centrifugal Force-Driven Modular Micronozzle System: Generation ... In addition, to overcome the limitation of the conventional pump-based microreactor, which requires careful fluid control, a user friendly microreactor was implemented by inducing fluid flow using centrifugal force (Table S1). This centrifuge-based easy setup is composed of three functional parts: a modular micronozzle, a micronozzle supporter, and a collection tube (see Fig. 1B\u2013E). The desired functional materials were produced within 3 min through the programmable modular microreactor, in which the size and shape of the alginate particle were coded according to the assembly of the micronozzles having different inner diameters. More specifically, the alginate microsphere generation mechanism was followed by a \u201cquasi-static droplet formation\u201d, where a breaks alginate solution off immediately the centrifugal gravity force-induced drag force (Fg) exceeds surface tension-induced counter acting force (Fs). Based on this, the alginate microspheres were generated from different modular micronozzles when a higher centrifugation was conducted than the surface tension of the alginate aqueous solution. Figure 1 Centrifugal force-driven modular micronozzle system setup. (A) A schematic of the basic concept for generation of alginate microsphere. (B) A photo of centrifugal microfluidic device after assembled. The modular micronozzle consists of (C) a micronozzle and (D) a supporter. (E) A photo of assembled modular micronozzle. Figure 2 shows the modular micronozzle reactors that are programmed to generate the alginate particles of various shapes and sizes through a combination of two needles, i.e., independently parallel nozzles, nozzle in nozzle, and union of two nozzles. The first micronozzle was designed to simultaneously synthesize two alginate particles containing different functional particles and sizes as shown in Fig.",
+      "source_url": "https://www.nature.com/articles/s41598-019-49244-4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Inverse centrifugal effect induced by collective motion of vortices in ... The last two terms in the momentum equation (Eq. (1)) represent the Coriolis force and the centrifugal force, respectively. The equations were nondimensionalized using L, \u0394T, and the free-fall velocity \\({U}_{{{{{{{{\\rm{f}}}}}}}}}=\\sqrt{\\alpha g\\Delta TL}\\). The simulations were performed in a cylindrical sample with an aspect ratio \u0393 = 4 and no-slip boundaries at all walls. Equations (1\u20133) were solved using a fully parallelized DNS code CUPS based on finite volume method with 4th order precision. To increase computational efficiency without any sacrifice in precision, we used a multiple-resolution strategy, in which the temperature equation was solved in a finer grid than the momentum one, allowing for a sufficient resolution to resolve the Batchelor and Kolmogorov length scales. The grid resolutions along radial, azimuthal and vertical directions were 140 \u00d7 384 \u00d7 160 for the momentum and pressure fields, and 280 \u00d7 768 \u00d7 160 for the temperature field. Staggered grids were used in the simulations, which allowed the grid cells corresponding to the three velocity components to be shifted by half a grid cell. Grids were refined near boundaries, so that boundary layers can be resolved. In addition, we considered the flow fields with Fr = 0, excluding the centrifugal effect. Data availability The data that support the findings of this study are available within this article, its Supplementary Information, or from the corresponding authors upon request. Source data are provided with this paper. Code availability The simulation codes that have been used to produce the numerical results of this study are available from the corresponding authors upon request when appropriate.",
+      "source_url": "https://www.nature.com/articles/s41467-021-25838-3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Black Holes, Ants, and Roller Coasters | Discover Magazine And this astonishing discovery has profound consequences for the way we understand all motion. The idea of the centrifugal force has long made physicists a bit uncomfortable. Although the force appears whenever a moving object strays from a straight path, its existence depends on the point of view of the observer. Thus when a car rounds a curve, the passengers feel pressed outward by an unseen agency they call the centrifugal force, which increases with the speed of the car and disappears when the car stops moving or the road straightens out. However, people watching the scene from the side of the road, though they too would notice the outward push, would not ascribe its cause to the centrifugal force. Instead, they would explain the effect by pointing to the inertia of the passengers--their natural tendency to keep traveling in a straight line tangent to the curve of the road. Only the riders themselves, whose frame of reference is itself tracing out a curve, would invoke the centrifugal force. Because the centrifugal force exists in some reference frames (such as moving automobiles and roller coaster cars) but not in others (like the road or the grounds of the amusement park), it has acquired a bad name. College texts disdainfully call it a pseudoforce. My high school physics teacher went even further, vehemently insisting that the force was fictitious and banning mention of it in his classroom. Yet, years later, on the roller coaster, it saved me from crashing to the ground. So what is it then--fictitious or real? The squabble is purely semantic: everyone agrees on the actual effect, the outward push; only the name is at issue. As a compromise, physicists have agreed to call it an inertial force, a term that implies the centrifugal force is as fundamental as the related property of inertia. Inertia is an expression of nature\u2019s laziness--of its inherent resistance to change--and the centrifugal force is just one particular form of that tendency.",
+      "source_url": "https://www.discovermagazine.com/the-sciences/black-holes-ants-and-roller-coasters",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Descartes' Physics (Stanford Encyclopedia of Philosophy) In fact, returning to the Cartesian laws of nature (section 4), it is evident that Descartes has allotted a fundamental role to the action of bodily \u201cforces\u201d or \u201ctendencies\u201d: for example, the tendency of bodies to follow straight lines, the resistance to motion of a large resting body (to a smaller moving body), etc. In The World, he states: \u201cthe virtue or power in a body to move itself can well pass wholly or partially to another body and thus no longer be in the first; but it cannot no longer exist in the world\u201d (AT XI 15). As an early remark concerning his conservation principle, this explanation seems to envision force much like a property or \u201cpower\u201d possessed by individual material objects, similar to the qualitative, metaphysical properties of the Scholastics (as in the \u201cimpetus\u201d theory). For these reasons, the nature of bodily forces or tendencies is a philosophical question of much interest in the study of Descartes\u2019 physics. In order to better grasp the specific role of Cartesian force, it would be useful to closely examine his theory of centrifugal effects, which is closely associated with the second law of nature. Besides straight-line motion, Descartes\u2019 second law also mentions the \u201ccenter-fleeing\u201d (centrifugal) tendencies of circularly moving material bodies: \u201call movement is, of itself, along straight lines; and consequently, bodies which are moving in a circle always tends to move away from the center of the circle which they are describing\u201d (Pr II 39). At first glance, the second law might seem to correspond to the modern scientific dissection of centrifugal force: specifically, the centrifugal effects experienced by a body moving in a circular path, such as a stone in a sling, are a normal consequence of the body\u2019s tendency to depart the circle along a straight tangential path.",
+      "source_url": "https://plato.stanford.edu/entries/descartes-physics/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Philosophies | Free Full-Text | Space and Time as Relations: The ... This is not the absolute motion of Newton, but true motion relative to another body. Leibniz characterized the true motion as a subcase of relative motion: the actual motion is relative movement whose cause is the body that really moves. He believed that the centrifugal and centripetal movements are examples of dead forces [potentia mortuus] that are infinitely weaker than the living force. What was, according to Leibniz, real and absolute in motion was the driving force, a tendency to move that consists in vis viva, a real and substantial entity, a fundamental absolute quantity which is inherent in substances [20,21,22]. 3.1. The Matter, the Body, and the Coincident Movement Newtonian physics was unthinkable without corpuscles. On the contrary, Leibniz rejected the existence of ultimate, indivisible, firm material particles [23]. Matter is real multiplicity, a cumulative entity consisting of an infinite number of units [5] (p. 379). It is discontinuous and actually infinitely divided. However, there is no part of space without matter [5] (pp. 278\u2013279). The matter itself is homogeneous, equally divisible anywhere, and varies with the motion [6] (p. 407). To the above premises corresponds the logical consequence that there are no atoms with infinite rigidity. Matter is itself in flux [6] (p. 415). The body is extended, mobile, and resistant [6] (p. 277). Each body is simultaneously fluid and solid [6] (p. 407). Leibniz believed that the solidness or the unity of the bodies originates from the mind, and there are as many minds as vortices, and as many vortices as solid bodies [24] (pp. 114\u2013132). The sense is the natural resistance of the body against what is trying to divide it; it is a kind of reaction.",
+      "source_url": "https://www.mdpi.com/2409-9287/3/2/9",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "newtonian mechanics - Mathematical Proof of Force - Physics Stack ... I remembered reading an paper a while ago which tried to prove whether force actually exists, or if it a man made construct to aid our understanding of the world. However, I can't seem to find the article any more (Google typically comes up with people asking about centrifugal force). I think they went into momentum space and tried to derive force from there, with their result being that force turned out to be a man-made construct. My memory might be hazy though (otherwise I would have been able to find the paper again). In short, is force a man-made construct, and is it possible to derive via working in momentum space? $\\begingroup$Everything that is not a direct space or time measurment is a manmade construct. Since this is actually the only thing we can interact with this world and call reality: by displacements in space and time.$\\endgroup$ $\\begingroup$I think it depends on your definition of \"exists\". Physicists have a very simple approach to that. We accept that one can manipulate the physical world and that this manipulation can produce repeatable results. Whenever we find something that is repeatable to a high degree, we try to cast its \"easiest\" human made description into a law or a theory. That's all \"force\" is: a human description for a repeatable phenomenon. Technically, of course, there is an even more naive answer: if it can hurt you, then you better believe that it exits... and boy, can \"force\" hurt you!$\\endgroup$ 2 Answers 2 Force is a concept which describes, and can be used to manipulate, real phenomena that exist regardless of the existence of the human race. Newton's second law (Acceleration = Force / Mass) is a definition of force. Mass certainly exists, as do velocity and its time derivative, acceleration. There is no reason to suppose that force does not exist. Force describes the interaction between mass and motion. But, one could argue that without the human race, there would be no need for the concept of force. Mass and motion would continue to occupy a place in the universe, and any species that wished to investigate them probably would have to use a concept similar to force. All concepts are man-made constructs.",
+      "source_url": "https://physics.stackexchange.com/questions/183823/mathematical-proof-of-force",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Cunk on Physics Cunk on Physics Subhendu Mukherjee Content, data analytics consultant and trainer It is quite something to get ChatGPT to take a stab a British humour. Here I asked it to create a Philomena Cunk script (https://www.netflix.com/tudum/articles/what-is-cunk-on-earth-explained) on Centrifugal Force. And this is what I got Hello, I\u2019m Philomena Cunk, and this is Moments of Wonder. Today, I\u2019m going to talk about centrifugal force, which is one of the most important forces in the world, along with gravity, electricity, and the force that makes you want to eat crisps. Centrifugal force is the force that makes you feel like you\u2019re being pushed outwards when you\u2019re spinning around. For example, when you\u2019re on a roundabout, or a rollercoaster, or a washing machine. But what is centrifugal force? Where does it come from? And why does it hate us so much? To find out more, I spoke to an expert on forces, Professor Brian Cox. Cunk: So, Professor Cox, what is centrifugal force? Cox: Well, centrifugal force is not actually a real force. It\u2019s what we call a fictitious force, or a pseudo-force. Cunk: A fictitious force? Like Santa Claus? Cox: No, not like Santa Claus. A fictitious force is a force that only appears to exist because of the motion of the observer. Cunk: The motion of the observer? Like when you\u2019re watching a film and you feel like you\u2019re moving with the camera? Cox: No, not like that either. A fictitious force is a force that arises from the inertia of an object that is moving in a non-inertial frame of reference. Cunk: A non-inertial frame of reference? Like when you\u2019re drunk and you can\u2019t tell which way is up? Cox: No, not like that at all.",
+      "source_url": "https://www.linkedin.com/pulse/cunk-physics-subhendu-mukherjee",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Centrifugal Force: Definition, Formula & Units| StudySmarter 's third law of motion, every action will have an equal and opposite reaction. So then what could possibly act in the opposite direction of centripetal force. This is nothing but centrifugal force. Centrifugal force is called a pseudo force because it only exists due to the action of centripetal force. The centrifugal force will have a magnitude equal to that of the centripetal force in the opposite direction, which means the equation for calculating the centrifugal force is also: $$\\overset\\rightharpoonup{F_c}=mr\\omega^2$$ where mass is measured in \\(\\mathrm{kg}\\), radius in \\(\\mathrm{m}\\) and \\(\\omega\\) in \\(\\text{radians}/\\text{sec}\\). Let's now use these equations in a few examples. We will need to convert the unit for angular velocity from degrees/ sec into radians/ sec before using it in the above equation. This can be done using the following equation \\(\\mathrm{Deg}\\;\\times\\;\\pi/180\\;=\\;\\mathrm{Rad}\\) Centrifugal force examples Here we will go through an example in which we will apply the principles of centrifugal force. A \\(100\\;\\mathrm g\\) ball, attached to the end of a string, is spun around in a circle with an angular speed of \\(286\\;\\text{degrees}/\\text{sec}\\). If the string's length is \\(60\\;\\mathrm{cm}\\), what is the centrifugal force experienced by the ball? The ball experiences a centrifugal force of \\(125\\;\\mathrm N\\) It can also be looked at from another perspective. The centripetal force required to keep a ball of the above specifications in circular motion is equal to\\(125\\;\\mathrm N\\). Relative Centrifugal Force Units and Definition We spoke about how centrifugal force can be used to create artificial gravity. Well, we can also represent the centrifugal force generated by a spinning object relative to the amount of gravity we experience on earth Relative centrifugal force (RCF) is the radial force generated by a spinning object measured relative to the earth's gravitational field.",
+      "source_url": "https://www.studysmarter.co.uk/explanations/physics/physics-of-motion/centrifugal-force/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "reference frames - Why is centrifugal force considered fictitious ... Why is centrifugal force considered fictitious, when it's the one that feels real to us when we are moving in a circle? I understand the explanation regarding the reference frames: if our body is the reference frame, and it is rotating, a fictitious centrifugal force needs to be made up to cancel the centripetal force and explain why we appear to be stationary in relation to ourselves. However, if we are in a round up ride, we feel pushed againsts the wall, rather than towards the center of the ride, which would be the centripetal force. So if centrifugal force is the fictitious one, wouldn't that be like saying that the force we feel pushing us againsts the wall is only in our minds? $\\begingroup$You may not have given enough thought to what \"we feel pushed\" means. If you think through some more day-to-day instances you'll find that there are two different ways to interpret that phrase. One that is consistent with the way we talk about gravity and one consistent with the way we talk about everything else. There is a reason for this. How does it feel if a friend pushes you unexpectedly from behind; how does your body move and how do your loose limbs move. What happens if a sliding sidewalk stops unexpectedly (noting that it is only in contact with your feet).$\\endgroup$ 3 Answers 3 Suppose you're in a fast car and you stomp on the accelerator. You feel pressed into the back of the seat. In which direction are you accelerating? Forward, obviously, but you feel a force pushing against your back. Now you turn a corner. Your seatbelt, and maybe the door next to you, press against your side. In which direction are you accelerating? In this case, it's not so obvious, but it's inward, not outward. There is no centrifugal force here. In both cases, the side on which you feel the force is opposite the direction in which you are accelerating. $\\begingroup$So which force makes us feel pushed againsts the wall in a round up ride? From your answer I understand it is not the centrifugal force. Is that a third law partner to the centripetal force?",
+      "source_url": "https://physics.stackexchange.com/questions/213456/why-is-centrifugal-force-considered-fictitious-when-its-the-one-that-feels-rea",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "Centrifugal force | Definition, Examples, & Facts | Britannica A stone whirling in a horizontal plane on the end of a string tied to a post on the ground is continuously changing the direction of its velocity and, therefore, has an acceleration toward the post. This acceleration is equal to the square of its velocity divided by the length of the string. According to Newton\u2019s second law, an acceleration is caused by a force, which in this case is the tension in the string. If the stone is moving at a constant speed and gravity is neglected, the inward-pointing string tension is the only force acting on the stone. If the string breaks, the stone, because of inertia, will keep on going in a straight line tangent to its previous circular path; it does not move in the outward direction as it would if the centrifugal force were real. Although it is not a real force according to Newton\u2019s laws, the centrifugal-force concept is a useful one. For example, when analyzing the behaviour of the fluid in a cream separator or a centrifuge, it is convenient to study the fluid\u2019s behaviour relative to the rotating container rather than relative to the Earth; and, in order that Newton\u2019s laws be applicable in such a rotating frame of reference, an inertial force, or a fictitious force (the centrifugal force), equal and opposite to the centripetal force, must be included in the equations of motion. In a frame of reference attached to the whirling stone, the stone is at rest; to obtain a balanced force system, the outward-acting centrifugal force must be included. Centrifugal force can be increased by increasing either the speed of rotation or the mass of the body or by decreasing the radius, which is the distance of the body from the centre of the curve.",
+      "source_url": "https://www.britannica.com/science/centrifugal-force",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "Centripetal vs. Centrifugal (word origins) | WIRED Centripetal: This is the force needed to make something move in a circle. The force could actually be a number of things such as: friction, gravity, tension in a rope or any combination. Centripetal force is a name for a real force that has the role of making something move in a circle. This force is always directed towards the center of the circle of motion. So, the two key differences: centripetal is real and pushing towards the center of the circle. Centrifugal is fake and pushes away from the center. To look up their word-origins, I used the Online Etymology Dictionary. First I looked up \"centripetal\". The problem is that these two origins seem to say the same thing. Center and fall or flee, which I interpret as \"away from\". Not good. If you look at the other interpretations of petition, it says \"a request, solicitation\". Also, \"to require, seek, go forward\". This is better. Centripetal force is the force REQUIRED for circular motion. Centrifugal force is the force that makes something flee from the center. Wildfires were once rare across the Aloha State. But drought, invasive species, and human development have pushed Hawaii into a fiery new age. Matt Simon WIRED is where tomorrow is realized. It is the essential source of information and ideas that make sense of a world in constant transformation. The WIRED conversation illuminates how technology is changing every aspect of our lives\u2014from culture to business, science to design. The breakthroughs and innovations that we uncover lead to new ways of thinking, new connections, and new industries.",
+      "source_url": "https://www.wired.com/2009/04/centripetal-vs-centrifugal-word-origins/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "Three Fictitious Forces & One Real Force | Pumps & Systems -seeking\u201d) supplied by the string. It is this centripetal force that holds the can in a circular path. Similarly, the Earth\u2019s gravity provides the centripetal force that holds the moon in a nearly circular orbit. It is the friction between a car\u2019s tires and the road that provides the centripetal force necessary for it to round a curve. Suppose that a person is inside the whirling can. The can presses against his feet and provides the centripetal force that holds him in a circular path. From our frame of reference outside the can, it is clear that this effect is due to inertia or the tendency of an object to follow a straight line path (as dictated by Newton\u2019s first law). If, however, we change our frame of reference from inertial (stationary) to that of the rotating can, we lose our original perspective and experience something different. We will feel a force that pulls our bodies toward the bottom of the can. Although it feels real, it is not a force at all. It is the effect of inertia on our bodies. To observers in a rotating system, centrifugal force seems to be a real force. What about that machine we refer to as a centrifugal pump? Is its operation based on centrifugal force? If so, it must operate under false pretenses. Although mathematically complex, centrifugal pump operation is intuitively straightforward. The pump\u2019s impeller uses its vanes to channel or guide a fluid through an ever-increasing radius while containing it within a rotating system. This process causes the liquid to accelerate continuously as it navigates the radius and reaches some maximum velocity just as it reaches the impeller periphery. It then flows into the pump\u2019s volute where velocity is transformed into pressure. What then should we call such a pump? Maybe we could call it a radial accelerator pump or a rotational inertia pump or simply an impeller pump. Although many descriptions may be more accurate, I\u2019m afraid that we are stuck with centrifugal. Joe Evans is responsible for customer and employee education at PumpTech, Inc., a pump & packaged system manufacturer & distributor with branches throughout the Pacific Northwest.",
+      "source_url": "https://www.pumpsandsystems.com/three-fictitious-forces-one-real-force",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d13",
+      "text": "Does centrifugal force hold the Moon up? It might be a less natural force to use from a fundamental point of view of explaining why Nature works in the way that she does, but that does not mean that a fictitious force is not \"real\", that it is some kind of make-believe thing that will go away if we concentrate hard enough. The word \"fictitious\" merely means that the force vanishes when we shift our frame of reference to one that is inertial, because inertial frames hold a very special position in physics. But as a means of quantifying how the passengers in a bus lurch forward when the brakes are applied, a fictitious force is entirely appropriate and as real as any other\u2014in the frame of the bus. There it must be included in Newton's laws, as all forces must. Centrifugal force is such a fictitious force, invented purely to balance the books, when we analyse a situation in a rotating frame. Because circular motion involves acceleration (perhaps just a changing direction\u2014not necessarily a changing speed), a rotating frame is also accelerated, just as the bus was. We feel a centrifugal force when the bus goes around a corner. If we made a better choice of frame (say, the almost-inertial street frame), then we'd see the situation for what it is: the bus feels a simple force due to the friction of the road on its tyres, while the passengers feel no force at all\u2014until their natural constant velocity motion gets checked by the body of the bus, which pushes on them to get them around the corner along with the bus. But in the noninertial bus frame, there is a strange force that pushes sideways on the passengers until they press against the inside wall of the bus. So centrifugal force is a fictitious force invoked to make Newton's laws work in a rotating frame.",
+      "source_url": "https://math.ucr.edu/home/baez/physics/General/Centrifugal/centri.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d14",
+      "text": "The Forbidden F-Word A centrifugal or outward net force simply does not exist. No physical object could ever be identified that was pushing you outwards. And if there was a physical object pushing or pulling you outwards (e.g., in the rightwards direction when taking a left-hand turn), then you certainly would not turn in the circle that you are turning in. An object moving n circular motion is at all times moving tangent to the circle; the velocity vector for the object is directed tangentially. To make the circular motion, there must be a net or unbalanced force directed towards the center of the circle in order to deviate the object from its otherwise tangential path. This path is an inward force - a centripetal force. That is spelled c-e-n-t-r-i-p-e-t-a-l, with a \"p.\" The other word - centrifugal, with an \"f\" - will be considered our forbidden F-word. Simply don't use it and please don't believe in it. Flickr Physics Photo Pilots at an air show perform a loop-the-loop. The pilots are oriented upside down at the top of the loop. They do not fall out due to inertia and centripetal force. Their natural tendency is to continue tangent to the curved path, but the gravitational force (and perhaps some normal force) pushes them center-ward. This centripetal force allows for circular motion. We Would Like to Suggest ... Sometimes it isn't enough to just read about it. You have to interact with it! And that's exactly what you do when you use one of The Physics Classroom's Interactives. We would like to suggest that you combine the reading of this page with the use of our Race Track Interactive. You can find this in the Physics Interactives section of our website.",
+      "source_url": "https://www.physicsclassroom.com/class/circles/Lesson-1/The-Forbidden-F-Word",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d15",
+      "text": "Centripetal force vs centrifugal force | SkiTalk | Ski reviews, Ski ... The term you are looking for is 'fictitious force'. https://en.wikipedia.org/wiki/Fictitious_force The word 'fictitious' here is a technical physics term and is NOT synonymous with 'not real'. People who attempt to simplify this concept are the ones creating the problem. So in common usage I would say centripetal forces are the actual forces that act on us in a turn, whereas centrifugal (forces) are the sensations we perceive while being acted on by centripetal forces but are not real forces? Does that make sense? You're trying to dip your toe into the inertial reference frame while being inside a rotating one. Your definition is usable IF and only if you are very very pedantic about who what and where is turning - but it doesn't simplify anything. Skiing the powder Centripital is an adjective meaning towards the centre, e.g. towards the centre of the circle matching the arc your skis are making. It can be used to describe the force acting on your skis at the ski/snow interface in any reference frame. Centrifugal is an adjective meaning fleeing or away from the centre, e.g. away from the centre of the circle matching the arc your skis are making. It can be used to describe the force acting on the snow at the ski/snow interface in any reference frame. Usually, we choose the biggest thing around as our frame of reference, and consider it stationary, e.g the ground. All of Newton's laws work fine (so long as we are not moving near the speed of light). They work for forces applied at interfaces like the ski/snow interface and for body forces like gravity deemed to exist from studying falling objects over centuries. Sometimes we can simplify the math by choosing a different frame of reference, e.g. a train traveling at constant speed down a track. All of Newton's laws work fine (so long as we are not moving near the speed of light).",
+      "source_url": "https://www.skitalk.com/threads/centripetal-force-vs-centrifugal-force.14136/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d16",
+      "text": "Centrifugal force is fictitious force.Why is it called fictitious force ... 1 Expert Answer Let's assume that you are driving a truck with constant velocity (same speed and same direction). Next to you on the truck seat/bench is a basketball. While you are buckled in, the basketball is not. As you and the truck approach an intersection, you decide to make a left turn. As you make the left turn, the basketball on the truck bench begins to roll to the right, away from you, towards the passenger door. The basketball makes contact with the door and the door stops the basketball as you continue the left turn. So what happened to the truck and the basketball in terms of forces? Newtons 2nd law states that only a net force can change the constant velocity of an object. For the truck, the net force that changed its velocity is the force of friction between the tires and the road. Since you were attached/glued/part of the truck by holding on to the steering wheel and buckled in by your seat belt, you had no choice but to move left with the truck. However, the basketball moved to the right, as if some \"net force\" changed its motion. This so called \"net force\" is known as the centrifugal force. In reality, the basketball was following Newton's 1st law of motion. The 1st law states that objects at rest or moving with constant velocity want to keep doing that, to be at rest or to move with constant velocity until a net force changes their condition. The basketball was not part of the truck like the driver. So the basketball continues to move in the original straight line of the truck until it makes contact with the door and then the door applies a force to it making it move to the left. The ball rolled to the right due to its inertia or mass. The ball \"wanted\" to continue in a straight line with constant speed. There was not a force that made it move to the right. Inertia made the basketball continue in a straight line and thus appear to move right as if some force moved it. That is why the centrifugal force is fictitious. It does not exist. From a frame of reference point of view, the truck moved left compared to the road while the basketball did not deviate from its straight line path compared to the road.",
+      "source_url": "https://www.wyzant.com/resources/answers/178331/centrifugal_force_is_fictitious_force_why_is_it_called_fictitious_force",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses the application of centrifugal force in a microreactor system, implying its existence and utility in a practical context."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions centrifugal force as a term in a momentum equation and discusses simulations excluding its effect, directly addressing its existence and role in physics."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explains centrifugal force as an inertial force, acknowledging its existence in certain reference frames and its perceived reality by passengers, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Discusses Descartes' theory of centrifugal effects, linking it to the tendency of bodies to move away from the center, directly addressing the concept's historical existence."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions centrifugal movements as examples of 'dead forces' in Leibniz's philosophy, indicating a discussion of its existence and nature within a philosophical framework."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Discusses the existence of 'force' in general and mentions centrifugal force as a common search result, providing tangential but relevant context."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly states centrifugal force is a fictitious or pseudo-force and explains the sensation it causes, clearly addressing its existence and nature."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Defines centrifugal force as a pseudo force, explains its relationship to centripetal force, and provides its formula, directly addressing its existence and properties."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explores the perception of centrifugal force and its status as fictitious, discussing its role in rotating frames and the sensation it creates, directly addressing the query."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explains centrifugal force as not real according to Newton's laws but useful, detailing its inclusion in rotating frames and its dependence on speed and mass."
+        },
+        {
+          "doc_id": "d11",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States centrifugal force is 'fake' and pushes away from the center, contrasting it with centripetal force, directly addressing its existence and nature."
+        },
+        {
+          "doc_id": "d12",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Asserts centrifugal force feels real but is an effect of inertia, not a force itself, and discusses its role in rotating systems, directly addressing the query."
+        },
+        {
+          "doc_id": "d13",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explains centrifugal force as fictitious, invoked to make Newton's laws work in rotating frames, and clarifies that 'fictitious' doesn't mean 'not real' in context."
+        },
+        {
+          "doc_id": "d14",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "States a centrifugal or outward net force simply does not exist, explaining that centripetal force enables circular motion, directly answering the query."
+        },
+        {
+          "doc_id": "d15",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Discusses centrifugal force as a sensation perceived during centripetal force action, clarifying it's a 'fictitious force' in physics, not 'not real'."
+        },
+        {
+          "doc_id": "d16",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Defines centrifugal force as fictitious, explaining it arises from inertia rather than an actual force, directly addressing its existence."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "A user-friendly microreactor was implemented by inducing fluid flow using centrifugal force.",
+            "The alginate microsphere generation mechanism involves centrifugal gravity force-induced drag force exceeding surface tension-induced counteracting force."
+          ],
+          "reason": "Extracted facts about the application and mechanism of centrifugal force in a microreactor system."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The momentum equation includes terms for Coriolis force and centrifugal force.",
+            "Flow fields were considered excluding the centrifugal effect (Fr = 0)."
+          ],
+          "reason": "Extracted facts mentioning centrifugal force within the context of a momentum equation and simulation parameters."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Centrifugal force is sometimes called an inertial force, implying it is as fundamental as inertia.",
+            "Centrifugal force exists in some reference frames (e.g., moving automobiles) but not others.",
+            "College texts refer to centrifugal force as a pseudoforce.",
+            "Passengers feel pressed outward by centrifugal force when a car rounds a curve, which increases with speed."
+          ],
+          "reason": "Extracted facts describing centrifugal force as an inertial or pseudoforce, its frame-dependent existence, and perceived effects."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Descartes' second law of nature mentions the 'center-fleeing' (centrifugal) tendencies of circularly moving bodies.",
+            "Descartes stated that bodies moving in a circle always tend to move away from the center.",
+            "The second law might correspond to the modern scientific dissection of centrifugal force effects."
+          ],
+          "reason": "Extracted historical context on Descartes' concept of centrifugal tendencies in relation to circular motion."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Leibniz considered centrifugal and centripetal movements as examples of dead forces.",
+            "Leibniz believed the driving force, consisting of vis viva, was real and substantial."
+          ],
+          "reason": "Extracted Leibniz's philosophical view on centrifugal force as a 'dead force' compared to 'living force'."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Force describes the interaction between mass and motion.",
+            "Force can be argued as a human-made construct to aid understanding of repeatable phenomena."
+          ],
+          "reason": "Extracted general philosophical points about the existence and conceptualization of 'force', relevant to the query about centrifugal force."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Centrifugal force is not actually a real force; it is called a fictitious force or a pseudo-force.",
+            "Centrifugal force is the force that makes you feel pushed outwards when spinning around.",
+            "Examples of where centrifugal force is felt include roundabouts, rollercoasters, and washing machines."
+          ],
+          "reason": "Extracted expert opinion and common examples illustrating centrifugal force as a fictitious or pseudo-force."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Centrifugal force is called a pseudo force because it exists due to the action of centripetal force.",
+            "The magnitude of centrifugal force equals that of the centripetal force in the opposite direction.",
+            "Relative centrifugal force (RCF) is the radial force generated by a spinning object relative to Earth's gravity."
+          ],
+          "reason": "Extracted facts defining centrifugal force as a pseudo-force, its relation to centripetal force, and the concept of RCF."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Centrifugal force is considered fictitious because it vanishes when shifting to an inertial frame of reference.",
+            "In a rotating frame of reference, a fictitious centrifugal force is needed to cancel centripetal force.",
+            "The sensation of being pushed against a wall in a ride is often attributed to centrifugal force."
+          ],
+          "reason": "Extracted explanations on why centrifugal force is considered fictitious, its role in rotating frames, and perceived sensations."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Centrifugal force is not a real force according to Newton's laws.",
+            "If a string breaks, a stone continues in a straight line tangent to its path, not outward.",
+            "The centrifugal force concept is useful for analyzing behavior relative to a rotating container, like in a centrifuge.",
+            "In a rotating frame, an inertial or fictitious force (centrifugal force) must be included for Newton's laws to apply."
+          ],
+          "reason": "Extracted facts stating centrifugal force is not real per Newton's laws, illustrating its absence with a broken string, and noting its utility in rotating frames."
+        },
+        {
+          "doc_id": "d11",
+          "key_facts": [
+            "Centrifugal force is fake and pushes away from the center.",
+            "Centripetal force is the force required for circular motion."
+          ],
+          "reason": "Extracted definitions contrasting centripetal force (required for circular motion) with centrifugal force (fake, pushing away from the center)."
+        },
+        {
+          "doc_id": "d12",
+          "key_facts": [
+            "Centrifugal force feels real but is not a force; it is the effect of inertia.",
+            "To observers in a rotating system, centrifugal force seems to be a real force.",
+            "Centrifugal pumps operate within a rotating system, channeling fluid through an increasing radius."
+          ],
+          "reason": "Extracted facts explaining centrifugal force as an effect of inertia, its appearance in rotating systems, and its namesake pump."
+        },
+        {
+          "doc_id": "d13",
+          "key_facts": [
+            "Centrifugal force is a fictitious force invoked to make Newton's laws work in a rotating frame.",
+            "A fictitious force is not 'make-believe' but vanishes when shifting to an inertial frame of reference.",
+            "Fictitious forces are appropriate for quantifying effects within a specific frame, like a rotating bus."
+          ],
+          "reason": "Extracted facts defining centrifugal force as fictitious, its role in rotating frames, and its 'realness' within that frame."
+        },
+        {
+          "doc_id": "d14",
+          "key_facts": [
+            "A centrifugal or outward net force simply does not exist.",
+            "No physical object could be identified that was pushing you outwards.",
+            "Centripetal force is the inward force required to deviate an object from its tangential path, enabling circular motion."
+          ],
+          "reason": "Extracted facts asserting the non-existence of a physical centrifugal force and defining the role of centripetal force."
+        },
+        {
+          "doc_id": "d15",
+          "key_facts": [
+            "Centrifugal forces are sensations perceived while being acted on by centripetal forces, but are not real forces.",
+            "The term 'fictitious force' is a technical physics term, not synonymous with 'not real'.",
+            "Centrifugal is an adjective meaning fleeing or away from the center."
+          ],
+          "reason": "Extracted facts distinguishing perceived centrifugal sensations from real forces and clarifying the term 'fictitious force'."
+        },
+        {
+          "doc_id": "d16",
+          "key_facts": [
+            "Centrifugal force is a fictitious force because it arises from inertia, not an external force.",
+            "Inertia causes an object to continue in a straight line, making it appear to move outward in a rotating frame.",
+            "The 'net force' that appears to change motion in a rotating frame is known as the centrifugal force."
+          ],
+          "reason": "Extracted facts explaining centrifugal force as fictitious, attributing its apparent effect to inertia in rotating frames."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions centrifugal force as a mechanism in a microreactor, implying its use, but doesn't directly address its existence as a fundamental force.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Includes centrifugal force in a momentum equation and simulation, suggesting its consideration in physics models, but doesn't confirm its fundamental existence.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly discusses centrifugal force as a pseudoforce, its frame-dependent existence, and perceived effects, indicating it's a concept used in physics.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "References Descartes' concept of 'center-fleeing' tendencies, which relates to centrifugal effects, but doesn't explicitly confirm the existence of centrifugal force as understood today.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions Leibniz's view of centrifugal force as a 'dead force,' indicating it was a concept considered, but not necessarily as a real, fundamental force.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Discusses the general nature of 'force' as a construct but does not specifically address the existence or nature of centrifugal force.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "States centrifugal force is not real but a fictitious/pseudo-force, explains the sensation, and provides examples, directly addressing its nature.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Defines centrifugal force as a pseudo-force, explains its relation to centripetal force, and mentions RCF, directly addressing its nature.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Explains centrifugal force as fictitious, its role in rotating frames, and perceived sensations, directly addressing its existence and nature.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "Asserts centrifugal force is not real per Newton's laws, explains its utility in rotating frames, and provides a counter-example, directly addressing its existence.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d11",
+          "verdict": "supports",
+          "reason": "Clearly states centrifugal force is 'fake' and contrasts it with the real centripetal force required for circular motion.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d12",
+          "verdict": "supports",
+          "reason": "Explains centrifugal force as an effect of inertia, not a real force, and notes its appearance in rotating systems.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d13",
+          "verdict": "supports",
+          "reason": "Defines centrifugal force as fictitious, invoked for rotating frames, and clarifies its 'realness' within that specific frame.",
+          "confidence": 0.91
+        },
+        {
+          "doc_id": "d14",
+          "verdict": "supports",
+          "reason": "Directly states a centrifugal or outward net force does not exist and defines the role of centripetal force.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d15",
+          "verdict": "supports",
+          "reason": "Distinguishes perceived centrifugal sensations from real forces, clarifying that it's not a real force but a sensation.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d16",
+          "verdict": "supports",
+          "reason": "Explains centrifugal force as fictitious, arising from inertia, and appearing in rotating frames, directly addressing its nature.",
+          "confidence": 0.93
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d6"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_fictitious_force",
+            "doc_ids": [
+              "d3",
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d11",
+              "d12",
+              "d13",
+              "d14",
+              "d15",
+              "d16"
+            ],
+            "summary": "Multiple documents directly support the understanding that centrifugal force is a fictitious or pseudo-force, arising from inertia or existing in rotating frames of reference, rather than a real physical force. They often contrast it with centripetal force and provide explanations for perceived effects."
+          },
+          {
+            "label": "contextual_mention_application_history",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "These documents partially support by mentioning centrifugal force in specific contexts like microreactors, momentum equations, historical concepts (Descartes), or philosophical views (Leibniz), but do not directly address its fundamental nature as a force."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence consistently describes centrifugal force as a fictitious or pseudo-force, explaining its nature and utility in rotating frames. Historical and application-based mentions complement this understanding.",
+        "clusters": [
+          {
+            "label": "centrifugal_force_is_fictitious",
+            "doc_ids": [
+              "d3",
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d11",
+              "d12",
+              "d13",
+              "d14",
+              "d15",
+              "d16"
+            ],
+            "summary": "Multiple sources define centrifugal force as fictitious or a pseudo-force, arising from inertia or existing in rotating frames, contrasting it with real centripetal force."
+          },
+          {
+            "label": "historical_and_application_context",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "These documents mention centrifugal force in historical contexts (Descartes, Leibniz) and applications (microreactors, simulations), complementing the understanding of its conceptualization and use."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence consistently supports the understanding of centrifugal force as fictitious, with complementary contextual mentions. No significant conflicts or insufficient support exist."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Centrifugal force is understood as a fictitious or pseudo-force that arises from inertia or exists within rotating frames of reference, rather than being a real physical force. It is often contrasted with centripetal force. Documents also mention centrifugal force in historical contexts and specific applications.",
+        "citations": [
+          "d3",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16",
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence consistently defines centrifugal force as fictitious and provides complementary contextual information, with no significant conflicts or lack of support."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately describes centrifugal force as fictitious or pseudo, supported by multiple citations. It correctly contrasts it with centripetal force and mentions historical/application contexts."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 28455,
+      "completion_tokens": 5256,
+      "total_tokens": 33711
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 5256,
+        "completion_tokens": 1219,
+        "total_tokens": 6475
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 5211,
+        "completion_tokens": 1862,
+        "total_tokens": 7073
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 2001,
+        "completion_tokens": 1127,
+        "total_tokens": 3128
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2805,
+        "completion_tokens": 422,
+        "total_tokens": 3227
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 3174,
+        "completion_tokens": 301,
+        "total_tokens": 3475
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 812,
+        "completion_tokens": 44,
+        "total_tokens": 856
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 961,
+        "completion_tokens": 184,
+        "total_tokens": 1145
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 8235,
+        "completion_tokens": 97,
+        "total_tokens": 8332
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:00:54.095590",
+        "prompt_tokens": 5256,
+        "completion_tokens": 1219,
+        "total_tokens": 6475,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:00.590965",
+        "prompt_tokens": 5211,
+        "completion_tokens": 1862,
+        "total_tokens": 7073,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:06.083545",
+        "prompt_tokens": 2001,
+        "completion_tokens": 1127,
+        "total_tokens": 3128,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:09.736793",
+        "prompt_tokens": 2805,
+        "completion_tokens": 422,
+        "total_tokens": 3227,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:11.580345",
+        "prompt_tokens": 3174,
+        "completion_tokens": 301,
+        "total_tokens": 3475,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:12.809027",
+        "prompt_tokens": 812,
+        "completion_tokens": 44,
+        "total_tokens": 856,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:14.478006",
+        "prompt_tokens": 961,
+        "completion_tokens": 184,
+        "total_tokens": 1145,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:16.145372",
+        "prompt_tokens": 8235,
+        "completion_tokens": 97,
+        "total_tokens": 8332,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:00:49.589367",
+  "last_updated_at": "2026-04-17T18:01:16.146242"
+}

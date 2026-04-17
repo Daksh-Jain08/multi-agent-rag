@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0466",
+  "query": "If you have good credit, and pay your bills off every month, how do credit card companies make money off you? Wouldn't they prefer customers with bad credit?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Credit where credit is due | Darwin's Money are perfect for people with bad credit or even those who haven\u0393\u00c7\u00d6t established credit. Bad-credit credit cards will come with a higher annual percentage rate (APR), so it\u0393\u00c7\u00d6s important to pay off the balance every month. Doing this will show lenders that you can manage your debt responsibly. The key to paying off your balance each month is to never spend more than you can afford. Work out how much money you can pay on the bill and spend within that limit. Think of these cards as second chance cards. Treat a bad-credit credit card like a trial period of",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2010-06-06"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Saving Money With A Credit Card | CreditShout off your balance each month. If you carry credit card debt, concentrate on paying it off first. Not only do these steps help you to save money, they will also ultimately help you improve your credit rating. You will be paying off your bills on time and using your credit card to build up bonus points. Your credit card company will look upon you as a good customer and a good credit risk. This will be reflected on your credit score and can help you down the road when it is time for a major purchase, such as a home.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1992-09-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How do you pay off credit card debt lot of credit card debt then moved from the US to Europe and a credit card company starts to call you? Pay off the debt. Pay the debts that you owe. Don't you feel responsibility for the debts that you incur? Why is it important to pay your credit card bills on time every month? when it takes you more than a month to pay off your credit card debt it makes your credit score higher How do you get credit card debt removed from credit report? Pay the debt. When you die do your children have to pay your",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "580 Credit Score. Is 580 a Good Credit Score or Bad? - BestLoansProviders 580 Credit Score. Is 580 a Good Credit Score or Bad? - BestLoansProviders store. The only catch is that they have high-interest rates if you\u0393\u00c7\u00d6re unable to make your payments on time. By only purchasing items that you can pay in full, you won\u0393\u00c7\u00d6t accumulate credit card debt. If you\u0393\u00c7\u00d6re currently in debt due to credit card misusage, then try to pay the minimum that\u0393\u00c7\u00d6s due each month. Paying off your credit on time is the first indicator of financial responsibility. We suggest that you apply for a personal loan, and use the money from that loan to help pay off your credit card debt. Usually, credit companies have interest rates as low",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1994-11-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Fastest Way to Build Credit Isn't What You Think - IoT Worm The Fastest Way to Build Credit Isn't What You Think - IoT Worm credit card, don\u0393\u00c7\u00d6t let them down! The last thing you want to do is rack up a huge credit card bill\u0393\u00c7\u00aaand not be able to pay it off every month. Most credit card companies will ask for a minimum payment every month on a portion of your total credit card debt. It\u0393\u00c7\u00d6s extremely important for you to pay that minimum amount off by the due date. If you don\u0393\u00c7\u00d6t make even just a single payment on time, it could take a huge toll on your credit score. You could do more harm than good with a credit card when you  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2011"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "This document discusses credit cards for people with bad credit and the importance of paying off balances, but doesn't explain how credit card companies profit from good credit customers."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document focuses on saving money and improving credit scores by paying bills on time. It mentions credit card companies viewing customers as 'good' but doesn't explain their profit model."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document is about paying off credit card debt and its impact on credit scores. It does not address how credit card companies make money from customers with good credit."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document discusses credit scores and paying off credit card debt. It mentions high-interest rates for late payments but doesn't explain how companies profit from good credit customers."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document emphasizes paying credit card bills on time to avoid damaging credit scores. It mentions minimum payments but doesn't explain the profit mechanisms for good credit customers."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Bad-credit credit cards typically have a higher annual percentage rate (APR).",
+            "Paying off the balance every month demonstrates responsible debt management to lenders.",
+            "It is important to never spend more than you can afford to pay on your bill."
+          ],
+          "reason": "Extracted facts about APRs on bad-credit cards and the importance of paying off balances monthly, which are relevant to how credit card companies operate and customer behavior."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Paying bills on time and using a credit card to build bonus points can improve your credit rating.",
+            "A credit card company may view customers who pay on time as good customers and good credit risks."
+          ],
+          "reason": "Extracted facts about how timely payments and using credit cards for points can improve credit ratings and how companies perceive such customers."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "It is important to pay credit card bills on time every month.",
+            "Taking more than a month to pay off credit card debt can make your credit score higher."
+          ],
+          "reason": "Extracted facts about the importance of paying bills on time and the impact of taking longer to pay off debt on credit scores, which are relevant to credit card company operations."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Credit cards with low credit scores often have high-interest rates if payments are not made on time.",
+            "Paying off credit in full prevents accumulating credit card debt.",
+            "Paying the minimum due each month is suggested for those in credit card debt."
+          ],
+          "reason": "Extracted facts about high-interest rates on cards for lower credit scores and strategies for managing debt, which are relevant to how credit card companies profit and manage risk."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Most credit card companies require a minimum monthly payment on a portion of the total debt.",
+            "Failing to make even a single payment on time can significantly impact a credit score."
+          ],
+          "reason": "Extracted facts about minimum payments and the consequences of late payments on credit scores, which are relevant to credit card company policies and customer risk."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions higher APRs for bad-credit cards and responsible debt management, hinting at profit mechanisms but not directly answering how they profit from good customers.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Suggests companies view timely payers as good risks, but doesn't explain how they profit from these customers, only that they are preferred.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Focuses on the importance of timely payments and the impact of longer payoff times on credit scores, not on how companies profit from good customers.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Discusses high interest rates for lower credit scores and debt management strategies, indirectly touching on profit but not explaining profit from good customers.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Explains minimum payments and the impact of late payments on credit scores, which is not directly related to how credit card companies profit from good customers.",
+          "confidence": 0.45
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_profit_mechanisms",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents mention higher APRs and interest rates for lower credit scores, indirectly touching on profit, but do not fully explain profit from good customers."
+          },
+          {
+            "label": "customer_perception_and_risk",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document suggests credit card companies view timely payers as good risks, but does not detail how this translates to profit."
+          },
+          {
+            "label": "irrelevant_focus",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents focus on payment importance and consequences of late payments, not on profit generation from good customers."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain direct contradictions. Some documents are irrelevant to the core question of how credit card companies profit from good customers, while others offer partial insights into related mechanisms like APRs and customer risk perception.",
+        "clusters": [
+          {
+            "label": "partial_profit_mechanisms",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Documents mention higher APRs and interest rates for lower credit scores, indirectly touching on profit, but do not fully explain profit from good customers."
+          },
+          {
+            "label": "customer_perception_and_risk",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document suggests credit card companies view timely payers as good risks, but does not detail how this translates to profit."
+          },
+          {
+            "label": "irrelevant_focus",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents focus on payment importance and consequences of late payments, not on profit generation from good customers."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided evidence is sparse and only partially relevant, failing to offer a comprehensive explanation of how credit card companies profit from good customers. Therefore, a reliable answer cannot be formed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided evidence is sparse and only partially relevant, failing to offer a comprehensive explanation of how credit card companies profit from good customers. Therefore, a reliable answer cannot be formed.",
+        "final_reasoning": "The evidence does not sufficiently explain how credit card companies profit from good customers, necessitating abstention."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but has no citations. The documents do not explain how credit card companies make money from customers with good credit who pay their bills off monthly, nor do they address whether companies prefer customers with bad credit."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9706,
+      "completion_tokens": 2171,
+      "total_tokens": 11877
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1592,
+        "completion_tokens": 409,
+        "total_tokens": 2001
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1547,
+        "completion_tokens": 565,
+        "total_tokens": 2112
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 971,
+        "completion_tokens": 374,
+        "total_tokens": 1345
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1134,
+        "completion_tokens": 282,
+        "total_tokens": 1416
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1393,
+        "completion_tokens": 282,
+        "total_tokens": 1675
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 687,
+        "completion_tokens": 54,
+        "total_tokens": 741
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 846,
+        "completion_tokens": 95,
+        "total_tokens": 941
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1536,
+        "completion_tokens": 110,
+        "total_tokens": 1646
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:06.153153",
+        "prompt_tokens": 1592,
+        "completion_tokens": 409,
+        "total_tokens": 2001,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:08.694404",
+        "prompt_tokens": 1547,
+        "completion_tokens": 565,
+        "total_tokens": 2112,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:10.539135",
+        "prompt_tokens": 971,
+        "completion_tokens": 374,
+        "total_tokens": 1345,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:11.912252",
+        "prompt_tokens": 1134,
+        "completion_tokens": 282,
+        "total_tokens": 1416,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:13.406271",
+        "prompt_tokens": 1393,
+        "completion_tokens": 282,
+        "total_tokens": 1675,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:14.533288",
+        "prompt_tokens": 687,
+        "completion_tokens": 54,
+        "total_tokens": 741,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:15.698491",
+        "prompt_tokens": 846,
+        "completion_tokens": 95,
+        "total_tokens": 941,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:16.895844",
+        "prompt_tokens": 1536,
+        "completion_tokens": 110,
+        "total_tokens": 1646,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:42:04.298586",
+  "last_updated_at": "2026-04-17T19:42:16.896359"
+}

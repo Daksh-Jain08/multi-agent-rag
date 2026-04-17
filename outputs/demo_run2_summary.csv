@@ -1,2 +1,0 @@
-id,query,gt_conflict_type,pred_conflict_type,gt_should_abstain,pred_should_abstain,type_match,abstain_match,judge_correct_type,judge_correct_abstain,grounded,behavior_adherence,score,run_id,timestamp
-#0002,Can humans live to be over 150 years old?,conflicting,conflicting,False,True,True,False,True,False,True,True,0.7,demo_run2,2026-04-16T23:10:43

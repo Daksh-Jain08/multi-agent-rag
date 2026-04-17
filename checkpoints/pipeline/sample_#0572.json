@@ -1,0 +1,358 @@
+{
+  "sample_id": "#0572",
+  "query": "Which film has Rose Byrne as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Rose Hill (film) Rose Hill is a 1997 American Western film, directed by Christopher Cain and written by Earl W. Wallace. The film stars Jennifer Garner, Jeffrey D. Sams, Vera Farmiga, Justin Chambers, and Zak Orth. It is based on Julie Garwood's 1995 novel \"For the Roses\". The film premiered on CBS on April 20, 1997. Four Boston street urchins adopt a young infant that they discovered in a wagon when they made their escape from the police. They named the baby girl Mary Rose. As they grow up together, the five eventually settle in Blue Belle, Montana. In Blue",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2007-11-24"
+    },
+    {
+      "doc_id": "d2",
+      "text": "she must look after herself more, rather than worrying about everyone else. Noel (film) Noel is a 2004 Christmas-themed drama film written by David Hubbard and directed by Chazz Palminteri. It stars Pen\u251c\u2310lope Cruz, Susan Sarandon, Paul Walker, Alan Arkin, Daniel Sunjata and an uncredited Robin Williams. It was filmed in Montreal, Quebec, Canada. The film centers on five strangers who are linked together \u0393\u00c7\u00f4 and who meet each other at separate times \u0393\u00c7\u00f4 by a series of events that take place on Christmas Eve in New York. The main character is Rose (Susan Sarandon), a woman who is struggling",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1990-08-06"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Lily Collins as \"perfectly charming\" but complains \"entire film is weighed down by such sloppy storytelling and by equally disordered characterisation\" and gives the film 1 out 5 stars calling the film awful, but pretty. Filming began in May 2013 in Toronto before moving to Dublin. Love, Rosie (film) Love, Rosie is a 2014 romantic comedy-drama film directed by and written by Juliette Towhidi, based on the 2004 novel \"Where Rainbows End\" by Irish author Cecelia Ahern. The film stars Lily Collins, Sam Claflin, Tamsin Egerton, Suki Waterhouse, Jaime Winstone and Lily Laight. Alex and Rosie have been best friends",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Noel (film) Noel is a 2004 Christmas-themed drama film written by David Hubbard and directed by Chazz Palminteri. It stars Pen\u251c\u2310lope Cruz, Susan Sarandon, Paul Walker, Alan Arkin, Daniel Sunjata and an uncredited Robin Williams. It was filmed in Montreal, Quebec, Canada. The film centers on five strangers who are linked together \u0393\u00c7\u00f4 and who meet each other at separate times \u0393\u00c7\u00f4 by a series of events that take place on Christmas Eve in New York. The main character is Rose (Susan Sarandon), a woman who is struggling to cope with caring for her mother, an Alzheimer's patient. Meanwhile, Nina",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "van. Welcome to the Roses Welcome to the Roses (original title: Bienvenue chez les Rozes) is a 2003 French comedy film, written and directed by Francis Palluau. It stars Jean Dujardin, Carole Bouquet and Lor\u251c\u00e1nt Deutsch. Two armed convicts on the run, one wounded, take hostage the middle-class Roze family in a pleasant French suburb. TV news reports that the two guards escorting them have been shot dead. Father, mother and 18-year-old daughter show a high degree of sympathy for and cooperation with their captors. Wounds are dressed, clothes washed, a good dinner served, fine wines drunk and separately the  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document mentions 'Rose Hill' but lists Jennifer Garner and Vera Farmiga as stars, not Rose Byrne. It is not relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document mentions a film titled 'Noel' and a character named Rose, but does not mention Rose Byrne as a cast member. It is not relevant."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document explicitly states that the film 'Love, Rosie' stars Lily Collins, Sam Claflin, Tamsin Egerton, Suki Waterhouse, Jaime Winstone, and Lily Laight. It does not mention Rose Byrne."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document describes the film 'Noel' and mentions a character named Rose, but does not list Rose Byrne in the cast. It is not relevant."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses the film 'Welcome to the Roses' and lists Jean Dujardin, Carole Bouquet, and Lor\u00e1nt Deutsch as stars. Rose Byrne is not mentioned, making it irrelevant."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [],
+          "reason": "The document mentions a film titled \"Rose Hill\" but does not list Rose Byrne as a cast member. The cast listed includes Jennifer Garner, Jeffrey D Sams, Vera Farmiga, Justin Chambers, and Zak Orth."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document describes the film \"Noel\" and mentions a character named Rose played by Susan Sarandon. It does not mention Rose Byrne as a cast member."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "The document mentions the film \"Love, Rosie\" and lists its cast, which includes Lily Collins, Sam Claflin, Tamsin Egerton, Suki Waterhouse, Jaime Winstone, and Lily Laight. Rose Byrne is not mentioned."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document describes the film \"Noel\" and mentions a character named Rose played by Susan Sarandon. It does not mention Rose Byrne as a cast member."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "The document describes the film \"Welcome to the Roses\" and lists its stars as Jean Dujardin, Carole Bouquet, and Lor\u00e1nt Deutsch. Rose Byrne is not mentioned."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The document mentions a film titled \"Rose Hill\" but explicitly states Rose Byrne is not in its cast. The listed cast does not include her.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document discusses the film \"Noel\" and mentions a character named Rose, but it does not mention Rose Byrne as a cast member.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document lists the cast for \"Love, Rosie\" and Rose Byrne is not among the mentioned actors.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document describes the film \"Noel\" and mentions a character named Rose played by Susan Sarandon. It does not mention Rose Byrne as a cast member.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document describes \"Welcome to the Roses\" and lists its stars, none of whom are Rose Byrne.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "no_relevant_cast_mentions",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the documents mention Rose Byrne as a cast member in the films discussed."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents are irrelevant as they do not mention Rose Byrne in any cast lists, indicating a lack of relevant information rather than disagreement.",
+        "clusters": [
+          {
+            "label": "no_relevant_cast_mentions",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the documents mention Rose Byrne as a cast member in the films discussed."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant and do not mention Rose Byrne in any cast lists. There is no supporting evidence to answer the query."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant and do not mention Rose Byrne in any cast lists. There is no supporting evidence to answer the query.",
+        "final_reasoning": "All provided documents are irrelevant and do not mention Rose Byrne in any cast lists. There is no supporting evidence to answer the query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as no relevant information about Rose Byrne was found. Citations are missing."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8363,
+      "completion_tokens": 1665,
+      "total_tokens": 10028
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1464,
+        "completion_tokens": 421,
+        "total_tokens": 1885
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1419,
+        "completion_tokens": 360,
+        "total_tokens": 1779
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 793,
+        "completion_tokens": 358,
+        "total_tokens": 1151
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 965,
+        "completion_tokens": 156,
+        "total_tokens": 1121
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1134,
+        "completion_tokens": 143,
+        "total_tokens": 1277
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 490,
+        "completion_tokens": 45,
+        "total_tokens": 535
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 640,
+        "completion_tokens": 93,
+        "total_tokens": 733
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 89,
+        "total_tokens": 1547
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:50.281749",
+        "prompt_tokens": 1464,
+        "completion_tokens": 421,
+        "total_tokens": 1885,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:52.014151",
+        "prompt_tokens": 1419,
+        "completion_tokens": 360,
+        "total_tokens": 1779,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:53.519387",
+        "prompt_tokens": 793,
+        "completion_tokens": 358,
+        "total_tokens": 1151,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:54.842725",
+        "prompt_tokens": 965,
+        "completion_tokens": 156,
+        "total_tokens": 1121,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:56.406929",
+        "prompt_tokens": 1134,
+        "completion_tokens": 143,
+        "total_tokens": 1277,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:57.318046",
+        "prompt_tokens": 490,
+        "completion_tokens": 45,
+        "total_tokens": 535,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:59.046860",
+        "prompt_tokens": 640,
+        "completion_tokens": 93,
+        "total_tokens": 733,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:08:00.070889",
+        "prompt_tokens": 1458,
+        "completion_tokens": 89,
+        "total_tokens": 1547,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:07:39.413745",
+  "last_updated_at": "2026-04-17T20:08:00.071343"
+}

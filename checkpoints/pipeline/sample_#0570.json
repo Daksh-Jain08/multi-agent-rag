@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0570",
+  "query": "When was the civil war fought in american?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Names of the American Civil War The American Civil War has been known by a number of names since it began in 1861. These names reflect the historical, political, and cultural sensitivities and agendas of different groups and regions. The most common name in modern American usage is simply \"The Civil War\". Although used rarely during the war, the term \"War Between the States\" became widespread afterward in the Southern United States. During and immediately after the war, historians often used the term \"War of the Rebellion\" or \"Great Rebellion\", while the Confederate term was \"War for Southern Independence\". The",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Ageod's American Civil War II Ageod's American Civil War II is a historical operational turn-based strategy computer game (WEGO system) that places players at the head of the U.S. or CSA during the American Civil War (1861\u0393\u00c7\u00f41865). Most of the individual years of campaign between 1861 and 1865 are playable via a separate scenario (to be refined during beta testing). Advanced scenarios will allow recreation of some yearly or theater campaigns, and there is a Grand Campaign covering the whole war. The game is a sequel to \"Ageod's American Civil War\", which was released in 2007. The game partnered with",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "and so began the Second English Civil War. Attribution: First English Civil War The First English Civil War (1642\u0393\u00c7\u00f41646) began the series of three wars known as the English Civil War (or \"Wars\"). \"The English Civil War\" was a series of armed conflicts and political machinations that took place between Parliamentarians and Royalists from 1642 until 1651, and includes the Second English Civil War (1648\u0393\u00c7\u00f41649) and the Third English Civil War (1649\u0393\u00c7\u00f41651). The wars in England were part of the Wars of the Three Kingdoms, being fought contemporaneously with equivalents in Scotland and Ireland. Many castles and high-status homes such",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the Confederate States on May 7, 1861. On June 8, 1861, with people in Middle Tennessee having significantly changed their position, voters approved a second referendum calling for secession, becoming the last state to do so. Many major battles of the American Civil War were fought in Tennessee\u0393\u00c7\u00f6most of them Union victories. Ulysses S. Grant and the U.S. Navy captured control of the Cumberland and Tennessee rivers in February 1862. They held off the Confederate counterattack at Shiloh in April. Memphis fell to the Union in June, following a naval battle on the Mississippi River in front of the city.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2000-09-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "AGEOD's American Civil War AGEOD's American Civil War: 1861-1865 - The Blue and the Gray is a historical operational turn-based strategy video game that places players at the head of the United States or Confederate States during the American Civil War (1861\u0393\u00c7\u00f41865). Players are military and political leaders trying to lead the troops of their nations (armies and fleets) to victory, while making political and economical/financial decisions throughout the game that affect the outcome. Most of the individual years of campaign between 1861 and 1865 are playable via a separate scenario. Advanced scenarios allow recreation of yearly and/or theater campaigns.  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "1995-10-01"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States the American Civil War began in 1861 and mentions other names for it."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions the American Civil War took place between 1861-1865 and discusses a game based on it."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the English Civil War, not the American Civil War."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the Confederate States seceded in 1861 and discusses battles fought during the American Civil War."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the American Civil War took place from 1861-1865 and describes a related video game."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The American Civil War began in 1861."
+          ],
+          "reason": "Extracted the start year of the American Civil War as stated in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The American Civil War took place between 1861 and 1865."
+          ],
+          "reason": "Extracted the date range of the American Civil War from the description of a computer game."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses the English Civil War, not the American Civil War, and therefore contains no relevant facts."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Confederate States seceded on May 7, 1861.",
+            "Many major battles of the American Civil War were fought in Tennessee."
+          ],
+          "reason": "Extracted the secession date and the location of major battles of the American Civil War."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The American Civil War took place from 1861 to 1865."
+          ],
+          "reason": "Extracted the date range of the American Civil War from the description of a video game."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states the start year of the American Civil War, answering part of the query.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Provides the full date range (1861-1865) for the American Civil War, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document discusses the English Civil War, not the American Civil War, making its facts irrelevant to the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Provides the secession date in 1861, which is the start of the war, but doesn't give the end date.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States the full date range (1861-1865) for the American Civil War, directly answering the query.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_start_year",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly states the start year of the American Civil War."
+          },
+          {
+            "label": "direct_support_full_range",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide the complete date range (1861-1865) for the American Civil War."
+          },
+          {
+            "label": "partial_support_start_date",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 provides the secession date in 1861, indicating the start of the war, but lacks the end date."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 is irrelevant as it discusses the English Civil War."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All relevant documents agree on the start and end dates of the American Civil War, with some providing more specific details than others.",
+        "clusters": [
+          {
+            "label": "American Civil War Dates",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d4, and d5 consistently indicate the American Civil War began in 1861 and ended in 1865. Document d1 states the start year, d4 provides the secession date in 1861, and d2 and d5 give the full date range."
+          },
+          {
+            "label": "Irrelevant Document",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 is irrelevant as it discusses the English Civil War."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and the conflict is complementary, indicating agreement on the American Civil War dates."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The American Civil War took place from 1861 to 1865.",
+        "citations": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d1, d2, and d5 directly state the start and end years of the American Civil War, providing a complete and consistent answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited documents, which clearly state the war took place from 1861 to 1865."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8903,
+      "completion_tokens": 1799,
+      "total_tokens": 10702
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1517,
+        "completion_tokens": 349,
+        "total_tokens": 1866
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1472,
+        "completion_tokens": 363,
+        "total_tokens": 1835
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 762,
+        "completion_tokens": 346,
+        "total_tokens": 1108
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 924,
+        "completion_tokens": 287,
+        "total_tokens": 1211
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1216,
+        "completion_tokens": 216,
+        "total_tokens": 1432
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 688,
+        "completion_tokens": 41,
+        "total_tokens": 729
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 834,
+        "completion_tokens": 102,
+        "total_tokens": 936
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1490,
+        "completion_tokens": 95,
+        "total_tokens": 1585
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:15.838740",
+        "prompt_tokens": 1517,
+        "completion_tokens": 349,
+        "total_tokens": 1866,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:18.671046",
+        "prompt_tokens": 1472,
+        "completion_tokens": 363,
+        "total_tokens": 1835,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:21.114431",
+        "prompt_tokens": 762,
+        "completion_tokens": 346,
+        "total_tokens": 1108,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:22.490049",
+        "prompt_tokens": 924,
+        "completion_tokens": 287,
+        "total_tokens": 1211,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:24.535061",
+        "prompt_tokens": 1216,
+        "completion_tokens": 216,
+        "total_tokens": 1432,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:25.452267",
+        "prompt_tokens": 688,
+        "completion_tokens": 41,
+        "total_tokens": 729,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:26.577899",
+        "prompt_tokens": 834,
+        "completion_tokens": 102,
+        "total_tokens": 936,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:27.813018",
+        "prompt_tokens": 1490,
+        "completion_tokens": 95,
+        "total_tokens": 1585,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:07:13.501012",
+  "last_updated_at": "2026-04-17T20:07:27.813926"
+}

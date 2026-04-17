@@ -1,0 +1,366 @@
+{
+  "sample_id": "#0634",
+  "query": "Which film has Amitabh Bachchan as a member of its cast and has Shah Rukh Khan as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Benaam (1974 film) Benaam (\"is an Urdu word, it means \u0393\u00c7\u00a3without name, character or reputation\u0393\u00c7\u00a5 in English\") is a 1974 Bollywood thriller film directed by Narendra Bedi. The film stars Amitabh Bachchan, Moushumi Chatterjee and Prem Chopra. Madan Puri also appears in a very different role. The scenes between Amitabh Bachchan and Madan Puri are conceived nicely where both are effective. The film was remade in Kannada as \"Thirugu Baana\".with Ambarish reprising role of Amitabh Bachchan as protagonist and Kannada Actress Aarathi reprising the role of Moushumi Chatterjee Sheela (Moushumi Chatterjee) and Amit Srivastav (Amitabh Bachchan) are a married couple",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d2",
+      "text": "as \"Deewaar\" (1975) and \"Sholay\" (1975). Salim Khan also introduced Bachchan to director Manmohan Desai with whom he formed a long and successful association, alongside Prakash Mehra and Yash Chopra. Eventually, Bachchan became one of the most successful leading men of the film industry. Bachchan's portrayal of the wronged hero fighting a crooked system and circumstances of deprivation in films like \"Zanjeer\", \"Deeewar\", \"Trishul\", \"Kaala Patthar\", \"Shakti\", resonated with the masses of the time, especially the youth who harbored a simmering discontent owing to social ills such as poverty, hunger, unemployment, corruption, social inequality and the brutal excesses of The",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Ali and Amitabh Bachchan Amitabh Bachchan pressured Shatrughan Sinha to do the villain's role, although he wasn't keen on doing the it. He agreed only because of their close friendship from their struggling days. Bombay to Goa Bombay to Goa is a 1972 Indian adventure-comedy film directed by S. Ramanathan, starring Amitabh Bachchan and Aruna Irani in lead roles, Shatrughan Sinha as the main antagonist and Mehmood. The movie is known particularly for its catchy tunes. It was a \"Semi-Hit\" at the box office. The film is a remake of a 1966 hit Tamil film \"Madras to Pondicherry\". The role",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2016-01-16"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Family (2006 film) Family (also known as Family \u0393\u00c7\u00f4 Ties of Blood) is a 2006 Indian gangster film directed by Rajkumar Santoshi. The film features Amitabh Bachchan, Aryeman Ramsay, Akshay Kumar and Bhumika Chawla in lead roles. It was released on 12 January 2006. Viren Sahai (Amitabh Bachchan), is an underworld don based in Mumbai. His son Abhir (Sushant Singh) is spoilt and believes he can do anything due to his father's power. When Viren's rival Khan (Kader Khan) attacks Abhir, Viren demands revenge. Viren receives foolproof information that Khan will be hidden at a local cinema theatre on a",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Saat Hindustani Saat Hindustani () is a 1969 Indian film, written and directed by Khwaja Ahmad Abbas. The film portrays the heroic story of seven Indians who attempt to liberate Goa from the Portuguese colonial rule. The cast included Madhu, Utpal Dutt, Shehnaz, A. K. Hangal, Anwar Ali (brother of Indian comedian Mehmood) and Amitabh Bachchan who made his debut with this film. \"Saat Hindustani\" portrays the story of seven Indians who attempt to liberate Goa from the Portuguese colonial rule. A Muslim poet Anwar Ali (Amitabh Bachchan) from Bihar and five other men, all belonging from different religions and  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2009"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions Amitabh Bachchan but does not mention Shah Rukh Khan, so it does not fully answer the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document mentions Amitabh Bachchan but does not mention Shah Rukh Khan. It discusses his successful roles and associations."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions Amitabh Bachchan but does not mention Shah Rukh Khan. It discusses the film Bombay to Goa."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions Amitabh Bachchan and a character named Khan, but it is Kader Khan, not Shah Rukh Khan. Therefore, it does not answer the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document mentions Amitabh Bachchan's debut film but does not mention Shah Rukh Khan. It is not relevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Benaam (1974 film) stars Amitabh Bachchan."
+          ],
+          "reason": "Extracted the fact that Amitabh Bachchan is a cast member of the film Benaam (1974)."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document mentions Amitabh Bachchan in relation to films like 'Zanjeer', 'Deeewar', 'Trishul', 'Kaala Patthar', and 'Shakti', but does not mention Shah Rukh Khan."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Bombay to Goa (1972 film) stars Amitabh Bachchan."
+          ],
+          "reason": "Extracted the fact that Amitabh Bachchan is a cast member of the film Bombay to Goa (1972)."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Family (2006 film) features Amitabh Bachchan in the lead role of Viren Sahai."
+          ],
+          "reason": "Extracted the fact that Amitabh Bachchan is a cast member of the film Family (2006)."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Saat Hindustani (1969 film) features Amitabh Bachchan, who made his debut with this film."
+          ],
+          "reason": "Extracted the fact that Amitabh Bachchan is a cast member of the film Saat Hindustani (1969)."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document only confirms Amitabh Bachchan's presence in 'Benaam' and does not mention Shah Rukh Khan.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Amitabh Bachchan but does not mention Shah Rukh Khan, failing to satisfy the query's condition.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document only confirms Amitabh Bachchan's presence in 'Bombay to Goa' and does not mention Shah Rukh Khan.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document only confirms Amitabh Bachchan's presence in 'Family' and does not mention Shah Rukh Khan.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document only confirms Amitabh Bachchan's presence in 'Saat Hindustani' and does not mention Shah Rukh Khan.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "no_relevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the documents provided relevant evidence to answer the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents were deemed irrelevant as they did not contain information about Shah Rukh Khan in relation to Amitabh Bachchan's films.",
+        "clusters": [
+          {
+            "label": "irrelevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss Amitabh Bachchan's filmography but do not mention Shah Rukh Khan."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents were irrelevant to the query, offering no supporting evidence for an answer. Therefore, abstention is necessary due to a complete lack of relevant information."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents were irrelevant to the query, offering no supporting evidence for an answer. Therefore, abstention is necessary due to a complete lack of relevant information.",
+        "final_reasoning": "All provided documents were irrelevant to the query, offering no supporting evidence. Abstention is necessary due to a complete lack of relevant information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as no film is mentioned that features both Amitabh Bachchan and Shah Rukh Khan. Citations are also missing."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8447,
+      "completion_tokens": 1613,
+      "total_tokens": 10060
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1515,
+        "completion_tokens": 357,
+        "total_tokens": 1872
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1470,
+        "completion_tokens": 398,
+        "total_tokens": 1868
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 815,
+        "completion_tokens": 340,
+        "total_tokens": 1155
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 958,
+        "completion_tokens": 149,
+        "total_tokens": 1107
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1120,
+        "completion_tokens": 123,
+        "total_tokens": 1243
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 477,
+        "completion_tokens": 51,
+        "total_tokens": 528
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 633,
+        "completion_tokens": 100,
+        "total_tokens": 733
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1459,
+        "completion_tokens": 95,
+        "total_tokens": 1554
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:14.206243",
+        "prompt_tokens": 1515,
+        "completion_tokens": 357,
+        "total_tokens": 1872,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:15.940366",
+        "prompt_tokens": 1470,
+        "completion_tokens": 398,
+        "total_tokens": 1868,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:17.294000",
+        "prompt_tokens": 815,
+        "completion_tokens": 340,
+        "total_tokens": 1155,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:18.425102",
+        "prompt_tokens": 958,
+        "completion_tokens": 149,
+        "total_tokens": 1107,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:19.516018",
+        "prompt_tokens": 1120,
+        "completion_tokens": 123,
+        "total_tokens": 1243,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:20.476987",
+        "prompt_tokens": 477,
+        "completion_tokens": 51,
+        "total_tokens": 528,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:21.712957",
+        "prompt_tokens": 633,
+        "completion_tokens": 100,
+        "total_tokens": 733,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:23:23.117725",
+        "prompt_tokens": 1459,
+        "completion_tokens": 95,
+        "total_tokens": 1554,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:23:12.148231",
+  "last_updated_at": "2026-04-17T20:23:23.118396"
+}

@@ -1,0 +1,387 @@
+{
+  "sample_id": "#0481",
+  "query": "When does the regular season of nhl start?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "NHL season officially entered a lockout after the expiration of the CBA on September 15, 2012, prior to the planned start of the pre-season. Locked-out players immediately began signing with the Kontinental Hockey League (KHL), Czech Extraliga (ELH), the SM-liiga, and the Elitserien (SEL), the last of which largely resisted signing locked-out players. The NHL canceled all regular-season games originally scheduled up to January 14, 2013, including the 2013 NHL Winter Classic. The 2013 NHL All-Star Game was also canceled. On January 6, 2013, after a 16-hour negotiating session, the owners and players union reached a tentative agreement for a",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d2",
+      "text": "2015\u0393\u00c7\u00f416 NHL season The 2015\u0393\u00c7\u00f416 NHL season was the 99th season of operation (98th season of play) of the National Hockey League (NHL). Thirty teams competed in 82-game regular season schedules from October 7, 2015 to April 10, 2016. The 2016 Stanley Cup playoffs following the regular season began on April 13 and ended June 12 with the Pittsburgh Penguins winning their fourth Stanley Cup. None of the seven Canadian-based teams qualified for the playoffs; this was the second season in league history that the playoff field consisted of only United States-based teams. The only other time in league history",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Calgary Flames and Boston Bruins played one game (Calgary as home team) at the Shenzhen Universiade Sports Center in Shenzhen on September 15, 2018, and played another (Boston as home team) at Cadillac Arena in Beijing on September 19, 2018. Two preseason games were played in Europe. The New Jersey Devils played against SC Bern at PostFinance Arena in Bern, Switzerland, on October 1, 2018. The Edmonton Oilers played against K\u251c\u2562lner Haie at Lanxess Arena in Cologne, Germany, on October 3, 2018. (*) Indicates interim. The regular season began on October 3, 2018, and will end on April 6, 2019.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1995-11-26"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The regular season began on October 7, 2015, and ended on April 10, 2016. The playoffs began on Wednesday, April 13, 2016. The 2016 NHL Winter Classic was held on January 1, 2016. The game, the eighth Winter Classic, saw the Montreal Canadiens defeat the Boston Bruins, 5\u0393\u00c7\u00f41, at Gillette Stadium in Foxborough, Massachusetts, a significant event in one of the NHL's best-known rivalries. A Bruins and Canadiens alumni game was also played on December 31, 2015. The Boston Pride women's professional hockey team played before the alumni game against Les Canadiennes of the Canadian Women's Hockey League to a",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "2007\u0393\u00c7\u00f408 NHL season The 2007\u0393\u00c7\u00f408 NHL season was the 91st season of operation (90th season of play) of the National Hockey League (NHL). It began on September 29, 2007, and the regular season ended April 6, 2008. The Stanley Cup playoffs ended on June 4, with the Detroit Red Wings taking the championship. The 56th NHL All-Star Game was held in Atlanta, Georgia, as the Atlanta Thrashers hosted the event at Philips Arena on January 27, 2008. The hosting by Atlanta was rescheduled from 2005, when a lockout cancelled the entire 2004\u0393\u00c7\u00f405 season. National Hockey League announced that the regular  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2020-06-27"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses a lockout and canceled games, not the start date of a regular season."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the 2015-16 NHL season had an 82-game regular season schedule from October 7, 2015, to April 10, 2016."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that the regular season began on October 3, 2018, and will end on April 6, 2019."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly mentions the regular season began on October 7, 2015, and ended on April 10, 2016."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the 2007-08 NHL season began on September 29, 2007, and the regular season ended April 6, 2008."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The NHL canceled all regular-season games originally scheduled up to January 14, 2013."
+          ],
+          "reason": "Extracted the fact about the cancellation of regular-season games due to a lockout, which is relevant to the start of the season."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The 2015-16 NHL season had regular season schedules from October 7, 2015 to April 10, 2016."
+          ],
+          "reason": "Extracted the specific start date of the regular season for the 2015-16 NHL season."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The regular season began on October 3, 2018."
+          ],
+          "reason": "Extracted the specific start date of the regular season for the 2018-19 NHL season."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The regular season began on October 7, 2015."
+          ],
+          "reason": "Extracted the specific start date of the regular season for the 2015-16 NHL season."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The 2007-08 NHL season began on September 29, 2007."
+          ],
+          "reason": "Extracted the specific start date of the regular season for the 2007-08 NHL season."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "This document mentions the cancellation of regular-season games up to a certain date, indirectly indicating a delay or disruption to the start of the season.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "This document directly states the start date of the NHL regular season for the 2015-16 season.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "This document directly states the start date of the NHL regular season for the 2018-19 season.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "This document directly states the start date of the NHL regular season for the 2015-16 season.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "This document directly states the start date of the NHL regular season for the 2007-08 season.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_season_start_dates",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents provide direct start dates for various NHL regular seasons."
+          },
+          {
+            "label": "disrupted_season_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document indicates a disruption to a season's start due to a lockout."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence provides start dates for different NHL seasons and one instance of a season disruption, which are compatible and do not contradict each other.",
+        "clusters": [
+          {
+            "label": "direct_season_start_dates",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Multiple documents provide direct start dates for various NHL regular seasons (2015-16, 2018-19, 2007-08)."
+          },
+          {
+            "label": "disrupted_season_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document indicates a disruption to a season's start due to a lockout, with games canceled up to January 14, 2013."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting documents provide direct NHL season start dates, and the single partial document about a disruption is compatible, not conflicting."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The NHL regular seasons began on October 7, 2015, October 3, 2018, and October 9, 2007. One season's start was disrupted by a lockout, with games canceled until January 14, 2013.",
+        "citations": [
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents provide direct NHL season start dates, and the partial document about a lockout-disrupted season is compatible and included."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately provides multiple NHL regular season start dates and correctly notes a lockout's impact, all supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9292,
+      "completion_tokens": 1911,
+      "total_tokens": 11203
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1656,
+        "completion_tokens": 410,
+        "total_tokens": 2066
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1611,
+        "completion_tokens": 430,
+        "total_tokens": 2041
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 826,
+        "completion_tokens": 350,
+        "total_tokens": 1176
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 991,
+        "completion_tokens": 206,
+        "total_tokens": 1197
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1190,
+        "completion_tokens": 232,
+        "total_tokens": 1422
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 594,
+        "completion_tokens": 44,
+        "total_tokens": 638
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 743,
+        "completion_tokens": 148,
+        "total_tokens": 891
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1681,
+        "completion_tokens": 91,
+        "total_tokens": 1772
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:08.939403",
+        "prompt_tokens": 1656,
+        "completion_tokens": 410,
+        "total_tokens": 2066,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:10.616974",
+        "prompt_tokens": 1611,
+        "completion_tokens": 430,
+        "total_tokens": 2041,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:12.101879",
+        "prompt_tokens": 826,
+        "completion_tokens": 350,
+        "total_tokens": 1176,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:13.404801",
+        "prompt_tokens": 991,
+        "completion_tokens": 206,
+        "total_tokens": 1197,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:14.739764",
+        "prompt_tokens": 1190,
+        "completion_tokens": 232,
+        "total_tokens": 1422,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:15.677973",
+        "prompt_tokens": 594,
+        "completion_tokens": 44,
+        "total_tokens": 638,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:16.798611",
+        "prompt_tokens": 743,
+        "completion_tokens": 148,
+        "total_tokens": 891,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:17.786791",
+        "prompt_tokens": 1681,
+        "completion_tokens": 91,
+        "total_tokens": 1772,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:45:07.284957",
+  "last_updated_at": "2026-04-17T19:45:17.787304"
+}

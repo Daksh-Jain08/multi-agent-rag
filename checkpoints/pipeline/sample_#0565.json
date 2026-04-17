@@ -1,0 +1,401 @@
+{
+  "sample_id": "#0565",
+  "query": "The most holy name of mary feast day?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "to mean that Mary of Clopas is Clopas' daughter, rather than his wife, but this is not the general view. Many scholars identify her with \"the other Mary\" mentioned twice in Matthew, and also therefore with \"Mary mother of James (the younger)\" in the parallel passages in Mark. This is also the Roman Catholic tradition. Her feast day is April 24. Some scholars suggest that \"Clopas\" is a variant spelling of \"Cleopas\", and that Mary of Clopas is Cleopas' wife and also the unnamed person who is with him when they meet the risen Christ on the Emmaus Road in",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2011-07-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "form of the devotion, the chief features being reception of Holy Communion on the first Friday of each month, Eucharistic adoration during a \"Holy hour\" on Thursdays, and the celebration of the Feast of the Sacred Heart. She stated that in her vision she was instructed to spend an hour every Thursday night to meditate on Jesus' Agony in the Garden of Gethsemane. The Holy Hour practice later became widespread among Catholics. On 27 December 1673, the feast of St. John, Margaret Mary reported that Jesus permitted her to rest her head upon his heart, and then disclosed to her",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d3",
+      "text": "of holiness. Prayers and devotions asking for her intercession, such as the rosary, the Hail Mary, and the Memorare are common Catholic practice. The Church devotes several liturgical feasts to Mary, mainly the Immaculate Conception, Mary, Mother of God, the Visitation, the Assumption, the Nativity of the Blessed Virgin Mary; and in the Americas the Feast of Our Lady of Guadalupe. Pilgrimages to Marian shrines like Lourdes, France, and F\u251c\u00edtima, Portugal, are also a common form of devotion and prayer. Men become bishops, priests or deacons through the sacrament of Holy Orders. Candidates to the priesthood must have a college",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Solemnity of Mary, Mother of God The Solemnity of Mary, the Holy Mother of God is a feast day of the Blessed Virgin Mary under the aspect of her motherhood of Jesus Christ, whom Christians see as the Lord, Son of God. It is celebrated by the Latin Rite of the Catholic Church on 1 January, the Octave (8th) day of Christmastide. Christians of Byzantine Rite and of all West Syriac and East Syriac rites celebrate Mary as Mother of God on 26 December and the Coptic Church does so on 16 January. The Eastern Orthodox Church, Anglican Communion and",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Dedication of the Basilica of St Mary Major The Dedication of the Basilica of St Mary Major (\"In Dedicatione basilicae S. Mariae\") is a feast day in the General Roman Calendar, optionally celebrated annually on 5 August with the rank of memorial. In earlier editions of the General Roman Calendar, down to that of 1960, it is called the Dedication of the Basilica of St Mary of the Snows (\"In Dedicatione basilicae S. Mariae ad Nives\"), a reference to the legendary story about the foundation of the basilica. For the same reason the feast is also known popularly as Our  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2021-08-24"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document discusses Mary of Clopas and her feast day (April 24), but the query asks for the feast day of the 'most holy name of Mary', which is a different devotion."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the Feast of the Sacred Heart and the Holy Hour devotion, which is unrelated to Mary's feast days."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions several liturgical feasts of Mary (Immaculate Conception, Mother of God, Visitation, Assumption, Nativity) but does not specify the feast day for the 'most holy name of Mary'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document discusses the 'Solemnity of Mary, Mother of God' feast day, celebrated on January 1st (Latin Rite) and December 26th (Byzantine Rite), which is a significant feast day related to Mary."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "This document mentions the 'Dedication of the Basilica of St Mary Major' feast day, celebrated on August 5th, which is a feast day related to Mary."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Mary of Clopas' feast day is April 24."
+          ],
+          "reason": "Extracted the specific feast day mentioned for Mary of Clopas, which is relevant to the query about Mary's feast days."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses devotions to the Sacred Heart and Margaret Mary Alacoque, not feast days specifically related to Mary herself."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Church devotes several liturgical feasts to Mary, including the Immaculate Conception, Mary, Mother of God, the Visitation, the Assumption, and the Nativity of the Blessed Virgin Mary.",
+            "In the Americas, the Feast of Our Lady of Guadalupe is celebrated."
+          ],
+          "reason": "Extracted the names of several liturgical feasts dedicated to Mary, directly addressing the query about Mary's feast days."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Solemnity of Mary, Mother of God is a feast day celebrated on 1 January by the Latin Rite of the Catholic Church.",
+            "Christians of Byzantine Rite and of all West Syriac and East Syriac rites celebrate Mary as Mother of God on 26 December.",
+            "The Coptic Church celebrates Mary as Mother of God on 16 January."
+          ],
+          "reason": "Extracted specific feast days for Mary, Mother of God, including dates and different Christian rites, directly relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Dedication of the Basilica of St Mary Major is a feast day optionally celebrated annually on 5 August with the rank of memorial.",
+            "The feast is also known popularly as Our Lady of the Snows."
+          ],
+          "reason": "Extracted the name and date of the feast day for the Dedication of the Basilica of St Mary Major, which is relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions a feast day for a specific Mary (Mary of Clopas), but not the 'most holy name of Mary' feast day.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses devotions to the Sacred Heart and Margaret Mary Alacoque, not feast days specifically related to Mary herself.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Lists several liturgical feasts dedicated to Mary, directly addressing the query about Mary's feast days.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Provides specific feast days for Mary, Mother of God, including dates and variations across different Christian rites.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions a feast day related to Mary (Dedication of the Basilica of St Mary Major), but it's not explicitly the 'most holy name of Mary' feast day.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d4"
+        ],
+        "partial_docs": [
+          "d1",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d2"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_feast_days",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 directly list multiple feast days dedicated to Mary, including specific names and dates, and variations across different Christian traditions."
+          },
+          {
+            "label": "specific_mary_feast_days",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 mention feast days related to specific figures or dedications involving Mary (Mary of Clopas, Basilica of St Mary Major), providing partial but not exhaustive information about Mary's feast days."
+          },
+          {
+            "label": "off_topic_devotions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 is irrelevant as it discusses devotions to the Sacred Heart and Margaret Mary Alacoque, not Mary's feast days."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible details about various feast days dedicated to Mary, with some documents offering direct lists and others mentioning specific instances.",
+        "clusters": [
+          {
+            "label": "direct_feast_days",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 directly list multiple feast days dedicated to Mary, including specific names and dates, and variations across different Christian traditions."
+          },
+          {
+            "label": "specific_mary_feast_days",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 mention feast days related to specific figures or dedications involving Mary (Mary of Clopas, Basilica of St Mary Major), providing partial but not exhaustive information about Mary's feast days."
+          },
+          {
+            "label": "off_topic_devotions",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 is irrelevant as it discusses devotions to the Sacred Heart and Margaret Mary Alacoque, not Mary's feast days."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and provides sufficient supporting details about Mary's feast days from multiple documents, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Multiple feast days are dedicated to Mary, with specific names, dates, and variations across Christian traditions. Some documents list these directly, while others mention specific instances like feast days for Mary of Clopas or the Basilica of St. Mary Major.",
+        "citations": [
+          "d3",
+          "d4",
+          "d1",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence documents are complementary, providing a comprehensive answer about Mary's feast days."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately summarizes that multiple feast days are dedicated to Mary, citing specific examples from the provided documents. All claims are supported by the cited evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9014,
+      "completion_tokens": 2128,
+      "total_tokens": 11142
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1368,
+        "completion_tokens": 432,
+        "total_tokens": 1800
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1323,
+        "completion_tokens": 509,
+        "total_tokens": 1832
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 356,
+        "total_tokens": 1258
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1074,
+        "completion_tokens": 272,
+        "total_tokens": 1346
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1363,
+        "completion_tokens": 295,
+        "total_tokens": 1658
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 730,
+        "completion_tokens": 44,
+        "total_tokens": 774
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 879,
+        "completion_tokens": 124,
+        "total_tokens": 1003
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1375,
+        "completion_tokens": 96,
+        "total_tokens": 1471
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:12.549008",
+        "prompt_tokens": 1368,
+        "completion_tokens": 432,
+        "total_tokens": 1800,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:15.222426",
+        "prompt_tokens": 1323,
+        "completion_tokens": 509,
+        "total_tokens": 1832,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:16.807780",
+        "prompt_tokens": 902,
+        "completion_tokens": 356,
+        "total_tokens": 1258,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:18.683338",
+        "prompt_tokens": 1074,
+        "completion_tokens": 272,
+        "total_tokens": 1346,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:20.127559",
+        "prompt_tokens": 1363,
+        "completion_tokens": 295,
+        "total_tokens": 1658,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:22.785090",
+        "prompt_tokens": 730,
+        "completion_tokens": 44,
+        "total_tokens": 774,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:23.916410",
+        "prompt_tokens": 879,
+        "completion_tokens": 124,
+        "total_tokens": 1003,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:06:24.905186",
+        "prompt_tokens": 1375,
+        "completion_tokens": 96,
+        "total_tokens": 1471,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:06:10.351680",
+  "last_updated_at": "2026-04-17T20:06:24.905721"
+}

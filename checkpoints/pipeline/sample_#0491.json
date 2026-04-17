@@ -1,0 +1,404 @@
+{
+  "sample_id": "#0491",
+  "query": "Where did the first modern olympics take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on the honor roll of the Wenlock Olympian Society was the Smyrniot Petros Velissariou, who competed at the 1859 Athens Olympic Games in the distance running and who won a prize donated by the Wenlock Olympian Society's Committee. Brookes was the first to propose holding open international Olympics to be held in Athens, as distinct from the revived Greek national Olympics of 1859, 1870 and 1875 which mirrored the Ancient Olympics as they were closed to all but Greek-speaking competitors. Despite his persistent pleas for action to the Greek government, his proposals fell on deaf ears. However, many of the",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "take place in Athens in 1896. The IOC elected the Greek writer Demetrius Vikelas as its first president. The first Games held under the auspices of the IOC was hosted in the Panathenaic Stadium in Athens in 1896. The Games brought together 14 nations and 241 athletes who competed in 43 events. Zappas and his cousin Konstantinos Zappas had left the Greek government a trust to fund future Olympic Games. This trust was used to help finance the 1896 Games. George Averoff contributed generously for the refurbishment of the stadium in preparation for the Games. The Greek government also provided",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Games, the first modern Olympics took place at Athens in 1896. The main stadium, Panathinaiko, served as host of the athletic, gymnastic, weightlifting, and wrestling events. The city of Marathon served the start point for the sport of the same name and the starting and finishing point of cycling's Individual road race. Between the 1896 and 2004 Summer Olympics, Greece underwent a series of events that created political instability in the country. This included the Balkan Wars of 1912-3, World War I, the Greco-Turkish War (1919-1922), a creation of a Second Hellenic Republic of 1924-35, the Axis Occupation of Greece",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "as Philippides, and this name is also preferred in a few modern editions. When the idea of a modern Olympics became a reality at the end of the 19th century, the initiators and organizers were looking for a great popularizing event, recalling the ancient glory of Greece. The idea of organizing a \"marathon race\" came from Michel Br\u251c\u2310al, who wanted the event to feature in the first modern Olympic Games in 1896 in Athens. This idea was heavily supported by Pierre de Coubertin, the founder of the modern Olympics, as well as the Greeks. This would echo the legendary version",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the creation of the first American Olympic team and their trials in getting to the Olympics in Athens. Primetime Emmy Awards Writer's Guild of America, USA Casting Society of America, USA The First Olympics: Athens 1896 The First Olympics: Athens 1896 is a 1984 US TV miniseries produced by Columbia Pictures Television for broadcast by the NBC network. This television miniseries tells the story of the founding of the modern Olympics by focusing on individuals in several countries and their preparations and eventual competition in Athens in 1896. The two-part mini-series originally aired in the United States on 20 May  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1995"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the 1859 Athens Olympic Games and Brookes' proposal for international Olympics in Athens, providing historical context for the first modern Olympics."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states the first IOC-sanctioned Games were held in Athens in 1896, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly states that the first modern Olympics took place at Athens in 1896, providing specific details about the venue."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions the idea of a modern Olympics becoming a reality in 1896 in Athens and the inclusion of a marathon race."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "States 'The First Olympics: Athens 1896' and describes a TV miniseries about the founding of the modern Olympics in Athens in 1896."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Smyrniot Petros Velissariou competed at the 1859 Athens Olympic Games.",
+            "Brookes proposed holding open international Olympics to be held in Athens."
+          ],
+          "reason": "Extracted facts about early Olympic Games in Athens and proposals for international Olympics, relevant to the query about the first modern Olympics' location."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The first Games held under the auspices of the IOC was hosted in the Panathenaic Stadium in Athens in 1896.",
+            "The Games brought together 14 nations and 241 athletes who competed in 43 events."
+          ],
+          "reason": "Extracted the specific location and year of the first modern Olympic Games under the IOC, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The first modern Olympics took place at Athens in 1896.",
+            "The main stadium, Panathinaiko, served as host of athletic, gymnastic, weightlifting, and wrestling events.",
+            "The city of Marathon served as the start point for the marathon race."
+          ],
+          "reason": "Extracted the location and year of the first modern Olympics, along with details about event venues, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The first modern Olympic Games in 1896 were held in Athens.",
+            "The idea of organizing a \"marathon race\" came from Michel Br\u00e9al for the first modern Olympic Games."
+          ],
+          "reason": "Extracted the location and year of the first modern Olympics, and a detail about the marathon race's inclusion, relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The First Olympics: Athens 1896 is a 1984 US TV miniseries.",
+            "This television miniseries tells the story of the founding of the modern Olympics by focusing on individuals in several countries and their preparations and eventual competition in Athens in 1896."
+          ],
+          "reason": "Extracted information about a TV miniseries detailing the founding of the modern Olympics in Athens in 1896, which indirectly confirms the location."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions early Olympic Games in Athens and proposals for international Olympics, suggesting Athens as a location, but doesn't definitively state it as the first modern Olympics.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that the first Games under the IOC were hosted in Athens in 1896, answering the query about the location of the first modern Olympics.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explicitly states that the first modern Olympics took place at Athens in 1896, directly answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Clearly states that the first modern Olympic Games in 1896 were held in Athens, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "The miniseries details the founding of the modern Olympics in Athens in 1896, indirectly but strongly confirming Athens as the location.",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_athens_1896",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Multiple documents directly confirm Athens as the location of the first modern Olympic Games in 1896, providing specific details about the event."
+          },
+          {
+            "label": "indirect_support_athens_1896",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document indirectly supports Athens as the location by detailing a miniseries about the founding of the modern Olympics in Athens in 1896."
+          },
+          {
+            "label": "early_proposals_athens",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document provides context about early Olympic Games and proposals related to Athens, offering partial support."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All evidence sources consistently support Athens as the location of the first modern Olympic Games in 1896, with varying levels of directness and detail.",
+        "clusters": [
+          {
+            "label": "direct_support_athens_1896",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Multiple documents directly confirm Athens as the location of the first modern Olympic Games in 1896, providing specific details about the event."
+          },
+          {
+            "label": "indirect_support_athens_1896",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document indirectly supports Athens as the location by detailing a miniseries about the founding of the modern Olympics in Athens in 1896."
+          },
+          {
+            "label": "early_proposals_athens",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document provides context about early Olympic Games and proposals related to Athens, offering partial support."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports Athens as the location of the first modern Olympic Games in 1896, with no significant conflicts."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The first modern Olympic Games were held in Athens in 1896.",
+        "citations": [
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Multiple sources directly and indirectly confirm Athens as the location of the first modern Olympic Games in 1896. The evidence is consistent and directly answers the query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by multiple citations, accurately stating that the first modern Olympic Games took place in Athens in 1896."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9273,
+      "completion_tokens": 2166,
+      "total_tokens": 11439
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 388,
+        "total_tokens": 1796
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1363,
+        "completion_tokens": 581,
+        "total_tokens": 1944
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 971,
+        "completion_tokens": 366,
+        "total_tokens": 1337
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1152,
+        "completion_tokens": 299,
+        "total_tokens": 1451
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1428,
+        "completion_tokens": 286,
+        "total_tokens": 1714
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 708,
+        "completion_tokens": 48,
+        "total_tokens": 756
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 861,
+        "completion_tokens": 105,
+        "total_tokens": 966
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1382,
+        "completion_tokens": 93,
+        "total_tokens": 1475
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:11.686627",
+        "prompt_tokens": 1408,
+        "completion_tokens": 388,
+        "total_tokens": 1796,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:13.668293",
+        "prompt_tokens": 1363,
+        "completion_tokens": 581,
+        "total_tokens": 1944,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:16.432925",
+        "prompt_tokens": 971,
+        "completion_tokens": 366,
+        "total_tokens": 1337,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:17.880811",
+        "prompt_tokens": 1152,
+        "completion_tokens": 299,
+        "total_tokens": 1451,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:19.473029",
+        "prompt_tokens": 1428,
+        "completion_tokens": 286,
+        "total_tokens": 1714,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:20.259299",
+        "prompt_tokens": 708,
+        "completion_tokens": 48,
+        "total_tokens": 756,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:21.187898",
+        "prompt_tokens": 861,
+        "completion_tokens": 105,
+        "total_tokens": 966,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:22.249414",
+        "prompt_tokens": 1382,
+        "completion_tokens": 93,
+        "total_tokens": 1475,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:47:10.250679",
+  "last_updated_at": "2026-04-17T19:47:22.250320"
+}

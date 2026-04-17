@@ -1,0 +1,390 @@
+{
+  "sample_id": "#0490",
+  "query": "how are the ears related to balance?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Balance Disorders (for Parents) - KidsHealth also can impact hearing. Sounds might seem muffled, especially amid background noise. Kids might also have bothersome, distracting ear problems like ear pain, pressure or \"fullness\"in the ears, and tinnitus (ringing or other sounds like whirring, humming, or buzzing). These kinds of balance-related symptoms can take a real toll on kids \u0393\u00c7\u00f6 physically and emotionally \u0393\u00c7\u00f6 and cause other symptoms like: motion (car) sickness fear, anxiety, or panic Of course, symptoms involving kids' movement, sight, hearing \u0393\u00c7\u00f6 and just how they feel, day to day \u0393\u00c7\u00f6 can affect their ability to keep up in class, whether in preschool or high",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Miracle of Balance: What Happens When the System Gets Out of Sync - FOCUS - A health blog from Mass. Eye and Ear The Miracle of Balance: What Happens When the System Gets Out of Sync Thursday, May 23, 2019 Expert Chats Renowned Mass. Eye and Ear balance expert Dr. Steven Rauch, MD, explains what balance is, why it is miraculous, and what people can do to avoid age-related declines. A person\u0393\u00c7\u00d6s sense of balance is \u0393\u00c7\u00a3miraculous,\u0393\u00c7\u00a5 according to Dr. Steven D. Rauch, medical director of the Balance and Vestibular Center at Massachusetts Eye and Ear. Balance, he explains, is different from other senses like sight, sound and smell, which come from one single input (eyes, ears, and nose, respectively). Instead, balance is",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2007-03-28"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Hear Well, Balance Well The Ear Institute | Palm DesertThe Ear Institute The Ear Institute, Center for the Ear, Hearing, & Balance is dedicated to providing adult and pediatric patients with treatment for any and all ear-related health problems. Our areas of service expertise include: medical and surgical treatment for ear disease, hearing evaluation, physician-driven recommendations on hearing amplification, balance testing, medical and surgical treatment of dizziness, balance rehabilitation and falls prevention management. Our focus is to bring people to good heath, through improved health of their ears, hearing and balance. We strive to cure our patients\u0393\u00c7\u00d6 ear maladies, solve their communication difficulties, and right their balance challenges. In doing so, we",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "How 'tickling' the ear could prevent age related disease - Medical News New research suggests that using controlled electric currents to stimulate certain parts of the ear could readjust the body\u0393\u00c7\u00d6s metabolic balance, thus reducing the risk of age related health problems. Can \u0393\u00c7\u00fftickling\u0393\u00c7\u00d6 the ear with electric stimuli improve health later in life? Scientists from the United Kingdom believe that it can. Vagus nerve stimulation is a practice that has lately gained a lot of attention from medical researchers. The vagus nerve is the longest of the nerves that connect the brain with other parts of the body. It provides a direct link between the brain and the gut, and it",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Balance System Assessments | Ochsner Health System (VNG) to record and analyze the eye movements associated with these complaints including testing for BPPV (Benign Paroxysmal Positional Vertigo), the most commonly occurring inner ear-related dizziness problem. More generalized balance problems are assessed using Computerized Dynamic Posturography that measures how the inner ear, vision and somatosensation interact for balance. Together these two clinical exams provide both diagnostic information and form the basis for treatment recommendations  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2017-03-10"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions balance-related symptoms and ear problems, suggesting a connection between ears and balance, particularly in children."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Directly discusses balance and mentions that balance differs from senses like sight and sound, which come from single inputs like ears."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states the center treats ear, hearing, and balance issues, and focuses on improving ear health for balance."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Discusses stimulating the ear to improve metabolic balance, which is a tangential relation to the query about how ears relate to balance."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explains balance system assessments, mentioning the inner ear's role in balance and how it interacts with vision and somatosensation."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Balance disorders can impact hearing, causing muffled sounds and tinnitus.",
+            "Balance-related symptoms can include ear pain, pressure, or fullness in the ears."
+          ],
+          "reason": "Extracted facts linking balance disorders to specific ear symptoms like hearing impairment and tinnitus, as well as physical ear sensations."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Balance is a sense that differs from sight, sound, and smell, which originate from single inputs (eyes, ears, nose)."
+          ],
+          "reason": "Extracted the fact that balance is a complex sense, unlike senses like hearing which have a single input from the ears."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Ear Institute provides treatment for ear-related health problems, including balance testing and rehabilitation.",
+            "Improved health of ears and hearing contributes to better balance."
+          ],
+          "reason": "Extracted facts establishing a direct link between ear health, hearing, and balance, and the services offered for balance issues."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Stimulating certain parts of the ear with electric currents may readjust the body's metabolic balance."
+          ],
+          "reason": "Extracted the novel fact that ear stimulation via electric currents is being researched for its potential to improve metabolic balance."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Inner ear-related dizziness problems like BPPV are assessed using VNG to analyze eye movements.",
+            "Generalized balance problems are assessed using Computerized Dynamic Posturography, which measures the interaction of the inner ear, vision, and somatosensation for balance."
+          ],
+          "reason": "Extracted facts detailing how inner ear function and the interplay of inner ear, vision, and somatosensation are assessed for balance problems."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions balance disorders impacting hearing and causing ear symptoms, suggesting a connection but not explaining how ears contribute to balance itself.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "States hearing originates from ears, contrasting it with balance, implying ears are involved in hearing but not directly explaining their role in balance.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that improved ear and hearing health contributes to better balance and that ear institutes offer balance testing.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Suggests ear stimulation can affect metabolic balance, indicating a link, but doesn't explain the general mechanism of how ears maintain balance.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explains how inner ear function is assessed for balance problems, detailing the interplay of the inner ear, vision, and somatosensation.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_ear_balance_link",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 directly explain how ear health and inner ear function are crucial for maintaining balance and are assessed for balance problems."
+          },
+          {
+            "label": "indirect_ear_balance_connection",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 suggest connections between balance and ears (e.g., ear symptoms with balance disorders, hearing originating from ears, ear stimulation affecting balance) but do not fully explain the mechanism of how ears contribute to balance."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence documents are complementary, with some directly supporting the link between ear health and balance, while others provide indirect connections or details on assessment methods.",
+        "clusters": [
+          {
+            "label": "direct_ear_balance_link",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 directly explain how ear health and inner ear function are crucial for maintaining balance and are assessed for balance problems."
+          },
+          {
+            "label": "indirect_ear_balance_connection",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 suggest connections between balance and ears (e.g., ear symptoms with balance disorders, hearing originating from ears, ear stimulation affecting balance) but do not fully explain the mechanism of how ears contribute to balance."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and provides sufficient direct and indirect support for the link between ear health and balance, allowing for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Ear health and inner ear function are critical for maintaining balance, and balance issues are often assessed by examining ear health. While some documents directly explain this connection, others offer indirect links such as ear symptoms associated with balance disorders.",
+        "citations": [
+          "d3",
+          "d5",
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial documents directly and indirectly explain the link between ear health and balance, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately reflects the provided documents, stating that ear health and inner ear function are critical for balance. Citations are relevant and support the claims made."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9328,
+      "completion_tokens": 1967,
+      "total_tokens": 11295
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1569,
+        "completion_tokens": 362,
+        "total_tokens": 1931
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1524,
+        "completion_tokens": 481,
+        "total_tokens": 2005
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 870,
+        "completion_tokens": 356,
+        "total_tokens": 1226
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1041,
+        "completion_tokens": 257,
+        "total_tokens": 1298
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1291,
+        "completion_tokens": 242,
+        "total_tokens": 1533
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 654,
+        "completion_tokens": 45,
+        "total_tokens": 699
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 804,
+        "completion_tokens": 127,
+        "total_tokens": 931
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1575,
+        "completion_tokens": 97,
+        "total_tokens": 1672
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:00.435614",
+        "prompt_tokens": 1569,
+        "completion_tokens": 362,
+        "total_tokens": 1931,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:02.380739",
+        "prompt_tokens": 1524,
+        "completion_tokens": 481,
+        "total_tokens": 2005,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:03.933885",
+        "prompt_tokens": 870,
+        "completion_tokens": 356,
+        "total_tokens": 1226,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:05.350009",
+        "prompt_tokens": 1041,
+        "completion_tokens": 257,
+        "total_tokens": 1298,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:06.802441",
+        "prompt_tokens": 1291,
+        "completion_tokens": 242,
+        "total_tokens": 1533,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:07.824662",
+        "prompt_tokens": 654,
+        "completion_tokens": 45,
+        "total_tokens": 699,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:08.953179",
+        "prompt_tokens": 804,
+        "completion_tokens": 127,
+        "total_tokens": 931,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:47:10.249431",
+        "prompt_tokens": 1575,
+        "completion_tokens": 97,
+        "total_tokens": 1672,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:46:58.291781",
+  "last_updated_at": "2026-04-17T19:47:10.249730"
+}

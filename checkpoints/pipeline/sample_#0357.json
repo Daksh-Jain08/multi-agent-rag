@@ -1,0 +1,523 @@
+{
+  "sample_id": "#0357",
+  "query": "who won the 2017 open tennis tournament",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "2017 US Open \u2013 Men's singles - Wikipedia Rafael Nadal defeated Kevin Anderson in the final, 6\u20133, 6\u20133, 6\u20134 to win the men's singles tennis title at the 2017 US Open. Stan Wawrinka was the reigning champion, but did not participate due to a knee injury that ended his season prematurely. Wawrinka's withdrawal ended his streak of 50 consecutive major appearances, dating back to the 2005 French Open.[2] Reigning finalist Novak Djokovic also withdrew due to an elbow injury that ended his season, ending his streak of 51 consecutive major appearances, dating back to the 2005 Australian Open.[3] Accordingly, this was the first men's singles draw at the US Open since 1971 to include neither finalist from the previous year's tournament. After the loss of Marin \u010cili\u0107 in the third round, a first-time major finalist was guaranteed from the bottom half of the draw. Anderson was the first South African man to reach the final since Cliff Drysdale in 1965, and at any major singles final since Kevin Curren at the 1984 Australian Open, as well as the lowest-ranked man to reach the US Open singles final since the ATP rankings began in 1973.[4][5] Anderson was also the tallest major finalist in history, at 6 feet 8 inches.[6]",
+      "source_url": "https://en.wikipedia.org/wiki/2017_US_Open_%E2%80%93_Men%27s_singles",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Men's Grand Slam Title Winners - ESPN Men's Grand Slam Title Winners ; 2017 \u00b7 2017 \u00b7 2017 ; Wimbledon \u00b7 French Open \u00b7 Australian Open ; Roger Federer \u00b7 Rafael Nadal \u00b7 Roger Federer ...",
+      "source_url": "http://www.espn.com/tennis/history",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Year by Year | History of the US Open - A USTA Event - USOpen.org In the men's singles final, Novak Djokovic of Serbia swept past Argentina's Juan Martin del Potro to win his second consecutive major, his third US Open crown ...",
+      "source_url": "https://www.usopen.org/en_US/visit/year_by_year.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "2017 US Open: Rafael Nadal Wins 16th Grand Slam Title - YouTube Rafael Nadal defeats Kevin Anderson 6-3, 6-3, 6-4 to win his third US Open title and 16th career Grand Slam. Keep up with all the news from ...",
+      "source_url": "https://www.youtube.com/watch?v=2JeGvo74AHw",
+      "timestamp": "2017-09-10"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Photos: Rafael Nadal vs. Kevin Anderson, 2017 US Open men's ... Rafael Nadal won his third US Open men's singles title at the 2017 US Open, defeating 6-foot-8 South African Kevin Anderson, 6-3, 6-3, 6-4, in the final.",
+      "source_url": "https://www.usopen.org/en_US/news/articles/2020-04-09/2020-04-09_photos_rafael_nadal_vs_kevin_anderson_2017_us_open_mens_singles_final.html",
+      "timestamp": "2020-04-09"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Rafael Nadal Wins U.S. Open For 16th Grand Slam Title - tennis - Time Nadal beat South Africa's Kevin Anderson in straight sets at the US Open final Sunday evening, 6-3, 6-3, 6-4, to cap off his remarkable Grand Slam campaign. Rafael Nadal Wins the U.S. Open and Brings Superstar Quality Back to Men\u2019s Tennis Rafael Nadal Wins the U.S. Open and Brings Superstar Quality Back to Men\u2019s Tennis 4 minute read Rafael Nadal of Spain poses with the U.S. Open championship trophy after he defeated Kevin Anderson of South Africa in the Men's Singles Finals match on on September 10, 2017 in New York City. Abbie Parr\u2014Getty Images Coming into this year\u2019s tennis season, sports writers and commentators were contemplating career obituaries for Rafael Nadal and Roger Federer, rather than predicting that they would sweep the season\u2019s Grand Slams. Who could blame them for preparing for the end of Roger and Rafa, whose stocks were slipping? Nadal\u2019s 2016 results were a dour read: loses the first round at the Australian Open; withdraws from the French Open \u2014 where he had won nine titles \u2014 with a wrist injury before the third round; misses Wimbledon due to a bum wrist; fails to win a medal at the Rio Olympics; fourth round loss at the U.S. Open; ends the season in October (wrist again). He was 30, a pro for over half his life, with a dossier of injuries to show for it. Meanwhile, Federer, was 35. He had one major victory since 2010, and none since 2012. He had knee surgery in 2016, and lost the last five months of the season to rehab. Nadal and Federer won every Grand Slam tournament in 2006, 2007, and 2010. Now, improbable as it is to believe, you can add 2017 to that ledger. Nadal beat South Africa\u2019s Kevin Anderson in straight sets at the U.S. Open final Sunday evening, 6-3, 6-3, 6-4, to cap off his remarkable Grand Slam campaign.",
+      "source_url": "https://time.com/4935338/rafael-nadal-wins-us-open-tennis/",
+      "timestamp": "2017-09-10"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Rafael Nadal vs Kevin Anderson Full Match | US Open 2017 Final Watch the full match between Rafael Nadal and Kevin Anderson in the US Open 2017 final. Don't miss a moment of the US Open!",
+      "source_url": "https://www.youtube.com/watch?v=wYNT3W0aYnw",
+      "timestamp": "2020-04-09"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Winners of the Men's US Open Tennis Tournament - Topend Sports List of Winners of the USA Open - Men's Singles ; 2017, Rafael Nadal (Spain), Kevin Anderson (South Africa) ; 2016, Stan Wawrinka (Switzerland), Novak \u0110okovi\u0107 ( ... List of Winners of the USA Open - Men's Singles Winners of every USA Open men's singles event. See also the Women's results. Novak \u0110okovi\u0107's win in 2023 was his 24th grand slam victory, moving him clear of Serena Williams for Grand Slam wins in the Open era, and ties with Margaret Court for the most ever of any player in any era.",
+      "source_url": "https://www.topendsports.com/events/tennis-grand-slam/us-open/winners-men.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "US Open Tennis 2017 In Review: Rafael Nadal - YouTube Rafael Nadal surged to his 3rd US Open title in 2017, defeating Kevin Anderson in the final and ending the year as the ATP World #1!",
+      "source_url": "https://www.youtube.com/watch?v=Wb5EEocMDDY",
+      "timestamp": "2017-12-18"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "Directly states Rafael Nadal defeated Kevin Anderson to win the 2017 US Open men's singles title."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Lists 2017 Grand Slam winners, including Rafael Nadal for the French Open and Roger Federer for Wimbledon and the Australian Open. It implies Nadal's win but doesn't specify the US Open."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions Novak Djokovic winning the US Open, but refers to a different year (implied by context of his second consecutive major and third US Open crown, which aligns with 2011 and 2015, not 2017)."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "Confirms Rafael Nadal defeated Kevin Anderson to win the 2017 US Open title and his 16th Grand Slam."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "States Rafael Nadal won his third US Open men's singles title in 2017, defeating Kevin Anderson in the final."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "Explicitly states Rafael Nadal won the U.S. Open on September 10, 2017, defeating Kevin Anderson in the finals."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Provides a link to watch the full match of the US Open 2017 final between Rafael Nadal and Kevin Anderson, confirming Nadal's participation and likely win."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "Lists Rafael Nadal of Spain as the winner of the 2017 Men's US Open singles title, with Kevin Anderson as the runner-up."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 1.0,
+          "is_relevant": true,
+          "reason": "States Rafael Nadal surged to his 3rd US Open title in 2017, defeating Kevin Anderson in the final."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Rafael Nadal defeated Kevin Anderson in the 2017 US Open men's singles final.",
+            "Nadal won the match with a score of 6\u20133, 6\u20133, 6\u20134.",
+            "Stan Wawrinka and Novak Djokovic withdrew from the tournament due to injuries."
+          ],
+          "reason": "Extracted key facts about the winner, the opponent, the score, and notable withdrawals from the 2017 US Open men's singles tournament."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Rafael Nadal won the 2017 French Open.",
+            "Roger Federer won the 2017 Wimbledon and Australian Open titles."
+          ],
+          "reason": "Extracted facts about the winners of the 2017 Grand Slam tournaments, specifically mentioning Rafael Nadal's win at the French Open."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "This document describes a past US Open event where Novak Djokovic won, but does not specify the year as 2017."
+          ],
+          "reason": "The document mentions Novak Djokovic winning the US Open, but lacks the specific year '2017' in relation to his victory, making it less directly relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Rafael Nadal defeated Kevin Anderson 6-3, 6-3, 6-4 to win the 2017 US Open.",
+            "This victory marked Nadal's third US Open title and 16th career Grand Slam."
+          ],
+          "reason": "Extracted direct confirmation of Rafael Nadal winning the 2017 US Open, including the opponent, score, and significance of the win."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Rafael Nadal won his third US Open men's singles title in 2017.",
+            "He defeated Kevin Anderson 6-3, 6-3, 6-4 in the final."
+          ],
+          "reason": "Extracted facts confirming Rafael Nadal's victory at the 2017 US Open, including the opponent and the final score."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Rafael Nadal won the U.S. Open on September 10, 2017, defeating Kevin Anderson.",
+            "Nadal won the final in straight sets: 6-3, 6-3, 6-4.",
+            "This win was Nadal's 16th Grand Slam title.",
+            "Nadal and Federer won all Grand Slam tournaments in 2017."
+          ],
+          "reason": "Extracted facts confirming Rafael Nadal's win at the 2017 US Open, including the date, opponent, score, and the fact that Nadal and Federer dominated the 2017 Grand Slams."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "This document is a link to a video of the US Open 2017 final between Rafael Nadal and Kevin Anderson."
+          ],
+          "reason": "The document is a link to a video and does not contain extractable factual statements about the winner of the 2017 US Open."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Rafael Nadal (Spain) won the Men's US Open Singles title in 2017, defeating Kevin Anderson (South Africa)."
+          ],
+          "reason": "Extracted the direct fact stating Rafael Nadal won the 2017 US Open men's singles title and who he defeated."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Rafael Nadal won his 3rd US Open title in 2017.",
+            "He defeated Kevin Anderson in the final.",
+            "Nadal ended the year as the ATP World #1."
+          ],
+          "reason": "Extracted facts confirming Rafael Nadal's 2017 US Open victory, his opponent, and his year-end ranking."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states Rafael Nadal defeated Kevin Anderson in the 2017 US Open men's singles final, answering who won.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Rafael Nadal won the 2017 French Open, but the query asks about the 'open tennis tournament' generally, not a specific one.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Mentions a US Open win by Novak Djokovic but does not specify the year as 2017, making it unhelpful for the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly confirms Rafael Nadal won the 2017 US Open, including opponent and score.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Confirms Rafael Nadal's victory at the 2017 US Open, including opponent and score.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Confirms Rafael Nadal won the 2017 U.S. Open, including date, opponent, and score.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "This is a link to a video and does not contain extractable factual statements about the winner.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Directly states Rafael Nadal won the Men's US Open Singles title in 2017, defeating Kevin Anderson.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Confirms Rafael Nadal won his 3rd US Open title in 2017 and defeated Kevin Anderson in the final.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4",
+          "d5",
+          "d6",
+          "d8",
+          "d9"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d7"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_confirmation_nadal_2017_us_open",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5",
+              "d6",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents directly confirm Rafael Nadal won the 2017 US Open, often including details like the opponent (Kevin Anderson), the score, and the significance of the win."
+          },
+          {
+            "label": "related_but_not_specific_win",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document mentions Rafael Nadal winning the 2017 French Open, which is a Grand Slam but not the US Open requested."
+          },
+          {
+            "label": "irrelevant_or_unverifiable",
+            "doc_ids": [
+              "d3",
+              "d7"
+            ],
+            "summary": "Some documents are irrelevant due to missing year information for a US Open win or are simply links to videos without extractable facts."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting evidence consistently confirms Rafael Nadal won the 2017 US Open. Other documents provide related but not directly conflicting information.",
+        "clusters": [
+          {
+            "label": "Nadal wins 2017 US Open",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5",
+              "d6",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple sources confirm Rafael Nadal defeated Kevin Anderson in the 2017 US Open final with consistent scores and details about the win's significance."
+          },
+          {
+            "label": "Nadal wins 2017 French Open",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document mentions Rafael Nadal winning the 2017 French Open, which is a different tournament."
+          },
+          {
+            "label": "Irrelevant documents",
+            "doc_ids": [
+              "d3",
+              "d7"
+            ],
+            "summary": "Documents are irrelevant due to missing year information for a US Open win or are video links without extractable facts."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient and consistent evidence directly confirms Rafael Nadal won the 2017 US Open. No significant conflicts exist."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Rafael Nadal won the 2017 US Open, defeating Kevin Anderson in the final.",
+        "citations": [
+          "d1",
+          "d4",
+          "d5",
+          "d6",
+          "d8",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Multiple supporting documents consistently confirm Rafael Nadal's victory at the 2017 US Open, providing specific details about the match and opponent."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided documents, accurately stating that Rafael Nadal won the 2017 US Open by defeating Kevin Anderson."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 13482,
+      "completion_tokens": 3274,
+      "total_tokens": 16756
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2152,
+        "completion_tokens": 713,
+        "total_tokens": 2865
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2107,
+        "completion_tokens": 1027,
+        "total_tokens": 3134
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1348,
+        "completion_tokens": 621,
+        "total_tokens": 1969
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1731,
+        "completion_tokens": 366,
+        "total_tokens": 2097
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2054,
+        "completion_tokens": 298,
+        "total_tokens": 2352
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 759,
+        "completion_tokens": 43,
+        "total_tokens": 802
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 907,
+        "completion_tokens": 112,
+        "total_tokens": 1019
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 2424,
+        "completion_tokens": 94,
+        "total_tokens": 2518
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:05:58.164782",
+        "prompt_tokens": 2152,
+        "completion_tokens": 713,
+        "total_tokens": 2865,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:03.605415",
+        "prompt_tokens": 2107,
+        "completion_tokens": 1027,
+        "total_tokens": 3134,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:05.949139",
+        "prompt_tokens": 1348,
+        "completion_tokens": 621,
+        "total_tokens": 1969,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:07.728005",
+        "prompt_tokens": 1731,
+        "completion_tokens": 366,
+        "total_tokens": 2097,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:09.548481",
+        "prompt_tokens": 2054,
+        "completion_tokens": 298,
+        "total_tokens": 2352,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:10.436255",
+        "prompt_tokens": 759,
+        "completion_tokens": 43,
+        "total_tokens": 802,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:11.705127",
+        "prompt_tokens": 907,
+        "completion_tokens": 112,
+        "total_tokens": 1019,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:06:12.838856",
+        "prompt_tokens": 2424,
+        "completion_tokens": 94,
+        "total_tokens": 2518,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:05:53.677494",
+  "last_updated_at": "2026-04-17T18:06:12.839514"
+}

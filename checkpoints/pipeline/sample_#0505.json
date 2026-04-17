@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0505",
+  "query": "When did the blue jays win their last world series?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "game strategist, effectively handling National League rules during World Series games in Atlanta and Philadelphia. In the six games the Blue Jays played in those places during World Series play, the Jays went 4\u0393\u00c7\u00f42, including the title clincher in Game 6 of the 1992 World Series in Atlanta. The 1992 World Series victory was widely recognized as the first for a non-American team, and Gaston was the first ever African-American manager to win a World Series. The Blue Jays followed their 1992 success with a repeat victory in the 1993 World Series, an impressive feat, given that the Jays had",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2011-07-23"
+    },
+    {
+      "doc_id": "d2",
+      "text": "1992 American League Championship Series The 1992 American League Championship Series was played between the Toronto Blue Jays and the Oakland Athletics from October 7 to 14, 1992. The Blue Jays won the series four games to two to advance to the World Series. The series was a rematch of the 1989 ALCS, which Oakland won in five games. Blue Jays second baseman Roberto Alomar was named Most Valuable Player of the series. In six games, Alomar rapped 11 hits in 26 at bats for a .423 batting average, including a double and two home runs. Oakland finished the 1992",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d3",
+      "text": "who became a fan favourite for many years. In 1985, Toronto won their first championship of any sort: the first of their six American League East division titles. The Blue Jays featured strong pitching and a balanced offense. Their mid-season call-up of relief pitcher Tom Henke also proved to be important. They finished 99\u0393\u00c7\u00f462 (the franchise record for most wins), two games in front of the New York Yankees. The Blue Jays faced the Kansas City Royals in the American League Championship Series (ALCS), and took a 3 games to 1 lead. However, Kansas City won three consecutive games to",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "1998 Toronto Blue Jays season The 1998 Toronto Blue Jays season was the franchise's 22nd season of Major League Baseball. It resulted in the Blue Jays finishing third in the American League East with a record of 88 wins and 74 losses, which was their best record from their 1993 World Series-winning season until 2015. With the disappointing last-place finish of the previous year, General Manager Gord Ash once again dug into the wallet to improve the team, signing reliever Randy Myers and slugger Jos\u251c\u2310 Canseco as free agents. Though the team improved noticeably (thanks to another pitching Triple Crown",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2010-09-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "1994. Their season win total was the most since winning 97 games in 1980. The Royals defeated the Houston Astros in five games in the American League Division Series (ALDS), advancing to their second straight ALCS and eighth overall. The Toronto Blue Jays made it to the postseason for the first time since winning the 1993 World Series, finishing the season 93\u0393\u00c7\u00f469 to clinch the American League East title. Playing in their first ALDS in team history, the Blue Jays overcame a 2\u0393\u00c7\u00f40 deficit to defeat the Texas Rangers in five games and move on to the ALCS. It was  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states the Blue Jays won the 1992 and 1993 World Series, answering the query about their last win."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions the 1992 World Series and the Blue Jays' participation, providing context but not explicitly stating it was their last win."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses the Blue Jays' 1985 championship and ALCS appearances, but not their World Series wins."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions the '1993 World Series-winning season' as a benchmark for the 1998 season, implying a win in 1993."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "States the Blue Jays made the postseason for the first time since winning the 1993 World Series, confirming a win in that year."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Blue Jays won the 1992 World Series in Atlanta.",
+            "The 1992 World Series victory was the first for a non-American team.",
+            "Gaston was the first African-American manager to win a World Series.",
+            "The Blue Jays won the 1993 World Series."
+          ],
+          "reason": "Extracted facts about the Blue Jays' World Series wins in 1992 and 1993, including notable firsts."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Blue Jays won the 1992 American League Championship Series against the Oakland Athletics."
+          ],
+          "reason": "Extracted the fact that the Blue Jays won the 1992 ALCS, which is a precursor to the World Series."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In 1985, Toronto won their first championship of any sort: the first of their six American League East division titles."
+          ],
+          "reason": "Extracted the fact about the Blue Jays' first championship in 1985, though it was not a World Series."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Blue Jays' 1998 record of 88 wins and 74 losses was their best since their 1993 World Series-winning season until 2015."
+          ],
+          "reason": "Extracted a comparative fact referencing the 1993 World Series win and its significance for team performance metrics."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Toronto Blue Jays made it to the postseason for the first time since winning the 1993 World Series."
+          ],
+          "reason": "Extracted a fact that references the Blue Jays' 1993 World Series win in the context of their later postseason appearance."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states the Blue Jays won the World Series in 1992 and 1993, answering the query about their last win.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the 1992 American League Championship Series, not the World Series win itself.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document mentions a 1985 championship, but it was not a World Series win.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "References the 1993 World Series win as a benchmark for team performance, indirectly supporting the query.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions the 1993 World Series win in the context of a later postseason appearance, indirectly supporting the query.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_world_series_wins",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Directly confirms the Blue Jays' World Series wins in 1992 and 1993."
+          },
+          {
+            "label": "contextual_world_series_references",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "References the 1993 World Series win in the context of team performance benchmarks and later postseason appearances."
+          },
+          {
+            "label": "irrelevant_championships",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents discuss other championships (ALCS, division titles) but not the World Series wins."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence is complementary, with direct and contextual references supporting the Blue Jays' 1992 and 1993 World Series wins. Irrelevant documents discuss other championships.",
+        "clusters": [
+          {
+            "label": "direct_world_series_wins",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Directly confirms the Blue Jays' World Series wins in 1992 and 1993."
+          },
+          {
+            "label": "contextual_world_series_references",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "References the 1993 World Series win in the context of team performance benchmarks and later postseason appearances."
+          },
+          {
+            "label": "irrelevant_championships",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents discuss other championships (ALCS, division titles) but not the World Series wins."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and directly supports the claim about the Blue Jays' World Series wins, with no significant conflicts."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Toronto Blue Jays won the World Series in 1992 and 1993.",
+        "citations": [
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting evidence directly confirms the Blue Jays' World Series wins in 1992 and 1993, with no conflicts."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly addresses the query and is fully supported by the cited document, which mentions both the 1992 and 1993 World Series victories."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9136,
+      "completion_tokens": 1996,
+      "total_tokens": 11132
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1476,
+        "completion_tokens": 390,
+        "total_tokens": 1866
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1431,
+        "completion_tokens": 512,
+        "total_tokens": 1943
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 904,
+        "completion_tokens": 349,
+        "total_tokens": 1253
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1066,
+        "completion_tokens": 238,
+        "total_tokens": 1304
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1321,
+        "completion_tokens": 273,
+        "total_tokens": 1594
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 674,
+        "completion_tokens": 42,
+        "total_tokens": 716
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 821,
+        "completion_tokens": 93,
+        "total_tokens": 914
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1443,
+        "completion_tokens": 99,
+        "total_tokens": 1542
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:19.912653",
+        "prompt_tokens": 1476,
+        "completion_tokens": 390,
+        "total_tokens": 1866,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:21.981182",
+        "prompt_tokens": 1431,
+        "completion_tokens": 512,
+        "total_tokens": 1943,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:23.701225",
+        "prompt_tokens": 904,
+        "completion_tokens": 349,
+        "total_tokens": 1253,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:25.101406",
+        "prompt_tokens": 1066,
+        "completion_tokens": 238,
+        "total_tokens": 1304,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:26.364372",
+        "prompt_tokens": 1321,
+        "completion_tokens": 273,
+        "total_tokens": 1594,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:27.136936",
+        "prompt_tokens": 674,
+        "completion_tokens": 42,
+        "total_tokens": 716,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:28.199432",
+        "prompt_tokens": 821,
+        "completion_tokens": 93,
+        "total_tokens": 914,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:50:29.597994",
+        "prompt_tokens": 1443,
+        "completion_tokens": 99,
+        "total_tokens": 1542,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:50:17.778323",
+  "last_updated_at": "2026-04-17T19:50:29.598598"
+}

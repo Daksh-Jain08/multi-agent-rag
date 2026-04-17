@@ -1,0 +1,381 @@
+{
+  "sample_id": "#0551",
+  "query": "Who presides over the sessions of lok sabha?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "15th Lok Sabha Members of the 15th Lok Sabha were elected during the 2009 general election in India. It was dissolved on 18 May 2014 by President Pranab Mukherjee. Indian National Congress led United Progressive Alliance won 44 more seats than previous 14th Lok Sabha. The next 16th Lok Sabha was convened after Indian general election, 2014. The Second Manmohan Singh ministry introduced a total of 222 Bills (apart from Finance and Appropriations Bills) in the 15th Lok Sabha. A total of 165 Bills were by passed by the House, including bills introduced in previous Lok Sabhas. 14 sitting members",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "votes. Muhammed Hamdulla Sayeed won the seat and also became the youngest member of the 15th Lok Sabha. Mohammed Faizal P. P. of the Nationalist Congress Party won the seat and represents the constituency in the current 16th Lok Sabha. Lakshadweep (Lok Sabha constituency) Lakshadweep Lok Sabha constituency (, ) is a Lok Sabha (lower house of the Indian parliament) constituency, which covers the entire area of the Union Territory of Lakshadweep in India. This seat is reserved for Scheduled Tribes. As of 2014, it is the smallest Lok Sabha constituency by number of voters. Before its first election in",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d3",
+      "text": "were ousted from the 14th Lok Sabha as per the adoption of the motion calling for their expulsion: 14th Lok Sabha The 14th Lok Sabha (17 May 2004 \u0393\u00c7\u00f4 18 May 2009) was convened after the Indian general election, 2004 held in four phases during 20 April \u0393\u00c7\u00f4 10 May 2004, which led to the formation of first Manmohan Singh ministry (2004\u0393\u00c7\u00f42009). Indian National Congress lead United Progressive Alliance won 62 more seats than previous 13th Lok Sabha. The Lok Sabha (House of the People) is the lower house in the Parliament of India. 8 sitting members from Rajya Sabha,",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d4",
+      "text": "led by the Congress party. Lok Sabha Ram Subhag Singh Ram Subhag Singh (7 July 1917 \u0393\u00c7\u00f4 16 December 1980) was an Indian politician, a member of the Indian National Congress political party and a member of the 3rd and 4th Lok Sabha. He was elected from Bikramganj and Buxar in Bihar state of India in 1962 and 1967 respectively. After the split in the Congress party in 1969, he stayed with the Indian National Congress (Organisation). He was briefly the leader of the opposition in the Lok Sabha in 1969. He participated in the Indian independence movement. He was",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d5",
+      "text": "5th Lok Sabha List of Members of the 5th Lok Sabha, ( 15 March 1971 \u0393\u00c7\u00f4 18 January 1977 ) elected February\u0393\u00c7\u00f4March 1971. The Lok Sabha (House of the People) is the lower house in the Parliament of India. 4 sitting members from Rajya Sabha were elected to 5th Lok Sabha after the Indian general election, 1971. Indira Gandhi was the Prime Minister as in the previous 4th Lok Sabha. However INC loses 217 seats in the next 6th Lok Sabha, which was constituted after the Indian general election, 1977. Members by political party in 5th Lok Sabha are given  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2008"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the 15th Lok Sabha's members, elections, and bills passed, but does not mention who presides over its sessions."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document focuses on specific Lok Sabha constituencies and members, not on the presiding officer of the sessions."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document details the 14th Lok Sabha, its members, and the general structure of the Lok Sabha, but not who presides over sessions."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document mentions a former leader of the opposition in the Lok Sabha, but not the presiding officer of the sessions."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document lists members of the 5th Lok Sabha and mentions the Prime Minister, but does not identify the presiding officer of the sessions."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 15th Lok Sabha was dissolved on 18 May 2014 by President Pranab Mukherjee.",
+            "The Second Manmohan Singh ministry introduced a total of 222 Bills in the 15th Lok Sabha.",
+            "A total of 165 Bills were passed by the 15th Lok Sabha."
+          ],
+          "reason": "Extracted facts about the 15th Lok Sabha's dissolution, bills introduced, and bills passed, which are verifiable details about the legislative body."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Muhammed Hamdulla Sayeed became the youngest member of the 15th Lok Sabha.",
+            "Mohammed Faizal P. P. represents Lakshadweep in the current 16th Lok Sabha.",
+            "Lakshadweep Lok Sabha constituency is a lower house of the Indian parliament constituency.",
+            "The Lakshadweep seat is reserved for Scheduled Tribes.",
+            "As of 2014, Lakshadweep is the smallest Lok Sabha constituency by number of voters."
+          ],
+          "reason": "Extracted facts about the youngest member of the 15th Lok Sabha, representation in the 16th Lok Sabha, and details about the Lakshadweep constituency."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The 14th Lok Sabha convened after the Indian general election, 2004.",
+            "The Lok Sabha (House of the People) is the lower house in the Parliament of India.",
+            "8 sitting members from Rajya Sabha were ousted from the 14th Lok Sabha."
+          ],
+          "reason": "Extracted facts defining the Lok Sabha and providing details about the 14th Lok Sabha's convening and member changes."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Ram Subhag Singh was a member of the 3rd and 4th Lok Sabha.",
+            "Ram Subhag Singh was briefly the leader of the opposition in the Lok Sabha in 1969.",
+            "Ram Subhag Singh participated in the Indian independence movement."
+          ],
+          "reason": "Extracted facts about Ram Subhag Singh's tenure in the Lok Sabha, his role as leader of the opposition, and his participation in the independence movement."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The 5th Lok Sabha was elected in February-March 1971 and convened from 15 March 1971 to 18 January 1977.",
+            "The Lok Sabha (House of the People) is the lower house in the Parliament of India.",
+            "Indira Gandhi was the Prime Minister during the 5th Lok Sabha.",
+            "INC lost 217 seats in the 6th Lok Sabha, constituted after the 1977 general election."
+          ],
+          "reason": "Extracted facts about the 5th Lok Sabha's dates, its nature as the lower house, the Prime Minister at the time, and election results for the subsequent Lok Sabha."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The facts discuss the dissolution of the 15th Lok Sabha and bills passed, but do not mention who presides over its sessions.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "These facts concern members and constituencies of the Lok Sabha, not the presiding officer.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document defines the Lok Sabha and mentions its convening and member changes, but not who presides over sessions.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The facts are about a former member and leader of the opposition, not the presiding officer of Lok Sabha sessions.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document provides dates for the 5th Lok Sabha and mentions the Prime Minister, but not the presiding officer.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All provided documents were deemed irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents were irrelevant to the query, indicating no conflicting information was found.",
+        "clusters": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "All provided documents were deemed irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents are irrelevant to the query, so no reliable answer can be formed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents are irrelevant to the query, so no reliable answer can be formed.",
+        "final_reasoning": "All provided documents were irrelevant to the query, preventing an answer from being formed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claim. The documents do not contain information about who presides over the sessions of Lok Sabha."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9509,
+      "completion_tokens": 1941,
+      "total_tokens": 11450
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1557,
+        "completion_tokens": 370,
+        "total_tokens": 1927
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1512,
+        "completion_tokens": 768,
+        "total_tokens": 2280
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1139,
+        "completion_tokens": 338,
+        "total_tokens": 1477
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1291,
+        "completion_tokens": 146,
+        "total_tokens": 1437
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 108,
+        "total_tokens": 1558
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 459,
+        "completion_tokens": 36,
+        "total_tokens": 495
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 600,
+        "completion_tokens": 74,
+        "total_tokens": 674
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1501,
+        "completion_tokens": 101,
+        "total_tokens": 1602
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:48.367736",
+        "prompt_tokens": 1557,
+        "completion_tokens": 370,
+        "total_tokens": 1927,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:52.365493",
+        "prompt_tokens": 1512,
+        "completion_tokens": 768,
+        "total_tokens": 2280,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:53.991895",
+        "prompt_tokens": 1139,
+        "completion_tokens": 338,
+        "total_tokens": 1477,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:55.220306",
+        "prompt_tokens": 1291,
+        "completion_tokens": 146,
+        "total_tokens": 1437,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:56.252394",
+        "prompt_tokens": 1450,
+        "completion_tokens": 108,
+        "total_tokens": 1558,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:57.120984",
+        "prompt_tokens": 459,
+        "completion_tokens": 36,
+        "total_tokens": 495,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:58.293599",
+        "prompt_tokens": 600,
+        "completion_tokens": 74,
+        "total_tokens": 674,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:02:59.317802",
+        "prompt_tokens": 1501,
+        "completion_tokens": 101,
+        "total_tokens": 1602,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:02:46.621060",
+  "last_updated_at": "2026-04-17T20:02:59.318325"
+}

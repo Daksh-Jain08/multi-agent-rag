@@ -1,0 +1,628 @@
+{
+  "sample_id": "#0242",
+  "query": "Was radio invented by Nikola Tesla?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Tesla - Master of Lightning: Who Invented Radio? - PBS With his newly created Tesla coils, the inventor soon discovered that he could transmit and receive powerful radio signals when they were tuned to resonate at the same frequency. When a coil is tuned to a signal of a particular frequency, it literally magnifies the incoming electrical energy through resonant action. By early 1895, Tesla was ready to transmit a signal 50 miles to West Point, New York... But in that same year, disaster struck. A building fire consumed Tesla's lab, destroying his work. The timing could not have been worse. In England, a young Italian experimenter named Guglielmo Marconi had been hard at work building a device for wireless telegraphy. The young Marconi had taken out the first wireless telegraphy patent in England in 1896. His device had only a two-circuit system, which some said could not transmit \"across a pond.\" Later Marconi set up long-distance demonstrations, using a Tesla oscillator to transmit the signals across the English Channel. Tesla filed his own basic radio patent applications in 1897. They were granted in 1900. Marconi's first patent application in America, filed on November 10, 1900, was turned down. Marconi's revised applications over the next three years were repeatedly rejected because of the priority of Tesla and other inventors. The Patent Office made the following comment in 1903: Many of the claims are not patentable over Tesla patent numbers 645,576 and 649,621, of record, the amendment to overcome said references as well as Marconi's pretended ignorance of the nature of a \"Tesla oscillator\" being little short of absurd... the term \"Tesla oscillator\" has become a household word on both continents [Europe and North America]. But no patent is truly safe, as Tesla's career demonstrates. In 1900, the Marconi Wireless Telegraph Company, Ltd. began thriving in the stock markets\u0097due primarily to Marconi's family connections with English aristocracy.",
+      "source_url": "https://www.pbs.org/tesla/ll/ll_whoradio.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Tesla Invented Radio, Not Marconi! | Tesla Universe Tesla Invented Radio, Not Marconi! Okay, I am probably as guilty as you in believing that Marconi actually invented radio. But he did not and it has taken decades \u2013 actually, over a century \u2013 for the truth to come out. In fact, I am convinced that the truth is still not well known. Not to burst your bubble or anything, but here is the real story. Figure 1. Nikola Tesla in 1895 (age 39). What Really Happened? My son-in-law recently gave me a book he found on a sale table called Tesla, Man Out of Time by Margaret Cheney. It has a 1981 copyright date on it, but was re-released in 1993. My son-in-law is not a technical or electronics type, but he read the book and was fascinated by Tesla and even amazed at Tesla\u2019s unbelievable inventions. Tesla was not only a real success in the electrical fields, but also a terrible failure in many ways. And one of those failures was his inability to get recognition for inventing radio during his lifetime. I read the book only to find that I have had it wrong all these years myself. From my days as a ham radio addict in my teens to today where I write books and articles on radio for a living, I firmly believed l owed my livelihood to Marconi. Nikola Tesla was born in the Serbian part of Croatia in 1856. Last year was his 150th birthday. He began inventing as a boy. Tesla was educated in various European universities in mechanical and electrical engineering, physics, and languages. During the late 1800s, he worked for Thomas Edison\u2019s European telephone company in Budapest and Paris. He immigrated to the US in 1884. He worked for Edison in New York City for a while, but pursued inventions on his own with great success. After endless squabbles with Edison over the merits of DC vs. AC, Tesla took off on his own and invented a whole stream of electrical things and patented them.",
+      "source_url": "https://teslauniverse.com/nikola-tesla/articles/tesla-invented-radio-not-marconi",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rereading the Supreme Court: Tesla's Invention of Radio ... Rereading the Supreme Court: Tesla\u2019s Invention of Radio Editors\u2019 note: We are struck, once again, with how the importance of communication technologies inspires continuing debate regarding their invention and development. The complex evolution of these complicated devices and systems makes the process of attribution exceptionally difficult. This essay responds to \u201cMisreading the Supreme Court: A Puzzling Chapter in the History of Radio\u201d by A. David Wunsch in the November 1998 issue of Antenna. As regular readers of this newsletter know, on June 21, 1943, the Supreme Court affirmed a 1935 ruling of the United States Court of Claims which essentially invalidated Marconi\u2019s claim of having invented radio, and clarified Tesla\u2019s role in inventing radio. The granting of a patent in itself does not help to establish priority of invention. Unlike an infringement action, in a patent grant application no one but the examiner goes out of his way to dig up facts that provide a basis for the rejection of the patent. The patent examiner tries to do this, but is limited to papers on file in the patent office or available to him without great effort or expense. The applicant\u2019s attorney is supposed to bring to the examiner\u2019s attention all the adverse information he runs across, but he doesn\u2019t waste his client\u2019s money trying to find data which will help the examiner find grounds to deny the patent. The radio litigation discussed here arose in the Court of Claims, in a claim for taking intellectual property that was basically the same as an infringement action. Marconi filed a claim against the U. S. government for taking four patents. The patents were: reissue no. 11,913 of patent no. 586,193, granted to Marconi on June 4, 1901, for a two-circuit system for transmitting and receiving signals (one circuit in the transmitter; another in the receiver); patent no.",
+      "source_url": "https://mercurians.org/antenna-newsletter/rereading-the-supreme-court-teslas-invention-of-radio/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Tesla gives 1st public demonstration of radio, March 1, 1893 - EDN Tesla gives 1st public demonstration of radio, March 1, 1893 Nikola Tesla gave the first public demonstration of radio in St. Louis on March 1, 1893, although he had presented his work prior to this behind closed doors. Tesla first demonstrated wireless transmissions during a lecture in 1891. Just days before the St. Louis presentation, Tesla addressed the Franklin Institute in Philadelphia, on February 23, 1893, describing in detail the principles of early radio communication. Tesla presented the fundamentals of radio in 1893 during his public presentation, \u201cOn Light and Other High Frequency Phenomena.\u201d Afterward, the principle of radio communication\u2013sending signals through space to receivers\u2013was widely publicized from Tesla\u2019s experiments and demonstrations. Even before the development of the vacuum tube, Tesla\u2019s descriptions contained all the elements that were later incorporated into radio systems. He initially experimented with magnetic receivers, unlike the coherers (detecting devices consisting of tubes filled with iron filings which had been invented by Temistocle Calzecchi-Onesti in 1884) used by Guglielmo Marconi and other early experimenters. Radio offers another example of Tesla\u2019s work receiving minimal or no long-term public acknowledgement. While Marconi is often credited with inventing the radio, this presentation by Tesla was recalled in courts several years later in invalidating Marconi patents. Indeed, it, among other facts, pushed the United States Supreme Court in the 1943 case of Marconi Wireless Telegraph Company of America vs. the United States to state that \u201cit is now held that in the important advance upon his basic patent Marconi did nothing that had not already been seen and disclosed.\u201d To be true, what Tesla demonstrated had more scientific interest than practical use, but he believed that by taking the \u201cTesla oscillator,\u201d grounding one side of it, and connecting the other to an insulated body of a large surface, it would be possible to transmit electric oscillations a great distance and to communicate intelligence in this way to other oscillators.",
+      "source_url": "https://www.edn.com/tesla-gives-1st-public-demonstration-of-radio-march-1-1893/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Misreading the Supreme Court: A Puzzling Chapter in the History of ... On the night of January 18, 1903, Guglielmo Marconi and his associates gathered at the Marconi Wireless Station near South Wellfleet, Massachusetts. A message of greeting in Morse code was sent from President Theodore Roosevelt to King Edward VII of England. The event made the front page of the New York Times as the first transatlantic wireless message from an American president to a European head of state. Although the station was dismantled about eighty years ago, its site, now within the Cape Cod National Seashore, is marked by a nearby National Park Service information center. Available there is a Park Service leaflet that tells visitors that the inventor Nikola Tesla \u201cproposed the essential elements of radio communication in 1892 and 1893\u201d prior to Marconi, and that \u201cthe U.S. Supreme Court in 1943 decided that Marconi\u2019s basic patents were \u2018anticipated\u2019 and therefore were invalid.\u201d1 The Supreme Court case referred to is Marconi Wireless Telegraph Corporation of America v. United States, 320 US 1 (1943), which was argued in April and decided on June 21, 1943. References to this case are not uncommon and repeat the Court\u2019s finding that Tesla, not Marconi, invented the first radio. For example, writing in the New York Times of August 28, 1984, science reporter William Broad noted that: \u201cIt was Nikola Tesla, not Marconi, who invented radio.2 Indeed in 1943 the Justices of the Supreme Court of the United States overturned Marconi\u2019s patent because they found it had been preceded by Tesla\u2019s practical achievements in radio transmission.\u201d3 Tesla\u2019s priority over Marconi in the invention of radio is not the only conclusion often drawn from that court case.",
+      "source_url": "https://mercurians.org/antenna-newsletter/misreading-the-supreme-court-a-puzzling-chapter-in-the-history-of-radio/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Plaque of Nikola Tesla on Radio Wave Building \u2013 New York, New ... Nikola Tesla is the real father of radio. Although Tesla was granted the first radio patent in 1900 and made headlines for his radio wave technologies even in the late 19th century, Italian Guglielmo Marconi has gone down in history as the medium\u2019s inventor. That said, not everyone \u2013 or everywhere \u2013 has forgotten about Tesla\u2019s contributions to the creation of radio. In 1977, the appropriately-named Radio Wave Building in Lower Manhattan began displaying a plaque thanking Tesla for his work in the field of radio technology. Tesla, who lived in the building in its former incarnation as the Gerlach Hotel in 1896, experimented with radio waves there. The plaque notes Tesla\u2019s advancements in the \u201cfield of alternating electric current.\u201d For the science-uninitiated, the building\u2019s name gives sufficient credit where credit is long overdue. The story of how Tesla lost his patent, however, is unbelievable in itself. Marconi was originally discounted by the U.S. Patent Office as coattail-rider trying to pull a fast one on their office. In 1903, in response to Marconi\u2019s radio patent application, they said, \u201cMany of the claims are not patentable over Tesla patent numbers 645,576 and 649,621, of record.\u201d Marconi proclaimed his ignorance of the Tesla oscillator, an invention so famous that the Patent Office knew it was impossible another scientist wouldn\u2019t know of it. Despite the disapproval of his patent, Marconi\u2019s Wireless Telegraph Company, Ltd. began gaining popularity in England, where he lived, and abroad. Perhaps because of his good looks, charm and connections within British society, stock in the company began increasing in price and soon after Marconi famously became the first person to transmit radio signals across the Atlantic Ocean. Still, Tesla was unabashed, saying \u201cLet him continue. He is using seventeen of my patents.\u201d",
+      "source_url": "https://www.atlasobscura.com/places/plaque-nikola-tesla-radio-wave-building",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "The Nikola Tesla inventions that should have made the inventor ... But Tesla had the last laugh, because today, alternating current is predominantly used to power most of the world\u2019s electricity. AC motors are also used in refrigerators, power tools and fans. Meanwhile, DC motors are still used for some industrial machines and conveyors, but often require more maintenance. Radio History often touts Italian entrepreneur Guglielmo Marconi as the inventor of radio. But sometimes history is wrong. Marconi is credited with sending the first transatlantic radio transmission, using technology from 17 of Tesla\u2019s patents. The two inventors became embroiled in a patent war. In fact, the United States Supreme Court revoked Marconi\u2019s radio patents in 1943 in favor of Tesla and two other scientists, Oliver Lodge and John Stone. Unfortunately, Tesla and Marconi had already passed away by the time the court handed down their decision. Italian electrical engineer and nobel laureate Guglielmo Marconi with the one of his wireless radio apparatuses. (Photo by Hulton Archive/Getty Images) For this and his other work, Zoric said, \u201cTesla is often referred as \u2018The man who invented 20th century.\u201d Remote control You can also thank Tesla for the ability to change the channel without having to get off the couch. Tesla invented one of the world\u2019s earliest remote controls, which he called a \u201cteleautomaton.\u201d He patented his device in 1898 as a \u201cMethod of and Apparatus for Controlling the Mechanism of Moving Vessels or Vehicles,\u201d which he used it to control a miniature boat from afar during a demonstration at Madison Square Garden. According to the Tesla Museum in Belgrade, Tesla knew how important the invention could be, so he patented it in 11 countries as well. X-ray technology Tesla was also a pioneer of X-ray technology. He experimented with radiation and managed to take some of the first X-ray images of the human body, which he called \u201cshadowgraphs.\u201d",
+      "source_url": "https://www.cnn.com/2019/10/25/world/most-famous-tesla-inventions-scn/index.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Marconi Did Not Invent Radio | Electronic Design The key was to make it sensitive enough to respond to very low-level signals of early radio. Without a coherer on the receiving end, radio would have never gotten off the ground. Marconi was very successful in assembling a system for wireless telegraphy. Although he was born in Italy, Marconi spent a great deal of his life in England. It was there that he got the patent and formed the British wireless service. He later formed the Marconi Wireless Telegraph Company. Then in 1901, Marconi demonstrated trans-Atlantic wireless by sending the letter S (dot-dot-dot) from his station in Poldhu, Cornwall to Signal Hill in St. John's, Newfoundland. Marconi went on to become very successful (and rich) selling early wireless services and products and gathering royalties from his patents. The Weird Genius Thought Of It First The real inventor of radio in now considered to be Nikola Tesla. Tesla was born in Croatia, educated in Europe, and eventually immigrated to the US in 1884. Tesla was a genius. He invented so much stuff that it is hard to catalog all of it (much less understand it). This process is still going on today, as Tesla's claims of \"death rays\" and the transmission of electrical power wirelessly are still being examined. One of his earliest successes was the invention of the AC induction motor. He also helped George Westinghouse defeat Thomas Edison in the battle of AC vs. DC in the electrical power distribution war of the late 1800's. AC eventually won simply because you could step AC up with a transformer and transmit it over long distances then step it back down. This was a more efficient and economic way to transmit power than Edison's DC system, which required many more generation stations close to the customers. Tesla also worked on the first big AC generating plant at Niagara Falls. In any case, Tesla got the idea for radio back in 1892 and demonstrated a remotely controlled boat in 1898.",
+      "source_url": "https://www.electronicdesign.com/technologies/communications/article/21759673/marconi-did-not-invent-radio",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Who Really Invented The Light Bulb? And Other Myths Debunked ... She refused, stating: \u201cI will have nothing to do with a bomb!\u201d Tesla on Arrival to AmericaNikola Tesla Museum Nikola Tesla was the real inventor of the radio In the 1890s, both Guglielmo Marconi and Nikola Tesla were fighting to develop the radio, but it is Marconi\u2019s efforts that are remembered. Tesla actually received more of the early patents for the technology; in 1897 he filed for and was granted the first radio patent, which became the basis for much of his future work, including radio-controlled boats, torpedoes, and radio frequency feedback. Tesla's Laboratory in Long IslandNikola Tesla Museum His developments in radio dates back beyond Marconi's announcement of radio technology as his \"invention\" but Marconi is more commonly credited with inventing the radio because he was able to take all these technologies and turn them into a commercial product. LIFE Photo Collection Galileo Galilei did not invent the telescope Italian astronomer, physicist, and engineer Galileo Galilei is credited with many inventions and discoveries including the telescope. Yet most historians agree that it was actually Dutch spectacle maker Hans Lippershay who had been making magnification devices using the improved quality of glassmaking of the time. Supposedly, Galileo had heard about these and decided to build his own, making some improvements in the process. One of the reasons why Galileo was credited with inventing the telescope is because he was the first person to use these new optics as a scientific instrument, which is where the real value was added. There\u2019s a lot of controversy and intrigue surrounding the invention of the telephone. Alexander Graham Bell is often credited as the inventor of the telephone since he was awarded the first successful patent. However, Antonio Meucci also developed a talking telegraph, called the \u2018teletrofono\u2019.",
+      "source_url": "https://artsandculture.google.com/story/who-really-invented-the-light-bulb-and-other-myths-debunked/mwWRW_mbN0mdJQ?hl=en",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "7 Myths About Nikola Tesla You Need to Stop Believing Tesla also lived in the heart of New York and would have been abundantly aware that he must relentlessly promote himself to become successful. This would have become especially the case after his famous split from Edison whilst trying to forge his own company. Throughout his career, Tesla would put spectacular demonstrations of his inventions. 6. Tesla didn't invent the radio either, sorry Another common myth is that Tesla invented Radio. In fact, independently of Guglielmo Marconi, Tesla did develop a device that enabled wireless communication in 1896 which he patented in 1897. This discovery would eventually win Marconi the Nobel Prize. Tesla's own patents were later revoked by the U.S. Patent office which sparked a legal battle between the two until well into the 1940s. But, both of their work was predated by a Russian physicist, Alexander Popov. He successfully demonstrated a working radio receiver a year before Marconi and Tesla, in 1895. But, all of their work, including Popov, would not have been possible without the works of many scientists before them. It should be noted that Tesla can rightfully be called the inventor of Radio Control (RC) with his 1898 demonstration in Madison Square Gardens. 7. Some claim that Tesla invented Radar But the truth is not so clear cut - in fact you might say it's a 'can of worms.' Radar, in and of itself, would not exist without the groundbreaking work of German physicist Heinrich Hertz. He demonstrated the existence of electromagnetic waves (including radio) in the late 1880s, thus validating the theories of James Clerk Maxwell from the 1860s. Christian Hulsmeyer (a German inventor), in the early 1900s, provided public demonstrations in Germany and the Netherlands that radio waves could be used to detect ships. He envisioned it being used to avoid ship-to-ship collisions.",
+      "source_url": "https://interestingengineering.com/culture/7-myths-about-nikola-tesla-you-need-to-stop-believing",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "Nikola Tesla: discover how his 10 predictions changed the world. Additionally, Tesla's high voltage transformers made it possible to power the lights for much longer distances. 3. X Rays Tesla described the discovery of X-rays by a German physicist, Wilhelm Roentgen in 1895. Intrigued and excited by this discovery, Tesla began to experiment with Roentgen's work. He soon developed an electrical lamp that gave off an intense \"radiant energy.\" His invention allowed for the production of more powerful X-rays, which made it possible for doctors and scientists to get detailed images of internal organs and anatomy. As a result, physicians could diagnose and treat diseases much better than ever before. 4. Radio In spite of Guglielmo Marconi\u00e2\u0080\u0099s popular claim of inventing the radio, it was, in fact, Nikola Tesla who had first demonstrated a functioning version in 1893. Tesla patented this invention in 1897 and presented it to the public during a demonstration at his New York laboratory. This invention revolutionized communication, paving the way for television, mobile phones and today\u00e2\u0080\u0099s wireless internet. Tesla went on to dedicate himself to developing remote control - a device working on similar principles as his radio inventions. The first two vessels that were guided by signals sent by remote control were launched simultaneously across two bodies of water - one boat at Madison Square Garden using terrestrial rays, and another boat in Uxbridge using invisible rays from wireless technology. 5. Remote control Although later developed during the two world wars, this is one of many revolutionary inventions made by Nikola Tesla. He demonstrated a radio-controlled boat that could move in any direction. Even if today it might seem obvious, 100 years ago the idea to control the movements of any object by remote control was considered magic. 6. Electric motor His research and experiments led to the development of the AC motor, which later revolutionized the power industry. His work also laid the foundation for modern electrical engineering and the use of alternating current.",
+      "source_url": "https://meroli.web.cern.ch/lecture_nikola_tesla.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "The Wright Brothers Didn't Invent the Airplane...and 9 Other ... Edison was not the first to record audio AP Alleged inventor: Thomas Edison Actual Inventor: \u00c9douard-L\u00e9on Scott de Martinville The story: While Edison may have invented the phonograph, with its ability to play back recordings, it was the invention of the phonautograph in 1857 that gave us the first machine to record audio. Scott de Martinville's recording was recently unearthed and modern technology was used to play it back, revealing the first audio recording to be: a singer, most likely the inventor himself, performing a snippet of the song \"Au clair de la lune. \" Edison also did not invent the light bulb Alleged inventor: Thomas Edison Actual Inventor: Sir Humphry Davy The story: Yet again, Edison receives the nod here over the real inventor, Sir Humphry Davy. In the early 1800s, well before Edison's time, Davy invented the first electric light by hooking up a powerful battery to a piece of carbon, which lit up and became the earliest incarnation of what we use today. Edison's bulbs were better equipped and became more well known, but his version wasn't released until 1877. Marconi never invented the radio The story: There's plenty of controversy when it comes to the invention of radio -- no doubt because there were many advances and changes in wireless technology over the years -- but Tesla should be recognized for patenting his original version of the radio. In 1897, Tesla filed for and was granted the first radio patent, which became the basis for much of his future work, including radio-controlled boats, torpedoes, and radio frequency feedback. His work with radio dated back beyond Marconi's announcement of radio technology as his \"invention. \" Al Gore did not invent the internet The story: Though the former vice president was one of the wallets behind the emergence of the world wide web, it was Vinton Cerf and his team who should be given the credit.",
+      "source_url": "https://www.businessinsider.com/10-items-not-invented-by-who-you-think-2011-8",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d13",
+      "text": "Underrated History: Nikola Tesla \u2013 The Legend Before we continue with the rest of his life and death, I will tell you a fraction of what Tesla invented, as he created over a dozen inventions and had close to 300 patents over a span of 26 countries by the end of his life. Of course, you know about Tesla\u2019s involvement with AC electricity, as he designed AC motors, generators, transformers and power transmission devices, which together used 25 of the most valuable patents since the telephone. All 25 of which Tesla created, and are still used today. However, Tesla also invented the first hydro-electrical plant powerful enough to provide light for an entire city. This plant was put in Niagara Falls, and a few statues of the man have since been placed there in his honor. Another invention of his was radio, and wireless transmission. And by radio, I mean he discovered ways to transmit radio waves, not\u2026 the radio, as in the device we use in cars to listen to music. While many assume Guglielmo Marconi was the inventor of radio, the truth is that Marconi\u2019s work was heavily based on Tesla\u2019s. In fact, Tesla demonstrated a radio controlled boat in 1898 (basically a remote control toy boat) roughly 3 years before Marconi would take the credit for radios invention. To be clear, Marconi was the first person to transmit what was essentially a wireless message across the Atlantic, which is how he got the invention credited to him, but he did not invent radio. This next invention is highly debated on who found it, even to this day, but I will mention it simply because Tesla did contribute to it, even if just a little: x-rays. As I said, it is unclear who invented x-ray, Wilhelm Roentgen, or Nikola Tesla. Some say Tesla\u2019s x-ray photos came first, others say Roentgen\u2019s came first. However, Tesla was one of the first, and he was undoubtedly the first to predict that x-rays may be extremely dangerous, during a time when people believed x-rays could cure blindness.",
+      "source_url": "https://rhslegend.com/3153/ae/underrated-history-nikola-tesla/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states Tesla discovered he could transmit radio signals and filed his own radio patent applications in 1897, granted in 1900, predating Marconi's first application."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Asserts Tesla invented radio, not Marconi, and that this truth has taken decades to emerge, indicating Tesla's significant role."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions the Supreme Court affirmed a ruling invalidating Marconi's claim and clarified Tesla's role in inventing radio, directly addressing the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Tesla's demonstrations were recalled in courts, leading to the invalidation of Marconi's patents, and that Tesla disclosed principles of radio communication in 1893."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Quotes a science reporter and Supreme Court findings stating Nikola Tesla, not Marconi, invented radio, and that Marconi's patents were overturned due to Tesla's prior achievements."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Calls Tesla the 'real father of radio,' notes he was granted the first radio patent in 1900, and experimented with radio waves, though Marconi is more historically credited."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the Supreme Court revoked Marconi's radio patents in 1943 in favor of Tesla, acknowledging Tesla's priority in the invention."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states Nikola Tesla is the 'real inventor of radio' and got the idea in 1892, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Nikola Tesla was the 'real inventor of the radio,' received more early patents, and filed the first radio patent in 1897."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Acknowledges Tesla developed a device for wireless communication in 1896 and patented it in 1897, but disputes he invented 'radio' itself, though he invented radio control."
+        },
+        {
+          "doc_id": "d11",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that despite Marconi's claim, Nikola Tesla first demonstrated a functioning version of radio in 1893 and patented it in 1897."
+        },
+        {
+          "doc_id": "d12",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Asserts Marconi never invented radio and that Tesla should be recognized for patenting his original version in 1897, which became the basis for future work."
+        },
+        {
+          "doc_id": "d13",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Marconi's work was heavily based on Tesla's, who demonstrated a radio-controlled boat before Marconi took credit for radio's invention."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Tesla discovered he could transmit and receive powerful radio signals when coils were tuned to resonate at the same frequency.",
+            "Tesla filed his own basic radio patent applications in 1897, which were granted in 1900.",
+            "Marconi's first patent application in America, filed on November 10, 1900, was turned down."
+          ],
+          "reason": "Extracted facts about Tesla's radio patents and transmission capabilities, and Marconi's initial patent rejection, directly addressing the query about radio invention."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The document asserts that Tesla invented radio, not Marconi.",
+            "It states that Tesla was unable to get recognition for inventing radio during his lifetime."
+          ],
+          "reason": "Extracted the central claim that Tesla invented radio and the reason for lack of recognition, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "On June 21, 1943, the Supreme Court affirmed a ruling that invalidated Marconi's claim to inventing radio.",
+            "The Supreme Court ruling clarified Tesla's role in inventing radio."
+          ],
+          "reason": "Extracted the Supreme Court's decision invalidating Marconi's claim and clarifying Tesla's role, directly addressing the invention of radio."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Tesla's 1893 demonstration of radio principles was recalled in courts, leading to the invalidation of Marconi patents.",
+            "The U.S. Supreme Court stated in a 1943 case that Marconi did nothing new upon his basic patent.",
+            "Tesla demonstrated the principles of early radio communication in Philadelphia on February 23, 1893."
+          ],
+          "reason": "Extracted facts about Tesla's early radio demonstrations and their impact on invalidating Marconi's patents, directly addressing the invention query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Nikola Tesla, not Marconi, invented radio.",
+            "In 1943, the U.S. Supreme Court overturned Marconi's patent because it was preceded by Tesla's practical achievements in radio transmission.",
+            "The U.S. Supreme Court decided in 1943 that Marconi's basic patents were invalid as they were 'anticipated' by Tesla."
+          ],
+          "reason": "Extracted direct statements and Supreme Court findings confirming Tesla's invention of radio over Marconi, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Nikola Tesla is considered the real father of radio.",
+            "Tesla was granted the first radio patent in 1900 and made headlines for his radio wave technologies in the late 19th century.",
+            "Guglielmo Marconi has gone down in history as the medium's inventor, despite Tesla's contributions."
+          ],
+          "reason": "Extracted facts identifying Tesla as the 'real father of radio' and noting his early patents and public recognition, contrasting with Marconi's historical credit."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Marconi used technology from 17 of Tesla's patents for his first transatlantic radio transmission.",
+            "The United States Supreme Court revoked Marconi's radio patents in 1943 in favor of Tesla.",
+            "Tesla is often referred to as 'The man who invented 20th century.'"
+          ],
+          "reason": "Extracted facts about Marconi using Tesla's patents and the Supreme Court's decision favoring Tesla, directly addressing the invention query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The real inventor of radio is considered to be Nikola Tesla.",
+            "Tesla got the idea for radio in 1892 and demonstrated a remotely controlled boat in 1898."
+          ],
+          "reason": "Extracted the direct statement identifying Tesla as the real inventor of radio and mentioning his early work, directly answering the query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Nikola Tesla was the real inventor of radio.",
+            "Tesla received more early patents for radio technology and filed for the first radio patent in 1897.",
+            "Marconi is more commonly credited with inventing radio because he commercialized the technology."
+          ],
+          "reason": "Extracted facts stating Tesla was the real inventor, received early patents, and explaining why Marconi is more commonly credited due to commercialization."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Tesla developed a device for wireless communication in 1896, which he patented in 1897.",
+            "Tesla can rightfully be called the inventor of Radio Control (RC) based on his 1898 demonstration."
+          ],
+          "reason": "Extracted facts about Tesla's development and patent of a wireless communication device and his invention of Radio Control, addressing the query."
+        },
+        {
+          "doc_id": "d11",
+          "key_facts": [
+            "Nikola Tesla first demonstrated a functioning version of radio in 1893.",
+            "Tesla patented his radio invention in 1897 and presented it publicly.",
+            "This invention revolutionized communication, paving the way for modern wireless technologies."
+          ],
+          "reason": "Extracted facts about Tesla's demonstration and patent of a functioning radio, directly addressing the invention query."
+        },
+        {
+          "doc_id": "d12",
+          "key_facts": [
+            "Tesla should be recognized for patenting his original version of the radio.",
+            "In 1897, Tesla filed for and was granted the first radio patent.",
+            "Marconi never invented the radio."
+          ],
+          "reason": "Extracted facts stating Tesla patented the original radio, received the first radio patent, and directly asserting Marconi did not invent radio."
+        },
+        {
+          "doc_id": "d13",
+          "key_facts": [
+            "Marconi's work was heavily based on Tesla's.",
+            "Tesla demonstrated a radio-controlled boat in 1898, predating Marconi's credited invention of radio.",
+            "Marconi was the first to transmit a wireless message across the Atlantic, leading to him being credited with the invention, but he did not invent radio."
+          ],
+          "reason": "Extracted facts explaining Marconi's work was based on Tesla's, Tesla's earlier demonstrations, and clarifying why Marconi received credit despite not inventing radio."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Details Tesla's radio patents and transmission capabilities, and Marconi's initial patent rejection, directly addressing the query about radio invention.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly asserts Tesla invented radio, not Marconi, and explains his lack of recognition during his lifetime.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Highlights the Supreme Court's 1943 ruling invalidating Marconi's claim and clarifying Tesla's role in inventing radio.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Mentions Tesla's 1893 radio principle demonstrations and their role in invalidating Marconi's patents, directly addressing the invention query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states Tesla invented radio, not Marconi, and cites the Supreme Court's 1943 decision overturning Marconi's patents.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Identifies Tesla as the 'real father of radio' with early patents and public recognition, contrasting with Marconi's historical credit.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "States Marconi used Tesla's patents and the Supreme Court favored Tesla, directly addressing the invention query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Directly states Nikola Tesla is considered the real inventor of radio and mentions his early demonstrations.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Asserts Tesla was the real inventor, received early patents, and explains Marconi's common credit due to commercialization.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "Details Tesla's development and patent of a wireless communication device and his invention of Radio Control, addressing the query.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d11",
+          "verdict": "supports",
+          "reason": "States Tesla demonstrated and patented a functioning radio in 1893 and 1897, directly addressing the invention query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d12",
+          "verdict": "supports",
+          "reason": "Asserts Tesla patented the original radio, received the first radio patent, and directly states Marconi did not invent radio.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d13",
+          "verdict": "supports",
+          "reason": "Explains Marconi's work was based on Tesla's, Tesla's earlier demonstrations, and clarifies why Marconi received credit despite not inventing radio.",
+          "confidence": 0.96
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d13"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "tesla_invented_radio",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d11",
+              "d12",
+              "d13"
+            ],
+            "summary": "Multiple documents strongly support that Nikola Tesla invented radio, citing his patents, early demonstrations, and Supreme Court rulings that invalidated Marconi's claims."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently supports Nikola Tesla as the inventor of radio, detailing his patents, demonstrations, and legal rulings that favored him over Marconi.",
+        "clusters": [
+          {
+            "label": "Tesla invented radio",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d11",
+              "d12",
+              "d13"
+            ],
+            "summary": "Multiple sources confirm Tesla invented radio, citing his early patents, demonstrations, and Supreme Court rulings invalidating Marconi's claims."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient and consistent evidence supports the claim, with no conflicts identified."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Nikola Tesla is credited with inventing radio, supported by numerous documents detailing his patents, early demonstrations, and Supreme Court rulings that invalidated Marconi's claims.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d11",
+          "d12",
+          "d13"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "All provided evidence consistently supports Nikola Tesla as the inventor of radio, with no conflicts identified."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, which extensively discuss Nikola Tesla's role in inventing radio, including his patents, demonstrations, and legal victories over Marconi."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 25040,
+      "completion_tokens": 4272,
+      "total_tokens": 29312
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 4882,
+        "completion_tokens": 1041,
+        "total_tokens": 5923
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 4837,
+        "completion_tokens": 1599,
+        "total_tokens": 6436
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1805,
+        "completion_tokens": 886,
+        "total_tokens": 2691
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2405,
+        "completion_tokens": 270,
+        "total_tokens": 2675
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2656,
+        "completion_tokens": 199,
+        "total_tokens": 2855
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 612,
+        "completion_tokens": 33,
+        "total_tokens": 645
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 750,
+        "completion_tokens": 145,
+        "total_tokens": 895
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 7093,
+        "completion_tokens": 99,
+        "total_tokens": 7192
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:51.769932",
+        "prompt_tokens": 4882,
+        "completion_tokens": 1041,
+        "total_tokens": 5923,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:57.818955",
+        "prompt_tokens": 4837,
+        "completion_tokens": 1599,
+        "total_tokens": 6436,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:03.530485",
+        "prompt_tokens": 1805,
+        "completion_tokens": 886,
+        "total_tokens": 2691,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:04.930976",
+        "prompt_tokens": 2405,
+        "completion_tokens": 270,
+        "total_tokens": 2675,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:06.482459",
+        "prompt_tokens": 2656,
+        "completion_tokens": 199,
+        "total_tokens": 2855,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:07.641952",
+        "prompt_tokens": 612,
+        "completion_tokens": 33,
+        "total_tokens": 645,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:09.077025",
+        "prompt_tokens": 750,
+        "completion_tokens": 145,
+        "total_tokens": 895,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:08:10.485296",
+        "prompt_tokens": 7093,
+        "completion_tokens": 99,
+        "total_tokens": 7192,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:07:47.674936",
+  "last_updated_at": "2026-04-17T17:08:10.485931"
+}

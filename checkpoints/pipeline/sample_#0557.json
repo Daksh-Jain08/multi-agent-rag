@@ -1,0 +1,394 @@
+{
+  "sample_id": "#0557",
+  "query": "What town do the bennets live in in pride and prejudice?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "is thought to be the inspiration for Jane Austen's Mansfield Park. It is known she resided at the house for a period because letters have been discovered written from there. The house was demolished in 1940, although the impressive stables still remain and were developed for housing in the late 1990s. The Jane Austen Society have stated that there is no evidence that she visited Northamptonshire. In the 1870s, the Imperial Gazetteer of England and Wales described the parish as follows: \"a parish in Brixworth district, Northamptonshire; 2\u252c\u255c miles WSW of Brampton railway station, and 4 NW of Northampton. It",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d2",
+      "text": "accepted a proposal from Mr Collins. When the Netherfield party departs for London in autumn, Jane stays with her modest London relatives, the Gardiners, but she soon notices that the Bingleys ignore her. After befriending Mr Wickham, Elizabeth departs for the Collinses' home in Kent in the spring. They live near Rosings, the estate of the formidable Lady Catherine de Bourgh, and as Lady Catherine is Darcy's aunt, Elizabeth meets Darcy several times. Shortly after Elizabeth learns of Darcy's direct responsibility for Jane and Bingley's separation, Darcy unexpectedly proposes to her, expressing his ardent admiration and love despite Elizabeth's inferior",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1997-10-25"
+    },
+    {
+      "doc_id": "d3",
+      "text": "front, a stream of some natural importance was swelled into greater, but without any artificial appearance. Its banks were neither formal, nor falsely adorned. Elizabeth was delighted. She had never seen a place where nature had done more, or where natural beauty had been so little counteracted by an awkward taste. They were all of them warm in their admiration; and at that moment she felt that to be mistress of Pemberley might be something! Pemberley Pemberley is the fictional country estate owned by Fitzwilliam Darcy, the male protagonist in Jane Austen's novel \"Pride and Prejudice\". It is located near",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "risking social disgrace by turning down two marriage proposals. Moreover, Smart's Guatemalan students found the subject of class prejudices in Regency England more compelling than her American students, with many also saying racial prejudices against the Maya by Guatemala's \"Criollo\" elite made them relate to Elizabeth Bennet's struggle for acceptance from the Hertfordshire elite. Smart reported class discussions in the United States about \"Pride and Prejudice\" did not automatically lead to the subject of racism while in Guatemala, her students always brought up the racism against the Maya when discussing Miss Bennet's struggle against the gentry and aristocracy of Hertfordshire.",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "& Prejudice\" earned a rating of 82% from review aggregator Metacritic, labeling it universally acclaimed. It earned four nominations at the 78th Academy Awards, including a Best Actress nomination for Knightley. Austen scholars have opined that Wright's work created a new hybrid genre by blending traditional traits of the heritage film with \"youth-oriented filmmaking techniques\". During the 19th century, the Bennet family, consisting of Mr. Bennet and Mrs. Bennet and their five daughters\u0393\u00c7\u00f6Jane, Elizabeth, Mary, Kitty, and Lydia\u0393\u00c7\u00f6live in comparative financial independence as gentry at Longbourn, a working farm in rural England. As the Bennets have no sons, Longbourn is  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses Jane Austen's Mansfield Park and a parish in Northamptonshire, which is unrelated to the Bennet family's residence in Pride and Prejudice."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions Elizabeth Bennet visiting the Collinses' home in Kent, but does not state where the Bennet family lives."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "This document describes Pemberley, Darcy's estate, and mentions it is near a location, but does not specify the Bennet family's town of residence."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document discusses class and racial prejudices in Pride and Prejudice and mentions Elizabeth Bennet's struggle against the Hertfordshire elite, but not her home town."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document explicitly states the Bennet family lives at Longbourn, a working farm in rural England, which directly answers the query about their residence."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [],
+          "reason": "This document discusses Jane Austen's Mansfield Park and historical details about a house, not Pride and Prejudice or the Bennet family's residence."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Elizabeth Bennet departs for the Collinses' home in Kent."
+          ],
+          "reason": "Extracted the fact about Elizabeth Bennet's temporary residence with the Collinses in Kent, which is relevant to her movements in Pride and Prejudice."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Pemberley is the fictional country estate owned by Fitzwilliam Darcy."
+          ],
+          "reason": "Extracted the fact identifying Pemberley as Darcy's fictional estate, relevant to the setting of Pride and Prejudice."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Elizabeth Bennet struggles for acceptance from the Hertfordshire elite."
+          ],
+          "reason": "Extracted the fact about Elizabeth Bennet's social struggle, which is a key theme in Pride and Prejudice and relevant to her character."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Bennet family lives at Longbourn, a working farm in rural England."
+          ],
+          "reason": "Extracted the specific location of the Bennet family's residence, Longbourn, which directly answers the query about their town/home."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses Mansfield Park and a house, not Pride and Prejudice or the Bennet family's residence.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Elizabeth Bennet's temporary residence in Kent, but does not state the Bennet family's primary home.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Identifies Pemberley as Darcy's estate, not the Bennet family's residence.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses Elizabeth Bennet's social struggles in Hertfordshire, but not the Bennet family's specific town of residence.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states that the Bennet family lives at Longbourn, a working farm in rural England, answering the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 directly identifies Longbourn as the Bennet family's residence."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 mentions Elizabeth Bennet's temporary stay in Kent, providing related but not primary residence information."
+          },
+          {
+            "label": "irrelevant_details",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 discuss other estates (Mansfield Park, Pemberley) or character struggles, not the Bennet family's home."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence is largely consistent, with one document directly supporting the Bennet family's residence at Longbourn, and another providing partial, compatible context. Irrelevant documents do not contradict the supporting evidence.",
+        "clusters": [
+          {
+            "label": "Bennet family residence",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "The Bennet family lives at Longbourn, a working farm in rural England."
+          },
+          {
+            "label": "Related character movement",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Elizabeth Bennet temporarily resides in Kent with the Collinses."
+          },
+          {
+            "label": "Irrelevant details",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents discuss other estates or character struggles, not the Bennet family's home."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the claim, with no significant conflicts or irrelevant details undermining the answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Bennet family resides at Longbourn, which is described as a working farm in rural England.",
+        "citations": [
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d5 directly supports the claim that the Bennet family lives at Longbourn. Other documents are either irrelevant or provide partial, non-contradictory context."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies Longbourn as the Bennet family's residence and accurately describes it as a working farm in rural England, directly supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8473,
+      "completion_tokens": 1795,
+      "total_tokens": 10268
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 387,
+        "total_tokens": 1795
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1363,
+        "completion_tokens": 379,
+        "total_tokens": 1742
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 784,
+        "completion_tokens": 337,
+        "total_tokens": 1121
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 932,
+        "completion_tokens": 234,
+        "total_tokens": 1166
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1183,
+        "completion_tokens": 223,
+        "total_tokens": 1406
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 642,
+        "completion_tokens": 40,
+        "total_tokens": 682
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 787,
+        "completion_tokens": 97,
+        "total_tokens": 884
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1374,
+        "completion_tokens": 98,
+        "total_tokens": 1472
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:38.032814",
+        "prompt_tokens": 1408,
+        "completion_tokens": 387,
+        "total_tokens": 1795,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:40.199573",
+        "prompt_tokens": 1363,
+        "completion_tokens": 379,
+        "total_tokens": 1742,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:41.773818",
+        "prompt_tokens": 784,
+        "completion_tokens": 337,
+        "total_tokens": 1121,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:43.621880",
+        "prompt_tokens": 932,
+        "completion_tokens": 234,
+        "total_tokens": 1166,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:44.969683",
+        "prompt_tokens": 1183,
+        "completion_tokens": 223,
+        "total_tokens": 1406,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:46.017959",
+        "prompt_tokens": 642,
+        "completion_tokens": 40,
+        "total_tokens": 682,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:47.041398",
+        "prompt_tokens": 787,
+        "completion_tokens": 97,
+        "total_tokens": 884,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:04:48.054705",
+        "prompt_tokens": 1374,
+        "completion_tokens": 98,
+        "total_tokens": 1472,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:04:36.499925",
+  "last_updated_at": "2026-04-17T20:04:48.054929"
+}

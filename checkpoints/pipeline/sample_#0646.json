@@ -1,0 +1,405 @@
+{
+  "sample_id": "#0646",
+  "query": "Who is the speaker of the house nz?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "coalition government with New Zealand First and the Green parties in October 2017, Mallard was elected as Speaker of the House on 7 November following some contention from the opposition National Party over whether several of the new MPs had been sworn in. He also serves as Chairperson of several committees including the Business and Officers of Parliament select committees, and the Parliamentary Services Commission. Mallard has been involved in a number of controversial disputes during his political career. In September 2006, Mallard was implicated in the resignation of National Party leader Don Brash after interjecting with an allegation in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2018-05-02"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Sir Basil Arthur's death in 1985 and served in this role until 1987. He was replaced in the Porirua electorate by Graham Kelly. He retired in 1987 and was appointed a Knight Bachelor in the same year. He died in 1992. Gerard Wall Sir Gerard Aloysius Wall (24 January 1920 \u0393\u00c7\u00f4 22 November 1992) was a surgeon and a politician in New Zealand. He was Speaker of the New Zealand House of Representatives from 1985 to 1987. He was a member of the Labour Party. Born in Christchurch, New Zealand, in 1920, he was the son of Edmund Wall. He",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "of the Labour Party, thereby retaining the crucial vote. Tapsell was the person chosen by Bolger for this role. Despite many objections from his Labour Party colleagues, Tapsell opted to accept the position. His elevation was not unchallenged, however, with an objection being raised by Winston Peters and his New Zealand First party. Peters claimed that his objection was on behalf of the incumbent Speaker, long-serving National MP Robin Gray, who had expected to resume his duties but was now being \"cast aside\" for political reasons. Critics of Peters, however, claimed that New Zealand First merely wanted to leave National",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2014-04-19"
+    },
+    {
+      "doc_id": "d4",
+      "text": "re-joined the Office of the Clerk of the House as a Clerk-Assistant, initially with responsibility for provision of services to Select Committees, and from February 2013 with responsibility for the House Services group. From 2012 to 2015 Mr Wilson was the President of the Australia and New Zealand Association of Clerks-at-the-Table. David Martin Wilson David Martin Wilson is the fourteenth and current Clerk of the New Zealand House of Representatives (\"Clerk of the House\"). His first seven-year term as Clerk of the House began on 6 July 2015, following the retirement of Mary Winifred Harris David Wilson grew up in",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2024-02-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "and founding Dean (1990\u0393\u00c7\u00f41999) before becoming a Member of Parliament. After leaving Parliament, she resumed her academic career at the Waikato University law school, being appointed Professor of Law and Public Policy (2009). Margaret Wilson Margaret Anne Wilson (born 20 May 1947) is a New Zealand academic and former politician. She was Speaker of the New Zealand House of Representatives during the Fifth Labour Government of New Zealand. She is a member of the Labour Party. Born in Gisborne, Wilson received her secondary education at St Dominic's College, Northcote. She had a leg amputated due to cancer at the age  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2012"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly states Trevor Mallard was elected Speaker of the House on November 7, 2017, answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Identifies Gerard Wall as Speaker of the New Zealand House of Representatives from 1985 to 1987."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions the incumbent Speaker Robin Gray and objections to Tapsell's elevation, providing context about the Speaker role."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses the Clerk of the House, David Martin Wilson, not the Speaker. Weakly related to parliamentary roles."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "States Margaret Wilson was Speaker of the New Zealand House of Representatives during the Fifth Labour Government."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Trevor Mallard was elected as Speaker of the House on 7 November 2017."
+          ],
+          "reason": "Extracted the specific date Trevor Mallard was elected Speaker of the House, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Gerard Wall was Speaker of the New Zealand House of Representatives from 1985 to 1987."
+          ],
+          "reason": "Extracted the name and tenure of a former Speaker of the New Zealand House of Representatives."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Robin Gray was the incumbent Speaker and expected to resume his duties."
+          ],
+          "reason": "Extracted information about Robin Gray's expectation to continue as Speaker, providing context to a change in speakership."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "David Martin Wilson is the fourteenth and current Clerk of the New Zealand House of Representatives."
+          ],
+          "reason": "Extracted the name and title of the current Clerk of the New Zealand House of Representatives, a related but distinct role from Speaker."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Margaret Wilson was Speaker of the New Zealand House of Representatives during the Fifth Labour Government of New Zealand."
+          ],
+          "reason": "Extracted the name and the period during which Margaret Wilson served as Speaker of the New Zealand House of Representatives."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states Trevor Mallard was elected Speaker of the House on a specific date, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Identifies a former Speaker of the New Zealand House of Representatives, providing historical context but not the current speaker.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Robin Gray's expectation to continue as Speaker, implying a previous speaker but not definitively the current one.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Identifies the Clerk, not the Speaker, of the New Zealand House of Representatives. The roles are distinct.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Names Margaret Wilson as a former Speaker, offering historical information but not the current Speaker.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly answers the query by stating Trevor Mallard's election date as Speaker."
+          },
+          {
+            "label": "historical_speakers",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide information about past Speakers of the New Zealand House of Representatives, offering historical context."
+          },
+          {
+            "label": "context_of_change",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides context related to a potential change in speakership, mentioning Robin Gray's expectation to continue."
+          },
+          {
+            "label": "irrelevant_role",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 is irrelevant as it discusses the Clerk of the House, not the Speaker."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides a direct answer to the query and supplements it with historical context about previous speakers and related roles, without any contradictions.",
+        "clusters": [
+          {
+            "label": "direct_answer",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly states Trevor Mallard was elected Speaker of the House on November 7, 2017."
+          },
+          {
+            "label": "historical_context",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide information on past Speakers, Gerard Wall and Margaret Wilson, respectively."
+          },
+          {
+            "label": "related_information",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Document d3 mentions Robin Gray's expectation to continue as Speaker, while d4 identifies the Clerk of the House, David Martin Wilson."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence provides a direct answer and complementary context without any conflicts, allowing for a reliable response."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Trevor Mallard was elected Speaker of the House on November 7, 2017. The provided documents also offer historical context on past Speakers and related roles.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query, and other documents provide complementary historical context without contradiction."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly addresses the query and is fully supported by the cited document d1, which states Trevor Mallard was elected Speaker on November 7, 2017."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8761,
+      "completion_tokens": 1884,
+      "total_tokens": 10645
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1439,
+        "completion_tokens": 360,
+        "total_tokens": 1799
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1394,
+        "completion_tokens": 402,
+        "total_tokens": 1796
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 797,
+        "completion_tokens": 337,
+        "total_tokens": 1134
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 949,
+        "completion_tokens": 278,
+        "total_tokens": 1227
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1232,
+        "completion_tokens": 259,
+        "total_tokens": 1491
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 688,
+        "completion_tokens": 38,
+        "total_tokens": 726
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 831,
+        "completion_tokens": 109,
+        "total_tokens": 940
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1431,
+        "completion_tokens": 101,
+        "total_tokens": 1532
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:41.187277",
+        "prompt_tokens": 1439,
+        "completion_tokens": 360,
+        "total_tokens": 1799,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:43.132445",
+        "prompt_tokens": 1394,
+        "completion_tokens": 402,
+        "total_tokens": 1796,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:46.461532",
+        "prompt_tokens": 797,
+        "completion_tokens": 337,
+        "total_tokens": 1134,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:47.889252",
+        "prompt_tokens": 949,
+        "completion_tokens": 278,
+        "total_tokens": 1227,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:49.825360",
+        "prompt_tokens": 1232,
+        "completion_tokens": 259,
+        "total_tokens": 1491,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:50.761472",
+        "prompt_tokens": 688,
+        "completion_tokens": 38,
+        "total_tokens": 726,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:52.017681",
+        "prompt_tokens": 831,
+        "completion_tokens": 109,
+        "total_tokens": 940,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:52.972698",
+        "prompt_tokens": 1431,
+        "completion_tokens": 101,
+        "total_tokens": 1532,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:25:39.721736",
+  "last_updated_at": "2026-04-17T20:25:52.974080"
+}

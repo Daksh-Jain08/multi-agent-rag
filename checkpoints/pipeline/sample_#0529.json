@@ -1,0 +1,381 @@
+{
+  "sample_id": "#0529",
+  "query": "Who wrote lyrics to phantom of the opera?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Puccini charged in a lawsuit that a recurring two-bar passage in \"Music of the Night\" closely resembled a similar phrase first heard in the aria \"Quello che tacete\" from Puccini's opera \"Girl of the Golden West\". The litigation was settled out of court for an undisclosed amount. In 1990 a Baltimore songwriter named Ray Repp filed a lawsuit alleging that the title song from \"Phantom\" was based on a song that he wrote in 1978 called \"Till You\". After eight years of litigation \u0393\u00c7\u00f4 including an unsuccessful countersuit by Lloyd Webber claiming that \"Till You\" was itself a plagiarism of",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Gaston Leroux Gaston Louis Alfred Leroux (6 May 186815 April 1927) was a French journalist and author of detective fiction. In the English-speaking world, he is best known for writing the novel \"The Phantom of the Opera\" (\"Le Fant\u251c\u2524me de l'Op\u251c\u2310ra\", 1910), which has been made into several film and stage productions of the same name, notably the 1925 film starring Lon Chaney, and Andrew Lloyd Webber's 1986 musical. His novel \"The Mystery of the Yellow Room\" is also one of the most famous locked-room mysteries ever. Leroux was born in Paris in 1868 and died in 1927 in Nice.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2002-10-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "\"Nine\", Yeston left his position as associate professor at Yale, although he continued to teach a course there every other semester on songwriting. He turned to writing a musical version of Gaston Leroux's novel, \"The Phantom of the Opera\". He was approached with the idea by actor/director Geoffrey Holder, who held the American rights to the novel. Initially, Yeston was skeptical of the project. \"I laughed and laughed... That's the worst idea in the world! Why would you want to write a musical based on a horror story?... And then it occurred to me that the story could be somewhat",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2011-07-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "that deep inside we're good? And that is a character you cry for.\" In 1984, British producer Ken Hill revived his 1976 musical \"Phantom of the Opera\" in England. This was not a big threat to Holder, Kopit and Yeston, since their musical was intended to play on Broadway. The real threat emerged through an announcement in \"Variety\", where an article was published concerning plans for a musical production of \"The Phantom of the Opera\" by Andrew Lloyd Webber. The rights to the novel were in the public domain in Great Britain. Holder only held the rights for two years",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2001-04-02"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Phantom of the Opera\", as a serial in 1909 and 1910, and as a book in 1910 (with an English translation appearing in 1911). Leroux was made a Chevalier de la Legion d'honneur in 1909. Gaston Leroux Gaston Louis Alfred Leroux (6 May 186815 April 1927) was a French journalist and author of detective fiction. In the English-speaking world, he is best known for writing the novel \"The Phantom of the Opera\" (\"Le Fant\u251c\u2524me de l'Op\u251c\u2310ra\", 1910), which has been made into several film and stage productions of the same name, notably the 1925 film starring Lon Chaney, and Andrew  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1997-01-20"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions \"Music of the Night\" and \"Phantom\" in relation to lawsuits, suggesting it's about the musical, but doesn't directly state who wrote the lyrics."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Gaston Leroux as the author of the novel \"The Phantom of the Opera\", which is the basis for the musical and its lyrics."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Discusses Yeston writing a musical version of Gaston Leroux's novel \"The Phantom of the Opera\", implying he wrote lyrics for that adaptation."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions Andrew Lloyd Webber's musical production of \"The Phantom of the Opera\" and that rights were in the public domain, relevant to lyric writing."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States Gaston Leroux wrote the novel \"The Phantom of the Opera\" and mentions Andrew Lloyd Webber's musical, providing context for lyric creation."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "A lawsuit was filed alleging that \"Music of the Night\" resembled a passage from Puccini's opera \"Girl of the Golden West\"."
+          ],
+          "reason": "Extracted the factual claim about a lawsuit concerning musical similarities in \"Music of the Night\"."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Gaston Leroux wrote the novel \"The Phantom of the Opera\" in 1910."
+          ],
+          "reason": "Extracted the fact that Gaston Leroux is the author of the novel \"The Phantom of the Opera\"."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Maury Yeston wrote a musical version of Gaston Leroux's novel, \"The Phantom of the Opera\"."
+          ],
+          "reason": "Extracted the fact that Maury Yeston wrote a musical adaptation of \"The Phantom of the Opera\"."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Andrew Lloyd Webber planned a musical production of \"The Phantom of the Opera\"."
+          ],
+          "reason": "Extracted the factual statement about Andrew Lloyd Webber's plans for a musical production of \"The Phantom of the Opera\"."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Gaston Leroux wrote the novel \"The Phantom of the Opera\" in 1910."
+          ],
+          "reason": "Extracted the fact that Gaston Leroux authored the novel \"The Phantom of the Opera\"."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a lawsuit about musical similarities, not who wrote the lyrics.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document states who wrote the novel, not the lyrics for the musical.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "States Maury Yeston wrote a musical version, implying he might have written lyrics, but doesn't explicitly confirm it.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions Andrew Lloyd Webber planned a musical, suggesting he might be involved with lyrics, but doesn't confirm he wrote them.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document states who wrote the novel, not the lyrics for the musical.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d3",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_support_musical_creators",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 partially support by mentioning creators of musical versions, but do not explicitly confirm lyric authorship."
+          },
+          {
+            "label": "irrelevant_novel_details",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, and d5 are irrelevant, focusing on a lawsuit about musical similarities or the authorship of the original novel, not the musical's lyrics."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence does not directly address who wrote the lyrics for \"The Phantom of the Opera\" musical, making it impossible to identify a conflict. It only provides partial support regarding musical creators.",
+        "clusters": [
+          {
+            "label": "partial_support_musical_creators",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 partially support by mentioning creators of musical versions, but do not explicitly confirm lyric authorship."
+          },
+          {
+            "label": "irrelevant_novel_details",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, and d5 are irrelevant, focusing on a lawsuit about musical similarities or the authorship of the original novel, not the musical's lyrics."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided evidence only partially supports the query by mentioning musical creators but does not explicitly confirm lyric authorship. Therefore, the support is too weak for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided evidence only partially supports the query by mentioning musical creators but does not explicitly confirm lyric authorship. Therefore, the support is too weak for a reliable answer.",
+        "final_reasoning": "The evidence does not directly answer the query about lyric authorship, only partially mentioning musical creators. Abstaining due to insufficient support."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents mention Gaston Leroux as the author of the novel, and Andrew Lloyd Webber as a musical producer, but do not specify who wrote the lyrics."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8770,
+      "completion_tokens": 1868,
+      "total_tokens": 10638
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1508,
+        "completion_tokens": 397,
+        "total_tokens": 1905
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1463,
+        "completion_tokens": 416,
+        "total_tokens": 1879
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 811,
+        "completion_tokens": 327,
+        "total_tokens": 1138
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 237,
+        "total_tokens": 1189
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1182,
+        "completion_tokens": 231,
+        "total_tokens": 1413
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 623,
+        "completion_tokens": 51,
+        "total_tokens": 674
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 779,
+        "completion_tokens": 98,
+        "total_tokens": 877
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1452,
+        "completion_tokens": 111,
+        "total_tokens": 1563
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:57.675934",
+        "prompt_tokens": 1508,
+        "completion_tokens": 397,
+        "total_tokens": 1905,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:56:59.321883",
+        "prompt_tokens": 1463,
+        "completion_tokens": 416,
+        "total_tokens": 1879,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:00.811015",
+        "prompt_tokens": 811,
+        "completion_tokens": 327,
+        "total_tokens": 1138,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:02.101363",
+        "prompt_tokens": 952,
+        "completion_tokens": 237,
+        "total_tokens": 1189,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:04.088871",
+        "prompt_tokens": 1182,
+        "completion_tokens": 231,
+        "total_tokens": 1413,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:05.112904",
+        "prompt_tokens": 623,
+        "completion_tokens": 51,
+        "total_tokens": 674,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:06.295279",
+        "prompt_tokens": 779,
+        "completion_tokens": 98,
+        "total_tokens": 877,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:07.316133",
+        "prompt_tokens": 1452,
+        "completion_tokens": 111,
+        "total_tokens": 1563,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:56:55.857659",
+  "last_updated_at": "2026-04-17T19:57:07.316770"
+}

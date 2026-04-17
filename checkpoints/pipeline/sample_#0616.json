@@ -1,0 +1,388 @@
+{
+  "sample_id": "#0616",
+  "query": "Who made sitting on the dock of the bay?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ole Man Trouble \"Ole Man Trouble\" is a song written by Otis Redding and the first track from his 1965 album . It was released as the B-side to his hit single \"Respect\", the second track from \"Otis Blue\". The song is a sign of Redding's emerging mature and reflective side that was to culminate in his posthumous single \"(Sittin' On) The Dock of the Bay\". \"Ole Man Trouble\" was also released on Redding's posthumous album \"The Dock of the Bay\". As the \"Dock of the Bay\" represents a search for a place to settle down and find peace or",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d2",
+      "text": "about eight.\" The song was recorded in July 1968, but was not set to be included in the 12-track version of \"The Kinks Are the Village Green Preservation Society\" (which would be pulled from shelves shortly after its European release) or its U.S. counterpart \"Four More Respected Gentlemen\" (which was canceled prior to its release.) Also, on 22 July 1968, the song was performed (or lip-synced) by The Kinks on BBC-2's \"Late Night Line-Up - Colour Me Pop\" show. \"Sitting by the Riverside\", was first released as the seventh track on the final 15-track version of \"The Kinks Are the",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1999-06-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "renditions of \"Sitting on Top of the World\" were recorded by a number of artists: the Two Poor Boys, Doc Watson, Big Bill Broonzy, Sam Collins, Milton Brown and His Musical Brownies, and Bob Wills & His Texas Playboys. After Milton Brown recorded it for Bluebird Records the song became a staple in the repertoire of western swing bands. Lyrically \"Sitting Top of the World\" has a simple structure consisting of a series of rhyming couplets, each followed by the two-line chorus. The structural economy of the song seems to be conducive to creative invention, giving the song a dynamic",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Withers and on two more records by Bob Welch. On Danny O'Keefe's record \"American Roulette\" (1977) he appeared besides Reggie McBride, Mike Melvoin and David Lindley. In 1979, he appeared on Sammy Hagar's single \"(Sittin' On) The Dock of the Bay\", featuring Leland Sklar, Barry Goudreau and Steve Cropper, who originally played on the Otis Redding version. Later that year, he appeared on Cher's album \"Prisoner\" beside Toto members Steve Lukather, Jeff Porcaro, David Hungate, David Paich and many others. In 1980 he appeared once again with Lukather and Paich on Elton John's album \"21 at 33\". Other notable musicians",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Macon to continue writing. The result was \"Sweet Soul Music\" (based on Cooke's \"Yeah Man\"), which peaked at number 2 on the \"Billboard\" Hot 100. By that time Redding had developed polyps on his larynx, which he tried to treat with tea and lemon or honey. He was hospitalized in September 1967 at Mt. Sinai Hospital in New York to undergo surgery. In early December 1967, Redding again recorded at Stax. One new song was \"(Sittin' On) The Dock of the Bay\", which was written with Cropper while they were staying with their friend, Earl \"Speedo\" Simms, on a houseboat  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions \"(Sittin' On) The Dock of the Bay\" as a posthumous single by Otis Redding, directly relating to the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses a song titled \"Sitting by the Riverside\" by The Kinks, which is not related to the query about \"Sitting on the Dock of the Bay\"."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Mentions \"Sitting on Top of the World\" by various artists, which is a different song and not relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions Sammy Hagar's single \"(Sittin' On) The Dock of the Bay\", featuring Steve Cropper who originally played on the Otis Redding version, providing context about the song's creators."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "States that \"(Sittin' On) The Dock of the Bay\" was written by Otis Redding and Steve Cropper, directly answering who made the song."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "\"(Sittin' On) The Dock of the Bay\" is a posthumous single by Otis Redding.",
+            "\"(Sittin' On) The Dock of the Bay\" was written by Otis Redding and Steve Cropper."
+          ],
+          "reason": "Extracted facts about the song \"(Sittin' On) The Dock of the Bay\", including its writer and posthumous release, directly relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses The Kinks and their song \"Sitting by the Riverside\", which is not relevant to the query about \"(Sittin' On) The Dock of the Bay\"."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses renditions of \"Sitting on Top of the World\" by various artists, which is a different song and not relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Sammy Hagar released a single \"(Sittin' On) The Dock of the Bay\" in 1979.",
+            "Steve Cropper originally played on the Otis Redding version of \"(Sittin' On) The Dock of the Bay\"."
+          ],
+          "reason": "Extracted facts about a 1979 single titled \"(Sittin' On) The Dock of the Bay\" and Steve Cropper's involvement with the Otis Redding version."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "\"(Sittin' On) The Dock of the Bay\" was written by Otis Redding and Steve Cropper.",
+            "Otis Redding wrote \"(Sittin' On) The Dock of the Bay\" while staying with Earl \"Speedo\" Simms."
+          ],
+          "reason": "Extracted facts about the writing of \"(Sittin' On) The Dock of the Bay\", including co-writer Steve Cropper and the circumstances of its writing."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that Otis Redding and Steve Cropper wrote \"(Sittin' On) The Dock of the Bay\", answering who made the song.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a different song, \"Sitting by the Riverside\", and is not relevant to the query about \"(Sittin' On) The Dock of the Bay\".",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses \"Sitting on Top of the World\", a different song, and is not relevant to the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions Sammy Hagar's 1979 single of the same name and Steve Cropper's involvement with the original, providing related but not definitive information on who made the original.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States that Otis Redding and Steve Cropper wrote the song and provides context for Otis Redding's writing process.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "songwriters_identified",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 directly identify Otis Redding and Steve Cropper as the writers of \"(Sittin' On) The Dock of the Bay\"."
+          },
+          {
+            "label": "related_versions_and_involvement",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 mentions a cover version by Sammy Hagar and Steve Cropper's involvement with the original, providing related but not primary information."
+          },
+          {
+            "label": "irrelevant_songs",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 discuss entirely different songs and are irrelevant to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups are complementary. The primary cluster identifies the songwriters, while the secondary cluster provides additional context about related versions and involvement.",
+        "clusters": [
+          {
+            "label": "songwriters_identified",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 directly identify Otis Redding and Steve Cropper as the writers of \"(Sittin' On) The Dock of the Bay\"."
+          },
+          {
+            "label": "related_versions_and_involvement",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 mentions a cover version by Sammy Hagar and Steve Cropper's involvement with the original, providing related but not primary information."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The supporting documents clearly identify the songwriters, and the partial document provides complementary context. There is no conflict or significant irrelevance."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Otis Redding and Steve Cropper are identified as the writers of \"(Sittin' On) The Dock of the Bay\".",
+        "citations": [
+          "d1",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting documents directly identify the songwriters, answering the user's query."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the cited documents, correctly identifying Otis Redding and Steve Cropper as the writers of the song."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9098,
+      "completion_tokens": 1995,
+      "total_tokens": 11093
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1437,
+        "completion_tokens": 410,
+        "total_tokens": 1847
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1392,
+        "completion_tokens": 523,
+        "total_tokens": 1915
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 924,
+        "completion_tokens": 379,
+        "total_tokens": 1303
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1118,
+        "completion_tokens": 249,
+        "total_tokens": 1367
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1384,
+        "completion_tokens": 209,
+        "total_tokens": 1593
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 641,
+        "completion_tokens": 44,
+        "total_tokens": 685
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 790,
+        "completion_tokens": 91,
+        "total_tokens": 881
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1412,
+        "completion_tokens": 90,
+        "total_tokens": 1502
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:37.842055",
+        "prompt_tokens": 1437,
+        "completion_tokens": 410,
+        "total_tokens": 1847,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:39.795168",
+        "prompt_tokens": 1392,
+        "completion_tokens": 523,
+        "total_tokens": 1915,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:41.480873",
+        "prompt_tokens": 924,
+        "completion_tokens": 379,
+        "total_tokens": 1303,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:43.116600",
+        "prompt_tokens": 1118,
+        "completion_tokens": 249,
+        "total_tokens": 1367,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:44.489465",
+        "prompt_tokens": 1384,
+        "completion_tokens": 209,
+        "total_tokens": 1593,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:45.304958",
+        "prompt_tokens": 641,
+        "completion_tokens": 44,
+        "total_tokens": 685,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:46.256184",
+        "prompt_tokens": 790,
+        "completion_tokens": 91,
+        "total_tokens": 881,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:19:47.255791",
+        "prompt_tokens": 1412,
+        "completion_tokens": 90,
+        "total_tokens": 1502,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:19:31.077081",
+  "last_updated_at": "2026-04-17T20:19:47.256377"
+}

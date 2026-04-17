@@ -1,0 +1,521 @@
+{
+  "sample_id": "#0286",
+  "query": "What is the host city of the upcoming International Olympiad in Informatics (IOI)?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "International Olympiad in Informatics (IOI) IOI 2024 - Egypt. The latest Olympiad was hosted by Egypt from September 1st to 8th. You can visit the event website, or scroll down to read about the IOI ... Bolivia will host IOI 2025 Bolivia and Uzbekistan will host IOI 2025 and IOI 2026, respectively. Check out the Editions page for more information. Future event Need more info? Beginners Not sure where to go? Click here to view some basic information on how to learn programming and prepare to win a medal at the IOI. Statistics A couple of volunteers maintain a separate page with stats about people who participated at the International Olympiad in Informatics.",
+      "source_url": "https://ioinformatics.org/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "IOI 2024 Egypt: Home IOI 2024 will be organized and hosted by the Arab Academy for Science, Technology and Maritime Transport (AASTMT) in Alexandria. The competition is supported by ... The 36th International Olympiad in Informatics (IOI 2024) will be hosted by Egypt during the 1-8 September, 2024, as the most prestigious computer science competition for secondary school and high school students around the world. \u200b The competition is one of five international science olympiads held annually. IOI 2024 will be organized and hosted by the Arab Academy for Science, Technology and Maritime Transport (AASTMT) in Alexandria. The competition is supported by the Ministry of Communication and Information Technology, Ministry of Youth and Sports and Bibliotheca of Alexandria.",
+      "source_url": "https://www.ioi2024.eg/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "International Olympiad in Informatics \u2013 Statistics - IOI Dates, Host, City, Contestants \u00b7 Countries \u00b7 36 \u00b7 2024, 01 September 2024 \u2013 08 September 2024, Egypt, Alexandria, 362*, 91*.",
+      "source_url": "https://stats.ioinformatics.org/olympiads/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "ioi2023 \u2013 35. International Olympiad in Informatics The 35th International Olympiad in Informatics (IOI 2023) will be held in Szeged, Hungary from 28th of August to 4th of September, 2023. 35th International Olympiad in Informatics HUNGARYSZEGED 28 AUG - 4 SEPT 2023 About IOI The International Olympiad in Informatics (IOI) is an annual international informatics competition for high school students from various invited countries, accompanied by social and cultural programmes. It is one of the five international science Olympiads and is one of the most prestigious competitive programming event in the world. The 35th International Olympiad in Informatics (IOI 2023) will be held in Szeged, Hungary from 28th of August to 4th of September, 2023. Between 28 August and 4 September, the world\u2019s most promising minds will move to the City of Sunshine as Szeged hosts the most prestigious and largest student programming competition, the International Olympiad \u00e2\u0080\u00a6 Read more Hungary hosts the most prestigious IT student competition, the 35th\u00c2 International IT Student Olympiad. The prestigious event, which will\u00c2 take place from 28 August to 4 September 2023, will attract around 1,000\u00c2 participants \u00e2\u0080\u00a6 Read more Supporting young talents at the prestigious science contest that aims to foster more innovation and ideas for the future in informatics and IT Acer Inc. announced that it is powering \u00e2\u0080\u00a6 Read more Szeged is the third largest city of Hungary, the largest city and regional centre of the Southern Great Plain and the county seat of Csongr\u00c3\u00a1d-Csan\u00c3\u00a1d county. The University of Szeged is one of the most distinguished universities in Hungary. Szeged is the higher education centre of the Southern Great Plain and has built quite a reputation for itself. Thousands of students study here, many of whom are foreigners. The University of Szeged is according to the number of students the second largest and the 4th oldest university of Hungary being established in 1581.",
+      "source_url": "https://ioi2023.hu/index.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "International Olympiad in Informatics - IOI Exam 2024 - Allen.In Highlights of the International Olympiad in Informatics ; Hosting Country of IOI 2024. Egypt ; Official Website of Host Country. ioi2024.eg/ ; Frequency of Conduct. The IOI is designed to develop an interest in informatics and information technology among students, providing a platform for them to showcase their programming skills. Participating in the IOI offers students a unique opportunity to enhance their programming skills, engage in friendly competition, and connect with like-minded individuals worldwide. Here are some brief details about the exam that you must know: Since its inaugural event in Pravetz, Bulgaria, in 1989, the International Olympic Institute (IOI) has been hosted annually in several nations. Each country can send a team of up to four students, along with a team leader, deputy leader, and guests. The IOI attracts participants from more than 80 countries, with over 300 students competing yearly. IOI 2024, which Egypt will host from September 1st to September 8th, 2024. Objectives of the IOI 2024 Exam Cultivating amicable international ties among computer scientists and informatics educators. Increasing awareness of informatics among young people. Advocating for the organization of informatics competitions for secondary school students. Encouraging nations to host future IOI events within their borders. Highlights of the International Olympiad in Informatics The following highlights provide a concise overview of the Informatics Olympiad, as taken from the most recent IOI 2024 exam. Full Exam Name International Olympiad in Informatics Short Exam Name IOI Conducting Body UNESCO Hosting Country of IOI 2024 Egypt Official Website of Host Country ioi2024.eg/ Frequency of Conduct Annually Date of IOI 2024 Competition 1st to 8th September 2024 Languages English Mode of Exam Offline 2.0International Olympiad in Informatics 2024 Exam Dates The participating country for the IOI Olympiad 2024 is Egypt.",
+      "source_url": "https://allen.in/olympiad/international-olympiad-in-informatics",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "[PDF] Olympiads in Informatics The International Olympiad in Informatics (IOI) is an annual global competition in infor- matics for individual contestants from over 80 invited countries. The ...",
+      "source_url": "https://ioinformatics.org/files/volume18.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "IOI 2022 The competition is one of five international science olympiads held annually. IOI 2022 will be hosted in the Special Region of Yogyakarta. Indonesia 7\u201315 August 2022 International Olympiad in Informatics 2022 The 34th International Olympiad in Informatics (IOI 2022) will be hosted by Indonesia from August 7th to August 15th, 2022, as the most prestigious computer science competition for secondary school and high school students around the world. The competition is one of five international science olympiads held annually. IOI 2022 will be hosted in the Special Region of Yogyakarta. The competition is supported by the Ministry of Education, Culture, Research, and Technology, Republic of Indonesia, the Ministry of Tourism and Creative Economy, Republic of Indonesia, and the State Government of Special Region of Yogyakarta. Dear All,Brian here; the host organising committee, sharing updates for IOI 2022, as of Sunday 17 July (countdown: 3 weeks to go). >> Registration\u2019s Result Please check again https://ioi2022.id/number-of-participants/ and https://stats.ioinformatics.org/delegations/2022 to make sure we got\u2026",
+      "source_url": "https://ioi2022.id/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Latest News - ioi2023 Szeged hosts the most prestigious and largest student programming competition, the International Olympiad in Informatics (IOI), where the young titans of the ... Hungary hosts the most prestigious IT student competition, the 35th\u00c2 International IT Student Olympiad. The prestigious event, which will\u00c2 take place from 28 August to 4 September 2023, will attract around 1,000\u00c2 participants from 90 countries around the world: 360 competitors, 180\u00c2 team leaders and guests.",
+      "source_url": "https://ioi2023.hu/latest-news/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "What is it like to compete in IOI (International Olympiad in Informatics ... I participated in IOI a total of 4 times (2009-2012), and each one was unique in its own way. The first one was in Bulgaria, ...",
+      "source_url": "https://www.quora.com/What-is-it-like-to-compete-in-IOI-International-Olympiad-in-Informatics-Was-it-mentally-taxing-Were-there-high-stress-levels-How-did-you-feel-during-the-competition-over-the-two-days",
+      "timestamp": "2012-03-30"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states that Bolivia and Uzbekistan will host IOI 2025 and IOI 2026, respectively, and mentions IOI 2024 was hosted by Egypt."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Clearly states that IOI 2024 will be hosted by Egypt in Alexandria, organized by AASTMT."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Provides statistics for IOI 2024, including the host city as Alexandria, Egypt, and the dates."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses IOI 2023 in Szeged, Hungary, which is not the upcoming event the query asks about."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Confirms Egypt as the hosting country for IOI 2024 and provides the official website and dates."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Provides a general description of the IOI but does not specify the host city for the upcoming event."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Focuses on IOI 2022 hosted by Indonesia, which is not the upcoming event."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses IOI 2023 in Szeged, Hungary, which is a past event, not the upcoming one."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "A personal account of competing in past IOI events (2009-2012), not relevant to the host city of the upcoming event."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Bolivia and Uzbekistan will host IOI 2025 and IOI 2026, respectively."
+          ],
+          "reason": "Extracted future host countries for IOI, relevant to the query about upcoming events."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The 36th International Olympiad in Informatics (IOI 2024) will be hosted by Egypt during September 1-8, 2024.",
+            "IOI 2024 will be organized and hosted by the Arab Academy for Science, Technology and Maritime Transport (AASTMT) in Alexandria."
+          ],
+          "reason": "Extracted specific details about the host country, city, and dates for IOI 2024, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The 36th International Olympiad in Informatics (IOI 2024) will be held in Egypt, Alexandria, from September 1 to September 8, 2024."
+          ],
+          "reason": "Extracted the host city, country, and dates for IOI 2024, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The 35th International Olympiad in Informatics (IOI 2023) was held in Szeged, Hungary, from August 28 to September 4, 2023."
+          ],
+          "reason": "Extracted information about a past IOI event, which is not directly relevant to the upcoming event query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The hosting country of IOI 2024 is Egypt.",
+            "The date of IOI 2024 Competition is from 1st to 8th September 2024."
+          ],
+          "reason": "Extracted the host country and dates for IOI 2024, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [],
+          "reason": "Document is a PDF mentioning the IOI is an annual global competition but does not specify the host city for the upcoming event."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "IOI 2022 was hosted by Indonesia in the Special Region of Yogyakarta from August 7th to August 15th, 2022."
+          ],
+          "reason": "Extracted information about a past IOI event, which is not directly relevant to the upcoming event query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Szeged, Hungary hosted the 35th International Olympiad in Informatics (IOI) from August 28 to September 4, 2023."
+          ],
+          "reason": "Extracted information about a past IOI event, which is not directly relevant to the upcoming event query."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "The first IOI the author participated in was in Bulgaria in 2009."
+          ],
+          "reason": "Extracted information about a past IOI event, which is not directly relevant to the upcoming event query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions future IOI hosts for 2025 and 2026, but the query asks for the *upcoming* event, which is IOI 2024.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that Alexandria, Egypt is the host city for the upcoming IOI 2024.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explicitly names Alexandria, Egypt as the host city for the upcoming IOI 2024.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Provides information about IOI 2023, which is a past event and not the upcoming one.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Identifies Egypt as the host country for IOI 2024 but does not specify the host city.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "irrelevant",
+          "reason": "Mentions IOI is an annual competition but lacks specific details about the upcoming host city.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "irrelevant",
+          "reason": "Provides details for IOI 2022, which is a past event and not the upcoming one.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "States Szeged, Hungary hosted IOI 2023, a past event, not the upcoming one.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "Mentions a past IOI event in Bulgaria in 2009, which is irrelevant to the upcoming host city.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3"
+        ],
+        "partial_docs": [
+          "d1",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_ioi_2024",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 directly identify Alexandria, Egypt as the host city and dates for IOI 2024."
+          },
+          {
+            "label": "partial_support_ioi_2024",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 provide some information about IOI 2024 (host country/future hosts) but lack specific city details or are for future years."
+          },
+          {
+            "label": "irrelevant_past_events",
+            "doc_ids": [
+              "d4",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Documents d4, d7, d8, and d9 discuss past IOI events (2023, 2022, 2009) and are irrelevant to the upcoming event."
+          },
+          {
+            "label": "irrelevant_general_info",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "Document d6 provides general information about IOI but lacks specific details about the upcoming host city."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All relevant documents consistently identify Egypt as the host for IOI 2024, with specific documents providing the host city and dates. Other documents discuss past events or future hosts.",
+        "clusters": [
+          {
+            "label": "IOI 2024 Host Details",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 confirm Egypt as the host country for IOI 2024. Documents d2 and d3 further specify Alexandria as the host city and provide the dates September 1-8, 2024."
+          },
+          {
+            "label": "Future IOI Hosts",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 mentions Bolivia and Uzbekistan as hosts for IOI 2025 and 2026, respectively, which are future events."
+          },
+          {
+            "label": "Past IOI Events",
+            "doc_ids": [
+              "d4",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Documents d4, d7, d8, and d9 provide information about past IOI events in 2023, 2022, and 2009, which are not relevant to the upcoming event."
+          },
+          {
+            "label": "General IOI Information",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "Document d6 mentions IOI as an annual competition but lacks specific details about the upcoming host."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting documents directly identify Alexandria, Egypt as the host city and dates for IOI 2024. Conflicts are complementary and resolved by the consistent information."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The International Olympiad in Informatics (IOI) 2024 will be held in Alexandria, Egypt, from September 1st to September 8th, 2024.",
+        "citations": [
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d2 and d3 directly and consistently identify Alexandria, Egypt as the host city and provide the dates for IOI 2024. Other documents are either complementary or irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided documents, accurately stating the host city, country, and dates for IOI 2024."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 14794,
+      "completion_tokens": 3247,
+      "total_tokens": 18041
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2674,
+        "completion_tokens": 661,
+        "total_tokens": 3335
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2629,
+        "completion_tokens": 848,
+        "total_tokens": 3477
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1181,
+        "completion_tokens": 616,
+        "total_tokens": 1797
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1553,
+        "completion_tokens": 432,
+        "total_tokens": 1985
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1926,
+        "completion_tokens": 416,
+        "total_tokens": 2342
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 911,
+        "completion_tokens": 53,
+        "total_tokens": 964
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1069,
+        "completion_tokens": 127,
+        "total_tokens": 1196
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 2851,
+        "completion_tokens": 94,
+        "total_tokens": 2945
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:38.258880",
+        "prompt_tokens": 2674,
+        "completion_tokens": 661,
+        "total_tokens": 3335,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:43.486184",
+        "prompt_tokens": 2629,
+        "completion_tokens": 848,
+        "total_tokens": 3477,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:46.161856",
+        "prompt_tokens": 1181,
+        "completion_tokens": 616,
+        "total_tokens": 1797,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:48.107309",
+        "prompt_tokens": 1553,
+        "completion_tokens": 432,
+        "total_tokens": 1985,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:50.885946",
+        "prompt_tokens": 1926,
+        "completion_tokens": 416,
+        "total_tokens": 2342,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:51.850840",
+        "prompt_tokens": 911,
+        "completion_tokens": 53,
+        "total_tokens": 964,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:53.056372",
+        "prompt_tokens": 1069,
+        "completion_tokens": 127,
+        "total_tokens": 1196,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:33:54.442912",
+        "prompt_tokens": 2851,
+        "completion_tokens": 94,
+        "total_tokens": 2945,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:33:36.215246",
+  "last_updated_at": "2026-04-17T17:33:54.443468"
+}

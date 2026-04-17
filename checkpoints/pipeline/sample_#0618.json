@@ -1,0 +1,385 @@
+{
+  "sample_id": "#0618",
+  "query": "How do we know that a species has definitely gone extinct (as opposed to just being extremely rare/elusive)?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "August 2014 \u0393\u00c7\u00f4 Climate Change, Ecology and Related News Lone Passenger Pigeon Escapes Pie Pan, Lands In Smithsonian (NPR, 06/27/14) Why the obsession with this one bird? James says a lot of animals have gone extinct, but it\u0393\u00c7\u00d6s rare to be able to go to the zoo and look the last one in the eyes. http://ow.ly/AN4Iv RELATED: The Passenger Pigeon\u0393\u00c7\u00d6s Everlasting Mark: America\u0393\u00c7\u00d6s Most Infamous Extinction (Huffington Post, 08/25/14) We rarely know the exact date and time an entire species goes extinct, but in the case of the passenger pigeon, we do. Martha, the very last of her species, took her final breath at the Cincinnati Zoo on September",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How Do We Know A Species is Endangered or Extinct? - NY HARBOR NATURE has gone extinct \u0393\u00c7\u00f4 to the extent that one can truly know for sure \u0393\u00c7\u00f4 is always unfortunate. But making the effort to find out either way often offers a glimmer of hope. Hope that the animal in question, however rare, however vulnerable, is still out there. If we know that, then we also know that we, as the only species on the planet with the ability and the resources to do so, have a chance of saving it. rush essay review link When a species of animal is entering critical condition, they are either endangered of on the verge",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1994-11-12"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rare today, gone tomorrow: 13 tree species in India may become extinct because of deforestation Rare today, gone tomorrow: 13 tree species in India may become extinct because of deforestation - Development News (evergreen and deciduous tree species bearing flowers), endemic to Assam, is under threat and has seen a substantial decline in their population. Some of the other tree species had declined owing to damage of seeds by arboreal animals (squirrels, field mice etc) and grazing animals. \u0393\u00c7\u00a3It is very important to generate this knowledge to understand that we are losing our rare tree species. We now need conscious afforestation strategies. If we make right interventions at the right time, it is possible to save these species,\u0393\u00c7\u00a5 said Anumita Roy Chowdhury, executive director (research and advocacy), Centre for Science and Environment (CSE).",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1992-02-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Study finds hundreds of thousands of tropical species at risk of extinction due to deforestation - NationofChange climate change.\u0393\u00c7\u00a5 Given how rapidly deforestation has occurred throughout the tropics, Alroy adds, it\u0393\u00c7\u00d6s \u0393\u00c7\u00a3conceivable that an event on the scale of a true mass extinction has already taken place\u0393\u00c7\u00a5 and that these losses simply went unnoticed by mankind. \u0393\u00c7\u00a3A mass extinction could have happened right under our noses because we just don\u0393\u00c7\u00d6t know much about the many rare species that are most vulnerable to extinction,\u0393\u00c7\u00a5 Alroy said. \u0393\u00c7\u00a3To figure out whether this is true, a lot more field work needs to be done in the tropics. The time to do it is now.\u0393\u00c7\u00a5 There is reason to hope that",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "ExtinctAnimals.org - Definition of Extinction and List of Extinct Species When a large number of species goes out of existence in some major calamity, it is called an extinction event. There have been multiple extinction events on earth since it first came into existence, with five of them (the \u0393\u00c7\u00ffBig Five\u0393\u00c7\u00d6 extinction events) being the most crucial in making the earth the way it is today. How to Know if a Species has Gone Extinct There are multiple wildlife conservation organizations who keep track of different species and their population trends, taking measures to help them survive, and listing the species that have gone extinct, along with the causes for  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2018-04-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses the passenger pigeon extinction, noting that we rarely know the exact date but do in this specific case, providing context to the query about knowing when a species is extinct."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly addresses the query 'How Do We Know A Species is Endangered or Extinct?' and discusses the difficulty and importance of knowing for sure."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Focuses on tree species in India potentially becoming extinct due to deforestation, but doesn't explain how extinction is determined."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions species at risk of extinction due to deforestation and the possibility of mass extinctions going unnoticed, but doesn't detail the criteria for confirming extinction."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explicitly states 'How to Know if a Species has Gone Extinct' and mentions conservation organizations tracking species and listing extinct ones."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Martha, the last passenger pigeon, died at the Cincinnati Zoo on September 1st."
+          ],
+          "reason": "Extracted the specific detail about the last passenger pigeon's death, which provides a concrete example of knowing when a species went extinct."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "It is always unfortunate when a species goes extinct to the extent that one can truly know for sure.",
+            "Making the effort to find out if a species is extinct offers a glimmer of hope that the animal is still out there."
+          ],
+          "reason": "Extracted statements about the difficulty and implications of knowing for sure if a species is extinct, and the hope associated with finding out."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "13 tree species in India may become extinct because of deforestation.",
+            "Some tree species declined due to damage of seeds by arboreal animals and grazing animals."
+          ],
+          "reason": "Extracted facts about specific tree species in India facing extinction due to deforestation and other factors."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Hundreds of thousands of tropical species are at risk of extinction due to deforestation.",
+            "A mass extinction could have happened unnoticed because many rare species are vulnerable and not well-documented."
+          ],
+          "reason": "Extracted facts about the risk of extinction for tropical species due to deforestation and the possibility of unnoticed mass extinctions."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "An extinction event occurs when a large number of species goes out of existence in some major calamity.",
+            "There have been multiple extinction events on Earth, with five being the most crucial."
+          ],
+          "reason": "Extracted definitions of extinction events and historical context about major extinction periods on Earth."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides an example of a species' extinction (last individual died), but doesn't explain the general criteria for determining extinction.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Discusses the difficulty and hope associated with knowing for sure if a species is extinct, implying criteria exist but not detailing them.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses species at risk of extinction and causes, but not the criteria for definitively knowing extinction has occurred.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Focuses on extinction risks and unnoticed extinctions, not on the methods or evidence required to confirm a species is extinct.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Defines extinction events and their history, but does not address how to determine if a specific species has gone extinct.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_context_on_extinction_knowledge",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide partial context on knowing when a species is extinct, with d1 giving a specific example and d2 discussing the difficulty and hope associated with such knowledge."
+          },
+          {
+            "label": "irrelevant_on_extinction_risks_and_definitions",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 are irrelevant as they focus on species at risk of extinction, causes of extinction, and definitions of extinction events, rather than the criteria for determining if a species is extinct."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Some documents offer partial context on determining extinction, while others are irrelevant to the specific question.",
+        "clusters": [
+          {
+            "label": "partial_context_on_extinction_knowledge",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide partial context on knowing when a species is extinct, with d1 giving a specific example and d2 discussing the difficulty and hope associated with such knowledge."
+          },
+          {
+            "label": "irrelevant_on_extinction_risks_and_definitions",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 are irrelevant as they focus on species at risk of extinction, causes of extinction, and definitions of extinction events, rather than the criteria for determining if a species is extinct."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided documents offer only partial context on the question, with no direct supporting evidence. Therefore, a reliable answer cannot be formed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided documents offer only partial context on the question, with no direct supporting evidence. Therefore, a reliable answer cannot be formed.",
+        "final_reasoning": "The provided documents offer only partial context on determining extinction, with no direct supporting evidence. Thus, a reliable answer cannot be formed, and the system must abstain."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claims made. The documents discuss extinction but do not provide a definitive method for knowing when a species has gone extinct."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9989,
+      "completion_tokens": 1953,
+      "total_tokens": 11942
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1792,
+        "completion_tokens": 387,
+        "total_tokens": 2179
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1747,
+        "completion_tokens": 480,
+        "total_tokens": 2227
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 881,
+        "completion_tokens": 349,
+        "total_tokens": 1230
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1031,
+        "completion_tokens": 234,
+        "total_tokens": 1265
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1294,
+        "completion_tokens": 254,
+        "total_tokens": 1548
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 679,
+        "completion_tokens": 45,
+        "total_tokens": 724
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 829,
+        "completion_tokens": 99,
+        "total_tokens": 928
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1736,
+        "completion_tokens": 105,
+        "total_tokens": 1841
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:04.214319",
+        "prompt_tokens": 1792,
+        "completion_tokens": 387,
+        "total_tokens": 2179,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:06.302946",
+        "prompt_tokens": 1747,
+        "completion_tokens": 480,
+        "total_tokens": 2227,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:08.879600",
+        "prompt_tokens": 881,
+        "completion_tokens": 349,
+        "total_tokens": 1230,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:10.797894",
+        "prompt_tokens": 1031,
+        "completion_tokens": 234,
+        "total_tokens": 1265,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:12.236732",
+        "prompt_tokens": 1294,
+        "completion_tokens": 254,
+        "total_tokens": 1548,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:13.129134",
+        "prompt_tokens": 679,
+        "completion_tokens": 45,
+        "total_tokens": 724,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:14.061837",
+        "prompt_tokens": 829,
+        "completion_tokens": 99,
+        "total_tokens": 928,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:15.079112",
+        "prompt_tokens": 1736,
+        "completion_tokens": 105,
+        "total_tokens": 1841,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:20:01.917225",
+  "last_updated_at": "2026-04-17T20:20:15.080413"
+}

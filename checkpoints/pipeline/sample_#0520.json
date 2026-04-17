@@ -1,0 +1,392 @@
+{
+  "sample_id": "#0520",
+  "query": "How can you determine paternity if two identical twins slept with the same woman and she got pregnant?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Is Non-invasive Prenatal Testing Different with Twins? not the mother is pregnant with monozygotic or dizygotic twins. It\u0393\u00c7\u00d6s important that doctors determine what kind of twins a woman is having before beginning NIPT and before analyzing NIPT results. Monozygotic twins are often called \u0393\u00c7\u00a3identical\u0393\u00c7\u00a5 twins and are the product of one zygote (one sperm and egg pairing) that divides to form two embryos. Dizygotic twins are often referred to as \u0393\u00c7\u00a3fraternal\u0393\u00c7\u00a5 twins because they are the product of two zygotes (two different sperms and two different egg pairings) that occur at the same time. For the purposes of NIPT, dizygotic twins are considered two separate pregnancies. These",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "How to know if your twins are identical or fraternal pregnant woman has approximately a 0.4% chance of having identical twins. About one third of multi-pregnancies will result in identical twins. Family history doesn\u0393\u00c7\u00d6t increase or decrease the likelihood of identical twins Identical twins will always both be of the same sex. You can produce identical twins when a single egg is fertilised by a sperm to form a zygote, which then goes on to divide into two separate embryos in the womb. Identical twins are genetically extremely similar and as such will typically look very alike - identical even!",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Fabricio Gonzalez-Andrade's Blog: April 2009 the media have shown this conflict on the DNA application in the Court. With identical twins, even if you sequenced their whole genome you would not find differences, they are practically clones. There is simply no test that explains the difference between two identical twins, at least for now. Case 1: Two years ago, identical twin brothers Raymon and Richard Miller both had sex with the same woman who became pregnant. In May 2007, the judge decided that Raymon is the legal father of the child although the DNA paternity test couldn\u0393\u00c7\u00d6t provide definitive proof, and the child support was",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Georgia Family Law Blog: April 2007 with divorce, dissolution of marriage, annulment, or spousal support lawsuits, or by a welfare agency. Paternity and Twins Sometimes, a paternity testing question involves two alleged fathers who are identical twins. Can you determine the paternity of the child using identical twins? No. You can exclude and determine non-paternity but you cannot include them. Twins have the same DNA and therefore, if they are alleged to be the father of a child, the results can only determine that neither twin is the father of the child in question or that one of the twins could be the father but it",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d5",
+      "text": "DNA Science Archives - IDENTIGENE paternity test cannot determine the difference between the two men\u0393\u00c7\u00d6s genomes > Although the men are genetically identical, they don\u0393\u00c7\u00d6t have identical fingerprints LEARN MORE ABOUT TWINS AND DNA TESTING DNA FACT #5: Looks alone are never proof of paternity We get a lot of questions from customers who insist that their child looks just like an alleged father (he has his blue eyes, or she has his facial shape), and so they can\u0393\u00c7\u00d6t understand why a paternity test would show that the possible father and the child are not biologically related. Conversely, we also get questioned on how a  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Discusses NIPT with twins but does not address paternity determination between identical twins."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Explains how identical twins are formed but does not address paternity testing."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the scenario of identical twins and paternity testing, noting the difficulty and a court case."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Explains that paternity testing cannot definitively include one identical twin as the father, only exclude both."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that paternity tests cannot differentiate between genetically identical individuals, directly relevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Monozgotic twins are identical twins and are the product of one zygote dividing.",
+            "Dizygotic twins are fraternal twins and are the product of two different sperms and two different egg pairings.",
+            "For NIPT, dizygotic twins are considered two separate pregnancies."
+          ],
+          "reason": "Extracted facts defining identical and fraternal twins and their implications for NIPT, relevant to understanding genetic similarities."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Identical twins are formed when a single egg is fertilized by a sperm and then divides into two embryos.",
+            "Identical twins are genetically extremely similar and typically look very alike."
+          ],
+          "reason": "Extracted facts explaining the biological origin and genetic similarity of identical twins, which is central to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "With identical twins, even if their whole genome is sequenced, differences may not be found as they are practically clones.",
+            "There is currently no test that explains the difference between two identical twins.",
+            "In a case where identical twin brothers both had sex with the same woman who became pregnant, a judge decided one twin is the legal father, despite DNA tests not providing definitive proof."
+          ],
+          "reason": "Extracted facts stating the genetic similarity of identical twins and a case example where paternity was determined despite DNA test limitations."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Paternity testing involving identical twins cannot definitively include one twin as the father.",
+            "If identical twins are alleged fathers, DNA test results can only determine that neither twin is the father or that one of them could be the father, but not which one."
+          ],
+          "reason": "Extracted facts directly addressing the limitations of paternity testing with identical twins, stating it can exclude but not definitively include."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A paternity test cannot determine the difference between the genomes of two genetically identical men.",
+            "Looks alone are never proof of paternity."
+          ],
+          "reason": "Extracted facts highlighting that standard paternity tests cannot differentiate between identical twins and that physical resemblance is not definitive proof."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document defines twin types and mentions NIPT, but does not address paternity testing challenges with identical twins.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document explains the origin and genetic similarity of identical twins but does not discuss paternity testing methods or limitations.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "States that DNA tests cannot differentiate identical twins and provides a case where a judge determined paternity despite this limitation.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states that paternity testing with identical twins cannot definitively identify one twin as the father, only that one of them could be.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Confirms that standard paternity tests cannot differentiate between identical twins and that physical resemblance is not proof.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2"
+        ],
+        "evidence_summary": [
+          {
+            "label": "paternity_testing_limitations_identical_twins",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 directly address the limitations of paternity testing with identical twins, stating that standard DNA tests cannot differentiate between them and can only indicate that one of the twins could be the father, not definitively which one. Document d3 also provides a case example where paternity was determined despite these limitations."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide background information on twin types and their biological origins but do not discuss the specific challenges of paternity testing with identical twins."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All supporting documents consistently state that standard paternity tests cannot differentiate between identical twins, only indicating that one of them could be the father.",
+        "clusters": [
+          {
+            "label": "paternity_testing_limitations_identical_twins",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d3, d4, and d5 directly address the limitations of paternity testing with identical twins, stating that standard DNA tests cannot differentiate between them and can only indicate that one of the twins could be the father, not definitively which one. Document d3 also provides a case example where paternity was determined despite these limitations."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Documents d1 and d2 provide background information on twin types and their biological origins but do not discuss the specific challenges of paternity testing with identical twins."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The supporting documents consistently explain the limitations of paternity testing with identical twins, and there is no conflict. A reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Standard DNA paternity tests cannot differentiate between identical twins. They can only indicate that one of the twins could be the father, not definitively which one. However, in some cases, paternity can still be determined.",
+        "citations": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently explain the limitations of paternity testing with identical twins, and there is no conflict. A reliable answer can be provided."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately states that standard DNA tests cannot differentiate between identical twins, citing relevant documents. It also correctly notes that paternity can still be determined in some cases."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9465,
+      "completion_tokens": 2021,
+      "total_tokens": 11486
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1527,
+        "completion_tokens": 328,
+        "total_tokens": 1855
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1482,
+        "completion_tokens": 563,
+        "total_tokens": 2045
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 954,
+        "completion_tokens": 332,
+        "total_tokens": 1286
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1090,
+        "completion_tokens": 276,
+        "total_tokens": 1366
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1359,
+        "completion_tokens": 259,
+        "total_tokens": 1618
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 690,
+        "completion_tokens": 46,
+        "total_tokens": 736
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 841,
+        "completion_tokens": 119,
+        "total_tokens": 960
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1522,
+        "completion_tokens": 98,
+        "total_tokens": 1620
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:26.395372",
+        "prompt_tokens": 1527,
+        "completion_tokens": 328,
+        "total_tokens": 1855,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:28.817907",
+        "prompt_tokens": 1482,
+        "completion_tokens": 563,
+        "total_tokens": 2045,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:31.095566",
+        "prompt_tokens": 954,
+        "completion_tokens": 332,
+        "total_tokens": 1286,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:32.702793",
+        "prompt_tokens": 1090,
+        "completion_tokens": 276,
+        "total_tokens": 1366,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:34.167490",
+        "prompt_tokens": 1359,
+        "completion_tokens": 259,
+        "total_tokens": 1618,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:35.078920",
+        "prompt_tokens": 690,
+        "completion_tokens": 46,
+        "total_tokens": 736,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:36.113003",
+        "prompt_tokens": 841,
+        "completion_tokens": 119,
+        "total_tokens": 960,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:37.712930",
+        "prompt_tokens": 1522,
+        "completion_tokens": 98,
+        "total_tokens": 1620,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:53:24.545661",
+  "last_updated_at": "2026-04-17T19:53:37.713539"
+}

@@ -1,0 +1,375 @@
+{
+  "sample_id": "#0602",
+  "query": "What are the dates of birth of persons that played for the Brisbane Heat?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "injury. On October 31, 2018, Ritchart re-signed with the Flames for the 2019 SBL season. Josh Ritchart Josh Ritchart (born March 11, 1992) is an American professional basketball player for the Rockingham Flames of the State Basketball League (SBL). After five years at UC Davis, Ritchart began his professional career in Japan, before splitting the 2016\u0393\u00c7\u00f417 season in Greece and Sweden. In 2018, he moved to Australia and joined the Flames. Ritchart played high school basketball at Forest Lake Christian, in Auburn, California. Ritchart played college basketball at UC Davis from 2010 to 2015. In July 2015, Ritchart signed with",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d2",
+      "text": "eliminated in the last match. Brendon McCullum missed some matches as he was playing HRV Cup in New Zealand simultaneously while Daniel Vettori missed few games because of injury while the original captain James Hopes missed the whole tournament because of injury. The team ended fifth out of eight on the points table. Brisbane Heat defeated the Perth Scorchers in the 2012/13 Big Bash League final. The match was played at the WACA Ground on 19 January 2013. Captain James Hopes was unable to play due to injury. Vice-captain Chris Hartley won the toss, and elected to bat first. Joe",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "2015, Brisbane agreed a one-year deal with Clyde, however, he was released by the Cumbernauld side after just one season in which he made only 14 competitive appearances for the side. Steven Brisbane Steven Brisbane (born 13 January 1995) is a Scottish professional footballer who plays as a midfielder. He has previously played for Falkirk, East Stirlingshire and Clyde, as well as Broxburn Athletic on loan. Brisbane aged 16 made his first team debut on 13 August 2011 as a substitute in Falkirk's 2\u0393\u00c7\u00f41 win over Partick Thistle in the Scottish First Division. On 23 October 2013, Brisbane signed for",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "for 11 runs and taking three catches. The team started well, winning their first game against the Perth Scorchers. However, they lost out in many close matches over the course of the season. The Heat struggled but, managed to finish the season in 5th place. There were good signs for the Heat as Cameron Gannon led all BBL wicket-takers, snaring 18 wickets at an average of less than 12 \u0393\u00c7\u00f4 with best bowling of 4\u0393\u00c7\u00f410. Daniel Vettori was also miserly with the ball, going for just over six an over and picking up 7 wickets. Chris Lynn was the best",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Hec Brisbane Hector Brisbane was a New Zealand rugby league player who represented New Zealand. Brisbane played for the Marist Saints in the Auckland Rugby League competition. In 1924, Brisbane represented Auckland City against the touring Great Britain Lions. He then made his debut for New Zealand, becoming Kiwi number 153. He was a part of the 1926\u0393\u00c7\u00f427 New Zealand rugby league tour of Great Britain, which was marred by strike action by six of the forwards. During the 1932 New Zealand rugby league season, Brisbane captained New Zealand to a 0-3 series defeat against Great Britain. In the third  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about Josh Ritchart, a basketball player, and does not mention the Brisbane Heat or any relevant birth dates."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions Brisbane Heat and players like Brendon McCullum, Daniel Vettori, and James Hopes, but does not provide their birth dates."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document is about Steven Brisbane, a footballer, and does not mention the Brisbane Heat or relevant birth dates."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.6,
+          "is_relevant": true,
+          "reason": "Mentions 'The Heat' and players like Cameron Gannon, Daniel Vettori, and Chris Lynn, but does not provide their birth dates."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about Hector Brisbane, a rugby league player, and does not mention the Brisbane Heat or relevant birth dates."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Josh Ritchart was born on March 11, 1992."
+          ],
+          "reason": "Extracted the birth date of Josh Ritchart, who is mentioned in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document mentions the Brisbane Heat team but does not provide birth dates for any players."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Steven Brisbane was born on January 13, 1995."
+          ],
+          "reason": "Extracted the birth date of Steven Brisbane, a professional footballer."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses the Brisbane Heat team's performance but does not contain any player birth dates."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document is about Hector Brisbane, a rugby league player, and does not mention the Brisbane Heat or provide birth dates."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides a birth date for Josh Ritchart, but it's unclear if he played for the Brisbane Heat.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Mentions the Brisbane Heat but provides no player birth dates.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Provides a birth date for Steven Brisbane, but it's unclear if he played for the Brisbane Heat.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses the Brisbane Heat's performance but contains no player birth dates.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "About a rugby player named Hector Brisbane, not the Brisbane Heat team, and no birth dates provided.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_player_birthdays",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Documents d1 and d3 provide birth dates for individuals (Josh Ritchart and Steven Brisbane) but do not confirm their association with the Brisbane Heat team."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d4, and d5 are irrelevant as they either discuss the Brisbane Heat team without providing player birth dates or focus on unrelated individuals."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Some documents offer birth dates for individuals, but their connection to the Brisbane Heat team is unconfirmed, and other documents are irrelevant.",
+        "clusters": [
+          {
+            "label": "potential_player_birthdays",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Documents d1 and d3 provide birth dates for Josh Ritchart and Steven Brisbane, respectively, but do not confirm if they played for the Brisbane Heat."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d2, d4, and d5 are irrelevant as they discuss the Brisbane Heat team without player birth dates or focus on unrelated individuals."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided documents offer partial information about birth dates but do not confirm the individuals' association with the Brisbane Heat team, making the support too weak for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided documents offer partial information about birth dates but do not confirm the individuals' association with the Brisbane Heat team, making the support too weak for a reliable answer.",
+        "final_reasoning": "The provided documents do not contain sufficient information to confirm player birth dates for the Brisbane Heat team, leading to abstention."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded as no documents were cited to support the claims made. The query asks for dates of birth of players for Brisbane Heat, but the provided documents do not contain this information."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8530,
+      "completion_tokens": 1697,
+      "total_tokens": 10227
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1524,
+        "completion_tokens": 371,
+        "total_tokens": 1895
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 304,
+        "total_tokens": 1783
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 723,
+        "completion_tokens": 320,
+        "total_tokens": 1043
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 853,
+        "completion_tokens": 238,
+        "total_tokens": 1091
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1084,
+        "completion_tokens": 210,
+        "total_tokens": 1294
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 621,
+        "completion_tokens": 52,
+        "total_tokens": 673
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 778,
+        "completion_tokens": 98,
+        "total_tokens": 876
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1468,
+        "completion_tokens": 104,
+        "total_tokens": 1572
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:34.553552",
+        "prompt_tokens": 1524,
+        "completion_tokens": 371,
+        "total_tokens": 1895,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:35.986375",
+        "prompt_tokens": 1479,
+        "completion_tokens": 304,
+        "total_tokens": 1783,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:37.612439",
+        "prompt_tokens": 723,
+        "completion_tokens": 320,
+        "total_tokens": 1043,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:39.251544",
+        "prompt_tokens": 853,
+        "completion_tokens": 238,
+        "total_tokens": 1091,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:40.829778",
+        "prompt_tokens": 1084,
+        "completion_tokens": 210,
+        "total_tokens": 1294,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:41.882642",
+        "prompt_tokens": 621,
+        "completion_tokens": 52,
+        "total_tokens": 673,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:42.740434",
+        "prompt_tokens": 778,
+        "completion_tokens": 98,
+        "total_tokens": 876,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:43.817815",
+        "prompt_tokens": 1468,
+        "completion_tokens": 104,
+        "total_tokens": 1572,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:16:32.410011",
+  "last_updated_at": "2026-04-17T20:16:43.818318"
+}

@@ -1,0 +1,398 @@
+{
+  "sample_id": "#0562",
+  "query": "When did the lg g6 phone come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "G6 was later replaced by the Opel Cascada, marketed as a Buick in the U.S. in early 2016. The last Pontiac ever manufactured, a 2010 G6, was built in early 2010 when GM restarted the Orion Assembly Line to manufacture one final 2010 Pontiac G6. The Insurance Institute for Highway Safety gave the Pontiac G6 an overall \"Good\" score in the frontal offset crash test but an \"Acceptable\" score in the side impact crash test even though side airbags were introduced late in the 2006 model year. The lower side impact score was due in part to a marginal rating",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "be released on the May 9, 2018 in several markets including Europe, South America, North America and parts of Asia; however, Motorola missed its release date for North America and India. The G6 was made available in North America by May 23, 2018 from Boost Mobile, and on the following day through Verizon Wireless. It later was made available on Amazon for a discounted price. On June 5th, the moto g was made available for purchase in Motorola's United States website. The G6 and G6 Play were released in India on June 4, 2018. The specification does vary between countries",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1996-05-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Samsung Galaxy A6 / A6+ (2018) Samsung Galaxy A6 and Samsung Galaxy A6+ are Android high to midrange smartphones produced by Samsung Electronics of South Korea. They were announced on 2 May 2018, first released in Europe, Asia, and Latin America the same month, then released in South Korea, Africa, and China. Samsung Galaxy A6+ is rebranded in South Korea as Galaxy Jean & in China as Galaxy A9 Star lite. Samsung Galaxy A6 Samsung Galaxy A6 runs on Android 8.0 \"Oreo\" right out-of-the-box, running with Samsung Experience 9.0. It has a 16MP camera on both main and front cameras.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Wired\", their debut album from Cherrytree/Interscope Records, was released on October 12, 2010. The album includes collaborations with Keri Hilson, Lil Jon, Snoop Dogg (their song co-written by Bruno Mars), Mohombi, Colette Carr, Natalia Kills, Koda Kumi, and Ryan Tedder from OneRepublic. In the October 30, 2010 edition of \"Billboard Magazine\", their single featuring The Cataracs and Dev titled \"Like a G6\" peaked at number one on the \"Billboard\" Hot 100 as well as iTunes. While gathering success for both their album and single, they were featured in a series of tour dates with their Cherrytree/Interscope Record label mate, La",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the latest in handheld computing\". LG Optimus G The LG Optimus G is a smartphone designed and manufactured by LG Electronics. It was announced on September 19, 2012; On January 18, 2013, LG announced that the device reached 1 million in sales four months after its release in Korea, Japan, Canada, and the U.S. The LG Optimus G is also closely related to the Nexus 4 with similar specifications and a similar design. In the United States, the Optimus G was available through AT&T and Sprint. AT&T carried the 8-megapixel camera E970 model while Sprint offered the LS970 model, equipped  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2006-07-17"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the Pontiac G6 car, not the LG G6 phone. It mentions release dates and crash test scores for the car."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document discusses the release dates of the G6 phone in various markets, including North America, Europe, and Asia, in May and June 2018."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document is about the Samsung Galaxy A6/A6+ (2018) smartphones, not the LG G6 phone. It mentions their announcement and release dates."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document refers to the song \"Like a G6\" and its release in 2010, not the LG G6 phone. It mentions album and single release dates."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document mentions the LG Optimus G smartphone, which is related to the LG G6. It provides the announcement date (September 19, 2012) and sales information."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The last Pontiac G6 was built in early 2010.",
+            "The Insurance Institute for Highway Safety gave the Pontiac G6 an overall \"Good\" score in the frontal offset crash test.",
+            "The Pontiac G6 received an \"Acceptable\" score in the side impact crash test."
+          ],
+          "reason": "Extracted facts about the Pontiac G6 model year and safety ratings, as the query mentioned 'G6'."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The G6 was made available in North America by May 23, 2018.",
+            "The G6 and G6 Play were released in India on June 4, 2018."
+          ],
+          "reason": "Extracted release dates for the G6 phone in North America and India, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses Samsung Galaxy A6 phones, not the LG G6, and therefore contains no relevant facts."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The single titled \"Like a G6\" peaked at number one on the \"Billboard\" Hot 100 on October 30, 2010."
+          ],
+          "reason": "Extracted the release date of the song \"Like a G6\", which is relevant due to the 'G6' mention in the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The LG Optimus G was announced on September 19, 2012.",
+            "The LG Optimus G reached 1 million in sales four months after its release in Korea, Japan, Canada, and the U.S."
+          ],
+          "reason": "Extracted the announcement and sales milestone dates for the LG Optimus G, relevant to the query about an LG G6 phone."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The facts are about the Pontiac G6 car, not the LG G6 phone. The release dates and safety ratings are not relevant to the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Provides specific release dates for the G6 phone in North America and India, directly answering the query about when it came out.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document discusses Samsung Galaxy A6 phones, not the LG G6. Therefore, it contains no relevant information to answer the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The facts are about a song titled 'Like a G6', not the LG G6 phone. The release date of the song does not answer the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions the LG Optimus G announcement date, which is a different model. It does not provide the release date for the LG G6 phone.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides direct release dates for the G6 phone."
+          },
+          {
+            "label": "related_but_incomplete",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Mentions a related LG model (Optimus G) but not the specific G6 phone."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Includes information about a Pontiac G6 car, Samsung Galaxy A6 phones, and a song titled 'Like a G6', none of which are relevant to the LG G6 phone."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence is largely consistent, with one document directly supporting the query and others being irrelevant or related but incomplete.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides direct release dates for the G6 phone in North America and India."
+          },
+          {
+            "label": "related_but_incomplete",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Mentions the LG Optimus G announcement date, a different model, not the LG G6."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Information pertains to a Pontiac G6 car, Samsung Galaxy A6 phones, and a song titled 'Like a G6', none relevant to the LG G6 phone."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct support exists, and other evidence is either irrelevant or incomplete without creating a conflict. A reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The LG G6 phone was released in North America and India.",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d2 directly supports the release of the LG G6 in North America and India. Other documents are irrelevant or discuss different models, thus not creating a conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.3,
+        "feedback": "The answer claims the LG G6 was released in North America and India, but the cited document (d2) states the Motorola G6 was released in these regions, not the LG G6. The document does not mention the LG G6."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9034,
+      "completion_tokens": 2070,
+      "total_tokens": 11104
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1449,
+        "completion_tokens": 412,
+        "total_tokens": 1861
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1404,
+        "completion_tokens": 505,
+        "total_tokens": 1909
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 372,
+        "total_tokens": 1272
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1087,
+        "completion_tokens": 276,
+        "total_tokens": 1363
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1336,
+        "completion_tokens": 255,
+        "total_tokens": 1591
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 650,
+        "completion_tokens": 45,
+        "total_tokens": 695
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 800,
+        "completion_tokens": 90,
+        "total_tokens": 890
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 115,
+        "total_tokens": 1523
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:47.890867",
+        "prompt_tokens": 1449,
+        "completion_tokens": 412,
+        "total_tokens": 1861,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:49.790054",
+        "prompt_tokens": 1404,
+        "completion_tokens": 505,
+        "total_tokens": 1909,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:51.434455",
+        "prompt_tokens": 900,
+        "completion_tokens": 372,
+        "total_tokens": 1272,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:52.858467",
+        "prompt_tokens": 1087,
+        "completion_tokens": 276,
+        "total_tokens": 1363,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:54.125126",
+        "prompt_tokens": 1336,
+        "completion_tokens": 255,
+        "total_tokens": 1591,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:56.370726",
+        "prompt_tokens": 650,
+        "completion_tokens": 45,
+        "total_tokens": 695,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:57.630094",
+        "prompt_tokens": 800,
+        "completion_tokens": 90,
+        "total_tokens": 890,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:58.631123",
+        "prompt_tokens": 1408,
+        "completion_tokens": 115,
+        "total_tokens": 1523,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:05:46.030831",
+  "last_updated_at": "2026-04-17T20:05:58.631631"
+}

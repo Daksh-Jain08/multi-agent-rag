@@ -1,0 +1,642 @@
+{
+  "sample_id": "#0098",
+  "query": "Should animals be used for research?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why Animal Research? | Animal Research at Stanford | Stanford ... The ethics of animal experimentation Nothing so far has been discovered that can be a substitute for the complex functions of a living, breathing, whole-organ system with pulmonary and circulatory structures like those in humans. Until such a discovery, animals must continue to play a critical role in helping researchers test potential new drugs and medical treatments for effectiveness and safety, and in identifying any undesired or dangerous side effects, such as infertility, birth defects, liver damage, toxicity, or cancer-causing potential. U.S. federal laws require that non-human animal research occur to show the safety and efficacy of new treatments before any human research will be allowed to be conducted. Not only do we humans benefit from this research and testing, but hundreds of drugs and treatments developed for human use are now routinely used in veterinary clinics as well, helping animals live longer, healthier lives. It is important to stress that 95% of all animals necessary for biomedical research in the United States are rodents \u2013 rats and mice especially bred for laboratory use \u2013 and that animals are only one part of the larger process of biomedical research. Our researchers are strong supporters of animal welfare and view their work with animals in biomedical research as a privilege. Stanford Researchers are Obligated to Ensure the Well-Being of All Animals in Their Care. Stanford researchers are obligated to ensure the well-being of animals in their care, in strict adherence to the highest standards, and in accordance with federal and state laws, regulatory guidelines, and humane principles. They are also obligated to continuously update their animal-care practices based on the newest information and findings in the fields of laboratory animal care and husbandry. Researchers requesting use of animal models at Stanford must have their research proposals reviewed by a federally mandated committee that includes two independent community members. It is only with this committee\u2019s approval that research can begin.",
+      "source_url": "https://med.stanford.edu/animalresearch/why-animal-research.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why Do Scientists Use Animals in Research | American ... Why Do Scientists Use Animals in Research? Scientists use animals to learn more about health problems that affect both humans and animals, and to assure the safety of new medical treatments. Some of these problems involve processes that can only be studied in a living organism. Scientists study animals when there is no alternative and it is impractical or unethical to study humans. Animals are good research subjects for a variety of reasons. They are biologically similar to humans and susceptible to many of the same health problems. Also, they have short life-cycles so they can easily be studied throughout their whole life-span or across several generations. In addition, scientists can control the environment around the animal (diet, temperature, lighting, etc.), which would be difficult to do with people. However, the most important reason why animals are used is that it would be wrong to deliberately expose human beings to health risks in order to observe the course of a disease. Animals are needed in research to develop drugs and medical procedures to treat diseases. Scientists may discover such drugs and procedures using research methods that do not involve animals. If the new therapy seems promising, it is then tested in animals to see whether it seems to be safe and effective. If the results of the animal studies are favorable, human volunteers are asked to take part in a clinical trial. The animal studies are done first to give medical researchers a better idea of what benefits and complications they are likely to see in humans.",
+      "source_url": "https://www.physiology.org/career/policy-advocacy/animal-research/Why-do-scientists-use-animals-in-research",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why Animals are Used in Research | grants.nih.gov Why Animals are Used in Research Animals have unique and important roles in biomedical and behavioral research. Many medical advances that enhance the lives of humans are developed from research studies with animals. Good animal care and good science go hand in hand. NIH takes the involvement, role, and respectful use of animals in research seriously. The integrity of the research depends on ensuring that they are well cared for throughout the research process. Of note, NIH does not support research into cosmetic testing. Scientists thoughtfully and carefully choose and justify the specific animal models used in research based on their similarity to humans in anatomy, physiology, and/or genetics, or even everyday living conditions. Animals serve as \u201cmodels\u201d that represent certain aspects of a biological phenomenon to study. There are also times when certain animal models are used, like fish and frogs, whose anatomy and physiology may be quite different from humans, but still can help researchers address fundamental biological processes similar across species to develop knowledge to improve human health. Animals used in basic research can help researchers understand important biological and physiological processes. This understanding may inform how we can better prevent, diagnose, treat, and cure diseases. Likewise, clinical trials involving animals, such as in the Comparative Oncology Program , shed light on risk factors common to people. The tools and treatments resulting from this research are then used to improve the lives of humans. When researchers develop hypotheses (which are scientifically backed ideas) about the possible causes of diseases and potential treatments, these hypotheses must be evaluated very carefully so that benefits and risks from the proposed new approaches are clearly understood. When necessary, new hypotheses are tested in animal models first to gather sufficient evidence of these benefits and risks before considering use in humans or additional animals. Also, translational research often involves preclinical trials on animals before clinical trials with human participants can begin. Animal studies conducted in the laboratory allow scientists to control factors that might affect the outcome of the experiments. This includes factors like temperature, humidity, light, diet, or medications. Even the genetics of many animal models can be known and well understood, so only the factor being tested is changed and examined.",
+      "source_url": "https://grants.nih.gov/grants/policy/air/why.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Animals in science Animals in science Overview The protection and welfare of animals is a priority for the EU. This includes wildlife, zoo animals, farm animals, animals in transport and animals used for scientific purposes. Regarding animals in science, EU legislation is unique as it sets a final goal of full replacement of all animals used for scientific and educational purposes and is taking concrete action towards that goal. Studies that still need to be carried out on animals must be done in compliance with specific regulations that aim to improve the welfare of those animals. This includes studies on increasing the basic understanding of human or animal biology, developing or producing new medicines, physiological studies, environmental effects or testing chemicals or new food additives. Objectives The EU aims to harmonise legislation to promote EU competitiveness and innovation improve animal welfare and establish the \u201cThree Rs principle\u201d (replacement, reduction and refinement) in all use and care practices when animals still needed in research and testing The \u201cThree Rs\u201d EU legislation on animals in science centers on the principle of the \u201cThree Rs\u201d: replacement, reduction and refinement, which first appeared in 1959. Replacement can be defined as methods, strategies or approaches that do not involve the use of live animals. Reduction covers any approach that will result in fewer animals being used to achieve the same objective. Refinement signifies the modification of any procedures or practices from the time the experimental animal is born until its death to minimise its suffering and enhance its well-being, or by moving from species that are considered more sentient to those less sentient. The EU undertakes several activities towards these shared goals, including The Joint Research Centre\u2019s EU Reference Laboratory for Alternatives to Animal Testing (EURL ECVAM), established by Directive 2010/63/EU, works on the development and promotion of non-animal approaches to testing and research. Among its tasks is to validate methods which replace, reduce or refine the use of animals for the safety and efficacy/potency testing of chemicals, biologicals and vaccines.",
+      "source_url": "https://environment.ec.europa.eu/topics/chemicals/animals-science_en",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "About Animal Research | tulane Animal research has also been integral to the preservation of many endangered species. Animal Research is Necessary While scientists have developed many valuable non-animal models that are useful in some types of medical research and can supplement work with live animals, these methods cannot mirror the complicated processes that occur in a living system. Development of any new medicine requires testing in animals to determine if it is safe and effective. Federal law mandates that tests be conducted in animals before approval can be given for clinical trials involving people. Animal Research is Humane Responsible scientists know that good science and good animal care go hand-in-hand and would not tolerate cruel or inhumane treatment of any laboratory animals. The U.S. Animal Welfare Act (AWA) sets strict standards of care and research for laboratory animals. Research facilities are registered with the U.S. Department of Agriculture (USDA) which has responsibility for enforcing the mandates of the AWA. Stringent regulations on animal care are also in place for institutions receiving federal funds. Each research facility is also required to have an Institutional Animal Care and Use Committee, which includes at least one outside member as well as a veterinarian. The Committee scrutinizes research proposals to ensure that alternatives to animal use are considered and that all animals involved receive humane care. The vast majority of research institutions in the United States, including the TNPRC, voluntarily seek accreditation from the Association for Assessment and Accreditation of Laboratory Animal Care International (AAALAC) in addition to complying with local, state and federal laws that regulate animal research. * Research using animals has resulted in significant advances in human and animal health. Sustained progress in the health sciences will require the continued use of animals as models of human and animal disease. The TNPRC is committed to the humane care and use of animals and adheres to the principles of humane animal experimentation proposed by Russell and Burch in their book The Principles of Humane Experimental Technique (1959).",
+      "source_url": "https://tnprc.tulane.edu/about-animal-research-medicine",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "U.S. Government Principles for the Utilization and Care of Vertebrate ... U.S. Government Principles for the Utilization and Care of Vertebrate Animals Used in Testing, Research, and Training The development of knowledge necessary for the improvement of the health and well-being of humans as well as other animals requires in vivo experimentation with a wide variety of animal species. Whenever U.S. Government agencies develop requirements for testing, research, or training procedures involving the use of vertebrate animals, the following principles shall be considered; and whenever these agencies actually perform or sponsor such procedures, the responsible Institutional Official shall ensure that these principles are adhered to: II. Procedures involving animals should be designed and performed with due consideration of their relevance to human or animal health, the advancement of knowledge, or the good of society. III. The animals selected for a procedure should be of an appropriate species and quality and the minimum number required to obtain valid results. Methods such as mathematical models, computer simulation, and in vitro biological systems should be considered. IV. Proper use of animals, including the avoidance or minimization of discomfort, distress, and pain when consistent with sound scientific practices, is imperative. Unless the contrary is established, investigators should consider that procedures that cause pain or distress in human beings may cause pain or distress in other animals. V. Procedures with animals that may cause more than momentary or slight pain or distress should be performed with appropriate sedation, analgesia, or anesthesia. Surgical or other painful procedures should not be performed on unanesthetized animals paralyzed by chemical agents. VI. Animals that would otherwise suffer severe or chronic pain or distress that cannot be relieved should be painlessly killed at the end of the procedure or, if appropriate, during the procedure. VII. The living conditions of animals should be appropriate for their species and contribute to their health and comfort. Normally, the housing, feeding, and care of all animals used for biomedical purposes must be directed by a veterinarian or other scientist trained and experienced in the proper care, handling, and use of the species being maintained or studied. In any case, veterinary care shall be provided as indicated. VIII. Investigators and other personnel shall be appropriately qualified and experienced for conducting procedures on living animals.",
+      "source_url": "https://olaw.nih.gov/policies-laws/gov-principles.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Save the Animals: Stop Animal Testing | Save the Animals: Stop Animal Testing Using animals in research and to test the safety of products has been a topic of heated debate for decades. According to data collected by F. Barbara Orlans for her book, In the Name of Science: Issues in Responsible Animal Experimentation, sixty percent of all animals used in testing are used in biomedical research and product-safety testing (62). People have different feelings for animals; many look upon animals as companions while others view animals as a means for advancing medical techniques or furthering experimental research. However individuals perceive animals, the fact remains that animals are being exploited by research facilities and cosmetics companies all across the country and all around the world. Although humans often benefit from successful animal research, the pain, the suffering, and the deaths of animals are not worth the possible human benefits. Therefore, animals should not be used in research or to test the safety of products. First, animals' rights are violated when they are used in research. Tom Regan, a philosophy professor at North Carolina State University, states: \"Animals have a basic moral right to respectful treatment. . . .This inherent value is not respected when animals are reduced to being mere tools in a scientific experiment\" (qtd. in Orlans 26). Animals and people are alike in many ways; they both feel, think, behave, and experience pain. Thus, animals should be treated with the same respect as humans. Yet animals' rights are violated when they are used in research because they are not given a choice. Animals are subjected to tests that are often painful or cause permanent damage or death, and they are never given the option of not participating in the experiment. Regan further says, for example, that \"animal [experimentation] is morally wrong no matter how much humans may benefit because the animal's basic right has been infringed. Risks are not morally transferable to those who do not choose to take them\" (qtd. in Orlans 26). Animals do not willingly sacrifice themselves for the advancement of human welfare and new technology. Their decisions are made for them because they cannot vocalize their own preferences and choices.",
+      "source_url": "https://www.lonestar.edu/stopanimaltesting.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "The Flaws and Human Harms of Animal Experimentation - PMC The repeated failures in translation from studies with NHPs belie arguments favoring use of any nonhuman species to study human physiology and diseases and to test potential treatments. If experimentation using chimpanzees and other NHPs, our closest genetic cousins, are unreliable, how can we expect research using other animals to be reliable? The bottom line is that animal experiments, no matter the species used or the type of disease research undertaken, are highly unreliable\u2014and they have too little predictive value to justify the resultant risks of harms for humans, for reasons I now explain. The Collective Harms That Result from Misleading Animal Experiments As medical research has explored the complexities and subtle nuances of biological systems, problems have arisen because the differences among species along these subtler biological dimensions far outweigh the similarities, as a growing body of evidence attests. These profoundly important\u2014and often undetected\u2014differences are likely one of the main reasons human clinical trials fail.63 \u201cAppreciation of differences\u201d and \u201ccaution\u201d about extrapolating results from animals to humans are now almost universally recommended. But, in practice, how does one take into account differences in drug metabolism, genetics, expression of diseases, anatomy, influences of laboratory environments, and species- and strain-specific physiologic mechanisms\u2014and, in view of these differences, discern what is applicable to humans and what is not? If we cannot determine which physiological mechanisms in which species and strains of species are applicable to humans (even setting aside the complicating factors of different caging systems and types of flooring), the usefulness of the experiments must be questioned. It has been argued that some information obtained from animal experiments is better than no information.64 This thesis neglects how misleading information can be worse than no information from animal tests. The use of nonpredictive animal experiments can cause human suffering in at least two ways: (1) by producing misleading safety and efficacy data and (2) by causing potential abandonment of useful medical treatments and misdirecting resources away from more effective testing methods.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4594046/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Top Five Reasons to Stop Animal Testing | PETA Top Five Reasons to Stop Animal Testing What\u2019s wrong with animal testing? Poisoning, shocking, burning, and killing animals is all in a day\u2019s work for vivisectors. If these atrocious acts were committed outside laboratories, they would be felonies. But animals suffer and die every day in laboratories with little or no protection from cruelty. The National Institutes of Health reports that 95 out of every 100 drugs that pass animal tests fail in humans. 3.It\u2019s wasteful. Animal experiments prolong the suffering of humans waiting for effective cures because the results mislead experimenters and squander precious money, time, and other resources that could be spent on human-relevant research. Animal experiments are so worthless that up to half of them are never even published. Bigotry begins when categories such as race, age, gender, disability, sexual orientation, or species are used to justify discrimination. \u201cWithout Consent,\u201d PETA\u2019s interactive timeline, features almost 200 stories of animals used in twisted experiments from the past century, including ones in which dogs were forced to inhale cigarette smoke for months, mice were cut up while still conscious, and cats were deafened, paralyzed, and drowned. Visit \u201cWithout Consent\u201d to learn about more harrowing animal experiments throughout history and how you can help create a better future for living, feeling beings. Get PETA Updates Stay up to date on the latest vegan trends and get breaking animal rights news delivered straight to your inbox! E-Mail Address Sign me up for the following e-mail: Membership Updates PETA News Current subscribers: You will continue to receive e-mail unless you explicitly opt out by clicking here. By submitting this form, you are agreeing to our collection, storage, use, and disclosure of your personal info in accordance with our privacy policy as well as to receiving e-mails from us. \u201cAlmost all of us grew up eating meat, wearing leather, and going to circuses and zoos. We never considered the impact of these actions on the animals involved.",
+      "source_url": "https://www.peta.org/blog/top-five-reasons-stop-animal-testing/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "Answers to Common Arguments for Animal Testing | PETA This fact is especially apparent when one considers the specialized needs of each species. In nature, many primates, including rhesus macaques and baboons, stay for many years or their entire lives with their families and troops. They spend hours together every day, grooming each other, foraging, playing, and making nests to sleep in each night. But in laboratories, primates are often caged alone. Laboratories often do not allow social interactions, provide family groups or companions, or offer grooming possibilities, nests, or surfaces softer than metal. Indeed, in many laboratories, animals are handled roughly\u2014even for routine monitoring procedures that fall outside the realm of an experimental protocol\u2014and this only heightens their fear and stress. Video footage from inside laboratories shows that many animals cower in fear every time someone walks by their cage. A November 2004 article in Contemporary Topics in Laboratory Animal Science examined 80 published papers and concluded that \u201csignificant fear, stress, and possibly distress are predictable consequences of routine laboratory procedures\u201d including seemingly benign practices such as blood collection and handling. \u201cWe don\u2019t want to use animals, but we don\u2019t have any other options.\u201d The most significant trend in modern research is the recognition that animals rarely serve as good models for the human body. Human clinical and epidemiological studies, human tissue- and cell-based research methods, cadavers, sophisticated high-fidelity human-patient simulators, and computational models have the potential to be more reliable, more precise, less expensive, and more humane alternatives to experiments on animals. Advanced microchips that use real human cells and tissues to construct fully functioning postage stamp\u2013size organs allow researchers to study diseases and also develop and test new drugs to treat them. Progressive scientists have used human brain cells to develop a model \u201cmicrobrain,\u201d which can be used to study tumors, as well as artificial skin and bone marrow.",
+      "source_url": "https://www.peta.org/issues/animals-used-for-experimentation/animal-testing-bad-science/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "Using animals in experiments | The Humane Society of the United ... How many animals are used in experiments each year? It is estimated that more than 50 million animals are used in experiments each year in the United States. Unfortunately, no accurate figures are available to determine precisely how many animals are used in experiments in the U.S. or worldwide. However, the animals most commonly used in experiments\u2014\u201cpurpose-bred\u201d mice and rats (mice and rats bred specifically to be used in experiments)\u2014are not counted in annual USDA statistics and are not afforded the minimal protections provided under the Animal Welfare Act. The Animal Welfare Act is a federal law that sets minimal standards for the treatment of certain warm-blooded animals used in experiments. The law also requires that unannounced inspections of all regulated research facilities are carried out annually. In addition to purpose-bred mice and rats, animals such as crabs, fish, frogs, octopuses and turtles, as well as purpose-bred birds, are not covered by the Animal Welfare Act. The failure to protect these animals under the law means that there is no oversight or scrutiny of their treatment and use in the laboratory. And, because these animals are not counted, no one knows how many of them are suffering in laboratories. It also means that facilities using unprotected species in experiments are not required to search for alternative, non-animal methods that could be used to replace or reduce harmful experiments that use animals. Chimpanzees have thankfully not been subjected to invasive experiments in the U.S. since 2015, when federal decisions were made to prevent their use. Despite this, hundreds of chimpanzees are still languishing in laboratories while they wait to be moved into sanctuaries. Monkeys are taken from their mothers as infants to study how extreme stress might affect human behavior. Mice are force-fed daily doses of a chemical for two years to see if it might cause cancer in humans. Cats have their spinal cords damaged and are forced to run on treadmills to study how nerve activity might affect human limb movement.",
+      "source_url": "https://www.humanesociety.org/resources/animals-used-experiments-faq",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "Arguments against animal testing | Cruelty Free International Arguments against animal testing The harmful use of animals in experiments is not only cruel but also often ineffective. Animals do not naturally get many of the diseases that humans do, such as major types of heart disease, many types of cancer, HIV, Parkinson\u2019s disease or schizophrenia. Instead, signs of these diseases are artificially induced in animals in laboratories in an attempt to mimic the human disease. Yet, such experiments belittle the complexity of human conditions which are affected by wide-ranging variables such as genetics, socio-economic factors, deeply-rooted psychological issues and different personal experiences. It is not surprising to find that treatments showing \u201cpromise\u201d in animals rarely work in humans. Not only are time, money and animals\u2019 lives being wasted (with a huge amount of suffering), but effective treatments are being mistakenly discarded and harmful treatments are getting through. The support for animal testing is based largely on anecdote and is not backed up, we believe, by the scientific evidence that is out there. Despite many decades of studying cancer, Alzheimer\u2019s disease, Parkinson\u2019s disease, diabetes, stroke and AIDS in animals, none of these conditions have reliable and fully effective cures and some don\u2019t even have effective treatments. The history of cancer research has been the history of curing cancer in the mouse. We have cured mice of cancer for decades and it simply didn\u2019t work in human beings. Dr. Richard Klausner, former director of the US National Cancer Institute Unreliable animal testing 92% of drugs fail in human clinical trials despite appearing safe and effective in animal tests, often on safety grounds or because they do not work. Our research has shown that using dogs, rats, mice and rabbits to test whether or not a drug will be safe for humans provides statistically little useful insight. Our study also revealed that drug tests on monkeys are just as poor as those using any other species in predicting the effects on humans. A recent study found that out of 93 dangerous drug side effects, only 19% could have been predicted by animal tests.",
+      "source_url": "https://crueltyfreeinternational.org/about-animal-testing/arguments-against-animal-testing",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains the necessity of animal research for drug testing and safety, citing complex biological functions and legal requirements, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Details reasons scientists use animals, including biological similarity to humans and ethical considerations of not exposing humans to risks, providing strong context for the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Highlights the role of animals in understanding biological processes and developing medical advances, emphasizing the importance of animal care and respectful use in research."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses the EU's approach to animal research, focusing on the 'Three Rs' (replacement, reduction, refinement) and developing non-animal alternatives, offering a regulatory perspective."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Argues for the necessity of animal research for developing new medicines and preserving endangered species, stating non-animal models cannot fully replicate complex biological processes."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Outlines government principles for animal care in research, emphasizing appropriate living conditions, species selection, and the relevance of procedures to health and knowledge advancement."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Presents arguments against animal use in research, focusing on animal rights violations and the ethical implications of subjecting animals to painful tests without consent."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Critiques the reliability of animal experiments for human health research due to species differences, arguing that misleading data can cause harm and misdirect resources."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Lists reasons to stop animal testing, including high failure rates in human trials, wastefulness, and the cruelty involved, highlighting ethical and practical concerns."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses the stress and fear animals experience in laboratories and questions the validity of animals as models for human bodies, suggesting alternatives are increasingly recognized."
+        },
+        {
+          "doc_id": "d11",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Provides statistics on animal use in experiments and discusses the limitations of animal welfare laws, noting that many commonly used animals are not protected."
+        },
+        {
+          "doc_id": "d12",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Argues against animal testing, stating it's cruel and ineffective due to species differences in diseases and that cures found in animals often fail in humans."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Complex functions of a living organ system cannot currently be substituted for in research.",
+            "Animals play a critical role in testing potential new drugs and medical treatments for effectiveness and safety.",
+            "U.S. federal laws require non-human animal research to show safety and efficacy before human research.",
+            "95% of animals used for biomedical research in the U.S. are rodents (rats and mice).",
+            "Researchers are obligated to ensure the well-being of all animals in their care."
+          ],
+          "reason": "Extracted key facts supporting the necessity and ethical considerations of animal research, including legal requirements and the types of animals used."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Scientists use animals to learn about health problems affecting humans and animals and to ensure the safety of new medical treatments.",
+            "Animals are studied when there is no alternative and it is impractical or unethical to study humans.",
+            "Animals are biologically similar to humans and susceptible to many of the same health problems.",
+            "Animals have short life-cycles, allowing study across whole lifespans or multiple generations.",
+            "Scientists can control the environment around animals, which is difficult with humans."
+          ],
+          "reason": "Extracted reasons why scientists use animals in research, focusing on biological similarities, life cycles, and environmental control."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Animals have unique and important roles in biomedical and behavioral research.",
+            "Many medical advances are developed from research studies with animals.",
+            "Animals in basic research help researchers understand biological and physiological processes.",
+            "Clinical trials involving animals can shed light on risk factors common to people.",
+            "NIH takes the involvement, role, and respectful use of animals in research seriously."
+          ],
+          "reason": "Extracted facts highlighting the importance of animals in biomedical research for understanding biological processes and developing medical advances."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The EU's goal is the full replacement of all animals used for scientific and educational purposes.",
+            "EU legislation sets concrete actions towards replacing animal use in research.",
+            "Studies still requiring animals must comply with regulations to improve animal welfare.",
+            "EU legislation promotes the 'Three Rs principle': replacement, reduction, and refinement.",
+            "The EURL ECVAM works on developing and promoting non-animal approaches to testing and research."
+          ],
+          "reason": "Extracted facts about the EU's legislative goals and principles regarding animal research, emphasizing replacement and welfare."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Animal research has been integral to the preservation of many endangered species.",
+            "Non-animal models cannot mirror the complicated processes that occur in a living system.",
+            "Development of any new medicine requires testing in animals to determine safety and effectiveness.",
+            "Federal law mandates animal testing before approval for clinical trials involving people.",
+            "Responsible scientists ensure good science and good animal care go hand-in-hand."
+          ],
+          "reason": "Extracted facts emphasizing the necessity of animal research for medicine development, species preservation, and legal mandates, alongside ethical care."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Knowledge for improving human and animal health requires in vivo experimentation.",
+            "Living conditions of animals should be appropriate for their species and contribute to health and comfort.",
+            "Housing, feeding, and care of animals must be directed by a veterinarian or trained scientist.",
+            "Procedures involving animals should be relevant to human or animal health, or the advancement of knowledge.",
+            "The minimum number of animals required to obtain valid results should be used."
+          ],
+          "reason": "Extracted government principles for animal use in research, focusing on ethical considerations, appropriate care, and scientific validity."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Animals' rights are violated when used in research because they are not given a choice.",
+            "Animals are subjected to painful tests that can cause permanent damage or death.",
+            "Animal experimentation is considered morally wrong by some because basic rights are infringed.",
+            "Sixty percent of all animals used in testing are used in biomedical research and product-safety testing."
+          ],
+          "reason": "Extracted arguments against animal use in research, focusing on animal rights, ethical violations, and the extent of animal use in testing."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Failures in translation from non-human primate studies question the use of animals to study human physiology.",
+            "Animal experiments are often unreliable and have little predictive value for human outcomes.",
+            "Differences among species outweigh similarities, leading to problems in extrapolating results to humans.",
+            "Misleading information from animal experiments can cause human suffering and misdirect resources.",
+            "The usefulness of animal experiments is questioned due to species-specific differences in drug metabolism, genetics, and physiology."
+          ],
+          "reason": "Extracted facts arguing against animal experimentation due to unreliability, species differences, and potential for misleading results and human harm."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "95% of drugs that pass animal tests fail in humans.",
+            "Animal experiments can prolong human suffering by misleading researchers and wasting resources.",
+            "Many animals suffer and die in laboratories with little protection from cruelty.",
+            "Up to half of animal experiments are never published, suggesting worthlessness.",
+            "Animal testing involves acts like poisoning, shocking, burning, and killing animals."
+          ],
+          "reason": "Extracted facts highlighting the low success rate of animal tests in humans, the waste of resources, and the cruelty involved in animal experimentation."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Animals rarely serve as good models for the human body.",
+            "Many animals, especially primates, are social and live in family groups in nature.",
+            "Laboratory procedures can cause predictable fear, stress, and distress in animals.",
+            "Animals are often caged alone in laboratories, lacking social interaction.",
+            "Animals in laboratories are sometimes handled roughly, heightening fear and stress."
+          ],
+          "reason": "Extracted facts arguing against animal use in research by highlighting the poor modeling of human bodies and the psychological distress experienced by laboratory animals."
+        },
+        {
+          "doc_id": "d11",
+          "key_facts": [
+            "More than 50 million animals are estimated to be used in experiments each year in the United States.",
+            "Accurate figures for the total number of animals used in experiments are unavailable.",
+            "Purpose-bred mice and rats are commonly used but not counted in USDA statistics.",
+            "Purpose-bred mice and rats are not afforded minimal protections under the Animal Welfare Act.",
+            "Animals like crabs, fish, frogs, octopuses, turtles, and purpose-bred birds are not covered by the Animal Welfare Act."
+          ],
+          "reason": "Extracted facts about the scale of animal use in experiments, the lack of accurate data, and the animals not protected by the Animal Welfare Act."
+        },
+        {
+          "doc_id": "d12",
+          "key_facts": [
+            "Animals do not naturally get many human diseases like heart disease, cancer, HIV, Parkinson's, or schizophrenia.",
+            "Signs of human diseases are artificially induced in animals in laboratories.",
+            "Despite decades of animal research, reliable cures for conditions like cancer and Alzheimer's are lacking.",
+            "Treatments showing promise in animals rarely work in humans.",
+            "Animal testing wastes time, money, and animals' lives, and can lead to discarding effective treatments."
+          ],
+          "reason": "Extracted arguments against animal testing, focusing on the ineffectiveness of animal models for human diseases and the lack of successful cures despite extensive research."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Highlights the necessity of animals in drug testing, legal requirements for safety, and ethical obligations, directly supporting their use in research.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Explains why animals are used, citing biological similarities to humans, controlled environments, and short lifecycles, which are strong arguments for their utility in research.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Emphasizes the crucial role of animals in developing medical advances, understanding biological processes, and informing clinical trials, supporting their use.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Discusses the EU's goal to replace animal use and promote alternatives, but also acknowledges current regulations for animal welfare and reduction, offering a nuanced perspective.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Argues for animal research's necessity in medicine development, species preservation, and legal mandates, while also stressing ethical care, supporting its continued use.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Outlines principles for ethical animal use in research, focusing on species-appropriate care, scientific relevance, and minimizing animal numbers, supporting responsible research practices.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Presents arguments against animal research based on rights violations, pain, and ethical concerns, directly addressing the question of whether animals should be used.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Critiques animal experimentation by highlighting unreliability, species differences, and potential for misleading results, directly questioning the validity of using animals for research.",
+          "confidence": 0.91
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Details the low success rate of animal tests, waste of resources, and cruelty involved, providing strong arguments against the use of animals in research.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "Argues against animal use by noting poor modeling of human bodies and the psychological distress laboratory animals experience, directly challenging their suitability for research.",
+          "confidence": 0.89
+        },
+        {
+          "doc_id": "d11",
+          "verdict": "irrelevant",
+          "reason": "Focuses on the scale of animal use and regulatory gaps, but does not directly address the ethical or scientific question of whether animals *should* be used for research.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d12",
+          "verdict": "supports",
+          "reason": "Contends that animal models are poor for human diseases, treatments fail in humans, and research is ineffective, directly arguing against the use of animals in research.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10",
+          "d12"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d11"
+        ],
+        "evidence_summary": [
+          {
+            "label": "arguments_for_animal_research",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5",
+              "d6"
+            ],
+            "summary": "Documents d1, d2, d3, d5, and d6 provide strong support for animal research, citing its necessity for drug development, understanding biological processes, legal mandates, and ethical considerations."
+          },
+          {
+            "label": "arguments_against_animal_research",
+            "doc_ids": [
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d12"
+            ],
+            "summary": "Documents d7, d8, d9, d10, and d12 present compelling arguments against animal research, highlighting ethical concerns, unreliability, low success rates, cruelty, and poor modeling of human diseases."
+          },
+          {
+            "label": "nuanced_perspective_on_animal_research",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 offers a partially supportive view by detailing the EU's efforts towards replacing animal use while also acknowledging current regulations for welfare and reduction."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d11"
+            ],
+            "summary": "Document d11 is irrelevant as it focuses on the scale of animal use and regulatory gaps without directly addressing the core question of whether animals should be used for research."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "Evidence is split between strong support for animal research due to its necessity in medical advancements and ethical considerations, and strong opposition citing ethical concerns, unreliability, and cruelty.",
+        "clusters": [
+          {
+            "label": "Arguments For Animal Research",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5",
+              "d6"
+            ],
+            "summary": "Documents d1, d2, d3, d5, and d6 support animal research, emphasizing its necessity for drug development, understanding biological processes, legal mandates, and ethical considerations."
+          },
+          {
+            "label": "Arguments Against Animal Research",
+            "doc_ids": [
+              "d7",
+              "d8",
+              "d9",
+              "d10",
+              "d12"
+            ],
+            "summary": "Documents d7, d8, d9, d10, and d12 argue against animal research, highlighting ethical concerns, unreliability, low success rates, cruelty, and poor modeling of human diseases."
+          },
+          {
+            "label": "Nuanced Perspective on Animal Research",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 offers a partially supportive view by detailing the EU's efforts towards replacing animal use while also acknowledging current regulations for welfare and reduction."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "There is a severe unresolved conflict between strong arguments for and against animal research, making it impossible to provide a reliable, grounded answer without taking a stance."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "There is a severe unresolved conflict between strong arguments for and against animal research, making it impossible to provide a reliable, grounded answer without taking a stance.",
+        "final_reasoning": "The provided evidence presents a severe conflict between strong arguments for and against animal research, with no clear resolution. Therefore, abstaining from providing a definitive answer is necessary."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claims made. The answer should be supported by evidence from the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 24306,
+      "completion_tokens": 4712,
+      "total_tokens": 29018
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 4316,
+        "completion_tokens": 910,
+        "total_tokens": 5226
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 4271,
+        "completion_tokens": 1841,
+        "total_tokens": 6112
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 2014,
+        "completion_tokens": 872,
+        "total_tokens": 2886
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2612,
+        "completion_tokens": 494,
+        "total_tokens": 3106
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 3035,
+        "completion_tokens": 346,
+        "total_tokens": 3381
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 903,
+        "completion_tokens": 49,
+        "total_tokens": 952
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 1057,
+        "completion_tokens": 104,
+        "total_tokens": 1161
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 6098,
+        "completion_tokens": 96,
+        "total_tokens": 6194
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:27:56.743917",
+        "prompt_tokens": 4316,
+        "completion_tokens": 910,
+        "total_tokens": 5226,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:05.887900",
+        "prompt_tokens": 4271,
+        "completion_tokens": 1841,
+        "total_tokens": 6112,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:08.723734",
+        "prompt_tokens": 2014,
+        "completion_tokens": 872,
+        "total_tokens": 2886,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:11.871885",
+        "prompt_tokens": 2612,
+        "completion_tokens": 494,
+        "total_tokens": 3106,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:13.415370",
+        "prompt_tokens": 3035,
+        "completion_tokens": 346,
+        "total_tokens": 3381,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:14.354287",
+        "prompt_tokens": 903,
+        "completion_tokens": 49,
+        "total_tokens": 952,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:15.463691",
+        "prompt_tokens": 1057,
+        "completion_tokens": 104,
+        "total_tokens": 1161,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:28:16.997274",
+        "prompt_tokens": 6098,
+        "completion_tokens": 96,
+        "total_tokens": 6194,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:27:43.927019",
+  "last_updated_at": "2026-04-17T15:28:16.998035"
+}

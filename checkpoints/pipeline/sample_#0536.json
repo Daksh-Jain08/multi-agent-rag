@@ -1,0 +1,388 @@
+{
+  "sample_id": "#0536",
+  "query": "Which books were written by Booker T. Washington?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Zimmerman, a spy in Chambers' network. In 1952, Chambers's book \"Witness\" was published to widespread acclaim. The book was a combination of autobiography and a warning about the dangers of Communism. Arthur Schlesinger, Jr. called it \"a powerful book\". Ronald Reagan credited the book as the inspiration behind his conversion from a New Deal Democrat to a conservative Republican. \"Witness\" was a bestseller for more than a year and helped pay off Chambers's legal debts, though bills lingered (\"as Odysseus was beset by a ghost\"). According to commentator George Will in 2017: \"Witness\" became a canonical text of conservatism. Unfortunately,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "there. Boyer also published several articles in \"Arizona Highways\". During the 1990s Boyer wrote the Morgette fictional series based around a man named Dorn set in the Old West. He also published a fictional book \u0393\u00c7\u00a3Custer, Terry and Me.\u0393\u00c7\u00a5 about Gen. George Armstrong Custer. His last book, in 2009 \"Where the Heart Was\", was a fictional semi-autobiography loosely based on his own family and childhood growing up rural Wisconsin. Boyer inspired both extremely loyal supporters and a number of critics. Ben Traywick, author of \"Chronicles of Tombstone\", \"John Henry\u0393\u00c7\u00f6The Doc Holliday Story\", and other works, and formerly Tombstone, Arizona's official",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1998-01-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "as \"Liberty and Slavery\". Horton's first book was republished under the title \"Poems by a Slave\" in 1837. It was collected with a biography and poetry by Phillis Wheatley a year later in a book called \"Memoir and Poems of Phillis Wheatley, a Native African and Slave: Also Poems by a Slave\". The book was published by Boston-based publisher and abolitionist Isaac Knapp. This is believed to be the first complete collection of Wheatley's poems in book form. Newspapers again took note of Horton. In 1845, Horton published another book of poetry, \"The Poetical Works of George M. Horton, The",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2006-02-16"
+    },
+    {
+      "doc_id": "d4",
+      "text": "\"Milwaukee Journal Sentinel\" called Washington the \"mother of the African-American romance\", setting the groundwork for a revolution in ethnic romance novels. Washington's book was the first \"ethnic romance\", a category conceived by Vivian Stevens, an African-American editor at Dell, viewing the book as the first of other such books also aimed at Native Americans and Chinese Americans. The company published 125,000 copies of Washington's novel, primarily distributed in cities on the East Coast with large African-American populations. Washington also wrote two works of non-fiction, her 1974 book \"Sickle Cell Anemia\", co-written with Anthony Cerami, and the \"Uncivil War: The Struggle",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "fifth album to top the Christian Albums chart on Billboard. He has written two books with Michael Tait and Kevin Max, \"Jesus Freaks: DC Talk and The Voice of the Martyrs \u0393\u00c7\u00f4 Stories of Those Who Stood for Jesus, the Ultimate Jesus Freaks\", and \"Jesus Freaks: Revolutionaries: Stories of Revolutionaries Who Changed Their World: Fearing GOD, Not Man\". These books are mainly focused on Christian martyrs. Toby Mac has also written two more books with Michael Tait, one titled, \"Under God\", containing stories of America's spiritual battles, and another book called \"Living Under God: Discovering Your Part in God's Plan\".  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1994"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses the book \"Witness\" by Whittaker Chambers, not Booker T. Washington."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document is about books written by Boyer, not Booker T. Washington."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses books by George M. Horton and Phillis Wheatley, not Booker T. Washington."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document mentions two non-fiction books written by a person named Washington: \"Sickle Cell Anemia\" and \"Uncivil War: The Struggle\"."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses books written by Toby Mac, Michael Tait, and Kevin Max, not Booker T. Washington."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Chambers's book \"Witness\" was published in 1952."
+          ],
+          "reason": "Extracted the publication year and title of the book \"Witness\" by Chambers, as mentioned in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "During the 1990s Boyer wrote the Morgette fictional series.",
+            "Boyer published a fictional book \"Custer, Terry and Me.\"",
+            "His last book, in 2009, was \"Where the Heart Was\"."
+          ],
+          "reason": "Extracted the titles and publication periods of books written by Boyer, as detailed in the text."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Horton's first book was republished under the title \"Poems by a Slave\" in 1837.",
+            "In 1845, Horton published another book of poetry, \"The Poetical Works of George M. Horton.\""
+          ],
+          "reason": "Extracted the titles and publication years of books written by George M. Horton."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Washington wrote her 1974 book \"Sickle Cell Anemia\", co-written with Anthony Cerami.",
+            "Washington also wrote the \"Uncivil War: The Struggle\"."
+          ],
+          "reason": "Extracted the titles and co-authors of books written by Washington."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "He has written two books with Michael Tait and Kevin Max: \"Jesus Freaks: DC Talk and The Voice of the Martyrs Stories of Those Who Stood for Jesus, the Ultimate Jesus Freaks\" and \"Jesus Freaks: Revolutionaries: Stories of Revolutionaries Who Changed Their World: Fearing GOD, Not Man\".",
+            "Toby Mac has also written two more books with Michael Tait: \"Under God\" and \"Living Under God: Discovering Your Part in God's Plan\"."
+          ],
+          "reason": "Extracted the titles of books written by Toby Mac, including co-authors and publication details."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention a book by Chambers, not Booker T. Washington.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The key facts list books written by Boyer, not Booker T. Washington.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention books by George M. Horton, not Booker T. Washington.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly lists two books written by Washington: \"Sickle Cell Anemia\" and \"Uncivil War: The Struggle\".",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The key facts mention books written by Toby Mac, not Booker T. Washington.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 directly lists books authored by Washington."
+          },
+          {
+            "label": "irrelevant_authors",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 mention books by authors other than Washington."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided evidence is either directly supportive or irrelevant, with no conflicting claims present.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 directly lists books authored by Washington."
+          },
+          {
+            "label": "irrelevant_authors",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 mention books by authors other than Washington."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and directly supportive, with no conflicts present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Document d4 lists books authored by Washington.",
+        "citations": [
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query, and there are no conflicts or irrelevant documents that contradict this information."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies that document d4 lists books by Washington and is fully supported by the citation."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8858,
+      "completion_tokens": 1737,
+      "total_tokens": 10595
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1486,
+        "completion_tokens": 350,
+        "total_tokens": 1836
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1441,
+        "completion_tokens": 556,
+        "total_tokens": 1997
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 943,
+        "completion_tokens": 315,
+        "total_tokens": 1258
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1073,
+        "completion_tokens": 167,
+        "total_tokens": 1240
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1269,
+        "completion_tokens": 158,
+        "total_tokens": 1427
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 534,
+        "completion_tokens": 32,
+        "total_tokens": 566
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 671,
+        "completion_tokens": 74,
+        "total_tokens": 745
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1441,
+        "completion_tokens": 85,
+        "total_tokens": 1526
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:48.885804",
+        "prompt_tokens": 1486,
+        "completion_tokens": 350,
+        "total_tokens": 1836,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:51.147132",
+        "prompt_tokens": 1441,
+        "completion_tokens": 556,
+        "total_tokens": 1997,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:53.247421",
+        "prompt_tokens": 943,
+        "completion_tokens": 315,
+        "total_tokens": 1258,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:54.315291",
+        "prompt_tokens": 1073,
+        "completion_tokens": 167,
+        "total_tokens": 1240,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:55.762970",
+        "prompt_tokens": 1269,
+        "completion_tokens": 158,
+        "total_tokens": 1427,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:56.630825",
+        "prompt_tokens": 534,
+        "completion_tokens": 32,
+        "total_tokens": 566,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:57.531535",
+        "prompt_tokens": 671,
+        "completion_tokens": 74,
+        "total_tokens": 745,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:58.818831",
+        "prompt_tokens": 1441,
+        "completion_tokens": 85,
+        "total_tokens": 1526,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:58:47.415944",
+  "last_updated_at": "2026-04-17T19:58:58.819766"
+}

@@ -1,0 +1,522 @@
+{
+  "sample_id": "#0449",
+  "query": "How many people have been on the International Space Station?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "International Space Station Facts and Figures - NASA The space station has been continuously occupied since November 2000. An international crew of seven people live and work while traveling at a speed of five ... An international crew of seven people live and work while traveling at a speed of five miles per second, orbiting Earth about every 90 minutes. Sometimes more are aboard the station during a crew handover. In 24 hours, the space station makes 16 orbits of Earth, traveling through 16 sunrises and sunsets. Peggy Whitson set the U.S. record for spending the most total time living and working in space at 665 days on Sept. 2, 2017. The living and working space in the station is larger than a six-bedroom house (and has six sleeping quarters, two bathrooms, a gym, and a 360-degree view bay window). To mitigate the loss of muscle and bone mass in the human body in microgravity, the astronauts work out at least two hours a day. Astronauts and cosmonauts regularly conduct spacewalks for space station construction, maintenance and upgrades. Through Expedition 60, the microgravity laboratory has hosted nearly 3,000 research investigations from researchers in more than 108 countries. The station\u2019s orbital path takes it over 90 percent of the Earth\u2019s population, with astronauts taking millions of images of the planet below. Check them out at https://eol.jsc.nasa.gov. Anchored to a foot restraint on the Space Station Remote Manipulator System (SSRMS) or Canadarm2, astronaut David A. Wolf, STS-112 mission specialist, participates in the mission\u2019s first session of extravehicular activity (EVA). NASA More than 20 different research payloads can be hosted outside the station at once, including Earth sensing equipment, materials science payloads, particle physics experiments like the Alpha Magnetic Spectrometer-02 and more. The space station travels an equivalent distance to the Moon and back in about a day. The Water Recovery System reduces crew dependence on water delivered by a cargo spacecraft by 65 percent \u2013 from about 1 gallon a day to a third of a gallon.",
+      "source_url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "International Space Station - Wikipedia By March 2024, 279 individuals from 22 countries had visited the station. ... Currently docked on station, it could not have been easily accommodated on a ... As the Shuttle flights expanded the station, crew sizes also expanded, eventually reaching six around 2010.[241][242] With the arrival of crew on larger US commercial spacecraft beginning in 2020,[243] crew size has been increased to seven, the number for which ISS was originally designed.[244][245] Oleg Kononenko of Roscosmos holds the record for the longest time spent in space and at the ISS, accumulating nearly 1,111 days in space over the course of five long-duration missions on the ISS (Expedition 17, 30/31, 44/45, 57/58/59 and 69/70/71). He also served as commander three times (Expedition 31, 58/59 and 70/71).[246] Private flights Travellers who pay for their own passage into space are termed spaceflight participants by Roscosmos and NASA, and are sometimes referred to as \"space tourists\", a term they generally dislike.[d] As of June 2023[update], thirteen space tourists have visited the ISS; nine were transported to the ISS on Russian Soyuz spacecraft, and four were transported on American SpaceX Dragon 2 spacecraft. For one-tourist missions, when professional crews change over in numbers not divisible by the three seats in a Soyuz, and a short-stay crewmember is not sent, the spare seat is sold by MirCorp through Space Adventures. Space tourism was halted in 2011 when the Space Shuttle was retired and the station's crew size was reduced to six, as the partners relied on Russian transport seats for access to the station. Soyuz flight schedules increased after 2013, allowing five Soyuz flights (15 seats) with only two expeditions (12 seats) required. [",
+      "source_url": "https://en.wikipedia.org/wiki/International_Space_Station",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "International Space Station Visitors by Country - NASA 280 individuals representing 23 countries and five International Partners have visited the International Space Station.",
+      "source_url": "https://www.nasa.gov/international-space-station/space-station-visitors-by-country/",
+      "timestamp": "2024-10-24"
+    },
+    {
+      "doc_id": "d4",
+      "text": "List of visitors to the International Space Station - Wikipedia Statistics. As of September 12, 2021, 244 individuals have made 403 spaceflights to the ISS, including the seven people currently at the ISS (Expedition 65). ... Page version status This is a list of all of the visitors to the International Space Station (ISS), including long-term crew, short-term visitors, and space tourists, in alphabetical order. ISS crew names are in bold. The suffix (twice, three times, ...) refers to the individual's number of spaceflights to the ISS, not the total number of spaceflights. Entries without a flag symbol indicate that the individual was an American citizen at launch. Entries without a female symbol () are men. Statistics As of September 12, 2021[update], 244 individuals[1] have made 403 spaceflights to the ISS, including the seven people currently at the ISS (Expedition 65). Two people have made five spaceflights to the ISS, while five people have made four, 36 people made three and 84 people made two. Note that this list assigns individuals with dual citizenship to their country of primary residence at time of launch (for example, the Iranian-American space tourist Anousheh Ansari is only listed under the United States). Initially all private space travel was aboard the Russian Soyuz spacecraft. When only two crew members are required in the three-seat Soyuz, and additional cargo is not sent, the additional seat is sold to the general public through Space Adventures. Private travelers would remain on the ISS during handover from one expedition crew to the next, generally a week or two. The NASASpace Shuttle carried seven crew members, and the longest docking with the ISS was 11 days. Many visitors to the ISS were accommodated for short periods during NASA shuttle dockings. ^\"Axiom-1: First all-private crew launches to space station\". BBC News. 8 April 2022. Retrieved 2 October 2023. While Russia allowed private astronaut endeavours to visit the 23-year-old station as far back as 2001, NASA resisted the practice - until announcing a change in policy in 2019 designed to boost commercial opportunities.",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_visitors_to_the_International_Space_Station",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "ISS History & Timeline - ISS National Lab ... ISS celebrates its 10-year anniversary of continuous human occupation. Since Expedition 1 in the fall of 2000, 202 people had visited the station. {{current_slide_index}} An achievement of international collaboration & innovation History of the ISS In 2005, the U.S. segment of the International Space Station was designated as a national laboratory. Curious about the origins of the ISS and what has happened since its creation? Scroll through the station\u2019s history and discover key events and activities that have shaped this extraordinary research platform. {{total_slide_count}} {{current_slide_index}} January 25 Reagan directs NASA to build the ISS 1984 \"Just as the oceans opened up a new world for clipper ships and Yankee traders, space holds enormous potential for commerce today\". President Ronald Reagan's State of the Union Address directs NASA to build an international space station within the next 10 years. \" {{total_slide_count}} {{current_slide_index}} November 20 First ISS Segment Launches 1998 The first segment of the ISS launches: The Zarya Control Module launched aboard a Russian Proton rocket from Baikonur Cosmodrome, Kazakhstan. Zarya (translates to \"sunrise\") supplied fuel storage, battery power and rendezvous and docking capability for Soyuz and Progress space vehicles. {{total_slide_count}} {{current_slide_index}} December 4 First U.S.-built component launches 1998 Unity Node 1 module\u2014the first U.S.-built component of the International Space Station\u2014 launches into orbit two weeks later during the STS-88 mission. Joining Unity with the Zarya module was the first step in the assembly of the orbiting laboratory. {{total_slide_count}} {{current_slide_index}} November 2 First Crew to Reside on Station 2000 NASA Astronaut Bill Shepherd and cosmonauts Yuri Gidzenko and Sergei Krikalev become the first crew to reside onboard the station.",
+      "source_url": "https://issnationallab.org/about/iss-national-lab-overview/iss-history-timeline/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Who Is In Space - Live Updates THERE ARE 10 HUMANS IN SPACE \u00b7 ISS - Starliner CFT Launched June 5, 2024, 14:52:14 UTC \u00b7 Butch Wilmore \u00b7 Sunita Williams \u00b7 ISS - Soyuz ms-26. Launched September 11, ...",
+      "source_url": "https://whoisinspace.com/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "International Space Station \u2014 Everything you need to know As of May 2022, 258 individuals from 20 countries have visited the International Space Station. The top participating countries include the ... The International Space Station (ISS) is a multi-nation construction project that is the largest single structure humans ever put into space. Its main construction was completed between 1998 and 2011, although the station continually evolves to include new missions and experiments. It has been continuously occupied since Nov. 2, 2000. The ISS is not owned by one single nation and is a \"co-operative programme\" between Europe, the United States, Russia, Canada and Japan, according to the European Space Agency (ESA). The International Space Station costs about $3 billion per year for NASA to operate, roughly a third of the human spaceflight budget, according to the agency's Office of the inspector general. As of May 2022, 258 individuals from 20 countries have visited the International Space Station. The top participating countries include the United States (158 people) and Russia (54 people). Astronaut time and research time on the space station are allocated to space agencies according to how much money or resources (such as modules or robotics) they contribute. The ISS includes contributions from 15 nations. NASA (United States), Roscosmos (Russia) and the European Space Agency are the major partners of the space station and contribute most of the funding; the other partners are the Japanese Aerospace Exploration Agency and the Canadian Space Agency. Through a private company called Axiom Space, private astronauts are starting to work on the orbiting complex, from time to time; additionally, astronauts from other nations such as the United Arab Emirates do fly occasionally to the ISS. ISS live views This NASA livestream shows high definition views from the ISS as it orbits Earth. The external camera is mounted on the station's Harmony module. According to NASA's video description \"If the Harmony module camera is not available due to operational considerations for a longer period of time, a continuous loop of recorded Earth views will be displayed with the caption 'Previously Recorded.' \" Current plans call for the space station to be operated through at least 2024, with the partners discussing a possible extension.",
+      "source_url": "https://www.space.com/16748-international-space-station.html",
+      "timestamp": "2024-02-23"
+    },
+    {
+      "doc_id": "d8",
+      "text": "The 20 Most Frequently Asked Questions about the International ... How many people have been on the ISS? A total of 240 astronauts from 19 different countries have been aboard the ISS. 20 years of humankind permanently occupying the space station. How many countries are involved in the International Space Station? The partnership of five space agencies representing 15 countries provide for and operate the ISS. These countries include the United States, Russia, Canada, Japan and the participating countries of the European Space Agency. How was the ISS built? Astronaut Stephen K. Robinson, STS-114 mission specialist, is anchored to the extended ISS\u2019s Canadarm-2 during a spacewalk to repair the Control moment Gyroscopes. Credit: NASA Constructing the ISS was a joint mission over the course of 13 years by many countries including the United States, Russia, Japan and Europe. Different modules of the ISS were constructed on Earth by thousands of engineers and launched by Russia\u2019s Proton rocket and the United States\u2019 space shuttles. Fun Fact:Space shuttle Atlantis on display at Kennedy Space Center Visitor Complex delivered the U.S. laboratory module Destiny along with many other vital components. Who is on the ISS? As of mid-October 2020, six astronauts are aboard the ISS. Keep up to date with who is on the station at NASA ISS webpage. Four astronauts are preparing to launch soon on a SpaceX Crew Dragon, including NASA astronauts Michael Hopkins, Victor Glover, Shannon Walker and JAXA astronaut Soichi Noguchi. Learn more about this launch and other upcoming launches on the launch calendar. How long do astronauts stay on the ISS? The average mission length for an astronaut is six months or 182 days, but the amount of time varies based on their mission. Who has been on the ISS the longest? Astronaut Scott Kelly holds the record for the longest single spaceflight at 340 days. For the longest cumulative days in space, astronaut Peggy Whitson holds the record at a total of 665 days. Fun Fact: Astronaut Scott Kelly is one of the 2020 Astronaut Hall of Fame inductees. Visit the Astronaut Hall of Fame to learn more about this prestigious honor.",
+      "source_url": "https://www.kennedyspacecenter.com/blog/the-20-most-frequently-asked-questions-about-the-international-space-station",
+      "timestamp": "2020-10-23"
+    },
+    {
+      "doc_id": "d9",
+      "text": "International Space Station - NASA Station Visitors\u200b\u200b Over 260 individuals representing 20 countries and five International Partners have visited the International Space Station. Learn more about ... NASA Station Visitors Over 260 individuals representing 20 countries and five International Partners have visited the International Space Station. Learn more about the people from around the world who have visited the station. Astronaut Christopher Cassidy waves during a spacewalk on the International Space Station. Station Record Holders NASA astronauts often spend extended periods of time aboard the International Space Station. NASA tracks and publishes the single spaceflight record holders (the most days spent in space on a single mission) and the cumulative days in space record holders (combined time in space over an astronaut\u2019s career). Astronaut Susan Helms works outside the International Space Station while attached to the Canadarm robotic arm on the Space Shuttle Discovery during a spacewalks. Frequently Asked Questions Learn more about the orbital complex. Launched in 1998 and involving the U.S., Russia, Canada, Japan, and the participating countries of the European Space Agency \u2014 the International Space Station is one of the most complex international collaborations ever attempted. Learn More and Get Involved ISS: 2025 Calendar Explore the new International Space Station 2025 calendar and learn more about the one-of-a-kind orbiting laboratory. Research and Technology Since the first crew\u2019s arrival aboard over twenty years ago, the International Space Station has evolved into a state-of-the-art scientific lab. Station Expeditions Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Visiting Vehicles ESA, JAXA, Roscosmos, Northrop Grumman, and SpaceX, each have launched their own space freighters to resupply the International Space Station. NASA, Roscosmos, SpaceX, and Boeing have also launched their own crew ships to the orbital outpost.",
+      "source_url": "https://www.nasa.gov/international-space-station/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions an international crew of seven people live and work on the ISS, and that more can be aboard during crew handovers, providing context but not a total count."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that by March 2024, 279 individuals from 22 countries had visited the station, directly answering the query with a specific number and date."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that 280 individuals representing 23 countries have visited the International Space Station, directly answering the query with a specific number."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that as of September 12, 2021, 244 individuals had made spaceflights to the ISS, directly answering the query with a specific number and date."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions that 202 people had visited the station by the ISS's 10-year anniversary, providing a partial answer and historical context."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "States there are currently 10 humans in space, but does not specify how many have visited the ISS in total."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that as of May 2022, 258 individuals from 20 countries have visited the International Space Station, directly answering the query with a specific number and date."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that a total of 240 astronauts from 19 different countries have been aboard the ISS, directly answering the query with a specific number."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States that over 260 individuals representing 20 countries have visited the International Space Station, providing a recent and direct answer to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The space station has been continuously occupied since November 2000.",
+            "An international crew of seven people live and work on the station.",
+            "Peggy Whitson set the U.S record for spending the most total time living and working in space at 665 days on Sept. 2, 2017."
+          ],
+          "reason": "Extracted facts about continuous occupation, typical crew size, and a specific record holder, which are relevant to the query about people on the ISS."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "By March 2024, 279 individuals from 22 countries had visited the station.",
+            "Crew size increased to seven with the arrival of US commercial spacecraft starting in 2020.",
+            "As of June 2023, thirteen space tourists had visited the ISS."
+          ],
+          "reason": "Extracted specific numbers of visitors by a certain date, information on crew size changes, and the number of space tourists, all relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "280 individuals representing 23 countries and five International Partners have visited the International Space Station."
+          ],
+          "reason": "Extracted the total number of individuals and countries that have visited the ISS, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "As of September 12, 2021, 244 individuals have made 403 spaceflights to the ISS.",
+            "Two people have made five spaceflights to the ISS, five people have made four, 36 people made three and 84 people made two."
+          ],
+          "reason": "Extracted the number of individuals and spaceflights to the ISS as of a specific date, and details on repeat visitors, which are relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Since Expedition 1 in the fall of 2000, 202 people had visited the station."
+          ],
+          "reason": "Extracted a specific count of visitors to the ISS by a certain point in time, directly relevant to the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "There are 10 humans in space as of June 5, 2024, on the ISS."
+          ],
+          "reason": "Provided a current count of humans in space on the ISS, which is a direct answer to the query about how many people are on the ISS."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "As of May 2022, 258 individuals from 20 countries have visited the International Space Station.",
+            "The United States has had 158 people visit the ISS, and Russia has had 54."
+          ],
+          "reason": "Extracted the number of individuals and countries that visited the ISS as of a specific date, and the top contributing countries, relevant to the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "A total of 240 astronauts from 19 different countries have been aboard the ISS.",
+            "As of mid-October 2020, six astronauts were aboard the ISS."
+          ],
+          "reason": "Extracted the total number of astronauts and countries that have been on the ISS, and the number of astronauts aboard at a specific time."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Over 260 individuals representing 20 countries and five International Partners have visited the International Space Station."
+          ],
+          "reason": "Extracted a count of individuals and countries that have visited the ISS, providing a relevant data point for the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States continuous occupation and current crew size, but not the total number of unique individuals who have ever visited.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Provides a specific number of individuals (279) who visited by March 2024, directly addressing the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Directly states that 280 individuals from 23 countries have visited the ISS, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States that 244 individuals had visited by September 12, 2021, providing a specific count relevant to the query.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States that 202 people had visited the station since Expedition 1, offering a specific number relevant to the query.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "Provides the current number of people on the ISS (10), but the query asks for the total number who have ever been there.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "States that 258 individuals from 20 countries had visited by May 2022, directly answering the query.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "States that 240 astronauts from 19 countries have been aboard the ISS, directly answering the query.",
+          "confidence": 0.94
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "States that over 260 individuals from 20 countries have visited the ISS, providing a relevant number for the query.",
+          "confidence": 0.91
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "partial_docs": [
+          "d1",
+          "d6"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "total_visitors_by_date",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents provide specific counts of individuals who have visited the ISS, with dates ranging from late 2020 to March 2024."
+          },
+          {
+            "label": "current_occupancy",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "One document provides the current number of people on the ISS, which is distinct from the total number of visitors."
+          },
+          {
+            "label": "continuous_occupation_and_crew_size",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document mentions continuous occupation since 2000 and current crew size, but not total visitors."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence provides compatible details about the total number of ISS visitors over time, with varying dates and counts, and also includes current occupancy information.",
+        "clusters": [
+          {
+            "label": "total_visitors_by_date",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Multiple documents provide specific counts of individuals who have visited the ISS, with dates ranging from late 2020 to March 2024."
+          },
+          {
+            "label": "current_occupancy",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "One document provides the current number of people on the ISS, which is distinct from the total number of visitors."
+          },
+          {
+            "label": "continuous_occupation_and_crew_size",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document mentions continuous occupation since 2000 and current crew size, but not total visitors."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence exists for total visitors and complementary information on current occupancy and crew size. No significant conflicts are present."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Multiple documents provide specific counts of individuals who have visited the ISS, with dates ranging from late 2020 to March 2024. One document provides the current number of people on the ISS, which is distinct from the total number of visitors. Another document mentions continuous occupation since 2000 and current crew size, but not total visitors.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence provide compatible details about total ISS visitors over time, current occupancy, and crew size, directly answering the query without significant conflicts."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately summarizes the information from the documents regarding the number of ISS visitors and current crew, and correctly identifies which documents provide specific counts."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 16324,
+      "completion_tokens": 3261,
+      "total_tokens": 19585
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2753,
+        "completion_tokens": 719,
+        "total_tokens": 3472
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2708,
+        "completion_tokens": 972,
+        "total_tokens": 3680
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1283,
+        "completion_tokens": 622,
+        "total_tokens": 1905
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1667,
+        "completion_tokens": 337,
+        "total_tokens": 2004
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1965,
+        "completion_tokens": 296,
+        "total_tokens": 2261
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 732,
+        "completion_tokens": 43,
+        "total_tokens": 775
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 880,
+        "completion_tokens": 179,
+        "total_tokens": 1059
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4336,
+        "completion_tokens": 93,
+        "total_tokens": 4429
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:27:59.191111",
+        "prompt_tokens": 2753,
+        "completion_tokens": 719,
+        "total_tokens": 3472,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:04.891819",
+        "prompt_tokens": 2708,
+        "completion_tokens": 972,
+        "total_tokens": 3680,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:06.747757",
+        "prompt_tokens": 1283,
+        "completion_tokens": 622,
+        "total_tokens": 1905,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:09.175513",
+        "prompt_tokens": 1667,
+        "completion_tokens": 337,
+        "total_tokens": 2004,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:11.011370",
+        "prompt_tokens": 1965,
+        "completion_tokens": 296,
+        "total_tokens": 2261,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:11.805680",
+        "prompt_tokens": 732,
+        "completion_tokens": 43,
+        "total_tokens": 775,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:13.649553",
+        "prompt_tokens": 880,
+        "completion_tokens": 179,
+        "total_tokens": 1059,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:28:16.046335",
+        "prompt_tokens": 4336,
+        "completion_tokens": 93,
+        "total_tokens": 4429,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:27:56.480031",
+  "last_updated_at": "2026-04-17T19:28:16.046928"
+}

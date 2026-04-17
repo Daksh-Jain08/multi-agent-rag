@@ -1,0 +1,420 @@
+{
+  "sample_id": "#0118",
+  "query": "Does 'dreaming' only take place during REM sleep?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Brain Basics: Understanding Sleep | National Institute of ... Image REM sleep first occurs about 90 minutes after falling asleep. Your eyes move rapidly from side to side behind closed eyelids. Mixed frequency brain wave activity becomes closer to that seen in wakefulness. Your breathing becomes faster and irregular, and your heart rate and blood pressure increase to near waking levels. Most of your dreaming occurs during REM sleep, although some can also occur in non-REM sleep. Your arm and leg muscles become temporarily paralyzed, which prevents you from acting out your dreams. As you age, you sleep less of your time in REM sleep. Memory consolidation most likely requires both non-REM and REM sleep. Sleep Mechanisms Two internal biological mechanisms\u2013circadian rhythm and homeostasis\u2013work together to regulate when you are awake and sleep. Circadian rhythms direct a wide variety of functions from daily fluctuations in wakefulness to body temperature, metabolism, and the release of hormones. They control your timing of sleep and cause you to be sleepy at night and your tendency to wake in the morning without an alarm. Your body\u2019s biological clock, which is based on a roughly 24-hour day, controls most circadian rhythms. Circadian rhythms synchronize with environmental cues (light, temperature) about the actual time of day, but they continue even in the absence of cues. Image Your body's biological clock is based on a 24-hour day and controls most circadian rhythms. These rhythms affect a variety of functions including body temperature (represented as the white line on the chart above). Melatonin - a hormone released by the pineal gland - helps you feel sleepy once the lights go down. The peaks and valleys of melatonin (represented as the gold line above) are important for matching the body's circadian rhythm to the external cycle of light and darkness. Sleep-wake homeostasis keeps track of your need for sleep. The homeostatic sleep drive reminds the body to sleep after a certain time and regulates sleep intensity.",
+      "source_url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "REM Sleep: What It Is and Why It Matters | Sleep Foundation Dreaming: A majority of your dreams take place during REM sleep. However, REM is not the only stage in which dreams occur \u2014 that\u2019s actually a common myth about sleep. That said, the dreams you experience in REM sleep are usually more vivid than non-REM sleep dreams. Emotional Processing: Your brain processes emotions during REM sleep. Dreams, which are more vivid in REM sleep, may be involved in emotional processing. Also, your amygdala, the part of your brain that processes emotions, activates during REM sleep. Memory Consolidation: During REM sleep, your brain processes new learnings and motor skills from the day, committing some to memory, maintaining others, and deciding which ones to delete. Some memory consolidation also takes place in deep sleep Trusted Source National Library of Medicine, Biotech InformationThe National Center for Biotechnology Information advances science and health by providing access to biomedical and genomic information. View Source, a non-REM stage. Brain Development: Researchers hypothesize REM sleep promotes brain development, since newborns spend most of their sleep time in REM. Adding to the evidence is that animals born with less developed brains, such as humans and puppies, spend even more time in REM sleep during infancy than those that are born with more developed brains, like horses and birds. Wakefulness Preparation: REM sleep, through its activation of our central nervous system, might help us get ready to wake back up. This may explain why we spend increasing amounts of time in REM sleep as the night progresses and why we are easier to wake up during this stage. How Much REM Sleep Do You Need? We need the most REM sleep as infants and children, when our brains are still developing. Newborn babies spend eight hours in REM sleep each day. By adulthood, we only need an average of two hours of REM sleep each night. Different species require different amounts of REM sleep.",
+      "source_url": "https://www.sleepfoundation.org/stages-of-sleep/rem-sleep",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Dreaming also occurs during non rapid eye movement sleep ... Researchers from Aalto University and the University of Wisconsin utilised a TMS-EEG device, which combines transcranial magnetic stimulation and EEG, to examine how the brain activity of people in the restful non-rapid eye movement (NREM) sleep is affected by whether they dream or do not dream. When the NREM sleep of subjects had lasted at least three minutes, researchers gave magnetic pulses that induced a weak electric field and activated neurons. After a series of pulses, the subject was woken with an alarm sound, and they were then asked whether they had dreamed and to describe the content of the dream. 'It is traditionally thought that dreaming occurs only in REM sleep. However, as also our study demonstrates, subjects woken from NREM sleep are also able to give accounts of their dreams in more than half of cases,' Post-doctoral Researcher Jaakko Nieminen from Aalto University explains. 'EEG showed that the deterministic brain activity produced by magnetic pulses was notably shorter in people who did not dream, i.e. were unconscious, than in people who had dreamt. We also observed that the longer the story about the dream, the more the subject's EEG resembled that measured from people who were awake,' Dr Nieminen explains. Assessment of consciousness may help in treatment of brain injury patients Dr Nieminen performed the measurements with his research colleague Olivia Gosseries at the University of Wisconsin-Madison Center for Sleep and Consciousness, which is headed by Giulio Tononi. The measurements were carried out during a period of over 40 nights and a total of 11 subjects participated. Due to sleeping difficulties and other challenges, reliable measurements could only be acquired from six subjects. During the night, subjects were woken a maximum of 16 times. 'Consciousness in different physiological states (e.g. during wakefulness, sleep, anesthesia and vegetative state) has previously been researched with TMS-EEG measurements. We wanted to eliminate all other differences related to the different states as thoroughly as possible, and for this reason we focused on the narrow physiological state of NREM sleep,' Dr Nieminen notes.",
+      "source_url": "https://www.sciencedaily.com/releases/2016/08/160809121817.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Dream Cycle: Sleep Stages, REM vs. NREM, Changing Your Dreams Curious about what goes on in your brain when it\u2019s out to dreamland? We can\u2019t blame you. Experts still have plenty to learn about sleep, but they do know it happens in a cycle, with different things occurring at different stages. Though you might sometimes wake up feeling as if you dreamed all night long, you don\u2019t necessarily dream during every stage of sleep. Rather, dreams seem to happen mostly during the REM stage of sleep. Keep reading to explore how and when your dreams float in while you\u2019re fast asleep. During REM sleep, which generally begins about an hour to 90 minutes after you fall asleep, you\u2019ll dream \u2014 though you may not remember those dreams. Both types of sleep are important. While experts used to believe REM sleep played the most important role in learning and memory processes, they now consider NREM sleep even more important for these functions. Plus, the most restful phase of sleep also happens during NREM sleep. Experts aren\u2019t entirely certain, but they do know people typically spend somewhere around 2 hours dreaming every night. You probably won\u2019t remember every single one of those dreams, though. If someone wakes you up during REM sleep, you might know you were just dreaming, perhaps vividly. When someone wakes you up during NREM sleep, on the other hand, you\u2019re far less likely to feel as if you were just dreaming. Can you ever dream during non-REM sleep? Dreams can happen during any stage of sleep, but the vivid ones that you remember tend to happen during REM sleep. A small 2016 study used something called a TMS-EEG \u2014 a device that combines transcranial magnetic stimulation (TMS) and an electroencephalogram (EEG) test to look at brain activity \u2014 to explore whether people waking from restful NREM sleep reported dreams. Over half the participants reported having dreams when woken from NREM sleep. The researchers did note that their descriptions of the dream experiences tended to be both shorter and less detailed than descriptions of REM dream experiences.",
+      "source_url": "https://www.healthline.com/health/sleep/dream-cycle",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Why REM Sleep and Dreams Are Important for Health | Time Why Dreaming May Be Important for Your Health Doctors have warned for years that Americans are not getting enough sleep, with health consequences ranging from drowsy driving and irritability to an increased risk of dementia, heart disease and early death. Now, a recent study suggests that one particular type of sleep may be especially important when it comes to how the brain responds to stressful situations. The research, published in the Journal of Neuroscience, found that people who spent more time in rapid-eye-movement (REM) sleep \u2014 the phase when dreaming occurs \u2014 had lower fear-related brain activity when they were given mild electric shocks the next day. The findings suggest that getting sufficient REM sleep prior to fearful experiences may make a person less prone to developing post-traumatic stress disorder (PTSD), the authors hypothesize. The study isn\u2019t the first to suggest that REM sleep delivers unique benefits. Some experts even believe that it\u2019s actually a lack of REM sleep and a lack of dreaming \u2014 rather than just poor sleep in general \u2014 that\u2019s responsible for many of the health problems Americans suffer from today. Here\u2019s what scientists know so far \u2014 and what they suspect \u2014 about REM sleep, dreams and what happens when people are deprived of both. What happens during REM sleep? Sleep involves five distinct phases, which the brain and body cycle through several times during the night. The first four phases involve a transition from shallow to deep sleep, while the fifth phase, REM sleep, involves heightened brain activity and vivid dreams. REM sleep stages tend to be relatively short during the first two-thirds of the night as the body prioritizes deeper, slow-wave sleep. And because longer periods of REM sleep only happen during the final hours of sleep (in the early morning, for most people), it can get cut off when you don\u2019t spend a full seven or eight hours in bed, says psychologist Rubin Naiman, a sleep and dream specialist at the University of Arizona Center for Integrative Medicine and the author of a recent review about dreaming published in the Annals of the New York Academy of Sciences.",
+      "source_url": "https://time.com/4970767/rem-sleep-dreams-health/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Nightmares and Disorders of Dreaming | AAFP ) stages. REM sleep occurs cyclically every 90 minutes during the night in association with high brain activity, rapid spontaneous eye movements and suppressed voluntary motor activity. Dreaming occurs in all stages of sleep. It is reported by 80 percent of persons who are awakened during REM sleep and sleep onset (stages 1 and 2), and 40 percent of persons who are awakened from a deep sleep. Patient reports about the content of their dreams vary based on the sleep stage from which they are awakened. Patient reports of dreams experienced during REM sleep tend to be bizarre and detailed, with storyline plot associations. In contrast, dreams experienced in deep sleep are more diffuse (e.g., dreams about a color or an emotion). The dreams of stages 1 and 2 are simpler, shorter and have fewer associations than the dreams of REM sleep. The ability to recall dreams may reflect the dream's accessibility or distance from awake thought; the highest recall seems to occur during sleep stages with electroencephalographic patterns that are most like those in the waking state.1 Some researchers believe that dreams have no function. Others think that dreams are the nocturnal continuation of conscious thought processing during the day or a reprogramming of the central nervous system for the next day's conscious functioning.2 Evidence suggests that dreaming, like most other physiologic events, is important for learning and memory processing, gives cognitive feedback about a person's mental functioning and helps a person adapt to emotional and physical stress.3 Frightening Dreams: The Nightmare Nightmares are vivid and terrifying nocturnal episodes in which the dreamer is abruptly awakened from sleep. Typically, the dreamer wakes from REM sleep and is able to describe a detailed, associative, often bizarre dream plot. Usually, the dreamer has difficulty returning to sleep. Nightmares are also common.",
+      "source_url": "https://www.aafp.org/pubs/afp/issues/2000/0401/p2037.html",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that most dreaming occurs during REM sleep, but some can also occur in non-REM sleep, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explicitly states that REM is not the only stage in which dreams occur, calling the idea that dreaming only happens in REM sleep a common myth."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions the traditional thought that dreaming occurs only in REM sleep but demonstrates that subjects woken from NREM sleep can also report dreams."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that dreams can happen during any stage of sleep, though vivid ones tend to occur during REM sleep, directly addressing the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses REM sleep and dreams, mentioning that REM sleep involves heightened brain activity and vivid dreams, but doesn't directly state if dreaming occurs outside REM."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that dreaming occurs in all stages of sleep and provides details on dream content varying by sleep stage, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Most of your dreaming occurs during REM sleep, although some can also occur in non-REM sleep."
+          ],
+          "reason": "Extracted the fact that dreaming occurs in both REM and non-REM sleep, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A majority of your dreams take place during REM sleep.",
+            "REM is not the only stage in which dreams occur."
+          ],
+          "reason": "Extracted the key facts that most dreams occur in REM sleep, but dreaming also happens in other stages, directly addressing the user's query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "It is traditionally thought that dreaming occurs only in REM sleep.",
+            "Subjects woken from NREM sleep are also able to give accounts of their dreams in more than half of cases.",
+            "Dreaming also occurs during non rapid eye movement sleep."
+          ],
+          "reason": "Extracted facts that challenge the notion that dreaming only occurs in REM sleep, providing evidence that it also happens in NREM sleep."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Dreams can happen during any stage of sleep.",
+            "The vivid dreams that you remember tend to happen during REM sleep."
+          ],
+          "reason": "Extracted the fact that dreams can occur in any sleep stage, directly answering the query, while also noting the vividness associated with REM sleep."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The fifth phase, REM sleep, involves heightened brain activity and vivid dreams."
+          ],
+          "reason": "Extracted the fact that REM sleep is associated with vivid dreams, which is relevant context to the query about dreaming stages."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Dreaming occurs in all stages of sleep."
+          ],
+          "reason": "Extracted the direct statement that dreaming occurs in all stages of sleep, definitively answering the user's query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that dreaming occurs in both REM and non-REM sleep, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Explicitly states that REM is not the only stage where dreams occur, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Provides evidence that dreaming occurs during non-rapid eye movement sleep, contradicting the idea it only happens in REM sleep.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states dreams can happen during any stage of sleep, definitively answering the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions vivid dreams during REM sleep but doesn't explicitly state if dreaming occurs in other stages.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Provides a direct and definitive statement that dreaming occurs in all stages of sleep, answering the query.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6"
+        ],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_all_stages",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d6"
+            ],
+            "summary": "Multiple documents directly state that dreaming occurs in all stages of sleep, including REM and non-REM."
+          },
+          {
+            "label": "partial_support_rem_vividness",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document mentions vivid dreams during REM sleep but does not fully address dreaming in other stages."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All evidence sources agree that dreaming occurs in multiple sleep stages, with most specifying all stages. One source adds detail about vivid dreams in REM sleep.",
+        "clusters": [
+          {
+            "label": "dreaming occurs in all sleep stages",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d6"
+            ],
+            "summary": "Multiple documents directly state that dreaming occurs in all stages of sleep, including REM and non-REM."
+          },
+          {
+            "label": "vivid dreams in REM sleep",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "One document mentions vivid dreams during REM sleep but does not fully address dreaming in other stages."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence directly addresses the query, and the evidence is complementary rather than conflicting."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Dreaming occurs in all stages of sleep, encompassing both REM and non-REM stages. Vivid dreams are particularly noted during REM sleep.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting evidence directly answers the query, with one source adding detail about vivid dreams in REM sleep. The evidence is complementary."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately states that dreaming occurs in all sleep stages, including REM and non-REM, and that vivid dreams are common in REM sleep, which is well-supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 12442,
+      "completion_tokens": 2058,
+      "total_tokens": 14500
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2254,
+        "completion_tokens": 450,
+        "total_tokens": 2704
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2209,
+        "completion_tokens": 530,
+        "total_tokens": 2739
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 384,
+        "total_tokens": 1286
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1086,
+        "completion_tokens": 231,
+        "total_tokens": 1317
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1306,
+        "completion_tokens": 207,
+        "total_tokens": 1513
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 587,
+        "completion_tokens": 37,
+        "total_tokens": 624
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 729,
+        "completion_tokens": 115,
+        "total_tokens": 844
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3369,
+        "completion_tokens": 104,
+        "total_tokens": 3473
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:36.689684",
+        "prompt_tokens": 2254,
+        "completion_tokens": 450,
+        "total_tokens": 2704,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:39.048689",
+        "prompt_tokens": 2209,
+        "completion_tokens": 530,
+        "total_tokens": 2739,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:41.996386",
+        "prompt_tokens": 902,
+        "completion_tokens": 384,
+        "total_tokens": 1286,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:43.255734",
+        "prompt_tokens": 1086,
+        "completion_tokens": 231,
+        "total_tokens": 1317,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:44.595027",
+        "prompt_tokens": 1306,
+        "completion_tokens": 207,
+        "total_tokens": 1513,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:45.649539",
+        "prompt_tokens": 587,
+        "completion_tokens": 37,
+        "total_tokens": 624,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:46.573216",
+        "prompt_tokens": 729,
+        "completion_tokens": 115,
+        "total_tokens": 844,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:41:48.414346",
+        "prompt_tokens": 3369,
+        "completion_tokens": 104,
+        "total_tokens": 3473,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:41:33.467532",
+  "last_updated_at": "2026-04-17T15:41:48.414941"
+}

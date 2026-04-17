@@ -1,0 +1,409 @@
+{
+  "sample_id": "#0569",
+  "query": "What are the three parts of large intestine?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "proteins, lipids, and vitamins) into the bloodstream. There are three major divisions: The large intestine also called the colon, consists of the cecum, rectum, and anal canal. It also includes the appendix, which is attached to the cecum. The colon is further divided into: The main function of the large intestine is to absorb water. The area of the large intestinal mucosa of an adult human is about 2 m. The gut is an endoderm-derived structure. At approximately the sixteenth day of human development, the embryo begins to fold ventrally (with the embryo's ventral surface becoming concave) in two directions:",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d2",
+      "text": "amounts of glucose, the pancreas uses amino acids to trigger insulin release instead. Food then moves on to the jejunum. This is the most nutrient absorptive section of the small intestine. The liver regulates the level of nutrients absorbed into the blood system from the small intestine. From the jejunum, whatever food that has not been absorbed is sent to the ileum which connects to the large intestine. The first part of the large intestine is the cecum and the second portion is the colon. The large intestine reabsorbs water and forms fecal matter. There are some things that the",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d3",
+      "text": "sleeve gastrectomy procedure, the connection between the stomach and the duodenum is closed off from the level of the second segment of the duodenum. While preserving the last 30 cm part of the small intestine, a 170 cm segment of ileum is prepared and connected to the first segment of the duodenum, which is at the end of the stomach. The other end of the ileum segment is connected to the proximal part of the small intestine. Thus, distal part of the small intestine is \u0393\u00c7\u00ff\u0393\u00c7\u00d6interposed\u0393\u00c7\u00d6\u0393\u00c7\u00d6 between proximal part of the small intestine and the stomach. Since duodenum and the",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d4",
+      "text": "holds up to of semi-liquid matter. It is made up of the right ventral (lower) colon, the left ventral colon, the left dorsal (upper) colon, the right dorsal colon, and the transverse colon, in that order. Three flexures are also named; the sternal flexure, between right and left ventral colon; the pelvic flexure, between left ventral and left dorsal colon; the diaphragmatic flexure, between left dorsal and right dorsal colon. The main purpose of the large colon is to absorb carbohydrates, which were broken down from cellulose in the cecum. Due to its many twists and turns, it is a",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2022-01-04"
+    },
+    {
+      "doc_id": "d5",
+      "text": "blood in the colon of the large intestine. The waste products of digestion (feces) are defecated from the anus via the rectum. There are several organs and other components involved in the digestion of food. The organs known as the accessory digestive glands are the liver, gall bladder and pancreas. Other components include the mouth, salivary glands, tongue, teeth and epiglottis. The largest structure of the digestive system is the gastrointestinal tract (GI tract). This starts at the mouth and ends at the anus, covering a distance of about nine (9) metres. The largest part of the GI tract is  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1995"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly lists the three major divisions of the large intestine: cecum, rectum, and anal canal."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions the cecum as the first part and the colon as the second portion of the large intestine, providing partial information."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses sleeve gastrectomy and the ileum, which is part of the small intestine, not the large intestine's divisions."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Describes parts of the colon (a division of the large intestine) and its flexures, offering related but not the primary three divisions."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions the colon and rectum in the context of waste elimination but does not list the three main parts of the large intestine."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The large intestine, also called the colon, consists of the cecum, rectum, and anal canal.",
+            "The appendix is attached to the cecum."
+          ],
+          "reason": "Extracted the three major divisions of the large intestine as requested by the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The first part of the large intestine is the cecum.",
+            "The second portion of the large intestine is the colon."
+          ],
+          "reason": "Extracted two parts of the large intestine mentioned in the document, relevant to the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses surgical procedures and does not contain information about the parts of the large intestine."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The colon is made up of the right ventral colon, the left ventral colon, the left dorsal colon, the right dorsal colon, and the transverse colon."
+          ],
+          "reason": "Extracted the detailed divisions of the colon, which is a major part of the large intestine, relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The rectum is where feces are defecated from the anus.",
+            "The colon is part of the large intestine."
+          ],
+          "reason": "Extracted the rectum as a part of the large intestine and its function, relevant to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly lists the three main parts of the large intestine: cecum, rectum, and anal canal, answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Identifies the cecum and colon as parts of the large intestine but does not list all three required parts.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document discusses surgical procedures and contains no information about the parts of the large intestine.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Details divisions of the colon, which is a part of the large intestine, but does not list the three main parts of the large intestine itself.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions the rectum and colon as parts of the large intestine but does not provide a complete list of the three main divisions.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly lists the three main parts of the large intestine."
+          },
+          {
+            "label": "partial_context_parts",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 mention some parts of the large intestine but do not provide a complete list."
+          },
+          {
+            "label": "partial_context_colon_divisions",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 provides detailed divisions of the colon, a part of the large intestine, but not the main parts of the large intestine itself."
+          },
+          {
+            "label": "irrelevant_content",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 is irrelevant as it discusses surgical procedures and not the parts of the large intestine."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence is complementary, with one document directly listing the main parts of the large intestine and others providing partial information or details about specific sections.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly lists the three main parts of the large intestine: cecum, rectum, and anal canal, and notes the appendix is attached to the cecum."
+          },
+          {
+            "label": "partial_support",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 mention some parts of the large intestine (cecum, colon, rectum) but do not provide a complete list of the three main divisions."
+          },
+          {
+            "label": "detailed_colon_divisions",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 provides detailed divisions of the colon (right ventral, left ventral, left dorsal, right dorsal, transverse) but not the main parts of the large intestine itself."
+          },
+          {
+            "label": "irrelevant",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 is irrelevant as it discusses surgical procedures and not the parts of the large intestine."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is complementary and directly supports the answer. Document d1 provides a direct list of the main parts of the large intestine, while other documents offer partial context or detailed divisions of specific sections."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The three main parts of the large intestine are the cecum, rectum, and anal canal. The appendix is attached to the cecum.",
+        "citations": [
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d1 directly lists the three main parts of the large intestine and related structures, providing a complete answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies the three main parts of the large intestine and their relationship with the appendix, all of which are directly supported by the cited document d1."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8823,
+      "completion_tokens": 1991,
+      "total_tokens": 10814
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1403,
+        "completion_tokens": 366,
+        "total_tokens": 1769
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1358,
+        "completion_tokens": 401,
+        "total_tokens": 1759
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 796,
+        "completion_tokens": 350,
+        "total_tokens": 1146
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 960,
+        "completion_tokens": 281,
+        "total_tokens": 1241
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1246,
+        "completion_tokens": 344,
+        "total_tokens": 1590
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 760,
+        "completion_tokens": 58,
+        "total_tokens": 818
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 923,
+        "completion_tokens": 94,
+        "total_tokens": 1017
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1377,
+        "completion_tokens": 97,
+        "total_tokens": 1474
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:03.337083",
+        "prompt_tokens": 1403,
+        "completion_tokens": 366,
+        "total_tokens": 1769,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:05.183882",
+        "prompt_tokens": 1358,
+        "completion_tokens": 401,
+        "total_tokens": 1759,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:06.711500",
+        "prompt_tokens": 796,
+        "completion_tokens": 350,
+        "total_tokens": 1146,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:08.050689",
+        "prompt_tokens": 960,
+        "completion_tokens": 281,
+        "total_tokens": 1241,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:10.508706",
+        "prompt_tokens": 1246,
+        "completion_tokens": 344,
+        "total_tokens": 1590,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:11.443562",
+        "prompt_tokens": 760,
+        "completion_tokens": 58,
+        "total_tokens": 818,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:12.450486",
+        "prompt_tokens": 923,
+        "completion_tokens": 94,
+        "total_tokens": 1017,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:13.491359",
+        "prompt_tokens": 1377,
+        "completion_tokens": 97,
+        "total_tokens": 1474,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:07:01.679735",
+  "last_updated_at": "2026-04-17T20:07:13.492833"
+}

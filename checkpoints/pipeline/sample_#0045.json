@@ -1,0 +1,572 @@
+{
+  "sample_id": "#0045",
+  "query": "How many cities in india has metro train?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Urban rail transit in India - Wikipedia In May 2015, the Union Government approved the Union Urban Development Ministry's proposal to implement metro rail systems in 50 cities, with the majority of ... A further 779.27 km of lines are under construction. Apart from the Kolkata Metro (which has its own zone under Indian Railways),[21] these rapid transit metro lines are not operated by Indian Railways, but a separate set of local authorities. In addition to their metro systems, the cities of Chennai and Hyderabad have mass transit systems operated by the Indian Railways, known as the Chennai MRTS and the Hyderabad MMTS, respectively. The first rapid transit system in India is the Kolkata Metro, which started operations in 1984. Kolkata Metro also currently has the only underwater metro line in the country. The Delhi Metro has the largest network in the entire country.[22] Implementation In 2006, the National Urban Transport Policy had proposed the construction of a metro rail system in every city with a population of at least 20 lakh (2 million) people.[23][24] From 2002 to 2014, the Indian metro infrastructure expanded by 248 km.[1] Later on 11 August 2014, Union Government had announced that it would provide financial assistance for the implementation of a metro rail system to all Indian cities having a population of more than 1 million.[25][26] In May 2015, the Union Government approved the Union Urban Development Ministry's proposal to implement metro rail systems in 50 cities, with the majority of the planned projects were to be implemented through special purpose vehicles, which will be established as 50:50 joint ventures between the Union and respective State Government. The Union Government would invest an estimated \u20b95 lakh crore (US$58 billion).[27][28] In a new draft policy unveiled in March 2017, the Central Government stated that it wanted state governments to consider metro rail as the \"last option\" and implement it only after considering all other possible mass rapid transit systems.",
+      "source_url": "https://en.wikipedia.org/wiki/Urban_rail_transit_in_India",
+      "timestamp": "2025-04-03"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Indian Cities with Metro network - FactoData There are 17 Indian cities metro train system as on October 2024, with Delhi metro as the leader among them. India's metro networks play a ... List of Indian Cities with Metro network There are 17 Indian cities metro train system as on October 2024, with Delhi metro as the leader among them. India\u2019s metro networks play a crucial role in addressing the growing urban transportation challenges in major cities. as the urbanization growing the demand for urban rapid transit system is need of hour. Delhi metro is the biggest metro system in India with 350KM of operational length. Agra metro is the newest and smallest metro system with 5.2 KM of length. Delhi NCR has 3 number of metro system. Uttar Pradesh and Maharashtra both has 4 numbers of metro system each.",
+      "source_url": "https://factodata.com/indian-cities-with-metro-network/",
+      "timestamp": "2024-10-02"
+    },
+    {
+      "doc_id": "d3",
+      "text": "List of Metro Rail Projects in India - Quick Snapshot [2025] New metro rail (subway) systems are under construction and bringing about vast changes in 20+ Indian cities at a breathtaking pace. Most Indian metro projects are being developed in phases (eg. Delhi Metro which is now on Phase 4) while others are being developed by line as funds become available (eg. Mumbai Metro where 169 km of lines are currently under construction in parallel). Note: I track each project at the package level which gives a better idea of each city\u2019s network in different stages of development. Lengths are derived from tender or detailed design documents. When that is unavailable, satellite imagery is used for approximation. List of Proposed Metro / Metrolite / Metro Neo Projects in India Each Indian city and town has a large number of proposed new lines, most of which will never see the light of the day. The following table lists out cities / towns with with serious proposals that could possibly materialize as light rail (Metrolite) and be built in the next 10 years.",
+      "source_url": "https://themetrorailguy.com/metro-rail-projects-in-india/",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Metro Maps of Top Cities in India 2024 - MagicBricks The cities included in the metro route map of India are Kolkata, Delhi, Chennai, Bengaluru, Hyderabad, Ahmedabad, Jaipur, Gurugram, Mumbai, Noida, Kochi, ... Behror. Construction is already underway in a 10 km stretch in Gurgaon. The pre-construction work has also begun in the Gurgaon stretch. 22 stations will be proposed for this stretch, and 16 will be developed as part of phase 1 of the project. These 16 will have 11 elevated and five underground stations. Ridership Details of the Metro Network in India As of January 2024, India's metro ridership is witnessing a steep rise as daily ridership across metro systems in the country has already crossed the one crore mark. The ridership is expected to exceed 1.25 crore in a year or two. Here are some key highlights of India's metro rail system: Daily ridership across all metro rail systems has surpassed one crore. Over three-fourths of India's metro rail network has been conceptualised, constructed, and operationalised in less than a decade. The Delhi Metro is the largest, with an annual ridership of over 100 crores. Many commuters still prefer other modes of transport for short trips. However, the metro in India is becoming the preferred mode of commuting, especially for women and the young population. In Sum - Metro Maps & Network in India Regarding the metro network in India, all the metropolitan cities have been bestowed with a well-connected metro rail facility, which will only escalate and bring to even more cities across the country. The roadmap of various State Governments shows that each city will develop the existing projects to their maximum capabilities and introduce world-class metro facilities to tier 2 and tier 3 cities. This will only help further connect many urban and rural neighbourhoods and expand the metro network in India. November 5, 2024: The Karnataka Maritime Board (KMB) has proposed the Mangaluru Water Metro Project (MWMP). The project is designed keeping the Kochi Water Metro System. The length of the project will be 30 km. The board is undertaking a feasibility study of the Kochi water metro system.",
+      "source_url": "https://www.magicbricks.com/blog/metro-network-in-india/129120.html",
+      "timestamp": "2024-06-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How many cities of India have Metro Rail? - Quora The Metro railway system and service are operational in 10 cities in India. These are Kolkata, Delhi, Bengaluru, Gurugram, Mumbai, Chennai, ...",
+      "source_url": "https://www.quora.com/How-many-cities-of-India-have-Metro-Rail",
+      "timestamp": "2023-03-06"
+    },
+    {
+      "doc_id": "d6",
+      "text": "India's metro network expands to 1,000 km, becomes world's third ... The system, significantly expanded under Prime Ministers Vajpayee and Modi, now spans across 23 cities and 11 states with over one crore daily ... India's metro network has achieved a milestone, becoming the third-largest in the world at 1,000 km. The system, significantly expanded under Prime Ministers Vajpayee and Modi, now spans across 23 cities and 11 states with over one crore daily riders. Recent projects include the Delhi-Ghaziabad-Meerut Corridor and the Rithala-Kundli section. India\u00e2\u0080\u0099s metro network has reached a significant milestone, now ranking as the third-largest in the world with a total length of 1,000 km. This achievement highlights the government's commitment to enhancing urban connectivity and ease of travel. Under former Prime Minister Atal Bihari Vajpayee\u00e2\u0080\u0099 leadership, Delhi's sophisticated metro system was launched in 2002, marking the beginning of India's metro journey. And under Prime Minister Narendra Modi's direction, the network has expanded considerably, especially after 2014. With an additional 1,000 km, the metro network has tripled in size in the last ten years. Cities that benefit from metro connectivity have increased from five to twenty-three, while the number of states with metro services has climbed from five to eleven. Read more: Los Angeles wildfire update: Flames ravage Hollywood Hills, thousands flee In 2014, there were 28 lakh riders per day; today, there are over one crore, a 2.5-fold increase. Similarly, the overall distance traveled by metro trains has increased, rising from 86,000 km to an astounding 2.75 lakh kilometers every year. These numbers highlight how important the metro system is becoming to urban transportation nationwide. In order to commemorate the opening of a 13-km section of the Delhi-Ghaziabad-Meerut Namo Bharat Corridor, PM Modi would travel the Namo Bharat Train from Sahibabad RRTS Station to New Ashok Nagar RRTS Station.",
+      "source_url": "https://timesofindia.indiatimes.com/life-style/travel/news/indias-metro-network-expands-to-1000-km-becomes-worlds-third-largest/articleshow/117077795.cms",
+      "timestamp": "2025-01-09"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Metro Railway System In India - Indian Cities With Metro Services As per the current status, 10 Indian cities have functional metro rails. Kolkata, Delhi, Chennai, Bengaluru, Hyderabad, Jaipur, Gurgaon, Mumbai, Kochi, and ... Metro Railway System In India - Indian Cities With Metro Services The metro rail has earned fame as the most affordable and best means of travel. As per the current status, 10 Indian cities have functional metro rails. Kolkata, Delhi, Chennai, Bengaluru, Hyderabad, Jaipur, Gurgaon, Mumbai, Kochi, and Lucknow are the cities where metro rails running successfully. As of now India has 659.41 kilometers of operational metro lines and connecting almost 502 stations. The fare to travel in a metro is range between 8 rupees to 50 rupees. Who Invented Metro Trains in India? Metro trains invented by E. Sridharan and he is also famous as Metro man. He has introduced the first metro project in India. Success Of Metro Rails in India There is various reason for which metro rails system getting popular like it consumes fewer energy resources and traffic issues. It helps many people to travel at the peak hour of the office. It helps many people to travel at the peak hour of the office. It causes no air pollution and sound pollution. It handles 20% per passenger-km in comparison to road-based systems. It helps to avoid traffic. Very low ground space occupation just 2-meter width only for elevated rail. It decreases journey time by 50% to 75%. Traveling in metro saves time and helps you to reach in time. Metro is the cleanest of all transportation available as its substitute. Metro frequency is very high and travelers don't have to wait for much. Moreover, with respect to bus and road vehicles, a train requires less maintenance and has higher availability. Also, it is cheaper to build tracks than a highway. How Many Indian Cities have Metro Rail Connectivity? 1. Delhi Metro Rail The Delhi Metro, which started operations in 2002, is the largest metro in the country for its distance. Presently, Delhi Metro is working a distance of 231 kilometers and has 160 stations working.",
+      "source_url": "https://www.orientrailjourneys.com/blog/metro-railway-system-in-india",
+      "timestamp": "2023-10-16"
+    },
+    {
+      "doc_id": "d8",
+      "text": "1000 Kms of Metro 3rd Largest in the World - PIB Metro systems have transformed travel in India. Covering over 1,000 km across 11 states and 23 cities, millions of people rely on them for ... In addition, the PM launched a 2.8 km stretch of Delhi Metro Phase-IV, benefiting West Delhi and laid the foundation for the 26.5 km Rithala-Kundli section, further strengthening connectivity between Delhi and Haryana. These projects represent a major milestone in transportation, as metro systems now cover greater distances and serve over 1 crore passengers daily. With this growth, India has surpassed Japan in Metro Rail Projects in 2022. Currently, India ranks third globally in operational Metro network length and is on track to become the 2nd largest Metro network in the world. Milestones in the History of Metro in India The corridors and lanes of metro systems have reshaped urban travel in India, with a journey that began decades ago. In 1969, the initiative for a metro system was launched through the Metropolitan Transport Project. However, it took nearly two decades for the first step to become a reality. 1984: The first metro line in India, covering 3.4 km between Esplanade and Bhowanipur, opened in Kolkata. This marked the beginning of metro life in India 1995: The Delhi Metro Rail Corporation (DMRC) was established to bring world-class Mass Rapid Transport to Delhi. The project gained momentum with joint participation from the Central Government and the Government of Delhi 2002: DMRC opened its first metro corridor between Shahdara and Tis Hazari in Delhi, setting the stage for one of the country\u2019s largest metro networks 2011:",
+      "source_url": "https://pib.gov.in/PressReleseDetailm.aspx?PRID=2090364&reg=3&lang=1",
+      "timestamp": "2025-01-05"
+    },
+    {
+      "doc_id": "d9",
+      "text": "India's Metro Networks 2025 Guide - Explore Now! - TimesProperty How many cities have a metro in India? There are 15 Indian cities that have an active metro rail service and an operational metro map. The ... It's managed by the State Government of Rajasthan, running from 6:45 AM to 9:00 PM with fares from Rs 6 to Rs 22, serving about 55,000 passengers daily. The Ahmedabad Metro now operates two corridors: the Blue Line from Thaltej to Vastral Gram and the Red Line from Motera Stadium to APMC, spanning a total of 40.03 km with 54 stations. The Ahmedabad Metro network continues to expand, with the latest addition being the GIFT City Metro connection. This extension links the Ahmedabad Metro to Gujarat International Finance Tec-City (GIFT City), boosting regional connectivity and supporting the area's rapid development as a global financial hub. . It's managed by the Gujarat Metro Rail Corporation (GMRC). Operating from 6:20 AM to 10:00 PM, fares range from Rs 5 to Rs 25, with an average of one lakh passengers daily. India is continually expanding its metro network to address traffic congestion and enhance urban transportation. Several metro projects are currently under construction in various cities across the country, promising world-class facilities at affordable fares. These projects are set to transform city commuting. Bhopal Metro: Bhopal Metro will serve the city of Bhopal, and its approved routes encompass a distance of 21.65 km. A portion of this route, 6.22 km, is currently under construction by the Madhya Pradesh Metro Rail Corporation Limited (MPMRCL). The project promises to provide efficient and convenient metro services to Bhopal's residents. Patna Metro: Headed by the Patna Metro Rail Corporation (PMRC), the Patna Metro project will span a total distance of 24.803 km upon completion. This initiative aims to modernize transportation in Patna, offering residents a convenient and eco-friendly commuting option. It is set to be operational in July 2025.",
+      "source_url": "https://timesproperty.com/article/post/guide-to-india-metro-networks-in-2025-blid5678",
+      "timestamp": "2025-01-03"
+    },
+    {
+      "doc_id": "d10",
+      "text": "India's Metro Rail Network stretching over 1000 kilometers across 11 ... Stretching over 1,000 kilometers across 11 states and 23 cities, the network serves millions of daily passengers, making India home to the third ... Bangalore: 73.81 km Hyderabad: 69.0 km Kolkata: 57.5 km Chennai: 54.245 km Ahmedabad: 40.6 km Nagpur: 40.022 km Pune: 33.23 km Lucknow: 22.878 Kochi: 28.48 km Gandhi Nagar: 18.8 km Jaipur: 12.1 km Kanpur: 8.728 km Agra: 6.0 km India is also seeing a surge in metro projects, with several major cities expanding their metro networks:- Delhi-NCR (including RRTS): 145.65 km Mumbai: 176.05 km Bangalore: 143.425 km Chennai: 118.9 km Kolkata: 75.2 km Nagpur: 43.8 km Pune: 33.133 km Patna: 32.507 km Surat: 40.35 km Indore: 31.55 km Thane: 29.0 km Bhopal: 27.87 km Agra: 24.1 km Kanpur: 23.657 km Kochi: 11.2 km Ahmedabad: 8.884 km India\u2019s Global Metro Influence India\u2019s metro expertise is being recognized globally, with international interest in its successful metro systems. The Delhi Metro Rail Corporation (DMRC) is currently overseeing metro projects in Bangladesh and has provided consultancy services in Jakarta. Other countries such as Israel, Saudi Arabia, Kenya, and El Salvador are also exploring collaborations with DMRC to replicate India\u2019s metro success.",
+      "source_url": "https://metrorailtoday.com/news/indias-metro-rail-network-stretching-over-1000-kilometers-across-11-states-and-23-cities",
+      "timestamp": "2025-01-06"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses the implementation of metro rail systems in Indian cities, mentioning proposals for 50 cities and the criteria for implementation based on population."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query by stating there are 17 Indian cities with a metro train system as of October 2024 and provides details on the leader and newest systems."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions that new metro rail systems are under construction in over 20 Indian cities and discusses proposed projects, providing context to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "States that all metropolitan cities have metro rail facilities and that it is expanding to more cities. It also lists several cities with metro routes."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query, stating that the Metro railway system is operational in 10 cities in India and lists them."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that metro services now span across 23 cities and 11 states, indicating a significant expansion and providing a number relevant to the query."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query, stating that 10 Indian cities have functional metro rails and lists them."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions that metro systems cover over 1,000 km across 11 states and 23 cities, providing a specific number of cities with metro services."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "States that there are 15 Indian cities with an active metro rail service and an operational metro map, directly addressing the query."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States the metro rail network stretches across 11 states and 23 cities, and also lists operational lengths for several cities, providing relevant data."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "In May 2015, the Union Government approved the implementation of metro rail systems in 50 cities.",
+            "The first rapid transit system in India is the Kolkata Metro, which started operations in 1984.",
+            "The Delhi Metro has the largest network in the entire country.",
+            "In 2006, the National Urban Transport Policy proposed metro rail systems in cities with a population of at least 2 million.",
+            "On August 11, 2014, the Union Government announced financial assistance for metro rail systems in all Indian cities with a population over 1 million."
+          ],
+          "reason": "Extracted facts about government proposals, historical firsts, and network sizes related to metro rail implementation in Indian cities."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "There are 17 Indian cities with a metro train system as of October 2024.",
+            "Delhi metro is the biggest metro system in India with 350KM of operational length.",
+            "Agra metro is the newest and smallest metro system with 5.2 KM of length.",
+            "Delhi NCR has 3 metro systems.",
+            "Uttar Pradesh and Maharashtra each have 4 metro systems."
+          ],
+          "reason": "Extracted specific numbers of cities with metro systems and details about the largest and smallest networks as of a specific date."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "New metro rail systems are under construction in over 20 Indian cities.",
+            "Most Indian metro projects are developed in phases, while others are developed by line as funds become available."
+          ],
+          "reason": "Extracted information about the current construction status and development approach for metro projects in India."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Over three-fourths of India's metro rail network was conceptualized, constructed, and operationalized in less than a decade.",
+            "The Delhi Metro is the largest, with an annual ridership of over 100 crores.",
+            "All metropolitan cities have a well-connected metro rail facility.",
+            "Cities included in the metro route map of India are Kolkata, Delhi, Chennai, Bengaluru, Hyderabad, Ahmedabad, Jaipur, Gurugram, Mumbai, Noida, Kochi."
+          ],
+          "reason": "Extracted facts about the rapid expansion of metro networks, the largest metro system, and a list of cities with metro routes."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Metro railway system and service are operational in 10 cities in India.",
+            "These cities are Kolkata, Delhi, Bengaluru, Gurugram, Mumbai, Chennai."
+          ],
+          "reason": "Extracted a specific number of cities with operational metro systems and listed some of them."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "India's metro network spans across 23 cities and 11 states.",
+            "Cities with metro connectivity have increased from five to twenty-three in the last ten years.",
+            "The number of states with metro services has increased from five to eleven.",
+            "India's metro network is the third-largest in the world with a total length of 1,000 km.",
+            "The metro network has tripled in size in the last ten years."
+          ],
+          "reason": "Extracted facts about the current number of cities and states with metro services, its global ranking, and network growth over time."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "As of the current status, 10 Indian cities have functional metro rails.",
+            "These cities are Kolkata, Delhi, Chennai, Bengaluru, Hyderabad, Jaipur, Gurgaon, Mumbai, Kochi, and Lucknow.",
+            "India has 659.41 kilometers of operational metro lines connecting almost 502 stations."
+          ],
+          "reason": "Extracted the number of cities with functional metro rails, listed them, and provided the total operational length and number of stations."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Metro systems in India cover over 1,000 km across 11 states and 23 cities.",
+            "India ranks third globally in operational Metro network length.",
+            "India surpassed Japan in Metro Rail Projects in 2022.",
+            "The first metro system initiative in India was launched in 1969."
+          ],
+          "reason": "Extracted facts about the scale of India's metro network, its global ranking, and historical context."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "There are 15 Indian cities that have an active metro rail service and an operational metro map.",
+            "India is continually expanding its metro network to address traffic congestion and enhance urban transportation.",
+            "Several metro projects are currently under construction in various cities across the country."
+          ],
+          "reason": "Extracted the number of cities with active metro services and information about ongoing expansion and construction of metro projects."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "India's Metro Rail Network stretches over 1,000 kilometers across 11 states and 23 cities.",
+            "India is home to the third-largest metro network globally.",
+            "Specific operational lengths are provided for cities like Bangalore, Hyderabad, Kolkata, Chennai, Ahmedabad, Nagpur, Pune, Lucknow, Kochi, Gandhi Nagar, Jaipur, Kanpur, and Agra.",
+            "Major cities like Delhi-NCR, Mumbai, Bangalore, Chennai, Kolkata, Nagpur, Pune, Patna, Surat, Indore, Thane, Bhopal, Agra, Kanpur, and Kochi have expanding metro networks."
+          ],
+          "reason": "Extracted facts about the total length and number of cities/states covered by India's metro network, its global ranking, and specific lengths for various cities."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses government proposals and historical context for metro rail systems but does not provide a current count of cities with operational metro trains.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states that 17 Indian cities have a metro train system as of October 2024, answering the query with a specific number.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document focuses on metro systems under construction and development approaches, not the current number of operational metro trains in Indian cities.",
+          "confidence": 0.5
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Lists several cities with metro routes but does not provide a total count. It implies all metropolitan cities have a facility, which is vague.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "States that metro systems are operational in 10 cities and lists some, but this number is contradicted by other documents and may be outdated.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "States that India's metro network spans across 23 cities and has increased from five to twenty-three in the last ten years.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "States 10 Indian cities have functional metro rails and lists them, but this number is contradicted by other documents and may be outdated.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "States that metro systems in India cover 23 cities, directly answering the query about the number of cities with metro trains.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "partially_supports",
+          "reason": "Mentions 15 Indian cities have an active metro rail service, but this number is contradicted by other documents and may not be the most current.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "supports",
+          "reason": "States India's Metro Rail Network stretches across 23 cities, directly answering the query with a specific number.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d6",
+          "d8",
+          "d10"
+        ],
+        "partial_docs": [
+          "d4",
+          "d5",
+          "d7",
+          "d9"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_23_cities",
+            "doc_ids": [
+              "d6",
+              "d8",
+              "d10"
+            ],
+            "summary": "Multiple documents consistently state that India's metro network spans 23 cities."
+          },
+          {
+            "label": "direct_support_17_cities",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document provides a specific count of 17 cities with metro systems as of October 2024."
+          },
+          {
+            "label": "partial_support_varying_counts",
+            "doc_ids": [
+              "d4",
+              "d5",
+              "d7",
+              "d9"
+            ],
+            "summary": "Several documents offer partial support with varying or potentially outdated counts (e.g., 10, 15 cities) and lists of cities, but lack a definitive total."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "These documents discuss historical context, government proposals, or ongoing construction rather than the current number of operational metro systems."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "Evidence presents conflicting numbers for the total cities with operational metro systems, with counts ranging from 10 to 23, and one specific recent count of 17.",
+        "clusters": [
+          {
+            "label": "most_recent_and_consistent_evidence",
+            "doc_ids": [
+              "d6",
+              "d8",
+              "d10"
+            ],
+            "summary": "Multiple sources consistently state that India's metro network spans 23 cities."
+          },
+          {
+            "label": "specific_recent_count",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "One document states there are 17 Indian cities with a metro train system as of October 2024."
+          },
+          {
+            "label": "older_or_partial_counts",
+            "doc_ids": [
+              "d5",
+              "d7",
+              "d9"
+            ],
+            "summary": "Some documents provide lower or varying counts (10 or 15 cities) which may be outdated or incomplete."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "These documents discuss historical context, government proposals, or ongoing construction rather than the current number of operational metro systems."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "There is a significant conflict between the evidence, with counts ranging from 10 to 23 cities. The most recent and consistent evidence points to 23 cities, but a specific recent count of 17 also exists, making a definitive answer unreliable."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "There is a significant conflict between the evidence, with counts ranging from 10 to 23 cities. The most recent and consistent evidence points to 23 cities, but a specific recent count of 17 also exists, making a definitive answer unreliable.",
+        "final_reasoning": "The evidence presents conflicting numbers for the total cities with operational metro systems, ranging from 10 to 23, with a specific recent count of 17. This conflict prevents a definitive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": false,
+        "correct_type": true,
+        "correct_abstain": false,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.0,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents provide conflicting numbers for cities with metro trains, ranging from 10 to 23."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 19978,
+      "completion_tokens": 3971,
+      "total_tokens": 23949
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3637,
+        "completion_tokens": 760,
+        "total_tokens": 4397
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3592,
+        "completion_tokens": 1429,
+        "total_tokens": 5021
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1669,
+        "completion_tokens": 709,
+        "total_tokens": 2378
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2129,
+        "completion_tokens": 414,
+        "total_tokens": 2543
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2480,
+        "completion_tokens": 351,
+        "total_tokens": 2831
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 813,
+        "completion_tokens": 72,
+        "total_tokens": 885
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 990,
+        "completion_tokens": 135,
+        "total_tokens": 1125
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4668,
+        "completion_tokens": 101,
+        "total_tokens": 4769
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:30.754484",
+        "prompt_tokens": 3637,
+        "completion_tokens": 760,
+        "total_tokens": 4397,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:35.506528",
+        "prompt_tokens": 3592,
+        "completion_tokens": 1429,
+        "total_tokens": 5021,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:38.920371",
+        "prompt_tokens": 1669,
+        "completion_tokens": 709,
+        "total_tokens": 2378,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:40.994699",
+        "prompt_tokens": 2129,
+        "completion_tokens": 414,
+        "total_tokens": 2543,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:42.815161",
+        "prompt_tokens": 2480,
+        "completion_tokens": 351,
+        "total_tokens": 2831,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:43.997659",
+        "prompt_tokens": 813,
+        "completion_tokens": 72,
+        "total_tokens": 885,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:45.023045",
+        "prompt_tokens": 990,
+        "completion_tokens": 135,
+        "total_tokens": 1125,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:06:46.612448",
+        "prompt_tokens": 4668,
+        "completion_tokens": 101,
+        "total_tokens": 4769,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T14:06:27.000642",
+  "last_updated_at": "2026-04-17T14:06:46.613054"
+}

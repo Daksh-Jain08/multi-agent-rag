@@ -1,0 +1,591 @@
+{
+  "sample_id": "#0120",
+  "query": "Are electric cars really green?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How Green Are Electric Vehicles? - The New York Times Listen to This Article Around the world, governments and automakers are promoting electric vehicles as a key technology to curb oil use and fight climate change. General Motors has said it aims to stop selling new gasoline-powered cars and light trucks by 2035 and will pivot to battery-powered models. This week, Volvo said it would move even faster and introduce an all-electric lineup by 2030. But as electric cars and trucks go mainstream, they have faced a persistent question: Are they really as green as advertised? While experts broadly agree that plug-in vehicles are a more climate-friendly option than traditional vehicles, they can still have their own environmental impacts, depending on how they\u2019re charged up and manufactured. Here\u2019s a guide to some of the biggest worries \u2014 and how they might be addressed. One way to compare the climate impacts of different vehicle models is with this interactive online tool by researchers at the Massachusetts Institute of Technology, who tried to incorporate all the relevant factors: the emissions involved in manufacturing the cars and in producing gasoline and diesel fuel, how much gasoline conventional cars burn, and where the electricity to charge electric vehicles comes from. If you assume electric vehicles are drawing their power from the average grid in the United States, which typically includes a mix of fossil fuel and renewable power plants, then they\u2019re almost always much greener than conventional cars. Even though electric vehicles are more emissions-intensive to make because of their batteries, their electric motors are more efficient than traditional internal combustion engines that burn fossil fuels. An all-electric Chevrolet Bolt, for instance, can be expected to produce 189 grams of carbon dioxide for every mile driven over its lifetime, on average. By contrast, a new gasoline-fueled Toyota Camry is estimated to produce 385 grams of carbon dioxide per mile. A new Ford F-150 pickup truck, which is even less fuel-efficient, produces 636 grams of carbon dioxide per mile. But that\u2019s just an average.",
+      "source_url": "https://www.nytimes.com/2021/03/02/climate/electric-vehicles-environment.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Benefits of Electric Cars on Environment | EV & Petrol Cars | EDF Benefits of electric cars on the environment Research has shown that electric cars are better for the environment. They emit fewer greenhouse gases and air pollutants than petrol or diesel cars. And this takes into account their production and electricity generation to keep them running. Here we answer some of the most common questions around EVs and their impact on the environment. If you're already set on an electric car, check out our leasing deals - best cars and great prices. Are electric cars better for the environment? The major benefit of electric cars is the contribution that they can make towards improving air quality in towns and cities. With no tailpipe, pure electric cars produce no carbon dioxide or other harmful emissions when driving. This reduces air pollution considerably. Electric cars and UK's Net Zero target According to the Mayor of London, road transport accounts for around half of the capital's air pollution. It\u2019s no wonder that the UK government and local councils want to accelerate the number of electric cars on the roads. The UK government has set a target that the sale of petrol and diesel cars will be banned by 2030. The government is also looking to reduce net carbon emissions to zero by 2050, and electric cars will play a big role in that. What's more, EVs can also help with noise pollution, especially in cities where speeds are generally low. As electric cars are far quieter than conventional vehicles, driving electric creates a more peaceful environment for us all. Compare an electric vs petrol car Research by the International Energy Agency (IEA) shows that electric vehicles come with a significantly lower total carbon output per vehicle lifetime than a typical Internal Combustion Engine (ICE) powered vehicle. As electricity generation continues to get cleaner, this position can only improve over time. How does electric car production affect the environment? Making electric cars does use a lot of energy. Even after taking battery manufacture into account, electric cars are still a greener option. This is because of the reduction in emissions created over the car\u2019s lifetime Reusing and recycling batteries is also a growing market.",
+      "source_url": "https://www.edfenergy.com/energywise/electric-cars-and-environment",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Are electric cars 'green'? The answer is yes, but it's complicated Are electric cars 'green'? The answer is yes, but it's complicated As electric cars become more popular, some question if they are as environmentally friendly as advertised \u2014 with some saying that greenhouse emissions during the manufacturing process and battery-charging have to be considered. The number of electric cars, buses, vans and heavy trucks on roads is expected to hit 145 million by 2030, the International Energy Agency predicts. Experts broadly agree that electric vehicles create a lower carbon footprint over the course of their lifetime than do cars and trucks that use traditional, internal combustion engines. That would seem to be good news, as the world tries to wean itself off fossil fuels that are wrecking the global climate. But as electric cars become more popular, some question just how environmentally friendly they are. The batteries in electric vehicles, for example, charge on power that is coming straight off the electric grid \u2014 which is itself often powered by fossil fuels. And there are questions about how energy-intensive it is to build an EV or an EV battery, versus building a comparable traditional vehicle. Are electric vehicles greener? The short answer is yes \u2014 but their full green potential is still many years away. Experts broadly agree that electric vehicles create a lower carbon footprint over the course of their lifetime than do cars and trucks that use traditional, internal combustion engines. Electricity grids in most of the world are still powered by fossil fuels such as coal or oil, and EVs depend on that energy to get charged. Separately, EV battery production remains an energy-intensive process. Producing electric vehicles leads to significantly more emissions than producing petrol cars ... which is mostly from the battery production. In short, the total emissions per mile for battery-powered cars are lower than comparable cars with internal combustion engines. \"If we are going to take a look at the current situation, in some countries, electric vehicles are better even with the current grid,\" Sergey Paltsev, a senior research scientist at the MIT Energy Initiative and one of the study's authors, told CNBC.",
+      "source_url": "https://www.cnbc.com/2021/07/26/lifetime-emissions-of-evs-are-lower-than-gasoline-cars-experts-say.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Are Electric Cars Better for the Environment? | Cars.com Are Electric Cars Better for the Environment? Are electric vehicles better for the environment? The answer is yes \u2014 not perfect, but better than an average new gasoline-powered vehicle no matter where you live in the U.S., according to a greenhouse gas emissions calculator created by the EPA. The calculator lets you compare the total emissions per mile \u2014 almost all of it carbon dioxide \u2014 of current EVs in any region in the country to the emissions of the average gasoline vehicle. But wait, aren\u2019t electric cars \u201czero-emission\u201d vehicles? Well, not exactly. They have zero local emissions. The calculator accounts for the reality that while electric cars emit no carbon dioxide on the road (that is, no tailpipe emissions), the energy stored in their batteries has to be generated somewhere \u2014 and much of the power generation in the U.S. creates what are known as upstream emissions for the EV. However, the EPA calculator also shows that the oft-heard criticism that EVs simply shift the same emissions to somewhere else is a myth. EVs still account for lower greenhouse gas emissions than the average new gasoline vehicle. Not All Electricity Is Created Equal For EVs , the EPA calculates the grams of greenhouse gases created to produce the electricity needed to drive a mile. The calculator provides model-specific grams per mile for each of the various EVs currently on the market, as well as for current plug-in hybrid electric vehicles. The calculation also is location-specific. That\u2019s important for an accurate calculation of EV upstream emissions because the mix of power generation sources varies by region. In the U.S., much of our electricity \u2014 about 60% in 2020 \u2014 comes from power plants that run on fossil fuels, including nearly 20% from plants that still burn coal, according to the Energy Information Administration. Another 20% is from nuclear plants, and a further 20% or so comes from renewables such as wind, solar and hydroelectric generation.",
+      "source_url": "https://www.cars.com/articles/are-electric-cars-better-for-the-environment-2-442320/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Child labour, toxic leaks: the price we could pay for a greener future ... 016 and triggered widespread protests in the region. Nor will these ecological problems be confined to specialist metals, analysts have pointed out. They say that rising demands for traditional materials such as cement \u2013 for building hydro-electric dams \u2013 or for copper, to provide cables to link wind and solar farms to cities and to build electric cars, could also cause widespread environmental damage unless care is taken. Our growing appetite for copper provides a striking illustration of the issues. Thousands of tonnes are needed to create wind or solar power devices while electric vehicles use two or three times more copper than those powered by a diesel or petrol engine. As a result, the world\u2019s appetite for copper is likely to jump by more than 300% by 2050, according to one recent report. \u201cYou need tens of kilograms more copper for an electric car compared with one with a petrol engine,\u201d said Herrington. \u201cThat means, if you want to turn all the UK\u2019s 31m cars into electric vehicles you would require about 12% of the world\u2019s entire copper output \u2013 just for Britain. That is an unrealistic demand, given that we are hoping to be making electric cars only within a decade.\u201d Harrington said it was inevitable that there would an expansion in mining and in providing energy for refining ores which, combined, would have real environmental impacts. \u201cWe are going to have to do that in a way that creates profits but also serves people and the planet.\u201d A Volkswagen ID.3, part of the company\u2019s efforts to break into the burgeoning electric car market. Photograph: Sean Gallup/Getty Images In addition to these issues, the proposed expansion of nuclear power in the UK \u2013 to satisfy demand no longer met by coal or gas plants \u2013 is likely to lead to the creation of increased amounts of nuclear waste. However, the UK still has no method for safely storing nuclear waste underground and relies on keeping highly radioactive remnants from power plant operations above ground. These stores may have to be expanded significantly in future.",
+      "source_url": "https://www.theguardian.com/environment/2021/jan/03/child-labour-toxic-leaks-the-price-we-could-pay-for-a-greener-future",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Are electric cars definitely greener than petrol? - BBC Science Focus ... Are electric cars definitely greener than petrol? Are electric cars definitely greener than petrol? At first glance, electric cars can seem like the perfect antidote to petrol and diesel vehicles, whose fumes choke up towns and cities with air pollution. But they can still have detrimental effects on the environment. As far as greenhouse gas emissions are concerned, electric cars are only as green as the energy used to manufacture them and to charge their batteries. However, a recent study by the International Council on Clean Transportation concluded that over their lifetime (including manufacture) electric vehicles are responsible for fewer greenhouse gas emissions than their petrol counterparts. But this difference was far greater in some places than in others. In Europe, an electric car generates up to 69 per cent less CO2 equivalent per kilometre than a petrol car. However, in India, this figure is 34 per cent. The disparity comes down to how electricity is sourced in each country. One of the lowest-carbon places in the world to charge an electric car is France, where only 9 per cent of electricity comes from burning fossil fuels. But many countries still produce most of their electricity from coal, oil and gas, so plugging in an electric car in China or India can indirectly generate a large number of greenhouse gases. Electric vehicles\u2019 lithium-ion batteries can be an environmental hazard if disposed of carelessly, although they are considerably less toxic than traditional lead-acid car batteries. Unlike lead-acid batteries, lithium-ion batteries are tricky to recycle and liable to explode if disassembled incorrectly. Currently, only 5 per cent are recycled. Many car manufacturers, such as Tesla, are stepping up their recycling programmes, but it remains to be seen if they will be able to cope with skyrocketing demand as the electric vehicles on the road today reach the end of their lifespan.",
+      "source_url": "https://www.sciencefocus.com/news/are-electric-cars-greener",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "How Are Electric Vehicles Better for the Environment? How Are Electric Vehicles Better for the Environment? Get Started with Samsara As a cleaner alternative, electric vehicles are an important step in sustainable transportation. Notable for their fuel efficiency, EVs can be a cost-effective way to reduce operating expenses across your fleet. Rising fuel prices and a push for greener initiatives have led many organizations to adopt\u00c2 electric vehicles (EVs) for their fleets. Notable for their fuel efficiency, EVs can be a cost-effective way to reduce operating expenses. The price of electricity in the United States averages 10 cents per kilowatt-hour (kWh). Typically, an electric car costs approximately 3 cents per mile\u00e2\u0080\u0094much lower than a gasoline car at 10 cents per mile. \u00c2 Besides lower fuel costs, EVs also serve as a greener alternative to gas or diesel vehicles. By eliminating exhaust, they can reduce a fleet\u00e2\u0080\u0099s greenhouse gas emissions. This advantage helps businesses stay sustainable and compliant with government guidelines. Read on to learn more about EVs and why they\u00e2\u0080\u0099re beneficial both for the environment and your fleet. \u00c2 What are EVs, and how do they work? Conventional cars use internal combustion engines (ICEs) that generally run on fossil fuels like gas or diesel. EVs use one or more electric motors powered by rechargeable lithium-ion batteries, the same kinds of batteries that power smartphones and laptops. And like electronic devices, EVs plug into external power sources for charging. Other types of batteries rely on regenerative braking for charging, or generating electricity from the vehicle\u00e2\u0080\u0099s frictional energy. In addition to being less polluting than fuel engines, lithium-ion batteries often work more efficiently. Many have a guaranteed life span of 8-10 years. \u00c2 Like stopping at a gas station, a network of charging stations gives EV batteries access to power on the road. An EV\u00e2\u0080\u0099s driving range between stations is dependent on its battery life.",
+      "source_url": "https://www.samsara.com/guides/how-are-electric-vehicles-better-for-the-environment/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "How Norway's government made electric cars irresistible | PBS ... -a-million electric cars in the U.S. To have the same percentage as Norway, America would require 6.25 million electric cars on the road. This is Oslo's rush hour, as electric car drivers hunt a parking spot at the city's biggest charging station. The energy is almost completely renewable energy, as 98 percent of the country's power comes from hydroelectric plants. Norwegians endure some of the world's heaviest taxes, and removing sales tariffs from electric cars has been irresistible. The government aims to end sales of gasoline and diesel vehicles by 2025. PETTER HAUGNELAND, Industry Advocate: There has to be a big difference if you choose a zero emission car or a polluting car when you buy it on the tax system. MALCOLM BRABANT: Industry advocate Petter Haugneland argues taxes on fossil fuel vehicles should be increased to speed up the process. PETTER HAUGNELAND: In Norway, transport sector is a key element to lower the emissions. We need to cut our emissions very fast if we're going to do something about the climate problem. MALCOLM BRABANT: In March, President Trump canceled a fuel economy ruling put in place by the Obama administration requiring automakers to achieve 54 miles a gallon by 2025, double the present level. Environmentalists claimed higher standards would boost sales of hybrid and electric cars. PRESIDENT DONALD TRUMP: The assault on the America auto industry, believe me, is over. It's over. MALCOLM BRABANT: Norway's environment minister, Vidar Helgesen, belongs to a center-right party that once aligned with the Republicans. It now has more in common with the Democrats. Helgesen didn't criticize President Trump directly, but sent a clear message not to turn back the clock. VIDAR HELGESEN, Foreign Minister, Norway: Our position is very much that we very much need to build competitiveness for the future.",
+      "source_url": "https://www.pbs.org/newshour/show/norways-government-made-electric-cars-irresistible",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Electric Cars Aren't Nearly as Green as People Think - Foundation ... 75 kWh, this means an additional CO2 emission of 10 875 kg to 14 625 kg of CO2. Converted to pounds, these numbers are between 23 thousand and 32 thousand pounds of carbon emissions. For each battery! Even after the initial production of the battery, many electric cars are charged by power plants that produce electricity by burning coal or gas. According to the US Energy Information Administration, 63 percent of total electricity generation in the United States is created using fossil fuels. If the electricity being used to power the electric cars is being produced using fossil fuels, then using electric cars is simply shifting CO2 emissions from the tailpipe of the car to the electricity power plant. Electricity from Fossil Fuels Around the world, different countries have different levels of dependency on fossil fuels for electricity production. For example, according to a 2017 study by Michael Sivak and Brandon Schoettle at the University of Michigan, On one extreme is Albania (which generates 100% of its electricity from hydroelectric power)... on the other extreme are Botswana and Gibraltar (which generate 100% of their electricity from coal and oil). Though electric cars may not visibly emit CO2 while driving, don\u2019t be fooled. A significant amount of CO2 emissions are produced in manufacturing the battery and in its ongoing charging. According to a 2012 Yale Study, It is counterproductive to promote EVs in regions where electricity is produced from oil, coal, and lignite combustion. Misleading Marketing Imagine if Tesla announced a new \u201cgreen\u201d airplane that ran completely on electricity. But if the production of the battery emitted tens of thousands of pounds of carbon emissions, and its charging hundreds more, would it really be green? So it is with electric cars. Next time you see an electric car or a charging station, keep in mind the emissions involved in producing the battery and the electricity used to keep it running. At the end of the day, the direct comparison between electric cars and gas cars is irrelevant.",
+      "source_url": "https://fee.org/articles/electric-cars-aren-t-nearly-as-green-as-people-think/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "Electric Cars Won't Solve Climate Change | Planetizen Blogs 1.4 billion, potentially as many as 1.5 billion vehicles in operation in the world today\u2014and that number has been doubling every 20 years or so since the 1970s. It's untenable politically or logistically in many countries to quickly swap out or retrofit all current vehicles for electric. Even with accelerating electric vehicle adoption rates, electric cars are a vast minority of new car sales. Electric cars won't save us Politicians don't want to tell you that electric vehicles won't solve the ecological problems created by transportation. The car companies certainly want you to think they will, proposing electric cars as the latest thing to buy and lobbying for tax credits and incentives for electric car purchases. However, electric vehicles won't solve our carbon emissions challenge fast enough \u2013 and prioritizing cars as a transportation method is extremely inefficient when it comes to space in our cities, another crucial part of the climate change equation. With less than a decade to reduce carbon emissions to 50% of our 2017 annual emissions, electrics cars won't get us nearly close enough even if we drastically increase our electric vehicle production and immediately switch to electric vehicles. Instead, we'll lock-in a level of carbon emissions that is unsustainable, particularly as personal vehicles are sold across the world's burgeoning population. Denser, urban cities can develop massive efficiencies in transportation, logistics, and housing that enable them to emit significantly less carbon (and cut down far fewer forests, crucial to converting the CO2 in our atmosphere) than sprawling suburban developments. If everyone has an electric car in the future, it\u2019ll take up significant urban space, particularly compared with alternative transportation modes. In urban environments (where the majority of the world\u2019s population lives and where a full 68% of the world\u2019s population is projected to be by 2050), there are plenty of other greener, more sustainable options. Research shows that roughly half of all car trips in US cities are under three miles and can be replaced with zero-emissions micromobility options such as scooters and bikes.",
+      "source_url": "https://www.planetizen.com/blogs/112490-electric-cars-wont-solve-climate-change",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the question of whether electric vehicles are green, discussing their emissions compared to conventional cars and the impact of electricity sources."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explains that electric cars are a greener option due to lower lifetime carbon output and improved air quality, while acknowledging production energy use."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States that electric cars are greener but acknowledges complexities, discussing lifetime carbon footprint and manufacturing/charging emissions."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "Confirms electric cars are better for the environment than gasoline vehicles, even accounting for upstream emissions from electricity generation."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Discusses environmental impacts of increased copper demand and mining for EVs and renewable energy infrastructure, which is related but not a direct answer to the 'greenness' of EVs themselves."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.88,
+          "is_relevant": true,
+          "reason": "Explains that EV greenness depends on manufacturing and charging energy sources, but concludes they have fewer lifetime greenhouse gas emissions than petrol cars."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Highlights EVs as a greener alternative to gas/diesel vehicles due to eliminating exhaust and reducing greenhouse gas emissions, contributing to sustainable transportation."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Focuses on government incentives and Norway's high EV adoption due to renewable energy, but doesn't directly evaluate the 'greenness' of EVs themselves."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Argues electric cars aren't as green as perceived due to significant CO2 emissions from battery production and charging, especially if electricity comes from fossil fuels."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Argues EVs won't solve climate change alone and are inefficient compared to other transport modes, rather than directly assessing their 'greenness'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Governments and automakers are promoting electric vehicles (EVs) to curb oil use and fight climate change.",
+            "General Motors aims to stop selling new gasoline-powered cars by 2035 and pivot to battery-powered models.",
+            "Volvo aims to introduce an all-electric lineup by 2030.",
+            "EVs are almost always much greener than conventional cars when drawing power from the average U.S. grid.",
+            "EVs are more emissions-intensive to make due to batteries, but their electric motors are more efficient than internal combustion engines."
+          ],
+          "reason": "Extracted key facts about the promotion of EVs, manufacturer timelines, and their comparative environmental benefits and drawbacks, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "As electricity generation gets cleaner, the environmental position of EVs improves.",
+            "Making electric cars uses a lot of energy, but they are still a greener option even after accounting for battery manufacture.",
+            "EVs can help reduce noise pollution, creating a more peaceful environment.",
+            "Research shows electric vehicles have a significantly lower total carbon output per vehicle lifetime than typical Internal Combustion Engine vehicles.",
+            "The major benefit of electric cars is their contribution to improving air quality in towns and cities."
+          ],
+          "reason": "Extracted facts highlighting the environmental benefits of EVs, including lower carbon output, reduced noise pollution, and improved air quality, while acknowledging manufacturing energy use."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Experts broadly agree that electric vehicles create a lower carbon footprint over their lifetime than traditional internal combustion engine vehicles.",
+            "Greenhouse gas emissions during manufacturing and battery charging must be considered for EVs.",
+            "The electricity used to charge EVs often comes from fossil fuels.",
+            "The number of electric cars, buses, vans, and heavy trucks is expected to reach 145 million by 2030."
+          ],
+          "reason": "Extracted facts confirming EVs have a lower lifetime carbon footprint but acknowledging the complexities of manufacturing emissions and charging sources, directly addressing the query's nuance."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Electric vehicles are better than average new gasoline-powered vehicles in terms of greenhouse gas emissions, regardless of location in the U.S.",
+            "EVs have zero local emissions (no tailpipe emissions).",
+            "The energy stored in EV batteries must be generated, leading to upstream emissions.",
+            "EVs still account for lower greenhouse gas emissions than the average new gasoline vehicle, contrary to the myth of simply shifting emissions.",
+            "The EPA calculates grams of greenhouse gases created to produce the electricity needed to drive a mile for EVs."
+          ],
+          "reason": "Extracted facts confirming EVs are greener than gasoline cars, clarifying the 'zero-emission' aspect, and explaining how upstream emissions are accounted for."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The world's appetite for copper is likely to jump by over 300% by 2050 due to EVs.",
+            "An electric car requires tens of kilograms more copper compared to a petrol engine car.",
+            "Turning all UK cars into EVs would require about 12% of the world's entire copper output.",
+            "Expansion in mining and energy for refining ores, combined with EV production, will have real environmental impacts.",
+            "Rising demands for materials like cement (for dams) and copper (for cables and EVs) could cause widespread environmental damage."
+          ],
+          "reason": "Extracted facts detailing the significant environmental impacts related to increased copper demand and mining for EV production and infrastructure, highlighting a less 'green' aspect."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Electric cars are only as green as the energy used to manufacture them and charge their batteries.",
+            "Over their lifetime, electric vehicles are responsible for fewer greenhouse gas emissions than their petrol counterparts.",
+            "Charging an electric car in countries that produce most electricity from fossil fuels (like China or India) can indirectly generate large amounts of greenhouse gases.",
+            "Charging an electric car in France, where only 9% of electricity is from fossil fuels, results in a lower carbon footprint.",
+            "EV lithium-ion batteries can be an environmental hazard if disposed of carelessly, though less toxic than lead-acid batteries."
+          ],
+          "reason": "Extracted facts explaining that EV greenness depends on energy sources for manufacturing and charging, noting lifetime emissions are lower but vary significantly by region."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "EVs can be a cost-effective way to reduce operating expenses due to fuel efficiency.",
+            "An electric car typically costs approximately 3 cents per mile to run, compared to 10 cents per mile for a gasoline car.",
+            "EVs serve as a greener alternative to gas or diesel vehicles by eliminating exhaust.",
+            "By eliminating exhaust, EVs can reduce a fleet's greenhouse gas emissions, helping businesses stay sustainable.",
+            "Electric vehicles are an important step in sustainable transportation."
+          ],
+          "reason": "Extracted facts focusing on the cost-effectiveness and operational environmental benefits of EVs, such as reduced fuel costs and greenhouse gas emissions from eliminating exhaust."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Norway's energy for electric cars comes almost completely from renewable sources, with 98% of its power from hydroelectric plants.",
+            "Norway made electric cars irresistible by removing sales tariffs, despite having some of the world's heaviest taxes."
+          ],
+          "reason": "Extracted facts about Norway's energy mix and government incentives, illustrating a scenario where EVs are powered by clean energy, making them demonstrably greener."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "A significant amount of CO2 emissions are produced in manufacturing EV batteries and in the ongoing charging process.",
+            "Producing a 75 kWh battery can result in an additional 10,875 kg to 14,625 kg of CO2 emissions.",
+            "Promoting EVs in regions where electricity is produced from oil, coal, and lignite combustion is counterproductive.",
+            "While EVs may not visibly emit CO2 while driving, emissions are involved in battery production and charging."
+          ],
+          "reason": "Extracted facts emphasizing the significant CO2 emissions associated with EV battery manufacturing and charging, challenging the perception of EVs as entirely 'green'."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "Electric vehicles won't solve all ecological problems created by transportation.",
+            "Prioritizing cars, even electric ones, is inefficient compared to alternative transportation modes in urban environments.",
+            "Roughly half of all car trips in US cities are under three miles and could be replaced by micromobility options like scooters and bikes.",
+            "It is politically or logistically difficult for many countries to quickly swap out all current vehicles for electric ones.",
+            "Electric cars are a vast minority of new car sales, even with accelerating adoption rates."
+          ],
+          "reason": "Extracted facts arguing that EVs are not a complete solution to climate change, highlighting inefficiencies and the need for alternative transportation, thus questioning their overall 'green' impact."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Provides context on EV promotion, manufacturer goals, and comparative environmental benefits, directly addressing the query about EVs being green.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Highlights improved environmental position of EVs as grids get cleaner, lower carbon output, and reduced pollution, supporting the 'green' aspect.",
+          "confidence": 0.92
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms lower lifetime carbon footprint but acknowledges manufacturing emissions and charging sources, directly addressing the query's nuance.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "States EVs have lower greenhouse gas emissions than gasoline cars, clarifying zero-emission aspect and accounting for upstream emissions.",
+          "confidence": 0.93
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Highlights significant environmental impacts from increased copper demand and mining for EV production, presenting a counterpoint to 'green' claims.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Explains EV greenness depends on energy sources, noting lower lifetime emissions but regional variations, and potential battery disposal issues.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Focuses on cost-effectiveness and operational benefits like reduced fuel costs and greenhouse gas emissions from eliminating exhaust.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Illustrates a scenario where EVs are demonstrably greener due to renewable energy sources and incentives, supporting the query.",
+          "confidence": 0.8
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Emphasizes significant CO2 emissions from battery manufacturing and charging, challenging the perception of EVs as entirely 'green'.",
+          "confidence": 0.91
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "partially_supports",
+          "reason": "Argues EVs aren't a complete solution, highlighting inefficiencies and need for alternative transport, questioning their overall 'green' impact.",
+          "confidence": 0.7
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d6",
+          "d7",
+          "d8",
+          "d9"
+        ],
+        "partial_docs": [
+          "d5",
+          "d10"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_general_benefits",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d7"
+            ],
+            "summary": "Multiple documents directly support that EVs are greener than conventional vehicles, citing lower emissions, improved air quality, and operational efficiencies."
+          },
+          {
+            "label": "nuanced_environmental_impacts",
+            "doc_ids": [
+              "d3",
+              "d6",
+              "d9"
+            ],
+            "summary": "Several documents acknowledge EVs' lower lifetime carbon footprint but emphasize significant environmental considerations related to manufacturing, battery production, and charging energy sources."
+          },
+          {
+            "label": "specific_case_study",
+            "doc_ids": [
+              "d8"
+            ],
+            "summary": "One document provides a specific example (Norway) where EVs are demonstrably greener due to a high renewable energy mix."
+          },
+          {
+            "label": "resource_and_systemic_concerns",
+            "doc_ids": [
+              "d5",
+              "d10"
+            ],
+            "summary": "Some documents partially support the 'green' aspect by highlighting significant environmental impacts from resource extraction (e.g., copper) and questioning the overall systemic efficiency and completeness of EVs as a solution."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence generally agrees that EVs are greener over their lifetime, but also highlights important nuances regarding manufacturing, charging sources, and resource demands.",
+        "clusters": [
+          {
+            "label": "EVs are greener than conventional vehicles",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d7"
+            ],
+            "summary": "Multiple sources confirm EVs have lower lifetime emissions, improve air quality, and offer operational efficiencies compared to gasoline cars."
+          },
+          {
+            "label": "Nuances and considerations for EV environmental impact",
+            "doc_ids": [
+              "d3",
+              "d6",
+              "d9"
+            ],
+            "summary": "Documents acknowledge EVs' lower lifetime footprint but stress the environmental costs of battery manufacturing and charging, especially when powered by fossil fuels."
+          },
+          {
+            "label": "Resource and systemic limitations of EVs",
+            "doc_ids": [
+              "d5",
+              "d10"
+            ],
+            "summary": "Some evidence points to significant environmental impacts from resource extraction (like copper) and questions the overall systemic efficiency of prioritizing EVs over other transport modes."
+          },
+          {
+            "label": "Case study of EVs powered by renewables",
+            "doc_ids": [
+              "d8"
+            ],
+            "summary": "Norway's example demonstrates EVs can be significantly greener when charged with a high percentage of renewable energy."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and coherent, with complementary nuances rather than severe conflicts. A reliable answer can be constructed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Electric vehicles (EVs) are generally considered greener than conventional vehicles due to lower lifetime emissions, improved air quality, and operational efficiencies. However, their environmental impact is nuanced, with significant considerations including the manufacturing of batteries, the energy sources used for charging, and the environmental costs of resource extraction. The overall greenness of EVs can be significantly enhanced when charged with a high percentage of renewable energy, as demonstrated by case studies.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d6",
+          "d7",
+          "d8",
+          "d9",
+          "d10"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence is largely supportive and coherent, with complementary nuances rather than severe conflicts. A reliable answer can be constructed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer is well-grounded in the provided documents, accurately summarizing the benefits and drawbacks of electric vehicles. Citations cover all claims made."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 22213,
+      "completion_tokens": 4244,
+      "total_tokens": 26457
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 3872,
+        "completion_tokens": 746,
+        "total_tokens": 4618
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 3827,
+        "completion_tokens": 1712,
+        "total_tokens": 5539
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1945,
+        "completion_tokens": 673,
+        "total_tokens": 2618
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2369,
+        "completion_tokens": 426,
+        "total_tokens": 2795
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2736,
+        "completion_tokens": 361,
+        "total_tokens": 3097
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 848,
+        "completion_tokens": 42,
+        "total_tokens": 890
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 995,
+        "completion_tokens": 189,
+        "total_tokens": 1184
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 5621,
+        "completion_tokens": 95,
+        "total_tokens": 5716
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:08.284210",
+        "prompt_tokens": 3872,
+        "completion_tokens": 746,
+        "total_tokens": 4618,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:20.904884",
+        "prompt_tokens": 3827,
+        "completion_tokens": 1712,
+        "total_tokens": 5539,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:23.660271",
+        "prompt_tokens": 1945,
+        "completion_tokens": 673,
+        "total_tokens": 2618,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:25.829395",
+        "prompt_tokens": 2369,
+        "completion_tokens": 426,
+        "total_tokens": 2795,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:28.070924",
+        "prompt_tokens": 2736,
+        "completion_tokens": 361,
+        "total_tokens": 3097,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:29.076755",
+        "prompt_tokens": 848,
+        "completion_tokens": 42,
+        "total_tokens": 890,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:30.374875",
+        "prompt_tokens": 995,
+        "completion_tokens": 189,
+        "total_tokens": 1184,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T15:45:31.750823",
+        "prompt_tokens": 5621,
+        "completion_tokens": 95,
+        "total_tokens": 5716,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T15:44:53.822554",
+  "last_updated_at": "2026-04-17T15:45:31.751428"
+}

@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0589",
+  "query": "Which album has Action Bronson as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "quickly to release \"ReggaeTony 2\". This CD featured Lumidee, Plan B, Joell Ortiz, Tru Life, Don Chezina, and the Beatnuts. To this date Tony has sold over a million records worldwide. On July 16, 2013, his sixth album \"\" was released and featured guest appearances from Busta Rhymes, Reek da Villain, Roc Marciano, Lil Fame, Too Short, Xzibit, Kurupt, B-Real, Papoose, Uncle Murda, Black Thought, Styles P, Sheek Louch, Jadakiss, Raekwon, Ghostface Killah, RZA, Eminem, Twista, Bun B, Action Bronson, Prodigy, Joell Ortiz, Royce da 5'9\", Krs-One, Crooked I, Redman, Method Man, N.O.R.E., and Erick Sermon. In 2016 he paired",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "project and a first single, \"Brother Jedediah\", featuring Action Bronson and Big Body Bess. The project was released on July 21. Like the previous Good Book, it contains two parts (one by Alchemist and one by Busgie). Alchemist's part features lyrics from Mobb Deep, Westside Gunn, Conway, Royce da 5'9\", Durag Dynasty, Action Bronson and more, as well as beats and some audio collages. In September 2017, a Hip-Hop project was released by \"Red Bull France\". The project consists of 8 tracks by rappers from Paris and Bruxelles (Belgium), with Alchemist helming the entire production of the project. A collaboration",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2011-10-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "and Dave Cobb. The album received critical acclaim and numerous \"Top Album\" ranking in the United States and Europe. Bronson was dubbed by \"Bop n Jazz\" as \"maybe the best singer/songwriter since Dylan\". In August 2017, he released his next album \"James\". The album includes \"Rough Ride\", a song about fellow Baltimorean Freddie Gray. Eliot Bronson Eliot Bronson is an American singer-songwriter. Bronson was born in Baltimore, Maryland. He began playing at local coffeehouses and was dubbed a \"folk singing wunderkind\" by \"The Baltimore Sun\". He later moved to Atlanta, where he formed the duo The Brilliant Inventions. The band",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Saaab Stories Saaab Stories is the second extended play (EP) by American rapper Action Bronson. The EP was released on June 11, 2013, and is entirely produced by American record producer Harry Fraud. The EP, which was released by Vice and Atlantic Records, serves as Bronson's major label debut project. It features guest appearances from fellow American rappers Wiz Khalifa, Prodigy and Raekwon. On April 18, 2012, Harry Fraud announced that he would be releasing a collaborative album with Action Bronson in the summer of 2012, saying \"Right now we have enough material for two projects. We\u0393\u00c7\u00d6re definitely going to",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Bronson signed with independent music label, Saturn 5 Records. The ten-song self-titled album \"Eliot Bronson\" was recorded totally analog in Nashville by producer Dave Cobb (Sturgill Simpson, Jason Isbell). Going for feel and vibe over modern perfection, he used a rare Helios mixing console and a tape machine on loan from the Norman Petty Estate, which was also used to record Buddy Holly in the 1950s. \"Eliot Bronson\" was recorded in one week at Cobb's home studio and The Sound Emporium, and mixed the following week. Other musicians on the album include Bret Hartley, Chris Powell, Adam Gardner, Kristen Rogers  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1999"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document lists Action Bronson as a guest performer on an album released on July 16, 2013."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document explicitly mentions Action Bronson as a featured performer on a project released on July 21, produced by Alchemist."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses singer-songwriter Eliot Bronson and his albums, not Action Bronson the rapper."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document is about Action Bronson's EP 'Saaab Stories', released on June 11, 2013, and mentions guest appearances."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses the self-titled album 'Eliot Bronson', not an album by Action Bronson."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "On July 16, 2013, his sixth album was released and featured guest appearances from Action Bronson."
+          ],
+          "reason": "Extracted the fact that Action Bronson was a guest performer on an album released on July 16, 2013."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A project released on July 21 featured Action Bronson as a performer.",
+            "Alchemist's part of a project features lyrics from Action Bronson."
+          ],
+          "reason": "Extracted facts stating Action Bronson was a performer on a project released July 21 and featured on Alchemist's part of a project."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document discusses Eliot Bronson, a singer-songwriter, and does not mention Action Bronson as a performer on any album."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Saaab Stories is the second extended play (EP) by American rapper Action Bronson.",
+            "The EP Saaab Stories was released on June 11, 2013, and is entirely produced by Harry Fraud.",
+            "Saaab Stories features guest appearances from Wiz Khalifa, Prodigy and Raekwon."
+          ],
+          "reason": "Extracted facts identifying Saaab Stories as an EP by Action Bronson, its release date, producer, and featured artists."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses Eliot Bronson's self-titled album and does not mention Action Bronson as a performer."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States Action Bronson was a guest performer on an album, but does not name the album.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Action Bronson as a performer on a project released July 21, but does not name the project.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses Eliot Bronson, not Action Bronson, and does not mention any albums performed by Action Bronson.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Identifies 'Saaab Stories' as an EP by Action Bronson, confirming him as a performer on this specific album.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Discusses Eliot Bronson's self-titled album and does not mention Action Bronson as a performer.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Identifies 'Saaab Stories' as an EP by Action Bronson, confirming him as a performer on this specific album."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Mentions Action Bronson as a guest performer on albums/projects released on specific dates, but the projects are not named."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents discuss Eliot Bronson, not Action Bronson, and do not contain relevant information."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides compatible details about Action Bronson's guest appearances on albums and projects, with specific details in some documents and general mentions in others.",
+        "clusters": [
+          {
+            "label": "specific_release_details",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Identifies 'Saaab Stories' EP by Action Bronson, released June 11, 2013, produced by Harry Fraud, featuring Wiz Khalifa, Prodigy, and Raekwon."
+          },
+          {
+            "label": "general_release_mentions",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Mentions Action Bronson as a guest performer on albums/projects released on July 16, 2013, and July 21, without naming the specific projects."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents discuss Eliot Bronson, a singer-songwriter, and do not mention Action Bronson."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is mostly supporting, with one document directly identifying 'Saaab Stories' as an EP by Action Bronson. Other documents provide partial context about his guest appearances, and irrelevant documents are clearly identified. There is no significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Action Bronson released the EP 'Saaab Stories' on June 11, 2013. It was produced by Harry Fraud and featured guest appearances from Wiz Khalifa, Prodigy, and Raekwon. Additional guest performances by Action Bronson on other projects were noted on July 16, 2013, and July 21, 2013.",
+        "citations": [
+          "d4",
+          "d1",
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly identifies the EP and its features. Partial documents provide additional, compatible information about other guest performances, confirming the answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately citing the album 'Saaab Stories' and other projects featuring Action Bronson."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9029,
+      "completion_tokens": 1950,
+      "total_tokens": 10979
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 363,
+        "total_tokens": 1842
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1434,
+        "completion_tokens": 438,
+        "total_tokens": 1872
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 838,
+        "completion_tokens": 334,
+        "total_tokens": 1172
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 989,
+        "completion_tokens": 229,
+        "total_tokens": 1218
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1235,
+        "completion_tokens": 269,
+        "total_tokens": 1504
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 683,
+        "completion_tokens": 66,
+        "total_tokens": 749
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 854,
+        "completion_tokens": 159,
+        "total_tokens": 1013
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1517,
+        "completion_tokens": 92,
+        "total_tokens": 1609
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:00.992371",
+        "prompt_tokens": 1479,
+        "completion_tokens": 363,
+        "total_tokens": 1842,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:03.051451",
+        "prompt_tokens": 1434,
+        "completion_tokens": 438,
+        "total_tokens": 1872,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:04.775138",
+        "prompt_tokens": 838,
+        "completion_tokens": 334,
+        "total_tokens": 1172,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:06.125546",
+        "prompt_tokens": 989,
+        "completion_tokens": 229,
+        "total_tokens": 1218,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:08.052545",
+        "prompt_tokens": 1235,
+        "completion_tokens": 269,
+        "total_tokens": 1504,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:09.103616",
+        "prompt_tokens": 683,
+        "completion_tokens": 66,
+        "total_tokens": 749,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:10.566217",
+        "prompt_tokens": 854,
+        "completion_tokens": 159,
+        "total_tokens": 1013,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:12.329524",
+        "prompt_tokens": 1517,
+        "completion_tokens": 92,
+        "total_tokens": 1609,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:13:59.426459",
+  "last_updated_at": "2026-04-17T20:14:12.330096"
+}

@@ -1,0 +1,389 @@
+{
+  "sample_id": "#0643",
+  "query": "Where is the orange bowl held this year?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "one touchdown. The Terrapins reached four more bowl games in the decade, including the newly renamed Florida Citrus Bowl in 1983. Florida reached six more bowl games in the decade, though they did not reach the Citrus Bowl again until 1998. 1980 Tangerine Bowl The 1980 Tangerine Bowl was an American college football bowl game played on December 20, 1980 at Orlando Stadium in Orlando, Florida. The game pitted the Florida Gators and the Maryland Terrapins. The Terrapins improved upon their record, rising from 7 to 8 victories, though they once again finished 2nd place in the Atlantic Coast Conference,",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Henry and St. Vincent (finished 7\u0393\u00c7\u00f46). The game's third-place position was soon overtaken, though, as Omaha and Eastern Kentucky finished 7\u0393\u00c7\u00f46 the next year and Juniata and Missouri Valley tied 6\u0393\u00c7\u00f46 the year after that, which put the 1954 edition at the fifth-lowest scoring Tangerine Bowl, a position it maintains to present day (throughout all name-changes and variations of the bowl). 1954 Tangerine Bowl The 1954 Tangerine Bowl was an American college football bowl game played after the 1953 season, on January 1, 1954, at the Tangerine Bowl stadium in Orlando, Florida. The Arkansas State Indians (now the Arkansas State",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "the coin for the coin toss. The officiating team was provided by the Southeastern Conference. 2007 Orange Bowl The 2007 FedEx Orange Bowl game was a college football Bowl Championship Series (BCS) bowl game following the 2006 NCAA Division I FBS football season. The game was played on January 2, 2007, at Dolphin Stadium in Miami Gardens, Florida. The game matched the No. 15 Wake Forest Demon Deacons versus the No. 6 Louisville Cardinals and was televised on Fox. Each of the teams selected an honorary captain. Wake Forest chose golf great Arnold Palmer, a Wake alumnus, and Louisville chose",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2016-04-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "1964 Tangerine Bowl The 1964 Tangerine Bowl was an American college football bowl game between the East Carolina Pirates and the Massachusetts Redmen (now the Minutemen), played in Orlando, Florida. From 1964 through 1967, the Tangerine Bowl was one of four postseason games in the NCAA College Division, the Atlantic regional final. The 1964 game had the Redmen of the Yankee Conference and the independent Pirates. The other three regional finals in the College Division were the Pecan, Grantland Rice, and Camellia bowls, also played on December 12. The game ultimately was decided by special teams. The Redmen scored twice",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2024-07-19"
+    },
+    {
+      "doc_id": "d5",
+      "text": "1983 Florida Citrus Bowl The 1983 Florida Citrus Bowl was an American college football bowl game played on December 17, 1983 at Florida Citrus Bowl in Orlando, Florida. The game pitted the Tennessee Volunteers and the Maryland Terrapins. Tennessee started the season 1-2, with a win over New Mexico and losses to #10 Pittsburgh and #11 Auburn (all at home). The Volunteers promptly won the next five games, including a road victory at #11 Alabama. A loss to Ole Miss was followed by victories over Kentucky and Vanderbilt to end the season tied for third place with Florida in the  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2021-12-21"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions the Florida Citrus Bowl and Tangerine Bowl in 1980 and 1983, but not the Orange Bowl or its location this year."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Discusses the Tangerine Bowl in 1954 and its scoring, not the Orange Bowl or its current location."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions the 2007 Orange Bowl was held at Dolphin Stadium in Miami Gardens, Florida. While not 'this year', it provides a specific location for an Orange Bowl."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Discusses the Tangerine Bowl in 1964 and its location in Orlando, Florida, but not the Orange Bowl."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions the 1983 Florida Citrus Bowl in Orlando, Florida, but does not provide information about the Orange Bowl."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 1980 Tangerine Bowl was played on December 20, 1980, at Orlando Stadium in Orlando, Florida."
+          ],
+          "reason": "Extracted the location and date of the 1980 Tangerine Bowl, a historical bowl game mentioned in the document."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The 1954 Tangerine Bowl was played on January 1, 1954, at the Tangerine Bowl stadium in Orlando, Florida."
+          ],
+          "reason": "Extracted the location and date of the 1954 Tangerine Bowl, a historical bowl game mentioned in the document."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The 2007 FedEx Orange Bowl game was played on January 2, 2007, at Dolphin Stadium in Miami Gardens, Florida."
+          ],
+          "reason": "Extracted the location and date of the 2007 Orange Bowl, directly answering the query about where the Orange Bowl is held."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The 1964 Tangerine Bowl was played in Orlando, Florida."
+          ],
+          "reason": "Extracted the location of the 1964 Tangerine Bowl, a historical bowl game mentioned in the document."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The 1983 Florida Citrus Bowl was played on December 17, 1983, at Florida Citrus Bowl in Orlando, Florida."
+          ],
+          "reason": "Extracted the location and date of the 1983 Florida Citrus Bowl, a historical bowl game mentioned in the document."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year's' Orange Bowl, but this document provides information about the 1980 Tangerine Bowl, which is not relevant.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year's' Orange Bowl, but this document provides information about the 1954 Tangerine Bowl, which is not relevant.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "This document directly states the location of the 2007 Orange Bowl, which is relevant to the query about where the Orange Bowl is held, although not necessarily 'this year'.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "The query asks about 'this year's' Orange Bowl, but this document provides information about the 1964 Tangerine Bowl, which is not relevant.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the Orange Bowl, but this document provides information about the 1983 Florida Citrus Bowl, which is a different event.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d3"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_orange_bowl_location",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 directly provides the location for an Orange Bowl game."
+          },
+          {
+            "label": "irrelevant_tangerine_bowl_info",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 discuss the Tangerine Bowl, which is not the Orange Bowl."
+          },
+          {
+            "label": "irrelevant_citrus_bowl_info",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 discusses the Florida Citrus Bowl, which is a different event than the Orange Bowl."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Document d3 supports the query by providing information about an Orange Bowl game, while other documents are irrelevant as they discuss different bowl games.",
+        "clusters": [
+          {
+            "label": "orange_bowl_information",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 provides the location of the 2007 Orange Bowl."
+          },
+          {
+            "label": "irrelevant_bowl_games",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d4, and d5 discuss the Tangerine Bowl and Florida Citrus Bowl, which are different events than the Orange Bowl."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence is available, and there is no conflict. The system can confidently answer the query."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Document d3 provides the location of the 2007 Orange Bowl.",
+        "citations": [
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d3 directly answers the query about the Orange Bowl location. Other documents are irrelevant as they discuss different bowl games."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies that document d3 provides the location of the 2007 Orange Bowl, and this information is directly supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9086,
+      "completion_tokens": 1931,
+      "total_tokens": 11017
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1495,
+        "completion_tokens": 390,
+        "total_tokens": 1885
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 471,
+        "total_tokens": 1921
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 866,
+        "completion_tokens": 396,
+        "total_tokens": 1262
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1078,
+        "completion_tokens": 236,
+        "total_tokens": 1314
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1331,
+        "completion_tokens": 217,
+        "total_tokens": 1548
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 632,
+        "completion_tokens": 40,
+        "total_tokens": 672
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 777,
+        "completion_tokens": 84,
+        "total_tokens": 861
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1457,
+        "completion_tokens": 97,
+        "total_tokens": 1554
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:03.976753",
+        "prompt_tokens": 1495,
+        "completion_tokens": 390,
+        "total_tokens": 1885,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:05.616150",
+        "prompt_tokens": 1450,
+        "completion_tokens": 471,
+        "total_tokens": 1921,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:07.264267",
+        "prompt_tokens": 866,
+        "completion_tokens": 396,
+        "total_tokens": 1262,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:08.484739",
+        "prompt_tokens": 1078,
+        "completion_tokens": 236,
+        "total_tokens": 1314,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:09.747970",
+        "prompt_tokens": 1331,
+        "completion_tokens": 217,
+        "total_tokens": 1548,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:10.597342",
+        "prompt_tokens": 632,
+        "completion_tokens": 40,
+        "total_tokens": 672,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:11.569115",
+        "prompt_tokens": 777,
+        "completion_tokens": 84,
+        "total_tokens": 861,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:25:13.940407",
+        "prompt_tokens": 1457,
+        "completion_tokens": 97,
+        "total_tokens": 1554,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:25:01.017142",
+  "last_updated_at": "2026-04-17T20:25:13.940887"
+}

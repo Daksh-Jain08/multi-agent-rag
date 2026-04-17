@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0467",
+  "query": "When did scotland become part of the union?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "local council, apart from in Dumfries & Galloway and Orkney. In response to the majority voting for \"Yes\" to both proposals, the UK Parliament passed the Scotland Act 1998. This established a Scottish Parliament for the first time since the adjournment of the pre-Union Parliament of Scotland in 1707. The devolved Parliament convened for the first time in May 1999, following its first election. This was an election that the Conservative Party had to fight despite losing their \"No\" Campaign and having no Westminster seats in Scotland after the 1997 general election. The Scotland Act 1998 also created the Scottish",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "restore him to the English throne. Defeat in the 1649\u0393\u00c7\u00f41651 Third English Civil War or Anglo-Scottish War resulted in Scotland's incorporation into the Commonwealth of England, Scotland and Ireland, largely driven by Cromwell's determination to break the power of the kirk, which he held responsible for the Anglo-Scottish War. The 1652 Tender of Union was followed on 12 April 1654 by \"An Ordinance by the Protector for the Union of England and Scotland,\" creating the Commonwealth of England, Scotland and Ireland. It was ratified by the Second Protectorate Parliament on 26 June 1657, creating a single Parliament in Westminster, with",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "English commissioners were appointed, Oliver St John, Sir Henry Vane, Richard Salwey, George Fenwick, John Lambert, Richard Deane, Robert Tichborne, and George Monck, to further the matter. The English parliamentary commissioners travelled to Scotland and at Mercat Cross in Edinburgh on 4 February 1652, proclaimed that the Tender of Union was in force in Scotland. By 30 April 1652 the representatives of the shires and Royal burghs of Scotland had agreed to the terms which included an oath that Scotland and England be subsumed into one Commonwealth. On the 13 April 1652\u0393\u00c7\u00f6between the proclamation and the last of the shires",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Union with Scotland (Amendment) Act 1707 The Union with Scotland (Amendment) Act 1707 (6 Ann c 40) is an Act of the Parliament of Great Britain. It is chapter VI in the common printed editions. This Act was partly in force in Great Britain at the end of 2010. It united the English and Scottish Privy Councils and decentralised Scottish administration by appointing justices of the peace in each shire to carry out administration. In effect it took the day-to-day government of Scotland out of the hands of politicians and into those of the College of Justice. This section was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2001-02-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "to agree to the terms\u0393\u00c7\u00f6a bill for an \"Act for incorporating Scotland into one Commonwealth with England\" was given a first and a second reading in Rump Parliament but it failed to return from its committee stage before the Rump was dissolved. A similar act was introduced into the Barebones Parliament but it too failed to be enacted before that parliament was dissolved. On 12 April 1654, the \"Ordinance for uniting Scotland into one Commonwealth with England\" issued by the Lord Protector Oliver Cromwell and proclaimed in Scotland by the military governor of Scotland, General George Monck. The Ordinance did  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions the pre-Union Parliament of Scotland in 1707 and the Scotland Act 1998, but doesn't state when Scotland became part of the union."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Describes Scotland's incorporation into the Commonwealth of England in 1654 and the subsequent Union of England and Scotland, providing a date for a union."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Details the proclamation of the Tender of Union in 1652 and Scotland's agreement to be subsumed into one Commonwealth with England, indicating a union process."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions the Union with Scotland (Amendment) Act 1707 but focuses on administrative changes rather than the date of the union itself."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses the 'Act for incorporating Scotland into one Commonwealth with England' in 1654, providing a specific instance of union."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The pre-Union Parliament of Scotland was adjourned in 1707.",
+            "The Scotland Act 1998 established a Scottish Parliament.",
+            "The devolved Parliament convened for the first time in May 1999."
+          ],
+          "reason": "Extracted facts about the establishment and convening of the Scottish Parliament, referencing the pre-Union Parliament's adjournment in 1707."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Defeat in the 1649\u20131651 Third English Civil War resulted in Scotland's incorporation into the Commonwealth of England, Scotland and Ireland.",
+            "The 1652 Tender of Union was followed on 12 April 1654 by an Ordinance for the Union of England and Scotland.",
+            "The Second Protectorate Parliament ratified the Ordinance on 26 June 1657, creating a single Parliament in Westminster."
+          ],
+          "reason": "Extracted facts detailing Scotland's incorporation into the Commonwealth of England, Scotland and Ireland, including dates and ordinances related to the union."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "English parliamentary commissioners proclaimed the Tender of Union in Scotland on 4 February 1652.",
+            "By 30 April 1652, representatives of Scotland's shires and burghs agreed to terms including subsuming Scotland and England into one Commonwealth."
+          ],
+          "reason": "Extracted facts about the proclamation of the Tender of Union in Scotland and the agreement of Scottish representatives to the terms of union."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Union with Scotland (Amendment) Act 1707 is an Act of the Parliament of Great Britain.",
+            "This Act united the English and Scottish Privy Councils.",
+            "It decentralized Scottish administration by appointing justices of the peace in each shire."
+          ],
+          "reason": "Extracted facts about the Union with Scotland (Amendment) Act 1707, including its nature as an Act of Parliament and its effects on Scottish administration."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "On 12 April 1654, the \"Ordinance for uniting Scotland into one Commonwealth with England\" was issued by Oliver Cromwell.",
+            "The Ordinance was proclaimed in Scotland by General George Monck."
+          ],
+          "reason": "Extracted facts about the Ordinance for uniting Scotland into one Commonwealth with England, including its issuer and proclamation date and agent."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the establishment of the Scottish Parliament in 1999 and the adjournment of the pre-Union Parliament in 1707, but not when Scotland became part of the union.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "This document states that Scotland was incorporated into the Commonwealth of England, Scotland and Ireland in 1652, with an Ordinance for Union in 1654 and ratification in 1657.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "This document details the proclamation of the Tender of Union in 1652 and the agreement of Scottish representatives to subsume Scotland into one Commonwealth by April 1652.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "This document mentions the Union with Scotland (Amendment) Act 1707, indicating a union occurred, but focuses on administrative changes rather than the date of union.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "This document states that the \"Ordinance for uniting Scotland into one Commonwealth with England\" was issued on 12 April 1654 and proclaimed in Scotland.",
+          "confidence": 0.85
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1"
+        ],
+        "evidence_summary": [
+          {
+            "label": "commonwealth_union",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide direct evidence of Scotland's union with England during the Commonwealth period, citing ordinances and agreements from the 1650s."
+          },
+          {
+            "label": "act_of_union_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 partially supports the union by referencing the Union with Scotland (Amendment) Act 1707, though it focuses on administrative changes rather than the primary date of union."
+          },
+          {
+            "label": "irrelevant_parliament_info",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 is irrelevant as it discusses the modern Scottish Parliament and the adjournment of the pre-Union Parliament, not the historical union itself."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources consistently describes Scotland's union with England during the Commonwealth period in the 1650s, with one document providing context on later administrative changes.",
+        "clusters": [
+          {
+            "label": "Commonwealth Union",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d2, d3, and d5 provide direct evidence of Scotland's union with England during the Commonwealth period, citing ordinances and agreements from the 1650s."
+          },
+          {
+            "label": "Act of Union Context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 partially supports the union by referencing the Union with Scotland (Amendment) Act 1707, though it focuses on administrative changes rather than the primary date of union."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence exists, and the conflict is complementary, allowing for a grounded answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Scotland united with England during the Commonwealth period in the 1650s, as evidenced by ordinances and agreements from that time. Document d4 provides partial support by referencing administrative changes related to the Union with Scotland (Amendment) Act 1707.",
+        "citations": [
+          "d2",
+          "d3",
+          "d5",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents d2, d3, and d5 directly address the union in the 1650s. Document d4 offers partial context, and the conflict is complementary, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer correctly identifies the 1650s as the period of union, supported by documents d2, d3, and d5. Document d4 is relevant but less central to the main claim."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9618,
+      "completion_tokens": 2308,
+      "total_tokens": 11926
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1436,
+        "completion_tokens": 403,
+        "total_tokens": 1839
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 641,
+        "total_tokens": 2032
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1026,
+        "completion_tokens": 416,
+        "total_tokens": 1442
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1255,
+        "completion_tokens": 319,
+        "total_tokens": 1574
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1547,
+        "completion_tokens": 231,
+        "total_tokens": 1778
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 687,
+        "completion_tokens": 37,
+        "total_tokens": 724
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 829,
+        "completion_tokens": 152,
+        "total_tokens": 981
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1447,
+        "completion_tokens": 109,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:18.788005",
+        "prompt_tokens": 1436,
+        "completion_tokens": 403,
+        "total_tokens": 1839,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:22.793679",
+        "prompt_tokens": 1391,
+        "completion_tokens": 641,
+        "total_tokens": 2032,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:24.635182",
+        "prompt_tokens": 1026,
+        "completion_tokens": 416,
+        "total_tokens": 1442,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:26.309486",
+        "prompt_tokens": 1255,
+        "completion_tokens": 319,
+        "total_tokens": 1574,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:27.696724",
+        "prompt_tokens": 1547,
+        "completion_tokens": 231,
+        "total_tokens": 1778,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:28.766147",
+        "prompt_tokens": 687,
+        "completion_tokens": 37,
+        "total_tokens": 724,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:29.996847",
+        "prompt_tokens": 829,
+        "completion_tokens": 152,
+        "total_tokens": 981,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:31.132701",
+        "prompt_tokens": 1447,
+        "completion_tokens": 109,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:42:16.897794",
+  "last_updated_at": "2026-04-17T19:42:31.133182"
+}

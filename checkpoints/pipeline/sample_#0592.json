@@ -1,0 +1,403 @@
+{
+  "sample_id": "#0592",
+  "query": "Who won the most gold medals in the 2014 commonwealth games?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "condemned by walking athletes. The meet was dominated, in terms of golds won, by Kenya, Jamaica who won 10 gold medals apiece and Australia with eight gold medals, though gold and other medals were distributed among 21 teams, and England took away the most medals, 27 including 13 silver medals. Kenya dominated the distance events, and Jamaica the sprint events, but both also won throwing events for the first time. Host nation Scotland won 4 medals, including gold for Libby Clegg in the T(12) 100 m for athletes with a vision impairment. Nigeria's Blessing Okagbare took two golds and a",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "(ranked second in the Commonwealth) and James Steacy (ranked first) did not meet the qualification standard but were still nominated to the team. All other athletes met the qualification standard for their events. The team finished the games with a total medal count of seventeen medals, including five gold. The seventeen medals represents a tie for the most medals won by the country in the sport at the Commonwealth Games. On May 8, 2014, Badminton Canada named a team of eight athletes. The team won one medal, a gold by Michelle Li. The medal was the first individual badminton title",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "1986\u0393\u00c7\u00f42014, winning 2 gold, 3 silver and 1 bronze. Nauruan weightlifter Marcus Stephen won twelve medals at the Games between 1990 and 2002, of which seven gold, and was elected President of Nauru in 2007. His performance has helped place Nauru (the smallest independent state in the Commonwealth, at 21 km and with a population of fewer than 9,400 in 2011) in nineteenth place on the all-time Commonwealth Games medal table. Ian Thorpe, Australian swimmer (now retired), has won 10 Commonwealth Games gold medals and 1 silver medal. At the 1998 Commonwealth Games in Kuala Lumpur, he won 4 gold",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d4",
+      "text": "4th place group B and 5th place group A played 5th place group B) to determine the fifth through to tenth-place rankings. The winners of the semifinals qualified for the gold medal match whilst the losers played in the bronze medal match. England defeated New Zealand 4\u0393\u00c7\u00f42 on penalties after a 3\u0393\u00c7\u00f43 tie after normal time to take the bronze medal, whilst in the final Australia defeated India 4-0 after normal time to take their fifth consecutive men's hockey gold medal at the Commonwealth Games. Hockey at the 2014 Commonwealth Games \u0393\u00c7\u00f4 Men's tournament The men's field hockey event at",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "India at the 2010 Commonwealth Games India hosted the 2010 Commonwealth Games which were held in Delhi from 3 to 14 October 2010. India won 101 medals in total, including 38 Gold medals, enabling it to finish the Games at second position behind Australia. For the first time in the history of the Games India won over 100 medals in total. For the first time in the history of the Games, India won a medal in Gymnastics, where Ashish Kumar won a Silver and a Bronze. And it was after a gap of 52 years that India won a Gold  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions Kenya and Jamaica dominating golds, and Australia winning eight gold medals in the 2014 Commonwealth Games, providing partial information about medal winners."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses a country's performance in the 2014 Commonwealth Games, including five gold medals and a specific gold medal win in badminton, offering relevant context."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions gold medals won in various years, including 2014, but focuses on historical performance and specific athletes rather than overall medal counts for the 2014 games."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Details Australia winning a gold medal in men's hockey at the 2014 Commonwealth Games, which is relevant to the query about gold medal winners."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses the 2010 Commonwealth Games in Delhi, not the 2014 games, making it irrelevant to the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Kenya and Jamaica each won 10 gold medals at the 2014 Commonwealth Games.",
+            "Australia won eight gold medals at the 2014 Commonwealth Games.",
+            "England won the most medals overall with 27, including 13 silver medals."
+          ],
+          "reason": "Extracted facts about the countries that won the most gold medals and overall medals in the 2014 Commonwealth Games, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The Canadian team finished the 2014 Commonwealth Games with seventeen medals, including five gold.",
+            "Michelle Li won a gold medal in badminton at the 2014 Commonwealth Games."
+          ],
+          "reason": "Extracted facts about Canada's medal count and a specific gold medal win at the 2014 Commonwealth Games."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Nauruan weightlifter Marcus Stephen won seven gold medals between 1990 and 2002.",
+            "Ian Thorpe won 10 Commonwealth Games gold medals and 1 silver medal.",
+            "At the 1998 Commonwealth Games, Ian Thorpe won 4 gold medals."
+          ],
+          "reason": "Extracted historical facts about gold medal wins by Marcus Stephen and Ian Thorpe in previous Commonwealth Games, not specifically the 2014 games."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Australia defeated India 4-0 to take their fifth consecutive men's hockey gold medal at the Commonwealth Games."
+          ],
+          "reason": "Extracted the fact about Australia winning a gold medal in men's hockey at the Commonwealth Games, relevant to gold medal winners."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "India won 38 Gold medals at the 2010 Commonwealth Games."
+          ],
+          "reason": "Extracted a fact about India's gold medal count, but it pertains to the 2010 Commonwealth Games, not the 2014 games requested in the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that Kenya and Jamaica each won 10 gold medals, and Australia won eight, providing key information about the most gold medals won.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Canada's five gold medals and a specific badminton gold, which is related but doesn't identify the overall winner of the most gold medals.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Facts concern individual medal wins by Marcus Stephen and Ian Thorpe in previous Commonwealth Games, not the 2014 games or the country with the most gold medals.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "States Australia won a gold medal in men's hockey, which is a gold medal win at the Commonwealth Games, but doesn't indicate if it was the most.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The fact is about India's gold medal count in the 2010 Commonwealth Games, not the 2014 games, making it irrelevant to the query.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_2014_gold_medals",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly lists gold medal counts for Kenya, Jamaica, and Australia in the 2014 Commonwealth Games."
+          },
+          {
+            "label": "partial_context_2014_medals",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d2 and d4 provide partial information about gold medals won by Canada and Australia in specific events during the 2014 Commonwealth Games, but do not fully address the query about the most gold medals."
+          },
+          {
+            "label": "irrelevant_historical_or_wrong_year",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they discuss historical Commonwealth Games medal wins (d3) or medal counts from a different year (d5)."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources provides compatible details about gold medal wins in the 2014 Commonwealth Games, with one document offering direct support and others providing partial context.",
+        "clusters": [
+          {
+            "label": "direct_support_2014_gold_medals",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 directly lists gold medal counts for Kenya, Jamaica, and Australia in the 2014 Commonwealth Games."
+          },
+          {
+            "label": "partial_context_2014_medals",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d2 and d4 provide partial information about gold medals won by Canada and Australia in specific events during the 2014 Commonwealth Games, but do not fully address the query about the most gold medals."
+          },
+          {
+            "label": "irrelevant_historical_or_wrong_year",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 are irrelevant as they discuss historical Commonwealth Games medal wins (d3) or medal counts from a different year (d5)."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is mostly supportive and complementary, with a clear direct support document and partial context from others. No significant conflicts or irrelevancies prevent a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Document d1 directly lists gold medal counts for Kenya, Jamaica, and Australia in the 2014 Commonwealth Games. Documents d2 and d4 provide partial information about gold medals won by Canada and Australia in specific events during the 2014 Commonwealth Games.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial evidence documents provide complementary information about gold medal counts in the 2014 Commonwealth Games, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.4,
+        "feedback": "The answer does not directly state who won the most gold medals. It only mentions that Kenya, Jamaica, and Australia won a certain number of gold medals, but does not compare them to determine the winner."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9549,
+      "completion_tokens": 2291,
+      "total_tokens": 11840
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1453,
+        "completion_tokens": 406,
+        "total_tokens": 1859
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1408,
+        "completion_tokens": 550,
+        "total_tokens": 1958
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 942,
+        "completion_tokens": 394,
+        "total_tokens": 1336
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1145,
+        "completion_tokens": 331,
+        "total_tokens": 1476
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1449,
+        "completion_tokens": 317,
+        "total_tokens": 1766
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 767,
+        "completion_tokens": 51,
+        "total_tokens": 818
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 923,
+        "completion_tokens": 136,
+        "total_tokens": 1059
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1462,
+        "completion_tokens": 106,
+        "total_tokens": 1568
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:39.545061",
+        "prompt_tokens": 1453,
+        "completion_tokens": 406,
+        "total_tokens": 1859,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:41.704594",
+        "prompt_tokens": 1408,
+        "completion_tokens": 550,
+        "total_tokens": 1958,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:43.718534",
+        "prompt_tokens": 942,
+        "completion_tokens": 394,
+        "total_tokens": 1336,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:45.302032",
+        "prompt_tokens": 1145,
+        "completion_tokens": 331,
+        "total_tokens": 1476,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:46.647070",
+        "prompt_tokens": 1449,
+        "completion_tokens": 317,
+        "total_tokens": 1766,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:47.634530",
+        "prompt_tokens": 767,
+        "completion_tokens": 51,
+        "total_tokens": 818,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:48.800703",
+        "prompt_tokens": 923,
+        "completion_tokens": 136,
+        "total_tokens": 1059,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:14:49.841500",
+        "prompt_tokens": 1462,
+        "completion_tokens": 106,
+        "total_tokens": 1568,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:14:37.580138",
+  "last_updated_at": "2026-04-17T20:14:49.842014"
+}

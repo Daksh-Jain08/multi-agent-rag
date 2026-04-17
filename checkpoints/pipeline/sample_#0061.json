@@ -1,0 +1,533 @@
+{
+  "sample_id": "#0061",
+  "query": "who has the highest paid contract in the nba",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "NBA Player Salaries - National Basketball Association - ESPN 2024-2025 Player Salaries ; 1, Stephen Curry, PG, Golden State Warriors, $55,761,216 ; 2, Joel Embiid, C \u00b7 Philadelphia 76ers, $51,415,938.",
+      "source_url": "https://www.espn.com/nba/salaries",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "NBA Contracts - Spotrac.com A real-time, sortable list of NBA contracts including total value, guaranteed money, and complete salary breakdowns. This website is not directly or indirectly affiliated, associated, or connected in any way to Major League Baseball, the National Basketball Association, the National Football League or the National Hockey League. Use of any marks, trademarks, or logos on this website shall not constitute a sponsorship or endorsement by the trademark holder.",
+      "source_url": "https://www.spotrac.com/nba/contracts",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "NBA Player Salaries - HoopsHype NBA Player Salaries ; 1. Stephen Curry, $55,761,217 ; 2. Nikola Jokic, $51,415,938 ; 2. Joel Embiid, $51,415,938 ; 4. Kevin Durant, $51,179,020 ...",
+      "source_url": "https://hoopshype.com/salaries/players/",
+      "timestamp": "2025-04-03"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Highest Paid Players in NBA History - Opta Analyst 1. Stephen Curry, Golden State Warriors ($354,721,977) ... Curry tops the list of highest career earnings for one team, and he'll likely continue ... And with the success the Warriors have had with him, his deals have been the definition of a win-win. 5. Russell Westbrook ($340,265,800) Yet another teammate of Durant\u2019s made this list (and James Harden just missed it!). The majority of Westbrook\u2019s earnings come from his time with the Oklahoma City Thunder, where he signed an $86 million max deal and won an MVP. He then signed a designated veteran extension worth over $206 million and was traded by the Thunder a year later. The rest of this tremendous contract was paid by the Rockets, Wizards and Lakers, as Westbrook has continued to bounce around the league spending time with the Clippers and Nuggets. Highest Career Earnings for One Franchise 1. Stephen Curry, Golden State Warriors ($354,721,977) Curry tops the list of highest career earnings for one team, and he\u2019ll likely continue to add to that lead. His current deal just missed out on the top-five largest contracts ever, and he finally passed Bryant for the most earned all with one team in 2022-23. 2. Kobe Bryant, Los Angeles Lakers ($323,312,307) Bryant just missed the top five in career earnings, but he ranks second on the list of career earnings for one team. The Black Mamba spent the entirety of his 20-year career with the Lakers and was a part of five championship teams. The Lakers rewarded him by paying him handsomely until he decided to retire following the 2015-16 season. 3. Giannis Antetokounmpo, Milwaukee Bucks ($283,265,122) With the average annual value of Antetokounmpo\u2019s current contract among the highest in the league, we can expect him to continue to rise up this list for years to come if he stays with the Bucks.",
+      "source_url": "https://theanalyst.com/2024/11/the-highest-paid-players-in-the-nba",
+      "timestamp": "2024-11-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "List of highest-paid NBA players by season - Wikipedia Michael Jordan holds the largest 1-year contract in NBA history, LeBron James is the highest career earner, and Stephen Curry is the highest season earner as ... The highest-paid NBA players by season has recently eclipsed $40 million. Wilt Chamberlain has the most seasons leading the league with 8. Michael Jordan holds the largest 1-year contract in NBA history, LeBron James is the highest career earner, and Stephen Curry is the highest season earner as well as the largest multi-year contract holder in NBA history. George Mikan became the first player to earn $15,000 per season in the 1948\u201349 season. Wilt Chamberlain was the first player to receive $100,000 in the 1965\u201366 season. That same season, Bill Russell became just the second player to receive over $100,000. Moses Malone & Bill Walton were the first players to earn $1 million in a season, they were paid exactly $1,000,000 in the 1979\u201380 season. Larry Bird became the first player to earn $5 million or more with a salary of $7,070,000 in the 1991\u201392 season. Magic Johnson became the first player to earn $10 million or more in the 94\u201395 season with a salary of $14,660,000. Patrick Ewing became the first player to earn $15 million or more in the 95\u201396 season with a salary of $18,724,000. Michael Jordan became the first NBA player to sign a contract worth over $20 million and $30 million in a season (1996\u201397) and earned $33,140,000 in the 1997\u201398 season, setting the record for the largest 1-year contract in NBA history, and held the overall record for over 20 years. Kobe Bryant became just the second player to eclipse $30 million when the 2013\u201314 season began.[1]LeBron James became the third in the 2016\u201317 season.",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest-paid_NBA_players_by_season",
+      "timestamp": "2025-03-07"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Stephen Curry is the only player in NBA history to be the highest ... Stephen Curry is the only player in NBA history to be the highest-paid for eight consecutive seasons 2024-25: $55.8M 2023-24: $52M ...",
+      "source_url": "https://www.reddit.com/r/NBATalk/comments/1fkdphi/stephen_curry_is_the_only_player_in_nba_history/",
+      "timestamp": "2024-09-19"
+    },
+    {
+      "doc_id": "d7",
+      "text": "NBA Highest-Paid Players 2024-25: Curry Passes LeBron With $156M Curry will have the highest playing salary in the NBA for the eighth straight year; his Golden State deal is worth $55.8 million this season. NBA Highest-Paid Players 2024-25: Steph Passes LeBron With $156M This is the first time since the 2012-13 season that someone besides LeBron James is the NBA's highest-paid player from salaries and endorsements. Illustration by Lorenzo Gordon, photos courtesy of Getty Images Stephen Curry and LeBron James are the greatest players of their generation, with a combined six NBA MVP Awards and 16 NBA Finals appearances. They paired up for the first time this summer in a competitive situation\u2014All-Star Games don\u2019t count\u2014to lead the U.S. to its fifth straight Olympic gold medal. The duo have also laid the blueprint for the modern-day NBA star to build a legacy off the court with endorsements and equity in a myriad of businesses on top of their max-level playing salaries. They will once again be the NBA\u2019s two highest-paid players this season, but the usual order of the pairing has been flipped, with Curry set to earn an estimated $155.8 million and James at $133.7 million from salaries and off-court incomes. James had been the NBA\u2019s top earner each of the past 11 seasons, with Kobe Bryant in 2012-13 the last player to finish ahead of LeBron before Curry this year. Overall, the top 15 players in the league will earn a combined $1.13 billion in salaries and endorsements, up 11% from last year. Giannis Antetokounmpo ($103.8 million), Kevin Durant ($97.9 million) and Damian Lillard ($66.8 million) round out the top five. Curry will have the highest playing salary in the NBA for the eighth straight year; his Golden State deal is worth $55.8 million this season. This summer, he signed a one-year extension with the Warriors that will pay the two-time NBA MVP $62.6 million for the 2026-27 season and push his career earnings from playing salaries and endorsements past $1 billion.",
+      "source_url": "https://www.sportico.com/personalities/athletes/2024/nba-highest-paid-players-2024-25-steph-curry-lebron-james-1234801994/",
+      "timestamp": "2024-10-22"
+    },
+    {
+      "doc_id": "d8",
+      "text": "2024-25 NBA Player Contracts - Basketball-Reference.com 2024-25 NBA Player Contracts. 2024-25 Salary Cap: $140,588,000 (Salary Cap History). Average Salary: $10,398,834. Median Salary: $4,935,960. Largest Guarantee: ...",
+      "source_url": "https://www.basketball-reference.com/contracts/players.html",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d9",
+      "text": "NBA's biggest contracts: Jayson Tatum overtakes Jaylen Brown for ... Largest contracts in NBA history \u00b7 1. Jayson Tatum, Celtics: Five years, $314 million \u00b7 2. Jaylen Brown, Celtics: Five years, $285 million \u00b7 3. NBA's biggest contracts: Jayson Tatum overtakes Jaylen Brown for largest deal in league history George's new deal with the Sixers makes him the seventh-highest paid player for next season The NBA offseason is underway, which means players around the league are agreeing to massive contracts to either stay with their current team or join a different squad. There was even a record-setting contract on Monday. The Celtics are planning to sign superstar Jayson Tatum to a five-year, $314 million supermax deal. It's the largest contract in NBA history in terms of total value, and Tatum takes that record from teammate Jaylen Brown. Brown signed a supermax contract last season that is projected to be worth $286 million. Free agency also brought a big payday for Paul George, who signed a four-year, $211.58 million deal with the 76ers, in a move that shakes up both conferences. George becomes one of the highest-paid players in the league ahead of next season, and his average annual value (AAV) of $52.3 million is just behind new teammate Joel Embiid, who makes $53.3 million per season on his current deal. We'll see what LeBron James ultimately signs for, because he could very well crack the list of highest-paid players for next season, too. Luka Doncic figures to pass Tatum next summer when he's eligible for a supermax extension with the Mavs, and both Anthony Davis and Giannis Antetokounmpo begin three-year extensions in the 2025-26 season that pay them more than $58 million annually. So the list of highest-paid players is set to change. But let's take a look at where things stand. Below are the biggest contracts in NBA history in terms of total value. All of these contracts have been signed or agreed to in the last three years. Largest contracts in NBA history Contract numbers below are based off total value. 1. Jayson Tatum, Celtics: Five years, $314 million 2. Jaylen Brown, Celtics: Five years, $285 million 3.",
+      "source_url": "https://www.cbssports.com/nba/news/nbas-biggest-contracts-jayson-tatum-overtakes-jaylen-brown-for-largest-deal-in-league-history/",
+      "timestamp": "2024-07-01"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists Stephen Curry and Joel Embiid with their salaries for the 2024-2025 season, directly addressing the query about highest-paid players."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.35,
+          "is_relevant": true,
+          "reason": "Mentions NBA contracts and salary breakdowns, providing context but not specific highest-paid player information."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Provides a ranked list of NBA player salaries, explicitly naming Stephen Curry as the highest paid for the 2024-2025 season."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses highest career earnings and mentions Stephen Curry's contract value, providing relevant context to high pay in the NBA."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States Stephen Curry is the highest season earner and has the largest multi-year contract, directly answering the query."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Highlights Stephen Curry as the highest-paid player for eight consecutive seasons, directly addressing the query."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Explicitly states Stephen Curry has the highest playing salary in the NBA for the eighth straight year and provides his salary figures."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Provides general information about 2024-25 NBA player contracts and salary cap, but not specific highest-paid player details."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Discusses the largest contracts in NBA history, mentioning Jayson Tatum's record-breaking deal and providing context for high pay."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Stephen Curry's 2024-2025 salary is $55,761,216.",
+            "Joel Embiid's 2024-2025 salary is $51,415,938."
+          ],
+          "reason": "Extracted the specific salaries for two top-earning NBA players for the 2024-2025 season, directly addressing the query about highest paid contracts."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document describes a website that lists NBA contracts but does not provide specific contract details or identify the highest-paid player."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Stephen Curry's salary is $55,761,217.",
+            "Nikola Jokic's salary is $51,415,938.",
+            "Joel Embiid's salary is $51,415,938."
+          ],
+          "reason": "Extracted the salaries of the top three highest-paid players listed for the current NBA season, providing direct data relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Stephen Curry has the highest career earnings for one team with $354,721,977.",
+            "Stephen Curry's current deal just missed out on the top-five largest contracts ever.",
+            "Russell Westbrook signed an $86 million deal with the Oklahoma City Thunder and a subsequent extension worth over $206 million."
+          ],
+          "reason": "Extracted facts about Stephen Curry's career earnings and contract status, and Russell Westbrook's significant past contracts, providing context on high earnings in NBA history."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Stephen Curry is the highest season earner and the largest multi-year contract holder in NBA history.",
+            "Michael Jordan holds the largest 1-year contract in NBA history.",
+            "LeBron James is the highest career earner.",
+            "Wilt Chamberlain was the first player to receive $100,000 in a season (1965-66).",
+            "Michael Jordan earned $33,140,000 in the 1997-98 season, setting the record for the largest 1-year contract."
+          ],
+          "reason": "Extracted key historical contract records, including Stephen Curry's status as the largest multi-year contract holder and highest season earner, directly relevant to the query."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Stephen Curry is the only player in NBA history to be the highest-paid for eight consecutive seasons.",
+            "Stephen Curry's 2024-25 salary is projected at $55.8M."
+          ],
+          "reason": "Extracted the fact that Stephen Curry has been the highest-paid player for eight consecutive seasons, directly answering the query about who has the highest paid contract."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Stephen Curry will have the highest playing salary in the NBA for the eighth straight year in 2024-25.",
+            "Stephen Curry's Golden State Warriors deal is worth $55.8 million for the 2024-25 season.",
+            "Stephen Curry is set to earn an estimated $155.8 million (salaries and off-court incomes) in 2024-25.",
+            "LeBron James is set to earn an estimated $133.7 million (salaries and off-court incomes) in 2024-25.",
+            "Stephen Curry signed a one-year extension that will pay him $62.6 million for the 2026-27 season."
+          ],
+          "reason": "Extracted that Stephen Curry has the highest playing salary for the eighth consecutive year and provided his current season salary and projected earnings, directly addressing the query."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "The 2024-25 NBA Salary Cap is $140,588,000.",
+            "The Average Salary for the 2024-25 NBA season is $10,398,834."
+          ],
+          "reason": "Extracted salary cap and average salary data for the 2024-25 NBA season. While not directly naming the highest paid player, it provides context for contract values."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Jayson Tatum has the largest contract in NBA history with a total value of $314 million over five years.",
+            "Jaylen Brown has a five-year contract worth $285 million.",
+            "George's new deal with the Sixers makes him the seventh-highest paid player for next season."
+          ],
+          "reason": "Extracted the fact that Jayson Tatum holds the largest contract in NBA history ($314 million), directly answering the query about the highest paid contract."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Provides salaries for two players, suggesting they are high earners, but does not definitively state who has the absolute highest contract.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document describes a website listing contracts but provides no specific contract details or identifies the highest-paid player.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Lists salaries for three players, indicating high earners, but doesn't confirm if these are the absolute highest or if other contracts exceed them.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions Curry's career earnings and contract status, and Westbrook's past deals, providing context but not directly identifying the current highest paid contract.",
+          "confidence": 0.55
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states Stephen Curry holds the largest multi-year contract and is the highest season earner, answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "States Stephen Curry is the highest-paid player and provides his projected salary, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Confirms Stephen Curry has the highest playing salary for the eighth consecutive year and provides his current season salary, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "irrelevant",
+          "reason": "Provides salary cap and average salary data, which offers context but does not identify the highest-paid player or contract.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "Directly states Jayson Tatum has the largest contract in NBA history with a total value of $314 million, answering the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5",
+          "d6",
+          "d7",
+          "d9"
+        ],
+        "partial_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d8"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_highest_paid_player",
+            "doc_ids": [
+              "d5",
+              "d6",
+              "d7",
+              "d9"
+            ],
+            "summary": "Multiple documents directly identify Stephen Curry and Jayson Tatum as having the highest paid contracts, providing specific salary figures and contract durations."
+          },
+          {
+            "label": "partial_player_salaries",
+            "doc_ids": [
+              "d1",
+              "d3"
+            ],
+            "summary": "Some documents list salaries for top earners but do not definitively confirm the absolute highest contract."
+          },
+          {
+            "label": "contextual_earnings_data",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Provides context on career earnings and past significant contracts, but not the current highest paid contract."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d2",
+              "d8"
+            ],
+            "summary": "Documents that are irrelevant, either describing contract listing websites without specific data or providing general salary cap information."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "Evidence directly conflicts on who holds the largest contract in NBA history, with some sources identifying Stephen Curry and others Jayson Tatum.",
+        "clusters": [
+          {
+            "label": "Stephen Curry highest paid",
+            "doc_ids": [
+              "d5",
+              "d6",
+              "d7"
+            ],
+            "summary": "Multiple sources state Stephen Curry is the highest season earner and holds the largest multi-year contract, with specific salary figures for the 2024-2025 season."
+          },
+          {
+            "label": "Jayson Tatum highest paid",
+            "doc_ids": [
+              "d9"
+            ],
+            "summary": "One source identifies Jayson Tatum as having the largest contract in NBA history with a total value of $314 million over five years."
+          },
+          {
+            "label": "Partial and contextual data",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Some documents list salaries for top earners or provide historical contract context but do not definitively identify the absolute highest paid player."
+          },
+          {
+            "label": "Irrelevant information",
+            "doc_ids": [
+              "d2",
+              "d8"
+            ],
+            "summary": "Documents that are irrelevant, providing general salary cap information or describing websites without specific contract details."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "There is a severe conflict regarding who holds the highest paid contract, with evidence directly contradicting itself between Stephen Curry and Jayson Tatum. This unresolved conflict warrants abstention."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "There is a severe conflict regarding who holds the highest paid contract, with evidence directly contradicting itself between Stephen Curry and Jayson Tatum. This unresolved conflict warrants abstention.",
+        "final_reasoning": "Conflicting evidence directly contradicts claims about the highest-paid player, necessitating abstention due to the unresolved conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about NBA contracts but lacks any citations. Therefore, it cannot be considered grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 16445,
+      "completion_tokens": 3525,
+      "total_tokens": 19970
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2719,
+        "completion_tokens": 654,
+        "total_tokens": 3373
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2674,
+        "completion_tokens": 1276,
+        "total_tokens": 3950
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1571,
+        "completion_tokens": 625,
+        "total_tokens": 2196
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1958,
+        "completion_tokens": 379,
+        "total_tokens": 2337
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2278,
+        "completion_tokens": 353,
+        "total_tokens": 2631
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 795,
+        "completion_tokens": 52,
+        "total_tokens": 847
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 96,
+        "total_tokens": 1048
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3498,
+        "completion_tokens": 90,
+        "total_tokens": 3588
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:04.251144",
+        "prompt_tokens": 2719,
+        "completion_tokens": 654,
+        "total_tokens": 3373,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:08.110172",
+        "prompt_tokens": 2674,
+        "completion_tokens": 1276,
+        "total_tokens": 3950,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:10.391106",
+        "prompt_tokens": 1571,
+        "completion_tokens": 625,
+        "total_tokens": 2196,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:12.237261",
+        "prompt_tokens": 1958,
+        "completion_tokens": 379,
+        "total_tokens": 2337,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:14.084340",
+        "prompt_tokens": 2278,
+        "completion_tokens": 353,
+        "total_tokens": 2631,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:15.203978",
+        "prompt_tokens": 795,
+        "completion_tokens": 52,
+        "total_tokens": 847,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:16.190099",
+        "prompt_tokens": 952,
+        "completion_tokens": 96,
+        "total_tokens": 1048,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T14:19:17.256934",
+        "prompt_tokens": 3498,
+        "completion_tokens": 90,
+        "total_tokens": 3588,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T14:19:01.507976",
+  "last_updated_at": "2026-04-17T14:19:17.257476"
+}

@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0604",
+  "query": "Why aren't babies allowed to sleep on their side?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Safe Sleep During Pregnancy on your baby. Experts say that you should sleep on your side during pregnancy, especially the left side. It\u0393\u00c7\u00d6s thought that this allows for the most blood flow to your baby. It may also improve your kidney function. If your kidneys work better, this may help reduce swelling. Place a pillow between your knees to help you sleep more comfortably on your side. If possible, start sleeping on your side by about 20 weeks or 5 months. But don\u0393\u00c7\u00d6t worry if you wake up on your back. Just change positions and go back to sleep.",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2024-02-22"
+    },
+    {
+      "doc_id": "d2",
+      "text": "This Is Why Your Baby Doesn't Sleep Through The Night This Is Why Your Baby Doesn't Sleep Through The Night BuzzFeed News speaks to experts to find out why babies aren't designed to sleep all night. It's got more to do with evolutionary biology than you might think. \"How's the baby doing? Sleeping through the night yet?\" This line will be familiar to parents of small children. The unbroken, \"normal\" night's sleep is the holy grail of parenting. Gwyneth Paltrow's daughter might have started sleeping through the night from six weeks, but for most families that's a distant dream. It's perhaps the most talked-about topic on online forums, and there's",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Sojournering: 2011 I've already ruined Brex. Due to his sleeping position, his head has flattened out on the right back side. Sigh. Now I have to wedge him with rolled up towels to make him sleep on his side (something a daycare is unlikely to do!) Those baby helmets cost thousands of dollars and aren't covered by most insurers. Ugh. After the 2-month pediatrician visit, I became the mommy torture queen. Not only did I stop swaddling him to sleep, I had to do the towel bit AND give him lots of 'tummy time' (a.k.a. \"baby-scream-his-lungs-out time\"). All to try to give",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "10 Best Sleep Sacks Reviewed in 2019 | TheGearHunt After the baby learns how to roll freely, then they are allowed to choose a favorable sleeping pose. When the baby sleeps on the sides or on the stomach, it\u0393\u00c7\u00d6s highly risky compared to when the baby sleeps on the back. The stomach position may close the baby airways which may lead to suffocation. Sleeping sideways may seem safer, but it\u0393\u00c7\u00d6s not even close to it. The baby\u0393\u00c7\u00d6s face may be covered by the bedding. In summary, it is recommended for a baby to sleep on the backside, unless recommended otherwise by the physician. Dangers of blankets Blankets are good,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2020-03-12"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Everyone Needs Therapy: November 2016 who rage aren't exactly rare. But you knew that. Karen Franklin, a forensic psychologist presents the another side to the crimes that make us cringe, abductions, physical-sexual assault, and a review of the numbing podcasts that chew them up. For those who don't mind taking a walk on the dark side, she's prolific. If you're into transitional objects, and object to the latest hysteria about how to properly put your baby to sleep, Claudia Gold, an MD has a terrific post, one that debunks the myths. Old fashioned pediatrics in the New AAP Sleep Guidelines, the Baby Box. . .Child  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document discusses safe sleep positions for pregnant individuals, not for babies. It is irrelevant to the query about why babies aren't allowed to sleep on their side."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses why babies don't sleep through the night, focusing on evolutionary biology and parenting challenges. It does not address sleeping positions or safety concerns for babies."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions a baby sleeping on his side and developing a flattened head, implying a need to reposition. However, it doesn't explain the safety reasons against side sleeping for infants."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document directly addresses the risks of babies sleeping on their side or stomach, explaining that it can obstruct airways and lead to suffocation, and recommends back sleeping."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document is about forensic psychology and parenting myths. It briefly mentions a post debunking myths about putting babies to sleep but provides no specific information on sleeping positions."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Experts say that you should sleep on your side during pregnancy, especially the left side.",
+            "It is thought that sleeping on the side allows for the most blood flow to your baby.",
+            "Sleeping on the side may also improve kidney function, potentially reducing swelling."
+          ],
+          "reason": "Extracted facts about the benefits of side sleeping during pregnancy, which is relevant to baby sleep positions."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses why babies don't sleep through the night and evolutionary biology, but does not contain facts about safe sleeping positions for babies."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "A baby's head can flatten due to their sleeping position.",
+            "To prevent head flattening, a baby may need to be wedged to sleep on their side.",
+            "Tummy time is recommended to help prevent head flattening."
+          ],
+          "reason": "Extracted facts about head flattening in babies due to sleeping position and methods to correct it, which relates to safe sleep practices."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "When a baby learns to roll freely, they are allowed to choose a favorable sleeping pose.",
+            "Sleeping on the sides or stomach is highly risky for babies compared to sleeping on the back.",
+            "The stomach position may close the baby's airways, leading to suffocation.",
+            "Sleeping sideways is not safe as the baby's face may be covered by bedding.",
+            "It is recommended for a baby to sleep on their back unless otherwise recommended by a physician."
+          ],
+          "reason": "Extracted key facts detailing the risks of side and stomach sleeping for babies and the recommendation for back sleeping."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document discusses psychology and parenting myths but does not contain specific facts about why babies aren't allowed to sleep on their side."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses side sleeping benefits for pregnant individuals, not for babies. It does not explain why babies are not allowed to sleep on their side.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The document discusses why babies don't sleep through the night and evolutionary biology, but does not contain facts about safe sleeping positions for babies.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions side sleeping in relation to head flattening, but doesn't fully explain the risks or why it's not allowed. It focuses more on prevention of flattening.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Directly states that side and stomach sleeping are risky for babies due to potential airway obstruction and suffocation, recommending back sleeping instead.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document discusses psychology and parenting myths but does not contain specific facts about why babies aren't allowed to sleep on their side.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "risks_of_side_and_stomach_sleeping",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Directly states that side and stomach sleeping are risky for babies due to potential airway obstruction and suffocation, recommending back sleeping instead."
+          },
+          {
+            "label": "head_flattening_and_side_sleeping",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Mentions side sleeping in relation to head flattening, but doesn't fully explain the risks or why it's not allowed. It focuses more on prevention of flattening."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents discussing side sleeping for pregnant individuals, general baby sleep issues, or psychology myths, which do not address why babies are not allowed to sleep on their side."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The evidence is consistent, with one document directly supporting the risks of side and stomach sleeping for babies, and another partially supporting it in relation to head flattening. Irrelevant documents were excluded.",
+        "clusters": [
+          {
+            "label": "risks_of_side_and_stomach_sleeping",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Directly states that side and stomach sleeping are risky for babies due to potential airway obstruction and suffocation, recommending back sleeping instead."
+          },
+          {
+            "label": "head_flattening_and_side_sleeping",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Mentions side sleeping in relation to head flattening, but doesn't fully explain the risks or why it's not allowed. It focuses more on prevention of flattening."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents discussing side sleeping for pregnant individuals, general baby sleep issues, or psychology myths, which do not address why babies are not allowed to sleep on their side."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence directly addresses the risks of side and stomach sleeping for babies, recommending back sleeping. There is no conflict, and the supporting evidence is sufficient for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Side and stomach sleeping are risky for babies due to potential airway obstruction and suffocation. Back sleeping is recommended instead.",
+        "citations": [
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly states the risks of side and stomach sleeping for babies and recommends back sleeping. The partial document is not needed for the answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately reflects the information in document d4, explaining the risks of side and stomach sleeping for babies and recommending back sleeping."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9422,
+      "completion_tokens": 2109,
+      "total_tokens": 11531
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1496,
+        "completion_tokens": 409,
+        "total_tokens": 1905
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1451,
+        "completion_tokens": 508,
+        "total_tokens": 1959
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 371,
+        "total_tokens": 1273
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1086,
+        "completion_tokens": 273,
+        "total_tokens": 1359
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1376,
+        "completion_tokens": 308,
+        "total_tokens": 1684
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 744,
+        "completion_tokens": 53,
+        "total_tokens": 797
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 96,
+        "total_tokens": 998
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1465,
+        "completion_tokens": 91,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:56.805568",
+        "prompt_tokens": 1496,
+        "completion_tokens": 409,
+        "total_tokens": 1905,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:16:58.929698",
+        "prompt_tokens": 1451,
+        "completion_tokens": 508,
+        "total_tokens": 1959,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:00.573412",
+        "prompt_tokens": 902,
+        "completion_tokens": 371,
+        "total_tokens": 1273,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:02.282948",
+        "prompt_tokens": 1086,
+        "completion_tokens": 273,
+        "total_tokens": 1359,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:03.684155",
+        "prompt_tokens": 1376,
+        "completion_tokens": 308,
+        "total_tokens": 1684,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:04.594484",
+        "prompt_tokens": 744,
+        "completion_tokens": 53,
+        "total_tokens": 797,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:05.857810",
+        "prompt_tokens": 902,
+        "completion_tokens": 96,
+        "total_tokens": 998,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:17:06.766828",
+        "prompt_tokens": 1465,
+        "completion_tokens": 91,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:16:54.915221",
+  "last_updated_at": "2026-04-17T20:17:06.767170"
+}

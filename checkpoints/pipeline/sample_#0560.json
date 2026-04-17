@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0560",
+  "query": "Where do the philadelphia eagles play their home games?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "locations near the infield cutouts. Team president Joe Banner was irate after the game, calling the stadium's conditions \"absolutely unacceptable\" and \"an embarrassment to the city of Philadelphia.\" City officials, however, promised that the stadium would be suitable for play when the regular season started. The Eagles would later move into Lincoln Financial Field in 2003, and the Phillies would move into its own separate ballpark, Citizens Bank Park, in 2004. In the wake of the September 11 attacks, the NFL postponed its Week 2 games of the 2001 season, originally scheduled for September 16 and 17, until the end",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d2",
+      "text": "movie and character) while playing with Philadelphia. He is the subject of the Disney movie \"Invincible\", starring Mark Wahlberg. A game against the St. Louis Cardinals on October 10 was originally scheduled to be played at Veterans Stadium, however was relocated to St. Louis due to a Philadelphia Phillies game being played at Veterans Stadium on the same day. Consequently, the game on November 7 that was originally scheduled to be played in St. Louis was moved to Philadelphia. 1976 Philadelphia Eagles season The 1976 Philadelphia Eagles season was the franchise\u0393\u00c7\u00d6s 44th in the National Football League. It was the",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1997-12-24"
+    },
+    {
+      "doc_id": "d3",
+      "text": "rights free agent The Eagles began their season at Bank of America Stadium for a Week 1 duel with the Carolina Panthers. Philadelphia trailed early in the first quarter as Panthers running back DeAngelo Williams ran 11 yards for a Carolina touchdown on their first drive. The Eagles answered with a 49-yard field goal from kicker David Akers. In the second quarter, Philadelphia exploded with points as defensive end Victor Abiamiri returned a fumble 2 yards for a touchdown, wide receiver DeSean Jackson returned a punt 85 yards for a touchdown, and quarterback Donovan McNabb completed a 9-yard touchdown pass",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d4",
+      "text": "MVP Nick Foles had an awful preseason struggling in games versus the Patriots and Browns. Many injuries occurred while some from the previous season affected the starting offense's play. Many questioned how they would fare out after a lousy preseason showing. On January 11, the NFL announced that the Eagles will play the Jacksonville Jaguars in one of the London Games at Wembley Stadium in London, England, with the Jaguars serving as the home team. It will be the Eagles' first appearance in the International Series. The game will occur during Week 8 (October 28), and will be televised in",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "led them to the Eagles' 26 yard line. A shot to the end zone by Robert Griffin III would be intercepted by Brandon Boykin, clinching an Eagles win. The Eagles would move to 6-5. This is the Eagles first win at Lincoln Financial Field since Week 4 of the 2012 season, because prior to this game, the Eagles had \"never\" won a game in their home stadium in 414 days since that same week, snapping a 10-game losing streak at home with this win. With the win, the Eagles improved to 7-5. In a blinding snowstorm, with at least 8\"  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions the Eagles moving into Lincoln Financial Field in 2003, which is their current home stadium."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "Mentions Veterans Stadium in the context of a Phillies game, but not as the Eagles' home stadium."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions the Eagles playing at Bank of America Stadium for a game against the Carolina Panthers, indicating an away game location."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Discusses an Eagles game in London at Wembley Stadium, which is an international game, not their home stadium."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states the Eagles' win at Lincoln Financial Field and refers to it as their home stadium."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The Eagles would later move into Lincoln Financial Field in 2003."
+          ],
+          "reason": "Extracted the fact that the Eagles moved to Lincoln Financial Field in 2003, which is their home stadium."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A game on November 7 that was originally scheduled to be played in St. Louis was moved to Philadelphia.",
+            "Veterans Stadium was used for a Philadelphia Phillies game."
+          ],
+          "reason": "Extracted facts mentioning Philadelphia as a location for games, and Veterans Stadium, which was a former Eagles stadium."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Eagles began their season at Bank of America Stadium for a Week 1 duel with the Carolina Panthers."
+          ],
+          "reason": "Extracted the fact that the Eagles played a game at Bank of America Stadium, indicating a potential away game location."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "On January 11, the NFL announced that the Eagles will play the Jacksonville Jaguars in one of the London Games at Wembley Stadium in London, England, with the Jaguars serving as the home team."
+          ],
+          "reason": "Extracted the fact that the Eagles played a game at Wembley Stadium in London, England, noting the Jaguars as the home team."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "This is the Eagles first win at Lincoln Financial Field since Week 4 of the 2012 season.",
+            "The Eagles had \"never\" won a game in their home stadium in 414 days since Week 4 of the 2012 season, snapping a 10-game losing streak at home with this win."
+          ],
+          "reason": "Extracted facts explicitly stating Lincoln Financial Field as the Eagles' home stadium and detailing their performance there."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States the Eagles moved into Lincoln Financial Field in 2003, directly implying it's their home stadium.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Philadelphia as a game location and Veterans Stadium, a former home, but doesn't explicitly state the current home stadium.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Mentions the Eagles playing at Bank of America Stadium, which is identified as an away game location against the Carolina Panthers.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "States the Eagles played in London at Wembley Stadium, with the Jaguars as the home team, indicating an away game.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly states Lincoln Financial Field as the Eagles' home stadium and discusses their performance there.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_home_stadium_confirmation",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 directly confirm Lincoln Financial Field as the Eagles' home stadium, with d5 providing specific performance details."
+          },
+          {
+            "label": "indirect_location_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides context by mentioning Philadelphia as a game location and Veterans Stadium, a former home, but does not explicitly name the current home stadium."
+          },
+          {
+            "label": "away_game_locations",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 describe away games played by the Eagles at Bank of America Stadium and Wembley Stadium, respectively, and are therefore irrelevant to identifying their home stadium."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All evidence pieces are compatible. Some directly confirm Lincoln Financial Field as the home stadium, while others provide context about past stadiums or away games.",
+        "clusters": [
+          {
+            "label": "Lincoln Financial Field Confirmed as Home Stadium",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 directly confirm Lincoln Financial Field as the Eagles' home stadium, with d5 providing specific performance details."
+          },
+          {
+            "label": "Indirect Location Context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides context by mentioning Philadelphia as a game location and Veterans Stadium, a former home, but does not explicitly name the current home stadium."
+          },
+          {
+            "label": "Away Game Locations",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 describe away games played by the Eagles at Bank of America Stadium and Wembley Stadium, respectively, and are therefore irrelevant to identifying their home stadium."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct evidence confirms Lincoln Financial Field as the home stadium. The evidence is complementary and poses no significant conflict or misinformation risk."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Lincoln Financial Field is the home stadium for the Eagles.",
+        "citations": [
+          "d1",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Direct evidence from documents d1 and d5 confirms Lincoln Financial Field as the Eagles' home stadium. The other documents provide complementary context or are irrelevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited documents, which mention Lincoln Financial Field as the Eagles' home stadium."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8919,
+      "completion_tokens": 1955,
+      "total_tokens": 10874
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1390,
+        "completion_tokens": 348,
+        "total_tokens": 1738
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1345,
+        "completion_tokens": 499,
+        "total_tokens": 1844
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 892,
+        "completion_tokens": 342,
+        "total_tokens": 1234
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1048,
+        "completion_tokens": 262,
+        "total_tokens": 1310
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1327,
+        "completion_tokens": 283,
+        "total_tokens": 1610
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 708,
+        "completion_tokens": 45,
+        "total_tokens": 753
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 858,
+        "completion_tokens": 89,
+        "total_tokens": 947
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1351,
+        "completion_tokens": 87,
+        "total_tokens": 1438
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:22.426379",
+        "prompt_tokens": 1390,
+        "completion_tokens": 348,
+        "total_tokens": 1738,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:25.000796",
+        "prompt_tokens": 1345,
+        "completion_tokens": 499,
+        "total_tokens": 1844,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:26.674980",
+        "prompt_tokens": 892,
+        "completion_tokens": 342,
+        "total_tokens": 1234,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:27.905983",
+        "prompt_tokens": 1048,
+        "completion_tokens": 262,
+        "total_tokens": 1310,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:30.222927",
+        "prompt_tokens": 1327,
+        "completion_tokens": 283,
+        "total_tokens": 1610,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:31.098813",
+        "prompt_tokens": 708,
+        "completion_tokens": 45,
+        "total_tokens": 753,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:32.329848",
+        "prompt_tokens": 858,
+        "completion_tokens": 89,
+        "total_tokens": 947,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:33.242339",
+        "prompt_tokens": 1351,
+        "completion_tokens": 87,
+        "total_tokens": 1438,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:05:20.055356",
+  "last_updated_at": "2026-04-17T20:05:33.242853"
+}

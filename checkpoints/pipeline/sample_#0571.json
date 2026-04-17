@@ -1,0 +1,393 @@
+{
+  "sample_id": "#0571",
+  "query": "What are the extra books of the bible called?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "arguing against their inclusion for theological reasons, and with other Protestants citing the cost of publishing the hidden books as a major factor in removing them. Today it is possible to find Protestant Bibles which now include the Apocrypha. The status of the deuterocanonicals remains unchanged in Catholic and Orthodox Christianities. The actual status of the books which the Catholic church terms \"Deuterocanonicals\" (second canon) and Protestantism refers to as \"Apocrypha\" has been an issue of disagreement which preceded the Reformation. Many believe that the pre-Christian-era Jewish translation (into Greek) of holy scriptures known as the Septuagint, a Greek translation",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "New Testament are taken from the Koine Greek Septuagint (LXX) \u0393\u00c7\u00f4 editions of which include the deuterocanonical books, as well as apocrypha \u0393\u00c7\u00f4 both of which are called collectively \"anagignoskomena\" (\"\"Readable,\" namely worthy of reading\"). No two Septuagint codices contain the same apocrypha, and the three earliest manuscripts of the LXX show uncertainty as to which books constitute the complete list of biblical books. Codex Vaticanus (B) lacks any of the books of Maccabees, while Codex Sinaiticus (Aleph) omits Baruch and the letter of Jeremiah, but includes 1 and 4 Maccabees. Codex Alexandrinus includes the Psalms of Solomon and Maccabees",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Council of Trent officially (\"infallibly\") declared these books (called \"deuterocanonical\" by Catholics) to be part of the canon in April, 1546 A.D. While the Protestant Reformers rejected the parts of the canon that were not part of the Hebrew Bible, they included the four New Testament books Luther held as doubtful canonicity along with the Apocrypha in his non-binding canon (though most were separately included in his bible, as they were in some editions of the KJV bible until 1947). Protestantism therefore established a 66 book canon with the 39 books based on the ancient Hebrew canon, along with the",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "places. For instance, the books called Ezra and Nehemiah in the King James Version are called 1 and 2 Esdras in the Douay\u0393\u00c7\u00f4Rheims Bible. The books called 1 and 2 Esdras in the KJV are called 3 and 4 Esdras in the Douay, and were classed as apocrypha. A table illustrating the differences can be found here. The names, numbers, and order of the books in the Douay\u0393\u00c7\u00f4Rheims Bible follow those of the Vulgate except that the three apocryphal books are placed after the Old Testament in the Douay\u0393\u00c7\u00f4Rheims Bible; in the Clementine Vulgate they come after the New Testament.",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-11-28"
+    },
+    {
+      "doc_id": "d5",
+      "text": "of Anglican and Lutheran bibles place such books in a separate section called Apocrypha. These extra books are ultimately derived from the earlier Greek Septuagint collection of the Hebrew scriptures and are also Jewish in origin. Some are also contained in the Dead Sea Scrolls. The Old Testament consists of many distinct books by various authors produced over a period of centuries. Christians traditionally divide the Old Testament into four sections: (1) the first five books or Pentateuch (Torah); (2) the history books telling the history of the Israelites, from their conquest of Canaan to their defeat and exile in  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2001-05-05"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions 'hidden books' and 'Apocrypha' in relation to the Bible, directly addressing the query's topic."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Discusses 'deuterocanonical books' and 'apocrypha' within the context of the Septuagint, directly answering what these extra books are called."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Explains the Catholic term 'deuterocanonical' and Protestant 'Apocrypha' for books outside the Hebrew canon, relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Compares book names in different Bibles, explicitly mentioning 'apocrypha' and 'Esdras' as examples of extra books."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that 'extra books' are placed in a section called 'Apocrypha', directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Catholic church terms \"Deuterocanonicals\" (second canon).",
+            "Protestantism refers to these books as \"Apocrypha\"."
+          ],
+          "reason": "Extracted the different names used by Catholics and Protestants for these extra books, which directly answers the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "The deuterocanonical books and apocrypha are collectively called \"anagignoskomena\" (\"Readable\")."
+          ],
+          "reason": "Extracted the collective term used for these extra books, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The Council of Trent officially declared deuterocanonical books to be part of the canon in April, 1546 A.D.",
+            "Protestant Reformers rejected parts of the canon not in the Hebrew Bible.",
+            "Luther included the Apocrypha in his non-binding canon."
+          ],
+          "reason": "Extracted facts about the historical and religious classification of these books, including their inclusion in specific canons."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Books called Ezra and Nehemiah in the KJV are called 1 and 2 Esdras in the Douay-Rheims Bible.",
+            "Books called 1 and 2 Esdras in the KJV are called 3 and 4 Esdras in the Douay, and were classed as apocrypha.",
+            "The three apocryphal books are placed after the Old Testament in the Douay-Rheims Bible."
+          ],
+          "reason": "Extracted specific examples of how these extra books are named and placed differently in various Bible versions."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Anglican and Lutheran bibles place extra books in a separate section called Apocrypha.",
+            "These extra books are derived from the earlier Greek Septuagint collection and are Jewish in origin."
+          ],
+          "reason": "Extracted the name of the section where these books are placed in some Bibles and their origin."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly provides the terms \"Deuterocanonicals\" and \"Apocrypha\" used for extra biblical books.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States the collective term \"anagignoskomena\" for these extra books, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Discusses historical classification and inclusion in canons but doesn't directly state the names of the extra books.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Provides specific examples of alternative names and classifications for extra books like Esdras and Apocrypha.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions the term \"Apocrypha\" for extra books and their origin, but doesn't cover all names or contexts.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4"
+        ],
+        "partial_docs": [
+          "d3",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_naming_and_classification",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 directly provide the terms 'Deuterocanonicals', 'Apocrypha', and 'anagignoskomena' for extra biblical books, with d4 offering specific examples of naming variations."
+          },
+          {
+            "label": "historical_and_contextual_information",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 offer historical context on the classification and inclusion of these books in various canons and Bibles, with d5 also mentioning their origin."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups provide compatible details about the naming and classification of extra biblical books, with one cluster focusing on direct naming and the other on historical context.",
+        "clusters": [
+          {
+            "label": "direct_naming_and_classification",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, and d4 directly provide the terms 'Deuterocanonicals', 'Apocrypha', and 'anagignoskomena' for extra biblical books, with d4 offering specific examples of naming variations."
+          },
+          {
+            "label": "historical_and_contextual_information",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d3 and d5 offer historical context on the classification and inclusion of these books in various canons and Bibles, with d5 also mentioning their origin."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing direct naming and historical context for extra biblical books without significant conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Extra biblical books are referred to as 'Deuterocanonicals', 'Apocrypha', and 'anagignoskomena'. Documents d1, d2, and d4 directly provide these terms, with d4 offering specific examples of naming variations. Documents d3 and d5 offer historical context on their classification and inclusion in various canons and Bibles.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting and partial documents are complementary, providing direct naming and historical context for extra biblical books without significant conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately identifies the terms for extra biblical books and correctly cites the documents that support each term."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9384,
+      "completion_tokens": 2049,
+      "total_tokens": 11433
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1505,
+        "completion_tokens": 389,
+        "total_tokens": 1894
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1460,
+        "completion_tokens": 558,
+        "total_tokens": 2018
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 942,
+        "completion_tokens": 344,
+        "total_tokens": 1286
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1100,
+        "completion_tokens": 227,
+        "total_tokens": 1327
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1356,
+        "completion_tokens": 249,
+        "total_tokens": 1605
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 667,
+        "completion_tokens": 40,
+        "total_tokens": 707
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 812,
+        "completion_tokens": 157,
+        "total_tokens": 969
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1542,
+        "completion_tokens": 85,
+        "total_tokens": 1627
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:29.548901",
+        "prompt_tokens": 1505,
+        "completion_tokens": 389,
+        "total_tokens": 1894,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:31.817291",
+        "prompt_tokens": 1460,
+        "completion_tokens": 558,
+        "total_tokens": 2018,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:33.508804",
+        "prompt_tokens": 942,
+        "completion_tokens": 344,
+        "total_tokens": 1286,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:34.901255",
+        "prompt_tokens": 1100,
+        "completion_tokens": 227,
+        "total_tokens": 1327,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:36.267587",
+        "prompt_tokens": 1356,
+        "completion_tokens": 249,
+        "total_tokens": 1605,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:37.285634",
+        "prompt_tokens": 667,
+        "completion_tokens": 40,
+        "total_tokens": 707,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:38.418392",
+        "prompt_tokens": 812,
+        "completion_tokens": 157,
+        "total_tokens": 969,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:07:39.410970",
+        "prompt_tokens": 1542,
+        "completion_tokens": 85,
+        "total_tokens": 1627,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:07:27.815179",
+  "last_updated_at": "2026-04-17T20:07:39.411806"
+}

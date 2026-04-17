@@ -1,0 +1,397 @@
+{
+  "sample_id": "#0486",
+  "query": "When did the first hobbit movie come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "real-life human subspecies, Homo floresiensis, discovered in 2003 in Indonesia, which have been uniformly referred to as 'hobbits' in the scientific community.\" A lawsuit by Warner Bros. resulted in a temporary restraining order preventing The Asylum from releasing the film on its scheduled release date of December 11. The federal judge presiding over the case found that the film violated the \"hobbit\" trademark and was likely to cause confusion among consumers. As a result, \"Age of the Hobbits\" became the first Asylum film to be blocked from release. A hearing was also scheduled for January 28, 2013 to decide whether",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "a two-film adaptation of \"The Hobbit\", which was to be directed by Guillermo del Toro. Del Toro left the project in May 2010, after about two years of working with Jackson and his production team, due to delays caused in part by financial problems at Metro-Goldwyn-Mayer. Jackson was announced as director that October. \"The Hobbit\" films were produced back to back, like \"The Lord of the Rings\" films. Principal photography for \"The Hobbit\" films began on 21 March 2011 in New Zealand and ended on 6 July 2012, after 266 days of filming. Pick-ups for \"An Unexpected Journey\" were filmed",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d3",
+      "text": "hobbit on the title page, and one with the seated flautist. Historically Houghton Mifflin's practice has been to place the publication year at the foot of the title page for the first printings of its first editions. All of first edition Hobbit copies show the 1938 date on the title page, perhaps discouraging bibliographers from ascribing different printings to them. Others, however, reason that Houghton Mifflin must have printed the volumes several distinct times between 1938 and the second edition of 1951. They point out that none of the variations could have come about during the course of a single",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d4",
+      "text": "\"Thor\" to direct \"The Hobbit\". By September 2008 D. J. Caruso had been discussing taking on the project, though he did not read the script. Later that month, Kenneth Branagh entered into negotiations to direct, and by December 2008, Branagh confirmed that he had been hired. He described it as \"a human story right in the center of a big epic scenario.\" Branagh stated that he hoped to begin filming in January 2010 and Marvel Studios set back the release date of the film from its scheduled July 16, 2010 date to June 17, 2011, almost a full year later.",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d5",
+      "text": "various changes made to characters such as Aragorn, Arwen, Denethor and Faramir, as well as to the main protagonist Frodo himself, and the deletion of the next to the last chapter of Tolkien's work, \"The Scouring of the Shire\", a part he himself felt thematically necessary. A three-part prequel based on \"The Hobbit\" and directed by Peter Jackson was released between 2012 and 2014. The three films are subtitled \"\", \"\" and \"\". As with \"The Lord of the Rings\" trilogy, the prequel movies were filmed back to back in New Zealand; principal photography began on 21 March 2011. The  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1991"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document discusses a film titled 'Age of the Hobbits' and a lawsuit, not the release date of the first Hobbit movie adaptation of Tolkien's book."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions principal photography for 'The Hobbit' films began on March 21, 2011, and director Peter Jackson was announced in October 2010, providing context for the film's production timeline."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses the publication year of the book 'The Hobbit' (1938) and its first editions, not the movie adaptation's release date."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions a director being hired for 'The Hobbit' and a potential release date of June 17, 2011, but it's unclear if this refers to the first movie or a different adaptation."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States a three-part prequel based on 'The Hobbit' directed by Peter Jackson was released between 2012 and 2014, and principal photography began March 21, 2011, directly addressing the film series."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "A lawsuit resulted in a temporary restraining order preventing the film \"Age of the Hobbits\" from its scheduled release date of December 11."
+          ],
+          "reason": "Extracted the release date information for the film \"Age of the Hobbits\" which was blocked from release due to a lawsuit."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Principal photography for \"The Hobbit\" films began on 21 March 2011 and ended on 6 July 2012."
+          ],
+          "reason": "Extracted the principal photography dates for \"The Hobbit\" films, which are relevant to the movie's production timeline."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "All first edition Hobbit copies show the 1938 date on the title page."
+          ],
+          "reason": "Extracted the publication year (1938) from the title page of first edition Hobbit copies, which is a verifiable fact about the book's release."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Marvel Studios set back the release date of the film from its scheduled July 16, 2010 date to June 17, 2011."
+          ],
+          "reason": "Extracted the original and revised release dates for a film adaptation of \"The Hobbit\", providing specific dates relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A three-part prequel based on \"The Hobbit\" and directed by Peter Jackson was released between 2012 and 2014.",
+            "Principal photography for the prequel movies began on 21 March 2011."
+          ],
+          "reason": "Extracted the release window (2012-2014) and principal photography start date (March 21, 2011) for the \"Hobbit\" prequel films."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a film called \"Age of the Hobbits\" and its blocked release, not the release date of the first \"The Hobbit\" movie.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Provides the start and end dates for principal photography, which is related to the movie's production but not its release date.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document refers to the publication date of the book \"The Hobbit\", not the release date of any movie adaptation.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document mentions a film adaptation of \"The Hobbit\" but provides release dates for a different film (July 16, 2010, and June 17, 2011), not the actual first Hobbit movie.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States that a three-part prequel based on \"The Hobbit\" was released between 2012 and 2014, directly addressing the release period of the Hobbit movies.",
+          "confidence": 0.92
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_release_window",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 directly states the release window for the Hobbit prequel films (2012-2014)."
+          },
+          {
+            "label": "production_timeline",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides production timeline details (principal photography dates) which are related but not the release date."
+          },
+          {
+            "label": "off_topic_or_incorrect_dates",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant as they discuss a different film, the book's publication date, or incorrect movie release dates."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Document d5 supports the release window of the Hobbit prequel films, while d2 offers related production details. Other documents are irrelevant.",
+        "clusters": [
+          {
+            "label": "direct_release_window",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 directly states the release window for the Hobbit prequel films (2012-2014)."
+          },
+          {
+            "label": "production_timeline",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 provides production timeline details (principal photography dates) which are related but not the release date."
+          },
+          {
+            "label": "off_topic_or_incorrect_dates",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d3, and d4 are irrelevant as they discuss a different film, the book's publication date, or incorrect movie release dates."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient direct evidence supports the release window, and there are no conflicts. Irrelevant documents were correctly filtered out."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Hobbit prequel films were released between 2012 and 2014.",
+        "citations": [
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Document d5 directly states the release window for the Hobbit prequel films, and no conflicting information was found."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is directly supported by the cited document, which states the Hobbit prequel films were released between 2012 and 2014."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9087,
+      "completion_tokens": 2090,
+      "total_tokens": 11177
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1409,
+        "completion_tokens": 453,
+        "total_tokens": 1862
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1364,
+        "completion_tokens": 513,
+        "total_tokens": 1877
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 907,
+        "completion_tokens": 395,
+        "total_tokens": 1302
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1116,
+        "completion_tokens": 248,
+        "total_tokens": 1364
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1382,
+        "completion_tokens": 259,
+        "total_tokens": 1641
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 694,
+        "completion_tokens": 42,
+        "total_tokens": 736
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 841,
+        "completion_tokens": 84,
+        "total_tokens": 925
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1374,
+        "completion_tokens": 96,
+        "total_tokens": 1470
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:08.472431",
+        "prompt_tokens": 1409,
+        "completion_tokens": 453,
+        "total_tokens": 1862,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:10.261727",
+        "prompt_tokens": 1364,
+        "completion_tokens": 513,
+        "total_tokens": 1877,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:12.812560",
+        "prompt_tokens": 907,
+        "completion_tokens": 395,
+        "total_tokens": 1302,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:14.180909",
+        "prompt_tokens": 1116,
+        "completion_tokens": 248,
+        "total_tokens": 1364,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:16.052593",
+        "prompt_tokens": 1382,
+        "completion_tokens": 259,
+        "total_tokens": 1641,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:16.939836",
+        "prompt_tokens": 694,
+        "completion_tokens": 42,
+        "total_tokens": 736,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:18.144976",
+        "prompt_tokens": 841,
+        "completion_tokens": 84,
+        "total_tokens": 925,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:46:19.528052",
+        "prompt_tokens": 1374,
+        "completion_tokens": 96,
+        "total_tokens": 1470,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:46:06.886858",
+  "last_updated_at": "2026-04-17T19:46:19.528558"
+}

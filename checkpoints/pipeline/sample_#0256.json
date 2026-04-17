@@ -1,0 +1,442 @@
+{
+  "sample_id": "#0256",
+  "query": "Has water been found on the Moon?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Water & Ices | Composition \u2013 Moon: NASA Science When tested, soil samples brought back by Apollo astronauts revealed no sign of water. Scientists concluded that the lunar surface must be completely dry, and the prospect of water wasn\u2019t seriously considered again for decades. Possible Frozen Water in Shadowed Craters (1994, 1998) NASA\u2019s Clementine mission launched in 1994 to orbit the Moon for two months and collect information about its minerals. Clementine data suggested there was ice in a permanently shadowed region of the Moon. The Lunar Prospector Mission focused on permanently shadowed craters to look deeper into the discovery and in 1998 found that the largest concentrations of hydrogen exist in the areas of the lunar surface that are never exposed to sunlight. The results indicated water ice at the lunar poles. However, the images were low resolution so no strong conclusions could be made. A mosaic image of the south pole of the Moon as taken by NASA\u2019s Clementine spacecraft. Credit: NASA/JPL/USGS Revisiting Apollo Samples (2008) Capitalizing on major advances in technology since the Apollo era, researchers from Brown University revisited the Apollo samples. They found hydrogen inside tiny beads of volcanic glass. Since no volcanoes are erupting on the Moon today, the discovery presented evidence that water had existed in the Moon when the volcanoes erupted in the Moon\u2019s ancient past. Additionally, the preserved hydrogen provided clues to the origins of lunar water: if it emerged from erupting volcanoes, it must have come from within the Moon. The discovery suggested that water was a part of the Moon since its early existence \u2013 and perhaps since it first formed. Glass beads produced by ancient volcanic eruptions on the Moon and collected by Apollo astronauts.",
+      "source_url": "https://moon.nasa.gov/inside-and-out/composition/water-and-ices",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "The moon's water: where did it come from \u2013 and where did it all go ... The moon\u2019s water: where did it come from \u2013 and where did it all go? Fragments of moon rock brought back from the lunar surface by astronauts on the Apollo space missions are providing new insights about where our planet\u2019s life-giving water came from. 19 February 2019 By Richard Gray New findings suggest that if the moon formed after a giant impact after water had had been received, it should have gotten a share of that water. The question is - where did it go? Image Credit - ANDY SMITH ASTRONOMY The next time you take a sip of water, take a moment to consider where it has come from. It may have travelled from a local reservoir to your tap, while bottled water can come from springs in another country entirely. But new research suggests the water we drink and depend upon to sustain life here on Earth may have its origins in a far more distant place \u2013 outer space. New analysis of moon rock fragments brought back by Apollo astronauts in the 1960s and 1970s suggests much of the water on our planet was carried here by asteroids and comets that collided with the Earth shortly after it formed 4.54 billion years ago. The research, which uses modern techniques to look at the composition of chemical traces in the rocks, is also providing new evidence to support theories about how the Moon itself formed and how the traces of water found on its surface got there. \u2018The moon is like a time capsule,\u2019 said Professor Fr\u00e9d\u00e9ric Moynier, a cosmochemist at the Institut de Physique du Globe de Paris, in France. \u2018Its rocks are far older than anything we can find here on Earth, so they hold a lot of valuable information.\u2019 Unchanged Volcanic activity and the continuous movement of tectonic plates have destroyed all of the oldest rocks here on Earth. The oldest to be found here, found in a few locations like Greenland, are just 3.8 billion years old. The moon\u2019s rocks, however, have remained largely unchanged since it formed 4.51 billion years ago.",
+      "source_url": "https://ec.europa.eu/research-and-innovation/en/horizon-magazine/moons-water-where-did-it-come-and-where-did-it-all-go",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "There's Water on the Moon? \u2013 Moon: NASA Science There's Water on the Moon? NASA recently announced that - for the first time - we\u2019ve confirmed the water molecule, H2O, in sunlit areas of the Moon. This indicates that water is widely distributed across the lunar surface. Did we already know water existed on the Moon? In the late 2000s, a number of missions including the Indian Space Research Organization\u2019s Chandrayaan-1, and NASA\u2019s Cassini and Deep Impact detected hydration on the lunar surface \u2013 but these missions could not determine if the signals were hydroxyl (OH) or water (H2O). Since then, numerous missions have made similar detections, including our Lunar Reconnaissance Orbiter and LCROSS missions. The majority of signals come from permanently shadowed regions \u2013 craters at the Moon\u2019s poles that never see sunlight. These areas are so cold that water within them gets trapped and can\u2019t evaporate. In 2019, data from the LADEE mission revealed that OH and/or H2O existed on the Moon, beyond the permanently shadowed regions, and is expelled through micrometeorite impacts. An overview of the history of lunar water discoveries, followed by an in-depth look at a discovery from the LADEE mission. Scientists discovered that water is being released from the Moon during meteor showers. Credit: NASA's Goddard Space Flight Center/Dan Gallagher What is new about the results from the SOFIA mission? This is the first time that we\u2019ve confirmed that the molecules on the sunlit surface of the Moon are H2O. How much water is on the Moon? The Moon is really dry. As a comparison, the Sahara Desert has 100 times the amount of water than what the SOFIA mission detected in the lunar soil. What questions do we want to answer next? This discovery challenges our understanding of how water behaves on the Moon. We thought that the water on the sunlit part of the Moon would have evaporated \u2013 but we found it! Now we will delve deeper into how this water is created and how it persists.",
+      "source_url": "https://moon.nasa.gov/news/155/theres-water-on-the-moon/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Your Guide to Water on the Moon | The Planetary Society Your Guide to Water on the Moon Facts worth sharing The Moon\u00e2\u0080\u0099s poles have permanently shadowed regions that never receive sunlight, where spacecraft have detected large amounts of water ice. Future astronauts could use the ice for air, water, and propellant. Starting with missions like VIPER, NASA is embarking a sustained exploration program of the lunar poles, part of a global interest in the said regions. When was water on the Moon discovered? Scientists have long suspected water might exist on the Moon, but exactly how much there was and where it was located has been the source of much debate. In a 1967 paper, lunar scientist Harold Urey mocked his colleagues for believing the Moon\u00e2\u0080\u0099s river-like channels were caused by anything other than water, such as \u00e2\u0080\u009clava, dust-gas or possibly even vodka.\u00e2\u0080\u009d The definitive discovery of Moon water came in 2008, when India\u00e2\u0080\u0099s space agency ISRO launched the Chandrayaan-1 spacecraft to lunar orbit. Chandrayaan-1 carried with it a NASA-provided science instrument called the Moon Mineralogical Mapper\u00e2\u0080\u0094M3 for short\u00e2\u0080\u0094that observed how the surface absorbed infrared light. Using this data M3 determined that previously suspected water molecules were ice inside the Moon\u00e2\u0080\u0099s polar craters. A year later in 2009, NASA launched the Lunar Reconnaissance Orbiter (LRO) and an impact probe called LCROSS. The upper stage from the rocket used to launch LRO and LCROSS was deliberately smashed into a dark crater on the Moon\u00e2\u0080\u0099s south pole. LCROSS flew through the debris plume and detected 155 kilograms of water before it too crashed into the Moon. Since then, many other Moon missions have seen hints of water in different forms and in different regions. Though these discoveries are vital incremental steps in the scientific process, they are occasionally over-hyped by the media.",
+      "source_url": "https://www.planetary.org/articles/water-on-the-moon-guide",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Lunar water - Wikipedia Although trace amounts of water were found in lunar rock samples collected by Apollo astronauts, this was assumed to be a result of contamination, and the majority of the lunar surface was generally assumed to be completely dry.[17] However, a 2008 study of lunar rock samples revealed evidence of water molecules trapped in volcanic glass beads.[18] The first direct evidence of water vapor near the Moon was obtained by the Apollo 14ALSEP Suprathermal Ion Detector Experiment, SIDE, on March 7, 1971. A series of bursts of water vapor ions were observed by the instrument mass spectrometer at the lunar surface near the Apollo 14 landing site.[19] Luna 24 In February 1978 Soviet scientists M. Akhmanova, B. Dement'ev, and M. Markov of the Vernadsky Institute of Geochemistry and Analytical Chemistry published a paper claiming a detection of water fairly definitively.[6][7] Their study showed that the samples returned to Earth by the 1976 Soviet probe Luna 24 contained about 0.1% water by mass, as seen in infrared absorption spectroscopy (at about 3 \u03bcm (0.00012 in) wavelength), at a detection level about 10 times above the threshold.[citation needed] Clementine Composite image of the Moon's south polar region, captured by NASA's Clementine probe over two lunar days. Permanently shadowed areas could harbour water ice. A proposed evidence of water ice on the Moon came in 1994 from the United States military Clementine probe.",
+      "source_url": "https://en.wikipedia.org/wiki/Lunar_water",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "'Significant Amount' of Water Found on Moon | Space ,\" Colaprete said. \"What's really exciting is we've only hit one spot. It's kind of like when you're drilling for oil. Once you find it one place, there's a greater chance you'll find more nearby,\" said Peter Schultz, professor of geological sciences at Brown University and a co-investigator on the LCROSS mission. This water finding doesn't mean that the moon is wet by Earth's standards, but is likely wetter than some of the driest deserts on Earth, Colaprete said. And even this small amount is valuable to possible future missions, said Michael Wargo, chief lunar scientist for Exploration Systems at NASA Headquarters. Scientists have suspected that permanently shadowed craters at the south pole of the moon could be cold enough to keep water frozen at the surface based on detections of hydrogen by previous moon missions. Water has already been detected on the moon by a NASA-built instrument on board India's now defunct Chandrayaan-1 probe and other spacecraft, though it was in very small amounts and bound to the dirt and dust of the lunar surface. Water wasn't the only compound seen in the debris plumes of the LCROSS impact. \"There's a lot of stuff in there,\" Colaprete said. What exactly those other compounds are hasn't yet been determined, but could include organic materials that would hint at comet impacts in the past. More questions The findings show that \"the lunar poles are sort of record keepers\" of lunar history and solar system history because these permanently-shadowed regions are very cold \"and that means that they tend to trap and keep things that encounter them,\" said Greg Delory, a senior fellow at the Space Sciences Laboratory and Center for Integrative Planetary Sciences at the University of California, Berkeley. \"So they have a story to tell about the history of the moon and the solar system climate. \" \"This is ice that's potentially been there for billions of years,\" said Doug Cooke, associate administrator at Exploration Systems Mission Directorate at NASA Headquarters in Washington, D.C.",
+      "source_url": "https://www.space.com/7530-significant-amount-water-moon.html",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Provides evidence of past water on the Moon through volcanic glass beads and discusses early assumptions of a dry lunar surface, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses the origin of lunar water and its connection to Earth's water, suggesting water was present on the Moon since its formation and providing context for the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.98,
+          "is_relevant": true,
+          "reason": "Directly confirms the discovery of water molecules (H2O) in sunlit areas of the Moon, explicitly answering the query and detailing recent findings."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Details the definitive discovery of Moon water in 2008 by Chandrayaan-1 and mentions water ice at the poles, directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Mentions trace amounts of water found in lunar rock samples and evidence of water molecules trapped in volcanic glass, directly supporting the query."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States that water has been detected on the Moon by multiple spacecraft, including in small amounts bound to the surface, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Discovery presented evidence that water had existed in the Moon when volcanoes erupted in its ancient past.",
+            "Preserved hydrogen provided clues that water emerged from erupting volcanoes, originating from within the Moon.",
+            "Soil samples brought back by Apollo astronauts revealed no sign of water, leading scientists to conclude the lunar surface was dry."
+          ],
+          "reason": "Extracted facts about past volcanic activity indicating water presence and the initial conclusion of a dry lunar surface based on Apollo samples."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "New findings suggest that if the moon formed after water had been received, it should have gotten a share of that water.",
+            "New analysis of moon rock fragments suggests much of the water on Earth was carried here by asteroids and comets."
+          ],
+          "reason": "Extracted facts related to the moon potentially receiving water during its formation and the origin of Earth's water from space."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "NASA confirmed the water molecule, H2O, in sunlit areas of the Moon for the first time.",
+            "Missions in the late 2000s detected hydration, but could not distinguish between hydroxyl (OH) or water (H2O).",
+            "Data from the LADEE mission revealed OH and/or H2O existed beyond permanently shadowed regions and is expelled through micrometeorite impacts.",
+            "Scientists discovered that water is being released from the Moon during meteor showers."
+          ],
+          "reason": "Extracted key findings about the confirmation of H2O in sunlit areas, previous ambiguous detections, and the release of water during meteor showers."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The definitive discovery of Moon water came in 2008 with India's Chandrayaan-1 spacecraft.",
+            "Chandrayaan-1 carried a NASA instrument that observed how the surface absorbed infrared light.",
+            "The LCROSS mission detected 155 kilograms of water before crashing into the Moon.",
+            "Spacecraft have detected large amounts of water ice in permanently shadowed regions at the Moon's poles."
+          ],
+          "reason": "Extracted facts detailing the definitive discovery year, specific missions involved (Chandrayaan-1, LCROSS), and the location of water ice at the poles."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Trace amounts of water found in Apollo samples were initially assumed to be contamination.",
+            "A 2008 study of lunar rock samples revealed evidence of water molecules trapped in volcanic glass beads.",
+            "The first direct evidence of water vapor near the Moon was obtained by the Apollo 14 mission in 1971.",
+            "A 1978 paper claimed detection of water in samples returned by the Soviet probe Luna 24, containing about 0.1% water by mass.",
+            "Evidence of water ice on the Moon was proposed in 1994 from the Clementine probe in permanently shadowed areas."
+          ],
+          "reason": "Extracted facts about early assumptions of contamination, later discoveries in volcanic glass, direct water vapor detection, Soviet findings, and evidence of ice."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Permanently shadowed craters at the south pole of the Moon are suspected to be cold enough to keep water frozen.",
+            "Water has been detected by a NASA-built instrument on India's Chandrayaan-1 probe and other spacecraft, though in small amounts.",
+            "This water finding suggests the Moon is likely wetter than some of the driest deserts on Earth."
+          ],
+          "reason": "Extracted facts about the potential for frozen water at the poles, previous detections of small amounts of water, and a comparison of lunar wetness to Earth's deserts."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "States water existed in the Moon's ancient past due to volcanic eruptions, but also mentions initial conclusions of a dry surface.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Suggests the Moon might have received water during formation and discusses Earth's water origin, indirectly related to water on the Moon.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Confirms the presence of H2O molecules in sunlit areas and discusses missions that detected hydration and water release.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Details the definitive discovery of Moon water in 2008 and mentions detection of water ice at the poles by specific missions.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Provides multiple instances of water detection, including early findings, volcanic glass evidence, and water vapor detection.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Mentions water detection by spacecraft and suggests the Moon is wetter than some Earth deserts, supporting the query.",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "historical_and_volcanic_water",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 provide evidence of water existing in the Moon's ancient past, linked to volcanic activity and trapped in volcanic glass, despite initial assumptions of contamination."
+          },
+          {
+            "label": "definitive_discoveries_and_missions",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6"
+            ],
+            "summary": "Documents d3, d4, and d6 confirm the presence of H2O molecules in sunlit areas and water ice at the poles, detailing discoveries by specific missions like Chandrayaan-1 and LCROSS, and suggesting the Moon is wetter than some Earth deserts."
+          },
+          {
+            "label": "indirect_context_on_lunar_water",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 offers indirect support by suggesting the Moon might have received water during its formation and discussing the origin of Earth's water from space."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence collectively supports the presence of water on the Moon, with different documents providing complementary details about its history, discovery, and location.",
+        "clusters": [
+          {
+            "label": "historical_and_volcanic_water",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 provide evidence of water existing in the Moon's ancient past, linked to volcanic activity and trapped in volcanic glass, despite initial assumptions of contamination."
+          },
+          {
+            "label": "definitive_discoveries_and_missions",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d6"
+            ],
+            "summary": "Documents d3, d4, and d6 confirm the presence of H2O molecules in sunlit areas and water ice at the poles, detailing discoveries by specific missions like Chandrayaan-1 and LCROSS, and suggesting the Moon is wetter than some Earth deserts."
+          },
+          {
+            "label": "indirect_context_on_lunar_water",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Document d2 offers indirect support by suggesting the Moon might have received water during its formation and discussing the origin of Earth's water from space."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, strongly supporting the presence of water on the Moon across different contexts and time periods."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Water has been found on the Moon, with evidence indicating its presence in ancient volcanic activity, trapped in volcanic glass, as H2O molecules in sunlit areas, and as water ice at the poles. Missions like Chandrayaan-1 and LCROSS have confirmed these discoveries, suggesting the Moon may be wetter than some Earth deserts.",
+        "citations": [
+          "d1",
+          "d3",
+          "d4",
+          "d5",
+          "d6"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence collectively confirm the presence of water on the Moon, detailing its historical and current forms and locations, with no significant conflicts."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully grounded in the provided documents, accurately summarizing the findings about water on the Moon and citing relevant sources."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 15301,
+      "completion_tokens": 2763,
+      "total_tokens": 18064
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2761,
+        "completion_tokens": 463,
+        "total_tokens": 3224
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2716,
+        "completion_tokens": 923,
+        "total_tokens": 3639
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1269,
+        "completion_tokens": 408,
+        "total_tokens": 1677
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 353,
+        "total_tokens": 1832
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1805,
+        "completion_tokens": 330,
+        "total_tokens": 2135
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 800,
+        "completion_tokens": 42,
+        "total_tokens": 842
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 947,
+        "completion_tokens": 155,
+        "total_tokens": 1102
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3524,
+        "completion_tokens": 89,
+        "total_tokens": 3613
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:27.614431",
+        "prompt_tokens": 2761,
+        "completion_tokens": 463,
+        "total_tokens": 3224,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:30.997393",
+        "prompt_tokens": 2716,
+        "completion_tokens": 923,
+        "total_tokens": 3639,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:32.616441",
+        "prompt_tokens": 1269,
+        "completion_tokens": 408,
+        "total_tokens": 1677,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:34.165718",
+        "prompt_tokens": 1479,
+        "completion_tokens": 353,
+        "total_tokens": 1832,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:35.597732",
+        "prompt_tokens": 1805,
+        "completion_tokens": 330,
+        "total_tokens": 2135,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:36.413536",
+        "prompt_tokens": 800,
+        "completion_tokens": 42,
+        "total_tokens": 842,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:37.708900",
+        "prompt_tokens": 947,
+        "completion_tokens": 155,
+        "total_tokens": 1102,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:21:39.187628",
+        "prompt_tokens": 3524,
+        "completion_tokens": 89,
+        "total_tokens": 3613,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:21:25.433856",
+  "last_updated_at": "2026-04-17T17:21:39.188283"
+}

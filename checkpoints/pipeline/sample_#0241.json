@@ -1,0 +1,447 @@
+{
+  "sample_id": "#0241",
+  "query": "Does shift work lead to increased cancer risk?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Association Between Night-Shift Work and Cancer Risk: Updated ... As shown in Figure 3, a dose-response curve was established, in which the solid line is a curve model established by the dose response meta-analysis, while the dotted line represents a reference of linear model. The result indicated that, for every 1 year increase of night-shift work, there is no increased risk for cancer (\u03c72 = 3.34, P = 0.067). In addition, we validated this finding with comparisons of cancer risks among individuals with different classifications of night work duration (0\u20135, 6\u201310, 11\u201315, 16\u201320, 21\u201325, and \u226526 years). Taking all eligible studies together, night-shift work did not increase the risk of cancer in any group of night workers (Figure 4 and Table S3). Heterogeneity Analysis The Q-test and I2 statistics were used to assess heterogeneity across included studies. No obvious heterogeneity was observed in the overall analyses, while heterogeneity was found in four subgroup analyses (i.e., men, North America area, prostate cancer, lung cancer, and colorectal cancer). Sensitivity Analysis and Publication Bias We performed the sensitivity analysis by omitting one study at a time, and recalculated the pooled OR of the remaining studies. As shown in Figure S1, no significant alteration was observed by removal of any single study except when the study of Poole et al. was removed (pooled OR = 1.020, 95% CI = 1.000\u20131.050) (40). Discussion This updated systematic review included 57 publications with 8,477,849 participants. Our meta-analysis found an insignificant association between night-shift work and cancer risks. No increased risk for cancer was identified among female night-shift workers as well. Neither rotating night-shift workers nor fixed night-shift workers had an increased risk for cancer. However, analysis on geographical distribution showed an increased risk for cancer among night-shift workers in Europe.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7324664/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Night-shift work and Light-at-Night - Breast Cancer Prevention ... Another area that is receiving recent attention is the effects of increased exposure to ambient light at night, mainly from urban and street light sources, on breast cancer risk. A major explanation for these relationships is that exposure to light-at-night, common for night shift workers, can lead to a decrease in the secretion of melatonin, a hormone that usually helps suppress the development of cancer. Other interacting factors may include disruption of sleep patterns and immune system responses, and increases in physiological and psychological stress. What evidence links light-at-night to breast cancer? In 2007, the International Agency for Research on Cancer concluded that shift work that disrupts circadian rhythms is probably carcinogenic to humans, based in large part on the growing association between shift working and increased incidence of breast cancer.[3] In 2021, the U.S. National Toxicology Program (NTP) released its systematic review and evaluation of the hazard potential of exposure to light-at-night. It concluded, with \u2018high confidence\u2019, that persistent night shift work which results in the disruption of circadian rhythms, can cause breast cancer.[37] One study of occupation and cancer in Britain calculated that for 2012, night shift work was linked with 4.5 percent of breast cancer diagnoses and deaths.[4] Despite this strong determination of probable carcinogenicity of shift work, controversies remain in the literature in part because studies define shift work in vastly different ways. Some gather detailed information on the type of schedule and duration of shift work while others simply ask if one ever worked nights.[5] In a study of Danish nurses, effects of night shift work on breast cancer risk were greatest for women who worked rotating hours that included the overnight (as opposed to the evening) shift, and for those who worked 12-hour shifts that alternated day and night work, as compared to shorter work periods.[6] Flight attendants are another occupational group who frequently engage in night shift work.",
+      "source_url": "https://www.bcpp.org/resource/night-shift-work-light-at-night/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Research offers insights on how night shift work increases cancer risk Research offers insights on how night shift work increases cancer risk Findings from the study suggest that night shift workers are at increased risk of developing cancer because night shifts disrupt natural 24-hour rhythms in the activity of certain cancer-related genes. By Judith Van Dongen WSU Health Sciences Spokane Office of Research SPOKANE, Wash. \u2013 New clues as to why night shift workers are at increased risk of developing certain types of cancer are presented in a new study conducted at Washington State University Health Sciences Spokane. Published online in the Journal of Pineal Research, the study involved a controlled laboratory experiment that used healthy volunteers who were on simulated night shift or day shift schedules. Findings from the study suggest that night shifts disrupt natural 24-hour rhythms in the activity of certain cancer-related genes, making night shift workers more vulnerable to damage to their DNA while at the same time causing the body\u2019s DNA repair mechanisms to be mistimed to deal with that damage. Though more research still needs to be done, these discoveries could someday be used to help prevent and treat cancer in night shift workers. \u201cThere has been mounting evidence that cancer is more prevalent in night shift workers, which led the World Health Organization\u2019s International Agency for Research on Cancer to classify night shift work as a probable carcinogenic,\u201d said co-corresponding author Shobhan Gaddameedhi, an associate professor formerly with the WSU College of Pharmacy and Pharmaceutical Sciences and now with North Carolina State University\u2019s Biological Sciences Department and Center for Human Health and the Environment. \u201cHowever, it has been unclear why night shift work elevates cancer risk, which our study sought to address.\u201d Studying the rhythms in cancer-related genes As part of a partnership between the WSU Sleep and Performance Research Center and the U.S. Department of Energy\u2019s Pacific Northwest National Laboratory (PNNL), Gaddameedhi and other WSU scientists worked with bioinformatics experts at PNNL to study the potential involvement of the biological clock, the body\u2019s built-in mechanism that keeps us on a 24-hour night and day cycle.",
+      "source_url": "https://news.wsu.edu/press-release/2021/03/08/research-offers-insights-night-shift-work-increases-cancer-risk/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Melatonin and cancer risk: does light at night compromise ... This association may be mediated, at least in part, by the oestrogen pathway. Light at night and other cancers Only few previous observational studies have addressed the relationship between shift work and cancers, other than breast cancer. Early suggestions for an increased cancer risk related to shift work arose from two mortality studies that were conducted among male shift workers to assess the influence of shift work upon total and cause-specific mortality, with suggestions for an increased cancer mortality related to shift work. Tynes et al report an increased risk of colon (SIR 1.3; 95% CI 0.6\u20132.6) and rectum cancer (SIR 1.8; 95% CI 0.7\u20133.9) in their cohort of female radio and telegraph workers. Rafnsson and colleagues do not report the risks for colorectal cancer among the female Icelandic flight attendants, but describe an elevated risk for tumours of the lymphatic system. Updating the melatonin hypothesis Given the evidence from experimental studies supporting the general oncostatic property of melatonin, we therefore speculate that exposure to light at night not only has an impact on breast cancer risk, but also may increase the risk of other cancers, primarily through the melatonin pathway. This has been posed previously (Kerenyi et al, 1990) without much further attention from the scientific community, but most recent evidence from observational studies supports such a link. The Nurses\u2019 Health Study Cohort was used to explore the association between night work and colorectal cancer; 602 women were diagnosed with incident colorectal cancer during the 10 years of follow-up. In these analyses, women who worked 15 or more years on rotating night shifts were at a higher risk of colorectal cancer than were women who never worked rotating night shifts. The relative risks after adjustment for age, smoking, physical activity, and other colorectal cancer risk factors were 1.00 (0.84\u20131.19) for 1\u201314 years on rotating night shifts and 1.35 (1.03\u2013",
+      "source_url": "https://www.nature.com/articles/6601626",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Shift work - Wikipedia Working rotating shift work regularly during a two-year interval has been associated with a 9% increased the risk of early menopause compared to women who work no rotating shift work. The increased risk among rotating night shift workers was 25% among women predisposed to earlier menopause. Early menopause can lead to a host of other problems later in life.[16][17] A recent study, found that women who worked rotating night shifts for more than six years, eleven percent experienced a shortened lifespan. Women who worked rotating night shifts for more than 15 years also experienced a 25 percent higher risk of death due to lung cancer.[18] The health consequences of shift work may depend on chronotype, that is, being a day person or a night person, and what shift a worker is assigned to. When individual chronotype is opposite of shift timing (day person working night shift), there is a greater risk of circadian rhythms disruption.[24] Nighttime workers sleep an average of 1\u20134 hours less than daytime workers.[25] Different shift schedules will have different impacts on the health of a shift worker. The way the shift pattern is designed affects how shift workers sleep, eat and take holidays. Some shift patterns can exacerbate fatigue by limiting rest, increasing stress, overworking staff or disrupting their time off.[26] Muscle health is also compromised by shift work: altered sleep and eating times, changes to appetite-regulating hormones and total energy expenditure, increased snacking and binge drinking, and reduced protein intake can contribute to negative protein balance, increases in insulin resistance and increases in body fat,[27] resulting in weight gain and more long-term health challenges.[28] Compared with the day shift, injuries and accidents have been estimated to increase by 15% on evening shifts and 28% on night shifts. Longer shifts are also associated with more injuries and accidents: 10-hour shifts had 13% more and 12-hour shifts had 28% more than 8-hour shifts.[11]",
+      "source_url": "https://en.wikipedia.org/wiki/Shift_work",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Shift Work and Health: Current Problems and Preventive Actions ... Review Shift Work and Health: Current Problems and Preventive Actions The paper gives an overview of the problems to be tackled nowadays by occupational health with regards to shift work as well as the main guidelines at organizational and medical levels on how to protect workers\u2019 health and well-being. Working time organization is becoming a key factor on account of new technologies, market globalization, economic competition, and extension of social services to general populations, all of which involve more and more people in continuous assistance and control of work processes over the 24 hours in a day. The large increase of epidemiological and clinical studies on this issue document the severity of this risk factor on human health and well being, at both social and psychophysical levels, starting from a disruption of biological circadian rhythms and sleep/wake cycle and ending in several psychosomatic troubles and disorders, likely also including cancer, and extending to impairment of performance efficiency as well as family and social life. Appropriate interventions on the organization of shift schedules according to ergonomic criteria and careful health surveillance and social support for shift workers are important preventive and corrective measures that allow people to keep working without significant health impairment.",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S2093791110120034",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document discusses a meta-analysis on night-shift work and cancer risk, finding an insignificant association overall but noting an increased risk in Europe. It provides quantitative data and mentions dose-response curves."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "This document directly addresses the link between night-shift work, light exposure, and breast cancer risk. It cites the International Agency for Research on Cancer and the U.S. National Toxicology Program classifying shift work as probably carcinogenic."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document explains how night shift work increases cancer risk by disrupting circadian rhythms and gene activity. It mentions the World Health Organization's classification of night shift work as a probable carcinogen and discusses DNA damage."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "This document discusses early suggestions of increased cancer risk from shift work, specifically mentioning colon, rectum, and lymphatic system tumors. It also notes a higher risk of colorectal cancer for women with long-term rotating night shifts."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "This document mentions an increased risk of death due to lung cancer for women working rotating night shifts for over 15 years. It also discusses other health consequences of shift work, such as shortened lifespan and increased injuries."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "This document provides an overview of shift work and health, acknowledging the severity of the risk factor and its potential link to cancer. It emphasizes the disruption of biological rhythms and suggests preventive actions."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "No increased risk for cancer was identified among female night-shift workers.",
+            "Neither rotating night-shift workers nor fixed night-shift workers had an increased risk for cancer.",
+            "Analysis on geographical distribution showed an increased risk for cancer among night-shift workers in Europe.",
+            "For every 1 year increase of night-shift work, there is no increased risk for cancer (pooled OR = 1.020, 95% CI = 1.000\u20131.050).",
+            "A meta-analysis found an insignificant association between night-shift work and cancer risks."
+          ],
+          "reason": "Extracted facts about the association between night-shift work and cancer risk, including specific findings on female workers, geographical distribution, and overall meta-analysis results."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Exposure to light-at-night, common for night shift workers, can lead to a decrease in the secretion of melatonin, a hormone that helps suppress cancer development.",
+            "The International Agency for Research on Cancer concluded in 2007 that shift work that disrupts circadian rhythms is probably carcinogenic to humans.",
+            "In 2021, the U.S. National Toxicology Program concluded with 'high confidence' that persistent night shift work disrupting circadian rhythms can cause breast cancer.",
+            "One study calculated that for 2012, night shift work was linked with 4.5 percent of breast cancer diagnoses and deaths in Britain.",
+            "Effects of night shift work on breast cancer risk were greatest for women who worked rotating hours that included the overnight shift and for those who worked 12-hour shifts."
+          ],
+          "reason": "Extracted key findings linking night shift work to cancer risk, particularly breast cancer, citing conclusions from international and national health organizations and specific occupational risks."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Night shift workers are at increased risk of developing cancer because night shifts disrupt natural 24-hour rhythms in the activity of certain cancer-related genes.",
+            "The study suggests night shifts make workers more vulnerable to DNA damage while mistiming the body's DNA repair mechanisms.",
+            "The World Health Organization\u2019s International Agency for Research on Cancer classified night shift work as a probable carcinogenic.",
+            "The study sought to address why night shift work elevates cancer risk."
+          ],
+          "reason": "Extracted the core findings of the WSU study explaining the biological mechanisms by which night shift work increases cancer risk, referencing the WHO classification."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Early suggestions for increased cancer risk related to shift work arose from mortality studies among male shift workers.",
+            "Tynes et al reported an increased risk of colon and rectum cancer in a cohort of female radio and telegraph workers.",
+            "Rafnsson and colleagues described an elevated risk for tumors of the lymphatic system among female Icelandic flight attendants.",
+            "Women who worked 15 or more years on rotating night shifts were at a higher risk of colorectal cancer than those who never worked rotating night shifts."
+          ],
+          "reason": "Extracted historical and specific findings on increased cancer risk (colon, rectum, lymphatic system, colorectal) associated with different types and durations of shift work in various occupational groups."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Women who worked rotating night shifts for more than 15 years experienced a 25 percent higher risk of death due to lung cancer.",
+            "When individual chronotype is opposite of shift timing (e.g., day person working night shift), there is a greater risk of circadian rhythm disruption.",
+            "Nighttime workers sleep an average of 1\u20134 hours less than daytime workers.",
+            "Compared with the day shift, injuries and accidents increase by 15% on evening shifts and 28% on night shifts.",
+            "Longer shifts are also associated with more injuries and accidents."
+          ],
+          "reason": "Extracted specific risks associated with prolonged night shift work, including increased lung cancer mortality, circadian disruption, sleep deprivation, and higher accident rates."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Epidemiological and clinical studies document the severity of shift work as a risk factor on human health and well-being.",
+            "Shift work can lead to disruption of biological circadian rhythms and sleep/wake cycles.",
+            "Health consequences of shift work may include psychosomatic troubles, disorders, and likely cancer.",
+            "Appropriate interventions on shift schedule organization and health surveillance are important preventive measures."
+          ],
+          "reason": "Extracted the general consensus from studies on the severity of shift work as a health risk, including disruption of biological rhythms and potential links to cancer, and highlighted the need for preventive measures."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Presents conflicting evidence, stating no increased risk for female workers but an increased risk in Europe. Overall meta-analysis found an insignificant association.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly links night shift work to increased cancer risk, citing probable carcinogen classification and specific links to breast cancer with high confidence.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explains the biological mechanisms for increased cancer risk from night shifts, referencing the WHO classification of night shift work as a probable carcinogen.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Provides historical and specific findings of increased risk for various cancers (colon, rectum, lymphatic, colorectal) associated with different types and durations of shift work.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions increased lung cancer mortality risk for women with prolonged night shifts but also discusses sleep deprivation and accidents, which are related but not direct cancer risk.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "States that epidemiological studies document shift work as a risk factor, including potential links to cancer, and highlights the need for preventive measures.",
+          "confidence": 0.88
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d4",
+          "d6"
+        ],
+        "partial_docs": [
+          "d1",
+          "d5"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_support_classification_mechanisms",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents directly link night shift work to cancer risk, citing classifications as probable carcinogens and explaining biological mechanisms."
+          },
+          {
+            "label": "historical_specific_risks",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Provides historical and specific findings of increased risk for various cancers associated with different types and durations of shift work."
+          },
+          {
+            "label": "general_risk_and_prevention",
+            "doc_ids": [
+              "d6"
+            ],
+            "summary": "States that studies document shift work as a health risk, including potential links to cancer, and highlights the need for preventive measures."
+          },
+          {
+            "label": "conflicting_or_incomplete_evidence",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Presents some conflicting evidence or focuses on related but not direct cancer risk factors like sleep deprivation and accidents."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "While most evidence supports an increased cancer risk from night shift work, some sources indicate no increased risk for specific groups or an insignificant overall association, creating a conflict.",
+        "clusters": [
+          {
+            "label": "supports increased cancer risk",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d4",
+              "d6"
+            ],
+            "summary": "Multiple documents support an increased cancer risk from night shift work, citing classifications as probable carcinogens, explaining biological mechanisms, and detailing historical and specific risks for various cancers."
+          },
+          {
+            "label": "conflicting or incomplete evidence",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Some evidence suggests no increased risk for certain groups or an insignificant overall association, while other points focus on related risks like sleep deprivation and accidents."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient supporting evidence exists, and while there is some conflicting information, it is minor and does not prevent a grounded answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Night shift work is classified as a probable carcinogen, with studies documenting an increased risk of various cancers due to biological mechanisms and historical findings. While some evidence suggests no increased risk for specific groups or an insignificant overall association, the majority of sources support a link between shift work and cancer.",
+        "citations": [
+          "d2",
+          "d3",
+          "d4",
+          "d6"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The majority of supporting documents directly address the cancer risk associated with night shift work, outweighing the minor conflicting evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer is well-grounded in the provided documents, accurately reflecting the nuanced findings on shift work and cancer risk. Citations are appropriate and support the claims made."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 15953,
+      "completion_tokens": 2967,
+      "total_tokens": 18920
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2943,
+        "completion_tokens": 537,
+        "total_tokens": 3480
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2898,
+        "completion_tokens": 1129,
+        "total_tokens": 4027
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 437,
+        "total_tokens": 1916
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1717,
+        "completion_tokens": 355,
+        "total_tokens": 2072
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2029,
+        "completion_tokens": 229,
+        "total_tokens": 2258
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 701,
+        "completion_tokens": 44,
+        "total_tokens": 745
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 850,
+        "completion_tokens": 136,
+        "total_tokens": 986
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3336,
+        "completion_tokens": 100,
+        "total_tokens": 3436
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:30.571692",
+        "prompt_tokens": 2943,
+        "completion_tokens": 537,
+        "total_tokens": 3480,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:37.757775",
+        "prompt_tokens": 2898,
+        "completion_tokens": 1129,
+        "total_tokens": 4027,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:39.583827",
+        "prompt_tokens": 1479,
+        "completion_tokens": 437,
+        "total_tokens": 1916,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:41.426597",
+        "prompt_tokens": 1717,
+        "completion_tokens": 355,
+        "total_tokens": 2072,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:43.985335",
+        "prompt_tokens": 2029,
+        "completion_tokens": 229,
+        "total_tokens": 2258,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:44.806365",
+        "prompt_tokens": 701,
+        "completion_tokens": 44,
+        "total_tokens": 745,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:46.381579",
+        "prompt_tokens": 850,
+        "completion_tokens": 136,
+        "total_tokens": 986,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T17:07:47.672812",
+        "prompt_tokens": 3336,
+        "completion_tokens": 100,
+        "total_tokens": 3436,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T17:07:26.485223",
+  "last_updated_at": "2026-04-17T17:07:47.673404"
+}

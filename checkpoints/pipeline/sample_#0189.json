@@ -1,0 +1,508 @@
+{
+  "sample_id": "#0189",
+  "query": "where did you find the red pandas",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Where do red pandas live? And other red panda facts | Stories | WWF Red pandas live in the Eastern Himalayas in places like China, Nepal, and Bhutan. They spend most of their time in trees.",
+      "source_url": "https://www.worldwildlife.org/stories/where-do-red-pandas-live-and-other-red-panda-facts",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Red panda | Smithsonian's National Zoo and Conservation Biology ... They range from northern Myanmar (Burma) to the west Sichuan and Yunnan Provinces of China. They are also found in suitable habitat in Nepal, India and Tibet. ) \u2014 a controversial classification \u2014 in 1825, because of ecological characteristics and morphological similarities of the head, dentition and ringed tail. Later, due to some agreements in DNA, they were assigned to the bear family (Ursidae). Most recent genetic research, however, places red pandas in their own, independent family: Ailuridae. Molecular phylogenetic studies show that red pandas are an ancient species in the order Carnivora (superfamily Musteloidea) and are probably most closely related to the group that includes skunks, raccoons and weasels. While originally thought to be two subspecies, new genetic studies suggest that there are two distinct species of red panda: Ailurus fulgens fulgens and Ailurus fulgens styani (also known as Ailurus fulgens refulgens). The latter tends to be larger and deeper red in color than the former. Native Habitat Red pandas live in high-altitude, temperate forests with bamboo understories in the Himalayas and other high mountains. They range from northern Myanmar (Burma) to the west Sichuan and Yunnan Provinces of China. They are also found in suitable habitat in Nepal, India and Tibet. Ailurus fulgens fulgens lives predominantly in Nepal and can also be found in India and Bhutan. Ailurus fulgens styani (or Ailurus fulgens refulgens) is primarily found in China and Myanmar. Lifespan Red pandas may live as long as 23 years. They show symptoms of age at around 12 to 14 years old. While females do not breed after age 12, males continue to be reproductively capable. Communication Red pandas are generally quiet, but subtle vocalizations\u2014such as squeals, twitters and huff-quacks\u2014can be heard at close proximity. They may also hiss or grunt, and young cubs use a whistle, or high-pitched bleat, to signal distress. Red pandas will climb trees and rocks to escape predators, such as leopards and jackals.",
+      "source_url": "https://nationalzoo.si.edu/animals/red-panda",
+      "timestamp": "2016-04-22"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Red panda - Wikipedia The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It is traditionally divided into two subspecies: the Himalayan red panda (A. f. fulgens) and the Chinese red panda (A. f. styani). The Himalayan subspecies has a straighter profile, a lighter coloured forehead and ochre-tipped hairs on the lower back and rump. The Chinese subspecies has a more curved forehead and sloping snout, a darker coat with a less white face and more contrast between the tail rings.[11] In 2020, results of a genetic analysis of red panda samples showed that the red panda populations in the Himalayas and China were separated about 250,000 years ago. The researchers suggested that the two subspecies should be treated as distinct species. Red pandas in southeastern Tibet and northern Myanmar were found to be part of styani, while those of southern Tibet were of fulgens in the strict sense.[12]DNA sequencing of 132 red panda faecal samples collected in Northeast India and China also showed two distinct clusters indicating that the Siang River constitutes the boundary between the Himalayan and Chinese red pandas.[13] They probably diverged due to glaciation events on the southern Tibetan Plateau in the Pleistocene.[14] Phylogeny The placement of the red panda on the evolutionary tree has been debated. In the early 20th century, various scientists placed it in the familyProcyonidae with raccoons and their allies. At the time, most prominent biologists also considered the red panda to be related to the giant panda, which would eventually be found to be a bear. A 1982 study examined the similarities and differences in the skull between the red panda and the giant panda, other bears and procyonids, and placed the species in its own family Ailuridae.",
+      "source_url": "https://en.wikipedia.org/wiki/Red_panda",
+      "timestamp": "2024-12-04"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Red Panda Facts: Habitat, Threats, Conservation | IFAW Red pandas are from Asia, living in rainy, mountainous forests at high altitudes. Their range covers areas of China, India, Bhutan, Myanmar, and Nepal. Illegal pet trade Poachers also capture red pandas for the illegal pet trade, which the IUCN notes could be in response to the animal\u2019s recent popularity on social media. FAQs What do red pandas eat? The red panda\u2019s diet is 98% bamboo, but unlike giant pandas, they will also gather food from other sources. They sometimes eat acorns, fruit, roots, eggs, rodents, and small birds. Red pandas usually gather and eat food at night. During the day, they rest and sunbathe in the forest canopy. Are red pandas dangerous? Red pandas are not dangerous animals, but they do have aggressive tendencies. When a red panda stands on its hind legs and raises its arms, it displays a defensive stance and may attack the threat with its claws and teeth. Where are red pandas from? Red pandas are from Asia, living in rainy, mountainous forests at high altitudes. Their range covers areas of China, India, Bhutan, Myanmar, and Nepal. Is a red panda a bear? Red pandas are the sole member of the family Ailuridae. Previous classifications put them in the racoon family and bear family, but DNA research later ruled both of these out. How long do red pandas live? Red pandas typically live for 8-10 years in the wild. What does a red panda look like? Red pandas have russet-red fur on their backs and heads, black fur on their stomachs, and colored rings of red, brown, and white on their tails. They have distinctive facial markings, including white tufts for eyebrows and deep reddish lines extending from their eyes to the corner of their mouth. They also have fluffy white ears, fluffy tails, and fluffy paws. Their appearance has earned them a lot of attention from humans for being cute, much like the giant panda. What are red pandas related to? Red pandas belong to their own unique family group, which shares traits with raccoons, weasels, and skunks.",
+      "source_url": "https://www.ifaw.org/animals/red-pandas",
+      "timestamp": "2024-01-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Red pandas, facts and photos - National Geographic Red pandas live in the rainy mountain forests of Nepal, India, Bhutan, northern Myanmar (Burma), and central China. They spend the vast majority of their lives ... About red pandas Red pandas have shot to viral fame for their adorable looks, but there\u2019s a lot more to these elusive animals than their kitten-like faces and striking reddish-brown coats. Red pandas, which grow to about the size of a house cat, are impressive acrobats that climb and swing on trees in their Asian forest homes, and they once sparked fierce debate about their relationship to giant pandas. Taxonomists previously assigned them to both the raccoon family and the bear family, but DNA research later revealed that they belong to their own unique family (Ailuridae) and genus (Ailurus). While originally thought to be two subspecies\u2014the Himalayan red panda and the Chinese red panda\u2014growing evidence suggests they may be two distinct species instead. The Chinese red panda is a bit larger and has more distinct rings on its fluffy tail. Range and habitat Red pandas live in the rainy mountain forests of Nepal, India, Bhutan, northern Myanmar (Burma), and central China. They spend the vast majority of their lives in trees, where they sleep and sunbathe. These animals have adapted incredibly well to their environment: They have sharp, semi-retractable claws that help them grip slippery branches, and their flexible ankles give them the unique ability to climb down trees headfirst. This helps them quickly escape predators like snow leopards and jackals, which may have difficulty seeing the animals to begin with: Their coats match the moss clumps that grow on their tree homes, and their black bellies make it difficult for predators to spot them from the ground. Red pandas even have two layers of fur\u2014a soft undercoat covered with coarse hairs\u2014to insulate them from the mountain chill, and they use their long tail as a wraparound blanket. A red panda foraging in a tree canopy in Singapore. Photograph by JAK WONDERLY Please be respectful of copyright. Unauthorized use is prohibited. Diet Red pandas belong to the order Carnivora, but this has more to do with their biological classification than their actual diet.",
+      "source_url": "https://www.nationalgeographic.com/animals/mammals/facts/red-panda",
+      "timestamp": "2010-10-09"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Red Panda | Species | WWF - World Wildlife Fund Red pandas are very skillful and acrobatic animals that predominantly stay in trees. Almost 50% of the red panda's habitat is in the Eastern Himalayas.",
+      "source_url": "https://www.worldwildlife.org/species/red-panda",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Red Panda Facts The red panda is an elusive and mysterious mammal of the biodiverse Himalayan forests. They have also been called the \"firefox\", \u201clesser panda\u201d, and \u201cred-cat- ... About Red Pandas The red panda is an elusive and mysterious mammal of the biodiverse Himalayan forests. They have also been called the \"firefox\", \u201clesser panda\u201d, and \u201cred-cat-bear\u201d\u2014 the red panda has many nicknames. We prefer \"first panda\" and \"original panda\" as western scientists described it 50 years before the giant panda, and gave pandas their name. Classification The red panda had been previously classified in the families Procyonidae (raccoons) and Ursidae (bears), however recent research has placed it in its own family Ailuridae, in superfamily Musteloidea along with Mustelidae and Procyonidae. Habitat and range Red panda's live in the Eastern Himalayas in Nepal, India, Bhutan, Myanmar (Burma), and China. Their habitat is temperate broadleaved forests with bamboo understories at altitudes between 2400 and 3900 meters. The Two Species Found in Nepal, northeastern India (West Bengal, Sikkim, western Arunachal Pradesh), Bhutan and southern Tibet. This was the first red panda to be discovered and was officially named Ailurus (from the Greek word ailouros, which means cat), and fulgens (meaning fire-colored or shining) by French zoologist Fr\u00e9d\u00e9ric Cuvier in 1825 who also said it was the most beautiful animal he had ever seen. Ailurus (fulgens) styani (erroneously also known as A. f. refulgens) Found in eastern Arunachal Pradesh, Myanmar and parts of China (Yunnan, Szechuan and eastern Tibet). In 1902, Oldfield Thomas published a description of this different red panda that he named Ailurus fulgens styani, after F.W. Styan who had collected the specimen he was reviewing. Styan\u2019s panda is a bit larger and usually more brightly colored than the Himalayan red panda.",
+      "source_url": "https://redpandanetwork.org/red-panda-facts",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Red Panda | Cape May County, NJ - Official Website Habitat and Range: Distribution in the wild is poorly known but it is known to include Nepal, India, Myanmar, and Southern China. They prefer Temperate forest ... Red Panda Red Panda Habitat and Range: Distribution in the wild is poorly known but it is known to include Nepal, India, Myanmar, and Southern China. They prefer Temperate forest with a thick Bamboo understory. Lifespan: Red pandas may live as long as 23 years. They show symptoms of age at around 12 to 14 years old. Gestation: 1-4 cubs are born after 135 day gestation period. Diet: Mostly Bamboo but will also eat roots, berries, eggs, and acorns. Adaptations: Growing to the size of an average house cat there ringed bushy tails can add up to 18 inches to their entire body length. Weighing 12-20 pounds they spend the majority of their time in the trees. They will even sleep high in the branches using their long bushy tails as a blanket to cover their nose and paws in the colder climates. IUCN Status: Endangered 2015 Conservation: Habitat loss is considered to be the biggest threat to Red Pandas but also face poaching and fragmentation. Chine, India, Nepal, and Myanmar have around 55 protected areas for Red Pandas; however populations in these areas are unknown. Like the Giant Panda they have an extra bone in their wrists that functions like a thumb giving them the ability to hold on a grab things. Did you know: Red Pandas have been grouped several different ways through the years including as a relative of the Giant Panda and the Raccoon Family. However they are now grouped as their own unique family -The Ailuridae. The popular web browser Mozilla Firefox actually comes from a nickname of th Red Panda and is now their mascot. Here at the CMC Zoo: Aurora, our Red panda was born in 2019 and came to us from the Fort Wayne Zoo in September of 2024. She is very curious and sweet and loves training and interacting with her keepers. She is also quite the acrobat and can be spotted climbing upside down and sideways all over her yard.",
+      "source_url": "https://capemaycountynj.gov/1111/Red-Panda",
+      "timestamp": "2024-01-01"
+    },
+    {
+      "doc_id": "d9",
+      "text": "Red Panda | San Diego Zoo Animals & Plants Today, however, red pandas are only found in small, isolated mountain territories above 4,000 feet in China, Nepal, India, Bhutan, and Burma. It may seem like ... Search form Red Panda ABOUT Seeing red\u2014pandas! Many people admire the red panda for its charming, kitten-like face, cinnamon red fur, fluffy ringed tail, and astonishing agility. The black-and-white giant panda may have worldwide popularity, but the bewitching and arboreal \u201cother bamboo eater\u201d has its own allure. Surprisingly, red panda fossils have been discovered in North America that date as far back as 5 million years. Today, however, red pandas are only found in small, isolated mountain territories above 4,000 feet in China, Nepal, India, Bhutan, and Burma. It may seem like the roly-poly giant panda was the first true panda, and the red panda was added for fun. But French zoologist Fr\u00e9d\u00e9ric Cuvier first described the western red panda Ailurus fulgens fulgens in 1825, 48 years before the black-and-white bear was cataloged. After examining a red panda, he said it was the most beautiful animal he had ever seen and named it Ailurus (from the Greek word ailouros, which means cat, and fulgens, meaning fire-colored or shining. In 1897, F. W. Styan discovered another form of red panda and named it Ailurus fulgens styani, now refulgens. The Styans' panda is a bit larger and more brightly colored than the western red panda. So how did this mammal come to be called a panda? The origin of the name \u201cpanda\u201d is unclear. Many people believe it derives from the second part of an old Nepalese name for these animals, nigalya ponya, which may have meant something like \"bamboo footed.\u201d Another local name for the red panda is wah or chitwah. Classifying animals is not an easy task, and taxonomists argued for years over red pandas and giant pandas: are they related to each other? Red pandas and giant pandas share a common ancestor that lived millions of years ago.",
+      "source_url": "https://animals.sandiegozoo.org/animals/red-panda",
+      "timestamp": "2021-03-01"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly answers the query by stating red pandas live in the Eastern Himalayas, China, Nepal, and Bhutan."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Provides specific locations where red pandas live, including China, Nepal, India, Tibet, and Myanmar."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions red pandas are native to the eastern Himalayas and southwestern China, and discusses subspecies found in Tibet and Myanmar."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States red pandas are from Asia, with their range covering China, India, Bhutan, Myanmar, and Nepal."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Specifies red pandas live in the mountain forests of Nepal, India, Bhutan, northern Myanmar, and central China."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Indicates that almost 50% of the red panda's habitat is in the Eastern Himalayas, providing a general region."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Lists the Eastern Himalayas, Nepal, India, Bhutan, Myanmar, and China as habitats, specifying temperate forests."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Mentions China, India, Nepal, and Myanmar as countries with protected areas for red pandas, implying their habitat."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States red pandas are found in mountain territories in China, Nepal, India, Bhutan, and Burma."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Red pandas live in the Eastern Himalayas in places like China, Nepal, and Bhutan.",
+            "They spend most of their time in trees."
+          ],
+          "reason": "Extracted facts about the geographical location and arboreal habits of red pandas, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Red pandas live in high-altitude, temperate forests with bamboo understories in the Himalayas and other high mountains.",
+            "They range from northern Myanmar (Burma) to the west Sichuan and Yunnan Provinces of China.",
+            "They are also found in suitable habitat in Nepal, India and Tibet.",
+            "Ailurus fulgens fulgens lives predominantly in Nepal and can also be found in India and Bhutan.",
+            "Ailurus fulgens styani is primarily found in China and Myanmar."
+          ],
+          "reason": "Extracted specific details about red panda habitat, including altitude, forest type, and geographical distribution across multiple countries and subspecies."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The red panda is native to the eastern Himalayas and southwestern China.",
+            "It is traditionally divided into two subspecies: the Himalayan red panda and the Chinese red panda."
+          ],
+          "reason": "Extracted the native region of the red panda and its traditional subspecies classification, relevant to its origin."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Red pandas are from Asia, living in rainy, mountainous forests at high altitudes.",
+            "Their range covers areas of China, India, Bhutan, Myanmar, and Nepal."
+          ],
+          "reason": "Extracted the continent, habitat type, and specific countries where red pandas are found, directly addressing the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Red pandas live in the rainy mountain forests of Nepal, India, Bhutan, northern Myanmar (Burma), and central China.",
+            "They spend the vast majority of their lives in trees."
+          ],
+          "reason": "Extracted the specific countries and habitat type where red pandas reside, along with their arboreal behavior."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Almost 50% of the red panda's habitat is in the Eastern Himalayas."
+          ],
+          "reason": "Extracted a key fact about the proportion of red panda habitat located in the Eastern Himalayas."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Red panda's live in the Eastern Himalayas in Nepal, India, Bhutan, Myanmar, and China.",
+            "Their habitat is temperate broadleaved forests with bamboo understories at altitudes between 2400 and 3900 meters.",
+            "The Two Species Found in Nepal, northeastern India (West Bengal, Sikkim, western Arunachal Pradesh), Bhutan and southern Tibet"
+          ],
+          "reason": "Extracted the geographical range, habitat specifics (forest type, altitude), and locations of subspecies, providing comprehensive location data."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Chine, India, Nepal, and Myanmar have around 55 protected areas for Red Pandas.",
+            "They prefer Temperate forest with a thick Bamboo understory."
+          ],
+          "reason": "Extracted information about protected areas for red pandas in specific countries and their preferred habitat type."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "Red pandas are only found in small, isolated mountain territories above 4,000 feet in China, Nepal, India, Bhutan, and Burma."
+          ],
+          "reason": "Extracted the specific altitude and geographical locations where red pandas are currently found."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that red pandas live in the Eastern Himalayas, including China, Nepal, and Bhutan, answering the query about their location.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Provides detailed geographical distribution of red pandas across multiple countries like China, Myanmar, Nepal, and India, directly answering the query.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "States that the red panda is native to the eastern Himalayas and southwestern China, directly answering the query about where they are found.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Clearly states that red pandas are from Asia and lists specific countries including China, India, Bhutan, Myanmar, and Nepal, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Lists the countries where red pandas live: Nepal, India, Bhutan, northern Myanmar, and central China, directly answering the query.",
+          "confidence": 0.96
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "partially_supports",
+          "reason": "Mentions the Eastern Himalayas as a significant habitat but does not list specific countries or detailed locations as requested by the query.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "supports",
+          "reason": "Specifies that red pandas live in the Eastern Himalayas across Nepal, India, Bhutan, Myanmar, and China, directly answering the query.",
+          "confidence": 0.97
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "partially_supports",
+          "reason": "Mentions China, India, Nepal, and Myanmar as locations with protected areas for red pandas, but doesn't comprehensively answer 'where' they are found.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "supports",
+          "reason": "States that red pandas are found in China, Nepal, India, Bhutan, and Burma, directly answering the query about their location.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d7",
+          "d9"
+        ],
+        "partial_docs": [
+          "d6",
+          "d8"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_geographical_distribution",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d7",
+              "d9"
+            ],
+            "summary": "Multiple documents directly list the countries and regions where red pandas are found, including the Eastern Himalayas, China, Nepal, India, Bhutan, and Myanmar."
+          },
+          {
+            "label": "habitat_details_and_protected_areas",
+            "doc_ids": [
+              "d6",
+              "d8"
+            ],
+            "summary": "Some documents provide partial information, such as the proportion of habitat in the Eastern Himalayas or the existence of protected areas in certain countries, along with habitat preferences."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently supports the geographical distribution and habitat of red pandas, with different documents offering complementary details.",
+        "clusters": [
+          {
+            "label": "red_panda_distribution_and_habitat",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5",
+              "d6",
+              "d7",
+              "d8",
+              "d9"
+            ],
+            "summary": "Documents consistently identify the Eastern Himalayas, China, Nepal, India, Bhutan, and Myanmar as key locations for red pandas, detailing their habitat preferences and subspecies distribution."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and complementary, providing a clear and reliable answer about the geographical distribution and habitat of red pandas."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Red pandas are found in the Eastern Himalayas, China, Nepal, India, Bhutan, and Myanmar. Some documents also provide details on habitat preferences and protected areas within these regions.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5",
+          "d7",
+          "d9",
+          "d6",
+          "d8"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence consistently describe the geographical distribution and habitat of red pandas, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately identifies the regions where red pandas are found, and all claims are directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 15628,
+      "completion_tokens": 2920,
+      "total_tokens": 18548
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 2623,
+        "completion_tokens": 627,
+        "total_tokens": 3250
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 2578,
+        "completion_tokens": 928,
+        "total_tokens": 3506
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1227,
+        "completion_tokens": 637,
+        "total_tokens": 1864
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1629,
+        "completion_tokens": 289,
+        "total_tokens": 1918
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1895,
+        "completion_tokens": 177,
+        "total_tokens": 2072
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 613,
+        "completion_tokens": 42,
+        "total_tokens": 655
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 760,
+        "completion_tokens": 132,
+        "total_tokens": 892
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4303,
+        "completion_tokens": 88,
+        "total_tokens": 4391
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:54.854714",
+        "prompt_tokens": 2623,
+        "completion_tokens": 627,
+        "total_tokens": 3250,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:16:57.647367",
+        "prompt_tokens": 2578,
+        "completion_tokens": 928,
+        "total_tokens": 3506,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:02.421184",
+        "prompt_tokens": 1227,
+        "completion_tokens": 637,
+        "total_tokens": 1864,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:03.752990",
+        "prompt_tokens": 1629,
+        "completion_tokens": 289,
+        "total_tokens": 1918,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:05.288826",
+        "prompt_tokens": 1895,
+        "completion_tokens": 177,
+        "total_tokens": 2072,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:06.347391",
+        "prompt_tokens": 613,
+        "completion_tokens": 42,
+        "total_tokens": 655,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:07.405479",
+        "prompt_tokens": 760,
+        "completion_tokens": 132,
+        "total_tokens": 892,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T16:17:08.975288",
+        "prompt_tokens": 4303,
+        "completion_tokens": 88,
+        "total_tokens": 4391,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T16:16:52.539870",
+  "last_updated_at": "2026-04-17T16:17:08.975872"
+}

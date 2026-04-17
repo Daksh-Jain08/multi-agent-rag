@@ -1,0 +1,394 @@
+{
+  "sample_id": "#0469",
+  "query": "Who sang the song with or without you?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Without You (Debbie Gibson song) \"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990. Gibson wrote the lyrics herself, with music written by Japanese singer-songwriter Tatsuro Yamashita. Production credits were given to S. Andrew Zulla. It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\" aired on TBS in 1990, and peaked at #26 on the Japanese Oricon chart. In the following year, a co-writer reconstructed the song in alternative lyrics in Japanese written by him, under the title \". Yamashita's interpretation was issued as one of the lead",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "United States, and in various European countries in 1980 and peaked at No. 20 on the \"Billboard\" Hot 100. It was also a minor hit in the UK reaching #55 in the UK Singles Chart and was a big hit in the Netherlands reaching #2 there. Without Your Love (Roger Daltrey song) \"Without Your Love\" is a song released in 1980 by Roger Daltrey of The Who written by Billy Nicholls and was a hit for him on his album \"McVicar\". The song was written for the soundtrack of the film \"McVicar\", a bio-pic of English bank robber John McVicar,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d3",
+      "text": "singles for his \"Artisan\" album, and gained more commercial success than original recording. Without You (Debbie Gibson song) \"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990. Gibson wrote the lyrics herself, with music written by Japanese singer-songwriter Tatsuro Yamashita. Production credits were given to S. Andrew Zulla. It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\" aired on TBS in 1990, and peaked at #26 on the Japanese Oricon chart. In the following year, a co-writer reconstructed the song in alternative lyrics in Japanese written by him,",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the Ivor Novello Awards. Sources Without You (Badfinger song) \"Without You\" is a song written by Pete Ham and Tom Evans of British rock group Badfinger, and first released on their 1970 album \"No Dice\". The power ballad has been recorded by over 180 artists, and versions released as singles by Harry Nilsson (1971) and Mariah Carey (1994) became international best-sellers. Paul McCartney once described the ballad as \"the killer song of all time\". In 1972, writers Ham and Evans received the British Academy's Ivor Novello Award for Best Song Musically and Lyrically. First recorded by the rock group Badfinger,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Without You (Peabo Bryson and Regina Belle song) \"Without You\" is a romantic song written by the American songwriter and music producer Lamont Dozier, and recorded in 1987 as a duet by the R&B singers Peabo Bryson and Regina Belle. The song was the love theme from the comedy film \"Leonard Part 6\", released the same year, and was also recorded for the Peabo Bryson album \"Positive\", released in 1988, the only album that contains the original version of \"Without You\". The single was released in November 1987, and peaked at #8 on the Adult Contemporary Tracks, #14 on the  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Mentions a song titled 'Without You' by Debbie Gibson, but the query implies a more famous song, and this document doesn't confirm it's the one."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions 'Without Your Love' by Roger Daltrey of The Who, which is a plausible candidate for a well-known song with a similar title."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Repeats information about Debbie Gibson's 'Without You', which is unlikely to be the song the user is asking about due to its limited release."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Directly addresses the song 'Without You' by Badfinger, noting it was recorded by Harry Nilsson and Mariah Carey, making it a highly probable answer."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Mentions a song titled 'Without You' by Peabo Bryson and Regina Belle, but it's less likely to be the primary song the user is asking about compared to other versions."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "\"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990.",
+            "Gibson wrote the lyrics, with music written by Tatsuro Yamashita.",
+            "It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\".",
+            "The song peaked at #26 on the Japanese Oricon chart."
+          ],
+          "reason": "Extracted facts about the Debbie Gibson song \"Without You\", including its release, writers, and chart performance, directly relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "\"Without Your Love\" is a song released in 1980 by Roger Daltrey of The Who.",
+            "The song was written by Billy Nicholls.",
+            "It was written for the soundtrack of the film \"McVicar\"."
+          ],
+          "reason": "Extracted facts about the Roger Daltrey song \"Without Your Love\", including its release year, singer, writer, and film association."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "\"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990.",
+            "Gibson wrote the lyrics, with music written by Tatsuro Yamashita.",
+            "It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\".",
+            "The song peaked at #26 on the Japanese Oricon chart."
+          ],
+          "reason": "Extracted facts about the Debbie Gibson song \"Without You\", including its release, writers, and chart performance, directly relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "\"Without You\" is a song written by Pete Ham and Tom Evans of Badfinger, first released on their 1970 album \"No Dice\".",
+            "Versions released as singles by Harry Nilsson (1971) and Mariah Carey (1994) became international best-sellers.",
+            "Writers Ham and Evans received the Ivor Novello Award for Best Song Musically and Lyrically in 1972."
+          ],
+          "reason": "Extracted facts about the Badfinger song \"Without You\", including its writers, original release, notable cover versions, and awards."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "\"Without You\" is a romantic song recorded in 1987 as a duet by Peabo Bryson and Regina Belle.",
+            "The song was written by Lamont Dozier.",
+            "It was the love theme from the comedy film \"Leonard Part 6\".",
+            "The single peaked at #8 on the Adult Contemporary Tracks and #14 on the Billboard Hot 100."
+          ],
+          "reason": "Extracted facts about the duet \"Without You\" by Peabo Bryson and Regina Belle, including its writer, film association, and chart performance."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the song \"With or Without You\", but this document discusses \"Without You\" by Debbie Gibson.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the song \"With or Without You\", but this document discusses \"Without Your Love\" by Roger Daltrey.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the song \"With or Without You\", but this document discusses \"Without You\" by Debbie Gibson.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "This document discusses the song \"Without You\" by Badfinger, which is similar in title to the query's \"With or Without You\", and mentions popular cover versions.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The query asks about the song \"With or Without You\", but this document discusses \"Without You\" by Peabo Bryson and Regina Belle.",
+          "confidence": 0.95
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "title_mismatch",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents discuss songs with similar but distinct titles (e.g., \"Without You\", \"Without Your Love\") and are not relevant to the query about \"With or Without You\"."
+          },
+          {
+            "label": "similar_title_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document discusses \"Without You\" by Badfinger, which has a similar title to the query and mentions popular cover versions, providing some related context."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain direct information about the song \"With or Without You\". Most documents are irrelevant due to title mismatches, while one offers related context about a similarly titled song.",
+        "clusters": [
+          {
+            "label": "irrelevant_title_mismatch",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "These documents discuss songs with titles like \"Without You\" or \"Without Your Love\", which are distinct from the query's \"With or Without You\"."
+          },
+          {
+            "label": "related_title_context",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "This document discusses the song \"Without You\" by Badfinger, noting its writers and popular cover versions, providing some tangential relevance."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence is mostly irrelevant, with only tangential context from a similarly titled song. There is no direct support for the query, making a reliable answer impossible."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence is mostly irrelevant, with only tangential context from a similarly titled song. There is no direct support for the query, making a reliable answer impossible.",
+        "final_reasoning": "The provided documents do not contain information about the song \"With or Without You\". Most are irrelevant due to title mismatches, and the one with related context discusses a different song."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.0,
+        "feedback": "The answer is empty and there are no citations. The query asks for information that is present in the documents, but the answer does not provide it."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9433,
+      "completion_tokens": 2226,
+      "total_tokens": 11659
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1409,
+        "completion_tokens": 404,
+        "total_tokens": 1813
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1364,
+        "completion_tokens": 732,
+        "total_tokens": 2096
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1101,
+        "completion_tokens": 367,
+        "total_tokens": 1468
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1284,
+        "completion_tokens": 240,
+        "total_tokens": 1524
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1517,
+        "completion_tokens": 230,
+        "total_tokens": 1747
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 625,
+        "completion_tokens": 50,
+        "total_tokens": 675
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 780,
+        "completion_tokens": 108,
+        "total_tokens": 888
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1353,
+        "completion_tokens": 95,
+        "total_tokens": 1448
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:46.018189",
+        "prompt_tokens": 1409,
+        "completion_tokens": 404,
+        "total_tokens": 1813,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:48.395720",
+        "prompt_tokens": 1364,
+        "completion_tokens": 732,
+        "total_tokens": 2096,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:51.043815",
+        "prompt_tokens": 1101,
+        "completion_tokens": 367,
+        "total_tokens": 1468,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:52.498173",
+        "prompt_tokens": 1284,
+        "completion_tokens": 240,
+        "total_tokens": 1524,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:53.745702",
+        "prompt_tokens": 1517,
+        "completion_tokens": 230,
+        "total_tokens": 1747,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:54.880792",
+        "prompt_tokens": 625,
+        "completion_tokens": 50,
+        "total_tokens": 675,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:56.210176",
+        "prompt_tokens": 780,
+        "completion_tokens": 108,
+        "total_tokens": 888,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:42:57.851744",
+        "prompt_tokens": 1353,
+        "completion_tokens": 95,
+        "total_tokens": 1448,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:42:42.899097",
+  "last_updated_at": "2026-04-17T19:42:57.852381"
+}

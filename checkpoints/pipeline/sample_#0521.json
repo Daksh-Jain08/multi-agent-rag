@@ -1,0 +1,389 @@
+{
+  "sample_id": "#0521",
+  "query": "Where did the 2014 world cup take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "off by a local judge because of safety concerns related to the stadium. The government of Rio de Janeiro appealed the decision and the game went ahead as originally planned, the final score being a 2\u0393\u00c7\u00f42 draw. This match marked the reopening of the new Maracan\u251c\u00fa. On 12 June 2014, the 2014 FIFA World Cup opened with Brazil defeating Croatia 3\u0393\u00c7\u00f41, but that match was held in S\u251c\u00fao Paulo. The first game of the World Cup to be held in Maracan\u251c\u00fa was a 2\u0393\u00c7\u00f41 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June 2014. Host Brazil ended up never playing",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "FIFA World Cup being held in South Africa beginning 11 June. Under FIFA rules, all World Cup venues must be handed over to the local organisers no later than 15 days before the opening match of the competition. Orlando Stadium was the largest, suitable, stadium in the Bulls' home province of Gauteng that was not being used for the World Cup. The game was surrounded in controversy after Schalk Burger claimed that the referee Craig Joubert was inconsistent at the breakdowns, \"coaching the Bulls, but penalising the Stormers\". This sparked an outcry over the handling of the game by Joubert,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "in May 2014, FIFA Secretary Valcke expressed concerns about the readiness of the Natal, Porto Alegre and S\u251c\u00fao Paulo venues, with additional test events still being required. Brazil's Deputy Sports Minister, Luis Fernandes, responded by stating that there was \"no panic\". In January 2010 Brazil's federal government estimated that staging the tournament would require a state investment of $11 billion of funding. It also announced tax breaks for the construction and refurbishment of the stadiums for the 2014 World Cup and that host cities would be exempt from VAT, all expenditure by FIFA in Brazil is also exempt from taxation.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2000-06-26"
+    },
+    {
+      "doc_id": "d4",
+      "text": "same year, with their under-17 team winning the 2016 FIFA U-17 Women's World Cup earlier in the year. The following countries submitted a bid to host the tournament by the May 2013 deadline: South Africa were awarded the hosting rights by FIFA Executive Committee at their meeting on 5 December 2013. However, they later withdrew, giving its notice at FIFA's Executive committee meeting prior to the 2014 FIFA World Cup. After South Africa's withdrawal, the following countries announced they would be interested in hosting: Papua New Guinea were awarded the hosting rights of the tournament by the FIFA Executive Committee",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2023-10-25"
+    },
+    {
+      "doc_id": "d5",
+      "text": "2014 FIFA World Cup knockout stage The knockout stage of the 2014 FIFA World Cup was the second and final stage of the competition, following the group stage. It began on 28 June with the round of 16 and ended on 13 July with the final match of the tournament, held at Est\u251c\u00eddio do Maracan\u251c\u00fa, Rio de Janeiro. The top two teams from each group (16 in total) advanced to the knockout stage to compete in a single-elimination tournament. A third-place match was played between the two losing teams of the semi-finals. In all matches in the knockout stage, if  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions the 2014 FIFA World Cup opening match was held in S\u00e3o Paulo and the final match was in Rio de Janeiro, Brazil."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Discusses the 2010 FIFA World Cup in South Africa and unrelated rugby match details."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Discusses readiness of venues in Brazil for the 2014 World Cup and associated government investment and tax breaks."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Mentions South Africa withdrawing its bid for a tournament, and awarding rights for another tournament, but not the 2014 World Cup location."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the final match of the 2014 FIFA World Cup was held at Est\u00e1dio do Maracan\u00e3, Rio de Janeiro, Brazil."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The 2014 FIFA World Cup opened with Brazil defeating Croatia 3\u20131 in S\u00e3o Paulo.",
+            "The first game of the World Cup held in Maracan\u00e3 was an Argentina victory over Bosnia-Herzegovina on 15 June 2014."
+          ],
+          "reason": "Extracted facts about the opening match location and the first match held in Maracan\u00e3, directly answering the query about the 2014 World Cup location."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses the 2010 FIFA World Cup in South Africa and is not relevant to the 2014 World Cup location."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In May 2014, FIFA Secretary Valcke expressed concerns about the readiness of Natal, Porto Alegre, and S\u00e3o Paulo venues for the World Cup."
+          ],
+          "reason": "Extracted a fact mentioning specific Brazilian cities as World Cup venues in 2014, which is relevant to the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document discusses bids for hosting rights for a different tournament and South Africa's withdrawal from hosting the 2014 FIFA World Cup, but does not state where it took place."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The final match of the 2014 FIFA World Cup was held at Est\u00e1dio do Maracan\u00e3, Rio de Janeiro."
+          ],
+          "reason": "Extracted the location of the final match of the 2014 FIFA World Cup, directly answering the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Mentions S\u00e3o Paulo as the location for the opening match of the 2014 World Cup, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "Discusses the 2010 World Cup, not the 2014 World Cup location.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Mentions Brazilian cities as venues, indicating Brazil as the host country, but doesn't explicitly state it as the sole location.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses hosting rights and withdrawals, but does not state where the 2014 World Cup took place.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "States that the final match of the 2014 FIFA World Cup was held in Rio de Janeiro, Brazil, directly answering the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d5"
+        ],
+        "partial_docs": [
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d2",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents d1 and d5 directly state locations within Brazil (S\u00e3o Paulo and Rio de Janeiro) for matches of the 2014 FIFA World Cup."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d3"
+            ],
+            "summary": "Document d3 mentions Brazilian cities as venues, providing partial context about the host country."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents d2 and d4 are irrelevant as they discuss the 2010 World Cup or hosting rights without specifying the 2014 location."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All supporting and partially supporting documents agree that Brazil hosted the 2014 FIFA World Cup, with specific matches held in S\u00e3o Paulo and Rio de Janeiro. Irrelevant documents do not contradict this.",
+        "clusters": [
+          {
+            "label": "Host Country and Match Locations",
+            "doc_ids": [
+              "d1",
+              "d5",
+              "d3"
+            ],
+            "summary": "Documents confirm Brazil hosted the 2014 FIFA World Cup, with matches in S\u00e3o Paulo (opening) and Rio de Janeiro (final)."
+          },
+          {
+            "label": "Irrelevant Information",
+            "doc_ids": [
+              "d2",
+              "d4"
+            ],
+            "summary": "Documents discuss the 2010 World Cup or hosting rights, not the location of the 2014 World Cup."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports that Brazil hosted the 2014 FIFA World Cup, with matches in S\u00e3o Paulo and Rio de Janeiro. No significant conflicts or irrelevant information were found."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Brazil hosted the 2014 FIFA World Cup, with matches held in S\u00e3o Paulo and Rio de Janeiro.",
+        "citations": [
+          "d1",
+          "d5",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partially supporting documents consistently confirm Brazil as the host of the 2014 FIFA World Cup, with specific match locations identified."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer is fully supported by the provided documents, which mention Brazil as the host and specific cities like S\u00e3o Paulo and Rio de Janeiro."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9254,
+      "completion_tokens": 2005,
+      "total_tokens": 11259
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1497,
+        "completion_tokens": 376,
+        "total_tokens": 1873
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1452,
+        "completion_tokens": 488,
+        "total_tokens": 1940
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 902,
+        "completion_tokens": 360,
+        "total_tokens": 1262
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1074,
+        "completion_tokens": 296,
+        "total_tokens": 1370
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1343,
+        "completion_tokens": 225,
+        "total_tokens": 1568
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 671,
+        "completion_tokens": 65,
+        "total_tokens": 736
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 841,
+        "completion_tokens": 103,
+        "total_tokens": 944
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1474,
+        "completion_tokens": 92,
+        "total_tokens": 1566
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:39.190328",
+        "prompt_tokens": 1497,
+        "completion_tokens": 376,
+        "total_tokens": 1873,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:41.164160",
+        "prompt_tokens": 1452,
+        "completion_tokens": 488,
+        "total_tokens": 1940,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:42.800187",
+        "prompt_tokens": 902,
+        "completion_tokens": 360,
+        "total_tokens": 1262,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:44.252320",
+        "prompt_tokens": 1074,
+        "completion_tokens": 296,
+        "total_tokens": 1370,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:45.455658",
+        "prompt_tokens": 1343,
+        "completion_tokens": 225,
+        "total_tokens": 1568,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:46.704645",
+        "prompt_tokens": 671,
+        "completion_tokens": 65,
+        "total_tokens": 736,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:47.962719",
+        "prompt_tokens": 841,
+        "completion_tokens": 103,
+        "total_tokens": 944,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:49.117822",
+        "prompt_tokens": 1474,
+        "completion_tokens": 92,
+        "total_tokens": 1566,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:53:37.715419",
+  "last_updated_at": "2026-04-17T19:53:49.118391"
+}

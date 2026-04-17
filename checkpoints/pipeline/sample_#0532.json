@@ -1,0 +1,392 @@
+{
+  "sample_id": "#0532",
+  "query": "Who remade mad world by tears for fears?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "that year's Christmas number one \"Mad World\", performed by Gary Jules, originally by Tears for Fears. Smith's version is notable for a number of reasons. First, its sample led to legal issues with the label Sanctuary, who did not sanction the remix, despite Smith's appeal to them. Smith was therefore unable to recoup any money whatsoever despite the popularity of his version. Secondly, the song had a level of mainstream airplay unusual for UK Rap at the time, being championed by Jo Wiley and Jonathan Ross among others. Some commentators have argued that the song helped raise awareness of the",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2014"
+    },
+    {
+      "doc_id": "d2",
+      "text": "in 2004 for several weeks following the success of Gary Jules' cover version of \"Mad World\". A compilation video under the same title was also released in 1992, and later issued on DVD. The album itself was reissued in 2004 as a 2CD/1DVD set under the \"Sound+Vision Deluxe\" line, and again in 2005 with a bonus disc containing various remixes. The video compilation of \"Tears Roll Down (Greatest Hits 82\u0393\u00c7\u00f492)\" was released in 1992 in conjunction with the album, featuring an identical track list. It was reissued on DVD in 2003 with a different cover featuring a still from the",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d3",
+      "text": "piano, mellotron, mini marimba, xylophone, ukulele, organ. I also brought in two female vocalists Sam Shelton and Tori Haberman. But no guitar because Richard said no guitar or drums; he just wasn't into it. I was down with that - I've played guitar my whole life.\" Like many of his role models for soundtrack composing such as John Barry and Ennio Morricone, Michael Andrews wanted to put a song on his otherwise instrumental score. clause. He eventually chose \"Mad World\" (1982) by Tears for Fears, who were one of his and childhood friend Gary Jules' favourite bands while growing up.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2015-07-23"
+    },
+    {
+      "doc_id": "d4",
+      "text": "as Elgin Park featuring other players: (Eric Hinajosa: guitars/John Krylow: bass/Matt Lynott: drums/Robert Walter: electric piano, organ, electronic keyboards, samples). In 2001, Michael Andrews scored the music for the Donnie Darko soundtrack and intended to close the film with a song by U2. The song's rights were too costly, so he called up his childhood friend Gary Jules to record vocals for a cover of the Tears For Fears' track \"Mad World\". \"Mad World\" went on to become a UK Christmas number 1 single in December 2003, and revitalized Gary Jules' music career. Michael Andrews has continued his success as",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "no guitar or drums; he just wasn't into it. I was down with that - I've played guitar my whole life. Like many of his role models for soundtrack composing (such as John Barry and Ennio Morricone), Andrews wanted to put a song on his otherwise instrumental score. He eventually chose \"Mad World\", as Tears for Fears were one of his and childhood friend Jules' favourite bands growing up. Andrews enlisted Jules to sing the song, while Andrews himself played the piano; together they recorded the song in an hour and a half. Despite being critically acclaimed, \"Donnie Darko\" was  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Gary Jules performed a version of 'Mad World' which was originally by Tears for Fears, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions Gary Jules' cover version of 'Mad World' and its success, providing context to the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explains that Michael Andrews chose 'Mad World' by Tears for Fears and enlisted Gary Jules to sing it, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "States that Michael Andrews asked Gary Jules to record vocals for a cover of Tears for Fears' 'Mad World', directly answering the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions that Andrews enlisted Jules to sing 'Mad World', which was originally by Tears for Fears, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "\"Mad World\", performed by Gary Jules, was the Christmas number one in the year mentioned.",
+            "Gary Jules' version of \"Mad World\" was originally by Tears for Fears."
+          ],
+          "reason": "Extracted facts identifying Gary Jules as the performer of the \"Mad World\" cover and noting its original artist, directly answering the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Gary Jules' cover version of \"Mad World\" was successful in 2004."
+          ],
+          "reason": "Extracted the fact that Gary Jules' cover of \"Mad World\" was successful, which is relevant to the query about who remade the song."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Michael Andrews chose \"Mad World\" (1982) by Tears for Fears for his instrumental score.",
+            "Michael Andrews and childhood friend Gary Jules' favourite bands included Tears for Fears."
+          ],
+          "reason": "Extracted facts that Michael Andrews chose \"Mad World\" by Tears for Fears and that Gary Jules was involved, providing context for the remake."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Michael Andrews called his childhood friend Gary Jules to record vocals for a cover of the Tears For Fears' track \"Mad World\" for the Donnie Darko soundtrack.",
+            "\"Mad World\" went on to become a UK Christmas number 1 single in December 2003.",
+            "The cover of \"Mad World\" revitalized Gary Jules' music career."
+          ],
+          "reason": "Extracted facts identifying Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover for the Donnie Darko soundtrack."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Michael Andrews chose \"Mad World\" by Tears for Fears.",
+            "Andrews enlisted Jules to sing the song, while Andrews played the piano; together they recorded the song."
+          ],
+          "reason": "Extracted facts that Michael Andrews chose \"Mad World\" and enlisted Gary Jules to sing it, directly answering who remade the song."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states Gary Jules performed \"Mad World\" and that it was originally by Tears for Fears, answering who remade it.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions Gary Jules' successful cover of \"Mad World\" but doesn't explicitly state it's a remake or mention the original artist.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Provides context by mentioning Michael Andrews chose the song and Gary Jules was involved, but doesn't fully clarify their roles in the remake.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Identifies Michael Andrews and Gary Jules as creators of the cover for the Donnie Darko soundtrack, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Clearly states Michael Andrews chose the song and enlisted Gary Jules to sing it, directly answering who remade \"Mad World\".",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d4",
+          "d5"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [],
+        "evidence_summary": [
+          {
+            "label": "direct_remake_identification",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 directly identify Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover, specifying their roles and the context (e.g., Donnie Darko soundtrack)."
+          },
+          {
+            "label": "partial_context_on_remake",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 provide partial information, mentioning the success of Gary Jules' cover (d2) or the involvement of Michael Andrews and Gary Jules in choosing the song (d3), but lack complete details about the remake itself."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "All provided evidence consistently identifies Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover, with some documents offering additional context about its success and origin.",
+        "clusters": [
+          {
+            "label": "direct_remake_identification",
+            "doc_ids": [
+              "d1",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents d1, d4, and d5 directly identify Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover, specifying their roles and the context (e.g., Donnie Darko soundtrack)."
+          },
+          {
+            "label": "partial_context_on_remake",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents d2 and d3 provide partial information, mentioning the success of Gary Jules' cover (d2) or the involvement of Michael Andrews and Gary Jules in choosing the song (d3), but lack complete details about the remake itself."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is consistent and directly supports the identification of Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover, with additional context provided by other documents."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Gary Jules and Michael Andrews are identified as the creators of the \"Mad World\" cover, which was featured on the Donnie Darko soundtrack. Documents also mention the success of Jules' cover and the involvement of both artists in selecting the song.",
+        "citations": [
+          "d1",
+          "d4",
+          "d5",
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence consistently identify Gary Jules and Michael Andrews as creators of the \"Mad World\" cover, with additional context provided."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies Gary Jules and Michael Andrews as the creators of the \"Mad World\" cover and accurately reflects the information provided in the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9108,
+      "completion_tokens": 2047,
+      "total_tokens": 11155
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1404,
+        "completion_tokens": 368,
+        "total_tokens": 1772
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1359,
+        "completion_tokens": 543,
+        "total_tokens": 1902
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 928,
+        "completion_tokens": 359,
+        "total_tokens": 1287
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1102,
+        "completion_tokens": 235,
+        "total_tokens": 1337
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 260,
+        "total_tokens": 1627
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 688,
+        "completion_tokens": 53,
+        "total_tokens": 741
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 846,
+        "completion_tokens": 134,
+        "total_tokens": 980
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1414,
+        "completion_tokens": 95,
+        "total_tokens": 1509
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:57.449739",
+        "prompt_tokens": 1404,
+        "completion_tokens": 368,
+        "total_tokens": 1772,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:57:59.733465",
+        "prompt_tokens": 1359,
+        "completion_tokens": 543,
+        "total_tokens": 1902,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:02.063656",
+        "prompt_tokens": 928,
+        "completion_tokens": 359,
+        "total_tokens": 1287,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:04.095149",
+        "prompt_tokens": 1102,
+        "completion_tokens": 235,
+        "total_tokens": 1337,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:05.424722",
+        "prompt_tokens": 1367,
+        "completion_tokens": 260,
+        "total_tokens": 1627,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:06.449835",
+        "prompt_tokens": 688,
+        "completion_tokens": 53,
+        "total_tokens": 741,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:07.678885",
+        "prompt_tokens": 846,
+        "completion_tokens": 134,
+        "total_tokens": 980,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:58:08.711600",
+        "prompt_tokens": 1414,
+        "completion_tokens": 95,
+        "total_tokens": 1509,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:57:54.710643",
+  "last_updated_at": "2026-04-17T19:58:08.712076"
+}

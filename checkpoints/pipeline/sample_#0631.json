@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0631",
+  "query": "When did the stock market crash in 2008?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "it was clear that the economy was contracting, and the stock market went through a series of unsettling price declines. These declines fed investor anxiety, and events came to a head on October 24, 28, and 29 (known respectively as Black Thursday, Black Monday, and Black Tuesday). On Black Monday, the Dow Jones Industrial Average fell 38.33 points to 260, a drop of 12.8%. The deluge of selling overwhelmed the ticker tape system that normally gave investors the current prices of their shares. Telephone lines and telegraphs were clogged and were unable to cope. This information vacuum only led to",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2016-07-04"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of badly run corporations was rewarding bad behavior and punishing good behavior, and that it prevented resources from being allocated away from inefficient uses to more productive uses, and that this lowered the overall amount of wealth across the entire economy. In March 2009 White House budget director Peter Orszag said, \"Job losses began in January 2008. The stock market started declining October 2007... This has been, you know, eight years in the making, and again, it's going to take some time to work our way out of it.\" A September 13, 2008, \"Wall Street Journal\" editorial prior to the",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2006-09-04"
+    },
+    {
+      "doc_id": "d3",
+      "text": "(opening at 8,282.66) that after a mixed start tumbled again below the 8,000 mark (to a low of 7,965.42) but then reversed the trend and gained more than 900 points (fourth largest daily swing ever) in less than three hours closing at 8,835.25 with a net gain of more than 550 points (third largest ever). The prospect of a federal bailout of failing US automakers appeared dim pending the inauguration of Barack Obama. There appeared to be opposition from both the Republican members of the Senate and the office of the incumbent president, George W. Bush, which expressed doubt that",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "(684 points), after a week, it dropped by 14% (1370 points). An estimated of $1.4 trillion was lost within five days of trading. The NYSE was only 5 blocks from Ground Zero. On May 6, 2010, the Dow Jones Industrial Average posted its largest intraday percentage drop since the October 19, 1987, crash, with a 998-point loss later being called the 2010 Flash Crash (as the drop occurred in minutes before rebounding). The SEC and CFTC published a report on the event, although it did not come to a conclusion as to the cause. The regulators found no evidence that",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-08-25"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Stock market crash A stock market crash is a sudden dramatic decline of stock prices across a significant cross-section of a stock market, resulting in a significant loss of paper wealth. Crashes are driven by panic as much as by underlying economic factors. They often follow speculative stock market bubbles. Stock market crashes are social phenomena where external economic events combine with crowd behavior and psychology in a positive feedback loop where selling by some market participants drives more market participants to sell. Generally speaking, crashes usually occur under the following conditions: a prolonged period of rising stock prices and  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2005"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Mentions specific dates (October 24, 28, 29) and events like 'Black Monday' in the context of stock market declines, strongly implying the 2008 crash."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "States the stock market started declining in October 2007 and job losses began in January 2008, directly addressing the timeframe of the 2008 crash."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Describes a specific day's market activity (opening, low, closing points) and mentions a federal bailout, which is contextually relevant to the 2008 financial crisis."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.5,
+          "is_relevant": true,
+          "reason": "Mentions a 2010 Flash Crash and a 1987 crash, but also refers to a significant drop and loss of $1.4 trillion within five days, which could be related to 2008."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": true,
+          "reason": "Defines a stock market crash and lists general conditions, but does not provide specific dates or details about the 2008 event."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The stock market went through a series of unsettling price declines.",
+            "October 24, 28, and 29 were known as Black Thursday, Black Monday, and Black Tuesday.",
+            "On Black Monday, the Dow Jones Industrial Average fell 38.33 points to 260, a drop of 12.8%."
+          ],
+          "reason": "Extracted specific dates and market performance details related to the 2008 stock market declines, including Black Thursday, Monday, and Tuesday."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Job losses began in January 2008.",
+            "The stock market started declining October 2007."
+          ],
+          "reason": "Extracted the start date of the stock market decline in October 2007 and the beginning of job losses in January 2008, relevant to the 2008 crash query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "This document describes market movements in relation to a federal bailout prospect but does not provide specific dates for a 2008 crash."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "An estimated $1.4 trillion was lost within five days of trading."
+          ],
+          "reason": "Extracted the significant financial loss figure and timeframe, which is a verifiable fact about market instability, though not explicitly dated to 2008."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document defines a stock market crash but does not provide specific dates or details about the 2008 event."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions specific dates like Black Thursday, Monday, and Tuesday, but these are from 1929, not 2008, thus only partially supporting the query.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States the stock market started declining in October 2007 and job losses began in January 2008, providing context for the 2008 crash.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Describes market movements related to a bailout prospect but does not provide specific dates for the 2008 crash.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Mentions a significant loss of $1.4 trillion within five days, indicating market instability, but does not explicitly date it to 2008.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Defines a stock market crash but provides no specific dates or details about the 2008 event.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_2008_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Provides direct context for the 2008 crash by mentioning the start of market decline in late 2007 and job losses in early 2008."
+          },
+          {
+            "label": "partial_support_unspecified_dates",
+            "doc_ids": [
+              "d1",
+              "d4"
+            ],
+            "summary": "Offers details about market instability and significant losses, but the specific dates or context for the 2008 crash are either incorrect (d1) or not explicitly stated (d4)."
+          },
+          {
+            "label": "irrelevant_definitions_or_unrelated_events",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents are irrelevant as they either define stock market crashes generally or discuss market movements unrelated to specific 2008 crash dates."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "conflicting",
+        "conflict_reason": "Evidence presents conflicting information regarding the dates and specific events of the 2008 stock market crash. One document points to late 2007/early 2008, while another incorrectly references 1929 dates.",
+        "clusters": [
+          {
+            "label": "evidence_suggesting_2008_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "States the stock market began declining in October 2007 and job losses started in January 2008."
+          },
+          {
+            "label": "evidence_with_incorrect_dates",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Mentions Black Thursday, Monday, and Tuesday, but these dates are from the 1929 crash, not 2008."
+          },
+          {
+            "label": "evidence_with_unspecified_dates",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Reports a significant loss of $1.4 trillion within five days, but does not explicitly link it to the 2008 crash."
+          },
+          {
+            "label": "irrelevant_evidence",
+            "doc_ids": [
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents are irrelevant, defining crashes generally or discussing unrelated market movements."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The evidence contains significant conflicts regarding the dates of the 2008 crash, with one document referencing incorrect 1929 dates. This misinformation risk and unresolved conflict warrant abstention."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The evidence contains significant conflicts regarding the dates of the 2008 crash, with one document referencing incorrect 1929 dates. This misinformation risk and unresolved conflict warrant abstention.",
+        "final_reasoning": "Abstaining due to conflicting information about the dates of the 2008 crash, with one source providing incorrect historical dates, posing a risk of misinformation."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents mention stock market declines in 2008 but do not provide a specific date for a crash."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9119,
+      "completion_tokens": 2229,
+      "total_tokens": 11348
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 437,
+        "total_tokens": 1843
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1361,
+        "completion_tokens": 455,
+        "total_tokens": 1816
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 860,
+        "completion_tokens": 378,
+        "total_tokens": 1238
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1050,
+        "completion_tokens": 327,
+        "total_tokens": 1377
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1351,
+        "completion_tokens": 358,
+        "total_tokens": 1709
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 789,
+        "completion_tokens": 58,
+        "total_tokens": 847
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 952,
+        "completion_tokens": 113,
+        "total_tokens": 1065
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1350,
+        "completion_tokens": 103,
+        "total_tokens": 1453
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:36.036869",
+        "prompt_tokens": 1406,
+        "completion_tokens": 437,
+        "total_tokens": 1843,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:38.171313",
+        "prompt_tokens": 1361,
+        "completion_tokens": 455,
+        "total_tokens": 1816,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:40.000077",
+        "prompt_tokens": 860,
+        "completion_tokens": 378,
+        "total_tokens": 1238,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:41.721007",
+        "prompt_tokens": 1050,
+        "completion_tokens": 327,
+        "total_tokens": 1377,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:43.178923",
+        "prompt_tokens": 1351,
+        "completion_tokens": 358,
+        "total_tokens": 1709,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:44.218990",
+        "prompt_tokens": 789,
+        "completion_tokens": 58,
+        "total_tokens": 847,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:45.321323",
+        "prompt_tokens": 952,
+        "completion_tokens": 113,
+        "total_tokens": 1065,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:22:46.264746",
+        "prompt_tokens": 1350,
+        "completion_tokens": 103,
+        "total_tokens": 1453,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:22:34.221652",
+  "last_updated_at": "2026-04-17T20:22:46.265328"
+}

@@ -1,0 +1,635 @@
+{
+  "sample_id": "#0347",
+  "query": "Can we predict when a volcano will erupt?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How far in advance could scientists predict an eruption of the ... When will Yellowstone erupt? Yellowstone is not overdue for an eruption. Volcanoes do not work in predictable ways and their eruptions do not follow predictable schedules. Even so, the math doesn\u2019t work out for the volcano to be \u201coverdue\u201d for an eruption. In terms of large explosions, Yellowstone has experienced three at 2.08, 1.3, and 0.631 million years ago. This comes out to an average of about 725,000 years between... Yellowstone Volcano is monitored for signs of volcanic activity. The Yellowstone Volcano Observatory (YVO) is a partnership between the U.S. Geological Survey (USGS), Yellowstone National Park, the University of Utah, the University of Wyoming, UNAVCO, the Montana Bureau of Mines and Geology, the Idaho Geological Survey, and the Wyoming State Geological Survey. YVO closely monitors volcanic... How do scientists know what\u2019s going on beneath the ground at Yellowstone? Is Yellowstone monitored for volcanic activity? Yellowstone Volcano is monitored for signs of volcanic activity. The Yellowstone Volcano Observatory (YVO) is a partnership between the U.S. Geological Survey (USGS), Yellowstone National Park, the University of Utah, the University of Wyoming, UNAVCO, the Montana Bureau of Mines and Geology, the Idaho Geological Survey, and the Wyoming State Geological Survey. YVO closely monitors volcanic... The most likely explosive event to occur at Yellowstone is actually a hydrothermal explosion (a rock hurling geyser eruption) or a lava flow. Hydrothermal explosions are very small; they occur in Yellowstone National Park every few years and form a crater a few meters across. Every few thousand years, a hydrothermal explosion will form a crater as much as a few hundred meters across. Though the... What type of eruption will Yellowstone have if it erupts again?",
+      "source_url": "https://www.usgs.gov/faqs/how-far-advance-could-scientists-predict-eruption-yellowstone-volcano",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why can't we predict when a volcano will erupt? Partners We started 2016 with a bang. Both Chileand Indonesia saw a clutch of volcanoes erupting after laying dormant for a decade or more. This followed an eruption in April 2015, when Calbuco volcano in Chile burst back to life after more than 40 years of silence, with experts giving less than two hours of warning. In an era of global satellite monitoring with proliferating networks of instruments on the ground, why can we still not accurately predict volcanic eruptions? Volcano scientists have an unprecedented array of tools with which to keep an eye on the world\u2019s many restless and active volcanoes. In many cases, we can watch emerging events from the safe distance of an volcano observatory. Or, once an eruption has begun, we can observe it in near-real time using satellite feeds and social media. But this isn\u2019t matched by our ability to anticipate what might happen next at a restless but dormant volcano. New research, however, is providing clues about the best way to look for signals of future volcanic behaviour. Like medicine, volcanologists can get a clearer sense of the state of a volcano using observations from many other examples around the world. But if we don\u2019t know the prior history of a particular volcano, and with no way of taking the equivalent of a biopsy from it, our capacity to work out what is going on is always going to be limited. For example, some volcanoes stay completely quiet and then erupt violently without warning, while others are noisy but have a moment of calm before they erupt. Without prior knowledge, how would we know? Volcanoes spew out rocks that could hold the key to understanding them. Shutterstock Sampling eruptions While we can\u2019t yet safely drill into a rumbling volcano, the deposits from past eruptions may contain the information we need about what happened in the build-up to that eruption. Explosive eruptions typically throw out large quantities of ejecta, the frozen and disrupted remnants of the emptied magma reservoir.",
+      "source_url": "https://theconversation.com/why-cant-we-predict-when-a-volcano-will-erupt-53898",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Can we predict when a volcano is going to erupt? - BBC Newsround Can we predict when a volcano is going to erupt? Scientists who specialise in volcanoes are called volcanologists. They are growing more and more confident at predicting when volcanoes will erupt in the short-term. If a volcano was going to erupt in one hour they'd have a good idea it was going to happen. If it was going to blow in a week they'd be less sure, and in six months even less so. The further a volcano is from erupting, the harder it is to predict. Working out if a volcano will erupt in future years is still impossible. Volcanologists combine several techniques to predict what will happen. They use monitors to detect movement in the rocks that make up the volcano and in the earth's crust. They also measure the gases that come out of the volcanic mountains, and even the angle of the slopes. If an eruption is likely to happen very soon the the behaviour of animals in the area can be a clue. Animals often seem to be able to 'detect' when an eruption is coming, and they become agitated and worried. And volcanologists are always trying to find new ways to detect eruptions. Some are now using satellites to try to understand how and when they may blow.",
+      "source_url": "https://www.bbc.co.uk/newsround/13880748",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "NOVA Online | Deadly Shadow of Vesuvius | Can We Predict ... Calling the Next Big One While volcanologists feel confident that these ever-improving technologies will enable them to predict when an eruption is about to occur, they still cannot reliably estimate an impending eruption's size or exact nature. How large will the eruption be? Will it be explosive like Mt. St. Helens or effusive like Kilauea? Indeed, will it even open a vent in the surface? To be able to answer such questions, Tilling and USGS colleague Dr. Peter Lipman argued in a 1993 article in Nature for the need to develop \"rugged, reliable real-time systems\" to measure changes not only in seismicity, ground deformation, and gases, but also in gravitational and electromagnetic fields\u2014in short, equipment to read the gamut of signals given out by a restless volcano. \"There's no magic bullet in predicting volcanic eruptions,\" says Dr. Charles Connor, a volcanologist at the Southwest Research Institute in San Antonia, Texas. \"The key thing is to cross-correlate as many different observations as possible. \" Tilling says volcanologists also need to get a better handle on the basic mechanisms behind precursory signals, such as the long-period earthquakes that often precede eruptions. Dr. Bernard Chouet, a VHP volcano seismologist, says these quakes provide a \"direct window\" into the magmatic fluid moving about beneath a restless volcano. \"These earthquakes are like stress gauges that light up and reflect the pressurization going on below,\" he says. Careful monitoring of such natural gauges can help forecast eruptive activity. The USGS team that successfully predicted Pinatubo's burst did so in part by watching the build-up of long-period quakes. USGS Volcanologist Ken Yamashita surveys on the dome, Mt. St. Helens, March 1986.",
+      "source_url": "https://www.pbs.org/wgbh/nova/vesuvius/predict.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "How Scientists Forecast Volcanic Eruptions \u00b7 Frontiers for Young ... In open-conduit volcanoes, magma does not accumulate inside the volcano, so pressure does not build up to fracture the surrounding rock or deform the volcano, although there is frequent degassing through the open conduit. This results in weaker unrest indicators. Therefore, given the stronger signals, forecasting eruptions is usually easier for closed-conduit volcanoes. Nevertheless, some well-monitored and frequently erupting open-conduit volcanoes may still provide enough data for a reliable forecast, such as Mt. Etna (Italy), whose eruptions are currently predicted with a 97% success rate. Since the global forecasting success rate for all volcanoes is ~20%, the forecasting of Mt. Etna is extremely successful. A single volcano can switch from closed- to open-conduit during its eruptive history. The Future Volcanologists are constantly looking for new approaches to improve forecasting, by combining monitoring data with knowledge of volcanic processes. To identify the start of an eruption, recent studies focus on the appearance of specific monitoring signals that are directly related to the rise of magma, rather than its accumulation. This will help researchers to better forecast times when eruption is likely to happen soon. As some volcanoes have multiple eruptive craters scattered over wide areas, researchers also try to forecast the possible locations of future craters, to reduce the impact of eruptions in inhabited areas [1]. These efforts will certainly improve future eruption forecasting, providing more reliable probabilistic estimates and reducing the level of uncertainty or error. Nevertheless, we must remember that uncertainty is a part of any forecast, so future eruption forecasting will be similar to weather forecasting [5]. In summary, while forecasting eruptions is currently a difficult although not impossible task, future studies and research, as well as increased availability of monitoring data, will allow better understanding of how volcanoes work. This in turn will allow a more reliable eruption forecasting, reducing the adverse impact of volcanic activity on the population and environment.",
+      "source_url": "https://www.frontiersin.org/articles/813910",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "You Asked: Why Is it So Hard to Predict Volcanic Eruptions? - You ... Getting instruments on volcanoes can sometimes be difficult because they can be remote, dangerous, or just complicated to work at (e.g., at national parks or private lands). Usually only one researcher goes to a site, because it can be prohibitively expensive to send a large, multidisciplinary team. So, overall, the technology to get eruption information exists, but it all comes down to economics. How accurate are the predictions of volcanic eruptions? How much lead time is there between a prediction and an event? Only about 20% of eruptions have an appropriate increase in the alert level before the eruption occurs. That\u2019s pretty low considering the importance of warning citizens living near active volcanoes. Lead time can range anywhere from hours to days to months. It often varies based on the style of the volcano. For example, some volcanoes give off very few signs before erupting. Other times, you see an uptick in activity and think an eruption is coming soon, but then nothing happens for months. It is difficult to gather enough data to find clear patterns in this wide range of volcanic behaviors. Many locations do not have adequate data due to financial constraints, but sometimes we are looking at the wrong signals. For example, some volcanoes have only one seismometer on them. If their pre-eruption upticks occur as increases in gas and not in rumbling that can be picked up as seismic waves, then there is inadequate data to predict lead times and for researchers to issue warnings. Can you predict which volcanoes will have violent eruptions? The general pattern is that volcanoes with more viscous magmas will have more violent eruptions. To elaborate, volcanoes on subduction zones have more water and silica, which generate viscosity, and their eruptions are more likely to be big and violent. However, it isn\u2019t completely clear cut because predictions also depend on the size of the system and how quickly the magma moves up towards the surface. This is actually an active area of research. We are studying a volcano in Alaska, for example, which has mostly smooth lava eruptions, but every now and then, a violent blow.",
+      "source_url": "https://news.climate.columbia.edu/2021/02/09/difficult-predict-volcanic-eruptions/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Volcano expert explains the science behind Kilauea's ongoing ... [one of the residential areas affected by the latest Kilauea activity], there were earthquakes migrating into that region. There was evidence of ground tilting, so we knew magma was on the move. We didn't yet know whether it would lead to an eruption. But, of course, once you see that, you're not surprised that it starts erupting. Related Are volcanoes like earthquakes in the sense that geologists can look at tension building up on a fault and more or less predict when the next big one will occur? It's different in a number of respects. With earthquakes, for example, in the San Andreas Fault \u2014 I worked on that as well \u2014 and we can measure strain building up. But we haven't yet seen anything reliably that indicates a change in behavior before an earthquake. Strain will build up and in some cases for rather large earthquakes, it may be 200 years between events or longer, potentially. In the Pacific Northwest, we think it may be 500 years between the big magnitude 9 [earthquakes], but we see energy building up at a pretty constant rate, and we've been trying very hard to see if we can find something that indicates an acceleration or a change in behavior that leads to the earthquake, other than foreshocks. We haven't seen anything that's consistent and reliable. There are hints here and there, but nothing that we can reliably point to. Short-term earthquake forecasting is much, much more challenging, whereas volcanic eruptions can't occur unless magma moves into the subsurface. Unlike earthquake prediction \u2014 which in terms of short-term prediction is currently not feasible and may never be feasible on a short timescale \u2014 volcano prediction is feasible and is common if volcanoes are instrumented. But not all volcanoes are instrumented. You can't do it if you don't have anything to measure. Is it possible to predict the severity of a volcanic eruption? There are a couple ways we can get it. One way is just to know what volcanoes have done in the past. If you have a particular volcano, like Kilauea,",
+      "source_url": "https://www.nbcnews.com/mach/science/volcano-expert-explains-science-behind-kilauea-s-ongoing-eruption-ncna876741",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Can we predict when a volcano will erupt? | The Lighthouse Can we predict when a volcano will erupt? Share The recent tragedy in New Zealand highlights the difficulties faced by scientists in forecasting volcanic eruptions. Dr Christina Magill, from Macquarie University's Department of Earth and Environmental Sciences, explains. Forty-seven people were on Whakaari/White Island, a popular tourist destination, when the disaster happened at 14:11 local time. Terrible tragedy: The eruption at Whakaari/White Island, in the Bay of Plenty, sent plumes of ash, steam and rock 12,000ft into the air. Credit: Michael Schade/Twitter. At the time of writing, New Zealand authorities have confirmed that six people have died, while eight others are feared missing on the island, presumed dead. About 30 people were rescued, with most of them being treated in hospital for serious injuries. Although the Volcanic Alert Level for Whakaari/White Island had been increased to two (on a scale of five) before the eruption, this indicated only moderate to heightened volcanic unrest \u2013 there was no evidence to suggest that the volcano had moved into an eruptive phase. Although our knowledge of volcanoes and of the precursors leading to eruptions is constantly improving, we must acknowledge the unpredictable nature of these complex systems. GNS Science, who closely monitor the volcano, last week stated that \u201cobservations and data to date suggest that the volcano may be entering a period where eruptive activity is more likely than normal\u201d. But what does this mean? Volcanic alert levels fluctuate and an increase in alert level does not necessarily indicate that an eruption will occur. New Zealand's alert levels do not reflect the magnitude or style of a future eruption, or indicate when it may occur. Deadly eruption: About 30 people were rescued from Whakaari/White Island in the immediate aftermath of the explosion, with some tourists pictured being evacuated by boat. Credit: Michael Schade/Twitter.",
+      "source_url": "https://lighthouse.mq.edu.au/article/december-2019/Can-we-predict-when-a-volcano-will-erupt",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Will Haleakala Erupt Again? Shield volcanoes are the largest volcanoes on Earth, but they are not very steep. The flowing lava does not pile up, instead, it flows easily downhill which gives Haleakal\u0101 its unique shape. Haleakal\u0101 has erupted at least ten times in the past 1,000 years. The last eruption occurred sometime between 1480 and 1600 according to scientific records. The history of Haleakal\u0101\u0081 and its recent activity indicate that the volcano will erupt again in the future. Although studies indicate that Haleakal\u0101 will erupt again, the volcano is currently dormant. The volcano is currently being monitored as a moderate priority according to the National Volcano Early Warning System. The highest priority volcanoes in Hawaii are Kilauea and Mauna Loa because they are both active volcanoes. Volcanoes are monitored using a seismograph which records earthquake motion. An increase in the number of earthquakes in a volcano mean that the volcano has become restless. This is an important monitoring tool because a series of earthquakes usually occur before an eruption happens. Shield volcanoes, like Haleakal\u0101, are usually not explosive when they erupt. So, they do not pose a large risk to people as long as they are not on the rift zones. Instead of exploding, they release a fountain-like flow of lava that forms cinder cones and spatter cones. Both cinder cones and spatter cones from past eruptions can be seen in Haleakal\u0101 Crater. These cones resemble mini volcanoes inside the crater. If Haleakal\u0101 does erupt again in the future, the areas that would receive the most volcanic activity are along the southwest and east rift zones. These rift zones are areas where the volcano is cracking or splitting apart. These cracks make the area weak so magma can easily come to the surface here. These rift zones pass from La Perouse Bay, through Haleakal\u0101 Crater, and onto Hana.",
+      "source_url": "https://www.skylinehawaii.com/blog/will-haleakala-erupt-again",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "New method helps scientists better predict when volcanos will erupt and we search the tephra and look for crystals containing fluid inclusions. Through these tiny accidents we can uncover some of Earth's volcanic secrets from the deep to better understand and prepare for future eruptions. \" Citation: New method helps scientists better predict when volcanos will erupt (2023, February 8) retrieved 16 August 2023 from https://phys.org/news/2023-02-method-scientists-volcanos-erupt.html This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only. Let us know if there is a problem with our content Use this form if you have come across a typo, inaccuracy or would like to send an edit request for the content on this page. For general inquiries, please use our contact form. For general feedback, use the public comments section below (please adhere to guidelines). Please select the most appropriate category to facilitate processing of your request Your message to the editors Your email (only if you want to be contacted back) Thank you for taking time to provide your feedback to the editors. Your feedback is important to us. However, we do not guarantee individual replies due to the high volume of messages. E-mail the story New method helps scientists better predict when volcanos will erupt Note Your email address is used only to let the recipient know who sent the email. Neither your address nor the recipient's address will be used for any other purpose. The information you enter will appear in your e-mail message and is not retained by Phys.org in any form. Your message Newsletter sign up Get weekly and/or daily updates delivered to your inbox. You can unsubscribe at any time and we'll never share your details to third parties. Your Privacy This site uses cookies to assist with navigation, analyse your use of our services, collect data for ads personalisation and provide content from third parties.",
+      "source_url": "https://phys.org/news/2023-02-method-scientists-volcanos-erupt.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "What Causes a Volcano to Erupt, and How Do Scientists Predict ... This lighter magma then rises toward the surface by virtue of its buoyancy. If the density of the magma between the zone of its generation and the surface is less than that of the surrounding and overlying rocks, the magma reaches the surface and erupts. Magmas of so-called andesitic and rhyolitic compositions also contain dissolved volatiles such as water, sulfur dioxide and carbon dioxide. Experiments have shown that the amount of a dissolved gas in magma (its solubility) at atmospheric pressure is zero, but rises with increasing pressure. For example, in an andesitic magma saturated with water and six kilometers below the surface, about 5 percent of its weight is dissolved water. As this magma moves toward the surface, the solubility of the water in the magma decreases, and so the excess water separates from the magma in the form of bubbles. As the magma moves closer to the surface, more and more water exsolves from the magma, thereby increasing the gas/magma ratio in the conduit. When the volume of bubbles reaches about 75 percent, the magma disintegrates to pyroclasts (partially molten and solid fragments) and erupts explosively. The third process that causes volcanic eruptions is an injection of new magma into a chamber that is already filled with magma of similar or different composition. This injection forces some of the magma in the chamber to move up in the conduit and erupt at the surface. Although volcanologists are well aware of these three processes, they cannot yet predict a volcanic eruption. But they have made significant advances in forecasting volcanic eruptions. Forecasting involves probable character and time of an eruption in a monitored volcano. The character of an eruption is based on the prehistoric and historic record of the volcano in question and its volcanic products. For example, a violently erupting volcano that has produced ash fall, ash flow and volcanic mudflows (or lahars) is likely to do the same in the future.",
+      "source_url": "https://www.scientificamerican.com/article/what-causes-a-volcano-to-erupt-and-how-do-scientists-predict-eruptions/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "Volcanic eruptions are incredibly hard to predict. Here's why. It\u2019s also hard to predict how an eruption will evolve after it starts,\u201d Carn says. \u201cIn these kinds of cases, volcanologists look at the activity of a volcano to see what it did then, and often the best thing you can use to forecast is its previous activity.\u201d Just like earthquakes, predicting exactly when an individual volcano will erupt\u2014and exactly how large that eruption will be\u2014is still impossible. But deposits left by past eruptions, along with live data from volcanoes around the world, might help volcanologists make better forecasts. Unlike weather patterns, which tend to occur literally in the open air, the factors that lead to a volcanic eruption unfold deep inside our planet, further down than current technology can reach. So we rely on indirect observations instead. Old deposits of ash and mud can often indicate past eruption patterns. Did this volcano send out streams of lava, or fill the air with caustic bits of rock and glass? Local stones might be able to help untangle the mystery, preserving beds of lava or drifts of ash in layers around the volcano that can be dated to tell exactly when a volcano may have erupted. Then there\u2019s the shaking. Those swarms of earthquakes back in September were the initial reason scientists raised the alert level at Agung. Seismic activity of that kind usually means magma from miles underneath the Earth\u2019s surface is rising within a volcano. The upward movement causes the overlying rocks to shift, and eventually crack under the mounting pressure. On the surface, that shaking can be one of the first indications that not everything is status quo under there. Thus, researchers have learned to pay attention to earthquakes near volcanoes. But no two volcanoes are exactly the same, and their behavior differs as well. Some shaking might indicate that an eruption is about to happen, while in other cases, it might not indicate anything happening on the surface at all. In the case of Agung, earthquakes preceeded the deadly 1963 eruption, followed by lava flows, and then a massive explosive eruption.",
+      "source_url": "https://www.popsci.com/predict-volcanic-eruption/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d13",
+      "text": "New Zealand scientists find tremor link that could predict volcanic ... \u201cThis pattern started to emerge, in our experience, around three weeks before the eruption and it peaks around two and four days before the event,\u201d Ardid said. \u201cHowever, it is important to point out that we have observed this sealing mechanism without any eruption related,\u201d he said. Sometimes the pressure will passively release, and other times it can explode. \u201cThat\u2019s when it is dangerous.\u201d The research has picked up that Mount Ruapehu, an active volcano in the country\u2019s North Island, is showing signs of a seal forming, Ardid said. \u201cAt this point, we\u2019re able to say that an eruption is much more likely to happen now.\u201d Over the past month, strong tremors are becoming more frequent, hot gas and liquid is flowing into the crater lake and sulphur slicks are appearing on the battleship grey water near Mount Ruapehu. GeoNet, which monitors New Zealand\u2019s geological hazards, has issued a warning over elevated volcanic unrest, saying the activity in the last four weeks is \u201cthe longest period of tremor recorded over the past 20 years\u201d. It cannot predict if the volcano will blow \u2013 unrest does not always lead to an eruption. A tool to definitively predict if a volcano is going to erupt does not exist. As Ardid puts it: \u201cthe holy grail of volcanology is trying to anticipate when an eruption is going to happen\u201d. But what this research does is allow scientists to determine with greater accuracy the probability, or likelihood, an eruption will occur. The research\u2019s co-author, Dr David Dempsey, a Civil and Natural Resources Engineering lecturer at the University, said once the warning system has been through enough testing, and the scientists are confident enough in its accuracy levels, it could be used across the world. Dempsey hopes they can get the tool to a stage where scientists can say there is a 10-20% chance of an eruption in the next 48 hours.",
+      "source_url": "https://www.theguardian.com/world/2022/apr/20/new-zealand-scientists-find-tremor-link-that-could-predict-volcanic-eruptions",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "States that volcanoes do not erupt on predictable schedules and discusses the difficulty of predicting eruptions, directly addressing the query."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly asks 'Why can't we predict when a volcano will erupt?' and discusses the limitations and tools for prediction, strongly supporting the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly addresses 'Can we predict when a volcano is going to erupt?' and explains that short-term prediction is improving but long-term is impossible."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Quotes a volcanologist stating there's 'no magic bullet' for prediction and discusses the need to cross-correlate observations, directly relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Discusses improving eruption forecasting, acknowledging uncertainty, and the focus on identifying signals related to magma rise, highly relevant to the query."
+        },
+        {
+          "doc_id": "d6",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions the technology exists but economics are a factor, and that only 20% of eruptions have appropriate alert level increases, indicating prediction challenges."
+        },
+        {
+          "doc_id": "d7",
+          "relevance_score": 0.88,
+          "is_relevant": true,
+          "reason": "Compares volcano prediction to earthquake prediction, stating volcano prediction is feasible if instrumented, directly answering the query with nuance."
+        },
+        {
+          "doc_id": "d8",
+          "relevance_score": 0.92,
+          "is_relevant": true,
+          "reason": "Highlights the difficulties in forecasting eruptions, explains alert levels, and acknowledges the unpredictable nature of these complex systems."
+        },
+        {
+          "doc_id": "d9",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Discusses a specific volcano's past eruptions and future likelihood but doesn't directly address the general predictability of eruptions."
+        },
+        {
+          "doc_id": "d10",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Title and content directly state a 'New method helps scientists better predict when volcanos will erupt', directly answering the query."
+        },
+        {
+          "doc_id": "d11",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "States scientists have made significant advances in forecasting eruptions and explains what forecasting involves, directly addressing the query."
+        },
+        {
+          "doc_id": "d12",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states predicting exactly when an eruption will occur is impossible but discusses how past activity and live data aid better forecasts."
+        },
+        {
+          "doc_id": "d13",
+          "relevance_score": 0.93,
+          "is_relevant": true,
+          "reason": "States 'the holy grail of volcanology is trying to anticipate when an eruption is going to happen' and discusses probability and a new tool, directly relevant."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Volcanoes do not work in predictable ways and their eruptions do not follow predictable schedules.",
+            "Yellowstone is not overdue for an eruption."
+          ],
+          "reason": "Extracted facts stating that volcanoes do not follow predictable schedules and that Yellowstone is not overdue for an eruption, directly addressing the query about predictability."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Scientists cannot accurately predict volcanic eruptions despite having an array of tools.",
+            "New research is providing clues about the best way to look for signals of future volcanic behavior."
+          ],
+          "reason": "Extracted facts highlighting the current inability to accurately predict eruptions and the ongoing research to improve forecasting methods."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Scientists are growing more confident at predicting short-term eruptions.",
+            "The further a volcano is from erupting, the harder it is to predict.",
+            "Predicting eruptions years in advance is still impossible."
+          ],
+          "reason": "Extracted facts detailing the varying accuracy of predictions based on the timeframe, stating short-term predictions are improving but long-term ones remain impossible."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Volcanologists cannot reliably estimate an impending eruption's size or exact nature.",
+            "There is a need to develop real-time systems to measure various signals from a volcano."
+          ],
+          "reason": "Extracted facts emphasizing the limitations in predicting eruption size and nature, and the need for better measurement systems."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Future eruption forecasting will be similar to weather forecasting, with uncertainty being a part of any forecast.",
+            "Future studies and research will allow for more reliable eruption forecasting."
+          ],
+          "reason": "Extracted facts comparing eruption forecasting to weather forecasting due to inherent uncertainty and stating that future research will improve reliability."
+        },
+        {
+          "doc_id": "d6",
+          "key_facts": [
+            "Only about 20% of eruptions have an appropriate increase in the alert level before the eruption occurs.",
+            "Inadequate data from monitoring equipment can prevent accurate prediction of lead times and warnings."
+          ],
+          "reason": "Extracted facts highlighting the low accuracy of current eruption warnings and the impact of insufficient monitoring data on prediction capabilities."
+        },
+        {
+          "doc_id": "d7",
+          "key_facts": [
+            "Volcanic eruptions can be predicted if volcanoes are instrumented, unlike short-term earthquake prediction.",
+            "It is not possible to predict the severity of a volcanic eruption without knowing past activity."
+          ],
+          "reason": "Extracted facts stating that volcano prediction is feasible with instrumentation, contrasting it with earthquake prediction, and noting the importance of past activity for severity prediction."
+        },
+        {
+          "doc_id": "d8",
+          "key_facts": [
+            "Volcanic alert levels do not necessarily indicate that an eruption will occur.",
+            "An increase in alert level does not reflect the magnitude or style of a future eruption, or indicate when it may occur.",
+            "The unpredictable nature of complex volcanic systems must be acknowledged."
+          ],
+          "reason": "Extracted facts explaining that alert levels are not definitive predictors of eruption timing, magnitude, or style, and acknowledging the inherent unpredictability of volcanoes."
+        },
+        {
+          "doc_id": "d9",
+          "key_facts": [
+            "An increase in earthquakes usually occurs before an eruption happens.",
+            "The history and recent activity of Haleakal\u0101 indicate it will erupt again in the future.",
+            "Shield volcanoes are usually not explosive when they erupt."
+          ],
+          "reason": "Extracted facts about earthquake frequency as a precursor, the future eruption likelihood of Haleakal\u0101 based on its history, and the non-explosive nature of shield volcano eruptions."
+        },
+        {
+          "doc_id": "d10",
+          "key_facts": [
+            "A new method helps scientists better predict when volcanoes will erupt.",
+            "Scientists analyze crystals containing fluid inclusions in tephra to understand volcanic secrets."
+          ],
+          "reason": "Extracted facts about a new method improving eruption prediction and the scientific technique used to analyze volcanic materials for insights."
+        },
+        {
+          "doc_id": "d11",
+          "key_facts": [
+            "Forecasting involves the probable character and time of an eruption in a monitored volcano.",
+            "The character of an eruption is based on the prehistoric and historic record of the volcano and its products."
+          ],
+          "reason": "Extracted facts defining eruption forecasting and explaining that the eruption's character is determined by its historical activity and products."
+        },
+        {
+          "doc_id": "d12",
+          "key_facts": [
+            "Predicting exactly when an individual volcano will erupt and its size is still impossible.",
+            "Deposits from past eruptions and live data may help volcanologists make better forecasts.",
+            "The factors leading to a volcanic eruption unfold deep inside the planet, beyond current technology's reach."
+          ],
+          "reason": "Extracted facts stating the impossibility of precise prediction, the utility of historical data and live monitoring, and the challenge posed by subsurface processes."
+        },
+        {
+          "doc_id": "d13",
+          "key_facts": [
+            "A tool to definitively predict if a volcano is going to erupt does not exist.",
+            "Research allows scientists to determine with greater accuracy the probability or likelihood an eruption will occur.",
+            "Unrest does not always lead to an eruption."
+          ],
+          "reason": "Extracted facts stating the absence of a definitive prediction tool, the ability to assess probability, and the fact that volcanic unrest doesn't guarantee an eruption."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly states that volcanoes do not follow predictable schedules, answering the query about predictability.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "States that scientists cannot accurately predict eruptions, directly addressing the query's core question.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Indicates improving short-term prediction but states long-term prediction is impossible, offering a nuanced answer.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "Highlights limitations in predicting eruption size and nature, implying a lack of precise predictability.",
+          "confidence": 0.85
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Compares eruption forecasting to weather forecasting, acknowledging inherent uncertainty and future improvements.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d6",
+          "verdict": "supports",
+          "reason": "Indicates that only a small percentage of eruptions have appropriate alert level increases, showing poor prediction accuracy.",
+          "confidence": 0.88
+        },
+        {
+          "doc_id": "d7",
+          "verdict": "partially_supports",
+          "reason": "Suggests prediction is possible with instrumentation but contrasts with earthquake prediction, offering a conditional answer.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d8",
+          "verdict": "supports",
+          "reason": "Explains that alert levels do not predict eruption timing or magnitude, reinforcing the unpredictable nature.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d9",
+          "verdict": "irrelevant",
+          "reason": "Discusses precursors and characteristics of specific volcanoes, not the general predictability of eruptions.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d10",
+          "verdict": "partially_supports",
+          "reason": "Mentions a new method improving prediction, but doesn't fully confirm reliable prediction capabilities.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d11",
+          "verdict": "partially_supports",
+          "reason": "Defines forecasting and its basis in historical data, implying some level of prediction is possible.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d12",
+          "verdict": "supports",
+          "reason": "States that predicting the exact timing and size of an eruption is impossible, directly addressing the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d13",
+          "verdict": "partially_supports",
+          "reason": "States a definitive prediction tool doesn't exist but acknowledges improved probability assessment.",
+          "confidence": 0.78
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1",
+          "d2",
+          "d4",
+          "d6",
+          "d8",
+          "d12"
+        ],
+        "partial_docs": [
+          "d3",
+          "d5",
+          "d7",
+          "d10",
+          "d11",
+          "d13"
+        ],
+        "irrelevant_docs": [
+          "d9"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_unpredictability",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d6",
+              "d8",
+              "d12"
+            ],
+            "summary": "Multiple documents directly state that volcanic eruptions cannot be accurately or precisely predicted in terms of timing, size, or nature, highlighting the inherent unpredictability."
+          },
+          {
+            "label": "partial_support_nuance_and_improvement",
+            "doc_ids": [
+              "d3",
+              "d5",
+              "d7",
+              "d10",
+              "d11",
+              "d13"
+            ],
+            "summary": "Some documents offer a more nuanced view, indicating improving short-term prediction capabilities, the possibility of prediction with instrumentation, ongoing research, and the assessment of probabilities, while still acknowledging limitations."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence consistently points to the general unpredictability of volcanic eruptions, with some sources detailing ongoing research and nuanced improvements in short-term forecasting.",
+        "clusters": [
+          {
+            "label": "general_unpredictability",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d4",
+              "d6",
+              "d8",
+              "d12"
+            ],
+            "summary": "Multiple sources assert that volcanic eruptions cannot be accurately or precisely predicted regarding timing, size, or nature, emphasizing their inherent unpredictability."
+          },
+          {
+            "label": "nuanced_prediction_and_improvement",
+            "doc_ids": [
+              "d3",
+              "d5",
+              "d7",
+              "d10",
+              "d11",
+              "d13"
+            ],
+            "summary": "Some documents suggest improving short-term prediction, conditional prediction with instrumentation, ongoing research, and probability assessment, while still acknowledging limitations."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and the conflict is complementary, indicating a nuanced but answerable question about volcanic eruption predictability."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Volcanic eruptions are generally unpredictable in terms of their timing, size, and nature. However, there are ongoing improvements in short-term forecasting, and prediction is possible with instrumentation and probability assessments, though limitations remain.",
+        "citations": [
+          "d1",
+          "d2",
+          "d4",
+          "d6",
+          "d8",
+          "d12",
+          "d3",
+          "d5",
+          "d7",
+          "d10",
+          "d11",
+          "d13"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The evidence directly supports the general unpredictability of volcanic eruptions while also acknowledging nuanced improvements and ongoing research in prediction capabilities."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately reflects the provided documents, stating that while eruptions are generally unpredictable, short-term forecasting and probability assessments are improving with instrumentation, though limitations persist."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 22591,
+      "completion_tokens": 4038,
+      "total_tokens": 26629
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 4123,
+        "completion_tokens": 954,
+        "total_tokens": 5077
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 4078,
+        "completion_tokens": 1369,
+        "total_tokens": 5447
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1594,
+        "completion_tokens": 809,
+        "total_tokens": 2403
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 2112,
+        "completion_tokens": 349,
+        "total_tokens": 2461
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 2420,
+        "completion_tokens": 259,
+        "total_tokens": 2679
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 715,
+        "completion_tokens": 42,
+        "total_tokens": 757
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 862,
+        "completion_tokens": 158,
+        "total_tokens": 1020
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 6687,
+        "completion_tokens": 98,
+        "total_tokens": 6785
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:20.183934",
+        "prompt_tokens": 4123,
+        "completion_tokens": 954,
+        "total_tokens": 5077,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:25.199770",
+        "prompt_tokens": 4078,
+        "completion_tokens": 1369,
+        "total_tokens": 5447,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:29.194583",
+        "prompt_tokens": 1594,
+        "completion_tokens": 809,
+        "total_tokens": 2403,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:30.983791",
+        "prompt_tokens": 2112,
+        "completion_tokens": 349,
+        "total_tokens": 2461,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:32.597537",
+        "prompt_tokens": 2420,
+        "completion_tokens": 259,
+        "total_tokens": 2679,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:33.596103",
+        "prompt_tokens": 715,
+        "completion_tokens": 42,
+        "total_tokens": 757,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:34.824071",
+        "prompt_tokens": 862,
+        "completion_tokens": 158,
+        "total_tokens": 1020,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T18:01:36.260144",
+        "prompt_tokens": 6687,
+        "completion_tokens": 98,
+        "total_tokens": 6785,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T18:01:16.148632",
+  "last_updated_at": "2026-04-17T18:01:36.260918"
+}

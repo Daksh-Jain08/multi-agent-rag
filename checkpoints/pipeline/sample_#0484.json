@@ -1,0 +1,367 @@
+{
+  "sample_id": "#0484",
+  "query": "Which film has Eva Marie Saint as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on July 19, 2015, and concluded on July 21, 2015. Jogia returned to cinema, after joining the cast of multiple films throughout 2014. In February of that year, \"Deadline\" reported that Jogia would star in \"Ten Thousand Saints\", an adaption of the 2011 novel of the same name by Eleanor Henderson. Released in 2015, the film also starred Asa Butterfield, Hailee Steinfeld and Ethan Hawke. In August 2014, he landed a role in \"I Am Michael\". Based on Benoit Denizet-Lewis' \"New York Times Magazine\" article \"My Ex-Gay Friend\" in 2011, the film's cast includes James Franco, Zachary Quinto and Emma",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2014-04-06"
+    },
+    {
+      "doc_id": "d2",
+      "text": "his largest production so far. The film, from a script by Black List screenwriter Brian Duffield, follows a crew of underwater researchers who must navigate across the ocean floor after their station is destroyed. Eubank cast Kristen Stewart and \"Game of Thrones\"-actress Jessica Henwick in the lead roles. The film also features \"Silicon Valley\"-star T. J. Miller, Vincent Cassel, John Gallagher Jr., and Gunner Wright who worked with Eubank previously on \"Love\". Eubank chose Montenegrin cinematographer Bojan Bazelli to lens the movie. The film began shooting in March 2017 in New Orleans and completed principal photography on May 28, 2017.",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "role. He also thought \"Holy Motors\" already owed to Georges Franju's \"Eyes Without a Face\", in which Scob played, and Carax decided to give an explicit nod to the film by casting her. The character Kay M. came from a cancelled project which was supposed to star Lavant and Kate Moss, and follow the Merde character from \"Tokyo!\" in the United States. Eva Mendes was offered the role after she and Carax met at a film festival and said they wanted to make a film together. Kylie Minogue was discovered by Carax after Claire Denis suggested her for a cancelled",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000-09-09"
+    },
+    {
+      "doc_id": "d4",
+      "text": "and Ana de Armas would star together in the movie \"Daughter of God\", after the identical news of April 4 for Eli Roth's \"Knock Knock\", and that Reeves and Robin Gurland would be producers of the film. On November 7, Remark Films boarded on its first project to co-finance the film. On November 8, Mira Sorvino joined the film. The other cast include Christopher McDonald, Big Daddy Kane, Michael Rispoli, Laura G\u251c\u2502mez. In December 2014, Carlos Jos\u251c\u2310 Alvarez was set to score the film. Principal photography began in early November 2014 in New York City. On November 26, filming was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2023-05-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "starred in before being offered the coveted part of Superman in the popular television show \"Adventures of Superman\". The Sainted Sisters The Sainted Sisters is a 1948 American comedy film starring Veronica Lake and co-starring Joan Caulfield, Barry Fitzgerald, George Reeves, William Demarest and Beulah Bondi. The film was distributed by Paramount Pictures and is notable for being the last film Veronica Lake made under her contract with the studio. After escaping New York City with the loot from a successful scam they pulled, sisters Letty and Jane Stanton decide to hide out in a small town in Maine close  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2022-05-03"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document discusses the cast of 'Ten Thousand Saints' and 'I Am Michael', but does not mention Eva Marie Saint."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document details the cast and crew of an underwater research film starring Kristen Stewart, with no mention of Eva Marie Saint."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document mentions Eva Mendes and Kylie Minogue, but not Eva Marie Saint. It discusses the film 'Holy Motors'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document lists cast members for 'Daughter of God' and 'Knock Knock', but Eva Marie Saint is not among them."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "This document mentions 'The Sainted Sisters' and Veronica Lake, but not Eva Marie Saint. The name 'Saint' appears in the film title, not as an actress."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [],
+          "reason": "The document mentions several actors and films but does not include Eva Marie Saint."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [],
+          "reason": "This document discusses a film with Kristen Stewart and Jessica Henwick, but does not mention Eva Marie Saint."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [],
+          "reason": "The document mentions Eva Mendes and Kylie Minogue, but not Eva Marie Saint."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [],
+          "reason": "This document lists cast members like Ana de Armas, Mira Sorvino, and Christopher McDonald, but not Eva Marie Saint."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The Sainted Sisters is a 1948 American comedy film starring Veronica Lake and co-starring Joan Caulfield, Barry Fitzgerald, George Reeves, William Demarest and Beulah Bondi."
+          ],
+          "reason": "Extracted the title and cast of the film 'The Sainted Sisters', as it is the only document that mentions an actress with a similar name, though not the specific actress requested."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The document does not mention Eva Marie Saint or any film she was a part of.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document discusses a film with other actors and does not mention Eva Marie Saint.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The document mentions Eva Mendes, not Eva Marie Saint, and provides no relevant information.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document lists cast members but does not include Eva Marie Saint.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions 'The Sainted Sisters' and a cast, but the actress is Eva Lake, not Eva Marie Saint. It's a near miss.",
+          "confidence": 0.65
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "near_miss_name",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Document d5 mentions a film with a similar-sounding name ('The Sainted Sisters') and cast, but not the specific actress Eva Marie Saint."
+          },
+          {
+            "label": "no_mention",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d1, d2, d3, and d4 do not mention Eva Marie Saint or any relevant information."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents are either irrelevant or contain near-misses, failing to provide any direct or conflicting information about Eva Marie Saint.",
+        "clusters": [
+          {
+            "label": "no_mention_or_near_miss",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents either do not mention Eva Marie Saint or refer to similar-sounding names/films without confirming her involvement."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided documents do not contain direct information about Eva Marie Saint, only near-misses. Support is too weak for a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided documents do not contain direct information about Eva Marie Saint, only near-misses. Support is too weak for a reliable answer.",
+        "final_reasoning": "The documents do not contain direct information about Eva Marie Saint, only near-misses. Abstaining due to insufficient evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents do not mention Eva Marie Saint."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8270,
+      "completion_tokens": 1633,
+      "total_tokens": 9903
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1462,
+        "completion_tokens": 377,
+        "total_tokens": 1839
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 327,
+        "total_tokens": 1744
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 749,
+        "completion_tokens": 323,
+        "total_tokens": 1072
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 885,
+        "completion_tokens": 227,
+        "total_tokens": 1112
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1105,
+        "completion_tokens": 149,
+        "total_tokens": 1254
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 547,
+        "completion_tokens": 47,
+        "total_tokens": 594
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 699,
+        "completion_tokens": 94,
+        "total_tokens": 793
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 89,
+        "total_tokens": 1495
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:44.452893",
+        "prompt_tokens": 1462,
+        "completion_tokens": 377,
+        "total_tokens": 1839,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:46.093649",
+        "prompt_tokens": 1417,
+        "completion_tokens": 327,
+        "total_tokens": 1744,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:47.484626",
+        "prompt_tokens": 749,
+        "completion_tokens": 323,
+        "total_tokens": 1072,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:48.932485",
+        "prompt_tokens": 885,
+        "completion_tokens": 227,
+        "total_tokens": 1112,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:50.017260",
+        "prompt_tokens": 1105,
+        "completion_tokens": 149,
+        "total_tokens": 1254,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:52.237918",
+        "prompt_tokens": 547,
+        "completion_tokens": 47,
+        "total_tokens": 594,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:53.089360",
+        "prompt_tokens": 699,
+        "completion_tokens": 94,
+        "total_tokens": 793,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:54.109168",
+        "prompt_tokens": 1406,
+        "completion_tokens": 89,
+        "total_tokens": 1495,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:45:42.762446",
+  "last_updated_at": "2026-04-17T19:45:54.109681"
+}

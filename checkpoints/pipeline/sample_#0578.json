@@ -1,0 +1,385 @@
+{
+  "sample_id": "#0578",
+  "query": "When do the movie jeepers creepers come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "filmed October 11\u0393\u00c7\u00f413, 1943. It would be supporting actor Bud Jamison's final appearance in a Stooge film. A Type 2 diabetic in his later years, Jamison appeared in 16 more films before his untimely death in September 1944. A devout Christian Scientist, he died on September 30, 1944 at age 50 after refusing treatment for kidney cancer. The parrot's \"Jeepers creepers! What a night!\" exclamation combines the 1930s slang euphemism from \"Jesus Christ\" (made into the Johnny Mercer 1938 song \"Jeepers Creepers, Where'd You Get Those Peepers?\") and the parrot's \"What a night!' from the Stooges' 1936 entry \"Disorder in",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2022-08-11"
+    },
+    {
+      "doc_id": "d2",
+      "text": "the moulds leaking in the Creepy Crawlers injector models. As of Spring 2012, the once-Exclusive Jakks-Pacific \"Creepy Crawlers\" Sets and Refill Accessories are available at other outlets, such as K-Mart and Target. In 2016, Mattel announced a new version of the ThingMaker, capable of 3D printing toys. The 3D printer version was originally planned for an Autumn 2016 release, but it has been pushed to 2017. However, the printer wasn't even released then, and replying to a Twitter comment, Mattel confirmed on November 20, 2017, that plans for the 3D printer version are still being reviewed, and a firm release",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d3",
+      "text": "\"\", and was heavily promoted on Lightmusic TV, a Christian music video show. After months of teaser trailers, they abruptly stopped. A trailer included in the enhanced CD single of \"Jesus Freak\" advertised a September 17, 1995 theatrical release date for the film. It was never released to theaters, as it could not find a distributor. Eight years after the film was to be released theatrically, the movie was finally released on DVD in unfinished form. Some of the footage used for the movie was shown in the video for the song \"The Hardway\". In 1994, they released one more",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2024-04-27"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Jeepers Creepers (1939 animated film) Jeepers Creepers is a 1939 \"Looney Tunes\" animated short starring Porky Pig. It was directed by Robert Clampett. It was released on DVD on September 19, 2017, in the \"Porky Pig 101\". Porky is a police officer, who is in a police car that is named 6 7/8. He gets a call from his chief to go investigate goings-on at a haunted house. The house is haunted to the core, and the fun loving ghost plays a series of pranks on the unsuspecting pig. As Porky knocks on the door to enter the haunted house,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2008"
+    },
+    {
+      "doc_id": "d5",
+      "text": "with which to make unique accessories for the figures. In May 2018, it was announced that a film based on \"Creepy Crawlers\" is in development. The film rights were acquired by Paramount Pictures. It's scheduled to be produced by Paramount Players and Original Film. The upcoming film's producers include Neal H. Moritz, Marc Gurvitz and Toby Ascher. Stephen Berman, chairman and CEO of JAKKS Pacific, will serve as executive producer. Creepy Crawlers Creepy Crawlers (or Thingmaker) is an activity toy made by Mattel, beginning in 1964. The toy consists of a series of die-cast metal moulds resembling various bug-like creatures,  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Mentions the song 'Jeepers Creepers' and a 1938 release date for the song, but not the movie."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "Discusses 'Creepy Crawlers' toy and its release dates, not the movie 'Jeepers Creepers'."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Mentions a planned theatrical release date of September 17, 1995, for a film, but it's not identified as 'Jeepers Creepers'."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Identifies 'Jeepers Creepers' as a 1939 animated film and mentions its DVD release date of September 19, 2017."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "Discusses 'Creepy Crawlers' toy and a film based on it, not the movie 'Jeepers Creepers'."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The song \"Jeepers Creepers, Where'd You Get Those Peepers?\" was released in 1938."
+          ],
+          "reason": "Extracted the release year of the song mentioned in the text, which contains the phrase 'Jeepers creepers'."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "A new version of the ThingMaker was announced by Mattel in 2016, planned for an Autumn 2016 release, pushed to 2017."
+          ],
+          "reason": "Extracted the release information for a toy called 'Creepy Crawlers' (also known as ThingMaker), as it relates to the query's keywords."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "A trailer advertised a September 17, 1995 theatrical release date for a film."
+          ],
+          "reason": "Extracted the specific release date mentioned for a film, even though it was never released theatrically."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Jeepers Creepers is a 1939 \"Looney Tunes\" animated short starring Porky Pig.",
+            "It was released on DVD on September 19, 2017, in the \"Porky Pig 101\" collection."
+          ],
+          "reason": "Extracted the release year of the animated short film titled 'Jeepers Creepers' and its DVD release date."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "A film based on \"Creepy Crawlers\" was announced in May 2018 to be in development.",
+            "Creepy Crawlers (or Thingmaker) is an activity toy made by Mattel, beginning in 1964."
+          ],
+          "reason": "Extracted information about a film based on 'Creepy Crawlers' being in development and the original toy's release year."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The extraction discusses the release date of a song titled 'Jeepers Creepers', not a movie with that name.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This extraction is about a toy called 'Creepy Crawlers'/'ThingMaker' and its release date, not the movie 'Jeepers Creepers'.",
+          "confidence": 0.98
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This extraction mentions a theatrical release date for an unspecified film, but it does not relate to the 'Jeepers Creepers' movie.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "supports",
+          "reason": "This extraction directly mentions an animated short film titled 'Jeepers Creepers' and provides its DVD release date.",
+          "confidence": 0.9
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This extraction discusses a film based on 'Creepy Crawlers' and the original toy's release, not the 'Jeepers Creepers' movie.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d4"
+        ],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_animated_short",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 directly supports the query by mentioning an animated short film titled 'Jeepers Creepers' and its release date."
+          },
+          {
+            "label": "irrelevant_song_toy_film_development",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 are irrelevant as they discuss a song, a toy, an unspecified film's release, or a film in development, none of which directly pertain to the 'Jeepers Creepers' movie."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting information. One document supports the existence of an animated short film titled 'Jeepers Creepers', while others are irrelevant.",
+        "clusters": [
+          {
+            "label": "animated_short_evidence",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Document d4 mentions an animated short film titled 'Jeepers Creepers' and its DVD release date."
+          },
+          {
+            "label": "irrelevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents d1, d2, d3, and d5 are irrelevant, discussing a song, a toy, an unspecified film, or a film in development, not the 'Jeepers Creepers' movie."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is sufficient and coherent, with one document directly supporting the query and others being irrelevant. There is no conflict."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Document d4 mentions an animated short film titled 'Jeepers Creepers' and its DVD release date.",
+        "citations": [
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly answers the query, and other documents are irrelevant. No conflict exists."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies that document d4 mentions an animated short film titled 'Jeepers Creepers' and its DVD release date, and this is directly supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9189,
+      "completion_tokens": 1978,
+      "total_tokens": 11167
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1503,
+        "completion_tokens": 389,
+        "total_tokens": 1892
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 516,
+        "total_tokens": 1974
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 910,
+        "completion_tokens": 361,
+        "total_tokens": 1271
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1084,
+        "completion_tokens": 259,
+        "total_tokens": 1343
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1336,
+        "completion_tokens": 226,
+        "total_tokens": 1562
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 640,
+        "completion_tokens": 43,
+        "total_tokens": 683
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 788,
+        "completion_tokens": 83,
+        "total_tokens": 871
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1470,
+        "completion_tokens": 101,
+        "total_tokens": 1571
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:07.323441",
+        "prompt_tokens": 1503,
+        "completion_tokens": 389,
+        "total_tokens": 1892,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:09.339727",
+        "prompt_tokens": 1458,
+        "completion_tokens": 516,
+        "total_tokens": 1974,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:11.136941",
+        "prompt_tokens": 910,
+        "completion_tokens": 361,
+        "total_tokens": 1271,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:12.669203",
+        "prompt_tokens": 1084,
+        "completion_tokens": 259,
+        "total_tokens": 1343,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:14.107782",
+        "prompt_tokens": 1336,
+        "completion_tokens": 226,
+        "total_tokens": 1562,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:14.958809",
+        "prompt_tokens": 640,
+        "completion_tokens": 43,
+        "total_tokens": 683,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:15.891722",
+        "prompt_tokens": 788,
+        "completion_tokens": 83,
+        "total_tokens": 871,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:09:17.023514",
+        "prompt_tokens": 1470,
+        "completion_tokens": 101,
+        "total_tokens": 1571,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:09:05.516078",
+  "last_updated_at": "2026-04-17T20:09:17.024021"
+}

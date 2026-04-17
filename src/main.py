@@ -3,7 +3,7 @@ import json
 import os
 from pathlib import Path
 from statistics import mean
-from typing import Any, Dict, List, Optional, TypedDict
+from typing import Any, Dict, List, Optional, Set, TypedDict
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
@@ -92,8 +92,49 @@ def _merge_token_usage(token_usage: Dict[str, Any], agent_name: str, usage_paylo
     return merged
 
 
+def _load_existing_result_ids(results_path: Path) -> Set[str]:
+    if not results_path.exists():
+        return set()
+
+    ids: Set[str] = set()
+    with results_path.open("r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                record = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            sample_id = str(record.get("id", "")).strip()
+            if sample_id:
+                ids.add(sample_id)
+    return ids
 
 
+def _is_checkpoint_complete(checkpoint: Optional[Dict[str, Any]]) -> bool:
+    if not checkpoint:
+        return False
+    completed_steps = set(checkpoint.get("completed_steps", []))
+    required_steps = {
+        "relevance",
+        "extraction",
+        "verdict",
+        "aggregation",
+        "conflict",
+        "refusal",
+        "adjudication",
+        "evaluator",
+    }
+    return required_steps.issubset(completed_steps)
+
+
+def _slice_samples_for_batch(samples: List[Dict[str, Any]], batch_size: int, batch_index: int) -> List[Dict[str, Any]]:
+    if batch_size <= 0:
+        return samples
+    start = batch_size * batch_index
+    end = start + batch_size
+    return samples[start:end]
 
 class MultiAgentPipeline:
     def __init__(self, llm: Any):
@@ -301,7 +342,7 @@ def build_llm(provider: str) -> Any:
         api_key = os.getenv("OPENROUTER_API_KEY")
         if not api_key:
             raise RuntimeError("OPENROUTER_API_KEY is not set.")
-        print("[LLM] Initializing OpenRouter with Gemini 2.5 Flash")
+        print("[LLM] Initializing OpenRouter with Gemini 2.5 Flash Lite")
         return ChatOpenAI(
             model="google/gemini-2.5-flash-lite",
             temperature=0,
@@ -363,7 +404,40 @@ def main():
         choices=["google", "openrouter", "mock"],
         help="LLM provider to use (google, openrouter, or mock). Model will be gemini-2.5-flash unless mock is selected.",
     )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=0,
+        help="Number of samples per batch. Use 0 to process the full selected dataset slice.",
+    )
+    parser.add_argument(
+        "--batch-index",
+        type=int,
+        default=0,
+        help="Zero-based batch index when --batch-size is set.",
+    )
+    parser.add_argument(
+        "--results-path",
+        type=str,
+        default="",
+        help="Optional path to JSONL results file. Defaults to outputs/{run_id}_results.jsonl.",
+    )
+    parser.add_argument(
+        "--append-results",
+        action="store_true",
+        help="Append to existing results file instead of truncating.",
+    )
+    parser.add_argument(
+        "--skip-completed",
+        action="store_true",
+        help="Skip samples already completed in checkpoints or already present in results file.",
+    )
     args = parser.parse_args()
+
+    if args.batch_size < 0:
+        raise ValueError("--batch-size must be >= 0")
+    if args.batch_index < 0:
+        raise ValueError("--batch-index must be >= 0")
 
     llm = build_llm(args.provider)
 
@@ -387,6 +461,20 @@ def main():
     if args.limit > 0:
         samples = samples[: args.limit]
 
+    selected_samples = _slice_samples_for_batch(samples, args.batch_size, args.batch_index)
+    if not selected_samples:
+        print(
+            f"No samples selected for batch (batch_size={args.batch_size}, batch_index={args.batch_index})."
+        )
+        return
+
+    if args.batch_size > 0:
+        start = args.batch_size * args.batch_index
+        end = start + len(selected_samples)
+        print(f"[BATCH] Processing batch {args.batch_index} with samples[{start}:{end}] ({len(selected_samples)} records)")
+    else:
+        print(f"[BATCH] Processing full selected set ({len(selected_samples)} records)")
+
     total = 0
     conflict_presence_correct_count = 0
     conflict_type_correct_count = 0
@@ -395,18 +483,34 @@ def main():
     partial_score_total = 0.0
     judge_scores: List[float] = []
 
-    results_path = root / "outputs" / "demo-run6-results.jsonl"
-    if results_path.exists():
+    results_path = Path(args.results_path) if args.results_path else (root / "outputs" / f"{args.run_id}_results.jsonl")
+    if not results_path.is_absolute():
+        results_path = root / results_path
+    results_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if results_path.exists() and not args.append_results:
         results_path.unlink()
 
-    for i, sample in enumerate(samples, start=1):
+    existing_result_ids = _load_existing_result_ids(results_path)
+    skipped_samples = 0
+
+    for i, sample in enumerate(selected_samples, start=1):
         sample_id = str(sample.get("id") or f"sample_{i}")
-        print(f"\n[RUN] Processing sample {i}/{len(samples)} (id: {sample_id})")
+        print(f"\n[RUN] Processing sample {i}/{len(selected_samples)} (id: {sample_id})")
+
+        if args.skip_completed and sample_id in existing_result_ids:
+            print(f"[SKIP] Sample {sample_id} already present in results file")
+            skipped_samples += 1
+            continue
 
         checkpoint = checkpoint_manager.load_checkpoint(sample_id)
         if checkpoint:
             print(f"[CHECKPOINT] Found existing checkpoint for {sample_id}")
             print(f"[CHECKPOINT] Completed steps: {checkpoint.get('completed_steps', [])}")
+            if args.skip_completed and _is_checkpoint_complete(checkpoint):
+                print(f"[SKIP] Sample {sample_id} already complete in checkpoint")
+                skipped_samples += 1
+                continue
         else:
             print(f"[CHECKPOINT] Creating new checkpoint for {sample_id}")
             checkpoint_manager.initialize_checkpoint(
@@ -506,6 +610,7 @@ def main():
             tokens=token_usage,
         )
         log_result(record, str(results_path))
+        existing_result_ids.add(sample_id)
         print(f"[CHECKPOINT] Checkpoint finalized for {sample_id}")
 
         total += 1
@@ -515,6 +620,11 @@ def main():
     print("=" * 80)
     print("FINAL SUMMARY")
     print(f"Total samples: {total}")
+    print(f"Skipped samples: {skipped_samples}")
+    print(f"Results file: {results_path}")
+    if total == 0:
+        print("No samples were executed in this run.")
+        return
     print(f"Conflict presence accuracy: {conflict_presence_correct_count}/{total} = {conflict_presence_correct_count / total:.3f}")
     print(f"Conflict type accuracy: {conflict_type_correct_count}/{total} = {conflict_type_correct_count / total:.3f}")
     print(f"Abstain accuracy: {abstain_correct_count}/{total} = {abstain_correct_count / total:.3f}")

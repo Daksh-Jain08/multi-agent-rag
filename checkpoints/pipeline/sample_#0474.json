@@ -1,0 +1,380 @@
+{
+  "sample_id": "#0474",
+  "query": "why do American style electrical outlets have holes in both prongs",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Options for repairing ungrounded three-prong outlets outlets in homes need to have AFCI protection. If the main electric panel in the home is too old to allow for the installation of AFCI circuit breakers, it gets really interesting. It\u0393\u00c7\u00d6s stuff like this that makes me really glad to be a home inspector; I get to say \u0393\u00c7\u00a3have an electrican fix it\u0393\u00c7\u00a5. I don\u0393\u00c7\u00d6t have to design the exact repairs. Filed Under: Electrical, NEW, Ungrounded Three Prong Outlets Tagged With: how to repair ungrounded three-prong outlets, ungrounded outlets, Ungrounded Three Prong Outlets",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "SERVPRO of Westport / Fairfield Fire Damage News And Updates Top Tips for Easy Prevention of Electrical Fires Regularly inspect electrical cords and electrical plugs: If cords or plugs are worn, frayed or cracked, throw them away If you have a three-prong plug, do not break it to make it fit into a two-pronged outlet Replace your two-pronged outlets with three-pronged outlets Move electrical cords away from sources of heat and water Do not run electrical cords beneath carpeting or rugs or in high traffic areas Do not nail or staple cords to walls, floors, or other objects Safety Tips Beyond Cords & Plugs: Check the wattage of your light",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "2019 regulations as contained in their publication entitled Know Before You Go. In the Meli\u251c\u00ed Habana, the current is 220 volts. In most cases, two-pronged outlets that accommodate most U.S. electrical devices are used, but some outlets may not be able to accommodate all your devices. The Meli\u251c\u00ed Habana provides a converter so that you can use standard U.S.-style two- or three-prong, 110-volt outlets, or European-style, round two-prong 220-volt outlets. A 110-volt outlet for electric razors can be found in hotel bathrooms. While it will be necessary for you to use a special adapter plug to fit the wall outlets featured",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2000-06-10"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Booking a Trip wall outlets are used. Using a simple adapter, most U.S. electrical devices can be used. The Meli\u251c\u00ed Habana provides a converter so that you\u0393\u00c7\u00d6ll be equipped to use standard U.S.-style two- or three-prong, 110-volt outlets, or European-style, round two-prong 220-volt outlets. Additionally, a 110-volt outlet for electric razors can be found in guest bathrooms. While it will be necessary for you to use a special adapter plug to fit the wall outlets featured locally, most consumer electronics no longer require the use of a voltage converter / transformer along with the adapter plug. (Most electronics now self-convert, and can actually",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Frequently Asked Questions | Hong Kong Tourism Board and public transport announcements, as well as most menus, are in both English and Chinese. Q: Will I be able to use my electrical equipment in Hong Kong? A: The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores.  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses repairing ungrounded three-prong outlets and AFCI protection, not the design of outlet prong holes."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document provides safety tips for electrical cords and plugs, warning against modifying them, but doesn't explain the purpose of holes in prongs."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Mentions U.S.-style two- or three-prong outlets and adapters for foreign outlets, but does not explain the holes in the prongs."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses using adapters for U.S. outlets abroad and voltage converters, but does not explain the holes in the prongs themselves."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Focuses on electrical voltage and plug types in Hong Kong, mentioning UK-style plugs and adapters, but not the holes in American prong design."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Options for repairing ungrounded three-prong outlets outlets in homes need to have AFCI protection.",
+            "If the main electric panel in the home is too old to allow for the installation of AFCI circuit breakers, it gets really interesting."
+          ],
+          "reason": "Extracted facts about AFCI protection requirements for ungrounded three-prong outlets and challenges with older electrical panels."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "If electrical cords or plugs are worn, frayed or cracked, throw them away.",
+            "If you have a three-prong plug, do not break it to make it fit into a two-pronged outlet.",
+            "Replace your two-pronged outlets with three-pronged outlets."
+          ],
+          "reason": "Extracted safety tips related to electrical cords, plugs, and outlets, including advice on damaged cords and incompatible plugs."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "In Melis Habana, the current is 220 volts.",
+            "In most cases, two-pronged outlets that accommodate most U.S. electrical devices are used in Melis Habana.",
+            "Some outlets in Melis Habana may not be able to accommodate all your devices.",
+            "A 110-volt outlet for electric razors can be found in hotel bathrooms in Melis Habana."
+          ],
+          "reason": "Extracted facts about electrical voltage, outlet types, and availability in Melis Habana, relevant to using U.S. devices."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Using a simple adapter, most U.S. electrical devices can be used in Melis Habana.",
+            "The Melis Habana provides a converter to use standard U.S.-style two- or three-prong, 110-volt outlets, or European-style, round two-prong 220-volt outlets.",
+            "A 110-volt outlet for electric razors can be found in guest bathrooms.",
+            "Most consumer electronics no longer require the use of a voltage converter / transformer along with an adapter plug."
+          ],
+          "reason": "Extracted information on using U.S. electrical devices abroad, including the need for adapters/converters and the self-converting nature of modern electronics."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz.",
+            "Most hotel bathrooms in Hong Kong also have outlets for 100 volts.",
+            "If hotel bathrooms do not have 100-volt outlets, a transformer will be needed for appliances.",
+            "The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug."
+          ],
+          "reason": "Extracted facts about electrical voltage, outlet types, and transformer requirements in Hong Kong."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "The facts discuss AFCI protection and older electrical panels, which are not related to the design of American electrical outlet prong holes.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "These facts provide safety tips for electrical cords and plugs, but do not explain the reason for holes in the prongs of American outlets.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "The information pertains to electrical outlets in Melis Habana, not the design features of American-style outlets.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document discusses using U.S. devices abroad and voltage converters, not the specific design of American outlet prong holes.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The facts relate to electrical standards in Hong Kong, including voltage and plug types, which are unrelated to American outlet prong holes.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the documents provided relevant information to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents were deemed irrelevant to the query, indicating insufficient evidence to establish any form of conflict.",
+        "clusters": [
+          {
+            "label": "all_irrelevant",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the documents provided relevant information to the query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "All provided documents were irrelevant to the query, indicating insufficient evidence to form a reliable answer. Therefore, abstention is necessary."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "All provided documents were irrelevant to the query, indicating insufficient evidence to form a reliable answer. Therefore, abstention is necessary.",
+        "final_reasoning": "All provided documents were irrelevant to the query, so no answer can be generated. Abstention is necessary due to lack of supporting evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claims made. The documents do not explain why American style electrical outlets have holes in their prongs."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9235,
+      "completion_tokens": 1978,
+      "total_tokens": 11213
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1506,
+        "completion_tokens": 377,
+        "total_tokens": 1883
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1461,
+        "completion_tokens": 753,
+        "total_tokens": 2214
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1085,
+        "completion_tokens": 349,
+        "total_tokens": 1434
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1247,
+        "completion_tokens": 147,
+        "total_tokens": 1394
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1407,
+        "completion_tokens": 113,
+        "total_tokens": 1520
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 465,
+        "completion_tokens": 44,
+        "total_tokens": 509
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 614,
+        "completion_tokens": 93,
+        "total_tokens": 707
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1450,
+        "completion_tokens": 102,
+        "total_tokens": 1552
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:54.456953",
+        "prompt_tokens": 1506,
+        "completion_tokens": 377,
+        "total_tokens": 1883,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:57.269923",
+        "prompt_tokens": 1461,
+        "completion_tokens": 753,
+        "total_tokens": 2214,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:43:59.527039",
+        "prompt_tokens": 1085,
+        "completion_tokens": 349,
+        "total_tokens": 1434,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:00.803863",
+        "prompt_tokens": 1247,
+        "completion_tokens": 147,
+        "total_tokens": 1394,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:01.939164",
+        "prompt_tokens": 1407,
+        "completion_tokens": 113,
+        "total_tokens": 1520,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:03.076921",
+        "prompt_tokens": 465,
+        "completion_tokens": 44,
+        "total_tokens": 509,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:04.044174",
+        "prompt_tokens": 614,
+        "completion_tokens": 93,
+        "total_tokens": 707,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:44:05.129624",
+        "prompt_tokens": 1450,
+        "completion_tokens": 102,
+        "total_tokens": 1552,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:43:52.301688",
+  "last_updated_at": "2026-04-17T19:44:05.130115"
+}

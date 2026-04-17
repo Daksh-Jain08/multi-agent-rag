@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0619",
+  "query": "Who did the voice of ariel in the little mermaid?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "2008. Boggess received positive reviews for her performance. She stayed with the show for a year and a half playing her final performance as Ariel on May 31, 2009. Boggess was replaced by understudy Chelsea Morgan Stock. While she was performing in \"The Little Mermaid\", Boggess starred opposite Kristin Chenoweth in the Encores! staged concert of \"Music in the Air\" in February 2009. From February 2010 to March 2011, Boggess starred as Christine Daa\u251c\u2310 in the sequel to \"The Phantom of the Opera\", \"Love Never Dies\". She also took part in the Rodgers and Hammerstein Prom at the Royal Albert",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "alluring animated character after Jessica Rabbit. In August 2011, Jodi Benson was honored as a Disney Legend for her work as Ariel and her other projects at Disney. A bi-annual convention called ArielCon is dedicated to the character. Ariel is an official \"ambassador\" for the \"Keep Our Oceans Clean\" campaign by Environmental Defense, The National Maritime Sanctuary, and The National Oceanic and Atmospheric Administration. From 2007 onwards, Disney launched an advertising campaign called \"Disney Dreams Portraits\" featuring celebrities dressed up as various Disney characters and photographed Annie Leibovitz; Julianne Moore was photographed as Ariel for this campaign. \"Hipster Ariel\" has",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2012-05-11"
+    },
+    {
+      "doc_id": "d3",
+      "text": "cast, Marshall said \"\"No, it's way too early. The Little Mermaid (1989 film) The Little Mermaid is a 1989 American animated musical fantasy film produced by Walt Disney Feature Animation and Walt Disney Pictures. Based on the Danish fairy tale of the same name by Hans Christian Andersen, \"The Little Mermaid\" tells the story of Ariel, a mermaid princess who dreams of becoming human. Written, produced, and directed by Ron Clements and John Musker, with music by Alan Menken and Howard Ashman (who also served as a co-producer), the film features the voices of Jodi Benson, Christopher Daniel Barnes, Pat",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d4",
+      "text": "palace. Clements and Musker had originally intended for Ursula to remain her original size at the end of the film. However, Katzenberg had just recently seen the film \"Die Hard\" (1988), which inspired him to request a \"bigger\" ending for \"The Little Mermaid\", and thus he instructed the writers to have Ursula grow much larger in size during her climactic fight with Ariel and Eric. Ursula is voiced by American actress and comedian Pat Carroll. Carroll was not the filmmakers' first choice for the role; Clements, Musker and Ashman had long debated who should voice the villainness, the casting of",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Angeles, titled \"The Little Mermaid in Concert\". The performances combined a screening of \"The Little Mermaid\" with live accompaniment by guest musicians, including Sara Bareilles (who performed as Ariel), Tituss Burgess, Darren Criss, Rebel Wilson and Norm Lewis (who performed as King Triton as a reprisal of his role in the stage adaptation). The four additional songs written for the stage adaptation were also incorporated into the presentation, accompanied by scenes of the film's original concept art. During the third and final performance, Jodi Benson joined the cast in lieu of Bareilles to reprise her original role as Ariel. The  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions 'Ariel' and 'The Little Mermaid', indicating relevance to the query about the character's voice actor, though it focuses on a stage performance."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "Explicitly states Jodi Benson was honored for her work as Ariel, directly answering the query about who voiced the character."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "Directly states the film features the voices of Jodi Benson, Christopher Daniel Barnes, and Pat Carroll, with Jodi Benson being the voice of Ariel."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.4,
+          "is_relevant": true,
+          "reason": "Mentions Ursula is voiced by Pat Carroll, which is related to 'The Little Mermaid' but not the voice of Ariel."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.8,
+          "is_relevant": true,
+          "reason": "Mentions Jodi Benson reprised her original role as Ariel, confirming her as the voice actor for the character."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Sierra Boggess played Ariel on May 31, 2009."
+          ],
+          "reason": "Extracted the fact about Sierra Boggess playing Ariel and her final performance date, which is relevant to the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Jodi Benson was honored as a Disney Legend for her work as Ariel in August 2011."
+          ],
+          "reason": "Extracted the fact that Jodi Benson was honored for her work as Ariel, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The film \"The Little Mermaid\" features the voices of Jodi Benson."
+          ],
+          "reason": "Extracted the fact that Jodi Benson provided the voice for Ariel in the 1989 film, directly answering the query."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Ursula is voiced by American actress and comedian Pat Carroll."
+          ],
+          "reason": "Extracted the voice actor for Ursula, which is not directly relevant to the query about Ariel's voice actor."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Jodi Benson reprised her original role as Ariel during \"The Little Mermaid in Concert\"."
+          ],
+          "reason": "Extracted the fact that Jodi Benson reprised her role as Ariel, confirming her involvement and relevance to the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions Sierra Boggess playing Ariel, but the query likely refers to the original animated film, not a stage production.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Directly states Jodi Benson was honored for her work as Ariel, strongly implying she voiced the character.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "supports",
+          "reason": "Explicitly states Jodi Benson provided the voice for Ariel in the film.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Identifies the voice actor for Ursula, not Ariel, making it irrelevant to the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Confirms Jodi Benson reprised her role as Ariel, reinforcing her connection to the character's voice.",
+          "confidence": 0.9
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_jodi_benson",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Multiple documents confirm Jodi Benson as the voice of Ariel in \"The Little Mermaid\" film and related productions."
+          },
+          {
+            "label": "stage_production_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "One document mentions Sierra Boggess playing Ariel in a stage production, providing related but not primary evidence."
+          },
+          {
+            "label": "irrelevant_character_voice",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "One document is irrelevant as it identifies the voice actor for Ursula."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources consistently identifies Jodi Benson as the voice of Ariel, with one document providing context about a stage production.",
+        "clusters": [
+          {
+            "label": "Jodi Benson as Ariel",
+            "doc_ids": [
+              "d2",
+              "d3",
+              "d5"
+            ],
+            "summary": "Documents confirm Jodi Benson voiced Ariel in the film and reprised the role in related productions."
+          },
+          {
+            "label": "Sierra Boggess in Stage Production",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Sierra Boggess played Ariel in a stage production, which is distinct from the animated film's voice cast."
+          },
+          {
+            "label": "Irrelevant Information",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Information about Ursula's voice actor is not relevant to the query about Ariel."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and consistent, with minor contextual information that does not create a significant conflict. A reliable answer can be provided."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Jodi Benson is the voice of Ariel in \"The Little Mermaid\" film and related productions. Sierra Boggess played Ariel in a stage production.",
+        "citations": [
+          "d2",
+          "d3",
+          "d5",
+          "d1"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting documents consistently identify Jodi Benson as Ariel's voice. A partial document provides context about a stage production, which is included for completeness."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies Jodi Benson as the voice of Ariel and mentions Sierra Boggess's stage role, with all claims supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8446,
+      "completion_tokens": 1850,
+      "total_tokens": 10296
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1390,
+        "completion_tokens": 374,
+        "total_tokens": 1764
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1345,
+        "completion_tokens": 398,
+        "total_tokens": 1743
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 795,
+        "completion_tokens": 324,
+        "total_tokens": 1119
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 932,
+        "completion_tokens": 273,
+        "total_tokens": 1205
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1178,
+        "completion_tokens": 225,
+        "total_tokens": 1403
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 639,
+        "completion_tokens": 46,
+        "total_tokens": 685
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 790,
+        "completion_tokens": 114,
+        "total_tokens": 904
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1377,
+        "completion_tokens": 96,
+        "total_tokens": 1473
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:16.830476",
+        "prompt_tokens": 1390,
+        "completion_tokens": 374,
+        "total_tokens": 1764,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:19.179004",
+        "prompt_tokens": 1345,
+        "completion_tokens": 398,
+        "total_tokens": 1743,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:20.528087",
+        "prompt_tokens": 795,
+        "completion_tokens": 324,
+        "total_tokens": 1119,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:21.886630",
+        "prompt_tokens": 932,
+        "completion_tokens": 273,
+        "total_tokens": 1205,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:23.705410",
+        "prompt_tokens": 1178,
+        "completion_tokens": 225,
+        "total_tokens": 1403,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:24.626319",
+        "prompt_tokens": 639,
+        "completion_tokens": 46,
+        "total_tokens": 685,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:25.768542",
+        "prompt_tokens": 790,
+        "completion_tokens": 114,
+        "total_tokens": 904,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:20:26.760714",
+        "prompt_tokens": 1377,
+        "completion_tokens": 96,
+        "total_tokens": 1473,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:20:15.082112",
+  "last_updated_at": "2026-04-17T20:20:26.762318"
+}

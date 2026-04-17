@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0518",
+  "query": "Hottest pepper in the world on scoville scale?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "at 1,598,227 SHUs, one of the hottest heat levels recorded at that time for a chili. Naga Morich The Naga chili, locally known as Naga Morich, is a chili pepper cultivated in Northeast India and Bangladesh. It is one of the hottest known chilli peppers, and is closely related to the Bhut jolokia. Like many varieties of the Chinense species, the Naga chili is a small to medium shrub with large leaves, small, five-petaled flowers, and hot fruit. It has a wrinkled texture as opposed to the smoother flesh of similar varieties. The plants are cultivated in Bangladesh, North East",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d2",
+      "text": "America, the growing season varies regionally from the last spring hard frost to the first fall hard frost. Freezing weather ends the growing season and kills the plant, but otherwise they are perennials which grow all year, slowing in colder weather. Trinidad Moruga scorpion The Trinidad Moruga scorpion (\"Capsicum chinense\") is native to the district of Moruga in Trinidad and Tobago. On February 13, 2012, New Mexico State University's Chile Pepper Institute identified the Trinidad Moruga scorpion as the hottest chili in the world, with a mean heat of more than 1.2 million Scoville heat units (SHUs) and individual plants",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Madame Jeanette Madame Jeanette (\"Capsicum chinense\"), also known as the \"Suriname Yellow\", is a chili pepper cultivar originally from Suriname. The fruits are shaped like small bell peppers. Madame Jeanette chilis are very hot, rated 125,000\u0393\u00c7\u00f4325,000 on the Scoville scale. The peppers ripen to reddish-yellow but they are larger and not symmetrical. Its flavour is described as \"fruity\", with hints of mango and pineapple. It is often confused with the yellow Adjuma, which is less elongated and said to be more spicy but less flavourful. Madame Jeanette is used in almost all facets of Surinamese cuisine. The plant is very",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2008-09-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Scotch bonnet Scotch bonnet, also known as bonney peppers, or Caribbean red peppers, is a variety of chili pepper named for its resemblance to a tam o' shanter hat. It is native to the Caribbean islands and Central America. Most Scotch bonnets have a heat rating of 80,000\u0393\u00c7\u00f4400,000 Scoville units. For comparison, most jalape\u251c\u2592o peppers have a heat rating of 2,500 to 8,000 on the Scoville scale. However, completely sweet varieties of Scotch bonnet are grown on some of the Caribbean islands, called cachucha peppers. These peppers are used to flavour many different dishes and cuisines worldwide and are often",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Taylor. The original yellow variety of D'Elidas hot sauce measures 2,500\u0393\u00c7\u00f45,000 SHU on the Scoville scale. Most habanero varieties ripen from green to orange or red and have a Scoville scale heat rating of between 150,000 and 325,000. The product portfolio of D'Elidas S.A. initially contained only the original Yellow hot sauce but has since then expanded to also include both a Red hot sauce and a Green hot sauce, both containing habanero chili and vinegar but without the mustard found in the Yellow hot sauce. There is now also a Chinese style D'Elidas sweet and sour sauce which is  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions Naga Morich as one of the hottest known chili peppers with a SHU rating, providing context for the query about the hottest pepper."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies the Trinidad Moruga scorpion as the hottest chili in the world on February 13, 2012, with a mean heat of over 1.2 million SHUs, directly answering the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Discusses the Madame Jeanette pepper's heat rating (125,000-325,000 SHUs) but does not claim it is the hottest."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.5,
+          "is_relevant": false,
+          "reason": "Provides the Scoville rating for Scotch bonnet peppers (80,000-400,000 SHUs) and compares it to jalape\u00f1os, but does not identify it as the hottest."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.45,
+          "is_relevant": false,
+          "reason": "Mentions Scoville scale ratings for habanero varieties (150,000-325,000 SHUs) and a specific hot sauce, but does not address the hottest pepper."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Naga Morich is one of the hottest known chili peppers, closely related to the Bhut jolokia.",
+            "Naga Morich was recorded at 1,598,227 SHUs, one of the hottest heat levels at that time."
+          ],
+          "reason": "Extracted facts about the Naga Morich chili pepper's heat level and its status as one of the hottest known peppers."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "On February 13, 2012, the Trinidad Moruga scorpion was identified as the hottest chili in the world.",
+            "The Trinidad Moruga scorpion has a mean heat of more than 1.2 million Scoville heat units (SHUs)."
+          ],
+          "reason": "Extracted the key facts identifying the Trinidad Moruga scorpion as the hottest chili in the world on a specific date and its SHU rating."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Madame Jeanette chilis are rated 125,000-325,000 on the Scoville scale."
+          ],
+          "reason": "Extracted the Scoville scale rating for the Madame Jeanette chili pepper."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Scotch bonnet peppers have a heat rating of 80,000-400,000 Scoville units.",
+            "Most jalape\u00f1o peppers have a heat rating of 2,500 to 8,000 on the Scoville scale."
+          ],
+          "reason": "Extracted the Scoville scale ratings for Scotch bonnet and jalape\u00f1o peppers for comparison."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Most habanero varieties have a Scoville scale heat rating of between 150,000 and 325,000.",
+            "The original yellow variety of D'Elidas hot sauce measures 2,500-5,000 SHU on the Scoville scale."
+          ],
+          "reason": "Extracted the Scoville scale ratings for habanero peppers and a specific hot sauce product."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions Naga Morich as one of the hottest and provides its SHU, but doesn't definitively state it's the hottest.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Identifies the Trinidad Moruga scorpion as the hottest chili in the world on a specific date and provides its SHU rating.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Provides Scoville rating for Madame Jeanette, but does not claim it is the hottest.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Provides Scoville ratings for Scotch bonnet and jalape\u00f1o peppers, which are not the hottest.",
+          "confidence": 0.4
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "Provides Scoville ratings for habanero peppers and a hot sauce, neither of which are identified as the hottest.",
+          "confidence": 0.4
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2"
+        ],
+        "partial_docs": [
+          "d1"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Identifies the Trinidad Moruga scorpion as the hottest chili in the world on a specific date with its SHU rating."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Mentions Naga Morich as one of the hottest peppers with its SHU, but does not definitively claim it is the hottest."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Provides Scoville ratings for other chili peppers (Madame Jeanette, Scotch bonnet, jalape\u00f1o, habanero) and a hot sauce, none of which are identified as the hottest."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "Evidence from multiple sources provides compatible details about the hottest chili peppers and their Scoville heat units, with one source directly supporting the claim and others offering context.",
+        "clusters": [
+          {
+            "label": "hottest_chili_identified",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "The Trinidad Moruga scorpion was identified as the hottest chili in the world on February 13, 2012, with a mean heat of over 1.2 million SHUs."
+          },
+          {
+            "label": "other_hot_peppers",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Naga Morich is one of the hottest known chili peppers, recorded at 1,598,227 SHUs, a high heat level at that time."
+          },
+          {
+            "label": "comparative_ratings",
+            "doc_ids": [
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Provides Scoville ratings for Madame Jeanette, Scotch bonnet, jalape\u00f1o, and habanero peppers, as well as a hot sauce, which are not identified as the hottest."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is largely supportive and complementary, with one document directly identifying the hottest chili and others providing relevant context. No significant conflicts or irrelevancies prevent a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Trinidad Moruga scorpion was identified as the hottest chili in the world on February 13, 2012, with a mean heat of over 1.2 million Scoville Heat Units (SHUs).",
+        "citations": [
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The supporting document directly identifies the hottest chili and its SHU rating, fulfilling the user's request."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer directly states the hottest chili and its Scoville Heat Units, which is fully supported by the cited document."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9594,
+      "completion_tokens": 2187,
+      "total_tokens": 11781
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1489,
+        "completion_tokens": 445,
+        "total_tokens": 1934
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1444,
+        "completion_tokens": 577,
+        "total_tokens": 2021
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 980,
+        "completion_tokens": 344,
+        "total_tokens": 1324
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1141,
+        "completion_tokens": 253,
+        "total_tokens": 1394
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 314,
+        "total_tokens": 1731
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 742,
+        "completion_tokens": 53,
+        "total_tokens": 795
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 900,
+        "completion_tokens": 112,
+        "total_tokens": 1012
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1481,
+        "completion_tokens": 89,
+        "total_tokens": 1570
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:02.150739",
+        "prompt_tokens": 1489,
+        "completion_tokens": 445,
+        "total_tokens": 1934,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:04.403855",
+        "prompt_tokens": 1444,
+        "completion_tokens": 577,
+        "total_tokens": 2021,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:06.006787",
+        "prompt_tokens": 980,
+        "completion_tokens": 344,
+        "total_tokens": 1324,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:07.291037",
+        "prompt_tokens": 1141,
+        "completion_tokens": 253,
+        "total_tokens": 1394,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:09.079354",
+        "prompt_tokens": 1417,
+        "completion_tokens": 314,
+        "total_tokens": 1731,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:10.102583",
+        "prompt_tokens": 742,
+        "completion_tokens": 53,
+        "total_tokens": 795,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:11.332743",
+        "prompt_tokens": 900,
+        "completion_tokens": 112,
+        "total_tokens": 1012,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:53:12.235678",
+        "prompt_tokens": 1481,
+        "completion_tokens": 89,
+        "total_tokens": 1570,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:52:59.346265",
+  "last_updated_at": "2026-04-17T19:53:12.236158"
+}

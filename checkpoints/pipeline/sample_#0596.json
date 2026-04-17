@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0596",
+  "query": "Who sings the opening song of rocky horror?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "productions now follow this order. The song begins at 19:35 in the DVD release. The song consists of verses sung by alternating characters, serving as the introduction to two of them, and choruses sung by the chorus of \"Transylvanians\" (Movie) or \"Phantoms\" (Musical), and the Criminologist/Narrator (played by Charles Gray in the movie). The characters that sing the verses are, in order, Riff-Raff (Richard O'Brien in the movie), Magenta (Patricia Quinn in the movie), and Columbia (Little Nell Campbell in the film). After the second full chorus, Columbia often launches into her tap dance. The order of the solos varies",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "In the original Rocky Horror Show, Brad had a verse to himself (beginning \"I can see the flag fly\"). This was cut for the movie\u0393\u00c7\u00f6otherwise it would appear right when Brad and Janet dodge out of the way of the motorcyclists. The karaoke version of the track found on the \"Rocky Horror Picture Show: Sing It\" album has space for this extra verse, despite sticking to the movie's music for the rest of the album. In the 2000 revival for Broadway, it was performed by Alice Ripley, Jarrod Emick, and Ra\u251c\u2551l Esparza. The revival retained the verse that was cut",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1996-04-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Narrator. Other cast members, included: Judith Lloyd (Columbia), Caroline Noh (Magenta/Usherette), Desmond McNamara (Riff-Raff) and Neil McCaul (Eddie/Dr. Scott). After the Tokyo performance, there were also regional performances. The popularity of the tour lead to special single recordings of \"Sweet Transvestite\" performed by Ziggy Byfield and \"Touch-a, Touch-a, Touch-a, Touch Me\" by Belinda Sinclair. In 1976 Walking Elephant Co. Ltd. presented an encore tour directed by David Toguri, which saw the show visit 16 cities in three and a half months. Venues included Tokyo, Osaka, Kyoto, Kobe, Sapporo and Fukuoka. The tour's cast featured Martin Asscher as Dr. Frank-N-Furter (later",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Over at the Frankenstein Place \"Over at the Frankenstein Place\" is the third song in the cult musical \"The Rocky Horror Show\", sung outside Dr. Frank N. Furter's castle in the rain in the 1975 cult film. The song is in the key of E major. \"Over at the Frankenstein Place\" is the third song in the cult musical \"The Rocky Horror Show\". The 1975 cult film includes the song being sung outside Dr. Frank N. Furter's castle in the rain, performed in the key of E major by Susan Sarandon (Janet), Barry Bostwick (Brad), and Richard O'Brien (Riff Raff).",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Rocky Horror Picture Show (soundtrack) The Rocky Horror Picture Show is the original soundtrack album to the 1975 film \"The Rocky Horror Picture Show\", an adaptation of the musical \"The Rocky Horror Show\" that had opened in 1973. The soundtrack was released as an album in 1975 by Ode Records, produced by Richard Hartley. The album peaked at No. 49 on the \"Billboard\" 200 in 1978. It reached No. 12 on the Australian albums chart and No. 11 on the New Zealand albums chart. William Ruhlmann of Allmusic gave the album a star rating of five stars out of  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2008-05-27"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Identifies Riff-Raff, Magenta, and Columbia as singers of verses in the opening song, and the chorus for the choruses."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions Brad having a verse in the original show and discusses a karaoke version, providing context about singers in the show's songs."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Lists cast members for a tour and mentions single recordings of other songs, but not the opening song's singer."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Mentions \"Over at the Frankenstein Place\" is the third song and lists performers, but not the opening song's singer."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Discusses the soundtrack album and its chart performance, but not the specific singers of individual songs."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The song \"Time Warp\" consists of verses sung by alternating characters and choruses sung by the chorus of \"Transylvanians\" (Movie) or \"Phantoms\" (Musical), and the Criminologist/Narrator.",
+            "The characters that sing the verses are, in order, Riff-Raff, Magenta, and Columbia.",
+            "The song begins at 19:35 in the DVD release."
+          ],
+          "reason": "Extracted facts about the singers and structure of the opening song, as requested by the query."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "In the original Rocky Horror Show, Brad had a verse to himself which was cut for the movie.",
+            "The karaoke version of the track found on the \"Rocky Horror Picture Show: Sing It\" album has space for this extra verse.",
+            "In the 2000 revival for Broadway, the song was performed by Alice Ripley, Jarrod Emick, and Raul Esparza."
+          ],
+          "reason": "Extracted information about a specific verse and performers of the song in different versions, relevant to the query about who sings it."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The tour's cast featured Desmond McNamara as Riff-Raff."
+          ],
+          "reason": "Extracted the name of an actor who played a character singing a verse in the opening song."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The song \"Over at the Frankenstein Place\" is performed by Susan Sarandon (Janet), Barry Bostwick (Brad), and Richard O'Brien (Riff Raff) in the 1975 cult film."
+          ],
+          "reason": "Extracted the performers of a song from the musical, which could be interpreted as an opening song depending on the version."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document is about the soundtrack album and does not contain specific information about who sings the opening song."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "supports",
+          "reason": "Directly identifies Riff-Raff, Magenta, Columbia, and the Criminologist/Narrator as singers of the opening song \"Time Warp\".",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions performers for a specific verse and in a revival, but doesn't fully detail who sings the entire opening song in the original movie.",
+          "confidence": 0.7
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Names an actor who sang a part of the opening song, but doesn't provide a complete list of singers.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document describes a different song, \"Over at the Frankenstein Place,\" not the opening song of Rocky Horror.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "The document is about the soundtrack album and lacks any information about who sings the opening song.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d1"
+        ],
+        "partial_docs": [
+          "d2",
+          "d3"
+        ],
+        "irrelevant_docs": [
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Directly identifies the main singers of the opening song \"Time Warp\"."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Provides partial information about singers, including specific verses or actors in different versions."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents that are irrelevant as they discuss a different song or lack specific singing information."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides compatible details about the singers of the song \"Time Warp\" across different versions and contexts, with one document offering direct support and others adding partial information.",
+        "clusters": [
+          {
+            "label": "direct_support",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Directly identifies Riff-Raff, Magenta, Columbia, and the Criminologist/Narrator as singers of the opening song \"Time Warp\" in the movie."
+          },
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Provides additional details about a cut verse in the original show, performers in a Broadway revival, and an actor in a tour."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents that are irrelevant as they discuss a different song or lack specific singing information."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is mostly supportive and complementary, with a clear direct support document and additional partial context. No significant conflicts or irrelevant information that would prevent a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The opening song \"Time Warp\" is sung by Riff-Raff, Magenta, Columbia, and the Criminologist/Narrator. Additional details include a cut verse in the original show and performers in a Broadway revival and tour.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Directly supporting evidence identifies the main singers, while partial evidence adds context about other performers and verses."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies the singers of the opening song and is fully supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9045,
+      "completion_tokens": 1983,
+      "total_tokens": 11028
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1425,
+        "completion_tokens": 366,
+        "total_tokens": 1791
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1380,
+        "completion_tokens": 528,
+        "total_tokens": 1908
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 921,
+        "completion_tokens": 354,
+        "total_tokens": 1275
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1089,
+        "completion_tokens": 210,
+        "total_tokens": 1299
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1316,
+        "completion_tokens": 270,
+        "total_tokens": 1586
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 643,
+        "completion_tokens": 51,
+        "total_tokens": 694
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 799,
+        "completion_tokens": 120,
+        "total_tokens": 919
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1472,
+        "completion_tokens": 84,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:39.911323",
+        "prompt_tokens": 1425,
+        "completion_tokens": 366,
+        "total_tokens": 1791,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:42.731799",
+        "prompt_tokens": 1380,
+        "completion_tokens": 528,
+        "total_tokens": 1908,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:44.812138",
+        "prompt_tokens": 921,
+        "completion_tokens": 354,
+        "total_tokens": 1275,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:46.209590",
+        "prompt_tokens": 1089,
+        "completion_tokens": 210,
+        "total_tokens": 1299,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:48.418861",
+        "prompt_tokens": 1316,
+        "completion_tokens": 270,
+        "total_tokens": 1586,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:49.382766",
+        "prompt_tokens": 643,
+        "completion_tokens": 51,
+        "total_tokens": 694,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:50.437239",
+        "prompt_tokens": 799,
+        "completion_tokens": 120,
+        "total_tokens": 919,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:15:51.638588",
+        "prompt_tokens": 1472,
+        "completion_tokens": 84,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:15:28.288571",
+  "last_updated_at": "2026-04-17T20:15:51.644659"
+}

@@ -1,0 +1,407 @@
+{
+  "sample_id": "#0482",
+  "query": "Just call me angel in the morning original singer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "melody, but with different words, for the sung refrain. It reached #1 on the Billboard Hot 100 for the week ending March 31, 2001. Swedish singer Jill Johnson released \"Angel of the Morning,\" with lyrics in English, in 2007 from her album of cover versions, \"Music Row.\" This version peaked at No. 30 at the Swedish singles chart. A number of non-English versions of \"Angel of the Morning\" have been recorded including the following: Juice Newton's version is heard during Drew Barrymore's first scene in the film \"Charlie's Angels,\" in the film \"Charlie Wilson's War\" (in which it is also",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d2",
+      "text": "(quote): \"I [hadn't been] really aware of that song because...when [it] was popular I was listening to folk music and R&B and not Pop, and that was a very Pop song.\" Newton's version reached No. 4 on the \"Billboard\" Hot 100, No. 22 on the \"Billboard\" country music chart, and spent three weeks at No. 1 on the \"Billboard\" adult contemporary chart in April of that year. The recording also earned Newton a Grammy nomination, and in the same category as Rush's 1968 hit. More than 1 million units of Newton's single of the song were sold in the United",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1999-05-10"
+    },
+    {
+      "doc_id": "d3",
+      "text": "practise opened in 1998. Hot (American vocal group) Hot was a vocal trio based in Los Angeles, California, whose membership was Gwen Owens (born June 19, 1953), Cathy Carson (n\u251c\u2310e Catherine Sue Fiebach) (October 8, 1953 \u0393\u00c7\u00f4 June 26, 2014) and Juanita Curiel (born February 25, 1953). The group had a million-selling hit single in 1977 entitled \"Angel in Your Arms\". The lead singer Gwen Owens was a native of Detroit where she had begun singing in church and, after being discovered at a high school talent show, recorded for local record labels from the mid-1960s. In 1969 a track",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Angel (Angela Winbush song) \"Angel\" is a song by American R&B singer Angela Winbush. The track was released in 1987 as the first single from her debut album, \"Sharp\" on Polygram Records. As half of the duo of Ren\u251c\u2310 & Angela, Winbush had two number-one R&B hits with \"Save Your Love (For #1)\" and \"Your Smile.\" After a decade, Ren\u251c\u2310 Moore and Winbush went their separate ways. \"Angel\", her solo-debut, spent two weeks at the top of the US Billboard R&B chart. It was also named by \"Billboard\" the number nine most successful R&B single of 1987. []. Despite the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d5",
+      "text": "success. Her breakthrough came in 1981 with \"Juice\", an album that reach number 22 on the Billboard 200 chart and number 16 on the Canadian Top 50 album chart. \"Juice\" was certified by the Recording Industry Association of America (RIAA) as gold on August 13, 1981 and platinum on January 5, 1982. The album also gave Newton three hit singles, beginning with \"Angel of the Morning\". The song, written by Chip Taylor, had been a number one hit for Merrilee Rush in 1968. Newton's version peaked at number four on the pop charts and number 22 on the country charts.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2018-08-14"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions \"Angel of the Morning\" covered by Jill Johnson and Juice Newton, but doesn't explicitly state the original singer."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Discusses Juice Newton's version of \"Angel of the Morning\" and its chart success, but does not identify the original singer."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "Mentions a song called \"Angel in Your Arms\" by the group Hot, which is not the song requested."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.15,
+          "is_relevant": false,
+          "reason": "Discusses a song titled \"Angel\" by Angela Winbush, which is different from the requested song \"Angel in the Morning.\""
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.95,
+          "is_relevant": true,
+          "reason": "Explicitly states that \"Angel of the Morning\" was a number one hit for Merrilee Rush in 1968, identifying her as the original singer."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Swedish singer Jill Johnson released \"Angel of the Morning\" in 2007.",
+            "Jill Johnson's version peaked at No. 30 on the Swedish singles chart."
+          ],
+          "reason": "Extracted facts about a specific cover version of \"Angel of the Morning\" and its chart performance."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Juice Newton's version of \"Angel of the Morning\" reached No. 4 on the Billboard Hot 100.",
+            "Newton's version reached No. 22 on the Billboard country music chart.",
+            "Newton's version spent three weeks at No. 1 on the Billboard adult contemporary chart in April of that year.",
+            "The recording earned Newton a Grammy nomination."
+          ],
+          "reason": "Extracted key chart performance data and award information for Juice Newton's version of the song."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The vocal trio Hot had a million-selling hit single in 1977 entitled \"Angel in Your Arms\"."
+          ],
+          "reason": "Extracted the fact about the group Hot and their hit song \"Angel in Your Arms\"."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Angela Winbush released the song \"Angel\" in 1987.",
+            "\"Angel\" spent two weeks at the top of the US Billboard R&B chart.",
+            "\"Angel\" was named the number nine most successful R&B single of 1987 by Billboard."
+          ],
+          "reason": "Extracted chart performance and ranking details for Angela Winbush's song \"Angel\"."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Juice Newton's breakthrough album \"Juice\" was released in 1981.",
+            "The song \"Angel of the Morning\", written by Chip Taylor, was a number one hit for Merrilee Rush in 1968.",
+            "Juice Newton's version of \"Angel of the Morning\" peaked at number four on the pop charts.",
+            "Juice Newton's version of \"Angel of the Morning\" peaked at number 22 on the country charts."
+          ],
+          "reason": "Extracted information about the original singer of \"Angel of the Morning\" (Merrilee Rush) and Juice Newton's version."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "Mentions a version of \"Angel of the Morning\" but not the original singer.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Provides details on Juice Newton's version, but not the original singer.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Discusses a different song, \"Angel in Your Arms\", not \"Angel of the Morning\".",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses a song titled \"Angel\", not \"Angel of the Morning\".",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Explicitly states that Merrilee Rush was the original singer of \"Angel of the Morning\".",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d5"
+        ],
+        "partial_docs": [
+          "d1",
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d3",
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "original_singer_identified",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Identifies Merrilee Rush as the original singer of \"Angel of the Morning\"."
+          },
+          {
+            "label": "cover_version_details",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Provides details on cover versions of \"Angel of the Morning\" by Jill Johnson and Juice Newton, including chart performance, but does not identify the original singer."
+          },
+          {
+            "label": "unrelated_songs",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents discuss songs with similar titles but are not \"Angel of the Morning\"."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence groups are complementary, with one cluster identifying the original singer and another providing details on cover versions and their chart performance.",
+        "clusters": [
+          {
+            "label": "original_singer_identified",
+            "doc_ids": [
+              "d5"
+            ],
+            "summary": "Merrilee Rush is identified as the original singer of \"Angel of the Morning\"."
+          },
+          {
+            "label": "cover_version_details",
+            "doc_ids": [
+              "d1",
+              "d2"
+            ],
+            "summary": "Details on cover versions by Jill Johnson and Juice Newton, including chart performance, are provided."
+          },
+          {
+            "label": "unrelated_songs",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents discuss unrelated songs with similar titles."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, clearly identifying the original singer and providing details on cover versions. No abstention is needed."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Merrilee Rush is identified as the original singer of \"Angel of the Morning\". Cover versions by Jill Johnson and Juice Newton are also detailed, including their chart performance.",
+        "citations": [
+          "d5",
+          "d1",
+          "d2"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial evidence groups are complementary, clearly identifying the original singer and providing details on cover versions. No abstention is needed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies Merrilee Rush as the original singer and is fully supported by the provided citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9481,
+      "completion_tokens": 2021,
+      "total_tokens": 11502
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1546,
+        "completion_tokens": 379,
+        "total_tokens": 1925
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1501,
+        "completion_tokens": 617,
+        "total_tokens": 2118
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 993,
+        "completion_tokens": 316,
+        "total_tokens": 1309
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1124,
+        "completion_tokens": 233,
+        "total_tokens": 1357
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1374,
+        "completion_tokens": 234,
+        "total_tokens": 1608
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 630,
+        "completion_tokens": 44,
+        "total_tokens": 674
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 779,
+        "completion_tokens": 112,
+        "total_tokens": 891
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1534,
+        "completion_tokens": 86,
+        "total_tokens": 1620
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:20.151759",
+        "prompt_tokens": 1546,
+        "completion_tokens": 379,
+        "total_tokens": 1925,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:22.110708",
+        "prompt_tokens": 1501,
+        "completion_tokens": 617,
+        "total_tokens": 2118,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:23.566911",
+        "prompt_tokens": 993,
+        "completion_tokens": 316,
+        "total_tokens": 1309,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:24.820642",
+        "prompt_tokens": 1124,
+        "completion_tokens": 233,
+        "total_tokens": 1357,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:26.209344",
+        "prompt_tokens": 1374,
+        "completion_tokens": 234,
+        "total_tokens": 1608,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:27.072725",
+        "prompt_tokens": 630,
+        "completion_tokens": 44,
+        "total_tokens": 674,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:29.863617",
+        "prompt_tokens": 779,
+        "completion_tokens": 112,
+        "total_tokens": 891,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:45:31.245867",
+        "prompt_tokens": 1534,
+        "completion_tokens": 86,
+        "total_tokens": 1620,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:45:17.788582",
+  "last_updated_at": "2026-04-17T19:45:31.246429"
+}

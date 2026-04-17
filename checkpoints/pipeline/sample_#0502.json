@@ -1,0 +1,368 @@
+{
+  "sample_id": "#0502",
+  "query": "Who wrote the declaration of rights of man and citizen 1789?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "ratified in November 1965, is based on the American one as well; however, it omits the phrases \"all men are created equal\" and \"the consent of the governed\". The from December 1860 also mentions the U.S. Declaration of Independence, though it, like the Rhodesian one, omits references to \"all men are created equal\" and \"consent of the governed\". Interest in the Declaration was revived in the 1790s with the emergence of the United States's first political parties. Throughout the 1780s, few Americans knew or cared who wrote the Declaration. But in the next decade, Jeffersonian Republicans sought political advantage over",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "in the revolutionary events that she had just celebrated in her recent \"Vindication of the Rights of Men\" (1790). She had written the \"Rights of Men\" in response to the Whig MP Edmund Burke's conservative critique of the French Revolution in \"Reflections on the Revolution in France\" (1790) and it made her famous overnight. \"Reflections on the Revolution in France\" was published on 1 November 1790, and so angered Wollstonecraft that she spent the rest of the month writing her rebuttal. \"A Vindication of the Rights of Men, in a Letter to the Right Honourable Edmund Burke\" was published on",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d3",
+      "text": "son Walter, and daughter Dora, who was deported to the Theresienstadt concentration camp by the Nazis and youngest son, Otto, who died in 1943 as a result of abuse at the hands of the Gestapo. Jellinek is best known for his essay \"The Declaration of the Rights of Man and the Citizen\" (1895), which argues for a universal theory of rights, as opposed to the culturally and nationally specific arguments then in vogue (particularly that of \u251c\u00ebmile Boutmy). Jellinek argued that the French Revolution, which was the focal point of 19th-century political theory, should not be thought of as arising",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Rights of Man Rights of Man (1791), a book by Thomas Paine, including 31 articles, posits that popular political revolution is permissible when a government does not safeguard the natural rights of its people. Using these points as a base it defends the French Revolution against Edmund Burke's attack in \"Reflections on the Revolution in France\" (1790). It was published in two parts in March 1791 and February 1792. Paine was a very strong supporter of the French Revolution that began in 1789; he visited France the following year. Many English thinkers supported it, including Richard Price, who initiated the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "immediate response from the British supporters of the French revolution, most notably Mary Wollstonecraft in her \"Vindication of the Rights of Men\" and Thomas Paine in his \"Rights of Man\". In this lively and sometimes vicious pamphlet war, now referred to as the \"Revolution Controversy\", British political commentators addressed topics ranging from representative government to human rights to the separation of church and state. 1792 was the \"\"annus mirabilis\" of eighteenth-century radicalism\": its most important texts, such as \"Rights of Man\", were published and the influence of the radical associations was at its height. In fact, it was as a  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2003-04-19"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.35,
+          "is_relevant": false,
+          "reason": "Mentions the US Declaration of Independence and its reception, but not the French Declaration of Rights of Man and Citizen or its author."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "Discusses Mary Wollstonecraft's \"Vindication of the Rights of Men\" (1790) in response to Burke, not the 1789 French Declaration."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "Mentions an essay titled \"The Declaration of the Rights of Man and the Citizen\" (1895) by Jellinek, which discusses the French Revolution's focal point, implying a connection."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions Thomas Paine's \"Rights of Man\" (1791) defending the French Revolution, which began in 1789, suggesting a related context and potential author."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Mentions responses to the French Revolution, including Thomas Paine's \"Rights of Man\", which is closely related to the Declaration of Rights of Man and Citizen."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Throughout the 1780s, few Americans knew or cared who wrote the Declaration."
+          ],
+          "reason": "Extracted a fact about knowledge of the Declaration's author in the 1780s, which is tangentially related to the query about authorship."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Mary Wollstonecraft wrote \"Vindication of the Rights of Men\" (1790) in response to Edmund Burke's critique of the French Revolution."
+          ],
+          "reason": "Extracted a fact about Mary Wollstonecraft's \"Vindication of the Rights of Men\" (1790), which is a response to a critique of the French Revolution, but not the Declaration itself."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Jellinek is best known for his essay \"The Declaration of the Rights of Man and the Citizen\" (1895)."
+          ],
+          "reason": "Extracted a fact about Jellinek's essay on \"The Declaration of the Rights of Man and the Citizen\" (1895), which discusses the document but does not identify its author."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Thomas Paine wrote \"Rights of Man\" (1791), a book defending the French Revolution."
+          ],
+          "reason": "Extracted a fact about Thomas Paine's \"Rights of Man\" (1791), which defends the French Revolution but is not the Declaration of the Rights of Man and Citizen."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Mary Wollstonecraft wrote \"Vindication of the Rights of Men\" and Thomas Paine wrote \"Rights of Man\" in response to Edmund Burke's critique of the French Revolution."
+          ],
+          "reason": "Extracted facts about Wollstonecraft's and Paine's writings responding to Burke's critique of the French Revolution, but not about the authorship of the Declaration of the Rights of Man and Citizen."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses knowledge of the author of an American Declaration in the 1780s, not the author of the 1789 French Declaration of the Rights of Man and Citizen.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Mary Wollstonecraft wrote \"Vindication of the Rights of Men\" in 1790, which is a different document and year than the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Jellinek wrote an essay about the Declaration in 1895, but does not identify the author of the original 1789 document.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "This document mentions Thomas Paine wrote \"Rights of Man\" in 1791, which is a different document and year than the query.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document discusses writings by Wollstonecraft and Paine in response to Burke, but none of these are the Declaration of the Rights of Man and Citizen.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [],
+        "irrelevant_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "no_relevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the provided documents contain information about the authorship of the Declaration of the Rights of Man and Citizen."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "All provided documents were deemed irrelevant to the query about the authorship of the Declaration of the Rights of Man and Citizen.",
+        "clusters": [
+          {
+            "label": "no_relevant_evidence",
+            "doc_ids": [
+              "d1",
+              "d2",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "None of the provided documents contain information about the authorship of the Declaration of the Rights of Man and Citizen."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided documents are entirely irrelevant to the query, offering no support for an answer. Therefore, abstention is necessary due to a lack of evidence."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided documents are entirely irrelevant to the query, offering no support for an answer. Therefore, abstention is necessary due to a lack of evidence.",
+        "final_reasoning": "All provided documents were irrelevant to the query, necessitating abstention due to a lack of evidence."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The documents mention \"Rights of Man\" by Thomas Paine and \"Vindication of the Rights of Men\" by Mary Wollstonecraft, but not the \"Declaration of Rights of Man and Citizen 1789\" specifically."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8640,
+      "completion_tokens": 1908,
+      "total_tokens": 10548
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1410,
+        "completion_tokens": 419,
+        "total_tokens": 1829
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1365,
+        "completion_tokens": 529,
+        "total_tokens": 1894
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 932,
+        "completion_tokens": 396,
+        "total_tokens": 1328
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1137,
+        "completion_tokens": 158,
+        "total_tokens": 1295
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1308,
+        "completion_tokens": 141,
+        "total_tokens": 1449
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 490,
+        "completion_tokens": 49,
+        "total_tokens": 539
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 644,
+        "completion_tokens": 90,
+        "total_tokens": 734
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1354,
+        "completion_tokens": 126,
+        "total_tokens": 1480
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:41.102099",
+        "prompt_tokens": 1410,
+        "completion_tokens": 419,
+        "total_tokens": 1829,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:42.945489",
+        "prompt_tokens": 1365,
+        "completion_tokens": 529,
+        "total_tokens": 1894,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:44.585672",
+        "prompt_tokens": 932,
+        "completion_tokens": 396,
+        "total_tokens": 1328,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:45.748076",
+        "prompt_tokens": 1137,
+        "completion_tokens": 158,
+        "total_tokens": 1295,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:46.804659",
+        "prompt_tokens": 1308,
+        "completion_tokens": 141,
+        "total_tokens": 1449,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:47.650176",
+        "prompt_tokens": 490,
+        "completion_tokens": 49,
+        "total_tokens": 539,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:48.565082",
+        "prompt_tokens": 644,
+        "completion_tokens": 90,
+        "total_tokens": 734,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:49:49.909688",
+        "prompt_tokens": 1354,
+        "completion_tokens": 126,
+        "total_tokens": 1480,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:49:39.456432",
+  "last_updated_at": "2026-04-17T19:49:49.910233"
+}

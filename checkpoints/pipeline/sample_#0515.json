@@ -1,0 +1,400 @@
+{
+  "sample_id": "#0515",
+  "query": "When did the medieval times start and finish?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Medieval Times Medieval Times Dinner and Tournament is a family dinner theater featuring staged medieval-style games, sword-fighting, and jousting. Medieval Times Entertainment, the holding company, is headquartered in Irving, Texas. There are nine locations, of which eight in the United States are built as replica 11th-century castles and one is located in Toronto, Ontario, Canada inside the CNE Government Building. Shows are performed by a cast of about 75 actors and 20 horses in each location. The first Medieval Times location opened in Orlando on December 20, 1983. In 1989, this location was expanded with a unique medieval village not",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "the period has inspired a considerable community of historical re-enactors, part of England's growing heritage industry. England in the Middle Ages England in the Middle Ages concerns the history of England during the medieval period, from the end of the 5th century through to the start of the Early Modern period in 1485. When England emerged from the collapse of the Roman Empire, the economy was in tatters and many of the towns abandoned. After several centuries of Germanic immigration, new identities and cultures began to emerge, developing into kingdoms that competed for power. A rich artistic culture flourished under",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1997-03-04"
+    },
+    {
+      "doc_id": "d3",
+      "text": "High Middle Ages The High Middle Ages, or High Medieval Period, was the period of European history that commenced around 1000 and lasted until around 1250. The High Middle Ages were preceded by the Early Middle Ages and were followed by the Late Middle Ages, which by convention, ended around 1500. Key historical trends of the High Middle Ages include the rapidly increasing population of Europe, which brought about great social and political change from the preceding era, and the Renaissance of the 12th century, including the first developments of rural exodus and of urbanization. By 1250, the robust population",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Late Middle Ages The Late Middle Ages or Late Medieval Period was the period of European history lasting from 1250 to 1500 AD. The Late Middle Ages followed the High Middle Ages and preceded the onset of the early modern era (and, in much of Europe, the Renaissance). Around 1300, centuries of prosperity and growth in Europe came to a halt. A series of famines and plagues, including the Great Famine of 1315\u0393\u00c7\u00f41317 and the Black Death, reduced the population to around half of what it was before the calamities. Along with depopulation came social unrest and endemic warfare. France",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d5",
+      "text": "BC, the Neo-Assyrian Empire forms in Mesopotamia. In 800 BC, the rise of Greek city-states begins. In 776 BC, the first recorded Olympic Games are held. The post-classical era, also known as the Middle Ages, is a historical period following the Iron Age, fully underway by the 5th century and lasting to the 15th century, and preceding the early Modern Era. The medieval history is the middle period, or the middle age, in a three-period division of history: Classic, Medieval, and Modern. The precise dates of the beginning, culmination, and end of the medieval history are more or less arbitrarily  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.05,
+          "is_relevant": false,
+          "reason": "This document describes a dinner theater attraction named 'Medieval Times' and its opening date, not the historical medieval period."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.85,
+          "is_relevant": true,
+          "reason": "This document states that the medieval period in England ended around 1485 and began after the 5th century, directly addressing the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document defines the High Middle Ages as starting around 1000 and ending around 1250, providing specific dates within the medieval period."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.75,
+          "is_relevant": true,
+          "reason": "This document defines the Late Middle Ages as lasting from 1250 to 1500 AD, providing specific dates within the medieval period."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.9,
+          "is_relevant": true,
+          "reason": "This document states the post-classical era (Middle Ages) was fully underway by the 5th century and lasted to the 15th century, directly answering the query."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "The first Medieval Times location opened in Orlando on December 20, 1983."
+          ],
+          "reason": "Extracted the opening date of the first Medieval Times location, as it is a verifiable fact from the text."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "England in the Middle Ages concerns the history of England from the end of the 5th century through to the start of the Early Modern period in 1485."
+          ],
+          "reason": "Extracted the start and end dates for the medieval period in England, which directly answers the query."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The High Middle Ages commenced around 1000 and lasted until around 1250.",
+            "The Late Middle Ages ended around 1500."
+          ],
+          "reason": "Extracted the start and end dates for the High Middle Ages and the end date for the Late Middle Ages, providing specific timeframes within the medieval period."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "The Late Middle Ages lasted from 1250 to 1500 AD."
+          ],
+          "reason": "Extracted the start and end dates for the Late Middle Ages, providing a specific timeframe relevant to the query."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "The post-classical era, also known as the Middle Ages, is a historical period following the Iron Age, fully underway by the 5th century and lasting to the 15th century."
+          ],
+          "reason": "Extracted the start (5th century) and end (15th century) of the Middle Ages, directly answering the query."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses the opening date of a restaurant chain named Medieval Times, not the historical period.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "supports",
+          "reason": "Provides specific start (end of 5th century) and end (1485) dates for the Middle Ages in England, directly answering the query.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Gives start and end dates for the High Middle Ages and end date for Late Middle Ages, but not the overall period start/end.",
+          "confidence": 0.75
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "partially_supports",
+          "reason": "Provides start (1250) and end (1500) dates for the Late Middle Ages, which is a segment of the queried period.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "supports",
+          "reason": "Directly states the Middle Ages lasted from the 5th century to the 15th century, answering the query.",
+          "confidence": 0.98
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [
+          "d2",
+          "d5"
+        ],
+        "partial_docs": [
+          "d3",
+          "d4"
+        ],
+        "irrelevant_docs": [
+          "d1"
+        ],
+        "evidence_summary": [
+          {
+            "label": "direct_support_overall_period",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 provide direct start and end dates for the overall Middle Ages period."
+          },
+          {
+            "label": "partial_support_specific_eras",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 offer specific date ranges for sub-periods within the Middle Ages (High and Late)."
+          },
+          {
+            "label": "irrelevant_restaurant_mention",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 is irrelevant as it refers to a restaurant chain, not the historical period."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "complementary",
+        "conflict_reason": "The evidence provides compatible details about the Middle Ages, with some documents offering overall period dates and others specifying sub-periods.",
+        "clusters": [
+          {
+            "label": "overall_middle_ages_period",
+            "doc_ids": [
+              "d2",
+              "d5"
+            ],
+            "summary": "Documents d2 and d5 state the Middle Ages in England spanned from the end of the 5th century to 1485, and generally from the 5th to the 15th century, respectively."
+          },
+          {
+            "label": "specific_eras_within_middle_ages",
+            "doc_ids": [
+              "d3",
+              "d4"
+            ],
+            "summary": "Documents d3 and d4 provide specific date ranges for sub-periods: High Middle Ages (c. 1000-1250) and Late Middle Ages (1250-1500)."
+          },
+          {
+            "label": "irrelevant_mention",
+            "doc_ids": [
+              "d1"
+            ],
+            "summary": "Document d1 is irrelevant as it discusses a restaurant chain named Medieval Times."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "The evidence is coherent and complementary, providing a comprehensive overview of the Middle Ages with specific details on sub-periods. No significant conflicts or irrelevancies hinder a reliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "The Middle Ages generally spanned from the 5th to the 15th century, with specific periods in England ending in 1485. Sub-periods include the High Middle Ages (c. 1000-1250) and the Late Middle Ages (1250-1500).",
+        "citations": [
+          "d2",
+          "d5",
+          "d3",
+          "d4"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "Supporting and partial documents provide complementary information on the overall and specific periods of the Middle Ages, allowing for a comprehensive answer."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer accurately synthesizes information from multiple documents to define the start and end of the Middle Ages and its sub-periods, with all claims directly supported by the cited evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 8924,
+      "completion_tokens": 2047,
+      "total_tokens": 10971
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1393,
+        "completion_tokens": 394,
+        "total_tokens": 1787
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1348,
+        "completion_tokens": 469,
+        "total_tokens": 1817
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 862,
+        "completion_tokens": 365,
+        "total_tokens": 1227
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1043,
+        "completion_tokens": 234,
+        "total_tokens": 1277
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1295,
+        "completion_tokens": 281,
+        "total_tokens": 1576
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 702,
+        "completion_tokens": 54,
+        "total_tokens": 756
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 861,
+        "completion_tokens": 150,
+        "total_tokens": 1011
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1420,
+        "completion_tokens": 100,
+        "total_tokens": 1520
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:24.329009",
+        "prompt_tokens": 1393,
+        "completion_tokens": 394,
+        "total_tokens": 1787,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:26.275381",
+        "prompt_tokens": 1348,
+        "completion_tokens": 469,
+        "total_tokens": 1817,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:27.917692",
+        "prompt_tokens": 862,
+        "completion_tokens": 365,
+        "total_tokens": 1227,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:29.244973",
+        "prompt_tokens": 1043,
+        "completion_tokens": 234,
+        "total_tokens": 1277,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:30.704841",
+        "prompt_tokens": 1295,
+        "completion_tokens": 281,
+        "total_tokens": 1576,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:31.706311",
+        "prompt_tokens": 702,
+        "completion_tokens": 54,
+        "total_tokens": 756,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:32.858738",
+        "prompt_tokens": 861,
+        "completion_tokens": 150,
+        "total_tokens": 1011,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T19:52:34.045572",
+        "prompt_tokens": 1420,
+        "completion_tokens": 100,
+        "total_tokens": 1520,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T19:52:22.457746",
+  "last_updated_at": "2026-04-17T19:52:34.046099"
+}

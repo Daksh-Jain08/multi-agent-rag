@@ -1,0 +1,381 @@
+{
+  "sample_id": "#0612",
+  "query": "How many scoville units in a jalapeno pepper?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Pepper X Pepper X is a cultivar of \"Capsicum\" chili pepper bred by Ed Currie, creator of the Carolina Reaper. Pepper X resulted from multiple cross breedings which produced an exceptionally high content of capsaicin in the locules of the pepper. Pepper X was made into a sauce for the YouTube series \"Hot Ones\". Currie stated that it is \"two times as hot as the Carolina Reaper\" which would make it the hottest pepper in the world with a Scoville scale of 3.18 million units, but this is unconfirmed by the Guinness World Records. The Pepper X is the pepper",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "fluoresce in the range of 530\u0393\u00c7\u00f4 600 nm when placed in violet light. If fresh chili peppers come in contact with the skin, eyes, lips or other membranes, irritation can occur; some people who are particularly sensitive wear latex or vinyl gloves while handling peppers. If irritation does occur, washing the oils off with hot soapy water and applying vegetable oil to the skin may help. When preparing jalape\u251c\u2592os, it is recommended that hands not come in contact with the eyes as this leads to burning and redness. Jalape\u251c\u2592os are a high-acid food with a pH of 4.8\u0393\u00c7\u00f46.0 depending on",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2020-05-16"
+    },
+    {
+      "doc_id": "d3",
+      "text": "by the Scoville scale. The Scoville scale number indicates how many times something must be diluted with an equal volume of water until people can no longer feel any sensation from the capsaicin. The hottest hot sauce scientifically possible is one rated at 16,000,000 Scoville units, which is pure capsaicin. An example of a hot sauce marketed as achieving this level of heat is Blair's 16 Million Reserve (due to production variances, it is up to 16 million Scoville units), marketed by Blair's Sauces and Snacks. By comparison, Tabasco sauce is rated between 2,500 and 5,000 Scoville units (batches vary)",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the chili is called \"umorok\" or \"oo-morok\" (\"oo\" = \"tree\", \"morok\" = \"chili\"). The Kukis called it \"Malcha-Phoh\" meaning \"the most pungent chilli\". In 2000, India's Defence Research Laboratory (DRL) reported a Scoville rating of 855,000 SHUs, and in 2004 a rating of 1,041,427 SHUs was made using HPLC analysis. For comparison, Tabasco red pepper sauce rates at 5000\u0393\u00c7\u00f410,000, and pure capsaicin (the chemical responsible for the pungency of pepper plants) rates at 16,000,000 SHUs. In 2005, New Mexico State University's Chile Pepper Institute in Las Cruces, New Mexico, found Bhut jolokia grown from seed in southern New Mexico to",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-02-26"
+    },
+    {
+      "doc_id": "d5",
+      "text": "17. Soon thereafter, on July 21 Agricola Zaragoza, Inc. of Texas announced a recall of jalape\u251c\u2592o peppers distributed after June 30th. 2008 United States salmonellosis outbreak The 2008 United States salmonellosis outbreak was an outbreak of salmonellosis across multiple U.S. states due to \"Salmonella enterica\" serovar Saintpaul. Over the course of the outbreak, 1442 cases were identified across 43 U.S. states, the District of Columbia, and Canada. The U.S. Centers for Disease Control and Prevention (CDC) investigation determined that jalape\u251c\u2592o peppers imported from Mexico as well as Serrano peppers were major sources of the outbreak. Tomatoes may have been a  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.1,
+          "is_relevant": false,
+          "reason": "This document discusses Pepper X and its Scoville units, not jalapeno peppers."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.4,
+          "is_relevant": false,
+          "reason": "This document mentions jalapenos and handling precautions but does not provide their Scoville units."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document explains the Scoville scale and gives examples like Tabasco sauce, but not jalapenos."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "This document discusses Bhut jolokia and Tabasco sauce Scoville ratings, not jalapenos."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.3,
+          "is_relevant": false,
+          "reason": "This document mentions jalapeno peppers in the context of a recall and outbreak, but not their Scoville units."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Pepper X has a potential Scoville scale of 3.18 million units, which would make it the hottest pepper in the world, but this is unconfirmed by the Guinness World Records."
+          ],
+          "reason": "Extracted the unconfirmed Scoville rating for Pepper X, which is relevant to the query about pepper heat levels."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Jalape\u00f1os are a high-acid food with a pH of 4.8-6.0 depending on preparation."
+          ],
+          "reason": "Extracted a factual statement about jalape\u00f1os, though it does not directly answer the Scoville unit question."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "The hottest hot sauce scientifically possible is rated at 16,000,000 Scoville units, which is pure capsaicin.",
+            "Tabasco sauce is rated between 2,500 and 5,000 Scoville units."
+          ],
+          "reason": "Extracted Scoville ratings for pure capsaicin and Tabasco sauce for context, as no direct Jalape\u00f1o rating was found."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Tabasco red pepper sauce rates at 5000-10,000 Scoville units.",
+            "Pure capsaicin rates at 16,000,000 SHUs."
+          ],
+          "reason": "Extracted Scoville ratings for Tabasco sauce and pure capsaicin for comparison, as no direct Jalape\u00f1o rating was found."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [],
+          "reason": "This document mentions jalape\u00f1o peppers in the context of a recall but provides no information about their Scoville units."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "irrelevant",
+          "reason": "This document discusses Pepper X and its potential Scoville units, not jalapeno peppers.",
+          "confidence": 0.99
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Mentions jalapenos but provides pH levels, not Scoville units. It's related to jalapenos but doesn't answer the core question.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "irrelevant",
+          "reason": "Provides Scoville units for pure capsaicin and Tabasco sauce, but not for jalapeno peppers.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Provides Scoville units for Tabasco sauce and pure capsaicin, but not for jalapeno peppers.",
+          "confidence": 0.95
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "irrelevant",
+          "reason": "This document mentions jalapeno peppers but provides no information about their Scoville units.",
+          "confidence": 0.99
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d2"
+        ],
+        "irrelevant_docs": [
+          "d1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Contains information about jalapenos but not their Scoville units."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss other peppers, hot sauces, or unrelated jalapeno information, not the requested Scoville units."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence does not contain conflicting claims. Some documents are irrelevant, and one offers partial context about jalapenos without specific Scoville unit data.",
+        "clusters": [
+          {
+            "label": "partial_context",
+            "doc_ids": [
+              "d2"
+            ],
+            "summary": "Contains information about jalapenos but not their Scoville units."
+          },
+          {
+            "label": "irrelevant_context",
+            "doc_ids": [
+              "d1",
+              "d3",
+              "d4",
+              "d5"
+            ],
+            "summary": "Documents discuss other peppers, hot sauces, or unrelated jalapeno information, not the requested Scoville units."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": true,
+        "reason": "The provided evidence is insufficient, with only partial context and no direct answer to the query about jalapeno Scoville units. Therefore, abstention is necessary to avoid providing an unreliable answer."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "",
+        "citations": [],
+        "abstain": true,
+        "abstain_reason": "The provided evidence is insufficient, with only partial context and no direct answer to the query about jalapeno Scoville units. Therefore, abstention is necessary to avoid providing an unreliable answer.",
+        "final_reasoning": "The evidence does not contain the requested information about jalapeno Scoville units, necessitating abstention."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. There are no citations to support the answer, and the documents do not contain the requested information about jalapeno peppers' Scoville units."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9069,
+      "completion_tokens": 1825,
+      "total_tokens": 10894
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1519,
+        "completion_tokens": 336,
+        "total_tokens": 1855
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1474,
+        "completion_tokens": 490,
+        "total_tokens": 1964
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 920,
+        "completion_tokens": 339,
+        "total_tokens": 1259
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1072,
+        "completion_tokens": 207,
+        "total_tokens": 1279
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1272,
+        "completion_tokens": 194,
+        "total_tokens": 1466
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 556,
+        "completion_tokens": 57,
+        "total_tokens": 613
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 718,
+        "completion_tokens": 99,
+        "total_tokens": 817
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1538,
+        "completion_tokens": 103,
+        "total_tokens": 1641
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:45.547492",
+        "prompt_tokens": 1519,
+        "completion_tokens": 336,
+        "total_tokens": 1855,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:47.250109",
+        "prompt_tokens": 1474,
+        "completion_tokens": 490,
+        "total_tokens": 1964,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:49.423572",
+        "prompt_tokens": 920,
+        "completion_tokens": 339,
+        "total_tokens": 1259,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:50.765845",
+        "prompt_tokens": 1072,
+        "completion_tokens": 207,
+        "total_tokens": 1279,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:52.158605",
+        "prompt_tokens": 1272,
+        "completion_tokens": 194,
+        "total_tokens": 1466,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:53.102273",
+        "prompt_tokens": 556,
+        "completion_tokens": 57,
+        "total_tokens": 613,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:54.173120",
+        "prompt_tokens": 718,
+        "completion_tokens": 99,
+        "total_tokens": 817,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:18:55.232460",
+        "prompt_tokens": 1538,
+        "completion_tokens": 103,
+        "total_tokens": 1641,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:18:43.770076",
+  "last_updated_at": "2026-04-17T20:18:55.233036"
+}

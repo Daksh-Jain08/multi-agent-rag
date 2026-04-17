@@ -1,0 +1,399 @@
+{
+  "sample_id": "#0559",
+  "query": "If a hangover is a combination of dehydration, lack of sleep, and mild alcohol poisoning, why do two beers in the morning kill it faster than water?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Avoiding the Severity of Symptoms From Hangovers know that you are going to pay the price in the morning. What do you do at this point? Drink water. Even at this stage of the process, if you can drink as much water as you can before hitting the pillow, you can significantly reduce the hangover effects caused by dehydration. You may not avoid all of the unpleasant effects, but you will certainly be better off than if you do not drink any water before you sleep. A.D.A.M. \"Hangover Treatment.\" 10 Oct. 2007 National Institute on Alcohol Abuse and Alcoholism. \"Alcohol Hangover - Mechanisms and Mediators (PDF).\" 14",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why do hangovers occur? - Scientific American dehydration. Dehydration accentuates the symptoms of a hangover. Other factors that contribute to an alcohol hangover include consumption of larger quantities of alcohol than the person can tolerate. Individuals who drink alcohol rapidly, or without food, or without diluting it with nonalcoholic beverages, are more prone to developing a hangover. Mixing different alcoholic drinks can also cause a hangover. Additionally, smoking, loud music, flashing lights and decreased quality and quantity of sleep can exacerbate hangover headaches. One can diminish the severity of the hangover by paying attention to the amount and type of alcohol consumed, as well as controlling other",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1998-05-16"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why you should be wary of going to work with a hangover pressure are common physical reactions. Psychological symptoms can also include irritability, anxiety and depression. But as familiar as these symptoms may be, a lack of research means hangovers remain something of a scientific mystery. While acute intoxication has been the subject of tens of thousands of research papers, only a handful have ever investigated its after-effects. Hangovers are often mistakenly thought to be caused solely by dehydration. However the physical symptoms are caused by several factors, including dehydration and electrolyte imbalance (the thirst and light-headedness), inflammation of the stomach and intestines (the nausea and vomiting), disturbance of sleep and alcohol",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2004-04-14"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Dangers of Energy Drinks - They Can Kill You | Febico Blog Do you mix alcohol with energy drinks? You can have a strong hangover! The result of a combination of alcohol and energy drinks can be a strong hangover \u0393\u00c7\u00f4 stronger than the one after drinking the alcohol itself. Why? Caffeine, like alcoholic beverages, leads to significant dehydration of the body. Therefore, drinking such a mixture in a larger amount leads to very strong dehydration of the body and, in consequence, to a very strong hangover. The effects of mixing alcohol with energy drinks \u0393\u00c7\u00f4 addiction Energy drinks are addictive like coffee and additionally promote alcohol addiction. According to scientists from",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Hangover, What is a hangover?, What are the symptoms of hangover?, What causes a hangover?, Can hangovers be prevented? avert hangovers by taking certain steps. One way is to drink only on a full stomach or with food, to drink slowly, and to consume moderate amounts of alcohol. Drinking several eight-ounce glasses of water prior to going to sleep may help relieve dry mouth and dehydration * . The National Institute on Alcohol Abuse and Alcoholism recommends a maximum of one drink per day for women and two per day for men. The institute defines one drink as a 12-ounce beer, a 4-ounce glass of wine, or a mixed drink with 1.5 ounces of liquor (80-proof distilled spirits). Another  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "relevance",
+    "extraction",
+    "verdict",
+    "aggregation",
+    "conflict",
+    "refusal",
+    "adjudication",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "relevance": {
+      "relevance_results": [
+        {
+          "doc_id": "d1",
+          "relevance_score": 0.65,
+          "is_relevant": true,
+          "reason": "Discusses drinking water to reduce hangover effects caused by dehydration, which is relevant to the query's premise about dehydration."
+        },
+        {
+          "doc_id": "d2",
+          "relevance_score": 0.7,
+          "is_relevant": true,
+          "reason": "Explains that dehydration accentuates hangover symptoms and lists other contributing factors like alcohol quantity and sleep quality, providing context for the query."
+        },
+        {
+          "doc_id": "d3",
+          "relevance_score": 0.55,
+          "is_relevant": false,
+          "reason": "Mentions dehydration as a factor in hangovers but focuses on psychological symptoms and the scientific mystery of hangovers, not the specific mechanism asked about."
+        },
+        {
+          "doc_id": "d4",
+          "relevance_score": 0.2,
+          "is_relevant": false,
+          "reason": "Discusses the dangers of mixing alcohol with energy drinks and caffeine's dehydrating effect, which is not directly related to the query about beer and water."
+        },
+        {
+          "doc_id": "d5",
+          "relevance_score": 0.6,
+          "is_relevant": true,
+          "reason": "Suggests drinking water before sleep to relieve dry mouth and dehydration, and discusses moderate alcohol consumption, which is tangentially related to the query's premise."
+        }
+      ]
+    },
+    "extraction": {
+      "extraction_results": [
+        {
+          "doc_id": "d1",
+          "key_facts": [
+            "Drinking water before sleep can significantly reduce hangover effects caused by dehydration."
+          ],
+          "reason": "Extracted the fact that drinking water before sleep can reduce hangover effects caused by dehydration, which is relevant to the query's focus on hydration and hangovers."
+        },
+        {
+          "doc_id": "d2",
+          "key_facts": [
+            "Dehydration accentuates the symptoms of a hangover.",
+            "Consumption of larger quantities of alcohol than the person can tolerate contributes to a hangover.",
+            "Drinking alcohol rapidly, without food, or without diluting it with nonalcoholic beverages increases hangover proneness.",
+            "Mixing different alcoholic drinks can also cause a hangover.",
+            "Smoking, loud music, flashing lights, and decreased sleep quality/quantity can exacerbate hangover headaches."
+          ],
+          "reason": "Extracted multiple facts about factors contributing to hangovers, including dehydration, alcohol consumption, and environmental factors, which are relevant to the query's premise."
+        },
+        {
+          "doc_id": "d3",
+          "key_facts": [
+            "Hangovers are often mistakenly thought to be caused solely by dehydration.",
+            "Physical symptoms of hangovers are caused by several factors, including dehydration, electrolyte imbalance, inflammation of the stomach and intestines, and sleep disturbance."
+          ],
+          "reason": "Extracted facts clarifying that hangovers are caused by multiple factors beyond just dehydration, directly addressing the query's underlying assumptions."
+        },
+        {
+          "doc_id": "d4",
+          "key_facts": [
+            "Mixing alcohol with energy drinks can result in a stronger hangover than drinking alcohol alone.",
+            "Caffeine, like alcohol, leads to significant dehydration.",
+            "Drinking a mixture of alcohol and energy drinks in larger amounts leads to very strong dehydration and a severe hangover."
+          ],
+          "reason": "Extracted facts about mixing alcohol with energy drinks and caffeine's dehydrating effect, which, while not directly answering the query, provides related information on dehydration and hangovers."
+        },
+        {
+          "doc_id": "d5",
+          "key_facts": [
+            "Drinking several eight-ounce glasses of water prior to going to sleep may help relieve dry mouth and dehydration.",
+            "The National Institute on Alcohol Abuse and Alcoholism recommends a maximum of one drink per day for women and two per day for men."
+          ],
+          "reason": "Extracted facts about drinking water before sleep to relieve dehydration and recommended alcohol consumption limits, relevant to the query's discussion of hydration and alcohol intake."
+        }
+      ]
+    },
+    "verdict": {
+      "verdict_results": [
+        {
+          "doc_id": "d1",
+          "verdict": "partially_supports",
+          "reason": "States water reduces hangover effects from dehydration, but doesn't address the query's specific question about why alcohol might be faster.",
+          "confidence": 0.65
+        },
+        {
+          "doc_id": "d2",
+          "verdict": "partially_supports",
+          "reason": "Lists factors contributing to hangovers, including dehydration and alcohol consumption, but doesn't explain the specific mechanism asked about.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d3",
+          "verdict": "partially_supports",
+          "reason": "Clarifies hangovers have multiple causes beyond dehydration, which is relevant context, but doesn't directly answer the query's comparison.",
+          "confidence": 0.6
+        },
+        {
+          "doc_id": "d4",
+          "verdict": "irrelevant",
+          "reason": "Discusses mixing alcohol with energy drinks and caffeine's dehydrating effect, which is not directly related to the query's specific question about two beers curing a hangover.",
+          "confidence": 0.45
+        },
+        {
+          "doc_id": "d5",
+          "verdict": "partially_supports",
+          "reason": "Mentions water for dehydration and recommended alcohol limits, providing related context but not directly answering why alcohol might cure a hangover faster.",
+          "confidence": 0.55
+        }
+      ]
+    },
+    "aggregation": {
+      "aggregation": {
+        "supporting_docs": [],
+        "partial_docs": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "irrelevant_docs": [
+          "d4"
+        ],
+        "evidence_summary": [
+          {
+            "label": "partial_context_hydration_hangover",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Documents provide context on hydration's role in hangover mitigation and recommended alcohol intake, but do not directly answer the query's specific mechanism."
+          },
+          {
+            "label": "partial_context_hangover_causes",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Documents explain various factors contributing to hangovers beyond dehydration, offering relevant background but not a direct answer to the query."
+          }
+        ]
+      }
+    },
+    "conflict": {
+      "conflict": {
+        "conflict_type": "no_conflict",
+        "conflict_reason": "The provided evidence offers complementary details about hangovers, dehydration, and alcohol consumption, but does not present directly contradictory claims. The documents collectively build context rather than conflict.",
+        "clusters": [
+          {
+            "label": "hydration_and_hangover_mitigation",
+            "doc_ids": [
+              "d1",
+              "d5"
+            ],
+            "summary": "Drinking water before sleep can help reduce hangover effects by alleviating dehydration and dry mouth. Recommended alcohol intake limits are also noted."
+          },
+          {
+            "label": "hangover_causes_and_exacerbating_factors",
+            "doc_ids": [
+              "d2",
+              "d3"
+            ],
+            "summary": "Hangovers result from multiple factors including dehydration, electrolyte imbalance, inflammation, and sleep disturbance, not solely dehydration. Rapid alcohol consumption and mixing drinks increase proneness."
+          },
+          {
+            "label": "irrelevant_information",
+            "doc_ids": [
+              "d4"
+            ],
+            "summary": "Discusses mixing alcohol with energy drinks and caffeine's dehydrating effect, which is not directly relevant to the core query."
+          }
+        ]
+      }
+    },
+    "refusal": {
+      "refusal": {
+        "should_abstain": false,
+        "reason": "Sufficient partial evidence exists to construct a comprehensive answer, and there is no conflict between the documents."
+      }
+    },
+    "adjudication": {
+      "adjudication": {
+        "answer": "Hangovers are caused by multiple factors including dehydration, electrolyte imbalance, inflammation, and sleep disturbance, not solely dehydration. While drinking water before sleep can help mitigate hangover effects by reducing dehydration and dry mouth, rapid alcohol consumption and mixing drinks can increase proneness.",
+        "citations": [
+          "d1",
+          "d2",
+          "d3",
+          "d5"
+        ],
+        "abstain": false,
+        "abstain_reason": "",
+        "final_reasoning": "The provided partial evidence collectively explains the multifaceted causes of hangovers and the role of hydration, allowing for a comprehensive answer without direct conflict."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 0.95,
+        "feedback": "The answer accurately summarizes the causes of hangovers and the role of water, as supported by the cited documents. It correctly notes that hangovers are multifactorial."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 8,
+      "prompt_tokens": 9369,
+      "completion_tokens": 2159,
+      "total_tokens": 11528
+    },
+    "by_step": {
+      "relevance": {
+        "calls": 1,
+        "prompt_tokens": 1456,
+        "completion_tokens": 385,
+        "total_tokens": 1841
+      },
+      "extraction": {
+        "calls": 1,
+        "prompt_tokens": 1411,
+        "completion_tokens": 605,
+        "total_tokens": 2016
+      },
+      "verdict": {
+        "calls": 1,
+        "prompt_tokens": 1006,
+        "completion_tokens": 373,
+        "total_tokens": 1379
+      },
+      "aggregation": {
+        "calls": 1,
+        "prompt_tokens": 1171,
+        "completion_tokens": 227,
+        "total_tokens": 1398
+      },
+      "conflict": {
+        "calls": 1,
+        "prompt_tokens": 1393,
+        "completion_tokens": 293,
+        "total_tokens": 1686
+      },
+      "refusal": {
+        "calls": 1,
+        "prompt_tokens": 661,
+        "completion_tokens": 39,
+        "total_tokens": 700
+      },
+      "adjudication": {
+        "calls": 1,
+        "prompt_tokens": 805,
+        "completion_tokens": 136,
+        "total_tokens": 941
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1466,
+        "completion_tokens": 101,
+        "total_tokens": 1567
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "RelevanceOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:06.090850",
+        "prompt_tokens": 1456,
+        "completion_tokens": 385,
+        "total_tokens": 1841,
+        "step": "relevance",
+        "call_index": 1
+      },
+      {
+        "schema": "ExtractorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:10.042013",
+        "prompt_tokens": 1411,
+        "completion_tokens": 605,
+        "total_tokens": 2016,
+        "step": "extraction",
+        "call_index": 1
+      },
+      {
+        "schema": "VerdictOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:13.151976",
+        "prompt_tokens": 1006,
+        "completion_tokens": 373,
+        "total_tokens": 1379,
+        "step": "verdict",
+        "call_index": 1
+      },
+      {
+        "schema": "AggregatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:14.559527",
+        "prompt_tokens": 1171,
+        "completion_tokens": 227,
+        "total_tokens": 1398,
+        "step": "aggregation",
+        "call_index": 1
+      },
+      {
+        "schema": "ConflictDetectionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:16.209638",
+        "prompt_tokens": 1393,
+        "completion_tokens": 293,
+        "total_tokens": 1686,
+        "step": "conflict",
+        "call_index": 1
+      },
+      {
+        "schema": "RefusalDecisionOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:17.262701",
+        "prompt_tokens": 661,
+        "completion_tokens": 39,
+        "total_tokens": 700,
+        "step": "refusal",
+        "call_index": 1
+      },
+      {
+        "schema": "AdjudicatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:18.928947",
+        "prompt_tokens": 805,
+        "completion_tokens": 136,
+        "total_tokens": 941,
+        "step": "adjudication",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-17T20:05:20.053413",
+        "prompt_tokens": 1466,
+        "completion_tokens": 101,
+        "total_tokens": 1567,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-17T20:05:03.533553",
+  "last_updated_at": "2026-04-17T20:05:20.053911"
+}

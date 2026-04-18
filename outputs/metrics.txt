@@ -1,16 +1,3 @@
-Input folder: checkpoints/pipeline
-Conflict truth file: conflicts_normalized.jsonl
-Refusal truth file: refusals_normalized.jsonl
-Checkpoint files found: 617
-Samples evaluated (with truth): 617
-Files missing sample ID: 0
-Files missing ground truth: 0
-Files failed to parse: 0
-Truth JSONL decode errors: 0
-Samples missing evaluator.correct_conflict: 1
-Samples missing evaluator.correct_type: 1
-Samples missing evaluator.correct_abstain: 1
-
 Conflict Presence Accuracy: 0.9854
 Conflict Type Accuracy: 0.9951
 Should-Abstain Accuracy: 0.9757
@@ -27,11 +14,11 @@ Token Metrics (from token_usage.overall):
   Avg Total Tokens per Sample: 18680.92
 
 Token Metrics by Step (averages over samples containing that step):
-  adjudication: avg_total=1013.70, avg_prompt=881.51, avg_completion=132.20, avg_calls=1.00
-  aggregation: avg_total=1930.77, avg_prompt=1602.50, avg_completion=328.27, avg_calls=1.00
-  conflict: avg_total=2183.14, avg_prompt=1902.61, avg_completion=280.54, avg_calls=1.00
-  evaluator: avg_total=3843.56, avg_prompt=3745.67, avg_completion=97.89, avg_calls=1.00
-  extraction: avg_total=3709.50, avg_prompt=2761.10, avg_completion=948.41, avg_calls=1.00
-  refusal: avg_total=776.51, avg_prompt=729.00, avg_completion=47.51, avg_calls=1.00
-  relevance: avg_total=3424.79, avg_prompt=2806.17, avg_completion=618.61, avg_calls=1.00
-  verdict: avg_total=1829.27, avg_prompt=1268.27, avg_completion=561.00, avg_calls=1.00
+  adjudication: avg_total=1013.70, avg_prompt=881.51, avg_completion=132.20
+  aggregation: avg_total=1930.77, avg_prompt=1602.50, avg_completion=328.27
+  conflict: avg_total=2183.14, avg_prompt=1902.61, avg_completion=280.54
+  evaluator: avg_total=3843.56, avg_prompt=3745.67, avg_completion=97.89
+  extraction: avg_total=3709.50, avg_prompt=2761.10, avg_completion=948.41
+  refusal: avg_total=776.51, avg_prompt=729.00, avg_completion=47.51
+  relevance: avg_total=3424.79, avg_prompt=2806.17, avg_completion=618.61
+  verdict: avg_total=1829.27, avg_prompt=1268.27, avg_completion=561.00

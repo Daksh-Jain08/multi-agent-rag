@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0599",
+  "query": "When did the uk give hong kong back to china?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "destroyed opium stockpiles and halted all foreign trade, forcing a British military response and triggering the First Opium War. The Qing surrendered early in the war and ceded Hong Kong Island in the Convention of Chuenpi. However, both countries were dissatisfied and did not ratify the agreement. After over a year of further hostilities, Hong Kong Island was formally ceded to the United Kingdom in the 29 August 1842 Treaty of Nanking. The colony was further expanded in 1898, when Britain obtained a 99-year lease of the New Territories. The University of Hong Kong was established in 1911 as the",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d2",
+      "text": "a time when 1997 was rapidly approaching. In this regard, Cradock advised Thatcher to compromise with China so as to let Britain retain some degree of influence over the Hong Kong issue, and one of the major concessions he urged was to stop insisting upon the authority conferred by the three treaties to extend British administration beyond 1997. In a letter to the Chinese authorities towards the end of the first round of negotiations, Thatcher wrote that if the result of the negotiations was accepted by the people of Hong Kong, the British government would recommend Parliament to transfer the",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "China. Throughout their meeting, she sought the PRC's agreement to a continued British presence in the territory. Deng insisted that the PRC's sovereignty on Hong Kong was non-negotiable, but stated his willingness to settle the sovereignty issue with the British government through formal negotiations, and both governments promised to maintain Hong Kong's stability and prosperity. After the two-year negotiations, Thatcher conceded to the PRC government and signed the Sino-British Joint Declaration in Beijing in 1984, agreeing to hand over Hong Kong's sovereignty in 1997. Despite saying that she was in favour of \"peaceful negotiations\" to end apartheid, Thatcher opposed sanctions",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "of the talks, the British government proposed an exchange of sovereignty for administration and the implementation of a British administration post-handover. The PRC government refused, contending that the notions of sovereignty and administration were inseparable, and although it recognised Macau as a \"Chinese territory under Portuguese administration\", this was only temporary. In fact, during informal exchanges between 1979 and 1981, the PRC had proposed a \"Macau solution\" in Hong Kong, under which it would remain under British administration at China's discretion. However, this had previously been rejected following the 1967 Leftist riots, with the then Governor, David Trench, claiming the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2004-02-25"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Kong Government confines built-up areas to a few areas and reserves large parts of the region as parkland. As the expiry date of the lease neared in the 1980s, talks between the United Kingdom and the People's Republic of China led to the signing of the Sino-British Joint Declaration (1984), in which the whole of Hong Kong would be returned, instead of only the New Territories. This is because Hong Kong's shipping ports, reservoirs and other vital installations were all in the New Territories. Had only the New Territories been returned to China, it would also have been difficult to  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The UK agreed to hand over Hong Kong's sovereignty to China in 1997, as stated in the Sino-British Joint Declaration signed in 1984."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the Sino-British Joint Declaration and the year 1997, but there are no citations provided to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2368,
+      "completion_tokens": 173,
+      "total_tokens": 2541
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1029,
+        "completion_tokens": 70,
+        "total_tokens": 1099
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1339,
+        "completion_tokens": 103,
+        "total_tokens": 1442
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:53.789569",
+        "prompt_tokens": 1029,
+        "completion_tokens": 70,
+        "total_tokens": 1099,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:55.069465",
+        "prompt_tokens": 1339,
+        "completion_tokens": 103,
+        "total_tokens": 1442,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:52.935602",
+  "last_updated_at": "2026-04-18T20:08:55.069840"
+}

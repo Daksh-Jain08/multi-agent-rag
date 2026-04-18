@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0239",
+  "query": "Where will the upcoming International Mathematical Olympiad (IMO) be hosted?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Timeline - International Mathematical Olympiad 65 \u00b7 2024 \u00b7 United Kingdom, Bath, 11.7. - 22.7.",
+      "source_url": "https://www.imo-official.org/organizers.aspx",
+      "timestamp": "2006-01-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "USA Earns First Place at 65th International Mathematical Olympiad The US team scored 192 points, earning them first place. Individual scores are based on solutions to six challenging problems. USA Earns First Place at 65th International Mathematical Olympiad Washington, DC\u2014The United States team, sponsored by the Mathematical Association of America\u2019s American Mathematics Competitions (MAA AMC), has secured First Place in the 65th International Mathematical Olympiad (IMO), held from July 11 to 22, 2024, in Bath, United Kingdom. The six high school team members also received medals for their outstanding individual performances. The IMO is the world\u2019s premier high school mathematics competition, attracting the best young mathematicians from around the globe. This year, 108 countries and 609 students competed. The US team scored 192 points, earning them first place. Individual scores are based on solutions to six challenging problems. Notably, US team members Alexander Wang and Jessica Wan placed in the top five individual rankings (third and fifth places, respectively). The US team is expertly guided by coach John Berman and deputy coach Carl Schildkraut after completing intensive training at the MAA Mathematical Olympiad Summer Program, designed and run by former USA IMO leader Po-Shen Loh. Students qualify for the USA IMO team through a series of competitions organized by the MAA AMC. A special thanks to Jane Street for supporting this year\u2019s team! Each year, approximately 300,000 K-12 students from over 6,000 schools and learning centers worldwide participate in these competitions. Participants from the MAA AMC program are also featured on other countries' IMO teams, including Canada and Pakistan. For more information on MAA AMC, including how to host a competition, participate, and other ways to get involved, please visit maa.org/amc. About MAA The Mathematical Association of America is the world\u2019s largest community of mathematicians, students, and enthusiasts. We accelerate the understanding of our world through mathematics because mathematics drives society and shapes our lives.",
+      "source_url": "https://maa.org/news/usa-first-at-imo/",
+      "timestamp": "2024-07-20"
+    },
+    {
+      "doc_id": "d3",
+      "text": "IMO 2024 The 65th International Mathematical Olympiad will take place in Bath, UK in July 2024. IMO2024 IMO2024 Launch About IMO2024 The IMO is the largest and most prestigious of all the international olympiads, having grown from the original seven countries to over a hundred. The United Kingdom has participated since 1967 and has played host to the competition on three previous occasions (in 1979, 2002 and 2019). This year\u2019s event was supposed to take place in Ukraine. On account of the Russian aggression towards Ukraine, we are honoured to have stepped in to the role once again at this special event. The IMO Board and the organisers of IMO2024 hope that there will be an IMO in Ukraine as soon as conditions allow. Contestant site - University of Bath Bath is a world heritage city renowned for its hot springs, Roman history and Georgian architecture. It was the home of the famous mathematician Adelard (his translations of Arabic texts on mathematics introduced the Hindu-Arabic numeral system to Europe). Contestants will be based at the University of Bath for the duration of IMO2024. The university campus is situated on a hill above Bath, providing stunning views of the city and surrounding countryside. Contestants will be well looked after, with the dining room, recreational areas and the exam hall all within walking distance of the accommodation. Members of the Jury will be located in Bristol where they will set the problems and reside for the initial phase of the competition before joining the contestants at the University of Bath after the exams. About the competition The competition involves teams of contestants sitting long maths exams each containing three problems, on two consecutive days (around 4.5 hours in length). The exam papers are marked over the next few days with each solution (or attempt) being awarded scores. Gold, Silver and Bronze medals are awarded, as well as Honourable Mentions for good effort. This unique event brings together the brightest young minds from around the world and represents, for them, the culmination of many years of mathematical endeavour and hundreds of attempts at solving problems.",
+      "source_url": "https://www.imo2024.uk/",
+      "timestamp": "2024-07-22"
+    },
+    {
+      "doc_id": "d4",
+      "text": "International Mathematical Olympiad (IMO) \u2013 CMS-SMC Bath, UK \u2013 location of IMO 2024. Official site. The International Mathematical Olympiad (IMO) is the world championship mathematics competition for high-school ... News (Jul 31, 2024) OTTAWA, Ontario \u2013 The Canadian Mathematical Society (CMS) is proud to share the results of the 2024 International Mathematical Olympiad (IMO), which took place in Bath, United Kingdom, from July 11 to 22. (May 14, 2024) OTTAWA, Ontario \u2013 The Canadian Mathematical Society (CMS) is excited to announce that Canada\u2019s top six math students have been selected to form Math Team Canada 2024 and compete at the upcoming 65th International Mathematical Olympiad (IMO). Team Leaders: Samuel Beatty Report The Samuel Beatty Fund promotes and encourages the study of Mathematics in the University of Toronto and throughout the Province of Ontario. Each year one student is chosen to be the Samuel Beatty Recipient. Copyright & Permissions The Canadian Mathematical Society grants permission to individual readers of this publication to copy articles for their own personal use. Use for any other purpose is strictly prohibited. To obtain a license for anything other than copying articles for personal use, please contact the Canadian Mathematical Society to request permissions or licensing terms. Copyright & Permissions The Canadian Mathematical Society grants permission to individual readers of this publication to copy articles for their own personal use. Use for any other purpose is strictly prohibited. To obtain a license for anything other than copying articles for personal use, please contact the Canadian Mathematical Society to request permissions or licensing terms.",
+      "source_url": "https://cms.math.ca/competitions/imo/",
+      "timestamp": "2024-07-31"
+    },
+    {
+      "doc_id": "d5",
+      "text": "International Mathematical Olympiad (IMO) It has gradually expanded to over 100 countries from 5 continents. The IMO Board ensures that the competition takes place each year and that each host country ... The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country. The first IMO was held in 1959 in Romania, with 7 countries participating. It has gradually expanded to over 100 countries from 5 continents. The IMO Board ensures that the competition takes place each year and that each host country observes the regulations and traditions of the IMO. The IMO Foundation is a charity which supports the IMO. The IMO Foundation website is the public face of the IMO. This is a particularly valuable resource for people who are not necessarily mathematical specialists, but who want to understand the International Mathematical Olympiad. Data is held at IMO-official in compliance with EU data protection legislation. If a participant wishes to become anonymous (neither photo nor name on public display), then contact the IMO secretary with a request. We will comply with bona fide requests expeditiously.",
+      "source_url": "https://www.imo-official.org/",
+      "timestamp": "2006-01-01"
+    },
+    {
+      "doc_id": "d6",
+      "text": "[PDF] 65th International Mathematical Olympiad to be hosted in Bath, UK International Mathematical Olympiad (IMO) will take place at the University of Bath in July 2024. The IMO is the largest and most ...",
+      "source_url": "https://imo2024.squarespace.com/s/Press-Release-IMO-2024-13-July-2023-website.pdf",
+      "timestamp": "2023-07-13"
+    },
+    {
+      "doc_id": "d7",
+      "text": "IMO2023 | Home This event marks the first time Japan has hosted the event in 20 years since the 44th competition in 2003. Six hundred eighteen participants (including 67 ... Welcome to IMO2023 The 64th International Mathematical Olympiad, where math enthusiasts from all over the world compete to solve challenging problems, took place from July 2 (Sunday) to July 13 (Thursday) in Makuhari, Chiba Prefecture. This event marks the first time Japan has hosted the event in 20 years since the 44th competition in 2003. Six hundred eighteen participants (including 67 female students) from 112 countries and regions attended. Including accompanying officials, over 1000 people gathered in Japan. Please enjoy the lively scenes from the opening and closing ceremonies.",
+      "source_url": "https://imo2023.jp/en/",
+      "timestamp": "2023-07-02"
+    },
+    {
+      "doc_id": "d8",
+      "text": "66th International Mathematical Olympiad - Australia - YouTube ... host the 66th International Mathematical Olympiad (IMO) on the ... are excited to extend this opportunity to the world in 2025. IMO ...",
+      "source_url": "https://www.youtube.com/watch?v=HWSSo_LV0qc",
+      "timestamp": "2024-07-21"
+    },
+    {
+      "doc_id": "d9",
+      "text": "International Mathematics Olympiad 2024: Exam Dates, Syllabus ... As per the latest updates, the 65th International Mathematics Olympiad will be held in Bath, United Kingdom. Below, we have provided a table with the exam dates ... International Mathematics Olympiad (IMO) The International Mathematics Olympiad (IMO) is a prestigious global competition for high school students focusing on Mathematics. The first IMO was held in 1959 in Romania, initially intended for Eastern Bloc countries. The IMO is held annually in a different country, with the host country changing each year. To participate in the IMO, applicants must undergo a rigorous selection process. Countries select teams through national competitions, and top-performing students are selected to represent their countries at the IMO. Whether you are a passionate Mathematics enthusiast or a student aspiring to compete in the IMO, you must know about the exam. In this article, we aim to provide you with the latest updates on the IMO, including exam dates, application process, recommended book, sample papers, exam patterns, syllabus, and results. Important: SOF IMO 2024-25 Level 1 exam will be conducted on October 22, November 19, and December 12, 2024. SOF IMO 2024-25 Level 2 exam will be held in January 2025(Tentative). 1.0IMO Exam - Overview The International Mathematics Olympiad (IMO) is conducted by the Science Olympiad Foundation (SOF) for students in classes 1 to 12. IMO consists of two levels of exams: Level 1 and Level 2. The IMO exam is providing a platform for talented young Mathematicians to showcase their skills and compete against their peers. The IMO 2024 exam for level 1 has been scheduled on dates: 22 October 2024, 19 November 2024 and 12 December 2024. Level 2 will take place in the month of January 2025(Tentative). And the result will be announced in March 2025(Tentative).",
+      "source_url": "https://allen.in/olympiad/international-mathematics-olympiad",
+      "timestamp": "2024-12-10"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The 65th International Mathematical Olympiad (IMO) was hosted in Bath, United Kingdom, from July 11 to 22, 2024."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents do mention the location and dates, but the answer does not cite them."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 6155,
+      "completion_tokens": 161,
+      "total_tokens": 6316
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 2923,
+        "completion_tokens": 69,
+        "total_tokens": 2992
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3232,
+        "completion_tokens": 92,
+        "total_tokens": 3324
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:30:47.469383",
+        "prompt_tokens": 2923,
+        "completion_tokens": 69,
+        "total_tokens": 2992,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:30:48.800158",
+        "prompt_tokens": 3232,
+        "completion_tokens": 92,
+        "total_tokens": 3324,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:30:46.462266",
+  "last_updated_at": "2026-04-18T18:30:48.800630"
+}

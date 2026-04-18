@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0485",
+  "query": "when people describe babies as \u0393\u00c7\u00a3addicted to ___ at birth\u0393\u00c7\u00a5, how do they know that? What does it mean for an infant to be born addicted to a substance?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How to Deal with the Life of a Baby Born Addicted to Drugs | Givemebaby How to Deal with the Life of a Baby Born Addicted to Drugs It sounds impossible that a baby is born as an addict. Well, it is impossible since the newborn just comes to this world, knowing nothing about life, especially drugs. However, what is possible is that a baby is born with drugs in her system. This is what causes the baby seems like an \u0393\u00c7\u00a3addict\u0393\u00c7\u00a5. Babies don\u0393\u00c7\u00d6t normally have drugs substance with them. They inherit it. It has been long known that taking drugs and drinking alcohol during pregnancy can have an effect on the baby. If you\u0393\u00c7\u00d6re",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Florida sees upsurge in babies born addicted to drugs | wtsp.com that exposure of a newborn infant to a controlled substance or alcohol, as evidenced by a drug test administered at birth, \u0393\u00c7\u00a3automatically\u0393\u00c7\u00a5 qualifies as harm or maltreatment to a child. Substance exposure at birth, would be considered a \u0393\u00c7\u00a3Present Danger Threat\u0393\u00c7\u00a5 up until the time that an investigator obtains more information to determine if the parent\u0393\u00c7\u00d6s substance use is to the point of also being a pervasive condition (i.e., an Impending Danger threat). Unfortunately, it is difficult to quantify how many infants are removed as a result of substance abuse alone. The department depends on medical professionals at hospitals and",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2000-02-17"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Drug Addiction Detroit - Help Prevent Newborn Addicts | Metro Rehab baby is born safely, they are at an increased risk for stroke, low birth weight and poor lifelong growth, feeding problems, limb deformities, brain damage, reproductive abnormalities, and being born addicted. After birth, the baby will likely experience withdrawal symptoms and have to be monitored. These babies are typically poor feeders and suffer from a condition called \u0393\u00c7\u00a3failure to thrive.\u0393\u00c7\u00a5 As they grow, they are more susceptible to sudden infant death syndrome (SIDS)/ sudden unexpected infant death (SUID), and long-term behavioral and mental health problems. These substances are transmitted through breast milk and should not be used while breastfeeding. Babies",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2005-11-19"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Fact and fiction about Maine\u0393\u00c7\u00d6s drug affected babies | Research Shows prescribed medication under a doctor\u0393\u00c7\u00d6s supervision to manage medical conditions. Policy makers and providers are working together to clarify guidelines and make reporting consistent. The 927 drug-affected births represent about 7 percent of Maine births in 2013. At Eastern Maine Medical Center in Bangor, there were 308 substance-exposed infant reports in 2011, approximately 19 percent of births at EMMC that year. Of those, 173 included an opioid as at least one of the substances. Fiction: drug-addicted babies An infant cannot be born addicted. Addiction is a long-term, chronic, treatable disease, marked by an uncontrolled need to take a substance regardless",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2013-11-12"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Soon to be new parents of drug exposed baby \u252c\u2557 Adoption Community a standing position and has stood on his own a few times. It's looking very promising and his pediatrician has said she doubts his size has to do with his Birth moms habits during pregnancy and more with his Birth Parents physical traits. What is a baby born \"addicted \"vs \"exposed? \"I need some clarification on this matter please. Thanks!! gsxr-mama My DS is considered exposed. Addicted means the drug use likely happened also toward the end of the pregnancy and the baby is actually addicted to the substance. Exposed could have happened earlier in the pregnancy. It could also  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Some sources state that a baby cannot be born addicted, as addiction is a chronic disease and infants are too young to have developed it. Instead, they may be born with drugs in their system due to prenatal exposure, which can lead to withdrawal symptoms and other health issues. Other sources describe babies as being born \"addicted\" when they have drugs in their system at birth, often evidenced by a drug test, which can be considered harm or maltreatment. This condition can result in withdrawal symptoms, feeding problems, and long-term health concerns."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. The answer should have cited documents d1, d3, and d4 which discuss babies being born with drugs in their system and withdrawal symptoms."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3080,
+      "completion_tokens": 252,
+      "total_tokens": 3332
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1349,
+        "completion_tokens": 141,
+        "total_tokens": 1490
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1731,
+        "completion_tokens": 111,
+        "total_tokens": 1842
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:19.975665",
+        "prompt_tokens": 1349,
+        "completion_tokens": 141,
+        "total_tokens": 1490,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:21.262983",
+        "prompt_tokens": 1731,
+        "completion_tokens": 111,
+        "total_tokens": 1842,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:18.806313",
+  "last_updated_at": "2026-04-18T18:43:21.263383"
+}

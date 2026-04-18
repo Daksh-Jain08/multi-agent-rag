@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0534",
+  "query": "What is stochastic terrorism?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Open Left: \"Stochastic Terrorism\"--A powerful, highly accurate new meme | www.StopDomesticTerror.com and framing cloud people's understanding), and puts the facts together most succinctly: Stochastic Terrorism: Triggering the shooters. by G2geek Mon Jan 10, 2011 at 05:37:39 PM PST Stochastic terrorism is the use of mass communications to stir up random lone wolves to carry out violent or terrorist acts that are statistically predictable but individually unpredictable. This is what occurs when Bin Laden releases a video that stirs random extremists halfway around the globe to commit a bombing or shooting. This is also the term for what Beck, O'Reilly, Hannity, and others do. And this is what led directly and predictably",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Stochastic Terrorism and Edgelord Humour - Page 3 - International Skeptics Forum that would be the case. I think what luchog is saying is that the term \"stochastic terrorism\" would not be used by the right, which certainly and repeatedly uses the thing itself. You're asking for evidence of laws against disseminating certain ideas? Two more Nazis successfully prosecuted. BBC News - Teenage neo-Nazis jailed over terror offences Interesting read in regards to the topic of this thread as there is some decription of how they used the Internet and social media to promote their ideology. Again, I agree that if you can demonstrate intent then it is fine to prosecute these",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d3",
+      "text": "A Look at \"Stochastic Terrorism: Triggering the Shooters\" (from DailyKos) | ePluribus Media Home \u252c\u2557 Blogs \u252c\u2557 MichaelCollins's blog \u252c\u2557 A Look at \"Stochastic Terrorism: Triggering the Shooters\" (from DailyKos) A Look at \"Stochastic Terrorism: Triggering the Shooters\" (from DailyKos) \"The stochastic terrorist is the person who uses mass media to broadcast memes that incite unstable people to commit violent acts.\" G2geek, January 10, 2011 Daily Kos diarist G2geek published an essay on January 10 that deserves attention and further analysis. He argued that rash media figures activate lone wolf types through \"emotional rhetoric.\" When the lone wolves commit an assassination, bombing, etc., the emotional rhetoric of media personalities makes them stochastic terrorists.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Glenn Beck Review: Glenn Beck engages in stochastic terrorism The following piece is being reprinted here with permission of the anonymous author, G2G. He is the owner of the blog, Stochastic Terrorism which is: 1. The use of mass communication to incite random actors to carry out violent or terrorist acts that are statistically predictable but individually unpredictable. 2. Remote-control murder by lone wolf. G2G has a Master of Arts in the Social Sciences and works as an engineer in the field of telecommunications. Stochastic Terrorism: Part 1, triggering the shooters. Stochastic terrorism is the use of mass communications to incite random actors to carry out violent or terrorist",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Bryce Moore \u252c\u2557 Stochastic Terrorism Home > Blog > politics > Stochastic Terrorism I came across a new phrase recently: stochastic terrorism. (My post today is my own reaction to Kottke\u0393\u00c7\u00d6s excellent post on the topic.) I\u0393\u00c7\u00d6m a fairly well-read individual, so if it\u0393\u00c7\u00d6s new to me, I imagine it\u0393\u00c7\u00d6s new to a lot of you as well. It\u0393\u00c7\u00d6s a term that was coined back in 2011. I think we all know by now what \u0393\u00c7\u00a3terrorism\u0393\u00c7\u00a5 means. \u0393\u00c7\u00a3Stochastic\u0393\u00c7\u00a5 is \u0393\u00c7\u00a3having a random probability distribution or pattern that may be analyzed statistically but may not be predicted precisely.\u0393\u00c7\u00a5 In other words, it\u0393\u00c7\u00d6s something that that can  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Stochastic terrorism is the use of mass communications to incite random individuals, often described as \"lone wolves,\" to carry out violent or terrorist acts. These acts are statistically predictable in aggregate but individually unpredictable. The term suggests that media figures or others using \"emotional rhetoric\" can activate unstable people to commit violence, making the rhetoricians stochastic terrorists."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about stochastic terrorism but lacks any citations, making it unsupported by the provided documents. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3049,
+      "completion_tokens": 195,
+      "total_tokens": 3244
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1354,
+        "completion_tokens": 102,
+        "total_tokens": 1456
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1695,
+        "completion_tokens": 93,
+        "total_tokens": 1788
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:36.929751",
+        "prompt_tokens": 1354,
+        "completion_tokens": 102,
+        "total_tokens": 1456,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:37.920331",
+        "prompt_tokens": 1695,
+        "completion_tokens": 93,
+        "total_tokens": 1788,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:35.601365",
+  "last_updated_at": "2026-04-18T20:06:37.920719"
+}

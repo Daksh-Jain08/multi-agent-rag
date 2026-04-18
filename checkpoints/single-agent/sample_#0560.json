@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0560",
+  "query": "Where do the philadelphia eagles play their home games?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "locations near the infield cutouts. Team president Joe Banner was irate after the game, calling the stadium's conditions \"absolutely unacceptable\" and \"an embarrassment to the city of Philadelphia.\" City officials, however, promised that the stadium would be suitable for play when the regular season started. The Eagles would later move into Lincoln Financial Field in 2003, and the Phillies would move into its own separate ballpark, Citizens Bank Park, in 2004. In the wake of the September 11 attacks, the NFL postponed its Week 2 games of the 2001 season, originally scheduled for September 16 and 17, until the end",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d2",
+      "text": "movie and character) while playing with Philadelphia. He is the subject of the Disney movie \"Invincible\", starring Mark Wahlberg. A game against the St. Louis Cardinals on October 10 was originally scheduled to be played at Veterans Stadium, however was relocated to St. Louis due to a Philadelphia Phillies game being played at Veterans Stadium on the same day. Consequently, the game on November 7 that was originally scheduled to be played in St. Louis was moved to Philadelphia. 1976 Philadelphia Eagles season The 1976 Philadelphia Eagles season was the franchise\u0393\u00c7\u00d6s 44th in the National Football League. It was the",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1997-12-24"
+    },
+    {
+      "doc_id": "d3",
+      "text": "rights free agent The Eagles began their season at Bank of America Stadium for a Week 1 duel with the Carolina Panthers. Philadelphia trailed early in the first quarter as Panthers running back DeAngelo Williams ran 11 yards for a Carolina touchdown on their first drive. The Eagles answered with a 49-yard field goal from kicker David Akers. In the second quarter, Philadelphia exploded with points as defensive end Victor Abiamiri returned a fumble 2 yards for a touchdown, wide receiver DeSean Jackson returned a punt 85 yards for a touchdown, and quarterback Donovan McNabb completed a 9-yard touchdown pass",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d4",
+      "text": "MVP Nick Foles had an awful preseason struggling in games versus the Patriots and Browns. Many injuries occurred while some from the previous season affected the starting offense's play. Many questioned how they would fare out after a lousy preseason showing. On January 11, the NFL announced that the Eagles will play the Jacksonville Jaguars in one of the London Games at Wembley Stadium in London, England, with the Jaguars serving as the home team. It will be the Eagles' first appearance in the International Series. The game will occur during Week 8 (October 28), and will be televised in",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "led them to the Eagles' 26 yard line. A shot to the end zone by Robert Griffin III would be intercepted by Brandon Boykin, clinching an Eagles win. The Eagles would move to 6-5. This is the Eagles first win at Lincoln Financial Field since Week 4 of the 2012 season, because prior to this game, the Eagles had \"never\" won a game in their home stadium in 414 days since that same week, snapping a 10-game losing streak at home with this win. With the win, the Eagles improved to 7-5. In a blinding snowstorm, with at least 8\"  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Philadelphia Eagles play their home games at Lincoln Financial Field."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claim that the Philadelphia Eagles play their home games at Lincoln Financial Field."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2405,
+      "completion_tokens": 141,
+      "total_tokens": 2546
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1060,
+        "completion_tokens": 45,
+        "total_tokens": 1105
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1345,
+        "completion_tokens": 96,
+        "total_tokens": 1441
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:32.858917",
+        "prompt_tokens": 1060,
+        "completion_tokens": 45,
+        "total_tokens": 1105,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:33.889283",
+        "prompt_tokens": 1345,
+        "completion_tokens": 96,
+        "total_tokens": 1441,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:32.040297",
+  "last_updated_at": "2026-04-18T20:07:33.890544"
+}

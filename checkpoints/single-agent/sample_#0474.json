@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0474",
+  "query": "why do American style electrical outlets have holes in both prongs",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Options for repairing ungrounded three-prong outlets outlets in homes need to have AFCI protection. If the main electric panel in the home is too old to allow for the installation of AFCI circuit breakers, it gets really interesting. It\u0393\u00c7\u00d6s stuff like this that makes me really glad to be a home inspector; I get to say \u0393\u00c7\u00a3have an electrican fix it\u0393\u00c7\u00a5. I don\u0393\u00c7\u00d6t have to design the exact repairs. Filed Under: Electrical, NEW, Ungrounded Three Prong Outlets Tagged With: how to repair ungrounded three-prong outlets, ungrounded outlets, Ungrounded Three Prong Outlets",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "SERVPRO of Westport / Fairfield Fire Damage News And Updates Top Tips for Easy Prevention of Electrical Fires Regularly inspect electrical cords and electrical plugs: If cords or plugs are worn, frayed or cracked, throw them away If you have a three-prong plug, do not break it to make it fit into a two-pronged outlet Replace your two-pronged outlets with three-pronged outlets Move electrical cords away from sources of heat and water Do not run electrical cords beneath carpeting or rugs or in high traffic areas Do not nail or staple cords to walls, floors, or other objects Safety Tips Beyond Cords & Plugs: Check the wattage of your light",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "2019 regulations as contained in their publication entitled Know Before You Go. In the Meli\u251c\u00ed Habana, the current is 220 volts. In most cases, two-pronged outlets that accommodate most U.S. electrical devices are used, but some outlets may not be able to accommodate all your devices. The Meli\u251c\u00ed Habana provides a converter so that you can use standard U.S.-style two- or three-prong, 110-volt outlets, or European-style, round two-prong 220-volt outlets. A 110-volt outlet for electric razors can be found in hotel bathrooms. While it will be necessary for you to use a special adapter plug to fit the wall outlets featured",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2000-06-10"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Booking a Trip wall outlets are used. Using a simple adapter, most U.S. electrical devices can be used. The Meli\u251c\u00ed Habana provides a converter so that you\u0393\u00c7\u00d6ll be equipped to use standard U.S.-style two- or three-prong, 110-volt outlets, or European-style, round two-prong 220-volt outlets. Additionally, a 110-volt outlet for electric razors can be found in guest bathrooms. While it will be necessary for you to use a special adapter plug to fit the wall outlets featured locally, most consumer electronics no longer require the use of a voltage converter / transformer along with the adapter plug. (Most electronics now self-convert, and can actually",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Frequently Asked Questions | Hong Kong Tourism Board and public transport announcements, as well as most menus, are in both English and Chinese. Q: Will I be able to use my electrical equipment in Hong Kong? A: The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores.  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": true,
+        "final_answer": "The provided documents do not contain information about why American style electrical outlets have holes in both prongs."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information and abstains appropriately. No factual claims are made, so grounding is not applicable."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2645,
+      "completion_tokens": 149,
+      "total_tokens": 2794
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1176,
+        "completion_tokens": 53,
+        "total_tokens": 1229
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1469,
+        "completion_tokens": 96,
+        "total_tokens": 1565
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:58.909679",
+        "prompt_tokens": 1176,
+        "completion_tokens": 53,
+        "total_tokens": 1229,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:59.885610",
+        "prompt_tokens": 1469,
+        "completion_tokens": 96,
+        "total_tokens": 1565,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:58.130062",
+  "last_updated_at": "2026-04-18T18:42:59.886286"
+}

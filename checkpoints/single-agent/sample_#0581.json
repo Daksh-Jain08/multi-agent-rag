@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0581",
+  "query": "Where is the villi located in the small intestine?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "in finger\u0393\u00c7\u00f4like projections of mucosa, called villi, which increase the surface area of tissue available to absorb nutrients from ingested foodstuffs. The epithelial cells which line these villi have microvilli. The transport of nutrients across epithelial cells through the jejunum and ileum includes the passive transport of sugar fructose and the active transport of amino acids, small peptides, vitamins, and most glucose. The villi in the jejunum are much longer than in the duodenum or ileum. The pH in the jejunum is usually between 7 and 9 (neutral or slightly alkaline). The jejunum and the ileum are suspended by mesentery",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2004-07-03"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The small intestine is the site where most of the nutrients from ingested food are absorbed. The inner wall, or mucosa, of the small intestine is lined with simple columnar epithelial tissue. Structurally, the mucosa is covered in wrinkles or folds called plicae circulares, which are considered permanent features in the wall of the organ. They are distinct from rugae which are considered non-permanent or temporary allowing for distention and contraction. From the plicae circulares project microscopic finger-like pieces of tissue called villi (Latin for \"shaggy hair\"). The individual epithelial cells also have finger-like projections known as microvilli. The functions",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2003-07-14"
+    },
+    {
+      "doc_id": "d3",
+      "text": "space between microvilli at a cell's surface is called the intermicrovillous space. Intermicrovillous space increases with contractile activity of myosin II and tropomyosin, and decreases when contraction ceases. Thousands of microvilli form a structure called the brush border that is found on the apical surface of some epithelial cells, such as the small intestines. (Microvilli should not be confused with intestinal villi, which are made of many cells. Each of these cells has many microvilli.) Microvilli are observed on the plasma surface of eggs, aiding in the anchoring of sperm cells that have penetrated the extracellular coat of egg cells.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d4",
+      "text": "nutrients (including monosaccharide and amino acids) pass into the semipermeable villi through diffusion, which is effective only at short distances. In other words, increased surface area (in contact with the fluid in the lumen) decreases the average distance travelled by nutrient molecules, so effectiveness of diffusion increases. The villi are connected to the blood vessels so the circulating blood then carries these nutrients away. Enterocytes, along with goblet cells, represent the principal cell types of the epithelium of the villi in the small intestine. There, the villi and the microvilli increase intestinal absorptive surface area approximately 30-fold and 600-fold, respectively,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Villn\u251c\u2562\u251c\u0192 Villn\u251c\u2562\u251c\u0192 (; ; Ladin: \"Fun\u251c\u00bfs\") is a \"comune\" (municipality) in South Tyrol in northern Italy, located about northeast of the city of Bolzano. As of November 30, 2010, it had a population of 2,552 and an area of . The municipality of Villn\u251c\u2562\u251c\u0192 contains the \"frazioni\" (subdivisions, mainly villages and hamlets) Koll (Colle), St. Jakob (San Giacomo), St. Magdalena (Santa Maddalena), St. Peter (San Pietro), St. Valentin (San Valentino) and Teis (Tiso). Villn\u251c\u2562\u251c\u0192 borders the following municipalities: Brixen, Klausen, Lajen, Urtij\u251c\u00bdi, San Martin de Tor, Santa Cristina Gherd\u251c\u00bdina and Feldthurns. The emblem represents three piles of argent on azure,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1992-09-13"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Villi are finger-like projections of the mucosa that line the inner wall of the small intestine, increasing the surface area for nutrient absorption."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the location of villi in the small intestine but lacks citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2797,
+      "completion_tokens": 156,
+      "total_tokens": 2953
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1248,
+        "completion_tokens": 61,
+        "total_tokens": 1309
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1549,
+        "completion_tokens": 95,
+        "total_tokens": 1644
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:14.840010",
+        "prompt_tokens": 1248,
+        "completion_tokens": 61,
+        "total_tokens": 1309,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:15.842882",
+        "prompt_tokens": 1549,
+        "completion_tokens": 95,
+        "total_tokens": 1644,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:13.996163",
+  "last_updated_at": "2026-04-18T20:08:15.843484"
+}

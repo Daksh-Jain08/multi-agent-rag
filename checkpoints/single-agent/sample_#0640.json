@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0640",
+  "query": "Which film has David Niven as a member of its cast and has Peter Sellers as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "The Optimists of Nine Elms The Optimists of Nine Elms, also known as The Optimists, is a 1973 British drama film starring Peter Sellers and directed by Anthony Simmons, who also wrote the 1964 novel upon which the film is based. The film is about an old street musician (played by Sellers) who strikes up a friendship with two children - Liz, played by Donna Mullane, and her young brother Mark, played by John Chaffey. Neither of the child actors was featured in future films. A young Keith Chegwin also played a small role in the film. Mullane was recruited",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d2",
+      "text": "in the German version. Otto Preminger had directed the 1951 Broadway production of F. Hugh Herbert's play with Barbara Bel Geddes, Donald Cook, and Barry Nelson in the lead roles. Its successful run of 924 performances prompted him to contract with United Artists to finance and distribute a screen adaptation over which he would have complete control. He deferred his producer's and director's salaries in exchange for 75% of the film's profits. Preminger cast David Niven over the objection of studio executives, who felt the actor's career was in decline. The director cast him in a West Coast production of",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d3",
+      "text": "flop, \"Down Among the Z Men\". In 1954, Sellers was cast opposite Sid James, Tony Hancock, Raymond Huntley, Donald Pleasence and Eric Sykes in the British Lion Film Corporation comedy production, \"Orders Are Orders\". John Grierson believes that this was Sellers's breakthrough role on screen and credits this film with launching the film careers of both Sellers and Hancock. Sellers pursued a film career and took a number of small roles such as a police inspector in \"John and Julie\" (1955). He accepted a larger part in the 1955 Alexander Mackendrick-directed Ealing comedy \"The Ladykillers\" in which he starred opposite",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2010-11-24"
+    },
+    {
+      "doc_id": "d4",
+      "text": "in \"The Charge of the Light Brigade\" (1936) at Warners, an Imperial adventure film starring his one-time housemate Errol Flynn. Niven was fourth billed in \"Beloved Enemy\" (1936) for Goldwyn, supporting Merle Oberon with whom he became romantically involved. Universal used him in \"We Have Our Moments\" (1937) then he had another good support part in David O. Selznick's \"The Prisoner of Zenda\" (1937). Fox gave him the lead in a B picture, \"Dinner at the Ritz\" (1938) and he had a support part in \"Bluebeard's Eighth Wife\" (1938) directed by Ernst Lubitsch at Paramount. Niven was one of the",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1998-02-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Lead Actor in a Miniseries or Movie. The Life and Death of Peter Sellers The Life and Death of Peter Sellers is a 2004 British-American television film about the life of English comedian Peter Sellers, based on Roger Lewis's book of the same name. It was directed by Stephen Hopkins and stars Geoffrey Rush as Sellers, Miriam Margolyes as his mother Peg Sellers, Emily Watson as his first wife Anne Howe, Charlize Theron as his second wife Britt Ekland, John Lithgow as Blake Edwards, Stephen Fry as Maurice Woodruff and Stanley Tucci as Stanley Kubrick. The film won the Golden  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not mention any film that features both David Niven and Peter Sellers as cast members."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that no film featuring both actors is mentioned, and it is grounded as no documents support the contrary. Citations are empty as expected."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2488,
+      "completion_tokens": 150,
+      "total_tokens": 2638
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1097,
+        "completion_tokens": 54,
+        "total_tokens": 1151
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 96,
+        "total_tokens": 1487
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:30.033082",
+        "prompt_tokens": 1097,
+        "completion_tokens": 54,
+        "total_tokens": 1151,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:31.086517",
+        "prompt_tokens": 1391,
+        "completion_tokens": 96,
+        "total_tokens": 1487,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:29.179600",
+  "last_updated_at": "2026-04-18T20:10:31.086802"
+}

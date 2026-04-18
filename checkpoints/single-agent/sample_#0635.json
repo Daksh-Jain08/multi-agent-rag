@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0635",
+  "query": "Which song has Flo Rida as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Sugar\" and \"Be on You\" peaked in the top twenty of the \"Billboard\" Hot 100. \"R.O.O.T.S.\" peaked at number 8 in the US and number 5 in the UK. In 2009, Flo Rida also appeared on \"The X Factor\" winner Alexandra Burke's \"Bad Boys\", a number-one single in both Ireland, and the UK. The following year, a featured appearance on The Saturdays' \"Higher\" managed to reach number 10 in the UK. Flo Rida's next two studio albums were announced in 2010 as a two-part oeuvre. \"Only One Flo (Part 1)\", which was released in November 2010 to showcase melodic talent,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2019-02-14"
+    },
+    {
+      "doc_id": "d2",
+      "text": "on \"The Tonight Show Starring Jimmy Fallon\", a halftime performance at an NFL playoff game on January 16, and its appearance as WrestleMania 32's theme song on April 3, jumping places from 23\u0393\u00c7\u00f412 and becoming the track to gain the most digital sales in a week on the chart. Steep rises in performance continued as the song once again jumped to number five the following week with the issue dated February 9, 2016, becoming Flo Rida's seventh top 5 single in his native United States. The song has been certified quadruple Platinum in the US. The song sold 2,217,000 copies",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rida performed his new single \"\"I Cry\"\" on \"America's Got Talent\". In an interview with New York Music News, Flo Rida said he is currently recording his next album and that he has finished shooting the music video for \"Let It Roll\". On December 9, he performed \"Let it Roll\" and \"Wild Ones\" at the 2012 edition of WWE's Tribute to the Troops. In November 2012, he collaborated with Olly Murs for his song \"Troublemaker\". In June 2013, Flo Rida collaborated with Marc Mysterio on the song \"Booty on the Floor\" to benefit the families and victims of the Boston",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "it was also featured in The Rock's Road to Wrestlemania vignettes where he prepares for his match with John Cena at the event. Flo Rida performed the songs \"Good Feeling\" and \"Wild Ones\" live at the event to precede Rock's entrance for the match. With over 6.5 million copies sold globally, it is Flo Rida's fourth best selling and one of the top 250 best-selling singles. The \"Titanium\" project got Sia into Guetta's powerful inner circle, including Atlantic Records director of A&R Ben Maddahi, who then introduced Sia to Flo Rida and his team, yielding \"Wild Ones\". The song serves",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023-04-13"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mike Epps makes a cameo appearance in the video. The TV Version does not have the G-Force Clips, instead, people are jumping in a hall and Furtado is animated. Jump (Flo Rida song) \"Jump\" is the fourth official single taken from Flo Rida's second album \"R.O.O.T.S.\" Nelly Furtado makes an appearance on the song with an upbeat hook. Flo-Rida said: \"I used a whole different delivery on this one. We're talking about different situations to get people hype in the club. 'Jump!' Whether you're an athlete running in the stadium or you're in the club. Get hype!\" The song was  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Flo Rida has performed the songs \"Sugar\", \"Be on You\", \"R.O.O.T.S.\", \"Bad Boys\" (with Alexandra Burke), \"Higher\" (with The Saturdays), \"Only One Flo (Part 1)\", \"I Cry\", \"Let It Roll\", \"Wild Ones\", \"Troublemaker\" (with Olly Murs), \"Booty on the Floor\" (with Marc Mysterio), and \"Jump\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about songs performed by Flo Rida, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2639,
+      "completion_tokens": 231,
+      "total_tokens": 2870
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1136,
+        "completion_tokens": 130,
+        "total_tokens": 1266
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1503,
+        "completion_tokens": 101,
+        "total_tokens": 1604
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:19.973734",
+        "prompt_tokens": 1136,
+        "completion_tokens": 130,
+        "total_tokens": 1266,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:20.932449",
+        "prompt_tokens": 1503,
+        "completion_tokens": 101,
+        "total_tokens": 1604,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:18.924468",
+  "last_updated_at": "2026-04-18T20:10:20.932907"
+}

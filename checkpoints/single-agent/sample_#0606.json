@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0606",
+  "query": "What was the former name of st petersburg russia?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "stations and six parks. Older people sometimes use old names and old mailing addresses. The name Leningrad was heavily promoted in media, mainly in connection with the siege, so even authorities may call it \"Hero city Leningrad.\" Young people may use \"Leningrad\" as a vague protest against some social and economic changes. A popular ska punk band from Saint Petersburg is called Leningrad. Leningrad Oblast retained its name after a popular vote. It is a separate federal subject of Russia of which the city of St. Petersburg is the capital. In 1996, Vladimir Yakovlev was elected the head of the",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Peter the Great St. Petersburg Polytechnic University Peter the Great St. Petersburg Polytechnic University, abbreviated as SPbPU; also, formerly \"Saint Petersburg State Technical University\", abbreviated as SPbSTU) is a major Russian technical university situated in Saint Petersburg. Other former names included Peter the Great Polytechnic Institute () and Kalinin Polytechnic Institute (). The university is considered to be one of the top research facilities in Russian Federation and CIS member states and is a leading educational facility in the field of applied physics and mathematics, industrial engineering, chemical engineering, aerospace engineering and many other academic disciplines. On a national scale,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "the same year Ingermanland Governorate was further expanded to encompass the regions of Pskov, Novgorod and other towns of Western Russia. As with the rest of the governorates, neither the borders nor internal subdivisions of Ingermanland Governorate were defined; instead, the territory was defined as a set of cities and the lands adjacent to those cities. By another edict on June 3, 1710, the governorate was renamed St. Petersburg Governorate after the newly founded city of Saint Petersburg, and in 1721 the former Swedish Duchy of Ingria, and parts of the County of Kexholm and the County of Viborg and",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "selo of Urdom, was mentioned in the chronicles in 1323. In the end of the 14th century, the area was finally under control of Moscow. In the course of the administrative reform carried out in 1708 by Peter the Great, the area was split between Smolensk Governorate and Ingermanlandia Governorate (since 1710 known as Saint Petersburg Governorate). In 1727 Novgorod Governorate split off from Saint Petersburg Governorate. In 1775, Tver Viceroyalty was formed from the lands which previously belonged to Moscow and Novgorod Governorates, and the northeastern part of the area was transferred to Tver Viceroyalty, which in 1796 was",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Pereswetoff-Morath, a descendant of Russian noblemen, boyars, who had entered Swedish service in the first decades of the 17th century. Nyenskans, under the name Schl\u251c\u2562tburg, functioned in Russian service only for some weeks before it was retired as an active military garrison. In 1703, Peter decided to found Saint Petersburg, a brand new capital city for the Tsardom of Russia, from scratch in the Neva River delta on the land around Nyenskans. Peter had disliked Moscow, the largest city and historical capital of Russia, which he considered to be inconveniently located and too isolated from the rest of Europe. He  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2020"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The former names of St. Petersburg, Russia include Leningrad, Peter the Great Polytechnic Institute, and Kalinin Polytechnic Institute."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents mention Leningrad as a former name, but the other names are associated with a university, not the city itself. Therefore, the answer is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2395,
+      "completion_tokens": 165,
+      "total_tokens": 2560
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1049,
+        "completion_tokens": 57,
+        "total_tokens": 1106
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1346,
+        "completion_tokens": 108,
+        "total_tokens": 1454
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:19.544674",
+        "prompt_tokens": 1049,
+        "completion_tokens": 57,
+        "total_tokens": 1106,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:20.578453",
+        "prompt_tokens": 1346,
+        "completion_tokens": 108,
+        "total_tokens": 1454,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:18.624062",
+  "last_updated_at": "2026-04-18T20:09:20.578757"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0619",
+  "query": "Who did the voice of ariel in the little mermaid?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "2008. Boggess received positive reviews for her performance. She stayed with the show for a year and a half playing her final performance as Ariel on May 31, 2009. Boggess was replaced by understudy Chelsea Morgan Stock. While she was performing in \"The Little Mermaid\", Boggess starred opposite Kristin Chenoweth in the Encores! staged concert of \"Music in the Air\" in February 2009. From February 2010 to March 2011, Boggess starred as Christine Daa\u251c\u2310 in the sequel to \"The Phantom of the Opera\", \"Love Never Dies\". She also took part in the Rodgers and Hammerstein Prom at the Royal Albert",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "alluring animated character after Jessica Rabbit. In August 2011, Jodi Benson was honored as a Disney Legend for her work as Ariel and her other projects at Disney. A bi-annual convention called ArielCon is dedicated to the character. Ariel is an official \"ambassador\" for the \"Keep Our Oceans Clean\" campaign by Environmental Defense, The National Maritime Sanctuary, and The National Oceanic and Atmospheric Administration. From 2007 onwards, Disney launched an advertising campaign called \"Disney Dreams Portraits\" featuring celebrities dressed up as various Disney characters and photographed Annie Leibovitz; Julianne Moore was photographed as Ariel for this campaign. \"Hipster Ariel\" has",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2012-05-11"
+    },
+    {
+      "doc_id": "d3",
+      "text": "cast, Marshall said \"\"No, it's way too early. The Little Mermaid (1989 film) The Little Mermaid is a 1989 American animated musical fantasy film produced by Walt Disney Feature Animation and Walt Disney Pictures. Based on the Danish fairy tale of the same name by Hans Christian Andersen, \"The Little Mermaid\" tells the story of Ariel, a mermaid princess who dreams of becoming human. Written, produced, and directed by Ron Clements and John Musker, with music by Alan Menken and Howard Ashman (who also served as a co-producer), the film features the voices of Jodi Benson, Christopher Daniel Barnes, Pat",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d4",
+      "text": "palace. Clements and Musker had originally intended for Ursula to remain her original size at the end of the film. However, Katzenberg had just recently seen the film \"Die Hard\" (1988), which inspired him to request a \"bigger\" ending for \"The Little Mermaid\", and thus he instructed the writers to have Ursula grow much larger in size during her climactic fight with Ariel and Eric. Ursula is voiced by American actress and comedian Pat Carroll. Carroll was not the filmmakers' first choice for the role; Clements, Musker and Ashman had long debated who should voice the villainness, the casting of",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Angeles, titled \"The Little Mermaid in Concert\". The performances combined a screening of \"The Little Mermaid\" with live accompaniment by guest musicians, including Sara Bareilles (who performed as Ariel), Tituss Burgess, Darren Criss, Rebel Wilson and Norm Lewis (who performed as King Triton as a reprisal of his role in the stage adaptation). The four additional songs written for the stage adaptation were also incorporated into the presentation, accompanied by scenes of the film's original concept art. During the third and final performance, Jodi Benson joined the cast in lieu of Bareilles to reprise her original role as Ariel. The  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Jodi Benson voiced Ariel in the 1989 animated film. Sara Bareilles also performed as Ariel in \"The Little Mermaid in Concert\" before Jodi Benson reprised her role."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The claim about Jodi Benson voicing Ariel in the 1989 film is supported by d3, and d5 mentions Sara Bareilles performing as Ariel in concert, but these citations are missing."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2430,
+      "completion_tokens": 185,
+      "total_tokens": 2615
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1060,
+        "completion_tokens": 71,
+        "total_tokens": 1131
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1370,
+        "completion_tokens": 114,
+        "total_tokens": 1484
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:47.599854",
+        "prompt_tokens": 1060,
+        "completion_tokens": 71,
+        "total_tokens": 1131,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:48.936013",
+        "prompt_tokens": 1370,
+        "completion_tokens": 114,
+        "total_tokens": 1484,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:46.616633",
+  "last_updated_at": "2026-04-18T20:09:48.936421"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0543",
+  "query": "As far as muscle building goes, what are the differences between Whey protein powder, creatine, and casein? Could/should I use all three?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Best Protein Powder for Building Lean Muscle Mass?|Muscle Radio has been broken down, the faster it will take to digest. Other proteins to consider include Creatine has been found to raise energy levels as well as muscle weight. The muscles are able to perform much better as they are more energized. It stimulates the development of muscles by raising the amount of insulin in the system. It in addition keeps the muscle tissues hydrated. Casein can be used together with whey for use after training. It is quite effective when it comes to promotion of muscle growth. Soy proteins will not digest as fast but will have the hormones",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Healthy 'N Fit Muscular Weight Gain 2 - Vanilla - 4.4 Lb. - Muscle Building Online | Organic Life Source a healthy diet and exercise program. Pro-Aminoproprietary blend of immediate and extended release Anabolic Proteins, Peptides, and Amino Acids [Including: Highest Bioavailability Whey Protein Complex (containing Whey Protein Concentrate, Isolate, and Hydrolysate - each rich in Beta-Lactoglobulins, Serum Albumin, and Lactoferrin), Calcium Caseinate (containing Alpha, Beta, and Kappa Caseins), Egg White Protein, L-Glutamine], New Tech2.0 complex Pro-CarboBlend (Concentrated Glucose Polymers, Brown Rice Powder, Inulin, Ribose), Creatine Monohydrate, Natural Flavors, Stevia Herb Extract, Papain and Bromelain (Natural Plant-Derived Proteolytic Digestive Enzymes), Lactase, Soy Lecithin. CONTAINS: MILK, EGG, AND SOY. Whey and Casein are milk derivatives. Soy lecithin helps to naturally instantize",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2017-09-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What's The Difference Between Whey And Casein Protein? What's The Difference Between Whey And Casein Protein? Wondering which of these proteins best suits your needs? Get all your questions answered with this side-by-side comparison. Whey and casein are two of the most popular protein supplements on the market, and for good reason. They're both high-quality, highly bioavailable, complete proteins that are particularly rich in branched-chain amino acids (BCAAs), which makes them great for muscle growth and repair. However, despite both coming from milk, there are distinct differences between these muscle-building brothers. Both whey and casein are dairy-based proteins derived from the cheese-making process. In fact, all dairy products",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d4",
+      "text": "What The Heck Is Creatine And Should You Be Taking It? dystrophy who took creatine had an 8.5% increase in muscle strength compared to those who didn\u0393\u00c7\u00d6t take any. Additional research shows that taking creatine everyday for up to 16 weeks improved muscle strength and reduced fatigue in people with muscular dystrophy. Creatine is not your typical protein powder, per say. In fact, it\u0393\u00c7\u00d6s not really a protein powder at all. Sure, it\u0393\u00c7\u00d6s made of amino acids, and it may help you bulk up and boost your overall athletic performance, but it serves a different function than most protein powders. For example, whey protein can help grow and repair your muscles,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Whey Protein Powder: Benefits, Types and Best Brands | CalorieBee found it useful and thanks for reading. When Should I Take Whey Protein? Should You Be Using Casein or Whey Protein? by Alex Kearney0 Best Vegetarian & Vegan Protein Powders: 4 Great, Meat-Free Options 5 Awesome Benefits of Creatine Monohydrate Sorry to hear about your illness Lorelei; but glad you have found whey protein to be so beneficial. I have an illness that affects my muscles and whey powder was a lifesaver for me during a bad flare up a few years ago. I whipped it in with yogurt and juice and it was delicious. It is ideal as a  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Whey protein and casein are both high-quality, dairy-based proteins rich in BCAAs, beneficial for muscle growth and repair. Whey digests quickly, while casein digests slower. Creatine is not a protein powder but is made of amino acids; it can increase energy levels, muscle weight, and improve muscle strength and reduce fatigue. Whey and casein can be used together after training. Creatine and protein powders serve different functions but can be used together to support muscle building and performance."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about whey, casein, and creatine, but lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2793,
+      "completion_tokens": 223,
+      "total_tokens": 3016
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1212,
+        "completion_tokens": 130,
+        "total_tokens": 1342
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1581,
+        "completion_tokens": 93,
+        "total_tokens": 1674
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:57.064297",
+        "prompt_tokens": 1212,
+        "completion_tokens": 130,
+        "total_tokens": 1342,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:58.170359",
+        "prompt_tokens": 1581,
+        "completion_tokens": 93,
+        "total_tokens": 1674,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:55.942178",
+  "last_updated_at": "2026-04-18T20:06:58.171061"
+}

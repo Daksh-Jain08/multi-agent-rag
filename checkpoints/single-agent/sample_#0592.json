@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0592",
+  "query": "Who won the most gold medals in the 2014 commonwealth games?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "condemned by walking athletes. The meet was dominated, in terms of golds won, by Kenya, Jamaica who won 10 gold medals apiece and Australia with eight gold medals, though gold and other medals were distributed among 21 teams, and England took away the most medals, 27 including 13 silver medals. Kenya dominated the distance events, and Jamaica the sprint events, but both also won throwing events for the first time. Host nation Scotland won 4 medals, including gold for Libby Clegg in the T(12) 100 m for athletes with a vision impairment. Nigeria's Blessing Okagbare took two golds and a",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "(ranked second in the Commonwealth) and James Steacy (ranked first) did not meet the qualification standard but were still nominated to the team. All other athletes met the qualification standard for their events. The team finished the games with a total medal count of seventeen medals, including five gold. The seventeen medals represents a tie for the most medals won by the country in the sport at the Commonwealth Games. On May 8, 2014, Badminton Canada named a team of eight athletes. The team won one medal, a gold by Michelle Li. The medal was the first individual badminton title",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "1986\u0393\u00c7\u00f42014, winning 2 gold, 3 silver and 1 bronze. Nauruan weightlifter Marcus Stephen won twelve medals at the Games between 1990 and 2002, of which seven gold, and was elected President of Nauru in 2007. His performance has helped place Nauru (the smallest independent state in the Commonwealth, at 21 km and with a population of fewer than 9,400 in 2011) in nineteenth place on the all-time Commonwealth Games medal table. Ian Thorpe, Australian swimmer (now retired), has won 10 Commonwealth Games gold medals and 1 silver medal. At the 1998 Commonwealth Games in Kuala Lumpur, he won 4 gold",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d4",
+      "text": "4th place group B and 5th place group A played 5th place group B) to determine the fifth through to tenth-place rankings. The winners of the semifinals qualified for the gold medal match whilst the losers played in the bronze medal match. England defeated New Zealand 4\u0393\u00c7\u00f42 on penalties after a 3\u0393\u00c7\u00f43 tie after normal time to take the bronze medal, whilst in the final Australia defeated India 4-0 after normal time to take their fifth consecutive men's hockey gold medal at the Commonwealth Games. Hockey at the 2014 Commonwealth Games \u0393\u00c7\u00f4 Men's tournament The men's field hockey event at",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "India at the 2010 Commonwealth Games India hosted the 2010 Commonwealth Games which were held in Delhi from 3 to 14 October 2010. India won 101 medals in total, including 38 Gold medals, enabling it to finish the Games at second position behind Australia. For the first time in the history of the Games India won over 100 medals in total. For the first time in the history of the Games, India won a medal in Gymnastics, where Ashish Kumar won a Silver and a Bronze. And it was after a gap of 52 years that India won a Gold  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The documents do not explicitly state which country won the most gold medals in the 2014 Commonwealth Games. Document d1 mentions Kenya and Jamaica won 10 gold medals each, and Australia won eight, but does not specify if this is the highest number. Document d5 refers to the 2010 games, not 2014."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.3,
+        "feedback": "The answer claims the documents do not explicitly state the winner, but document d1 does mention Kenya and Jamaica winning 10 gold medals each, and Australia winning eight. The answer should have identified these as the highest mentioned, even if not definitively the most."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2593,
+      "completion_tokens": 224,
+      "total_tokens": 2817
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1123,
+        "completion_tokens": 107,
+        "total_tokens": 1230
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1470,
+        "completion_tokens": 117,
+        "total_tokens": 1587
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:38.171334",
+        "prompt_tokens": 1123,
+        "completion_tokens": 107,
+        "total_tokens": 1230,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:39.273049",
+        "prompt_tokens": 1470,
+        "completion_tokens": 117,
+        "total_tokens": 1587,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:37.135257",
+  "last_updated_at": "2026-04-18T20:08:39.273419"
+}

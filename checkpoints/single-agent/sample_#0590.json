@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0590",
+  "query": "Where did the 2017 eclipse start and end?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "visible within a narrow corridor wide, crossing fourteen of the contiguous United States: Oregon, Idaho, Montana, Wyoming, Nebraska, Kansas, Iowa, Missouri, Illinois, Kentucky, Tennessee, Georgia, North Carolina, and South Carolina. It was first seen from land in the U.S. shortly after 10:15 a.m. PDT (17:15 UTC) at Oregon's Pacific coast, and then it progressed eastward through Salem, Oregon; Idaho Falls, Idaho; Casper, Wyoming; Lincoln, Nebraska; Kansas City, Missouri; St. Louis, Missouri; Hopkinsville, Kentucky; and Nashville, Tennessee; before reaching Columbia, South Carolina about 2:41 p.m.; and finally Charleston, South Carolina. A partial eclipse was seen for a greater time period, beginning",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Solar eclipse of December 26, 2019 An annular solar eclipse will occur on December 26, 2019. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image of the Sun for a viewer on Earth. An annular solar eclipse occurs when the Moon's apparent diameter is smaller than the Sun's, blocking most of the Sun's light and causing the Sun to look like an annulus (ring). An annular eclipse appears as a partial eclipse over a region of the Earth thousands of kilometres wide. The total annular eclipse will be visible",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Solar eclipse of September 26, 2117 A total solar eclipse will occur on September 26, 2117. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image of the Sun for a viewer on Earth. A total solar eclipse occurs when the Moon's apparent diameter is larger than the Sun's, blocking all direct sunlight, turning day into darkness. Totality occurs in a narrow path across Earth's surface, with the partial solar eclipse visible over a surrounding region thousands of kilometres wide. It will be visible at sunrise across eastern Asia and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2005-02-08"
+    },
+    {
+      "doc_id": "d4",
+      "text": "in Saudi Arabia, Qatar, United Arab Emirates, Oman, southern India, Sri Lanka, Sumatra, Malaysia, Maldives, Indonesia, Singapore, parts of Borneo, other parts of Southeast Asia, some parts of Australia, and Guam. Population centers in the path of the total annular eclipse include Kozhikode, Coimbatore, Jaffna, Trincomalee, Sibolga, Batam, Singapore, Singkawang and Guam. Cities such as Doha, Madurai, Pekanbaru, Dumai and Kuching will narrowly miss the annular path. <BR>Animated path Astronomers Without Borders collected eclipse glasses for redistribution to Latin America and Asia for their 2019 eclipses from the Solar eclipse of August 21, 2017. Solar eclipse of December 26, 2019",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1994-05-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Solar eclipse of November 13, 2012 A total solar eclipse took place on 13\u0393\u00c7\u00f414 November 2012 (UTC). Because it crossed the International Date Line it began in local time on November 14 west of the date line over northern Australia, and ended in local time on November 13 east of the date line near the west coast of South America. Its greatest magnitude was 1.0500, occurring only 12 hours before perigee, with greatest eclipse totality lasting just over four minutes. A solar eclipse occurs when the Moon passes between Earth and the Sun, thereby totally or partly obscuring the image  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2018-03-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The 2017 eclipse was first seen from land in the U.S. in Oregon shortly after 10:15 a.m. PDT and progressed eastward, ending in Charleston, South Carolina around 2:41 p.m."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents do not contain the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2608,
+      "completion_tokens": 169,
+      "total_tokens": 2777
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1141,
+        "completion_tokens": 86,
+        "total_tokens": 1227
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1467,
+        "completion_tokens": 83,
+        "total_tokens": 1550
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:33.882392",
+        "prompt_tokens": 1141,
+        "completion_tokens": 86,
+        "total_tokens": 1227,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:34.893457",
+        "prompt_tokens": 1467,
+        "completion_tokens": 83,
+        "total_tokens": 1550,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:32.972155",
+  "last_updated_at": "2026-04-18T20:08:34.894041"
+}

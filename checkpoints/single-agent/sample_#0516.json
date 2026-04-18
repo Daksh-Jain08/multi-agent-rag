@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0516",
+  "query": "When did the disney jungle book come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "York City and Los Angeles. The six-channel surround print that Porter created was also used as the basis for the master soundtrack of the film's DVD release on November 14, 2000. For Walt Disney Pictures' 2016 film version of \"The Jungle Book\", director Jon Favreau and composer John Debney sought to recreate the Fantasound experience Disney had in mind. When mixing the soundtrack in Dolby Atmos, as Favreau said, \"we isolated instruments when we could. And in the sound mix, we created a Fantasound mix. If you see the film in Atmos, you will feel that there are instruments that",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "in Borneo. The Walt Disney Company was the first organization to license Johnson film from the Martin and Osa Johnson Safari Museum for the 1976 program \"Filming Nature's Mysteries.\" Disney again licensed Johnson film as part of the \"Rafiki's Planet Watch\" at Disney's Animal Kingdom when it opened April 22, 1998. The architects and Disney team developing a new \"safari lodge\" borrowed Johnson films from the museum in 1997 and 1998 for research and inspiration. Disney's Animal Kingdom Lodge opened April 16, 2001. Included is an ongoing exhibit of 36 Johnson photographs along with an original copy of Osa Johnson's",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "the year in North America with estimated rentals of $4.75 million. A featurette adaptation of one of A. A. Milne's \"Winnie-the-Pooh\" stories, \"Winnie the Pooh and the Honey Tree\", was released in 1966, to be followed by several other \"Pooh\" featurettes over the years and a full-length compilation feature, \"The Many Adventures of Winnie the Pooh\", which was released in 1977. Walt Disney died in December 1966, ten months before the studio's next film \"The Jungle Book\", was completed and released. The film was a success, finishing 1967 as the fourth highest-grossing film of the year. Following Walt Disney's death,",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d4",
+      "text": "by Walt Disney Pictures, the film received generally positive reviews and grossed $43.2 million in theaters against a $30 million budget. In 1886, during the British Raj in India, Mowgli is the 5-year-old son of the widowed Nathoo, whose wife died in childbirth. Nathoo works as a tour guide. On one of his tours, he is leading Colonel Geoffrey Brydon and his men as well as Brydon's 5-year-old daughter Katherine. Unfortunately, fellow tour guide Buldeo and a few soldiers kill several animals for sport. This enrages Shere Khan, a tiger who serves as the jungle's keeper and begins to pursue",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1993-09-08"
+    },
+    {
+      "doc_id": "d5",
+      "text": "one-shot \"Marvel Illustrated: The Jungle Book\" (2007). Bill Willingham's comic book series, \"Fables\", features \"The Jungle Book\"s Mowgli, Bagheera, and Shere Khan. Many films have been based on one or another of Kipling's stories, including \"Elephant Boy\" (1937), the (Mowgli) published as \"Adventures of Mowgli\" in the US, an animation released between 1967 and 1971, and combined into a single 96-minute feature film in 1973; Chuck Jones's made for-TV cartoons \"Rikki-Tikki-Tavi\" (1975), \"The White Seal\" (1975), and \"Mowgli's Brothers\" (1976). Many films, too, have been made of the book as a whole, such as Zolt\u251c\u00edn Korda's 1942 film, Disney's 1967  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2004-07-13"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Disney animated film \"The Jungle Book\" was released in 1967."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The documents mention \"The Jungle Book\" being released in 1967, but the answer lacks citation."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2715,
+      "completion_tokens": 154,
+      "total_tokens": 2869
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1212,
+        "completion_tokens": 51,
+        "total_tokens": 1263
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1503,
+        "completion_tokens": 103,
+        "total_tokens": 1606
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:56.496528",
+        "prompt_tokens": 1212,
+        "completion_tokens": 51,
+        "total_tokens": 1263,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:57.622628",
+        "prompt_tokens": 1503,
+        "completion_tokens": 103,
+        "total_tokens": 1606,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:55.258178",
+  "last_updated_at": "2026-04-18T20:05:57.623105"
+}

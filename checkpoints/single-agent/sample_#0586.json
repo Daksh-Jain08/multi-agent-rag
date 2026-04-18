@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0586",
+  "query": "why do humans need to eat many different kind of foods to get their vitamins etc but large animals like cows only need grass to survive?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ayurveda and vitamin B12 | Dogwood School of Botanical Medicine B12 is because the ability to synthesize it is only found in bacteria and certain genera within the archaea. Despite its limited production within these microorganisms, vitamin B12 remains an essential nutrient for all animals, and the only way for this vital nutrient to move up and through the food web is if one animal eats another. It may come as a surprise to learn that even \u0393\u00c7\u00ffvegetarian\u0393\u00c7\u00d6 animals such as cows are thus also insectivores, consuming a significant volume of insects with each mouthful of fresh green grass they take. And lucky for the cows, who need vitamin B12",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "How much vitamin B12 do I need? much vitamin b12 do I need? Human and animal organisms cannot produce B12. This essential vitamin is only produced through microbial fermentation by certain bacteria and archaea. Some B12 producing bacteria live as symbionts in our digestive tract and small quantities of it are provided by them. The rest is consumed via the food we eat. Now, what kinds of foods are to be consumed for healthy levels of the vitamin B12? Animal foods are found to be the best and greatest sources of the same, including organic grass-fed dairy products, cage-free eggs, wild-caught fish, grass-fed meat, organ meat in",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d3",
+      "text": "View topic - Vitamin D and the need for K2 \u0393\u00c7\u00f3 Overcoming Multiple Sclerosis the large intestine, and there is some evidence that broad-spectrum antibiotics can contribute to K2 deficiency (27, 28). Unfortunately, the average intake of this important nutrient is incredibly low in the modern diet. Vitamin K2 is mainly found in certain animal foods and fermented foods, which most people don\u251c\u00f3\u0393\u00e9\u00bc\u0393\u00e4\u00f3t eat much of. Rich animal sources include high-fat dairy products from grass-fed cows, liver and other organs, as well as egg yolks (29). Vitamin K is fat-soluble, which means low-fat and lean animal products don\u251c\u00f3\u0393\u00e9\u00bc\u0393\u00e4\u00f3t contain much of it. Animal foods contain the MK-4 subtype, while fermented foods like sauerkraut, natto",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2020-01-21"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Discovery of vitamin - Hainan Huayan Collagen Biotech Co.,Ltd of vitamins in the sea. They are finding some places that are abundant with them and others that are vitamin deserts. It is possible that the difference influences not just bacteria and algae, but the animals that feed on them. Vitamins flow in complex routes, not just in the ocean, but on land. We humans can\u0393\u00c7\u00d6t make our own supply of vitamin B12, for example, so we need to get it from food. One way is to eat meat like beef, which contains B12. It turns out that the cows and other animals that we consume don\u0393\u00c7\u00d6t make B12 intheir",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Vitamins\u0393\u00c7\u00d6 Old, Old Edge have scientists made measurements of vitamins in the sea. They are finding some places that are abundant with them and others that are vitamin deserts. It is possible that the difference influences not just bacteria and algae, but the animals that feed on them. Vitamins flow in complex routes, not just in the ocean, but on land. We humans can\u0393\u00c7\u00d6t make our own supply of vitamin B12, for example, so we need to get it from food. One way is to eat meat like beef, which contains B12. It turns out that the cows and other animals that we consume  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2011"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Humans cannot produce vitamin B12 and must obtain it from their diet, primarily from animal products. Cows, however, are able to obtain vitamin B12 through the bacteria in their digestive system, and some sources suggest they consume insects with their grass, which also contain B12."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about vitamin B12 sources for humans and cows but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2935,
+      "completion_tokens": 186,
+      "total_tokens": 3121
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1302,
+        "completion_tokens": 90,
+        "total_tokens": 1392
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1633,
+        "completion_tokens": 96,
+        "total_tokens": 1729
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:25.420476",
+        "prompt_tokens": 1302,
+        "completion_tokens": 90,
+        "total_tokens": 1392,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:26.616577",
+        "prompt_tokens": 1633,
+        "completion_tokens": 96,
+        "total_tokens": 1729,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:24.459979",
+  "last_updated_at": "2026-04-18T20:08:26.617876"
+}

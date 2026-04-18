@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0588",
+  "query": "why is \"night vision\" green?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why is night vision green? Why is night vision green? | Optics and Lab Equipment If you have ever watched a movie in which night vision was used, or you have ever used a device that takes advantage of this technology to help people see in the dark, you have most probably noticed that the image shown through such devices is always green. The two come together so well that the moment someone mentions night vision binoculars to you, that instantly brings in front of your eyes that green image you are so familiar with. The advantages of seeing what our eyes can\u0393\u00c7\u00d6t see in the dark are tremendous. For military applications, as well as",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "LED Flashlights and Their Affect on Night Vision | NAET Europe flashlights instead of white in order to preserve and protect their night vision. Preserving Your Night Vision Now that you have a better idea as to what some of the inner-workings of the human eye are, it\u0393\u00c7\u00d6s time to choose the best LED flashlight for your night vision needs. Though most people choose LED flashlights that mimic daylight due to being more comfortable in the day time (and our cones can pick up on both color and detail), it\u0393\u00c7\u00d6s time to think about what flashlight is best for your night vision. There are LED flashlights that can emit yellow-green, blue-green,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Green Dot Vs Red Dot: A Comparison Guide for Beginners between the red dot and the green dot optic is just a laser, so it will not matter which size you choose. You will get the benefit of looking through the window with both your eyes open. As the experiments are carried out by the experts to check which color is best for the night vision. They tested every color, and they found that all the colors make the night vision image and that are more accurately recognized. But it is also said that in the night vision the green color suits the best and you can save more energy",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "LED Flashlights and Their Affect on Night Vision | NAET Europe vision shape after the eye is exposed to bright light. The light spectrum where rods and cones are more sensitive is also another interesting component of the inner-workings of the human eyeball. On one side, the yellow-green section of the light spectrum, cones are more sensitive, hence why newer crosswalk signs are a bright yellow-green color so that they can stand out to drivers. On the other side, the blue-green section of the light spectrum, rods are more sensitive. So, colors such as red are harder for rods to pick up on. Hence why many outdoorsmen prefer using colored LED",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2003-11-13"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Podcast:Precipice - Battlestar Wiki and ultimately helps them to play the role in a way they like. You need me to stop... RDM: All this night vision footage here, this green stuff. They really shot this with a real night scope. This is really the thing, we're not faking this in post. They really used night scopes to shoot this. This was Sergio's idea. It wasn't in the script and Sergio called and wanted to do it. He had this vision of doing this sequence in the green light, in the night vision lens, and what I think of this scene... it's fantastic. I  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1997"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Night vision is often green because experiments have shown that the green color is best suited for night vision, allowing for more accurate recognition of images and saving energy. The human eye's rods are more sensitive to the blue-green section of the light spectrum, while cones are more sensitive to the yellow-green section."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims not supported by any citations. The provided documents do not explain why night vision is green."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2490,
+      "completion_tokens": 184,
+      "total_tokens": 2674
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1077,
+        "completion_tokens": 96,
+        "total_tokens": 1173
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 88,
+        "total_tokens": 1501
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:29.673856",
+        "prompt_tokens": 1077,
+        "completion_tokens": 96,
+        "total_tokens": 1173,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:30.741412",
+        "prompt_tokens": 1413,
+        "completion_tokens": 88,
+        "total_tokens": 1501,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:28.666456",
+  "last_updated_at": "2026-04-18T20:08:30.741854"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0613",
+  "query": "What are the dates of birth of persons that played for the Kitsap Pumas?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Santiago Mes\u251c\u2502n Santiago Esteb\u251c\u00edn Mes\u251c\u2502n (born 25 January 1968 in San Miguel de Tucum\u251c\u00edn) is a former Argentine rugby union player. He played as a fullback. M\u251c\u2310son started his career at Tucum\u251c\u00edn Rugby Club, in 1976/77, joining the first category in 1985/86. He would play there until 1992/93. He moved then to S.I.C., where he played from 1993/94 to 1998/99, when he finished his career. He won the Nacional de Clubes in 1994. He also won the URBA Championship in 1994 and 1997. M\u251c\u2310son had 34 caps for Argentina, from 1987 to 1997, scoring 8 tries, 68 conversions, 63 penalties",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "to upset the two-time defending Cup champions. Back in league play, Kitsap stayed undefeated for much of the season, clinching a second division championship with a scoreless draw against Abbotsford. They lost their first ever international friendly \u0393\u00c7\u00f4 a 1\u0393\u00c7\u00f40 defeat against Football League Two side Port Vale \u0393\u00c7\u00f4 and their last game of the season against Victoria Highlanders, missing another chance to run the table for the regular season. The playoffs were a much different story, as Kitsap defeated Ventura County Fusion 1\u0393\u00c7\u00f40 and upset the Fresno Fuego 1\u0393\u00c7\u00f40 to win its first ever Western Conference title. The match",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d3",
+      "text": "#gopumas #pumas4life #pumasfamily\"></ref> Rassie Jansen van Vuuren Erasmus Albertus Jansen van Vuuren (born 23 May 1985) is a South African rugby union player, whose usual position is prop or hooker. After representing the Pumas at the Under-18 Craven Week in 2003, he joined the Academy, playing for them at Under-20 and Under-21 level in 2004 and 2005. He had a short spell at French Rugby Pro D2 side Gaillac during their 2006\u0393\u00c7\u00f407 season before returning to the Golden Lions. In 2007 and 2008, he made first class appearances for the , and in South African rugby before returning to France,",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "penalty kicks. Dustyn Brim made a save while Jamel Wallace converted the winning penalty attempt. But the Pumas did not have enough energy to outlast the eventual PDL national champions, losing 2\u0393\u00c7\u00f41 to the Portland Timbers U23's. That fall, the team entered the Professional Arena Soccer League for the 2010\u0393\u00c7\u00f411 indoor season, The Pumas made a strong start to the 2011 season, but their early results were matched by Portland Timbers U23's, who also made a strong start to the season, with both teams tied in all statistical qualifiers for the U.S. Open Cup. Instead of holding a lottery, the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2001"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Juan Mart\u251c\u00a1n Hern\u251c\u00edndez Juan Mart\u251c\u00a1n Hern\u251c\u00edndez (born August 7, 1982 in Buenos Aires) is a retired Argentine rugby union player. A mainstay of the Argentina national team \"The Pumas\". He played for the club Toulon in the French Top 14 competition. His 2010 move to Racing brought him back to the city where he had begun his professional career in 2003 with Stade Fran\u251c\u00baais. He has also played in the South African Currie Cup with the , and was slated to play with the Sharks in Super Rugby in 2010, but suffered a back injury that knocked him out of  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Juan Mart\u00edn Hern\u00e1ndez was born on August 7, 1982. Albertus Jansen van Vuuren was born on May 23, 1985. Santiago Mes\u00edn was born on January 25, 1968."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. The query asks for dates of birth of players for 'Kitsap Pumas', but the provided documents mention 'Pumas' in the context of rugby teams, not the specific soccer team 'Kitsap Pumas'."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3190,
+      "completion_tokens": 211,
+      "total_tokens": 3401
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1432,
+        "completion_tokens": 91,
+        "total_tokens": 1523
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1758,
+        "completion_tokens": 120,
+        "total_tokens": 1878
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:34.373150",
+        "prompt_tokens": 1432,
+        "completion_tokens": 91,
+        "total_tokens": 1523,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:35.798588",
+        "prompt_tokens": 1758,
+        "completion_tokens": 120,
+        "total_tokens": 1878,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:33.351250",
+  "last_updated_at": "2026-04-18T20:09:35.798776"
+}

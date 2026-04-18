@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0626",
+  "query": "Are muscle \"knots\" real? If so, what are they?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Living Without Muscle Knots \u0393\u00c7\u00f4 British & Irish Boxing Authority are going to start with the WHY. Why do I get muscle knots? The four main reasons are: 1) injuries have created imbalances or the knot is to stabilize an injured area, 2) exceeding the body\u0393\u00c7\u00d6s capabilities, 3) testosterone deficiencies, 4) excessive use of dominant arm creating imbalances. We then need to establish what each of these mean in relation to the aging muscles. So I\u0393\u00c7\u00d6m going to address each one with pros and cons and I\u0393\u00c7\u00d6ll go in reverse order because it is best scenario to worst. #4 Excessive use of dominant arm creating imbalances: So if you are",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2006-06-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "There\u0393\u00c7\u00d6s a New Body Part! \u0393\u00c7\u00f4 Bodywork Brooklyn any kind of authority, but there\u0393\u00c7\u00d6s just so much we don\u0393\u00c7\u00d6t know about the body. Even the muscle knot, the pinnacle of a massage therapist\u0393\u00c7\u00d6s purview, isn\u0393\u00c7\u00d6t easily explained. I was taught that muscle knots are trigger points, a widely accepted explanation. But trigger points themselves are murky in definition and a subject of doubt these days. I\u0393\u00c7\u00d6ve heard some people question whether knots are even real. More often than not, I think of a \u0393\u00c7\u00a3knot\u0393\u00c7\u00a5 as a place where tissues get stuck, a snag in a figurative sweater. I like this imagery, but it\u0393\u00c7\u00d6s really just that \u0393\u00c7\u00f6 imagery,",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Foam Rolling: What are we actually doing? - UBE Physical Therapy and Performance cause subsequent pain. Knots in the muscle can occur for a variety of reasons whether it is trauma, illness, inactivity, or from your workouts. When there are several trigger points within the larger muscle it can affect the tension on the surrounding joints. As you can imagine, if there are multiple trigger points in the muscle, the muscle is effectively shorter, thereby pulling more at the joint. So, when you are foam rolling, for example, you are not actually stretching the fascia, however, you are manipulating the tissue to make it more malleable in order to address the muscle knot.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2001"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Wellness Blog medical/chiropractic history and provide an orthopedic and neurologic exam and the various treatment modalities available. (more\u0393\u00c7\u00aa) Muscle Knots: What Are They? It's really common for you to feel muscle knots in your neck and shoulders when you are sitting for long periods of time. Many of our patients who come to us experience pain in between their shoulder blades. When they reach back to feel what's wrong, they can feel the dense area of tight muscles. These are knots. Knots in your muscles are also known as trigger points and, if you press on one, it is usually tender. If",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Migraines: Home remedies that work, according to real people For those who suffer from tension migraines (\u0393\u00a3\u00ef\u2261\u0192\u00c5\u255dhello, stress), dry needling targets muscles that become stiff or tight. Physical therapist Brittany Elliot, who was specially trained in the procedure, said the thin, solid needles have no fluid transfer, as with injections, and are inserted directly into the knots in the muscles. \u0393\u00c7\u00a3The needle insertion itself can cause a small muscle contraction, which is what breaks up the knots and releases the tension in the muscle,\u0393\u00c7\u00a5 Elliot said. The needle targets those tight muscles that have palpable trigger points that can cause dysfunction and referred pain that lead to headaches and  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1990-05-03"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Muscle knots, also known as trigger points, are palpable areas of tight muscles that can cause pain and dysfunction. They can occur due to injuries, overuse, imbalances, trauma, illness, or inactivity. Treatments like dry needling can be used to break up these knots and release tension."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about muscle knots, their causes, and treatments, but lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3138,
+      "completion_tokens": 185,
+      "total_tokens": 3323
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1404,
+        "completion_tokens": 90,
+        "total_tokens": 1494
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1734,
+        "completion_tokens": 95,
+        "total_tokens": 1829
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:02.318674",
+        "prompt_tokens": 1404,
+        "completion_tokens": 90,
+        "total_tokens": 1494,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:03.265746",
+        "prompt_tokens": 1734,
+        "completion_tokens": 95,
+        "total_tokens": 1829,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:01.214355",
+  "last_updated_at": "2026-04-18T20:10:03.266233"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0663",
+  "query": "Which film has Tyrone Power as a member of its cast and has Loretta Young as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Steel Magnolias\" (the role originated by Olympia Dukakis). This version has an all African American A-list cast, including Queen Latifah as M'Lynn, Jill Scott as Truvy, Condola Rash\u2500\u00fcd as Shelby, Adepero Oduye as Annelle, and Alfre Woodard as Ouiser. In 2016, Rashad was cast as a recurring guest star in the role of Diana DuBois in the third season of the Lee Daniels-produced \"Empire\" television series on Fox. In 2017, Rashad portrayed Bishop Yvette A. Flunder, pastor of The City of Refuge Church in San Francisco, CA, as past of the Dustin Lance Black mini-series \"When We Rise\". Her appearance",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2023-02-14"
+    },
+    {
+      "doc_id": "d2",
+      "text": "\"The Late George Apley\" (1944). Between 1915 and 1943, she appeared in about motion pictures. She remains perhaps best-remembered as a character actress during Hollywood's golden age, often seen in roles as \"firm but compassionate matriarchs\". She was known for her roles as Ginger Rogers' mother in \"The Story of Vernon and Irene Castle\" (1939), Tyrone Power's mother in the adventure film \"The Mark of Zorro\" (1940), and Henry Fonda's mother in Preston Sturges' screwball comedy \"The Lady Eve\" (1941). She retired from film business in 1943, but managed to play a role in the television series \"Lux Video Theatre\"",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "was developing the project with Arthur Hornblow Jr. and in 1955 Gina Lollobrigida was signed. United Artists agreed to distribute the following year. Small provided 75% of the film's anticipated $6 million budget, with United Artists provided 25%. Lollobrigida came on board as financial partner, getting a percentage of the profits. The role of Solomon had been turned down by Tyrone Power and Yul Brynner; however, Power agreed to accept the part after the script was rewritten. Power's involvement meant the film became a co-production with Power's Copa Productions, headed by Ted Richmond. In the interim, Small and Hornblow had",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d4",
+      "text": "perform in \"The Miracle Man\". Tyrone Power Jr., as he was then known, decided to continue his pursuit of an acting career. He went door to door, trying to find work as an actor, and, while many contacts knew his father well, they offered praise for his father but no work for his son. He appeared in a bit part in 1932 in \"Tom Brown of Culver\", a movie starring actor Tom Brown. Power's experience in that movie did not open any other doors, however, and, except for what amounted to little more than a job as an extra in",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "actor. He was forced to take on assignments that did not appeal to him, such movies as \"American Guerrilla in the Philippines\" (1950) and \"Pony Soldier\" (1952). In 1950 he traveled to England to play the title role in \"Mister Roberts\" on stage at the London Coliseum, bringing in sellout crowds for twenty-three weeks. Another disappointing role for Power, \"Diplomatic Courier\" (1952) is a cold war drama, directed by Henry Hathaway, but received very modest reviews. It took its place among several other American spy movies, released previously, with similar material. Power's movies had been very profitable for Fox in  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not contain information about a film that features both Tyrone Power and Loretta Young in its cast."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information and is therefore grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2557,
+      "completion_tokens": 139,
+      "total_tokens": 2696
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1131,
+        "completion_tokens": 55,
+        "total_tokens": 1186
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1426,
+        "completion_tokens": 84,
+        "total_tokens": 1510
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:20.469224",
+        "prompt_tokens": 1131,
+        "completion_tokens": 55,
+        "total_tokens": 1186,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:21.517091",
+        "prompt_tokens": 1426,
+        "completion_tokens": 84,
+        "total_tokens": 1510,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:19.540913",
+  "last_updated_at": "2026-04-18T20:11:21.517470"
+}

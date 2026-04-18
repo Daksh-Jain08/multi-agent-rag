@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0565",
+  "query": "The most holy name of mary feast day?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "to mean that Mary of Clopas is Clopas' daughter, rather than his wife, but this is not the general view. Many scholars identify her with \"the other Mary\" mentioned twice in Matthew, and also therefore with \"Mary mother of James (the younger)\" in the parallel passages in Mark. This is also the Roman Catholic tradition. Her feast day is April 24. Some scholars suggest that \"Clopas\" is a variant spelling of \"Cleopas\", and that Mary of Clopas is Cleopas' wife and also the unnamed person who is with him when they meet the risen Christ on the Emmaus Road in",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2011-07-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "form of the devotion, the chief features being reception of Holy Communion on the first Friday of each month, Eucharistic adoration during a \"Holy hour\" on Thursdays, and the celebration of the Feast of the Sacred Heart. She stated that in her vision she was instructed to spend an hour every Thursday night to meditate on Jesus' Agony in the Garden of Gethsemane. The Holy Hour practice later became widespread among Catholics. On 27 December 1673, the feast of St. John, Margaret Mary reported that Jesus permitted her to rest her head upon his heart, and then disclosed to her",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d3",
+      "text": "of holiness. Prayers and devotions asking for her intercession, such as the rosary, the Hail Mary, and the Memorare are common Catholic practice. The Church devotes several liturgical feasts to Mary, mainly the Immaculate Conception, Mary, Mother of God, the Visitation, the Assumption, the Nativity of the Blessed Virgin Mary; and in the Americas the Feast of Our Lady of Guadalupe. Pilgrimages to Marian shrines like Lourdes, France, and F\u251c\u00edtima, Portugal, are also a common form of devotion and prayer. Men become bishops, priests or deacons through the sacrament of Holy Orders. Candidates to the priesthood must have a college",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Solemnity of Mary, Mother of God The Solemnity of Mary, the Holy Mother of God is a feast day of the Blessed Virgin Mary under the aspect of her motherhood of Jesus Christ, whom Christians see as the Lord, Son of God. It is celebrated by the Latin Rite of the Catholic Church on 1 January, the Octave (8th) day of Christmastide. Christians of Byzantine Rite and of all West Syriac and East Syriac rites celebrate Mary as Mother of God on 26 December and the Coptic Church does so on 16 January. The Eastern Orthodox Church, Anglican Communion and",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Dedication of the Basilica of St Mary Major The Dedication of the Basilica of St Mary Major (\"In Dedicatione basilicae S. Mariae\") is a feast day in the General Roman Calendar, optionally celebrated annually on 5 August with the rank of memorial. In earlier editions of the General Roman Calendar, down to that of 1960, it is called the Dedication of the Basilica of St Mary of the Snows (\"In Dedicatione basilicae S. Mariae ad Nives\"), a reference to the legendary story about the foundation of the basilica. For the same reason the feast is also known popularly as Our  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2021-08-24"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Solemnity of Mary, Mother of God is celebrated on January 1st by the Latin Rite of the Catholic Church. Other rites celebrate Mary as Mother of God on December 26th or January 16th. The Dedication of the Basilica of St Mary Major is celebrated on August 5th."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. Behavior adherence is low due to missing citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2414,
+      "completion_tokens": 189,
+      "total_tokens": 2603
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1038,
+        "completion_tokens": 98,
+        "total_tokens": 1136
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1376,
+        "completion_tokens": 91,
+        "total_tokens": 1467
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:41.649850",
+        "prompt_tokens": 1038,
+        "completion_tokens": 98,
+        "total_tokens": 1136,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:42.876495",
+        "prompt_tokens": 1376,
+        "completion_tokens": 91,
+        "total_tokens": 1467,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:40.004419",
+  "last_updated_at": "2026-04-18T20:07:42.876934"
+}

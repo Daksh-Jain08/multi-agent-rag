@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0548",
+  "query": "Who was prime minister of india in 1991?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Atal Bihari Vajpayee was sworn in as Prime Minister in May 1996. However, the Government did not last long and Vajpayee resigned after thirteen days. After two years in the political wilderness, the BJP-led National Democratic Alliance (NDA), came to power with Vajpayee returning as Prime Minister in March 1998, when elections were called after India saw two unstable Governments headed by H. D. Deve Gowda and I. K. Gujral respectively. After the fall of two United Front government between 1996 and 1998 (H. D. Deve Gowda and I. K. Gujral), the Lok Sabha, (lower house) of India's Parliament was",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1996-07-14"
+    },
+    {
+      "doc_id": "d2",
+      "text": "evening of 27 May 1964, he explained his absence for two days to the worried family and added that in the state of meditation, he had an intuitive communication that the then Prime Minister of India Pandit Jawaharlal Nehru had passed away and it indeed was true. Another such incident took place in the year 2007 when while singing in his Pooja room, he heard a voice, different from his own voice. The immense melody of that divine and blissful voice was so overwhelming that he could not help praying to the Almighty to cease his own voice so that",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Nanda was the Prime Minister of India twice for thirteen days each: the first time after the death of Prime Minister Jawaharlal Nehru in 1964, and the second time after the death of Prime Minister Lal Bahadur Shastri in 1966. Both his terms were uneventful, yet they came at sensitive times because of the potential danger to the country following Nehru's death soon after a war with China in 1962 and Shastri's death after a war with Pakistan in 1965. Nanda died on 15 January 1998 at the age of 99. From 25 November 1997, when former Malawi President Hastings",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "years 1982-83, 1983\u0393\u00c7\u00f484 and 1984-85. Rajiv Gandhi presented the budget for 1987-89, after V. P. Singh quit his government, and in the process became the third Prime Minister to present a budget after his mother and grandfather. N. D. Tiwari presented the budget for 1988-89, S. B. Chavan for 1989-90, while Madhu Dandawate presented the Union budget for 1990-91. Dr. Manmohan Singh became the Finance Minister and presented the interim budget for 1991-92 as elections were forced. Due to political developments, early elections were held in May 1991 following which the Indian National Congress returned to political power and Manmohan",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "543 seats in the Lok Sabha, in the aftermath of the Kargil operations, thereby securing a comfortable and stable majority. On 13 October 1999, Vajpayee took oath as Prime Minister of India for the third time. A national crisis emerged in December 1999, when Indian Airlines flight IC 814 from Kathmandu to New Delhi was hijacked by five terrorists and flown to Taliban-ruled Afghanistan. The hijackers made several demands including the release of certain terrorists like Masood Azhar from prison. Under extreme pressure, the government ultimately caved in. Jaswant Singh, the Minister of External Affairs at the time, flew with  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Dr. Manmohan Singh became the Finance Minister and presented the interim budget for 1991-92 as elections were forced. Following early elections in May 1991, the Indian National Congress returned to political power."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the Finance Minister and election outcomes in 1991, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2583,
+      "completion_tokens": 188,
+      "total_tokens": 2771
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1131,
+        "completion_tokens": 81,
+        "total_tokens": 1212
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1452,
+        "completion_tokens": 107,
+        "total_tokens": 1559
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:08.061161",
+        "prompt_tokens": 1131,
+        "completion_tokens": 81,
+        "total_tokens": 1212,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:09.084790",
+        "prompt_tokens": 1452,
+        "completion_tokens": 107,
+        "total_tokens": 1559,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:06.746752",
+  "last_updated_at": "2026-04-18T20:07:09.085272"
+}

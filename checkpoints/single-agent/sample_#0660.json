@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0660",
+  "query": "When is the fa cup semi final played?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the conclusion of the quarter-final match between Leicester City and Chelsea. The draw was conducted by Gianfranco Zola and Petr \u2500\u00eeech. The semi-finals were played on Saturday 21 April and Sunday 22 April 2018 at Wembley Stadium. The following is the bracket which the FA Cup resembled. Numbers in parentheses next to the match score represent the results of a replay, except for the quarter-finals stage onwards. Numbers in parentheses next to the replay score represents the results of a penalty shoot-out except for the quarter-finals stage onwards. The following matches were broadcast live on UK television: 2017\u0393\u00c7\u00f418 FA Cup",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1994-03-20"
+    },
+    {
+      "doc_id": "d2",
+      "text": "weekend of Saturday, 14 April 2007. There would be no replays even if the matches were drawn; instead, extra time would decide winners immediately thereafter. Only if extra time did not decide the winners, a penalty shootout would decide winners. The draw for the semi-finals took place on Monday, 12 March 2007 at 1:30pm GMT. The draw was made by Ray Clemence, and adjudicated by Trevor Brooking. The 126th FA Cup Final was played at the new Wembley Stadium and it was the first FA Cup Final to be played in London since 2000. Similarly to the semi-finals, there would",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2006-10-07"
+    },
+    {
+      "doc_id": "d3",
+      "text": "potentially a penalty shootout at this stage rather than to a replay, and that a fourth substitute would have been permitted in extra time. The round included Lincoln City from Level 5, who became the first non-league club to reach the quarter-finals since 1914. The four winners of the quarter-finals progressed to the semi-finals. The semi-final draw took place at Stamford Bridge on 13 March following the quarter-final tie between Chelsea and Manchester United. The semi-finals were played at Wembley Stadium on 22 and 23 April 2017. The following is the bracket which the FA Cup resembled. Numbers in parentheses",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "FA Cup semi-finals The FA Cup semi-finals are played to determine which teams will contest the FA Cup Final. They are the penultimate phase of the FA Cup, the oldest football tournament in the world. The semi-finals have always been contested at neutral venues. Since 2008, all semi-finals have been held at Wembley. In the past any suitably large ground which was not the home ground of a teams in that semi-final was used. Villa Park in Birmingham, Old Trafford in Manchester, and Hillsborough in Sheffield were common hosts. All semi-finals between 1871 and 1881 were played at Kensington Oval.",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "are the last non-Premier League team remaining in the competition, for the second year running. All 7 other teams are from the Premier League. The draw for the semi-finals was conducted by Hope Powell and Fabio Capello at Wembley Stadium on Sunday, 13 March 2011, after the result of the Stoke game, but before the end of the Manchester City game. Ties were played on 16/17 April at Wembley. With Manchester City's victory over Reading, it meant that the Semi-Finals of the Cup would be an all-Premier League affair, and in addition, Wembley Stadium would host its first ever Manchester  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1994"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The FA Cup semi-finals were played on April 21 and 22, 2018, and on April 22 and 23, 2017. In 2011, they were played on April 16/17."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about dates but lacks any citations. Therefore, it cannot be verified and is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2531,
+      "completion_tokens": 185,
+      "total_tokens": 2716
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1099,
+        "completion_tokens": 93,
+        "total_tokens": 1192
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1432,
+        "completion_tokens": 92,
+        "total_tokens": 1524
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:14.437676",
+        "prompt_tokens": 1099,
+        "completion_tokens": 93,
+        "total_tokens": 1192,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:15.459056",
+        "prompt_tokens": 1432,
+        "completion_tokens": 92,
+        "total_tokens": 1524,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:13.417012",
+  "last_updated_at": "2026-04-18T20:11:15.459435"
+}

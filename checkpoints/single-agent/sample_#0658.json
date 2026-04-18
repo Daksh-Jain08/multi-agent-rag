@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0658",
+  "query": "What was the slogan of the republic in french revolution?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "be free and independent. Dessalines is said to have torn the white section from the French tricolor flag while shouting, \"Vivre libre ou mourir!\", which means \"live free or die.\" The phrase \"Vivre Libre ou Mourir\" (\"live free or die\") was used in the French Revolution. It was the subtitle of the journal by Camille Desmoulins, titled \"Le Vieux Cordelier\", written during the winter of 1793\u0393\u00c7\u00f44. The first Convention of the Delegates of the Scottish Friends of the People in Edinburgh on 11\u0393\u00c7\u00f413 December 1792 used the phrase \"live free or die\" and referred to it as a \"French oath\".",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "inspired revolts in other parts of Europe. Workers lost their jobs, bread prices rose, and people accused the government of corruption. The French revolted and set up a republic. French successes led to other revolts including those who wanted relief from the suffering caused by the Industrial Revolution and nationalism sprang up hoping for independence from foreign rulers. Alexis de Tocqueville observed, \"We are sleeping together in a volcano. ... A wind of revolution blows, the storm is on the horizon.\" Lacking the property qualifications to vote, the lower classes were about to erupt in revolt. The French middle class",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d3",
+      "text": "and a ribbon in yellow and red, the colours of Lorraine, was attached to the column on which the motto of Lorraine could be read: \"Qui s'y frotte s'y pique\" (who rubs himself on it pricks himself on it), a reference to the cotton thistle, the symbol of Lorraine. Suddenly in the silent crowd a chant began: \"Reine de France \u0393\u00c7\u00f4 Priez pour nous \u0393\u00c7\u00f4 Notre esp\u251c\u2310rance \u0393\u00c7\u00f4 Venez et sauvez-nous\" (Queen of France - Pray for us - Our hope - Come and save us), and was taken up immediately by all the faithful present. The chant was started",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1991-09-28"
+    },
+    {
+      "doc_id": "d4",
+      "text": "promote modern republican ideology. Even before the French Revolution, the Kingdom of France was embodied in masculine figures, as depicted in certain ceilings of Palace of Versailles. Furthermore, France and the Republic themselves are, in French, feminine nouns (\"la France\", \"la R\u251c\u2310publique\"), as are the French nouns for liberty () and reason (). The use of this emblem was initially unofficial and very diverse. A female allegory of Liberty and of the Republic makes an appearance in Eug\u251c\u00bfne Delacroix's painting \"Liberty Leading the People\", painted in July 1830 in honour of the Three Glorious Days (or July Revolution of 1830).",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2017-06-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "decreed that \u251c\u2310migr\u251c\u2310s who failed to return to France by January 1792 would be declared to be traitors and would be sentenced to death in their absence. In October 1792 the state imposed perpetual banishment on all \u251c\u2310migr\u251c\u2310s, and formally confiscated their property. As the Revolution progressed, Jess\u251c\u2310 argued that France should become a constitutional monarchy, rather than a Republic. However, the monarchy was formally abolished on 21 September 1792, and King Louis XVI was executed in January 1793. The Reign of Terror began on 5 September 1793, with aristocrats and conservatives being deemed enemies of the state. Jess\u251c\u2310 was  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The phrase \"Vivre libre ou mourir\" (\"live free or die\") was used in the French Revolution and was the subtitle of Camille Desmoulins' journal \"Le Vieux Cordelier\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims that are not supported by any citations. The provided documents mention the phrase but do not cite it in relation to the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2811,
+      "completion_tokens": 169,
+      "total_tokens": 2980
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1249,
+        "completion_tokens": 74,
+        "total_tokens": 1323
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1562,
+        "completion_tokens": 95,
+        "total_tokens": 1657
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:10.439117",
+        "prompt_tokens": 1249,
+        "completion_tokens": 74,
+        "total_tokens": 1323,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:11.670540",
+        "prompt_tokens": 1562,
+        "completion_tokens": 95,
+        "total_tokens": 1657,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:09.254667",
+  "last_updated_at": "2026-04-18T20:11:11.670980"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0614",
+  "query": "When was the calico act passed in england what did it say?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "any animals covers within the law and expanded by the Cruelty to Animals Act 1876, and repealed by the Protection of Animals Act 1911. Cruelty to Animals Act 1849 The Cruelty to Animals Act 1849 is an Act of the Parliament of the United Kingdom (12 & 13 Vict. c. 92) with the long title \"An Act for the more effectual Prevention of Cruelty to Animals.\" The Act repealed two previous Acts, the Cruel Treatment of Cattle Act 1822 and the Cruelty to Animals Act 1835, and reiterated the offences of beating, ill-treating, over-driving, abusing and torturing animals with a",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "1 penny to several shillings on a number of different legal documents including insurance policies, documents used as evidence in courts, grants of honour, grants of probate and letters of administration. It raised around \u252c\u00fa50,000 a year and although it was initially a temporary measure, it proved so successful that its use was continued. The Stamp Act of 1712 was an act passed in the United Kingdom on 1 August 1712 to create a new tax on publishers, particularly of newspapers. The initial assessed rate of tax was one penny per whole newspaper sheet, a halfpenny for a half sheet,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Coin Act 1696 The Coin Act 1696 (8&9 Will.3 c.26) was an Act of the Parliament of England which made it high treason to make or possess equipment useful for counterfeiting coins. Its title was \"An Act for the better preventing the counterfeiting the current Coin of this Kingdom.\" It was extended to cover Scotland by the Treason Act 1708. The Act came into effect on 15 May 1697. Section 1 made it treason to \"knowingly make or mend, or begin or proceed to make or mend, or assist in the making or mending of\" any stamp, mould or the",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Calendar (New Style) Act 1750 The Calendar (New Style) Act 1750 (c.23) (also known as Chesterfield's Act after Philip Stanhope, 4th Earl of Chesterfield) was an Act of the Parliament of Great Britain. The Act had two parts: first, it reformed the calendar of England and the British Dominions so that the new legal year began on 1 January rather than 25 March (Lady Day); and, second, Great Britain and its Dominions adopted (in effect) the Gregorian calendar, as already used in most of western Europe. Chesterfield introduced the Bill into Parliament on 25 February 1751 (1750 Old Style). It",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2024-07-23"
+    },
+    {
+      "doc_id": "d5",
+      "text": "movement. Such was the perceived weakness of the Act, that vivisection opponents chose, on at least one occasion \u0393\u00c7\u00f4 the Brown Dog affair \u0393\u00c7\u00f4 to incite a libel suit rather than seek a prosecution under the Act. The Act states, in part: Cruelty to Animals Act, 1876 The Cruelty to Animals Act, 1876, was an Act passed by the Parliament of the United Kingdom (39 & 40 Vict., Public Acts, c. 77.) which set limits on the practice of, and instituted a licensing system for animal experimentation, amending the Cruelty to Animals Act 1849. Its long title was \"An Act  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "1997"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not contain information about a 'calico act' passed in England or its contents. The documents discuss acts related to animal cruelty, stamp taxes, counterfeiting coins, and calendar reform."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain information about the 'calico act' and accurately summarizes the topics that are covered in the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2602,
+      "completion_tokens": 170,
+      "total_tokens": 2772
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1144,
+        "completion_tokens": 74,
+        "total_tokens": 1218
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 96,
+        "total_tokens": 1554
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:37.059007",
+        "prompt_tokens": 1144,
+        "completion_tokens": 74,
+        "total_tokens": 1218,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:37.961321",
+        "prompt_tokens": 1458,
+        "completion_tokens": 96,
+        "total_tokens": 1554,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:35.799177",
+  "last_updated_at": "2026-04-18T20:09:37.961670"
+}

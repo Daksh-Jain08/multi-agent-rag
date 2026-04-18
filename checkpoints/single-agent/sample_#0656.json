@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0656",
+  "query": "What is the most northerly town in the world?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "northerly island in the world. In most geography books Kaffeklubben Island is still listed as the northernmost land point. Another island, RTOW2001, although closer to the North Pole than ATOW1996, is not currently recognized as a permanent land area. Moreover, RTOW2001 is about further from the North Pole than 83-42 and would therefore not constitute the most northerly land. Oodaaq, at , is another semi-permanent gravel bank claimed as northernmost. All of these small islands, with the possible exception of 83-42, are not permanent. Waves and ice floes shift gravel banks around in these shallow waters. The northernmost permanent land,",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d2",
+      "text": "declined. A primary school served the community of Pyramiden in the pre-1998 period. There is a non-degree offering tertiary educational institution in Longyearbyen, University Centre in Svalbard (UNIS), the tertiary school in the northernmost location on Earth. Sources Svalbard Svalbard (; ; prior to 1925 known by its Dutch name Spitsbergen) is a Norwegian archipelago in the Arctic Ocean. Situated north of mainland Europe, it is about midway between continental Norway and the North Pole. The islands of the group range from 74\u252c\u2591 to 81\u252c\u2591 north latitude, and from 10\u252c\u2591 to 35\u252c\u2591 east longitude. The largest island is Spitsbergen, followed",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d3",
+      "text": "On the west coast of Kval\u251c\u2555ya (Sommar\u251c\u2555y), climate data show a mean annual temperature of , mostly because winters here are warmer compared to the city, making this part of the municipality a subpolar oceanic climate (Cfc) zone. Troms\u251c\u2555 has the distinction of being the northernmost city on earth where the average yearly low is above freezing. Recent years have seen warming, and there have been no overnight air frost in June since 1997. The midnight sun occurs from about 18 May to 26 July, but the mountains in the north block the view of it for a few days,",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "of hunting, currently has more huskies than human residents. Qaanaaq has a cold tundra climate (K\u251c\u2562ppen climate classification \"ETf\"), and hence it has long, cold winters. Peak temperatures occur in July and seldom exceed 10 \u252c\u2591C. Qaanaaq Qaanaaq (), formerly and still popularly known as Thule or New Thule, is the main town in the northern part of the Avannaata municipality in northwestern Greenland. It is one of the northernmost towns in the world. The inhabitants of Qaanaaq speak Kalaallisut and Danish, and many also speak the Inuktun language. The town has a population of 656 as of 2013. The",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "2017. Norilsk has a history museum and an art gallery, the Norilsk Polar Drama Theater, a zoo, a cultural center, a sports and entertainment complex and arena, and many monuments and historical buildings. Norilsk is twinned with: Norilsk Norilsk () is an industrial city in Krasnoyarsk Krai, Russia, located above the Arctic Circle, east of the Yenisei River and south of the western Taymyr Peninsula. It has a permanent population of 175,000. With temporary inhabitants included, its population reaches 220,000. It is the world's northernmost city with more than 100,000 inhabitants and the second-largest city (after Murmansk) inside the Arctic  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1997-08-26"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Qaanaaq, formerly known as Thule, is one of the northernmost towns in the world."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. Document d4 mentions Qaanaaq as one of the northernmost towns, but the answer does not cite it. Document d5 mentions Norilsk as the world's northernmost city with over 100,000 inhabitants, which is a different claim."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2742,
+      "completion_tokens": 184,
+      "total_tokens": 2926
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1224,
+        "completion_tokens": 54,
+        "total_tokens": 1278
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1518,
+        "completion_tokens": 130,
+        "total_tokens": 1648
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:05.895131",
+        "prompt_tokens": 1224,
+        "completion_tokens": 54,
+        "total_tokens": 1278,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:06.978138",
+        "prompt_tokens": 1518,
+        "completion_tokens": 130,
+        "total_tokens": 1648,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:05.012436",
+  "last_updated_at": "2026-04-18T20:11:06.978314"
+}

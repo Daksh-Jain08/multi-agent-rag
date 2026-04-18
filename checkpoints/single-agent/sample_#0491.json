@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0491",
+  "query": "Where did the first modern olympics take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on the honor roll of the Wenlock Olympian Society was the Smyrniot Petros Velissariou, who competed at the 1859 Athens Olympic Games in the distance running and who won a prize donated by the Wenlock Olympian Society's Committee. Brookes was the first to propose holding open international Olympics to be held in Athens, as distinct from the revived Greek national Olympics of 1859, 1870 and 1875 which mirrored the Ancient Olympics as they were closed to all but Greek-speaking competitors. Despite his persistent pleas for action to the Greek government, his proposals fell on deaf ears. However, many of the",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "take place in Athens in 1896. The IOC elected the Greek writer Demetrius Vikelas as its first president. The first Games held under the auspices of the IOC was hosted in the Panathenaic Stadium in Athens in 1896. The Games brought together 14 nations and 241 athletes who competed in 43 events. Zappas and his cousin Konstantinos Zappas had left the Greek government a trust to fund future Olympic Games. This trust was used to help finance the 1896 Games. George Averoff contributed generously for the refurbishment of the stadium in preparation for the Games. The Greek government also provided",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Games, the first modern Olympics took place at Athens in 1896. The main stadium, Panathinaiko, served as host of the athletic, gymnastic, weightlifting, and wrestling events. The city of Marathon served the start point for the sport of the same name and the starting and finishing point of cycling's Individual road race. Between the 1896 and 2004 Summer Olympics, Greece underwent a series of events that created political instability in the country. This included the Balkan Wars of 1912-3, World War I, the Greco-Turkish War (1919-1922), a creation of a Second Hellenic Republic of 1924-35, the Axis Occupation of Greece",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "as Philippides, and this name is also preferred in a few modern editions. When the idea of a modern Olympics became a reality at the end of the 19th century, the initiators and organizers were looking for a great popularizing event, recalling the ancient glory of Greece. The idea of organizing a \"marathon race\" came from Michel Br\u251c\u2310al, who wanted the event to feature in the first modern Olympic Games in 1896 in Athens. This idea was heavily supported by Pierre de Coubertin, the founder of the modern Olympics, as well as the Greeks. This would echo the legendary version",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the creation of the first American Olympic team and their trials in getting to the Olympics in Athens. Primetime Emmy Awards Writer's Guild of America, USA Casting Society of America, USA The First Olympics: Athens 1896 The First Olympics: Athens 1896 is a 1984 US TV miniseries produced by Columbia Pictures Television for broadcast by the NBC network. This television miniseries tells the story of the founding of the modern Olympics by focusing on individuals in several countries and their preparations and eventual competition in Athens in 1896. The two-part mini-series originally aired in the United States on 20 May  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1995"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first modern Olympic Games took place in Athens in 1896."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is factually correct but lacks citations. The provided documents mention Athens and 1896 in relation to the first modern Olympics, but the answer does not cite them."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2445,
+      "completion_tokens": 151,
+      "total_tokens": 2596
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1078,
+        "completion_tokens": 49,
+        "total_tokens": 1127
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1367,
+        "completion_tokens": 102,
+        "total_tokens": 1469
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:32.923011",
+        "prompt_tokens": 1078,
+        "completion_tokens": 49,
+        "total_tokens": 1127,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:33.891820",
+        "prompt_tokens": 1367,
+        "completion_tokens": 102,
+        "total_tokens": 1469,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:31.987001",
+  "last_updated_at": "2026-04-18T18:43:33.892082"
+}

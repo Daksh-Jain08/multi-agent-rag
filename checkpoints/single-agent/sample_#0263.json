@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0263",
+  "query": "Is public transportation faster than driving in cities?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Riding Transit Takes Almost Twice as Long as Driving If transit systems want to attract more riders, they need to find ways to speed up the journey to work. See how the times compare in your metro area. For New York metro residents who take public transportation, a door-to-door commute averages about 51 minutes. That\u2019s much longer than the 29 minutes typically spent by those who drive alone. Similar discrepancies exist around Los Angeles, where despite the region\u2019s traffic woes, drivers arrive at work an average of 22 minutes faster than public transportation riders. In nearly every metro area, driving to work remains far quicker than using a bus or train, taking less than half as long in some places. Across the country, transit systems are seeking to attract new customers as the latest national statistics show stagnant ridership. Cutting down on commute times represents an opportunity to serve more riders who otherwise have a choice in how to get to work. \u201cOperating speed is going to be important for customers, so if they want to compete in that market, they need to be more competitive,\u201d says Steven Polzin of the Center for Urban Transportation Research. \u201cTime is important to folks across the full economic spectrum.\u201d Governing compiled the most recent Census survey data measuring total commute times, including travel to stations and the time spent waiting for buses or trains. In the 25 metro areas where public transportation accounts for the largest share of all commuting, riders reported commute times an average of 1.9 times greater than those who drove alone. Similar gaps exist in regions where public transportation isn\u2019t as prevalent. College towns are about the only areas where public transportation commute times mirror those for auto commuters. Of course, those taking public transportation where service is limited are bound to be in for longer commutes. But cities with robust transit networks still show numbers that lag well behind driving. Comparing travel times more narrowly within the 25 municipalities -- rather than entire metro areas -- where public transportation is most prevalent, commutes average 1.5 times longer than driving (about 15 minutes). A metro area\u2019s overall commute times partly reflect its different types of transit.",
+      "source_url": "https://www.governing.com/archive/gov-transit-driving-times.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Disparities in travel times between car and transit: Spatiotemporal ... Introduction Increased car use has many negative environmental impacts, including traffic congestion, land-use issues such as parking, increased air pollution, and greenhouse gas (GHG) emissions. Public transit (PT) can provide a low-cost, energy-efficient, less polluting, and socially equitable travel alternative1,2. Policymakers in many places worldwide recognise the importance of promoting a mode shift from car to PT in cities as a way to address negative environmental impacts, increase equity3, and combat climate change4. For instance, Berlin, Germany, is committing 28 billion euros from 2019 onward to improve PT5. However, increasing PT ridership and reducing private car use have proven difficult. Despite significant investments, PT ridership has fallen steadily in the United States and elsewhere6,7. Growth in PT ridership is constrained by many factors, such as fixed schedules and routes, low population density, and travellers\u2019 attitudes8. Among these constraints, travel time and the built environment are considered the most critical factors in the choice of transport mode6,9,10. A primary driver of PT ridership growth is the reduction of users\u2019 perceived marginal cost, including travel time11,12,13. Travel time is also a key performance indicator for the quantification of PT service quality14. In a review paper, Redman et al. summarised studies of PT improvement strategies targeting different quality attributes15 and found that most studies focused on speed as a critical factor for increasing PT ridership. In a New York study, a 15-minute shorter commuting time corresponded to about 25% higher ridership for a rail service15. According to a post-trip questionnaire survey of car users, shorter travel time is one of the key factors that would make PT more attractive16. While there is strong evidence that car-based travel is often faster than public transit, the spatial and temporal patterns of this time discrepancy are crucial to better inform urban planning and policy efforts to encourage travel mode shifts.",
+      "source_url": "https://www.nature.com/articles/s41598-020-61077-0",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "How to Make Public Transport More Convenient Than Driving | by ... How to Make Public Transport More Convenient Than Driving Convenience is king when it comes to transportation choices. A study by ticketing software maker Masabi found that convenience is the number one influencer in peoples\u2019 transportation choices \u2014 more important than cost. Transportation consultant Howard Jennings told commuter researchers at Mobility Lab about convenience, \u201cif it\u2019s not there, we can\u2019t sell it.\u201d Driving vs. Public Transport This explains why even though traffic and pollution in cities are as bad as ever, public transportation use continues to decline. In the United States, for example, 87 percent of daily trips take place in personal vehicles. Why aren\u2019t more people getting on the bus or train to get to work or to get around town? It\u2019s all about convenience. Even with worsening traffic, driving still gets people to work faster \u2014 twice as fast in the U.S., a study by Governing found. A survey of licensed drivers in 15 countries found that 70 percent would use public transport if it was faster than driving. Cities are growing \u2014 as soon as 2030 one in every three people will live in cities with at least half a million inhabitants. With bad traffic getting worse, can public transportation up its game to move people in and out of cities faster? Yes, according to a growing body of research. The answer is in ridesharing, not in the form of peer-to-peer ridehailing where a ride is booked for a single trip, but in the form of carpooling where multiple passengers share a vehicle. Making It Work Researchers at MIT took data from three million taxi rides in New York City and developed an algorithm that routes vehicles in real-time based on ride requests, and then proactively sends vehicles to the optimal locations to meet demand. Their computer models found that 3,000 four-passenger cars could serve 98 percent of trips made by New York City\u2019s 14,000 taxis, with an average wait time of only 2.7 minutes and an increase trip time of 3.5 minutes. They also found that 2,000 ten-person vehicles could meet 95 percent of demand.",
+      "source_url": "https://medium.com/bestmile/how-to-make-public-transport-more-convenient-than-driving-59def8e577b7",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Opinion | I've Seen a Future Without Cars, and It's Amazing - The ... So this is like the cost of it. We have to change the roads we\u2019d have to change the creative bus rapid transit system. And you have to make sure those are accessible and accessible for four disabled people, but also accessible in terms like economically accessible. This is like I think a lot of people are skeptical about just the idea of relying on public transportation because public transportation in every major city and in particular and in New York with the subways has been like underfunded badly managed like compared to lots of other parts of the world. Public transportation is not great in America and like it\u2019s a hard sell to say, well, you can get rid of cars, but like you\u2019ll have to rely on the buses when the buses aren\u2019t great like the kind of current way that people understand how buses work is not like a picture of like speed and efficiency. And so it\u2019s a leap of a kind of a leap of faith and you\u2019d really need to have a plan for creating alternatives. And I think that\u2019s the real difficulty in life. I think that could be sort of one source of pushback as like there\u2019s not a lot of alternatives for public transportation and so you need to build those first. And I think that\u2019s a good criticism ds nip I have from Twitter said so I\u2019m all for Greening cities. But this is not the moment to take the option of car travel from urbanites especially those of us who are older have underlying health conditions or other covered related reasons may not feel safe getting back on the train right. Yeah, like the train. It\u2019s true like the train seems like a dangerous place like indoor overcrowding is not good in this pandemic. And you have a lot of people on the train with a lot of people in buses. That sounds bad. It is not clear that there have been any kind of super spreading events from subways or transit in general in any part of the world. There\u2019s no sort of obvious link in New York for the high cases tying it to transit many, many places in the world have huge transit systems and really didn\u2019t suffer huge coronavirus related outbreaks and then you know, the idea here is that you would rapidly expand the buggy would significantly expand the number about the capacity of these systems.",
+      "source_url": "https://www.nytimes.com/2020/07/09/opinion/sunday/ban-cars-manhattan-cities.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "From the Bus Stop to the Fast Lane: How Cities Can Speed up ... By getting people out of cars and onto transit, we can reduce driving, free up space currently dedicated to parking, and expand people\u2019s access to opportunities. Buses are the workhorse of our transit system, and routes can be added or expanded relatively quickly and inexpensively. While buses offer many benefits, the majority of American buses are forced to compete with cars that often carry only a single passenger. Most streets in our communities are nearly entirely dedicated for the use of personal cars, making bus travel awkward and slow. As buses try to pull up to a curb to pick up a group of people, they\u2019re sometimes blocked by other vehicles, like delivery trucks or Lyft and Uber drivers waiting to pick up a single passenger. Since most buses are forced to leave the travel lane to access the curb, they often get stuck waiting to pull back into traffic. At lights, a bus with dozens of passengers might be forced to wait for individual cars traveling on the cross-street \u2013 often carrying fewer people through an intersection in an entire light cycle than are carried by a single bus. The obstacles that a bus encounters at every step of its journey makes for slow going. In New York City (home of America\u2019s slowest buses), NYPIRG\u2019s Straphangers Campaign issues an annual \u201cPokey\u201d award for slow bus service. The 2018 award went to a local Manhattan bus that averages 3.2 miles per hour \u2013 about the pace of walking. At this rate, \u201criding a bus can feel like being in a funeral procession,\u201d remarked Gene Russianoff, the group\u2019s founder. Other cities struggle with slow speeds as transit buses languish in local traffic. Analysis by Denver\u2019s transit agency, RTD, in 2016 found that nearly every route in downtown clocked in slower than 10 miles per hour. In Los Angeles, average bus speeds have dropped by more than 13 percent since 2005. Speeds in Chicago have also been declining in recent years, with buses in some neighborhoods crawling along at 6 miles per hour. Bus speeds in downtown Denver,",
+      "source_url": "https://frontiergroup.org/articles/bus-stop-fast-lane-how-cities-can-speed-buses-improve-ridership/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Top 10 Alternative Transportation Methods | HowStuffWorks Advertisement Bikes also don\u2019t take a lot of resources to manufacture compared to cars, and they don\u2019t add pollution to the air or contribute to global warming. 8: Bus Of course, many people are in situations where their daily commute is so long that it's simply impossible or impractical to walk or bike. And because walking and biking expose you to the elements of harsh weather, it means stormy days, hot summers and cold winters might make walking or biking too difficult. But in these circumstances, the bus might still make for an attractive alternative to a car. If you're lucky enough to have a bus route near you, it\u2019s definitely worth taking advantage of. Compared to driving alone, public transportation like buses can use less fuel per passenger and reduce the amount of traffic congestion. Many areas have lanes dedicated to buses or high occupancy vehicles, which might make taking a bus faster than driving yourself. Advertisement 7: Mass Transit Rail If you live in or around an urban area, you may have access to a mass transit rail system, such as a subway or metro train system. Although bus routes usually have more stops and accessibility, mass transit rail systems don\u2019t have to deal with traffic congestion from the road, and can therefore be faster than the bus. Although when compared to a bus system, mass transit rail systems have high initial costs, but cities generally find them to be a good long-term investment. Rail systems can carry more passengers per vehicle than buses and produce less noise and air pollution. Advertisement 6: Train Especially popular in Europe, intercity passenger rail is an excellent alternative to driving. Like mass transit rail within urban areas, it can carry more passengers per vehicle than buses and is a very efficient mode of transportation for that reason. Compared to cars, taking the train can be significantly more energy-efficient on a per-passenger mile basis. However, in the United States, rail freight companies own the railways themselves.",
+      "source_url": "https://science.howstuffworks.com/environmental/green-science/10-alternative-transportation-methods.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Want to get to work faster? You'll have to drive | Great Lakes Echo Want to get to work faster? You\u2019ll have to drive Getting to work every day can be a pain, but the amount of pain varies depending on where you live and how you get to your job. Traveling by public transportation \u2013 still unpopular in Michigan \u2013 such as buses and commuter trains often takes twice as long \u2013 or more \u2013 as driving alone, an analysis of national census data by Governing.com shows. But, bucking that trend, Grand Rapids has taken up the challenge and reduced some bus time commutes. Meanwhile, walking, on average, takes less time than either other options, according to the study that included seven metropolitan areas in Michigan. In the Grand Rapids-Wyoming metro area, for example, the average commute is 21.4 minutes for those who drive themselves and 40.4 minutes for public transport riders. In the Kalamazoo-Portage area, solo drivers average 21 minutes each way, compared to 38.3 minutes by mass transit, the analysis shows. What about across the country? \u201cThe latest census suggests Americans who drive alone spend an average of nearly 25 minutes traveling to work. The national average for bus commuters is 45 minutes, while those who ride subways or streetcars spend an average of 47 minutes traveling to work,\u201d the study said. Although Michigan racks up some of the longest public transit travel times for the Great Lakes areas studied, it also holds among the fastest ones as well with Jackson\u2019s average commute of 30.5 minutes. Great Lakes cities\u2019 average commute times for driving alone are scattered. For example, it\u2019s 19.5 minutes in Niles-Benton Harbor, Michigan, and 29 minutes in the Chicago-Naperville-Elgin area. Chicago\u2019s driving-alone time almost matches Jackson\u2019s public transit time. Its public transit commute averages a nerve-wracking 49.5 minutes behind the wheel, but a little quicker than Kankakee\u2019s 52.2 minutes.",
+      "source_url": "https://greatlakesecho.org/2019/10/14/want-to-get-to-work-faster-youll-have-to-drive/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Five reasons why using public transport is better for the environment ... You get the picture \u2013 the difference is significant \u2013 and the less space there is for the traffic, the slower the traffic becomes. Due to this increasing lack of space, congestion occurs more and more, and counter-measures, such as diverting traffic or finding ways of making driving more convenient, aren\u2019t solutions to the problem, these only encourage private car use, creating an endless loop \u2013 as car numbers continue increasing the city must keep finding more space. Cityscape and other commuters In addition to congestion and the increasing lack of space in cities, cars also ruin the cityscape. As more cars flow into city centres, the less room there is for cyclists and pedestrians, and with cars parked in areas, which are linked to sidewalks, the road space, which is meant for cyclists, becomes too narrow and dangerous to ride safely. On the other hand, greater adoption of public transport would help to reduce air pollution and free up space in the urban areas, making city traffic significantly more pleasant for cyclists and pedestrians, in addition to making cityscapes across the world more beautiful and peaceful. Save time and money, reduce stress Due to vehicle congestion many cities have dedicated bus lanes, so using public transport within the city can be not only cheaper, but also faster. Especially when you don\u2019t need worry about finding a parking space, or how much will it cost, when traveling on public transport. If public transport can meet the commuter\u2019s needs, it will undoubtedly, over time, attract even more private vehicle owners to use public transport. Thankfully, the use of public transport is becoming increasingly popular \u2013 you can sit, relax, read a book or even get some work done on the bus or train, which is a much more practical way spending your time while commuting. What to do? It is always challenging to induce change within cities, and we need to figure out ways to encourage and motivate people. First, we need to offer high quality public transport service and make these benefits available to everyone, so that people would consider choosing a bus or a train over their car.",
+      "source_url": "https://ridango.com/five-reasons-why-using-public-transport-is-better-for-the-environment/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "What happens when cycling, walking, or taking the bus is faster than ... What happens when cycling, walking, or taking the bus is faster than driving? How Mexico City is encouraging sustainable transportation On World Bicycle Day we\u2019re celebrating streets built for people and sustainable transportation. As traffic deaths hit a 15-year high in the United States, Mexico City is showing what\u2019s possible when a city uses a behavioral insights lens to guide its investments. By considering every element of the road\u2014and how people move through it\u2014the city has shown how sustainable options can become the obvious choices. BIT Americas has seen these benefits first-hand from our new base in Mexico City. In this blog, we focus on three areas of progress: rapid mass transit, strong bicycle infrastructure, and physical transformations. Investing in rapid mass transit In 2005, Mexico City established a bus rapid transit system to reduce traffic congestion and pollution\u2014and to offer people a new, faster transportation service. These eco-friendly, double-articulated Metrobuses bypass cars on their own exclusive lanes through the city\u2019s busiest streets. They\u2019ve decreased CO2 by 35,000 tons annually and reduced travel times for riders by 40 percent. We see many behavioral insights in Metrob\u00fases. For one, they\u2019re easy to use. Bus platforms are on ground level (accessible to people on foot and wheels) and their wayfinding design is internationally recognized for providing a good user experience, making them easy to navigate. Tickets are also affordable and multiple payment options are accepted, including contactless payments, for quick and simple boarding. They can also be faster than cars, especially in the high-traffic city center. Demand increased as a result, and the city responded with more buses and more lines. At seven lines transporting nearly 1.5 million riders daily, Metrob\u00fas shows that making public transportation more convenient than driving can successfully change transit behaviors. This is key because we know how hard these behaviors can be to shift.",
+      "source_url": "https://www.bi.team/blogs/what-happens-when-cycling-walking-or-taking-the-bus-is-faster-than-driving/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "In most cities, driving is significantly faster than public transportation, often taking half the time or less. However, some cities are implementing strategies like bus rapid transit systems with exclusive lanes, which can make public transport faster than driving, especially in congested urban centers."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about driving being faster than public transport and about bus rapid transit systems, but it lacks citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 10338,
+      "completion_tokens": 183,
+      "total_tokens": 10521
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 5007,
+        "completion_tokens": 83,
+        "total_tokens": 5090
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 5331,
+        "completion_tokens": 100,
+        "total_tokens": 5431
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:31:55.254920",
+        "prompt_tokens": 5007,
+        "completion_tokens": 83,
+        "total_tokens": 5090,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:31:56.898362",
+        "prompt_tokens": 5331,
+        "completion_tokens": 100,
+        "total_tokens": 5431,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:31:54.102004",
+  "last_updated_at": "2026-04-18T18:31:56.898889"
+}

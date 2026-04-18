@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0607",
+  "query": "During an economic recession, where does the money *go*?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Just Money, introduction \u0393\u00c7\u00f6 Prime Economics from somewhere. Does a credit bubble mean that people save too much during that period? I don\u0393\u00c7\u00d6t know what a credit bubble means. I don\u0393\u00c7\u00d6t even know what a bubble means. These words have become popular. I don\u0393\u00c7\u00d6t think they have any meaning. Eugene Fama: (Laughs) That\u0393\u00c7\u00d6s where economics has always broken down. We don\u0393\u00c7\u00d6t know what causes recessions. Now, I\u0393\u00c7\u00d6m not a macroeconomist so I don\u0393\u00c7\u00d6t feel bad about that. (Laughs again.) We\u0393\u00c7\u00d6ve never known. Debates go on to this day about what caused the Great Depression. Economics is not very good at explaining swings in economic activity. Imagine",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2023-04-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Job Market: Understanding the Job Market During Hard Times - Online News Portal: Best for business, jobs and tech news During recession, there is the need to understand the job market. The cold hard truth is that the working force is comprised entirely of people who get hit harder than anyone else during a recession. As you no doubt have experienced firsthand, the employment rate is perhaps the first major casualty of economic downturn. There\u0393\u00c7\u00d6s simply less money going around during a recession. This means that companies cannot afford to staff as many workers as they otherwise could. As a result, people are laid off, and there are fewer new openings. Not only does this mean that there are fewer",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How to Invest for a Recession - Stansberry Research did great during the \u0393\u00c7\u00f4 he does great near the top of the cycle. Just put it that way. And he\u0393\u00c7\u00d6s now saying that there is a significant risk of a possible economic recession in the US by 2020, in 2020 he says, right? And he says it\u0393\u00c7\u00d6s going to be globally \u0393\u00c7\u00f4 a global slow up was the term he used, so not just in the United States. So, you know, we see the global wealth division of the UBS with the money running out the door. We see like one of the smarter guys around saying it\u0393\u00c7\u00d6s going",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1997-07-27"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Question of the Week: Readers See Failures in Fed's Policies During U.S. Economic Recovery day a \"Made in China\" article. Go back to the history books Mr. Bernanke. Headed for Hyperinflation Printing more money and putting it into the system does not solve the problem of unemployment or putting the country out of recession. If the present trend continues then a deep recession is coming with hyperinflation, where you will find people running here and there needing more money in hand to fill up their empty stomachs and fulfill needs. Currency value will decrease and no country will have the power to bring its currency value up. Gold can shine brightly for little periods",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Freshwater versus saltwater circa 1988 - Credit Writedowns getting money out of the economy to repay their own bank-debts. This kind of money supply deflation causes economic recessions with job losses. In shallow recessions, after the initial money supply contraction a new burst of borrowing turns the economy back towards positive employment growth. But in deep recessions, like now, there is no foreseeable large group of people who will want to be borrowing more money anytime soon (aside from banksters, who use the money to play financial markets, which does not trickle down into the economy where people can earn some of it as incomes). The boomers are  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1990-11-13"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "During an economic recession, there is simply less money circulating, leading companies to reduce their workforce due to an inability to afford as many employees, resulting in layoffs and fewer job openings."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims that are not supported by any citations. The provided documents do not contain the information presented in the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2987,
+      "completion_tokens": 160,
+      "total_tokens": 3147
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1339,
+        "completion_tokens": 69,
+        "total_tokens": 1408
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1648,
+        "completion_tokens": 91,
+        "total_tokens": 1739
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:21.590188",
+        "prompt_tokens": 1339,
+        "completion_tokens": 69,
+        "total_tokens": 1408,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:22.507359",
+        "prompt_tokens": 1648,
+        "completion_tokens": 91,
+        "total_tokens": 1739,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:20.579432",
+  "last_updated_at": "2026-04-18T20:09:22.507784"
+}

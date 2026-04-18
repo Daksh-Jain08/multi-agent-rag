@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0620",
+  "query": "What is the capital of andhra pradesh and telangana?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "is located from Bhadrachalam, away from Warangal and from Hyderabad. Savatula Gundam Waterfalls are one of the many waterfalls located in Adilabad district, Telangana, India. They are located from Asifabad and from Hyderabad, the state capital. Gowri Gundaala waterfalls at Sabitham village near Ramagundam in Peddapalli district. Telangana has multiple institutes of higher education universities along with numerous primary and secondary schools. The state is home to a number of institutes, which impart higher education. The Department of Higher Education deals with matters relating to education at various levels in the State of Telangana. The Government has established Rajiv Gandhi",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2013-11-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "to 31 October 1956. The 1952 elections led to the victory of the Congress party in Hyderabad state. Burgula Ramakrishna Rao was first Chief Minister of the Hyderabad state from 1952 to 1956. In 1956, Hyderabad State was merged with Andhra State to form Andhra Pradesh. It was again separated from Andhra Pradesh to establish the State of Telangana in 2014. The revolt ensured the victory of the Communist Party in Andhra Pradesh in the 1952 elections. Land reforms were recognised as important and various acts were passed to implement them. Telangana Rebellion The Telangana Rebellion (IAST: \"t\u2500\u00a2la\u00df\u2563\u00e2g\u2500\u00fc\u00df\u2563\u00e7\u2500\u00fc v\u2500\u00a2\u253c\u00fa\u253c\u00fai c\u2500\u00fckiri",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the Governor from among Anglo-Indian Community, under Article 333 of the Constitution of India. All persons residing in the state above the age of 18 are eligible to vote in the elections. The assembly currently meets temporary facilities in the Velagapudi neighbourhood of the new capital city of Andhra Pradesh, Amaravati, having relocated there in March 2017. The first session of the legislature at the new capital began on 6 March 2017. The assembly met at the State Assembly Building in Hyderabad till March 2017. This was built in 1913 and adjoins the picturesque public gardens known as the famous",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1995-09-22"
+    },
+    {
+      "doc_id": "d4",
+      "text": "state was split into three parts, which were merged with neighbouring states to form the modern states of Maharashtra, Karnataka and Andhra Pradesh. The nine Telugu- and Urdu-speaking districts of Hyderabad State in the Telangana region were merged with the Telugu-speaking Andhra State to create Andhra Pradesh, with Hyderabad as its capital. Several protests, known collectively as the Telangana movement, attempted to invalidate the merger and demanded the creation of a new Telangana state. Major actions took place in 1969 and 1972, and a third began in 2010. The city suffered several explosions: one at Dilsukhnagar in 2002 claimed two",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2014-09-17"
+    },
+    {
+      "doc_id": "d5",
+      "text": "khan. Kurnool city served as the capital of Andhra State from 1953\u0393\u00c7\u00f41956, until in 1956, the Telangana region was merged with Andhra State to form Andhra Pradesh state, and its capital was shifted from Kurnool to Hyderabad as there were only camps like A-Camp,B-Camp,C-Camp etc., and due to lack of capital city infrastructure in kurnool for good governance and Hyderabad was already a well established capital with city infrastructure and well-governing facilities were there in Hyderabad as the city served as the capital city to the princely state of Asaf Jahis from 1763\u0393\u00c7\u00f41948 and as a capital city to the  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2006-12-05"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Hyderabad was the capital of Andhra Pradesh until 2014 when Telangana was separated from Andhra Pradesh. Andhra Pradesh's capital is now Amaravati, and Telangana's capital is Hyderabad."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the capitals of Andhra Pradesh and Telangana, but it is not supported by any citations. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2830,
+      "completion_tokens": 167,
+      "total_tokens": 2997
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1259,
+        "completion_tokens": 72,
+        "total_tokens": 1331
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1571,
+        "completion_tokens": 95,
+        "total_tokens": 1666
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:49.956313",
+        "prompt_tokens": 1259,
+        "completion_tokens": 72,
+        "total_tokens": 1331,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:50.952505",
+        "prompt_tokens": 1571,
+        "completion_tokens": 95,
+        "total_tokens": 1666,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:48.939790",
+  "last_updated_at": "2026-04-18T20:09:50.952766"
+}

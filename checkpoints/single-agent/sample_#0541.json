@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0541",
+  "query": "When did the first free settlers arrived in australia?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Immigration history of Australia The immigration history of Australia began with the initial human migration to the continent around 80,000 years ago when the ancestors of Australian Aboriginals arrived on the continent via the islands of Maritime Southeast Asia and New Guinea. From the early 17th century onwards, the continent experienced the first coastal landings and exploration by European explorers. Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales. From early federation in 1901, Australia maintained the White Australia Policy, which was abolished after World War II, heralding the modern era",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "as domestic help to soldiers. Those convicts who behaved were eventually issued with ticket of leave, which allowed them a certain degree of freedom. Those who saw out their full sentences or were granted a pardon usually remained in Australia as free settlers, and were able to take on convict servants themselves. In 1789 former convict James Ruse produced the first successful wheat harvest in NSW. He repeated this success in 1790 and, because of the pressing need for food production in the colony, was rewarded by Governor Phillip with the first land grant made in New South Wales. Ruse's",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the issue of immigration remains highly sensitive in Australia. Immigration history of Australia The immigration history of Australia began with the initial human migration to the continent around 80,000 years ago when the ancestors of Australian Aboriginals arrived on the continent via the islands of Maritime Southeast Asia and New Guinea. From the early 17th century onwards, the continent experienced the first coastal landings and exploration by European explorers. Permanent European settlement began in 1788 with the establishment of a British penal colony in New South Wales. From early federation in 1901, Australia maintained the White Australia Policy, which was",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "settlement of Sydney by Watkin Tench, a captain of the marines on the First Fleet to arrive in 1788. In 1819, poet, explorer, journalist and politician William Wentworth published the first book written by an Australian: \"A Statistical, Historical, and Political Description of the Colony of New South Wales and Its Dependent Settlements in Van Diemen's Land, With a Particular Enumeration of the Advantages Which These Colonies Offer for Emigration and Their Superiority in Many Respects Over Those Possessed by the United States of America\", in which he advocated an elected assembly for New South Wales, trial by jury and",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Britain experienced overcrowding of its prisons and sought to ease the problems by transportation of its prisoners. In 1787 the First Fleet of 11 ships and about 1350 people under the command of Captain Arthur Phillip sailed for Australia. On 26 January 1788 a landing was made at Sydney Cove. The new colony was formally proclaimed as the Colony of New South Wales on 7 February. Other transport fleets bringing further convicts as well as freemen to the colony followed. As a result of agitation by the free settlers in Sydney, transportation of convicts to Sydney ended in 1840. It  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first free settlers arrived in Australia in 1788, following the establishment of the British penal colony in New South Wales. Other transport fleets bringing further convicts as well as freemen to the colony followed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the arrival of free settlers but lacks citations. The provided documents mention free settlers and the year 1788 in relation to the penal colony, but do not directly link the arrival of the first free settlers to that specific year."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2322,
+      "completion_tokens": 194,
+      "total_tokens": 2516
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1003,
+        "completion_tokens": 76,
+        "total_tokens": 1079
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1319,
+        "completion_tokens": 118,
+        "total_tokens": 1437
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:52.600240",
+        "prompt_tokens": 1003,
+        "completion_tokens": 76,
+        "total_tokens": 1079,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:53.914246",
+        "prompt_tokens": 1319,
+        "completion_tokens": 118,
+        "total_tokens": 1437,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:51.454657",
+  "last_updated_at": "2026-04-18T20:06:53.914444"
+}

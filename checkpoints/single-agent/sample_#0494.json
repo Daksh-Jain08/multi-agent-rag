@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0494",
+  "query": "The voice of buzz lightyear in toy story?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "an English accent). He has voiced various NPCs in \"Everquest 2\". He voiced the Berserker Darklings in \"The Darkness\", Bumble in \"Kinectimals\" and Kaos in \"\". Horvitz also voiced \"Green Grapes\" in the Fruit of the Loom commercials. He has also acted on stage, including in Jeffrey Hatcher's \"Mrs. Mannerly\" in Boston. Richard Steven Horvitz Richard Steven Horvitz (born July 29, 1966), sometimes credited as Richard Wood, is an American actor and voice actor. In the world of animation, he has voiced mentally unstable and neurotic characters. He is known for his work as the voice of the original Alpha",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2009-11-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "to Bonnie's house, where Andy passes them on to enjoy life with a new owner. As Andy drives away to college, Woody says an emotional and final farewell to him, saying \"So long, partner\". Woody made a cameo in the outtakes of Pixar's 1998 film \"A Bug's Life\" as a crew member, clapping the upside-down clapperboard. Then he appeared in the Andy's room sequence of \"\" where he was voiced by Jim Hanks (Tom Hanks' brother), and the Andy's room intro of the \"Buzz Lightyear of Star Command\" television series as a cameo. Later, he appeared in the end credit",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d3",
+      "text": "John Ratzenberger John Dezso Ratzenberger (born April 6, 1947) is an American actor, voice actor, and entrepreneur. He played Cliff Clavin in the TV show \"Cheers\", for which he earned two Emmy nominations, and plays voice roles in Pixar Animation Studios' films, including Hamm in the \"Toy Story\" franchise, The Underminer in \"The Incredibles\" franchise, and Mack in the \"Cars\" franchise. He is the only actor to appear in all of Pixar's feature films, and with minor appearances in major films such as \"Superman\" and \"The Empire Strikes Back\", he is one of the most successful actors of all time",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000-12-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "in terms of box-office receipts. Born in Bridgeport, Connecticut, Ratzenberger began his entertainment career while living in London in the 1970s. He had minor film and television roles throughout the late 70s and early 1980s before creating, and then landing, the role of the know-it-all mailman Cliff Clavin on \"Cheers\" (1982\u0393\u00c7\u00f41993), a role he portrayed throughout the show's eleven seasons. His first Pixar role was the voice of Hamm the Piggy Bank in \"Toy Story\" (1995) and has voiced Pixar characters in films and video games ever since. From 2004 to 2008 he hosted the TV documentary series \"Made in",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mike MacRae Mike MacRae (born July 29, 1977) is an American stand-up comedian, actor, voice actor and impressionist. A native of St. Louis, Missouri, MacRae moved to Houston, Texas in 1995 where he graduated from Rice University in 1999 and started performing in The Laff Stop. He appeared on television for the first time in 2001 with Comedy Central's \"Premium Blend\" and is a regular on \"The Bob & Tom Show\". For ADV Films, he has also voiced in numerous English language dubs of anime. In other additions to his voice roles, he currently voices the Disney/Pixar character Buzz Lightyear  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2025-01-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Mike MacRae voices Buzz Lightyear."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer makes a factual claim but provides no citations. The provided documents do not support the claim that Mike MacRae voices Buzz Lightyear."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2593,
+      "completion_tokens": 134,
+      "total_tokens": 2727
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1156,
+        "completion_tokens": 41,
+        "total_tokens": 1197
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1437,
+        "completion_tokens": 93,
+        "total_tokens": 1530
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:38.997050",
+        "prompt_tokens": 1156,
+        "completion_tokens": 41,
+        "total_tokens": 1197,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:40.307035",
+        "prompt_tokens": 1437,
+        "completion_tokens": 93,
+        "total_tokens": 1530,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:38.136625",
+  "last_updated_at": "2026-04-18T18:43:40.307436"
+}

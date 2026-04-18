@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0499",
+  "query": "Why do bath towels seem to get more absorbent the more they get washed over time?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Designer Living towels, also called foutas, Turkish peshtemal bath towels, hammans, and peshtemals, are a uniquely light, soft, thin, and super-absorbent type of towel. When compared to contemporary cotton bath towels, Turkish towels seem like more of a shawl or sheet for sitting on at the beach. While they can certainly be used in these applications, do not be fooled by the thin appearance of Turkish towels. These versatile fabrics are deceivingly absorbent, and the secret to their water-wicking magic lies in their unique cotton fibers. Turkish towels would not be so aptly named if they were not comprised of 100 percent",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "10 Best Bath Towels For Your Bathroom (2019 Review) when you use it. Overall, this is a favored towel over others. On the other hand, some people have complaints about it not being able to absorb enough water, and it leaves a lot of the water on the skin. 100% Microfiber fabric Lint-free bath towel Not as absorbent Ben Sherman Solid Ultra Absorbent Bath Towels You will find the bath towels by Ben Sherman to be trendy in most households. There is plenty of reason why people prefer them over others. This towel is made entirely of cotton, so the fabric is exceptionally comfortable. Because of the softness and",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What Are The Benefits Of Buying Cotton Bath Towels? The towels can last for several years \u0393\u00c7\u00f3 These are high-GSM towels and heavier If you want a lightweight towel, you should Buy Bath Towels made of Turkish cotton. It is quite soft and easier to dry due to the light weight. The more they are washed, the more absorbent and feathery they become. Towels made of pima cotton are known for their absorbent properties and strength. They are lightweight and fluffy, thus offering the best of Egyptian and Turkish cotton towels. Like the Egyptian cotton fibers, pima cotton also has long fibers. So there are many reasons why you",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000-12-25"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Flipazoo Towels Reviews - Too Good to be True? way to get your child to leave the bath willingly and happily. No more tears, screaming and unpleasant scenes after having a bath. Steady Colors and Softness The fabric is soft, and it is of good quality, which means that it will retain that softness even after a good many washes. Same goes for the colors of the towels. They will remain bright and vibrant after they\u0393\u00c7\u00d6ve been through the wash a good many times. This ensures that the towel doesn\u0393\u00c7\u00d6t lose its attractiveness or its element of comfort. After all, the purpose of a towel is to dry a",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Microfiber Towel Uses & 5 Massive Benefits at catching dirt. While a regular cotton towel just pushes dust and dirt around, a microfiber towel effectively picks it up. Excellent reusability. Even though microfiber isn\u0393\u00c7\u00d6t as strong as some types of cotton, it has great reusability. Microfiber suffers less from washing, due to which microfiber towels live longer. You could expect to get 400-500 washes from a single microfiber towel. Absorbent. Microfiber towel is more absorbent than cotton towel, though some cotton types \u0393\u00c7\u00f4 for example, Egyptian cotton towel \u0393\u00c7\u00f4 are usually more absorbent. Nonetheless, microfiber towels have great absorbency, which is why they are a popular choice  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Bath towels, particularly those made of Turkish cotton, become more absorbent and feathery with each wash."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer claims Turkish cotton towels become more absorbent with washing, but the provided citations do not support this. The answer is not grounded in the evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2593,
+      "completion_tokens": 148,
+      "total_tokens": 2741
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1150,
+        "completion_tokens": 53,
+        "total_tokens": 1203
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1443,
+        "completion_tokens": 95,
+        "total_tokens": 1538
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:50.000940",
+        "prompt_tokens": 1150,
+        "completion_tokens": 53,
+        "total_tokens": 1203,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:51.457546",
+        "prompt_tokens": 1443,
+        "completion_tokens": 95,
+        "total_tokens": 1538,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:48.901861",
+  "last_updated_at": "2026-04-18T18:43:51.457924"
+}

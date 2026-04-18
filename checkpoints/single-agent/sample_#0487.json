@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0487",
+  "query": "What are the dates of birth of persons that played for the Colorado Rapids?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "The trade would involve an exchange of draft picks, Colorado receiving the 11th overall pick and Chicago receiving the 30th overall pick. Chicago had traded the 30th overall pick to Colorado during the 2012 MLS season for Wells Thompson. The following day, the Rapids drafted Forward Deshorn Brown (6th overall), Midfielder Dillon Powers (11th overall from Chicago), and Defender Kory Kindle (25th overall). Ecudorian International Defender Diego Calder\u251c\u2502n and Chilean International Midfielder Kevin Harbottle were signed to International Roster Spots. Dillon Serna was signed as the Rapids' 3rd Homegrown Player in the lineup, joining US Youth International Shane O'Neill and",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1994-08-09"
+    },
+    {
+      "doc_id": "d2",
+      "text": "the goal post clearing a shot off the goal line. The injury would require surgery and several months to heal. The injury would allow 23-year-old Chris Klute, on loan from the Atlanta Silverbacks (NASL), to step in and solidify the back line. Klute would start 16 straight games at the Left Back Position, the first Rapids' player to do so since the start of 2010.On March 28, Colorado traded Andre Akpan to the New York Red Bulls for a conditional pick in 2015 MLS SuperDraft. Colorado finished the month with a 2-2 home draw to Portland Timbers, the draw marked",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d3",
+      "text": "midfielder Christian Gomez and backup goalkeeper Mike Graczyk. The media criticized the Rapids for not making more roster changes for the 2009 season. However, the core of the team remained intact. The 2010 campaign featured many roster moves: Danny Earls, Jeff Larentowicz, Claudio Lopez, Quincy Amarikwa, Ian Joyce, and Wells Thompson join the club. The offseason also included a new contract for star forward Conor Casey. The Colorado Rapids also excited many of the ultras supporter groups by the creation and construction of a supporters terrace within Dick's Sporting Goods Park. During the summer transfer window, the Colorado Rapids signed",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2013-03-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Less than 24 hours later, however, Colorado Rapids called and Palguta was en route to Denver. With only four days remaining to opt out of his USL-1 contract, and having been claimed as a Discovery Player by Colorado, Palguta signed with Rapids on March 11, 2009. Palguta was a member of the Rapids team that won MLS Cup by defeating FC Dallas 2-1 on November 21, 2010 at BMO Field, Toronto,Canada He was released by Colorado on November 16, 2012. but opted out of the 2012 MLS Re-Entry Draft after accepting the position of Assistant Men's Soccer Coach at Colorado",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Omar Cummings Omar Cummings (born 13 July 1982) is a former Jamaican international footballer who played as a forward. He spent his entire professional career in the United States. Cummings attended Jonathan Grant High School, Cincinnati State College and the University of Cincinnati, where he majored in criminal justice. Cummings was selected by the Colorado Rapids in the 2007 MLS SuperDraft as a Round 3, number 31 overall pick. On 4 September 2010, Cummings scored two goals to help the Rapids to a 3\u0393\u00c7\u00f40 victory over Chivas USA at Dick's Sporting Goods Park. The performance led to him being voted  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2022"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Omar Cummings was born on July 13, 1982. Chris Klute was 23 years old at some point, but his birth date is not specified."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about Omar Cummings' birth date, but no citations are provided. The claim about Chris Klute is also unsupported by citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2580,
+      "completion_tokens": 165,
+      "total_tokens": 2745
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1135,
+        "completion_tokens": 70,
+        "total_tokens": 1205
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 95,
+        "total_tokens": 1540
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:24.093552",
+        "prompt_tokens": 1135,
+        "completion_tokens": 70,
+        "total_tokens": 1205,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:25.459371",
+        "prompt_tokens": 1445,
+        "completion_tokens": 95,
+        "total_tokens": 1540,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:23.220202",
+  "last_updated_at": "2026-04-18T18:43:25.459802"
+}

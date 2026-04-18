@@ -1,0 +1,136 @@
+{
+  "sample_id": "#0162",
+  "query": "Which GitHub repo has the most stars?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "EvanLi/Github-Ranking Ranking, Project Name, Stars, Forks, Language, Open Issues, Description, Last Commit. 1, freeCodeCamp, 404438, 37868, TypeScript, 195, freeCodeCamp.org's ... Saved searches Use saved searches to filter your results more quickly You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert An ActionScript 3 Library that contains a number of classes and utilities for working with ActionScript? 3. These include classes for MD5 and SHA 1 hashing, Image encoders, and JSON serialization as well as general String, Number and Date APIs. flixel is a free Actionscript (Flash) library that I distilled from a variety of Flash games that I've worked on over the last couple years, including Gravity Hook, Fathom and Canabalt. It's primary function is to provide some useful base classes that you can extend to make your own game objects. Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps. Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements. ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from. 2017\u5e74\u4e70\u623f\u7ecf\u5386\u603b\u7ed3\u51fa\u6765\u7684\u4e70\u623f\u8d2d\u623f\u77e5\u8bc6\u5206\u4eab\u7ed9\u5927\u5bb6\uff0c\u5e0c\u671b\u5bf9\u5927\u5bb6\u6709\u6240\u5e2e\u52a9\u3002\u4e70\u623f\u4e0d\u6613\uff0c\u4e14\u4e70\u4e14\u73cd\u60dc\u3002Sharing the knowledge of buy an own house that according to the experience at hangzhou in 2017 to all the people.",
+      "source_url": "https://github.com/EvanLi/Github-Ranking",
+      "timestamp": "2018-12-16"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Github-Ranking/Top100/Top-100-stars.md at master Top 100 Stars ; 1, freeCodeCamp, 408487 ; 2, free-programming-books, 346742 ; 3, awesome, 340811 ; 4, build-your-own-x, 324090 ... Saved searches Use saved searches to filter your results more quickly You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session.",
+      "source_url": "https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Top-100-stars.md",
+      "timestamp": "2018-12-16"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Gitstar Ranking - Top GitHub users and repositories Gitstar Ranking is a GitHub star ranking. You can see top 1000 users, organizations and repositories. Find your favorite user. See what is your rank.",
+      "source_url": "https://gitstar-ranking.com/",
+      "timestamp": "2014-01-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "15 Most Popular GitHub Repositories Every Developer Should Know freeCodeCamp is the most starred repository on GitHub. It is the backend for the main freeCodeCamp website that offers numerous free computer ... 15 Most Popular GitHub Repositories Every Developer Should Know As the most popular Git repository hosting platform, GitHub hosts more than 300 million repositories with a global community of over 100 million developers. The platform has become one of the best sources for free and useful software and web development resources. However, with so many projects available, finding the best git repository for your needs can be a daunting task. This is why we have compiled 15 of the most popular GitHub repos, ranked from the most starred to the least. We also briefly described each GitHub repo and added its number of forks. Hopefully, this list can help you choose the best resources to develop and host your site. As a result, many Python frameworks, libraries, and software are available to help speed up web or software development. The Awesome Python repository curates all of these developer resources in one place. It also lists Python learning materials in the form of books, websites, newsletters, and podcasts. The creator welcomes contributions, letting people submit one resource link per pull request. It contains over 300 optional plugins, over 140 themes, and an auto-update tool to help users keep up with updates from over 2,000 contributors. The GitHub repository for this framework contains guides on installation, plugin usage, theme selection, automatic or manual update requests, and community contribution. Conclusion There are millions of GitHub repositories listing valuable developer tools and resources. Due to these numerous options, it is critical to choose repos that are most suitable for the project you are developing. If you still have trouble making your pick, take a look at our final recommendations of the most popular open-source projects on GitHub: We hope this article has helped you pick the best open-source project to streamline your development process. Good luck. Most Popular GitHub Repos FAQ This section answers some of the most commonly asked questions regarding popular repositories on GitHub. What Is a GitHub Repository? A GitHub repository is a storage unit developers use to store their web project\u2019s files, making it an excellent tool for project management and developer collaboration. Others can contribute to a public Git repository by proposing changes via pull requests. Developers typically use Git commands to create or modify code.",
+      "source_url": "https://www.hostinger.com/tutorials/most-popular-github-repos",
+      "timestamp": "2023-12-21"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Reaching 100 stars on GitHub: what I learned from putting code online My most popular project has 350 stars and is just a very old github repo with example code from a blog post that explains how JWTs fundamentally ...",
+      "source_url": "https://www.reddit.com/r/programming/comments/tznq8t/reaching_100_stars_on_github_what_i_learned_from/",
+      "timestamp": "2022-04-09"
+    },
+    {
+      "doc_id": "d6",
+      "text": "how to check popular repos and other stats in github? - Stack Overflow The page GitHub/explore is a good starting point: https://github.com/explore From there, you can see repositories trending: https://github.com/trending?since= ... I 'm not able to find the way of finding out which repos have most stars , most forked and according to each language. There is no direct link to statistics and when I go to stars , it only shows my stared repos. Where can I find that?",
+      "source_url": "https://stackoverflow.com/questions/23170132/how-to-check-popular-repos-and-other-stats-in-github",
+      "timestamp": "2014-04-19"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Top 100 Stars in Go - Github Ranking | Github-Ranking Ranking, Project Name, Stars, Forks, Language, Open Issues, Description, Last Commit. 1, awesome-go, 131126, 11876, Go, 2, A curated list of awesome Go ... Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "source_url": "https://evanli.github.io/Github-Ranking/Top100/Go.html",
+      "timestamp": "2025-01-07"
+    },
+    {
+      "doc_id": "d8",
+      "text": "GitHub Stars and the h-index: A Journey - Dan Vanderkam - Medium With over a million stars across all its repos, google is #1. I have a more modest 6,678, good enough for a rank of 967. GitHub Stars and the h-index: A Journey Starring a repo on GitHub is an easy way to tell its author that you appreciate their work. It only takes one click! Starring a repo is easy and satisfying for both you and its owner. Stars are a good way to get a quick sense of a repository\u2019s popularity. People get pretty obsessed with tracking stars. If you want to chart your stars over time, there\u2019s star-history: star-history is the \u201cmissing star history graph of github repos.\u201d I\u2019m a fan of the xkcd-style graphs. If you want to see how you stack up compared to other users, organizations and repos, there\u2019s Gitstar Ranking: With over a million stars across all its repos, google is #1. I have a more modest 6,678, good enough for a rank of 967. But is the sum of stars across repos the best metric for measuring impact? Just one popular repo can push an organization to the top of this list. freeCodeCamp is at #8 with 344k stars. But 308k (nearly 90%) of those come from just one repo. What if we want to find organizations with many popular repos? Academics face the same problem in measuring the impact of authors and journals. They\u2019ve come up with a clever solution call the h-index. It\u2019s best explained through an example: if you have ten published articles with more than ten citations each, then your h-index is ten. This eliminates the problem of a single popular article: if you\u2019ve only written one article then your h-index is one, no matter how popular it is. I thought it would be interesting to measure the h-index of GitHub users and organizations. First step: assemble a list of all the GitHub repos! If you have a list of all the repos with 15 or more stars, then you can find all the organizations with an h-index of 15 or higher. There are around a million of these, so this is a large but not enormous data set. I\u2019d hoped to find a CSV file with this sort of data: just the repo name and star count would be enough. I did some Googling and came up empty handed.",
+      "source_url": "https://danvdk.medium.com/github-stars-and-the-h-index-a-journey-c104cfe37da6",
+      "timestamp": "2020-02-09"
+    },
+    {
+      "doc_id": "d9",
+      "text": "The Ten Most Starred Github Repositories - HackerNoon The Ten Most Starred Github Repositories ; 1. Public APIs. Github Stars: 105K ; 2. Build your own x. Github Stars: 92K ; 3. Automatic Udemy Course ... The Ten Most Starred Github Repositories Too Long; Didn't Read The Ten Most Starred Github Repositories: Shreya Purohit has curated a curated list of the most helpful repos ever. Public API contains a list of free APIs which can be used for building projects and apps. Coding Interview University is a multi-month study planning-type-type of repository for learners who want to be a software engineer, smart enough to get selected in FAANG. It is best for the people who are beginners in the field of software engineering, where knowledge is primarily required. People Mentioned Companies Mentioned As we know, GitHub is a collaborative platform for developers, it lets us work together and contribute to the community as well. It also allows us to make repositories, commits, branches, and pull requests. With such great community contribution comes the problem to find the most helpful repos. So I thought of making a curated blog having the list of most helpful repos ever, which will be updated from time to time also! Some of the repos will be including helpful resources while some will help you become a better software engineer and developer. So without any further ado, let\u2019s get started. 1. Public APIs Github Stars: 105K As the name suggests, Public API contains a list of free APIs which can be used for building projects and apps. Animals, Games & Comics, Machine Learning, Music, News, Open Source Projects, Photography, Sports ,etc. This is a comprehensive collection of data so go and check it out now. 2. Build your own x You must have guessed it by the name, this is the repository every developer may want! Do you want to invent your own programming language or your own Git? If yes, then go forward to fork this repo. It\u2019s a collection of tutorials on how you can build your own technology. This is a fantastic repository for your project so go and check it out now. 3. Automatic Udemy Course Enroller So this is the repository every student/learner or any learning freak who wants to LEARN NEW STUFF for FREE should have a look.",
+      "source_url": "https://hackernoon.com/the-ten-most-starred-github-repositories-mo19343d",
+      "timestamp": "2021-01-08"
+    },
+    {
+      "doc_id": "d10",
+      "text": "\"GitHub Stars\" is a very useful metric. But for *what GitHub Stars are an easy metric to keep track of, and I've used them to measure how popular an open source project is. Users on the GitHub website are able to \"star\" other people's repositories, thereby saving them in their list of Starred Repos. Some people use \"stars\" to indicate that they like a project, other people use them as bookmarks so they can follow what's going on with the repo later. GitHub Stars are an easy metric to keep track of, and I've used them to measure how popular an open source project is. I admit to sometimes even using Stars to determine how battle-tested a repo is, under the assumption that a repo that has received more Stars must have received more use. However, there are three limitations I noticed with GitHub stars (which makes my current approach to handling them pretty dubious): It is easy to create fake accounts on GitHub that can star repos. This can allow you to boost your metrics pretty easily, although you do not want to be obvious when doing them, lest the accounts get detected and deleted. (You can google for \"buy GitHub stars\" for those that are lazy technically). While you can use fake accounts to star your own repos, you may also want to star other people's repos to avoid leaving a paper trail. And since you don't want to be running all these fake accounts manually, you want to create bots and...you get the picture. GitHub Stars may be \"juiced\" by media attention, which is temporary and not actually based on sustained popularity. This is from personal experience -- after publicizing a fork of an my open source repo on Hacker News, I received some stars, but no corresponding increase in use of my fork. It's possible that a few people were interested in my repo, starred it, and then either never found an actual use case for my fork or promptly forgot about it later on. You can star a Repo for any reason. GitHub doesn't care. It merely notes that someone pressed the Star button and that's all. You can guess why it's starred (someone likes it or wants to look at it later), but other reasons are equally plausible (they are bored at work and like starring random repos, they want to star a repo of a friend of theirs). I'm sure that metric means something. I'm not sure what though.",
+      "source_url": "https://opensource.stackexchange.com/questions/5110/github-stars-is-a-very-useful-metric-but-for-what",
+      "timestamp": "2017-02-10"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The GitHub repository with the most stars is freeCodeCamp, with over 400,000 stars."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as no citations were provided to support the claim that freeCodeCamp has the most stars. The provided documents mention freeCodeCamp as having many stars but do not definitively state it has the most."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 8305,
+      "completion_tokens": 166,
+      "total_tokens": 8471
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 4004,
+        "completion_tokens": 57,
+        "total_tokens": 4061
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4301,
+        "completion_tokens": 109,
+        "total_tokens": 4410
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:26:50.038455",
+        "prompt_tokens": 4004,
+        "completion_tokens": 57,
+        "total_tokens": 4061,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:26:51.659292",
+        "prompt_tokens": 4301,
+        "completion_tokens": 109,
+        "total_tokens": 4410,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:26:49.036778",
+  "last_updated_at": "2026-04-18T18:26:51.659846"
+}

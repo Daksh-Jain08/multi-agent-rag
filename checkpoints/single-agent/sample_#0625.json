@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0625",
+  "query": "Why do high end luxury watches such as Rolex have such a strong connection to diving?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Rolex Watches | Submariner, Daytona, Datejust and more | Watchfinder & Co. diving agency dedicated to saturation diving. In addition to its Professional collection, the elite manufacturer also makes watches with a more aesthetic leaning, such as the Yacht-Master, the Pearlmaster and the Cellini. These watches may have extra adornments, but they lose nothing of the functionality that the brand is famous for. The recently introduced Sky-Dweller is a testament to this, as a watch that is both pleasingly attractive and superlatively clever. Rolex is more than just a high-street fashion name. It produces beautiful luxury watches, but it also commands a pedigree that can only be dreamed of by other manufacturers.",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Rolex Submariner Watches | Ramsdens designed for the diving community, the Rolex Submariner is built for durability and resistance to water and corrosion. The stainless steel Submariner model with a black gloss dial is perhaps the most widely recognised luxury sport watch in the world within the diving community as well as those looking to make a statement with a luxury fashion timepiece. Looking to buy a Rolex Submariner watch? Our collection of Submariner watches can include Mens Rolex Submariner watches and Ladies Rolex Submariner watches. You can expect to find the best value Submariner when buying pre owned. Depending on the condition of the",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How to Sell a Used Rolex Watch Atlanta - Timeless Luxury How to Sell a Used Rolex in Atlanta How to Sell a Used Rolex Watch Atlanta Are you looking to sell your used Rolex watch and not sure where to go or what to do? Timeless Luxury is here to help! Selling a high-end luxury watch such as a Rolex can often time be a daunting task. There are nearly ten different watch stores in Atlanta that all claim to be the top buyer of Rolex watches. So how do you know which one is going to give you the best value? In this post, we will discuss what you",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Rolex Watches | Submariner, Daytona, Datejust and more | Watchfinder & Co. the brand developed the Sea-Dweller for COMEX, a diving agency dedicated to saturation diving. In addition to its Professional collection, the elite manufacturer also makes watches with a more aesthetic leaning, such as the Yacht-Master, the Pearlmaster and the Cellini. These watches may have extra adornments, but they lose nothing of the functionality that the brand is famous for. The recently introduced Sky-Dweller is a testament to this, as a watch that is both pleasingly attractive and superlatively clever. Rolex is more than just a high-street fashion name. It produces beautiful luxury watches, but it also commands a pedigree that",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-05-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Why are Rolexes so valuable? - The Iconic Status of Rolex - Luxury Asset Buyer & Collateral Lender | Vasco Assets is hard to believe but all Rolex watches are partially handmade. Every watch gets individual attention, is meticulously arranged and independently tested to meet its high standards. Rolex also refines its own gold in order to monitor the appearance of each watch. The stainless steel used is much more expensive than any other high-end brand and is resistant to rust and corrosion, making it ideal for deep-sea divers. Its supreme level of quality accounts for a high price tag. Some of the reasons why a Rolex is so expensive: High Design Costs Watchmaking is a time-consuming profession, especially when a  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2008-12-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Rolex has a strong connection to diving because their watches, particularly the Submariner and Sea-Dweller models, are designed for durability, water resistance, and corrosion resistance, making them ideal for divers. The Sea-Dweller was specifically developed for COMEX, a saturation diving agency."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims that are not supported by any citations. The answer should have cited documents d1, d2, d4, and d5."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2481,
+      "completion_tokens": 189,
+      "total_tokens": 2670
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1075,
+        "completion_tokens": 92,
+        "total_tokens": 1167
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 97,
+        "total_tokens": 1503
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:00.186071",
+        "prompt_tokens": 1075,
+        "completion_tokens": 92,
+        "total_tokens": 1167,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:01.213844",
+        "prompt_tokens": 1406,
+        "completion_tokens": 97,
+        "total_tokens": 1503,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:59.084956",
+  "last_updated_at": "2026-04-18T20:10:01.214025"
+}

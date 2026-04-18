@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0657",
+  "query": "How many senate seats are up for election in 2018?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Mark Ash Every seat in the Texas House of Representatives and about half of the seats in the Texas Senate will be up for election. 2018 Texas elections The 2018 general election was held in the U.S. state of Texas on November 6, 2018. All of Texas' executive officers were up for election as well as a United States Senate seat, and all of Texas' thirty-six seats in the United States House of Representatives. The Republican and Democratic Parties nominated their candidates by primaries held March 6, 2018. Convention Parties nominated their candidates at a series of conventions. County Conventions",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "2020 United States elections The 2020 United States elections will be held on Tuesday, November 3, 2020. All 435 seats in the United States House of Representatives, 34 of the 100 seats in the United States Senate, and the office of President of the United States will be contested. Thirteen state and territorial governorships, as well as numerous other state and local elections, will also be contested. Both parties will attempt to win unified control of Congress and the presidency in the 2020 elections. Incumbent Republican President Donald Trump will seek re-election in the 2020 presidential election. Each major party",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2016-03-04"
+    },
+    {
+      "doc_id": "d3",
+      "text": "states will hold state legislative elections in 2020. Alabama, Louisiana, Maryland, Mississippi, New Jersey, and Virginia will not hold state legislative elections, Michigan will only hold elections for the lower house, and North Dakota will only hold elections for the upper house. In states that use staggered terms, some state senators will not be up for election. After the 2018 elections, Democrats have 14 trifectas (control of the governor's office and both legislative chambers), Republicans have 22 trifectas, and 13 states have a divided government (excluding Nebraska, which has a non-partisan legislature). In the 2019 elections, Democrats have an opportunity",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "maps can be obtained from the U.S. Census here. Following the 2016 state senate elections, Republicans maintained effective control of the Senate with 38 members. However, on December 5, 2017 Democrats flipped State Senate district 6 after Democrat Jen Jordan won a special election. This decreased Republican seats from 38 to 37 and increased Democratic seats from 18 to 19. To reclaim control of the chamber from Republicans, the Democrats would need to net 9 Senate seats and win the concurrent lieutenant gubernatorial election or net 10 seats without the Lieutenant Governor's office. Source: Sources: 2018 Georgia State Senate election",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2008"
+    },
+    {
+      "doc_id": "d5",
+      "text": "election in 2018. Both state senators and state representatives serve four-year terms in Alabama. After the 2014 elections, Republicans maintained control of both chambers. In 2018, all 35 Alabama Senate seats and all 105 Alabama House of Representatives seats will be up for election. These seats will not be contested in a regularly-scheduled election again until 2022. All of Alabama's seven seats in the United States House of Representatives will be up for election in 2018. 2018 Alabama elections A general election was held in the U.S. state of Alabama on November 6, 2018. All Alabama executive officers were up  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1999"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In 2018, all 35 Alabama Senate seats were up for election. Additionally, about half of the seats in the Texas Senate were up for election, and one United States Senate seat was up for election in Texas."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2533,
+      "completion_tokens": 167,
+      "total_tokens": 2700
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1106,
+        "completion_tokens": 81,
+        "total_tokens": 1187
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1427,
+        "completion_tokens": 86,
+        "total_tokens": 1513
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:07.873624",
+        "prompt_tokens": 1106,
+        "completion_tokens": 81,
+        "total_tokens": 1187,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:09.250739",
+        "prompt_tokens": 1427,
+        "completion_tokens": 86,
+        "total_tokens": 1513,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:06.978679",
+  "last_updated_at": "2026-04-18T20:11:09.251162"
+}

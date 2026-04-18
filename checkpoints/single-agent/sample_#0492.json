@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0492",
+  "query": "Which album has Steps as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "single to have an accompanying video that was almost fully animated and did not feature a dance routine like their video for \"Heartbeat\". The single reached number 5 in the UK charts and was their lowest-selling single to date. A release for \"Baby Don't Dance\" was planned for 2002 but was scrapped due to the group's split although promotional copies surfaced before the release of \"The Last Dance\". Steps announced the release of their greatest hits album in May 2001, shortly after rumours started surfacing that the group would be splitting up after the release, these were continuously denied by",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Sky Living. Following the series' success, ITV2 decided to bring back seven pop bands of the late 1990s and early 2000s in a nine-part series: \"The Big Reunion\". Steps (pop group) Steps are a British dance-pop group consisting of Claire Richards, Lee Latchford-Evans, Lisa Scott-Lee, Faye Tozer and Ian \"H\" Watkins. Steps were formed in May 1997 by Tim Byrne, Barry Upton and Steve Crosby and released four studio albums, three compilation albums and seventeen singles. Their music has a 1990s dance-pop sound. Their name was based on a marketing premise: that each of their music videos were to be",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2006-06-17"
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Next Step (James Brown album) The Next Step is the 62nd and final studio album by American musician James Brown. The album was released on August 27, 2002, by Fome Records. \"The following year he was the subject of a PBS American Masters documentary, James Brown: Soul Survivor. He continued performing well into the first decade of the 2000s, appearing at the second Bonnaroo festival in 2003, at the Edinburgh Live 8 concert in 2005, and setting out on his \"Seven Decades Of Funk World Tour\" in 2006.\" Brown died of congestive heart failure due to complications from pneumonia",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Stepping Out: The Very Best of Joe Jackson Stepping Out: The Very Best of Joe Jackson is a compilation album from the English musician Joe Jackson. The songs, arranged in chronological order, are taken from nine of his first twelve albums, all of which were released on the A&M Records label. \"Stepping Out: The Very Best of Joe Jackson\" reached No. 7 in the UK Albums Chart in October 1990. By this time Jackson had parted company with A&M, with his next few releases being on the Virgin Records label. In his book, \"The Great Rock Discography\", music historian Martin",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Twitter that she had begun work on her first studio album. A new compilation entitled \"5,6,7,8: The Collection\" was released on 27 November 2015 through Music Club Deluxe containing most of the singles with some B-sides and remixes. This is a budget release CD which has no official connection to Steps or any previous management or record company but a selection of tracks licensed to Music Club Deluxe for release. The album is available on CD and via download. On 1 April 2016, a three-disc compilation entitled \"Stomp All Night: The Remix Anthology\" was announced, featuring 36 of the group's  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Steps released four studio albums and three compilation albums. Specific album titles are not provided in the documents."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about the number of albums released by Steps, but provides no citations. The query asks which album has Steps as a performer, and the answer does not address this."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2429,
+      "completion_tokens": 156,
+      "total_tokens": 2585
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1068,
+        "completion_tokens": 53,
+        "total_tokens": 1121
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1361,
+        "completion_tokens": 103,
+        "total_tokens": 1464
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:35.153824",
+        "prompt_tokens": 1068,
+        "completion_tokens": 53,
+        "total_tokens": 1121,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:36.277780",
+        "prompt_tokens": 1361,
+        "completion_tokens": 103,
+        "total_tokens": 1464,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:33.892535",
+  "last_updated_at": "2026-04-18T18:43:36.278204"
+}

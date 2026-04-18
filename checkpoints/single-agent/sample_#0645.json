@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0645",
+  "query": "When was star wars the force awakens made?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Awakens\" received eleven nominations at the MTV Movie Awards, the most for the ceremony, including Movie of the Year, Best Female Performance for Ridley, Best Breakthrough Performance for Boyega, and Best Virtual Performance for Lupita Nyong'o and Andy Serkis. In addition to several awards and nominations, \"The Force Awakens\" appeared on various critics' lists of the ten best films of 2015. Rian Johnson confirmed in August 2014 that he would direct \"Episode VIII\", later titled \"The Last Jedi\". It was released on December 15, 2017. Some second-unit filming took place in September 2015 in Ireland, with principal photography beginning in",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d2",
+      "text": "around August 2013, with Abrams meeting with potential actors for script readings and screen tests. Open auditions were held in the UK, Ireland, and the United States in November 2013 for the roles of Rachel and Thomas. Casting began in earnest in January 2014, because of changes to the script by Kasdan and Abrams. Screen tests with actors continued until at least three weeks before the official announcement on April 29, 2014, with final casting decisions made only a few weeks earlier. Actors testing had strict nondisclosure agreements, preventing them, their agents or their publicists from commenting on their involvement.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d3",
+      "text": "final cut. Hugh Skinner cameos as a Resistance Officer. In October 2012, \"Star Wars\" creator George Lucas sold his production company Lucasfilm, and with it the \"Star Wars\" franchise, to The Walt Disney Company. Disney announced a new trilogy of \"Star Wars\" films. J. J. Abrams was named director of the first episode in the trilogy, \"The Force Awakens\", in January 2013. In June 2014, director Rian Johnson was reported to be in talks to write and direct its sequel, \"Episode VIII\", and to write a treatment for the third film, \"Episode IX\", with Ram Bergman producing both films. Johnson",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2022-04-24"
+    },
+    {
+      "doc_id": "d4",
+      "text": "reinforced brand loyalty among fans. On December 11, 2014, Abrams and Kennedy released a series of eight mock Topps trading cards revealing the names of several characters. On April 16, 2015, a second teaser trailer, this one lasting two minutes, was shown at the opening panel at the \"Star Wars\" Celebration in Anaheim, California. Lucasfilm president Kathleen Kennedy said the reaction to the trailer was \"staggering\u0393\u00c7\u00aa the entire room of almost eight thousand people just leapt to their feet and roared, I mean I can't think of anything I've ever been to \u0393\u00c7\u00f4 other than a rock concert \u0393\u00c7\u00f4 that",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2021-01-28"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Lucasfilm Ltd. and Abrams's production company Bad Robot Productions. \"The Force Awakens\" is the first \"Star Wars\" film to not involve franchise creator George Lucas. Set 30 years after \"Return of the Jedi\", the film follows Rey, Finn, and Poe Dameron's search for Luke Skywalker and their fight alongside the Resistance, led by General Leia Organa and veterans of the Rebel Alliance, against Kylo Ren and the First Order, a successor to the Galactic Empire. \"The Force Awakens\" was announced after The Walt Disney Company's acquisition of Lucasfilm in October 2012. The film was produced by Abrams, his longtime collaborator  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2003"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Star Wars: The Force Awakens was announced after The Walt Disney Company's acquisition of Lucasfilm in October 2012, and J. J. Abrams was named director in January 2013."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it cannot be verified as grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2602,
+      "completion_tokens": 166,
+      "total_tokens": 2768
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1142,
+        "completion_tokens": 78,
+        "total_tokens": 1220
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1460,
+        "completion_tokens": 88,
+        "total_tokens": 1548
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:39.928246",
+        "prompt_tokens": 1142,
+        "completion_tokens": 78,
+        "total_tokens": 1220,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:40.951685",
+        "prompt_tokens": 1460,
+        "completion_tokens": 88,
+        "total_tokens": 1548,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:38.848206",
+  "last_updated_at": "2026-04-18T20:10:40.952133"
+}

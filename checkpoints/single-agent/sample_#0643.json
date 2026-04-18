@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0643",
+  "query": "Where is the orange bowl held this year?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "one touchdown. The Terrapins reached four more bowl games in the decade, including the newly renamed Florida Citrus Bowl in 1983. Florida reached six more bowl games in the decade, though they did not reach the Citrus Bowl again until 1998. 1980 Tangerine Bowl The 1980 Tangerine Bowl was an American college football bowl game played on December 20, 1980 at Orlando Stadium in Orlando, Florida. The game pitted the Florida Gators and the Maryland Terrapins. The Terrapins improved upon their record, rising from 7 to 8 victories, though they once again finished 2nd place in the Atlantic Coast Conference,",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Henry and St. Vincent (finished 7\u0393\u00c7\u00f46). The game's third-place position was soon overtaken, though, as Omaha and Eastern Kentucky finished 7\u0393\u00c7\u00f46 the next year and Juniata and Missouri Valley tied 6\u0393\u00c7\u00f46 the year after that, which put the 1954 edition at the fifth-lowest scoring Tangerine Bowl, a position it maintains to present day (throughout all name-changes and variations of the bowl). 1954 Tangerine Bowl The 1954 Tangerine Bowl was an American college football bowl game played after the 1953 season, on January 1, 1954, at the Tangerine Bowl stadium in Orlando, Florida. The Arkansas State Indians (now the Arkansas State",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "the coin for the coin toss. The officiating team was provided by the Southeastern Conference. 2007 Orange Bowl The 2007 FedEx Orange Bowl game was a college football Bowl Championship Series (BCS) bowl game following the 2006 NCAA Division I FBS football season. The game was played on January 2, 2007, at Dolphin Stadium in Miami Gardens, Florida. The game matched the No. 15 Wake Forest Demon Deacons versus the No. 6 Louisville Cardinals and was televised on Fox. Each of the teams selected an honorary captain. Wake Forest chose golf great Arnold Palmer, a Wake alumnus, and Louisville chose",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2016-04-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "1964 Tangerine Bowl The 1964 Tangerine Bowl was an American college football bowl game between the East Carolina Pirates and the Massachusetts Redmen (now the Minutemen), played in Orlando, Florida. From 1964 through 1967, the Tangerine Bowl was one of four postseason games in the NCAA College Division, the Atlantic regional final. The 1964 game had the Redmen of the Yankee Conference and the independent Pirates. The other three regional finals in the College Division were the Pecan, Grantland Rice, and Camellia bowls, also played on December 12. The game ultimately was decided by special teams. The Redmen scored twice",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2024-07-19"
+    },
+    {
+      "doc_id": "d5",
+      "text": "1983 Florida Citrus Bowl The 1983 Florida Citrus Bowl was an American college football bowl game played on December 17, 1983 at Florida Citrus Bowl in Orlando, Florida. The game pitted the Tennessee Volunteers and the Maryland Terrapins. Tennessee started the season 1-2, with a win over New Mexico and losses to #10 Pittsburgh and #11 Auburn (all at home). The Volunteers promptly won the next five games, including a road victory at #11 Alabama. A loss to Ole Miss was followed by victories over Kentucky and Vanderbilt to end the season tied for third place with Florida in the  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2021-12-21"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Orange Bowl was held at Dolphin Stadium in Miami Gardens, Florida in 2007."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the Orange Bowl's location and year, but there are no citations provided to support these claims. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2623,
+      "completion_tokens": 151,
+      "total_tokens": 2774
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1165,
+        "completion_tokens": 53,
+        "total_tokens": 1218
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 98,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:35.940653",
+        "prompt_tokens": 1165,
+        "completion_tokens": 53,
+        "total_tokens": 1218,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:36.924147",
+        "prompt_tokens": 1458,
+        "completion_tokens": 98,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:35.020924",
+  "last_updated_at": "2026-04-18T20:10:36.924427"
+}

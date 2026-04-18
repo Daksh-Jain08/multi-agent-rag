@@ -1,0 +1,148 @@
+{
+  "sample_id": "#0326",
+  "query": "Are somatic mutations passed to offspring?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Inheritance of somatic mutations by animal offspring Abstract Since 1892, it has been widely assumed that somatic mutations are evolutionarily irrelevant in animals because they cannot be inherited by offspring. However, some nonbilaterians segregate the soma and germline late in development or never, leaving the evolutionary fate of their somatic mutations unknown. By investigating uni- and biparental reproduction in the coral Acropora palmata (Cnidaria, Anthozoa), we found that uniparental, meiotic offspring harbored 50% of the 268 somatic mutations present in their parent. Thus, somatic mutations accumulated in adult coral animals, entered the germline, and were passed on to swimming larvae that grew into healthy juvenile corals. In this way, somatic mutations can increase allelic diversity and facilitate adaptation across habitats and generations in animals. Figures Fig. 1.. Detection and mapping of somatic\u2026 Fig. 1.. Detection and mapping of somatic mutations across a parent coral colony and five\u2026 Fig. 1.. Detection and mapping of somatic mutations across a parent coral colony and five nearest neighbor colonies (ramets) from the same coral genet. (A) Sampling map of the parent colony and its five nearest neighbor colonies. Colonies are arranged according to their location on the reef with linear distances between colonies indicated next to the arrows. Colored circles indicate the locations of the tissue samples that were genotyped. Individual colonies in the line drawing are enlarged to show detail and not drawn to scale. Photo credit: Kate L. Vasquez Kuntz, The Pennsylvania State University. (B) Plot of Prevosti\u2019s pairwise genetic distance within the parent colony and between the parent colony and the five neighboring colonies. All genetic distances were smaller than the distance threshold for genet assignment; therefore, all six colonies belonged to the same coral genet. (C) Histogram showing the frequency of pairwise genetic distances for 263 A. palmata samples collected from across the Caribbean in a previous study.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36044584/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Corals pass mutations acquired during their lifetimes to offspring ... State and the California Institute of Technology co-lead author of the study. The research team genotyped samples -- using a high-resolution molecular tool called a microarray to investigate DNA differences between the samples -- from ten different locations on a large Elkhorn coral colony that had produced single-parent offspring, and samples from five neighboring colonies at nearly 20,000 genetic locations. The results showed that all six of the separate coral colonies belonged to the same original coral genotype (known as a \"genet\"), meaning essentially that they were clones derived from a single original colony through asexual reproduction and colony fragmentation. Thus, any genetic variation found in these corals would have been the result of somatic mutation. The team found a total of 268 somatic mutations in the samples, with each coral sample harboring between 2 and 149 somatic mutations. The team then looked at the single-parent offspring from the parent Elkhorn coral colony and found that 50% of the somatic mutations had been inherited. The exact mechanism of how the somatic mutations make their way into germline cells in the corals is still unknown, but the researchers suspect that the segregation between body and germline cells in corals may be incomplete and some body cells may retain the capacity to form germ cells, allowing somatic mutations to make their way into offspring. They also found evidence for the inheritance of somatic mutations in some offspring from the mating of two separate coral parents but will need additional studies to confirm this. \"Because corals grow as colonies of genetically-identical polyps, somatic mutations that arise in one coral polyp can be exposed to the environment and screened for their utility without necessarily affecting the entire colony,\" said Baums. \"Therefore, cells with potentially harmful mutations may die off and cells with potentially advantages mutations could thrive and spread as the coral colony continues to grow. If these mutations can then be passed on to offspring -- as we have now demonstrated -- it means that corals have an additional tool that might be able to speed up their adaptation to climate change.",
+      "source_url": "https://www.sciencedaily.com/releases/2022/08/220831152728.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Mutation \u200bMutation Definition A mutation is a change in the DNA sequence of an organism. Mutations can result from errors in DNA replication during cell division, exposure to mutagens or a viral infection. Germline mutations (that occur in eggs and sperm) can be passed on to offspring, while somatic mutations (that occur in body cells) are not passed on. Narration Mutation. Mutations are happening in our cells all the time, but almost none of these affect our health. This is very different than what we often see in science fiction in movies. In real life, a mutation is never so beneficial that it turns a person into a superhero or does something bizarre like cause them to grow wings. There are many reasons that mutations usually don't have major consequences. One reason is that our cells have very sophisticated machinery for repairing mutations very quickly. So there's not enough time for them to cause problems. Another is that most mutations occur in somatic cells like muscle cells or skin cells and can only affect the cell where the mutation occurred and cells that grow from that cell. On the other hand, when mutations occur in germline cells, eggs and sperm, they will be present in every cell that develops from that egg or sperm, an entire person, and can have larger effects.",
+      "source_url": "https://www.genome.gov/genetics-glossary/Mutation",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Somatic mutation - Wikipedia While somatic mutations are not passed down to an organism's offspring, somatic mutations will be present in all descendants of a cell within the same organism. Many cancers are the result of accumulated somatic mutations. Somatic mutations that occur earlier in embryonic development are generally present in a larger fraction of body cells. In F), the mutation happened earlier in development than in G), and therefore is present in more of the child's cells. The term somatic generally refers to the cells of the body, in contrast to the reproductive (germline) cells, which give rise to the egg or sperm. For example, in mammals, somatic cells make up the internal organs, skin, bones, blood, and connective tissue.[1] In most animals, separation of germ cells from somatic cells (germline development) occurs during early stages of development. Once this segregation has occurred in the embryo, any mutation outside of the germline cells can not be passed down to an organism's offspring. However, somatic mutations are passed down to all the progeny of a mutated cell within the same organism. A major section of an organism therefore might carry the same mutation, especially if that mutation occurs at earlier stages of development.[2] Somatic mutations that occur later in an organism's life can be hard to detect, as they may affect only a single cell - for instance, a post-mitotic neuron;[3][4] improvements in single cell sequencing are therefore an important tool for the study of somatic mutation.[5] Both the nuclear DNA and mitochondrial DNA of a cell can accumulate mutations; somatic mitochondrial mutations have been implicated in development of some neurodegenerative diseases.[6] Hydra oligactis with two buds. Reproduction by budding is an exception to the rule that somatic mutations can not be inherited. There are many exceptions to the rule that somatic mutations cannot be inherited by offspring. Many organisms simply do not dedicate a separate germline during early development.",
+      "source_url": "https://en.wikipedia.org/wiki/Somatic_mutation",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Genetic Mutations: Overview & Types What are the different types of genetic mutations? There are different types of genetic mutations based on where they form. Types of genetic mutations include: Germline mutation: A change in a gene that occurs in a parent\u2019s reproductive cells (egg or sperm) that affects the genetic makeup of their child (hereditary). Somatic mutation: A change in a gene that occurs after conception in the developing embryo that may become a baby. These occur in all cells in the developing body \u2014 except the sperm and egg. Somatic mutations can\u2019t pass from parents to their children (hereditary) because traits are passed only from the sperm and egg. Can I inherit genetic mutations? Yes, you can inherit germline genetic mutations, while somatic mutations occur with no previous history of the mutation in your family. There are several patterns that genetic mutations can pass from the parent to a child (hereditary). Pattern of inheritance Summary Example of genetic conditions Autosomal dominant Only one parent needs to pass the genetic mutation onto their child for their child to inherit the mutation. If only dad has the mutation, there\u2019s 100% that female offspring will be carriers and no male offspring will be affected. If only mom the mutation, there\u2019s a 50% chance that female offspring will be carriers and a 50% chance male offspring will have the condition. If both parents have the mutation, 50% of male offspring will have the condition and 100% of female offspring will have the mutation. Babies assigned male or female have an X chromosome. Mutations on the X chromosome can pass in a dominant or recessive pattern, but not every pattern is clear on how the child acquired the mutation from their parents. The mitochondria are the part of a cell that creates energy. Only mitochondria from the egg survive fertilization, when the two cells come together. So, all maternal DNA in the embryo come from the egg. This is why mitochondrial inheritance is also known as maternal inheritance.",
+      "source_url": "https://my.clevelandclinic.org/health/body/23095-genetic-mutations-in-humans",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Genetic Mutation | Learn Science at Scitable Types of Changes in DNA The DNA in any cell can be altered through environmental exposure to certain chemicals, ultraviolet radiation, other genetic insults, or even errors that occur during the process of replication. If a mutation occurs in a germ-line cell (one that will give rise to gametes, i.e., egg or sperm cells), then this mutation can be passed to an organism's offspring. This means that every cell in the developing embryo will carry the mutation. As opposed to germ-line mutations, somatic mutations occur in cells found elsewhere in an organism's body. Such mutations are passed to daughter cells during the process of mitosis (Figure 2), but they are not passed to offspring conceived via sexual reproduction. Figure 2: Mutations can occur in germ-line cells or somatic cells. Germ-line mutations occur in reproductive cells (sperm or eggs) and are passed to an organism\u2019s offspring during sexual reproduction. Somatic mutations occur in non-reproductive cells; they are passed to daughter cells during mitosis but not to offspring during sexual reproduction. As mentioned, sickle-cell anemia is the result of a change in a single nucleotide, and it represents just one class of mutations called point mutations. Changes in the DNA sequence can also occur at the level of the chromosome, in which large segments of chromosomes are altered. In this case, fragments of chromosomes can be deleted, duplicated, inverted, translocated to different chromosomes, or otherwise rearranged, resulting in changes such as modification of gene dosage, the complete absence of genes, or the alteration of gene sequence. The type of variation that occurs when entire areas of chromosomes are duplicated or lost, called copy number variation (CNV), has especially important implications for human disease and evolution. Table 2 summarizes the types of mutations and provides examples of various diseases associated with each.",
+      "source_url": "http://www.nature.com/scitable/topicpage/genetic-mutation-441",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Corals Upend Longstanding Idea About Genetic Inheritance | The ... Since the corals had self-fertilized, limiting the number of genetic possibilities that could occur in the offspring, the researchers could relatively easily search for somatic mutations. They found 268 somatic mutations in the parent clone, with each nearby clone that arose from the parent sharing between 2 and 149 of these mutations. Around 50 percent of the mutations found in the parent clone also showed up in offspring that were produced via self-fertilization. \u201cIt\u2019s really unusual for an animal,\u201d says Baums. It turned out that self-fertilization wasn\u2019t required to pass along the somatic mutations: After unfertilized eggs from the clone in Cura\u00e7ao joined with sperm from a coral in Florida, they produced offspring that also shared somatic mutations with the Cura\u00e7ao parent. Previously, it was thought that in order for mutations to be passed on to offspring in animals, they need to be present in the reproductive or germline cells. Mutations that develop throughout life are thought to remain only in our body cells. Baums says that the researchers aren\u2019t sure how germ cells are acquiring these mutations, but they hypothesize that the somatic cells may have dedifferentiated into stem cells, and then redifferentiated into germ cells. \u201cThis is an observation we made that\u2019s just really stunning. It\u2019s just unexpected,\u201d Baums says. She says that somatic mutations might be a previously-unrecognized source of genetic diversity for corals, which might influence how they adapt in response to stressors such as ocean warming and acidification. \u201cWe really want to understand what evolutionary impact the somatic mutations might have. Are they really a source for novelty and an adaptation for these corals that might be significant, given the huge stressors these corals are exposed to at the moment?\u201d But Michael Lynch, a geneticist at Arizona State University who was not involved in the work, says that the conclusions the authors suggest are \u201ca bit of an oversell.\u201d He says he\u2019s \u201ca bit skeptical that . . .",
+      "source_url": "https://www.the-scientist.com/news-opinion/corals-upend-longstanding-idea-about-genetic-inheritance-70450",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Coral Can Pass Somatic Mutations Down to Offspring | Technology ... The Elkhorn coral, Acropora palmata, grows into large stands via polyp budding and fragmentation so that many colonies belong to the same clone or genet. During growth, mutations can accumulate in its cells and new research shows that the Ekhorn coral is able to pass these mutations onto to their sexual offspring. This is unlike most animals that prevent such a transfer from the body to reproductive cells. Credit: Iliana Baums. Want a FREE PDF version of this news story? Complete the form below and we will email you a PDF version of \"Coral Can Pass Somatic Mutations Down to Offspring \" First Name* Last Name* Email Address* Country* Company Type* Job Function* Would you like to receive further email communication from Technology Networks? Technology Networks Ltd. needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our Privacy Policy Listen with Speechify 0:00 Register for free to listen to this article Thank you. Listen to this article using the player above. \u2716 Want to listen to this article for FREE? Complete the form below to unlock access to ALL audio articles. Technology Networks Ltd. needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our Privacy Policy Read time: Scientists from Pennsylvania State University have published a new study in Science Advances demonstrating that coral can pass somatic mutations to future generations. The Weissman barrier and germline mutations Over recent decades, we have witnessed remarkable progress in the field of DNA research, owing to the completion of landmark projects such as the Human Genome Project (HGP) and advancements in modern technologies such as microarrays and next-generation sequencing.",
+      "source_url": "https://www.technologynetworks.com/genomics/news/coral-can-pass-somatic-mutations-to-offspring-365281",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Constitutional (germline) vs somatic (tumour) variants \u2014 Knowledge ... Variants in somatic cells cannot be passed on from one generation to the next, whereas both inherited and de novo variants in germline cells can be. Constitutional (germline) variants Any variant that occurs in a gamete (egg or sperm) or cells that produce gametes (germ cells) is termed a constitutional, or germline, variant. The resulting embryo and baby will have the variant in every cell of their body that contains a copy of the genome, including the cells that produce their own gametes (see figure 1). The variants could therefore be passed on to their offspring, who in turn could pass the variants on to their offspring and so on. When considering inheritance of a genetic condition, it is those that are the result of a constitutional (germline) variant that have implications for the patient\u2019s relatives. Figure 1: Constitutional (germline) variants Somatic variants Cells that are not part of the germline are called somatic cells, and any changes to the DNA that occur within these cells are known as somatic variants. Somatic variants are not present in every cell in the body, and are not passed from parent to child. A somatic variant can be present in a large number of cells in the body or just a few, depending on when in a person\u2019s lifetime the new variant occurs. If the change occurs early in embryo development, a large proportion of the individual\u2019s cells may contain the new variant. If the change occurs later in development, then it may only be present in a particular tissue type, or only part of a tissue (see figure 2). This results in different cells in the body having slight differences in their genomes \u2013 some with the variant and some without \u2013 known as mosaicism. Figure 2: Somatic variants Clinical example: Cancer Most cancers are a result of somatic mutations, which is why many cancers are localised to a particular organ or tissue of the body. In the context of cancer, the term \u2018somatic mutations\u2019 refers to those changes that have accumulated in the cancer genome, either as drivers of oncogenesis or as passenger mutations, but are not present constitutionally in the individual.",
+      "source_url": "https://www.genomicseducation.hee.nhs.uk/genotes/knowledge-hub/constitutional-germline-vs-somatic-tumour-variants/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "Fitness effects of somatic mutations accumulating during vegetative ... The sum effects of these processes of developmental selection, which include cell lineage selection, gametophytic selection, and selective embryo abortion, may filter the set of mutations that enters the next generation. Therefore, understanding the role of somatic mutations for plant biology is critical to fundamental assumptions concerning the frequencies of deleterious and beneficial mutations in populations, and to the processes of adaptation and diversification. In this study, we make crosses within individual clones of hermaphroditic plants to assess the fitness effects of inherited mutations that accumulated during somatic growth. Although it is often challenging to track the effects of somatic mutations that accumulate within a single generation, plants with separate stems contain distinct germ cell lineages that are derived from the same zygote. As a consequence, each stem can potentially contain different sets of somatic mutations that have originated during growth. By making crosses either within the same flower (autogamy) or between flowers on separate stems of the same plant (inter-ramet geitonogamy\u2014hereafter referred to as geitonogamy), we can produce progeny segregating for somatic mutations unique to each stem (Fig. 1). These crosses are both self-fertilizations, but the offspring of each cross type will differ in the complement of somatic mutations that they inherit. For a diploid plant, we can assume that somatic mutations (a \u2192 a\u02b9) will be in the heterozygous state when they first appear. For progeny generated via autogamy, a somatic mutation will segregate as 25% homozygous (a\u02b9a\u02b9), 50% heterozygous (aa\u02b9), and 25% the original (wildtype) homozygote (aa).",
+      "source_url": "https://link.springer.com/article/10.1007/s10682-022-10188-3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d11",
+      "text": "Fitness Effects of Somatic Mutations Accumulating during Vegetative ... Consequently, heritable mutations only occur in animals during the development of gonads and gametes. In general, it is difficult to assess the effects of somatic mutations accumulating during growth because clonal cell lineages lack recombination, and the fitness effects of beneficial mutations can be muted by the co-occurrence of detrimental genetic variants (Hill-Robertson Effect; Selective Interference; Hill and Robertson 1966; Fogle et al. 2008). Although sexual reproduction does allow mutations to segregate among progeny, it is difficult to detect the fitness effects of somatic mutations in eukaryotes with separate sexes. This is because the genomes of two individuals are combined, so individual somatic mutations that occur in one individual will always be heterozygous in offspring (Long et al. 2015). A more effective approach would be to make self-fertilizations in a hermaphroditic species, so a proportion of offspring would be homozygous for novel somatic mutations. In this study, we make crosses within individual clones of hermaphroditic plants to assess the fitness effects of inherited mutations that accumulated during somatic growth. Hermaphroditic plants have several advantages for the study of somatic mutations. Separate stems on the same plant contain multiple germ cell lineages that are derived from the same zygote, but they may differ for somatic mutations that have accumulated during stem elongation. To produce recombinant progeny segregating for somatic mutations unique to each stem, crosses can be made either within the same flower (autogamy), or between flowers on separate stems of the same plant (inter-ramet geitonogamy \u2013 hereafter referred to simply as geitonogamy; Fig. 1). These crosses are both self-fertilizations, but the offspring will differ in the complement of somatic mutations that they inherit.",
+      "source_url": "https://www.biorxiv.org/content/10.1101/392175v3.full",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d12",
+      "text": "The effects of mutations - Understanding Evolution DNA and Mutations The effects of mutations Since all cells in our body contain DNA, there are lots of places for mutations to occur; however, not all mutations matter for evolution. Somatic mutations occur in non-reproductive cells and so won\u2019t be passed on to offspring. For example, the yellow color on half of a petal on this red tulip was caused by a somatic mutation. The seeds of the tulip do not carry the mutation. Cancer is also caused by somatic mutations that cause a particular cell lineage (e.g., in the breast or brain) to multiply out of control. Such mutations affect the individual carrying them but are not passed directly on to offspring. The only mutations that matter to large-scale evolution are those that can be passed on to offspring. These occur in reproductive cells like eggs and sperm and are called germ line mutations. Effects of germ line mutations Some mutations don\u2019t have any noticeable effect on the organism. This can happen in many situations: perhaps the mutation occurs in a stretch of DNA with no function, or perhaps the mutation occurs in a protein-coding region, but does not affect the amino acid sequence of the protein. Other mutations have a noticeable effect, but one that doesn\u2019t seem to help or hurt. For example, a single mutation caused this cat\u2019s ears to curl backwards slightly, a trait that doesn\u2019t seem to affect its health. Detrimental effect Some mutations harm an organism\u2019s ability to survive and reproduce. For example, in humans, Marfan syndrome is caused by a mutation affecting a protein that forms part of connective tissue, leading to heart problems and other health challenges. Detrimental mutations known as lethals disrupt DNA critical to survival and cause the death of the organism. Beneficial effect Other mutations are helpful to the organisms that carry them. For example, DDT resistance in insects is sometimes caused by a single mutation. While resistant insects might be downer for us, they are undoubtedly helpful for bugs trying to survive on pesticide-laden crops.",
+      "source_url": "https://evolution.berkeley.edu/dna-and-mutations/the-effects-of-mutations/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Somatic mutations, which occur in body cells, are generally not passed to offspring. However, research on corals has shown that in some species, somatic mutations can be inherited by offspring. This is because in these organisms, the separation between somatic and germline cells is not as strict, allowing somatic mutations to enter the germline and be passed on."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about corals inheriting somatic mutations, but provides no citations. The general statement that somatic mutations are not passed to offspring is supported by multiple documents, but the exception for corals is not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 11737,
+      "completion_tokens": 210,
+      "total_tokens": 11947
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 5697,
+        "completion_tokens": 103,
+        "total_tokens": 5800
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 6040,
+        "completion_tokens": 107,
+        "total_tokens": 6147
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:36:14.696133",
+        "prompt_tokens": 5697,
+        "completion_tokens": 103,
+        "total_tokens": 5800,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:36:16.059394",
+        "prompt_tokens": 6040,
+        "completion_tokens": 107,
+        "total_tokens": 6147,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:36:13.335190",
+  "last_updated_at": "2026-04-18T18:36:16.059922"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0562",
+  "query": "When did the lg g6 phone come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "G6 was later replaced by the Opel Cascada, marketed as a Buick in the U.S. in early 2016. The last Pontiac ever manufactured, a 2010 G6, was built in early 2010 when GM restarted the Orion Assembly Line to manufacture one final 2010 Pontiac G6. The Insurance Institute for Highway Safety gave the Pontiac G6 an overall \"Good\" score in the frontal offset crash test but an \"Acceptable\" score in the side impact crash test even though side airbags were introduced late in the 2006 model year. The lower side impact score was due in part to a marginal rating",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "be released on the May 9, 2018 in several markets including Europe, South America, North America and parts of Asia; however, Motorola missed its release date for North America and India. The G6 was made available in North America by May 23, 2018 from Boost Mobile, and on the following day through Verizon Wireless. It later was made available on Amazon for a discounted price. On June 5th, the moto g was made available for purchase in Motorola's United States website. The G6 and G6 Play were released in India on June 4, 2018. The specification does vary between countries",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1996-05-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Samsung Galaxy A6 / A6+ (2018) Samsung Galaxy A6 and Samsung Galaxy A6+ are Android high to midrange smartphones produced by Samsung Electronics of South Korea. They were announced on 2 May 2018, first released in Europe, Asia, and Latin America the same month, then released in South Korea, Africa, and China. Samsung Galaxy A6+ is rebranded in South Korea as Galaxy Jean & in China as Galaxy A9 Star lite. Samsung Galaxy A6 Samsung Galaxy A6 runs on Android 8.0 \"Oreo\" right out-of-the-box, running with Samsung Experience 9.0. It has a 16MP camera on both main and front cameras.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Wired\", their debut album from Cherrytree/Interscope Records, was released on October 12, 2010. The album includes collaborations with Keri Hilson, Lil Jon, Snoop Dogg (their song co-written by Bruno Mars), Mohombi, Colette Carr, Natalia Kills, Koda Kumi, and Ryan Tedder from OneRepublic. In the October 30, 2010 edition of \"Billboard Magazine\", their single featuring The Cataracs and Dev titled \"Like a G6\" peaked at number one on the \"Billboard\" Hot 100 as well as iTunes. While gathering success for both their album and single, they were featured in a series of tour dates with their Cherrytree/Interscope Record label mate, La",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the latest in handheld computing\". LG Optimus G The LG Optimus G is a smartphone designed and manufactured by LG Electronics. It was announced on September 19, 2012; On January 18, 2013, LG announced that the device reached 1 million in sales four months after its release in Korea, Japan, Canada, and the U.S. The LG Optimus G is also closely related to the Nexus 4 with similar specifications and a similar design. In the United States, the Optimus G was available through AT&T and Sprint. AT&T carried the 8-megapixel camera E970 model while Sprint offered the LS970 model, equipped  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2006-07-17"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The LG G6 phone was released on May 9, 2018, with availability in North America by May 23, 2018."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. The citations are empty, and the answer contains factual claims about the LG G6 release date that are not present in the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2546,
+      "completion_tokens": 169,
+      "total_tokens": 2715
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1119,
+        "completion_tokens": 68,
+        "total_tokens": 1187
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1427,
+        "completion_tokens": 101,
+        "total_tokens": 1528
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:36.732785",
+        "prompt_tokens": 1119,
+        "completion_tokens": 68,
+        "total_tokens": 1187,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:37.999867",
+        "prompt_tokens": 1427,
+        "completion_tokens": 101,
+        "total_tokens": 1528,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:35.810046",
+  "last_updated_at": "2026-04-18T20:07:38.000309"
+}

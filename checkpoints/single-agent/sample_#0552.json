@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0552",
+  "query": "Which film has Dakota Fanning as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "2018. Fanning currently has two films in post-production, including \"Teen Spirit\", and \"A Rainy Day in New York\". Fanning is set to reprise the role of Princess Aurora in \"Maleficent II\". Elle Fanning Mary Elle Fanning (born April 9, 1998) is an American actress and fashion model. As the younger sister of actress Dakota Fanning, she made her film debut as the younger version of her sister's character in the drama film \"I Am Sam\" (2001). As a child actress, she appeared in a string of films including \"Because of Winn-Dixie\" (2005), \"Babel\" (2006), \"Phoebe in Wonderland\" (2008), and Sofia",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "\"How to Be Single\", with Leslie Mann and her \"Date and Switch\" costar Nicholas Braun. Johnson trained in ballet to prepare for Luca Guadagnino's 2018 remake of \"Suspiria\", a horror film. Also in 2018, she starred in the thriller \"Bad Times at the El Royale\", with Chris Hemsworth, Jon Hamm and Jeff Bridges, for writer-director Drew Goddard. Johnson is set to appear in the 2019 independent feature film \"The Peanut Butter Falcon\", with Bruce Dern and Shia LaBeouf. She will also reunite with her \"The Social Network\" costar Armie Hammer in the psychological horror film \"Untitled horror film\", which is",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Hansel and Gretel (2002 film) Hansel and Gretel is a 2002 film adaptation of the Brothers Grimm children's story. It stars Jacob Smith and Taylor Momsen as the eponymous characters. It also includes Howie Mandel as the Sandman and Sinbad as a raven. The film begins in a modern home with two children, Andrew (Thomas Curtis) and Katie (Dakota Fanning), about to go to bed during a thunderstorm. They ask their father to read them a story to help them feel better about the storm. The father finds a dusty, old book and decides to read the story of \"Hansel",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Elle Fanning Mary Elle Fanning (born April 9, 1998) is an American actress and fashion model. As the younger sister of actress Dakota Fanning, she made her film debut as the younger version of her sister's character in the drama film \"I Am Sam\" (2001). As a child actress, she appeared in a string of films including \"Because of Winn-Dixie\" (2005), \"Babel\" (2006), \"Phoebe in Wonderland\" (2008), and Sofia Coppola's \"Somewhere\" (2010). In 2011, Fanning starred in her breakout role as Alice Dainard in J. J. Abrams' sci-fi-drama, \"Super 8\", for which she received positive reviews and a Spotlight Award",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Am Sam.\" In 2002, at the age of four, Fanning won her first role independent of her sister in the comedy \"Daddy Day Care\". Anecdotal evidence of her emerging skill was seen in the decision to cast her in the role of Ruth in \"The Door in the Floor\" (2004) opposite Jeff Bridges and Kim Basinger. The film's producers originally planned to hire identical twins for the intense shooting schedule but were so impressed with Fanning that they used only her. Late in 2003, Fanning appeared in \"Because of Winn-Dixie\" in the small role of Sweetie Pie Thomas. In 2004,  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Dakota Fanning has been a member of the cast in \"Hansel and Gretel\" (2002), \"I Am Sam\" (2001), \"Because of Winn-Dixie\" (2005), \"Babel\" (2006), \"Phoebe in Wonderland\" (2008), \"Daddy Day Care\" (2002), \"The Door in the Floor\" (2004), and \"Super 8\" (2011)."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it cannot be verified and is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2641,
+      "completion_tokens": 228,
+      "total_tokens": 2869
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1130,
+        "completion_tokens": 142,
+        "total_tokens": 1272
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1511,
+        "completion_tokens": 86,
+        "total_tokens": 1597
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:16.208150",
+        "prompt_tokens": 1130,
+        "completion_tokens": 142,
+        "total_tokens": 1272,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:17.184391",
+        "prompt_tokens": 1511,
+        "completion_tokens": 86,
+        "total_tokens": 1597,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:15.197641",
+  "last_updated_at": "2026-04-18T20:07:17.184847"
+}

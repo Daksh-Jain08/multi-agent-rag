@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0500",
+  "query": "When does series 11 of big bang theory start?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "The Proposal Proposal \"The Proposal Proposal\" is the first episode of the eleventh season, and 232nd episode overall of the \"The Big Bang Theory\". It first aired on CBS on September 25, 2017. Amy enthusiastically accepts Sheldon's marriage proposal. However, when dining with Amy's colleagues later that night, Sheldon is offended that they are more impressed with Amy's work than his own. With help from Stephen Hawking, Sheldon later comes to grips with the fact that he will not always be the center of attention in the marriage. Bernadette is shocked to realize that she is pregnant again. She and",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Big Bang Theory The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill Prady, both of whom serve as executive producers on the series, along with Steven Molaro. All three also serve as head writers. The show premiered on CBS on September 24, 2007. The twelfth and final season which will run through 2018\u0393\u00c7\u00f419 premiered on September 24, 2018, consisting of 24 episodes. The show originally centered on five characters living in Pasadena, California: Leonard Hofstadter and Sheldon Cooper, both physicists at Caltech, who share an apartment; Penny, a waitress and aspiring actress who",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "to its airing on CBS, the pilot episode was distributed on iTunes free of charge. The show premiered September 24, 2007, and was picked up for a full 22-episode season on October 19, 2007. Production on the show was halted on November 6, 2007, due to the 2007\u0393\u00c7\u00f42008 Writers Guild of America strike, only to be replaced by a short-lived sitcom, \"Welcome to the Captain\" on February 4, 2008, but returning on March 17, 2008, in an earlier time slot with nine new episodes. David Saltzberg, a professor of physics and astronomy at the University of California, Los Angeles, checks",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Preece of \"Den of Geek\" criticized how tired Sheldon not understanding his own arrogance and narcissism is. The Proposal Proposal \"The Proposal Proposal\" is the first episode of the eleventh season, and 232nd episode overall of the \"The Big Bang Theory\". It first aired on CBS on September 25, 2017. Amy enthusiastically accepts Sheldon's marriage proposal. However, when dining with Amy's colleagues later that night, Sheldon is offended that they are more impressed with Amy's work than his own. With help from Stephen Hawking, Sheldon later comes to grips with the fact that he will not always be the center",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2008-03-19"
+    },
+    {
+      "doc_id": "d5",
+      "text": "show's pilot episode premiered on September 25, 2017. Subsequent weekly episodes began airing on November 2, 2017 following the broadcast of the 237th episode of \"The Big Bang Theory\". The Big Bang Theory The Big Bang Theory is an American television sitcom created by Chuck Lorre and Bill Prady, both of whom serve as executive producers on the series, along with Steven Molaro. All three also serve as head writers. The show premiered on CBS on September 24, 2007. The twelfth and final season which will run through 2018\u0393\u00c7\u00f419 premiered on September 24, 2018, consisting of 24 episodes. The show  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Series 11 of The Big Bang Theory started on September 25, 2017."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as no citations were provided to support the claim that Series 11 started on September 25, 2017."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2621,
+      "completion_tokens": 152,
+      "total_tokens": 2773
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1163,
+        "completion_tokens": 55,
+        "total_tokens": 1218
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1458,
+        "completion_tokens": 97,
+        "total_tokens": 1555
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:52.312372",
+        "prompt_tokens": 1163,
+        "completion_tokens": 55,
+        "total_tokens": 1218,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:53.301481",
+        "prompt_tokens": 1458,
+        "completion_tokens": 97,
+        "total_tokens": 1555,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:51.458743",
+  "last_updated_at": "2026-04-18T18:43:53.302195"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0603",
+  "query": "How many ncaa basketball championships has ucla won?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "1964\u0393\u00c7\u00f465 UCLA Bruins men's basketball team The 1964\u0393\u00c7\u00f465 UCLA Bruins men's basketball team won its second NCAA National Basketball Championship under head coach John R. Wooden. Before a crowd of 13,204 in Portland Memorial Coliseum, Portland, Oregon, the Bruins won the national championship over Michigan, 91\u0393\u00c7\u00f480, for the second consecutive year. Gail Goodrich's 42 points and Kenny Washington's 17 points helped UCLA to become the fifth team to win consecutive championships. Wooden liked Goodrich for his \"poise, quickness and speed\". After losing the season opener to Illinois, the team finished the season with a 28\u0393\u00c7\u00f42 record, winning the last 15",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d2",
+      "text": "1967 NCAA University Division Basketball Tournament The 1967 NCAA University Division Basketball Tournament involved 23 schools playing in single-elimination play to determine the national champion of men's NCAA Division I college basketball. It began on March 11, 1967, and ended with the championship game on March 25 in Louisville, Kentucky. A total of 27 games were played, including a third-place game in each region and a national third-place game. UCLA, coached by John Wooden, won the national title with a 79\u0393\u00c7\u00f464 victory in the final game over Dayton, coached by Don Donoher. Lew Alcindor (later named Kareem Abdul-Jabbar) of UCLA",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "1974\u0393\u00c7\u00f475 UCLA Bruins men's basketball team In head coach John R. Wooden's final game, the 1974\u0393\u00c7\u00f475 UCLA Bruins men's basketball team won the team's tenth National Championship in twelve years over the Kentucky Wildcats (92\u0393\u00c7\u00f485), in the San Diego Sports Arena, San Diego, California. The Bruins defeated Michigan in the first round. In the West Regional, UCLA beat Montana and Arizona State to advance to the Final Four. Washington scored 26 points to give UCLA an overtime victory over Louisville, 75\u0393\u00c7\u00f474, in the semi-finals game. After the game, Coach Wooden announced that the championship game would be his last game.",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d4",
+      "text": "1971 NCAA University Division Basketball Tournament The 1971 NCAA University Division Basketball Tournament involved 25 schools playing in single-elimination play to determine the national champion of men's NCAA Division I college basketball. It began on March 13, 1971, and ended with the championship game on March 27 in Houston, Texas. A total of 29 games were played, including a third place game in each region and a national third place game. UCLA, coached by John Wooden, won the national title with a 68\u0393\u00c7\u00f462 victory in the final game over Villanova, coached by Jack Kraft. Howard Porter of Villanova was named",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d5",
+      "text": "for third in softball, tied for fifth in men's tennis, tied for seventh in men's golf and tied for ninth in women's volleyball and women's tennis. UCLA also won the Vitalis Sun Bowl in football and captured seven conference championships and two post-season tournaments. In 2004-05, UCLA won three NCAA titles (men's water polo, men's tennis and women's water polo) and placed second in women's soccer, men's volleyball, women's golf and softball, tied for second in women's outdoor track and field, fourth in women's gymnastics and tied for fifth in women's volleyball. UCLA also earned its first NCAA post-season appearance  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "UCLA has won ten NCAA basketball championships."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": false,
+        "correct_type": true,
+        "correct_abstain": false,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer claims UCLA has won ten championships, but the provided documents do not contain this information, and there are no citations to support it. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2873,
+      "completion_tokens": 141,
+      "total_tokens": 3014
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1296,
+        "completion_tokens": 42,
+        "total_tokens": 1338
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1577,
+        "completion_tokens": 99,
+        "total_tokens": 1676
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:00.292603",
+        "prompt_tokens": 1296,
+        "completion_tokens": 42,
+        "total_tokens": 1338,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:01.454068",
+        "prompt_tokens": 1577,
+        "completion_tokens": 99,
+        "total_tokens": 1676,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:59.280469",
+  "last_updated_at": "2026-04-18T20:09:01.454457"
+}

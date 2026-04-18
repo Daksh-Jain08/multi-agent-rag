@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0602",
+  "query": "What are the dates of birth of persons that played for the Brisbane Heat?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "injury. On October 31, 2018, Ritchart re-signed with the Flames for the 2019 SBL season. Josh Ritchart Josh Ritchart (born March 11, 1992) is an American professional basketball player for the Rockingham Flames of the State Basketball League (SBL). After five years at UC Davis, Ritchart began his professional career in Japan, before splitting the 2016\u0393\u00c7\u00f417 season in Greece and Sweden. In 2018, he moved to Australia and joined the Flames. Ritchart played high school basketball at Forest Lake Christian, in Auburn, California. Ritchart played college basketball at UC Davis from 2010 to 2015. In July 2015, Ritchart signed with",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d2",
+      "text": "eliminated in the last match. Brendon McCullum missed some matches as he was playing HRV Cup in New Zealand simultaneously while Daniel Vettori missed few games because of injury while the original captain James Hopes missed the whole tournament because of injury. The team ended fifth out of eight on the points table. Brisbane Heat defeated the Perth Scorchers in the 2012/13 Big Bash League final. The match was played at the WACA Ground on 19 January 2013. Captain James Hopes was unable to play due to injury. Vice-captain Chris Hartley won the toss, and elected to bat first. Joe",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "2015, Brisbane agreed a one-year deal with Clyde, however, he was released by the Cumbernauld side after just one season in which he made only 14 competitive appearances for the side. Steven Brisbane Steven Brisbane (born 13 January 1995) is a Scottish professional footballer who plays as a midfielder. He has previously played for Falkirk, East Stirlingshire and Clyde, as well as Broxburn Athletic on loan. Brisbane aged 16 made his first team debut on 13 August 2011 as a substitute in Falkirk's 2\u0393\u00c7\u00f41 win over Partick Thistle in the Scottish First Division. On 23 October 2013, Brisbane signed for",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "for 11 runs and taking three catches. The team started well, winning their first game against the Perth Scorchers. However, they lost out in many close matches over the course of the season. The Heat struggled but, managed to finish the season in 5th place. There were good signs for the Heat as Cameron Gannon led all BBL wicket-takers, snaring 18 wickets at an average of less than 12 \u0393\u00c7\u00f4 with best bowling of 4\u0393\u00c7\u00f410. Daniel Vettori was also miserly with the ball, going for just over six an over and picking up 7 wickets. Chris Lynn was the best",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Hec Brisbane Hector Brisbane was a New Zealand rugby league player who represented New Zealand. Brisbane played for the Marist Saints in the Auckland Rugby League competition. In 1924, Brisbane represented Auckland City against the touring Great Britain Lions. He then made his debut for New Zealand, becoming Kiwi number 153. He was a part of the 1926\u0393\u00c7\u00f427 New Zealand rugby league tour of Great Britain, which was marred by strike action by six of the forwards. During the 1932 New Zealand rugby league season, Brisbane captained New Zealand to a 0-3 series defeat against Great Britain. In the third  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not contain the dates of birth for any players who played for the Brisbane Heat."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the dates of birth for Brisbane Heat players are not present in the provided documents. The citations are empty, which is appropriate given the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2681,
+      "completion_tokens": 151,
+      "total_tokens": 2832
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1194,
+        "completion_tokens": 53,
+        "total_tokens": 1247
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1487,
+        "completion_tokens": 98,
+        "total_tokens": 1585
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:58.224893",
+        "prompt_tokens": 1194,
+        "completion_tokens": 53,
+        "total_tokens": 1247,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:59.278138",
+        "prompt_tokens": 1487,
+        "completion_tokens": 98,
+        "total_tokens": 1585,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:57.407521",
+  "last_updated_at": "2026-04-18T20:08:59.278612"
+}

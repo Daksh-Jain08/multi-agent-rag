@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0584",
+  "query": "Who has the power to launch nuclear weapons in the us?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "of reactors to generate steam to drive turbines turning generators. In April 1957, the SM-1 Nuclear Reactor in Fort Belvoir, Virginia was the first atomic power generator to go online and produce electrical energy to the U.S. power grid. On May 26, 1958 the first commercial nuclear power plant in the United States, Shippingport Atomic Power Station, was opened by President Dwight D. Eisenhower as part of his Atoms for Peace program. As nuclear power continued to grow throughout the 1960s, the Atomic Energy Commission anticipated that more than 1,000 reactors would be operating in the United States by 2000.",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2003-09-25"
+    },
+    {
+      "doc_id": "d2",
+      "text": "thermonuclear warhead has the potential to hit any United States coast and radioactively contaminate the coastal regions. The innovative missile is a concern to the United States, because there is potential for the missile to not be stopped by the country's ballistic missile defenses. Initial reports of Status-6 were not confirmed, but it has now been confirmed that weapon is real and capable. Hypersonic Glide Vehicles (HGVs) are capable of containing nuclear warheads, and therefore could be used in strikes against nuclear assets. HGVs were developed to be lightweight, to travel at faster speeds, and to travel in the atmosphere.",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d3",
+      "text": "planners that such use would probably quickly have escalated into large-scale nuclear war. This situation was particularly exacerbated by the fact that such weapons at sea were not constrained by the safeguards provided by the Permissive Action Link attached to U.S. Air Force and Army nuclear weapons. It is unknown if the navies of the other nuclear powers yet today deploy tactical nuclear weapons at sea. The 2018 US Nuclear Posture Review emphasised the need for the US to have sub-strategic nuclear weapons as additional layers for its nuclear deterrence. Nuclear terrorism by non-state organizations or actors (even individuals) is",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "weaponry to Cuba to deter American aggression, and that it had no need to place offensive weapons outside of its own soil. \"Pravda\", the official newspaper of the Soviet Communist Party, even censored elements of a speech made by Cuba's leader, Fidel Castro, that hinted at the Soviets' ability to strike the United States from Cuba. Kennedy was not the only president whom the Soviets attempted to deceive. They also fed false information to the Communist Party of Cuba, overstating the American threat to Cuba, to persuade Cuban leaders to allow Soviet nuclear weapons to be deployed to the island.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2017-11-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "commander only able to activate the firing trigger after two safes have been opened with keys held by the ship's executive and weapon engineer officers. At the end of the Cold War, the United States Navy installed devices on its submarines to prevent rogue commanders from persuading their crews to launch unauthorised nuclear attacks. These devices prevent an attack until a launch code has been sent by the chiefs of staff on behalf of the President of the United States. The Ministry of Defence chose not to install equivalent devices on \"Vanguard\" submarines on the grounds that an aggressor might  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2000-02-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In the United States Navy, the launch of nuclear weapons from submarines requires a launch code to be sent by the chiefs of staff on behalf of the President of the United States. This system is in place to prevent unauthorized nuclear attacks."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the launch of nuclear weapons but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2347,
+      "completion_tokens": 171,
+      "total_tokens": 2518
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1014,
+        "completion_tokens": 79,
+        "total_tokens": 1093
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1333,
+        "completion_tokens": 92,
+        "total_tokens": 1425
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:21.582666",
+        "prompt_tokens": 1014,
+        "completion_tokens": 79,
+        "total_tokens": 1093,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:22.602608",
+        "prompt_tokens": 1333,
+        "completion_tokens": 92,
+        "total_tokens": 1425,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:20.599726",
+  "last_updated_at": "2026-04-18T20:08:22.603256"
+}

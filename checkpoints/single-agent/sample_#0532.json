@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0532",
+  "query": "Who remade mad world by tears for fears?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "that year's Christmas number one \"Mad World\", performed by Gary Jules, originally by Tears for Fears. Smith's version is notable for a number of reasons. First, its sample led to legal issues with the label Sanctuary, who did not sanction the remix, despite Smith's appeal to them. Smith was therefore unable to recoup any money whatsoever despite the popularity of his version. Secondly, the song had a level of mainstream airplay unusual for UK Rap at the time, being championed by Jo Wiley and Jonathan Ross among others. Some commentators have argued that the song helped raise awareness of the",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2014"
+    },
+    {
+      "doc_id": "d2",
+      "text": "in 2004 for several weeks following the success of Gary Jules' cover version of \"Mad World\". A compilation video under the same title was also released in 1992, and later issued on DVD. The album itself was reissued in 2004 as a 2CD/1DVD set under the \"Sound+Vision Deluxe\" line, and again in 2005 with a bonus disc containing various remixes. The video compilation of \"Tears Roll Down (Greatest Hits 82\u0393\u00c7\u00f492)\" was released in 1992 in conjunction with the album, featuring an identical track list. It was reissued on DVD in 2003 with a different cover featuring a still from the",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d3",
+      "text": "piano, mellotron, mini marimba, xylophone, ukulele, organ. I also brought in two female vocalists Sam Shelton and Tori Haberman. But no guitar because Richard said no guitar or drums; he just wasn't into it. I was down with that - I've played guitar my whole life.\" Like many of his role models for soundtrack composing such as John Barry and Ennio Morricone, Michael Andrews wanted to put a song on his otherwise instrumental score. clause. He eventually chose \"Mad World\" (1982) by Tears for Fears, who were one of his and childhood friend Gary Jules' favourite bands while growing up.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2015-07-23"
+    },
+    {
+      "doc_id": "d4",
+      "text": "as Elgin Park featuring other players: (Eric Hinajosa: guitars/John Krylow: bass/Matt Lynott: drums/Robert Walter: electric piano, organ, electronic keyboards, samples). In 2001, Michael Andrews scored the music for the Donnie Darko soundtrack and intended to close the film with a song by U2. The song's rights were too costly, so he called up his childhood friend Gary Jules to record vocals for a cover of the Tears For Fears' track \"Mad World\". \"Mad World\" went on to become a UK Christmas number 1 single in December 2003, and revitalized Gary Jules' music career. Michael Andrews has continued his success as",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "no guitar or drums; he just wasn't into it. I was down with that - I've played guitar my whole life. Like many of his role models for soundtrack composing (such as John Barry and Ennio Morricone), Andrews wanted to put a song on his otherwise instrumental score. He eventually chose \"Mad World\", as Tears for Fears were one of his and childhood friend Jules' favourite bands growing up. Andrews enlisted Jules to sing the song, while Andrews himself played the piano; together they recorded the song in an hour and a half. Despite being critically acclaimed, \"Donnie Darko\" was  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Gary Jules and Michael Andrews remade \"Mad World\" by Tears for Fears for the Donnie Darko soundtrack."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about who remade the song and for what purpose, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2443,
+      "completion_tokens": 159,
+      "total_tokens": 2602
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1074,
+        "completion_tokens": 55,
+        "total_tokens": 1129
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1369,
+        "completion_tokens": 104,
+        "total_tokens": 1473
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:31.773167",
+        "prompt_tokens": 1074,
+        "completion_tokens": 55,
+        "total_tokens": 1129,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:32.829159",
+        "prompt_tokens": 1369,
+        "completion_tokens": 104,
+        "total_tokens": 1473,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:30.889009",
+  "last_updated_at": "2026-04-18T20:06:32.829358"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0524",
+  "query": "Which album has R. Kelly as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ms. Kelly Ms. Kelly is the second solo studio album by American recording artist Kelly Rowland. It was released on June 20, 2007 through Columbia Records in collaboration with Music World Entertainment. Originally titled \"My Story\" and expected for a mid-2006 release, the album marked Rowland's first solo studio album in four years. Retitled and delayed numerous times prior to its official release, the album's release date was eventually moved to 2007 in favor of a multi-tiered marketing strategy and additional recording sessions. Willed to produce a more personal effort after her debut studio album \"Simply Deep\" (2002), Rowland contributed",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d2",
+      "text": "including Aaliyah, Barry White, and Toni Braxton. He produced the remix for Janet Jackson's 1994 hit \"Any Time, Any Place\" which was featured on Jackson's remix album, \"Janet Remixed\". In 1995, Kelly garnered his first-ever Grammy nominations; two nominations for writing, producing and composing Michael Jackson's last number one hit \"You Are Not Alone\". On November 14, 1995, Kelly's success continued with the release of his eponymous second studio album. Critics praised Kelly for his departure from salacious bedroom songs to embracing vulnerability. New York Times' Stephen Holden described Kelly as \"The reigning king of pop-soul sex talks a lot",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2004-04-20"
+    },
+    {
+      "doc_id": "d3",
+      "text": "tougher than Barry White, the father of such fluffed-up pillow talk and along with Marvin Gaye and Donny Hathaway, a major influence on Kelly.\" In December 1995, Professor Michael Eric Dyson critiqued Kelly's self-titled album for \"VIBE\". Dyson described Kelly's growth from the \"12 Play\" album: \"Kelly reshapes his personal turmoil to artistic benefit\" and noted that Kelly is \"reborn before our very own ears.\" The album reached number one on the Billboard 200 chart, becoming Kelly's first number one album on the chart, and reached number one on the R&B album charts; his second. \"R. Kelly\" spawned three platinum",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d4",
+      "text": "roster included artists Sparkle, Boo & Gotti, Talent, Vegas Cats, Lady, Frankie, Secret Weapon, and Rebecca F. In 1998, the label's first artist, Sparkle released her debut self-titled album, \"Sparkle\". In addition to producing and writing the project, Kelly made vocal contribution to the hit duet \"Be Careful,\" which contributed largely to the album's success. The album was certified platinum in December 2000. In 1999, Kelly wrote and produced the soundtrack to the Martin Lawrence and Eddie Murphy movie \"Life\", which features tracks from K-Ci & JoJo, Maxwell, M\u251c\u255ca, and Destiny's Child. The soundtrack was released on Rockland label. Rockland",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "collaboration entitled \"PYD\". R. Kelly was also featured on the soundtrack album of the film \"The Best Man Holiday\" with his song \"Christmas, I'll Be Steppin'\". On an interview with \"Global Grind\" on November 15, R. Kelly stated that he has a song that he is going to be servicing to Celine Dion and it could be their first song together after the number one single \"I'm Your Angel\" in 1998. He also confirmed that \"Trapped in the Closet\" is going to Broadway and that he's working on making movies and also more chapters for his Hip Hopera, telling his  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2001-11-05"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "R. Kelly is listed as a performer on his eponymous second studio album, released on November 14, 1995. He also made vocal contributions to the album \"Sparkle\" and was featured on the soundtrack album \"The Best Man Holiday\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2586,
+      "completion_tokens": 173,
+      "total_tokens": 2759
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1130,
+        "completion_tokens": 87,
+        "total_tokens": 1217
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1456,
+        "completion_tokens": 86,
+        "total_tokens": 1542
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:14.505650",
+        "prompt_tokens": 1130,
+        "completion_tokens": 87,
+        "total_tokens": 1217,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:15.466278",
+        "prompt_tokens": 1456,
+        "completion_tokens": 86,
+        "total_tokens": 1542,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:13.570801",
+  "last_updated_at": "2026-04-18T20:06:15.466888"
+}

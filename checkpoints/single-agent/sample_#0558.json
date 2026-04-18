@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0558",
+  "query": "How many seasons are there in last man standing?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "with Comic Book Resources, Neely and Weidenfeld have stated their intentions on doing a musical episode (which they did, the third season's finale). Weidenfeld stated that producing one \"would be a difficult thing to write up front, but a \"Music Man\" style episode would just be incredible to do. And Brad could do it.\" The series has completed three seasons with ten episodes each. The first season premiered on October 3, 2011, in the United States; it concluded on March 5, 2012. The second season premiered on September 22, 2013, in the United States; its season finale aired on November",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "announced that ABC Family (now Freeform) had obtained syndication rights to the series, which began airing episodes on September 28, 2015. As of 2018, Freeform no longer airs the series. On May 15, 2015, it was announced that Hallmark Channel had obtained the rights to the sitcom, and they aired the series from January 2016 until December 31, 2017. On September 4, 2015, the series joined the CMT Network with a mini-marathon of episodes. The series also joined WGN America on April 30, 2018. Five seasons were available for streaming on Netflix. Currently, all seven seasons are available for streaming",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "critics that \"Last Man Standing\" appealed only to \"inner city lefties\", unlike past successful Australian dramas such as \"Blue Heelers\" and \"All Saints\" which have more widespread demographic appeal. Given that a full 22 episodes had been filmed before the series began airing, the Seven Network aired consistent repeats to allow the show to find an audience. Ratings didn't climb, however, and in early September, the network announced the show's cancellation. The series finale aired on 25 October. This episode ended in a cliffhanger, which - due to the show's cancellation - will remain unresolved. The series began its airing",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1998-12-24"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Martin was unaware of TV Land's existence. TV Land announced that the show had been renewed for a second season on July 7, 2010. The 20-episode second season began production on November 1, 2010, and premiered January 19, 2011. On February 28, 2011, TV Land renewed the show for a third season to consist of 22 episodes. On March 21, 2011, TV Land announced that the third season order had beenwas increased to 24 episodes. On January 12, 2012, TV Land renewed the series for a fourth season. Betty White was only meant to appear in the pilot of the",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1995-09-12"
+    },
+    {
+      "doc_id": "d5",
+      "text": "for the second season of the show. Making the Cut: Last Man Standing Making the Cut was a Canadian reality series that followed a group of amateur ice hockey players through a rigorous training session. The first season was broadcast on CBC Television in 2004. In 2006, the second season was moved to Global where its name was expanded to Making the Cut: Last Man Standing. In the first season, 68 players participated in a grueling two-week training camp in Vernon, British Columbia to compete for one of six invitations to an NHL training camp, one for each Canadian team.  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2005"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "There are seven seasons of Last Man Standing available for streaming."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer claims there are seven seasons, but no citations were provided to support this. The provided documents mention different season counts for different shows, leading to potential confusion and lack of grounding."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2499,
+      "completion_tokens": 147,
+      "total_tokens": 2646
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1107,
+        "completion_tokens": 45,
+        "total_tokens": 1152
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1392,
+        "completion_tokens": 102,
+        "total_tokens": 1494
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:28.911104",
+        "prompt_tokens": 1107,
+        "completion_tokens": 45,
+        "total_tokens": 1152,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:29.969338",
+        "prompt_tokens": 1392,
+        "completion_tokens": 102,
+        "total_tokens": 1494,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:27.913911",
+  "last_updated_at": "2026-04-18T20:07:29.969595"
+}

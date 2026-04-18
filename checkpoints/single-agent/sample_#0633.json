@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0633",
+  "query": "why are gas stations the only business that adds on 9/10 of a penny per gallon? Why is it represented as 9/10 instead of $X.XX9?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "US gas prices could fall below $2 per gallon in cheapest areas, analyst says | FOX 11 Los Angeles to the drop at the pump. \"The national average is poised to fall to at least $2.70 this week - an indication that pump prices may be even cheaper this summer,\" Casselano said. Meanwhile, the average cost of the top 10 percent stations price-wise stood at $3.82 per gallon, which is down from $3.88 a week ago, GasBuddy reported. By contrast, the bottom 10 percent of stations in terms of price averaged $2.30, while the median U.S. gas price was $2.70, the report said. On Sunday, the average U.S. price of regular-grade gasoline dropped 9 cents per gallon over the",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Average US Price of Gas Up by 10 Cents Per Gallon to $2.83 - NBC Connecticut Average US Price of Gas Up by 10 Cents Per Gallon to $2.83 A gas pump fills a car with fuel at a gas station on May 10, 2017, in San Rafael, California. The average U.S. price of regular-grade gasoline has risen by 10 cents per gallon over the past three weeks to $2.83. Industry analyst Trilby Lundberg of the Lundberg Survey says Sunday that crude oil prices contributed to the increase at the pump. Additionally, gasoline tax hikes took effect in several states starting July 1. The average price of diesel is up by a penny since June 21,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d3",
+      "text": "$9 per gallon for gas? Misfire at Canton station (we hope!) - News - The Independent - Massillon, OH $9 per gallon for gas? Misfire at Canton station (we hope!) GateHouse Media Ohio report CANTON Local gasoline prices have climbed back above the $2 per gallon level, but they're not as high as advertised Tuesday morning at the BP station at the corner of Market Avenue N and 12th Street, where gas was going for $9.02 per gallon, according to its sign. We're hoping that the 9 and the 2 inadvertently were posted in reverse order. By 10 a.m. the sign had been changed to read $2.02.",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2023-06-07"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Why Gasoline Prices Are Displayed With \u0393\u00c7\u00a39/10ths\u0393\u00c7\u00a5 \u0393\u00c7\u00f4 Houston Public Media that you\u0393\u00c7\u00d6ll often see \u0393\u00c7\u00a39/10ths\u0393\u00c7\u00a5 pre-printed on gas price signs. Ed Hirs is an economics professor at the University of Houston. \u0393\u00c7\u00a3It\u0393\u00c7\u00d6s also related to the federal tax rate and state tax rates on gasoline. These are not in full pennies \u0393\u00c7\u00f6 they are in fractional pennies.\u0393\u00c7\u00a5 The current state tax is 20 cents and federal tax is 18.4 cents per gallon. And in the 1930\u0393\u00c7\u00d6s, a one-cent change in price was a big jump. \u0393\u00c7\u00a3Gasoline price wars were prevelant and it wasn\u0393\u00c7\u00d6t always at the point-9/10ths cents, it was point-5 sometimes, or point-2.\u0393\u00c7\u00a5 Retail experts have long known that",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2004-11-05"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Company History - Pine Valley Mutual Water Company At this time the Company\u0393\u00c7\u00d6s water sources consisted of wells #1, #2, #4, #5, #6, & #7 with a total pumping capacity of approximately 200 gallons per minute. In the following years the Company added well sources #3, #8, #9 & #10 resulting in an increase of 400 percent production capabilities. In December, 1992 the California Department of Health Services recommended the Water Company be allowed to add new services not to exceed 790 connections. Most of the service connections are to residences, but the water system also serves a gas station, a motel, some restaurants, and a small business  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Gas stations display prices with 9/10ths of a penny due to federal and state tax rates on gasoline, which are in fractional pennies. This practice dates back to the 1930s when even a one-cent change in price was significant, and gas price wars often involved fractional price changes like .5 or .2 cents."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about gas pricing and historical context but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3306,
+      "completion_tokens": 196,
+      "total_tokens": 3502
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1481,
+        "completion_tokens": 104,
+        "total_tokens": 1585
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1825,
+        "completion_tokens": 92,
+        "total_tokens": 1917
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:15.758973",
+        "prompt_tokens": 1481,
+        "completion_tokens": 104,
+        "total_tokens": 1585,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:17.034218",
+        "prompt_tokens": 1825,
+        "completion_tokens": 92,
+        "total_tokens": 1917,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:14.531942",
+  "last_updated_at": "2026-04-18T20:10:17.034603"
+}

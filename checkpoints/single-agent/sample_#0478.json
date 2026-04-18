@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0478",
+  "query": "Who played the original robin in batman and robin?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Jason Hillhouse provides the voice of Dick Grayson, while Kevin Conroy and Mark Hamill reprise their respective roles (from the DC animated universe) as Batman and the Joker in the storyboard sequence. Burton planned to cast Northern Irish actor Ricky Addison Reed as Robin, but later felt it was unimportant to the story and cut Robin out altogether. In an earlier script of \"Batman Returns\", he was portrayed as a technologically savvy street kid who would help Batman following his narrow escape when The Penguin tried to kill him. He would later play a crucial role in Batman's final confrontation",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "leads to their deaths, which he reacts to with a lot of callousness), and thinking that nature is so dangerous he needs to be on edge and eat whatever he can find. An episode also showed that he had a backup Robin squad which features Carrie Kelly, a darker Tim Drake, and the upbeat 60s version all voiced by Scott. In director Lambert Hillyer's 1943 film serial \"Batman\", Robin was played by Douglas Croft. Croft was the only actor to portray Robin at the actual age of sixteen; subsequent live-action actors have either been in their early to late 20s.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "hooded villain whose identity remains a mystery throughout the serial until the end. \"Batman\" (also known as \"Batman: The Movie\") is a 1966 film adaptation of the popular \"Batman\" television series, and was the first full-length theatrical adaptation of the DC Comics character. The 20th Century Fox release starred Adam West as Batman and Burt Ward as Robin, as well as Lee Meriwether as Catwoman, Cesar Romero as the Joker, Burgess Meredith as the Penguin and Frank Gorshin as the Riddler. The film was directed by Leslie H. Martinson, who also directed a pair of \"Batman\" episodes: \"The Penguin Goes",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2002-12-03"
+    },
+    {
+      "doc_id": "d4",
+      "text": "drummer Micky Dolenz was attached to star as the Riddler, the film's main antagonist. Also, Harvey Dent's transformation into Two-Face was supposed to occur in the film, with Billy Dee Williams reprising his role as Dent from the first film, after turning down the offer to appear in \"Batman Returns\". Along with these, Michelle Pfeiffer was attached to return as Catwoman, Marlon Wayans was attached to star as Robin, and Rene Russo was attached to star as Dr. Chase Meridian. However, when Warner Bros. observed that the script was just as gloomy as the previous film, they decided to put",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1995-03-26"
+    },
+    {
+      "doc_id": "d5",
+      "text": "and Alfred. Also, Adam West is a playable character. The Batmobile from the show is also included as a drivable vehicle. The end credits sequence remakes the Batclimb window cameos. Batman (TV series) Batman is a 1960s American live action television series, based on the DC comic book character of the same name. It stars Adam West as Batman and Burt Ward as Robin \u0393\u00c7\u00f4 two crime-fighting heroes who defend Gotham City from a variety of arch villains. It is known for its camp style, upbeat theme music, and its intentionally humorous, simplistic morality (aimed at its largely teenage audience).  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1993"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Douglas Croft played Robin in the 1943 film serial \"Batman\". Burt Ward played Robin in the 1966 film adaptation of the \"Batman\" television series."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents mention Douglas Croft and Burt Ward as playing Robin, but the answer does not cite these specific mentions."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2398,
+      "completion_tokens": 167,
+      "total_tokens": 2565
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1044,
+        "completion_tokens": 70,
+        "total_tokens": 1114
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1354,
+        "completion_tokens": 97,
+        "total_tokens": 1451
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:07.075131",
+        "prompt_tokens": 1044,
+        "completion_tokens": 70,
+        "total_tokens": 1114,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:08.060172",
+        "prompt_tokens": 1354,
+        "completion_tokens": 97,
+        "total_tokens": 1451,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:06.159536",
+  "last_updated_at": "2026-04-18T18:43:08.060808"
+}

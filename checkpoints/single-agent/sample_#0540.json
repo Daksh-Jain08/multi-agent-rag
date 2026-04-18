@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0540",
+  "query": "When dams are being built, how do they build it with all the water still there?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How Are Dams Built building team diverting the water around the area where the new dam will be. The river bed is then stripped of soil, gravel and sand that are not needed in the construction of the dam. The soft unsuitable material is taken away and the foundations of the dam are laid using concrete. Holes are then drilled, sometimes as deep as the dam will be high, and filled with concrete to provide strong foundations for the dam, this is called grouting. Once the foundation has been built the dam is then built on top. All dams have a water proof core",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Land reforms case that has been resumed, water is needed. The Supreme Court has not mentioned how that is to be provided. The most obvious solution is the building of the Kalabagh Dam, which is a water storage in addition to being a hydroelectric dam. While in this era of loadshedding, there is more attention being paid to the around 4,000MW of hydels which it would bring online, there should also be attention paid to its huge potential as a water storage. As it was one of the dams, along with Tarbela and Mangla, which was supposed to be built in lieu of",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Living Lakeside at PK to hold back flood waters within their watershed area. This means that the dam itself towers over the normal level of the reservoir. The dams that hold back water for water supply reservoirs are smaller, with the water supply stored there rising to the top of the dam when the reservoir is at capacity. Because flood control dams are built to temporarily hold back flood waters, homes and permanent structures cannot be built within a potential inundation or flood area. As a result, the Corps of Engineers do not allow residents to build their homes close to the water and",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Here's the dam deal: Build more dams | CFACT project massive increases in both floods and droughts, which certainly calls for a lot more dams. On the hydropower side, flood control dams are often built in series. In such cases the water released by upstream dams then flows over those downstream. Thus the same water can generate renewable electricity several times. Many of the needed dams have already been designed. In fact many were authorized by Congress before the greens stopped them from being built. Most of these authorizations have expired but the plans are still on the drawing boards of the agencies. They need to be reauthorized. It",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d5",
+      "text": "My grandfather taught me how to build a dam instead of islands | cultural sn:afu and looked at our dam, and were so proud to have flooded out a third of my grandfather\u0393\u00c7\u00d6s parking area. And then we realized we had flooded a third of our grandfather\u0393\u00c7\u00d6s parking area. So we drilled holes at the base of our dam to let the water out. And then we built channels around the dam, and the engorged reservoir gradually emptied. And then we left, as children do, to find something else to do. And our clay, stick reinforced dam dried into a concrete, stick reinforced foot-high wall. For us the hardest part wasn\u0393\u00c7\u00d6t being forced to take  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "When building dams, the water is diverted around the construction area. The river bed is then prepared, and foundations are laid using concrete, often involving deep grouting for stability. The dam is then constructed on top of these foundations."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about dam construction but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2413,
+      "completion_tokens": 168,
+      "total_tokens": 2581
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1047,
+        "completion_tokens": 79,
+        "total_tokens": 1126
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1366,
+        "completion_tokens": 89,
+        "total_tokens": 1455
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:50.350450",
+        "prompt_tokens": 1047,
+        "completion_tokens": 79,
+        "total_tokens": 1126,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:51.453390",
+        "prompt_tokens": 1366,
+        "completion_tokens": 89,
+        "total_tokens": 1455,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:49.129906",
+  "last_updated_at": "2026-04-18T20:06:51.453810"
+}

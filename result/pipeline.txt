@@ -1,0 +1,10 @@
+Conflict Presence Accuracy: 0.6120
+Conflict Type Accuracy: 0.3799
+Abstain Accuracy: 0.7143
+End-to-End Accuracy: 0.2549
+Partial Credit Score: 0.5687
+Grounded Citation Score: 0.8377
+LLM Judge Score: 0.8537
+Avg Tokens per Sample: 14851.07
+Avg Tokens per Doc per Sample: 1859.66
+Tokens per Agent: {'relevance': 3417.0275974025976, 'extractor': 3700.650974025974, 'verdict': 1829.2694805194806, 'aggregator': 1930.7694805194806, 'conflict': 2183.1444805194806, 'refusal': 776.5081168831168, 'adjudicator': 1013.7045454545455}

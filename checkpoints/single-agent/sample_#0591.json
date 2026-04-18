@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0591",
+  "query": "Survivorship Bias and how to apply it",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Re: Survivorship bias | Sir Abe | 200 Words a Day Re: Survivorship bias Parent post: Survivorship bias I know what you're talking about Seun. So I wanted to actually go out on a limb. It's one of the scariest things I think people in civilized society can do. It's to say they're going to do something. Say it unabashed and yet continue to say it aloud. One thing I respect Gary Vee a ton for is his consistent announcement of how he will buy the New York Jets. A lot of people laugh at him, some people now cheer him on. And me, I don't care about the Jets, but",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2005-11-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Survivorship Bias - Overview, Impact, and How to Prevent ensure that their data sets do not contain survivorship bias. It can be done by implementing new rules and procedures, complying with strict standards or educating staff about best practices when it comes to logging data. How to Prevent Survivorship Bias In order to prevent survivorship bias, researchers must be very selective with their data sources. Researchers must ensure that the data sources that they have selected do not omit observations that are no longer in existence in order to reduce the risk of survivorship bias. Cognitive BiasCognitive BiasA cognitive bias is an error in cognition that arises in a",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1991-09-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Survivorship Bias and Global Equity Returns the SEC in N-Q filings, which can be found on SEC.gov. Survivorship bias occurs when international investors fail to account for assets that no longer exist when calculating performance over time. Screening for international stocks or ETFs introduces survivorship bias by eliminating those assets that no longer exist from consideration. International investors can avoid survivorship bias using international ETFs or by looking for ETFs or other assets that have been shut down. How to Build a Diversified Global Portfolio Global Investment Risk Factors How to Calculate and Use the CAPE Ratio to Improve Returns Why Value Investing Is Making a",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2013-06-20"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Anthropic Probabilities: a different approach is not an instance of the survivorship bias. The survivorship bias applies if the elements we refer to as fulfilling X have been pre-selected to fulfill X. This is not the case when noting that there are any survivors, but it is the case when we already know that there are survivors, talk to a random one among them, and then note that that person is a survivor. The presumptuous philosopher problem also depends on facts about consciousness, which strikes me as exactly the right answer. If it is indeed true that we win a lottery at birth, tossed into",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2012-06-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Survivorship bias - Wikipedia of Financial Studies. 9 (4): 1097\u0393\u00c7\u00f41120. doi:10.1093/rfs/9.4.1097. In this paper the researchers eliminate survivorship bias by following the returns on all funds extant at the end of 1976. They show that other researchers have drawn spurious conclusions by failing to include the bias in regressions on fund performance. ^ Michael Shermer (2014-08-19). \"How the Survivor Bias Distorts Reality\". Scientific American. ^ Carmine Gallo (2012-12-07). \"High-Tech Dropouts Misinterpret Steve Jobs' Advice\". Forbes. ^ Robert J Zimmer (2013-03-01). \"The Myth of the Successful College Dropout: Why It Could Make Millions of Young Americans Poorer\". The Atlantic. ^ Karen E. Klein. \"How Survivorship  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Survivorship bias occurs when data sets or analyses omit observations that are no longer in existence, leading to skewed conclusions. To prevent it, researchers must be selective with data sources, ensuring they include all relevant observations, even those from defunct assets or entities. This can be achieved by implementing new rules and procedures, adhering to strict standards, educating staff on best practices for data logging, and actively seeking out data from shut-down funds or assets."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2621,
+      "completion_tokens": 207,
+      "total_tokens": 2828
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1130,
+        "completion_tokens": 121,
+        "total_tokens": 1251
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1491,
+        "completion_tokens": 86,
+        "total_tokens": 1577
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:36.087263",
+        "prompt_tokens": 1130,
+        "completion_tokens": 121,
+        "total_tokens": 1251,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:37.134004",
+        "prompt_tokens": 1491,
+        "completion_tokens": 86,
+        "total_tokens": 1577,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:34.895438",
+  "last_updated_at": "2026-04-18T20:08:37.134413"
+}

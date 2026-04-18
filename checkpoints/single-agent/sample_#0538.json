@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0538",
+  "query": "Which film has Melanie Griffith as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Shadows in the Storm Shadows in the Storm is a 1988 drama/thriller film directed by Terrell Tannen and starring Mia Sara, Ned Beatty, Michael Madsen, and Troy Evans. Thelonious Pitt (Ned Beatty), a daydreaming businessman, goes to the Redwood Forests of California. There, he meets a beautiful woman, Melanie (Mia Sara). She looks like the woman he has been seeing in his dreams. At the river late at night, when Melanie's husband finds them, he attacks Thelonious until Melanie pulls out a pistol and fires three shots at her husband. His body goes into the river. That is when the",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d2",
+      "text": "by Ephraim Kishon which won a Golden Globe for Best Foreign-Language Film (1972) and was nominated for a Best Foreign Language Academy Award the same year. He also starred in other Ephraim Kishon films, including \"Ervinka, Blaumilch Canal\" and \"The Fox in the Chicken Coop\", and the 1973 Mosh\u251c\u2310 Mizrahi film \"Daughters, Daughters\". In 1977 he starred opposite Melanie Griffith in \"The Garden\". In 1985, Ophir starred in a stage adaptation of Janusz Korczak's children's novel \"King Matt the First\", where he played seven different roles. The children's play was very successful and ran for three years. Over this period",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "\"\" guestarring Robert Ri'chard, Michael Jai White, Mekhi Phifer, Vivica A. Fox, Ginuwine and Melanie Brown. The same month, she had made a cameo in the movie \"Killing Hasselhoff\" guest-starring David Hasselhoff and Justin Bieber. In late 2014, she appeared on \"The Big Fat Quiz of the Year\" and a sketch with the cast of Coronation Street for charity telethon Text Santa. Early 2014, Brown become a coach on the Australian version of \"The Voice Kids\", alongside singers Joel Madden and Delta Goodrem. In June, she was confirmed as the fourth judge for the eleventh series of the British version",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1999-09-18"
+    },
+    {
+      "doc_id": "d4",
+      "text": "drama series \"Melrose Place\", which was a spin-off of \"Beverly Hills, 90210\". Spelling originally signed Locklear for a limited four-episode run, the first of which aired on January 27, 1993. Locklear became a full-time cast member (though she continued to be billed as \"Special Guest Star\" in the opening credits) until its cancellation in 1999. Throughout her career, Locklear has appeared in eight television productions made by Aaron Spelling, these being \"Dynasty\", \"T. J. Hooker\", \"Matt Houston\", \"Fantasy Island\", \"The Love Boat\", \"Hotel\", \"Melrose Place\", and the made-for-TV movie \"Rich Men, Single Women\". Locklear was the guest host on \"Saturday",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2016-04-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "magazine 48 Hours included lengthy interviews with Taylor and Mehaffey-Shelton in a June 23, 2004 program entitled \"The Law and Mrs. Shelton.\" And the A&E network's American Justice true crime television series also produced a segment on the cases, including another interview with Taylor. A&E called its production: \"Under Suspicion: The Case of Catherine Shelton.\" All this publicity prompted a second option from Hollywood, which this time resulted in the 2004 production of a movie initially called \"Heartless\", starring Melanie Griffith and Esai Morales as characters based on Shelton and Taylor. Taylor\u0393\u00c7\u00d6s 2008 memoir deals only with the earlier events  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2016"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Melanie Griffith was a cast member in the 2004 film initially called \"Heartless\", starring alongside Esai Morales."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not support the claim that Melanie Griffith was a cast member in the film 'Heartless'."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2637,
+      "completion_tokens": 157,
+      "total_tokens": 2794
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1169,
+        "completion_tokens": 60,
+        "total_tokens": 1229
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1468,
+        "completion_tokens": 97,
+        "total_tokens": 1565
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:46.136733",
+        "prompt_tokens": 1169,
+        "completion_tokens": 60,
+        "total_tokens": 1229,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:47.181471",
+        "prompt_tokens": 1468,
+        "completion_tokens": 97,
+        "total_tokens": 1565,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:45.098721",
+  "last_updated_at": "2026-04-18T20:06:47.181884"
+}

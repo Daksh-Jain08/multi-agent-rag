@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0639",
+  "query": "Who founded some of the first movements toward independent living and disability rights?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "by Paul Hunt when he invited disabled people to form a group to confront disability issues. Hunt developed his ideas when he was living in an institution where he and others had been struggling with the authorities over the right of disabled people to control their own lives. The organisation's overtly political platform contrasted with the then predominant charity orientation of organisations involved in disability issues. Their founding statement explicitly rejected the charity concept: \"All registered charities receive valuable tax concessions, but they are not allowed to campaign directly for political change. We regard political involvement as essential if disabled",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Fred Fay Frederick A. Fay (September 12, 1944 \u0393\u00c7\u00f4 August 20, 2011) was an early leader in the disability rights movement in the United States. Through a combination of direct advocacy, grassroots organizing among the various disability rights communities, building cross-disability coalitions between disparate disability organizations, and using technology to connect otherwise isolated disability constituencies, Fay worked diligently to raise awareness and pass legislation advancing civil rights and independent living opportunities for people with disabilities across the United States. He won the 1997 Henry B. Betts Award for outstanding achievement in civil rights for Americans with disabilities. Fay was recognized",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2008"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Susan E. Sygall Susan E. Sygall is an American disability rights advocate and civil rights leader. She is the CEO of Mobility International USA (MIUSA), which she co-founded in 1981. Sygall has been a wheelchair rider since the age of 18. She attended the University of California, Berkeley. In 1974 she cofounded the Disabled Women's Coalition at the University of California, Berkeley, with Deborah Kaplan. During her time at Berkeley she also founded a recreational sports program for students with disabilities. In 1975 she spent a year as an exchange student at the University of Queensland in Australia through a",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Peter Large were themselves disabled. For this reason, many consider DIG to represent the beginnings of the modern disability movement in the United Kingdom. Disablement Income Group The Disablement Income Group (DIG) was a British disability pressure group formed in 1965 in Godalming, Surrey. It is considered the first pan-impairment pressure group in Britain, and was created to campaign for the introduction of a full disability income through the social security system for all disabled people. According to the Charity Commission, The Disablement Income Group had ceased to exist as a charity by 2 April 2003. DIG was founded in",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "for \"flat-out advocacy\" over several decades. He helped lead the nationwide efforts by disability advocates to secure passage of the Americans with Disabilities Act of 1990. Jonathan Young, chairman of the National Council on Disability, said, \"Fred was one of the great early pioneers in disability advocacy...the depth and breadth of his knowledge and commitment was surpassed only by the life he lived and the legacy he leaves behind.\" Frederick Allan Fay, Ph.D., was born on September 12, 1944, and raised in Washington, DC. At age 16, he sustained a cervical spinal cord injury, and started using a manual wheelchair  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Paul Hunt, Fred Fay, and Susan E. Sygall were key figures in early disability rights and independent living movements. Hunt founded a group to confront disability issues and challenge institutional control, contrasting with the charity model. Fred Fay was an early leader in the US disability rights movement, advocating for legislation and civil rights. Susan E. Sygall co-founded Mobility International USA and the Disabled Women's Coalition, advocating for disability rights."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about Paul Hunt, Fred Fay, and Susan E. Sygall, but provides no citations to support these claims. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2426,
+      "completion_tokens": 220,
+      "total_tokens": 2646
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1033,
+        "completion_tokens": 120,
+        "total_tokens": 1153
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1393,
+        "completion_tokens": 100,
+        "total_tokens": 1493
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:28.149727",
+        "prompt_tokens": 1033,
+        "completion_tokens": 120,
+        "total_tokens": 1153,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:29.178376",
+        "prompt_tokens": 1393,
+        "completion_tokens": 100,
+        "total_tokens": 1493,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:27.133404",
+  "last_updated_at": "2026-04-18T20:10:29.178766"
+}

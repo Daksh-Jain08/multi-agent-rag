@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0574",
+  "query": "Where does the blastocyst implant to become an embryo?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on cell signaling. By manipulating the cell signals during the blastula stage of development, various tissues can be formed. This potential can be instrumental in regenerative medicine for disease and injury cases. In vitro fertilisation involves implantation of a blastula into a mother's uterus. Blastula cell implantation could serve to eliminate infertility. The blastula stage of early embryo development begins with the appearance of the blastocoel. The origin of the blastocoele in \"Xenopus\" has been shown to be from the first cleavage furrow, which is widened and sealed with tight junctions to create a cavity. In many organisms the development",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2020-07-07"
+    },
+    {
+      "doc_id": "d2",
+      "text": "other organs and tissues are PEG10 and the cancer testis antigen PAGE4 expressed in cytotrophoblasts, CSH1and KISS1 expressed in syncytiotrophoblasts, and PAPPA2 and PRG2 expressed in extravillous trophoblasts. The placenta begins to develop upon implantation of the blastocyst into the maternal endometrium. The outer layer of the blastocyst becomes the trophoblast, which forms the outer layer of the placenta. This outer layer is divided into two further layers: the underlying cytotrophoblast layer and the overlying syncytiotrophoblast layer. The syncytiotrophoblast is a multinucleated continuous cell layer that covers the surface of the placenta. It forms as a result of differentiation and",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "develops into the umbilical cord to attach the placenta to the embryo. Arteries in the decidua are remodelled to increase the maternal blood flow into the intervillous spaces of the placenta, allowing gas exchange and the transfer of nutrients to the embryo. Waste products from the embryo will diffuse across the placenta. As the syncytiotrophoblast starts to penetrate the uterine wall, the inner cell mass (embryoblast) also develops. The inner cell mass is the source of embryonic stem cells, which are pluripotent and can develop into any one of the three germ layer cells,and which have the potency to give",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "in two, three times, forming first a cluster of two-cells, then four-cells, and finally eight-cells. One more cell division brings the number of cells to 16, at which time it is called a morula, instead of a zygote. This ball of 16 cells then reorganizes into a hollow sphere called a blastocyst. As the number of cells grows from 16 to between 40 and 150, the blastocyst differentiates into two layers, an outer sphere of cells called the trophoblast and an inner cell mass called the embryoblast. The spherical outer cell layer (trophoblast), after implantation in the wall of the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1994-11-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "to form ectodermal derivatives. The equatorial or marginal zone, which compose the walls of the blastocoel differentiate primarily into mesodermal tissue. The vegetal mass is composed of the blastocoel floor and primarily develops into endodermal tissue. In the mammalian blastocyst (term for mammalian blastula) there are three lineages that give rise to later tissue development. The epiblast gives rise to the fetus itself while the trophoblast develops into part of the placenta and the primitive endoderm becomes the yolk sac. In mouse embryo, blastocoele formation begins at the 32-cell stage. During this process, water enters the embryo, aided by an  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1992"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The blastocyst implants into the maternal endometrium."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The claim that the blastocyst implants into the maternal endometrium is present in document d2, but it is not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2395,
+      "completion_tokens": 148,
+      "total_tokens": 2543
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1056,
+        "completion_tokens": 43,
+        "total_tokens": 1099
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1339,
+        "completion_tokens": 105,
+        "total_tokens": 1444
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:00.841615",
+        "prompt_tokens": 1056,
+        "completion_tokens": 43,
+        "total_tokens": 1099,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:01.858601",
+        "prompt_tokens": 1339,
+        "completion_tokens": 105,
+        "total_tokens": 1444,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:59.919491",
+  "last_updated_at": "2026-04-18T20:08:01.858995"
+}

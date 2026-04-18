@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0342",
+  "query": "Is it appropriate to ask someone their age?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Complying with COPPA: Frequently Asked Questions | Federal ... Are there specific requirements for the age screen? In designing your age screen, you should ask age information in a neutral manner, making sure the data entry point allows users to enter their age accurately and does not default to an age 13 or over. An example of a neutral age screen would be a system that allows a user freely to enter the month and year of birth. Avoid encouraging children to falsify age information by, for example, stating that certain features will not be available to users under age 13. In addition, consistent with long standing Commission advice, FTC staff recommends using technical means, such as a cookie, to prevent children from back-buttoning to enter a different age. 8. I have a \u201cmixed audience\u201d app and would like to have an age screen. Can I ask a question that a child is unlikely to be able to answer, such as a math problem, to determine whether a user is 13 or over instead of asking age directly? No. Requiring a child to answer a question he or she is unlikely to be able to answer, without more, is inadequate for determining the age of the user. There are many children under 13, for example, that can perform complex math problems, and some users over 13 that may have difficulty with those same complex problems. You may, however, use a math problem in addition to asking the age of the user, as described in FAQ D.7 above. 9. Am I required to inform third parties that my website or online service is directed to children? Even if I am not required to do so, how can I do this? If I signal the nature of my site or service, will this protect me from liability under COPPA? The Rule does not require you to inform third parties of the child-directed nature of your site or service, and doing so, without more, will not relieve you of your obligations under COPPA. Remember, you are responsible for the collection of personal information from your users, no matter who is doing the collection; therefore, you will need to do more than simply identify yourself to third parties.",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "How to Ask \u201cHow Old Are You?\u201d in Russian How to Ask \u201cHow Old Are You?\u201d in Russian While asking \u201cHow old are you?\u201d may not be appropriate in some cultures, it\u2019s important to know how to do it (and when it\u2019s allowed). Let\u2019s talk about how to broach this delicate subject. You can also learn more about Russian grammar and cultural peculiarities with one of our tutors. Is It Appropriate to Ask Someone Their Age in Russia? Yes, it is, but there is an exception: It\u2019s considered rude to ask an older woman her age. You can ask a young woman her age, and she probably won\u2019t be offended. The question is completely acceptable in other situations, like during job interviews, when meeting new people, and so on. How to Ask \u201cHow Old Are You?\u201d Asking about someone\u2019s age depends on the person you ask. If it\u2019s your friend and you address the person as \u201c\u0442\u044b\u201d (ty), you say, \u201c\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0442\u0435\u0431\u0435 \u043b\u0435\u0442?\u201d (Skol\u2019ko tebe let?). When you ask a person you don\u2019t know or a person who is older, you say, \u201c\u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0412\u0430\u043c \u043b\u0435\u0442?\u201d (Skol\u2019ko Vam let?). In fact, you can add personal pronouns \u201c\u0435\u043c\u0443\u201d (emu \u2013 he) and \u201c\u0435\u0439\u201d (ei \u2013 she) in the dative case instead of \u201c\u0442\u0435\u0431\u0435\u201d (tebe) and \u201c\u0412\u0430\u043c\u201d (Vam). The dative case shows the indirect object of a word; in other words, we use it to mark the noun to which something is given. Look at the examples below: \u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0435\u0439 \u043b\u0435\u0442? (Skol\u2019ko ei let?) How old is she? \u0421\u043a\u043e\u043b\u044c\u043a\u043e \u0435\u043c\u0443 \u043b\u0435\u0442? (Skol\u2019lo emu let?) How old is he? When you are unsure of someone\u2019s age or you don\u2019t hear their answer correctly, you can say: \u0422\u0435\u0431\u0435 \u0442\u0440\u0438\u0434\u0446\u0430\u0442\u044c \u043b\u0435\u0442? (Tebe tritsat\u2019 let?) Are you 30? How to Answer the Question \u201cHow Old Are You?\u201d When answering this question, simply add your age into the pattern below.",
+      "source_url": "https://www.russiantutoring.com/post/how-to-ask-how-old-are-you-in-russian",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Age Groups for Surveys - SmartSurvey While it might seem simple question to ask, there are a number of things to consider when it comes to the survey question about age. Not only can this question be quite sensitive for some people, but there can also be all sorts of ambiguities and documented sources of error, depending on the various ways in which you might ask it. Fortunately, there are some best practices guidelines when it comes to survey questions around age. When asking for age or an age category in an online survey, try to avoid using drop-down menus for response options. If you\u00e2\u0080\u0099re asking for the year of birth, you must ensure that respondents provide all four digits. If you decide on an open-ended box for respondents to insert their age or year of birth, you need to provide explicit instructions and examples about appropriate ways to fill in the box. Finally, when it comes to how to ask about age in a survey, don\u00e2\u0080\u0099t just bluntly question \u00e2\u0080\u0098How old are you?\u00e2\u0080\u0099 One of the more common ways to present age brackets in a survey is to use a closed question, where respondents are asked to select their age from a range of age group categories, presented in a format similar to the following: What is your age group? 18 to 24 25 to 34 35 to 44 45 to 54 55 to 64 65 or over This approach is also valuable if you\u00e2\u0080\u0099re a marketer who is looking to segment their target market on the basis of their age groups. Why it\u00e2\u0080\u0099s worth asking the age survey question While we recognise the value of keeping most surveys short and concise, which can be the argument used by some people to say that the \u00e2\u0080\u0098age question\u00e2\u0080\u0099 is an unnecessary distraction that just adds further length and complexity to a survey, we believe its benefits outweigh any potential shortcomings.",
+      "source_url": "https://www.smartsurvey.co.uk/survey-questions/demographics/age-groups",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "The 5 Most Commonly Asked Illegal Interview Questions The Age Discrimination Act prevents employment discrimination based on age. Instead, employers can ask questions like, \u201cDo you have a college degree?\u201d Or, \u201cAre you over the age of 18?\u201d 2. Where did you grow up? It\u2019s illegal to discriminate based on national origin. Because of that, asking interview questions like this can, in many cases, lead to sensitive territory. To avoid this risk, ask \u201cAre you legally eligible for employment in the US?\u201d instead. 3. How many kids do you have? Many employers ask this because they\u2019re concerned about absenteeism. However, legally, an employer can not refuse to employ someone based on marital status, family status, or sexual orientation, and this question alludes to all of the above. An acceptable way to ask about absenteeism would be: \u201cDo you have any commitments that could prevent you from meeting the work schedule we discussed?\u201d 4. Have you ever been arrested? Nope, not allowed. Instead, ask \u201cHave you ever been convicted of a crime?\u201d The difference between these questions looks to be minuscule, but one is legal and one is not. It\u2019s better to be safe than sorry in this case. 5. Do you have a car? Employers often ask this question in addition to, \u201cHow long is your commute?\u201d, when a candidate will need to be able to transport themselves frequently as part of the job. While on rare occasions, a car is actually necessary in order to do the job, most of the time the employer is really concerned with attendance. To avoid questions that may allude to a person\u2019s current or past assets, ask questions like \u201cIs there anything that could interfere with your ability to get to our clients\u2019 office every Monday?\u201d Employment-related lawsuits are on the rise, and often the only way to be sure you\u2019re protecting your business is to create interview questions and scripts for your staff to follow. Hireology does this for you by ensuring that the phone screen and interview questions approved by your HR leaders are available to hiring managers to follow during their time with applicants.",
+      "source_url": "https://hireology.com/blog/the-5-most-commonly-asked-illegal-interview-questions/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "8 Questions Employers Aren't Allowed to Ask You Because of their eagerness to be considered for gainful employment, many people may overlook certain improper interview questions. Depending on how they are asked, though, questions about personal topics, such as marital status, race, and health, are more than just poor manners; they are illegal under federal and some state and local laws. Employers can use these types of questions to discriminate against applicants, and it is your right not to answer them. Here are eight questions a potential employer cannot ask you. Key Takeaways Depending on how they are asked, questions about personal topics, such as marital status, race, and health, can be illegal under federal and some state and local laws. Some types of interview questions can be used to discriminate against applicants, and it is within your rights to refuse to answer them. Questions such as, \"Are you married?\" \"What religion do you practice?\" and \"Are you a U.S. citizen?\" are considered unlawful, among others. 1. How Old Are You? The Age Discrimination in Employment Act of 1967 (ADEA) protects people 40 or older from being discriminated against in the workplace in favor of younger workers. The ADEA doesn't explicitly forbid asking a job applicant's age or birth date, but because such questions may indicate an intent to discriminate or discourage older workers from applying, they are closely scrutinized and can put employers at legal risk for age discrimination. There are no federal protections in place to protect workers younger than 40 from age discrimination. To determine if you are legally eligible to perform a job, employers are allowed to ask if you are over the age of 18. 2. Are You Married? Questions about marital status are prohibited. Employers might be tempted to ask this question to find out if your relationship could have a negative impact on your work. For example, if you are married, you might be more likely to leave the company if your spouse gets a job transfer to a different city. Even a question as seemingly innocent as \"Do you wish to be addressed as Mrs., Miss, or Ms.?\" is not allowed. 3. Are You a U.S.",
+      "source_url": "https://www.investopedia.com/financial-edge/0910/8-things-employers-arent-allowed-to-ask-you.aspx",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "How to Politely Ask Someone's Age: 14 Questions and Tactics This article has been viewed 44,621 times. Some say that age is just a number, so it shouldn\u2019t be a big deal to ask about it, right? Well, some people are more sensitive about their age than others, so it\u2019s a good idea to be as polite as you can if you need to ask. We\u2019ve put together a handy list of super polite ways to ask someone\u2019s age, as well as some more discreet ways to deduce their age in conversation. Read on to find the perfect way to ask, \u201cHow old are you?\u201d \u201cWould you mind if I ask how old you are?\u201d is a polite, direct way to ask someone\u2019s age. By saying \u201cWould you mind,\u201d you acknowledge that they may or may not care to share. It also gives them the opportunity to express how they feel about that question, as well as the chance to answer or decline. Try including a compliment to butter them up. \u201cYou look so youthful! Do you mind me asking your age?\u201d \u201cWould you mind telling me your age?\" \u201cDo you mind telling me how old you are? You have so much energy.\u201d Always be prepared to state why it's relevant that you're asking. If you can't think of an appropriate answer, then it's best not to ask. \u201cCan I ask how old you are?\u201d Ask for permission to inquire about age with this polite but slightly more casual question. The wording gives them the option not to tell you if they wish. Use this with acquaintances or someone you don\u2019t know well. If you have a legitimate reason you need to know their age, mention it. \u201cAre you comfortable sharing your age?\u201d Instead of asking for age directly, ask if the person is willing to share that information. This way, you\u2019re taking their feelings and potential reservations into account while still giving them a polite way to say \u201cno.\u201d \u201cHow old are you?\u201d Use this short and straightforward phrase with people you know won\u2019t be offended by your asking, like friends and family. This is the most common way to ask, but it\u2019s usually considered too informal or pointed to be polite in all situations. Ask with a friendly tone to show your good intentions.",
+      "source_url": "https://www.wikihow.com/Politely-Ask-Someone%27s-Age",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Survey Result: Is It Rude to Ask Someone Their Age? Many people are perfectly okay with being asked their age in a particular context. However, at other times those same individuals will not appreciate being asked about their age. For example, if someone is at a private party and they\u2019re approached by another individual and they\u2019re having a one-on-one conversation, they might be willing to share hints about their age with that person even though they\u2019ve just met. However, even someone who is that open about their age might be hesitant about sharing those particulars while they\u2019re on stage giving a presentation in front of thousands of people. Rude and Illegal Questions About Age It\u2019s always important to pay attention to the laws in your region before you ask questions about age. If you are interviewing for a job, questions about age are generally not considered appropriate. Asking such a question may expose your company to the possibility of a discrimination suit. Invasive and discriminatory hiring practices are generally frowned upon in many sectors. If a question may pry into an individual\u2019s privacy rights, you shouldn\u2019t ask it in a job interview. In the United States, individuals over the age of 40 are protected by laws that prevent employers from discriminating against them because of age. You are not allowed to ask any questions about an interviewee\u2019s age, even if their graduation date hints at their age. [2] Is It Rude to Ask a Woman Her Age? We asked the same 103 people whether it was okay to ask women their age. In this case, 60% said it was rude to ask a woman her age, while 40% said it was okay to ask women about their age. It\u2019s seen as rude to ask a woman her age in many cultures. This is sometimes due to ageism in cultures, which says that people have less to contribute to society as they become older. Although this belief sometimes exists in many cultures, it\u2019s untrue because people gain experience and knowledge as they grow older and they\u2019re better able to give back to society.",
+      "source_url": "https://everyday-courtesy.com/is-it-rude-to-ask-someone-their-age/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Asking a woman her age isn't appropriate | Belleville News-Democrat Is it appropriate to ask a woman her age? Q. I am told I don\u2019t look my age. Don\u2019t act it, as I keep active. Is it proper for someone you barely know to ask your age? A. No, it is not proper for \u201csomeone you barely know\u201d or anyone, for that matter, to ask you your age. I remember as a little girl, perhaps 6, asking my grandmother how old she was. Her reply, \u201cI\u2019m as old as my little finger\u201d was mystifying to me as I recall. I giggled and looked at my mother who quickly explained to me it was not proper to ask a lady her age. It became sort of a mischievous quest or game for me after that to ask my grandmother the same question anyway when we were by ourselves and she was teaching me how to crochet or embroider or just holding me on her lap. She always gave me the same answer. In examining this subject in the etiquette and \u201cdeportment\u201d books in my vintage collection, which date as far back as the early 1800s, the comments are also the same: It is improper to ask a lady her age. Amy Vanderbilt (1952), specifically says, \u201cWhen people pass the age of thirty-five, don\u2019t ask them their ages or their college year (which is the same as asking their ages).\u201d Why she chose 35 as the cutoff age, I do not know, because there are women younger than 35 who are offended when asked their age. Further explanations from these early etiquette authors indicate society feels the value and appeal of a woman decreases with age while a man\u2019s value and worth increases with age. Whether that same opinion remains pertinent in this day and age is no doubt very debatable. What I have noticed with interest is this: many women today are proud of their older age and may reply to a complement by saying: \u201cYes, I think I\u2019m doing very well for an 80 (or 85 or 90-year-old lady).\u201d Regardless of whether a lady offers her age or note, the rule remains: it is improper and rude to ask a lady her age.",
+      "source_url": "https://www.bnd.com/living/magazine/article171127132.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "That's Inappropriate! Social Norms in an Older Population-Based ... The non-normative item most frequently endorsed (17.8%) was asking a co-worker their age. * Asterisks indicate items where \u201cyes\u201d is the incorrect (non-normative) response and contributes to the break-norms error score. In the remaining items, \u201cyes\u201d is the correct (normative) response; responses of \u201cno\u201d are errors contribute to over-adherence error score. In online supplemental tables 1\u20135, we provide item-by-item response frequencies by age, gender, race, and education groups among individuals without dementia (CDR <1), and also show comparisons between individuals with CDR=0 and CDR=0.5. European Americans were significantly more likely than African Americans to say it was appropriate to laugh when they themselves trip and fall (p=0.03), and to wear the same shirt twice in two weeks (p=0.0087). Individuals aged 75\u201384 were significantly more likely than those aged 85+ to say it was appropriate to laugh when they themselves trip and fall (p=0.0007) and to keep money one finds on the sidewalk (p=0.0051). People with less than high school education were less likely than better educated individuals to say it was appropriate to tell a co-worker one\u2019s own age (p=0.0014). With respect to gender, there were multiple differences.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5951726/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "It is generally considered inappropriate and rude to ask a woman her age, especially if you barely know her. While asking age might be acceptable in certain contexts like job interviews (though often restricted to asking if someone is over 18) or with close friends and family, it's often a sensitive topic. Best practices suggest asking politely, giving the person an option to decline, or avoiding the question if the reason for asking isn't clear or relevant."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the appropriateness of asking age, but lacks citations. The provided documents discuss the sensitivity of age questions and specific contexts where they might be inappropriate or illegal, but the answer is not directly supported by any single citation."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 11803,
+      "completion_tokens": 238,
+      "total_tokens": 12041
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 5719,
+        "completion_tokens": 125,
+        "total_tokens": 5844
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 6084,
+        "completion_tokens": 113,
+        "total_tokens": 6197
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:36:58.530231",
+        "prompt_tokens": 5719,
+        "completion_tokens": 125,
+        "total_tokens": 5844,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:37:00.108870",
+        "prompt_tokens": 6084,
+        "completion_tokens": 113,
+        "total_tokens": 6197,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:36:56.685801",
+  "last_updated_at": "2026-04-18T18:37:00.109430"
+}

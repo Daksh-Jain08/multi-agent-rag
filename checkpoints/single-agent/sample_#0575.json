@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0575",
+  "query": "Who was a member of the political party Workers' Party of Singapore?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Chinese authorities, Marshall spoke with Zhou and managed to have them released. After returning from China, Marshall stayed on the backbenches before quitting the Labour Front and as a member of the Legislative Assembly in 1957. On 7 November 1957, he founded the Workers' Party of Singapore (WP). He won a by-election in Anson on 15 July 1961. Marshall lost his seat in Cairnhill Single Member Constituency to Lim Yew Hock, the Chief Minister, in the 1959 general election as a WP candidate, but won in Anson Single Member Constituency in the 1961 by-election. After losing his seat again in",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "criticism by opposition parties. He also chided the WP for its \"failure to understand what makes inter-racialism work in Singapore and why we are different from the rest of the world\", referring the four points brought up by Ng Eng Hen as \"poisons\" Workers' Party chairman Sylvia Lim released a press statement on 22 January, responding to each of the four \"time bombs\" criticised by Ng and adding that the party was standing firmly by its manifesto. On 19 March, Lee Hsien Loong said that PAP was aiming to win all the constituencies including the two opposition wards in Hougang",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Singapore Democratic Party The Singapore Democratic Party (abbrev: SDP; ; ; ) is a social liberal political party in Singapore. The party was founded in 1980 by Chiam See Tong, who as Secretary-General became the party's first Member of Parliament (MP) in 1984 when he was elected as MP for Potong Pasir. At the 1991 general election, the party's best ever performance, two further SDP members, Ling How Doong and Cheo Chai Chen, were elected to Parliament giving the party a total of three MPs. However, Chiam fell out with the party's Central Executive Committee in 1993 and subsequently left",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2007-11-15"
+    },
+    {
+      "doc_id": "d4",
+      "text": "the main opposition party at the time, the Barisan Sosialis, boycotted the elections. The PAP maintained this 100% electoral record at the 1972, 1976 and 1980 general elections and all intervening by-elections up to 1981. In 1971, Jeyaretnam led a group of lawyers who took over the opposition Workers' Party (WP, which had been founded in 1957 by Singapore's former Chief Minister, David Marshall, but had become a fairly small and insignificant party during the 1960s), and became the party's Secretary-General. Jeyaretnam first stood for parliamentary elections in at the 1972 general election, when he contested the Farrer Park constituency",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1990-12-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "change, saying that: \"I cannot look the other way as more and more people experience the adverse effects of current PAP policies.\" Prior to the 2011 general election, Channel NewsAsia invited the main political parties in Singapore to record an hour-long televised pre-election forum (the first forum of this nature in Singapore since the 1988 general election). The programme, in English entitled, \"A political forum on Singapore's future\", brought together the ruling People's Action Party (PAP) and four opposition parties to discuss long and short-term challenges for the country. Dr Wijeysingha represented the SDP in the discussion. Just days before  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "David Marshall, J.B. Jeyaretnam, and Sylvia Lim were members of the Workers' Party of Singapore."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about party membership but lacks any citations. Therefore, it cannot be verified and is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2529,
+      "completion_tokens": 152,
+      "total_tokens": 2681
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1115,
+        "completion_tokens": 59,
+        "total_tokens": 1174
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1414,
+        "completion_tokens": 93,
+        "total_tokens": 1507
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:02.671903",
+        "prompt_tokens": 1115,
+        "completion_tokens": 59,
+        "total_tokens": 1174,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:03.665428",
+        "prompt_tokens": 1414,
+        "completion_tokens": 93,
+        "total_tokens": 1507,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:01.859787",
+  "last_updated_at": "2026-04-18T20:08:03.665819"
+}

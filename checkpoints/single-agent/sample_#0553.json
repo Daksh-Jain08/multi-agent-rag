@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0553",
+  "query": "What is happening when you hear or see something for the first time and suddenly hear or see it everywhere?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Using Music to Inspire Writing you see? What is the temperature like? What can you hear? What do you start to do. At 46/7 seconds suddenly something happens? What could it be? Do you find something? A ray of hope? Is it at first a false alarm? Again at 1:23 it changes again, you escape what happens? What do you see? How do you feel? What do you do? With all their notes, the children then had to write their story based on the music. I was so impressed by how the music had captured the children\u0393\u00c7\u00d6s imaginations and helped them depict a story through",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2009-08-05"
+    },
+    {
+      "doc_id": "d2",
+      "text": "studiolightblue | Let me ask you something, what is not art? author unknown where, as an example, you buy a new car and suddenly see the same kind of car everywhere or read about something new and then hear someone mention that same subject soon afterwards? It\u0393\u00c7\u00d6s also known as the Baader-Meinhof phenomenon (but frequency illusion might be a bit easier to remember!). Regardless of what it\u0393\u00c7\u00d6s called it all has to do with selective memory and our brain\u0393\u00c7\u00d6s affinity for pattern recognition. If you get a chance, do a Google search \u0393\u00c7\u00f4 it\u0393\u00c7\u00d6s pretty interesting stuff. But it got me to thinking\u0393\u00c7\u00aa Maybe this is why all the bad news we see/hear/read",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Communicating with nature through jojk, bird speech and crystal bowls. a change occurs once, it creates a field of change that makes it easier for the same change to happen elsewhere. Like when rats master a certain labyrinth in Australia \u0393\u00c7\u00f4 and other groups of rats in New York suddenly have an easier time learning it. But that\u0393\u00c7\u00d6s not really what this film is about. Or, come to think of it, perhaps it is. Click here to hear and see more of Joakim. Click here to hear and see more of Charu. Click here to hear and see more of Ellen. Also, you can do a google search for Petronella",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d4",
+      "text": "After all who were there are gone, what happens to history? | The Seattle Times and technology allows us to preserve more and more of the past\u0393\u00c7\u00d6s voices and vistas. \u0393\u00c7\u00a3It\u0393\u00c7\u00d6s not only what we remember, not only if we remember, but how we remember as well,\u0393\u00c7\u00a5 says Fred L. Johnson III, a historian at Hope College in Holland, Michigan, and a former U.S. Marine. \u0393\u00c7\u00a3We see, we hear, we feel, we touch, we smell,\u0393\u00c7\u00a5 he says. \u0393\u00c7\u00a3Once you hold the paper, once you touch the headstone, once you hear the words, once you see the face . Suddenly it\u0393\u00c7\u00d6s not an abstract issue. Suddenly it\u0393\u00c7\u00d6s not back then. Suddenly it\u0393\u00c7\u00d6s happening right now.\u0393\u00c7\u00a5 But",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d5",
+      "text": "After all who were there are gone, what happens to history? | Times Free Press and more of the past's voices and vistas. \"It's not only what we remember, not only if we remember, but how we remember as well,\" says Fred L. Johnson III, a historian at Hope College in Holland, Michigan, and a former U.S. Marine. \"We see, we hear, we feel, we touch, we smell,\" he says. \"Once you hold the paper, once you touch the headstone, once you hear the words, once you see the face . Suddenly it's not an abstract issue. Suddenly it's not back then. Suddenly it's happening right now.\" But even the most immersive technology is not  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2015-06-11"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "This phenomenon is known as the Baader-Meinhof phenomenon or frequency illusion. It occurs due to selective memory and the brain's tendency to recognize patterns. When you encounter something new, your brain becomes more attuned to it, making it seem like you are suddenly seeing or hearing it everywhere."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claims made about the Baader-Meinhof phenomenon or frequency illusion."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3253,
+      "completion_tokens": 190,
+      "total_tokens": 3443
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1460,
+        "completion_tokens": 93,
+        "total_tokens": 1553
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1793,
+        "completion_tokens": 97,
+        "total_tokens": 1890
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:18.133095",
+        "prompt_tokens": 1460,
+        "completion_tokens": 93,
+        "total_tokens": 1553,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:19.183947",
+        "prompt_tokens": 1793,
+        "completion_tokens": 97,
+        "total_tokens": 1890,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:17.185720",
+  "last_updated_at": "2026-04-18T20:07:19.184556"
+}

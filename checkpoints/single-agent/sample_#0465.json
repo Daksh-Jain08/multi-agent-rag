@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0465",
+  "query": "Sperm are often referred to as swimmers. What exactly are they swimming through? Are the uterus and Fallopian tubes filled with liquid, or empty?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Diagnostic Tests for Infertility - Dr. Heidi Kao and associates HSG Test (Hysterosalpingogram) Make Sure You Check for Blocked Fallopian Tubes The HSG Test is your most important functional fertility test. Functional tests assess the function of the major reproductive organs, including the uterus, cervix, ovaries and fallopian tubes. Before any invasive investigations are done, checking for blocked fallopian tubes is a priority. If the sperm can\u0393\u00c7\u00d6t swim through the fallopian tubes to fertilize the egg, conception won\u0393\u00c7\u00d6t occur. Alternately, the egg won\u0393\u00c7\u00d6t be able to travel from the ovary to the uterus if there is a blockage. If fertilization occurs, the fallopian tube carefully monitors the progression of the",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What is Infertility | Ovulation and Pregnancy - Dr.Raut's ICPRM progestin, preparing the uterus for implantation. The problems that are related to ovulation would include eggs that have not matured or been released during the menstrual cycle an ovarian failure or insufficient progestin. After the successful release of an egg, it travels towards the uterus through the fallopian tube. It might meet the sperms in the fallopian tube, if available, and get fertilized. The sperms must have gone through the cervix and the uterus to reach the fallopian tubes. There could be damaged or blocked fallopian tubes through scarring or other problems cervical damage problems with motility of the sperms",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why Am I Not Getting Pregnant? 8 Possible Reasons Pregnant After 35 Your Fallopian Tubes Are Blocked Irregular ovulation accounts for 25 to 30 percent of female infertility cases. The rest can have problems with blocked fallopian tubes, uterine structural problems, or endometriosis. In case you don't know, the fallopian tubes are the pathway between your ovaries and the uterus. The fallopian tubes do not directly attach to the ovaries. Sperm must swim up from the cervix, through the uterus, and into the fallopian tubes. When an egg is released from the ovaries, hair-like projections from the fallopian tube draw the egg inside. Conception takes place inside the fallopian",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Endometriosis and Blocked Fallopian Tubes: Causes, Treatments during conception and the now-fertilized egg will continue on to the uterus. However, the fallopian tubes are extremely fragile. If they are blocked, there's no way for the egg to become fertilized by the sperm. The fallopian tubes can be damaged by diseases such as endometriosis, pelvic inflammatory disease, infections and sexually transmitted diseases. To determine whether your fallopian tubes are blocked, your doctor may suggest a laparoscopy or a hysterosalpingogram (HSG). In an HSG test, liquid dye is inserted by catheter through the vagina (cervix) into the uterus. Then, X-rays are taken to see if there is a blockage",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Basics of Infertility: What every woman should know | San Antonio Woman Magazine Eggs are collected from the ovaries, then placed in a thin, flexible tube with the sperm. They are then injected into the woman\u0393\u00c7\u00d6s fallopian tubes, where fertilization takes place. Zygote intrafallopian transfer (ZIFT) \u0393\u00c7\u00f4 Eggs and sperm are mixed outside of the body. The fertilized eggs (zygotes) are then returned to the fallopian tubes, through which they travel to the uterus. Intracytoplasmic sperm injection (ICSI) \u0393\u00c7\u00f4 This begins with the injection of a single sperm into an egg. The fertilized egg is then placed in the woman\u0393\u00c7\u00d6s uterus or fallopian tube. Used with in vitro fertilization, ICSI is often a  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Sperm swim through the cervix and uterus to reach the fallopian tubes. The fallopian tubes are described as a pathway and are where fertilization typically occurs. While the documents don't explicitly state the uterus and fallopian tubes are filled with liquid, the description of sperm 'swimming' implies a fluid environment."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about sperm swimming through the cervix and uterus, but provides no citations. The inference about a fluid environment is not directly supported by the text."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2815,
+      "completion_tokens": 194,
+      "total_tokens": 3009
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1240,
+        "completion_tokens": 96,
+        "total_tokens": 1336
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1575,
+        "completion_tokens": 98,
+        "total_tokens": 1673
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:38.283484",
+        "prompt_tokens": 1240,
+        "completion_tokens": 96,
+        "total_tokens": 1336,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:39.513077",
+        "prompt_tokens": 1575,
+        "completion_tokens": 98,
+        "total_tokens": 1673,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:36.850805",
+  "last_updated_at": "2026-04-18T18:42:39.513527"
+}

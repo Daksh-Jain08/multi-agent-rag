@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0567",
+  "query": "Who owns the senkaku/diaoyu dao islands?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Record of the Imperial Envoy's Visit to Ry\u253c\u00bdky\u253c\u00bd\" () (1534). Adopted by the Chinese Imperial Map of the Ming Dynasty, the Chinese name for the island group (\"Diaoyu\") and the Japanese name for the main island (\"Uotsuri\") both mean \"fishing\". In 1171 (in the Southern Song Dynasty), Wang Dayou, who guarded Fujian Province, established a military camp in Penghu, and sent his generals to control the islands. Taiwan and its affiliated islands, including Diaoyu Island, were under the military jurisdiction of Penghu and administered by Jinjiang, Quanzhou, Fujian Province. In the 1470s( early Ming Dynasty), China had implemented effective jurisdiction",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d2",
+      "text": "repeatedly referred to as part of Chinese territory since 1534, and were later controlled by the Qing dynasty along with Taiwan. The earliest written record of \"Diaoyutai\" dates back to 1403 in a Chinese book \"Voyage with the Tail Wind\" (), which recorded the names of the islands that voyagers had passed on a trip from Fujian to the Ryukyu Kingdom. By 1534, all the major islets of the island group were identified and named in the book \"Record of the Imperial Envoy's Visit to Ryukyu \" (\u03a3\u255c\u2510\u03c4\u00c9\u00eb\u03c4\u00c9\u00e2\u0398\u00ee\u00e4). and were the Ming dynasty's (16th-century) sea-defense frontier. One of the islands,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "that Okinotorishima does not meet UNCLOS's criteria for an islet of being able to support human habitation, and thus that Japan cannot claim an EEZ around the strategically-located atoll. To maintain their claims, Japan has spent over to build observation posts and shore up the atoll against erosion and typhoon damage, and has also cultivated coral in the area in an attempt to slowly grow reefs into islands. The Senkaku Islands, also known as Diaoyu Islands in the People's Republic of China (PRC) and the Tiaoyutai Islands in the Republic of China (Taiwan), are a group of five uninhabited islands",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2014-11-06"
+    },
+    {
+      "doc_id": "d4",
+      "text": "facts above as evidence. In fact, in the fifteenth century, international law was not yet born. It is difficult for people to judge the behavior at that time without the existence of legal principles. However, based on the international law nowadays: According to the facts recorded in the historical documents, China's sovereignty over the Diaoyu Islands was based on its discovery, naming, use, and then effective enforcement. The Diaoyu Islands were not non-ownership land in 1885. They are considered as the affiliated islands that belong under the jurisdiction of Taiwan (specifically Gumalan district). From the 18th to the 19th century,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "security because of the rising competition between US and China for military primacy in the Asia-Pacific region. It secures the international trade and maintains the moral and legal ground for other countries\u0393\u00c7\u00d6 claims over the land. Last but not least, the Diaoyu islands are close to important shipping lines, which contributes another help for a country\u0393\u00c7\u00d6s economic. The Diaoyu Islands were first discovered, named and used by China. In the Southern Song Dynasty (1171), Wang Dayou, who originally guarded Fujian Province, had established a military camp in Penghu, and sent his troops to control them. Taiwan and its affiliated islands,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1997-10-13"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "China claims sovereignty over the Diaoyu Islands based on discovery, naming, use, and effective enforcement, citing historical records from the Southern Song Dynasty (1171) and Ming Dynasty (1534) where the islands were under Chinese military jurisdiction and considered part of Taiwan. However, the islands are also known as the Senkaku Islands in Japan, and their ownership is a subject of dispute."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about Chinese claims and historical periods but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2757,
+      "completion_tokens": 206,
+      "total_tokens": 2963
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1201,
+        "completion_tokens": 114,
+        "total_tokens": 1315
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1556,
+        "completion_tokens": 92,
+        "total_tokens": 1648
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:46.049228",
+        "prompt_tokens": 1201,
+        "completion_tokens": 114,
+        "total_tokens": 1315,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:46.970961",
+        "prompt_tokens": 1556,
+        "completion_tokens": 92,
+        "total_tokens": 1648,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:45.005493",
+  "last_updated_at": "2026-04-18T20:07:46.971554"
+}

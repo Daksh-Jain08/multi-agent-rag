@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0508",
+  "query": "Premier league record for most wins in a row?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "numerous Premier League records over the course of the season, including: most points (100), most wins (32), most away wins (16), most goals (106), most consecutive league wins (18), highest goal difference (+79), most passes in a game (903), fewest minutes behind in matches (153 minutes) and biggest winning points margin (19). All three promoted clubs avoided relegation for the first time since the 2011\u0393\u00c7\u00f412 campaign, and for only the third time in Premier League history. From this season on, club strips can feature sleeve sponsorship, whereby sponsors' logos will appear on the left sleeve of the strip in lieu",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2015-09-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "during the season, including: most points (100), most away points (50), most points ahead of second (19), most wins (32), most away wins (16), most goals (106), best goal difference (+79) and most consecutive victories (18). The team also equalled the record for the earliest Premier League title win (5 games to spare), beating of every other team in the league throughout the season and recording the most consecutive away wins (11). An Amazon Original docuseries of the season titled \"\" was released on Amazon Video on 17 August 2018. On 1 November, Sergio Ag\u251c\u255dero scored his 178th City goal",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "in 1975, with the club losing a couple of early matches, but a hard fought win over Manly in round four proved the catalyst for a revival, with Easts going on a 19 game winning streak through the rest of the regular season. This is still a premiership record for most consecutive wins in first grade rugby league in Australia.This winning streak resulted in the Roosters claiming the minor premiership by 10 points (or five extra wins)!! The team's dominance also included that year's mid week Amco Cup. Like the previous season, the Roosters lost their semi final match (and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d4",
+      "text": "most consecutive league wins after 18 victories in a row, including a victory in Manchester Derby, which helped them widen the gap between them and second-placed Manchester United in the Premier League. City broke plenty of Premier League records this season, including, the most points (100), the most goals scored (106), the most wins (32), the most away wins (16), most away points (50), highest goal differential (+79), and highest gap between the top 2 teams (19), while equalling Manchester United 2000/01's record for games to play with title won (5). History of Manchester City F.C. The history of the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2020-07-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "confident his side would retain the league and told the media: \"Nobody will finish above us in the league. It wouldn't surprise me if we were to go unbeaten for the whole of the season\". Arsenal set a new top-flight record in their opening game of the 2002\u0393\u00c7\u00f403 season; a 2\u0393\u00c7\u00f40 victory against Birmingham City was their 14th league win in succession. They continued their fine start by overhauling Nottingham Forest's top-flight record of 22 away league matches without defeat and later surpassed Manchester United's Premier League total of 29 matches unbeaten. Arsenal lost to Everton in October 2002, which  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Premier League record for most consecutive league wins is 18."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as no citations were provided. The claim that the record is 18 wins is present in multiple documents, but without citations, the answer is unsupported."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2611,
+      "completion_tokens": 148,
+      "total_tokens": 2759
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1162,
+        "completion_tokens": 47,
+        "total_tokens": 1209
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1449,
+        "completion_tokens": 101,
+        "total_tokens": 1550
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:36.572070",
+        "prompt_tokens": 1162,
+        "completion_tokens": 47,
+        "total_tokens": 1209,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:37.559031",
+        "prompt_tokens": 1449,
+        "completion_tokens": 101,
+        "total_tokens": 1550,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:35.563714",
+  "last_updated_at": "2026-04-18T20:05:37.559234"
+}

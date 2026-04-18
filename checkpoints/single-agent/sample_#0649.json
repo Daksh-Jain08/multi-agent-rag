@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0649",
+  "query": "Which film has Charlotte Riley as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Carolina (1934 film) Carolina is a 1934 American romantic comedy film directed by Henry King, with a screenplay by Reginald Berkley based on the play \"The House of Connelly\" by Paul Green, and starring Janet Gaynor, Lionel Barrymore, and Robert Young. The supporting cast features Stepin Fetchit and Shirley Temple in a romanticized story about a post-Civil War family in the fading South regaining its former prestige. Shirley Temple was too young to read so her mother taught her the lines by reading them to her. In this way, the child actress learned every line in the script. In one",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d2",
+      "text": "movie version of \"Alice in Wonderland\", and over 6,800 were auditioned. A Paramount talent scout saw Charlotte in the play and arranged a screen test on a Monday morning. One-week-to-the-day later, Henry began filming the high budget classic. The studio's press department made much of her uncanny resemblance to the character as it appeared in the original Tenniel drawings. An anxious movie-going public awaited the costly feature. A new young star was expected to emerge. The 1933 picture garnered unanimous praise for Charlotte. In 1933 she appeared in the film \"Man Hunt\" as Josie Woodward. Paramount loaned her to MGM",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d3",
+      "text": "misinterpreted. That same year, Rampling backed children's fairytales app, GivingTales in aid of UNICEF together with Roger Moore, Stephen Fry, Ewan McGregor, Joan Collins, Joanna Lumley, Michael Caine, David Walliams, Paul McKenna and Michael Ball. In 2017, Rampling co-starred as Veronica Ford with Jim Broadbent and Emily Mortimer in \"The Sense of an Ending,\" which was based on the novel by Julian Barnes. It had its world premiere at the Palm Springs International Film Festival in January 2017. Her next film was in Andrea Pallaoro's \"Hannah\", where she portrayed the title role of the wife of a man imprisoned on",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2017-11-26"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Charlotte Gray (film) Charlotte Gray is a 2001 British\u0393\u00c7\u00f4Australian\u0393\u00c7\u00f4German drama film directed by Gillian Armstrong. The screenplay was adapted from Sebastian Faulks' novel \"Charlotte Gray\". It is set in Vichy France during World War II. The film stars Cate Blanchett, James Fleet, Abigail Cruttenden, Rupert Penry-Jones, Michael Gambon and Billy Crudup. The story is based on the exploits of women in Great Britain's Special Operations Executive (SOE) who worked with the French resistance in Nazi-occupied France. The character Charlotte Gray is a composite based on such SOE agents as Pearl Cornioley, Nancy Wake, Odette Sansom and Violette Szabo. In 1942,",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Charlotte Gray (novel) Charlotte Gray is a 1999 novel by Sebastian Faulks. Faulks completes his loose trilogy of books about France with this story of the adventures of a young Scotswoman, Charlotte Gray, who becomes an agent of Britain's Special Operations Executive (SOE) assigned to work with the French Resistance in Vichy France during World War II. The story and title character are thought to be based on the exploits of SOE agents Nancy Wake and Pearl Witherington. A film based on the book was produced in 2001. It stars Cate Blanchett and was directed by Gillian Armstrong. In 1942,  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Charlotte Riley was a member of the cast in the 1933 film \"Man Hunt\" as Josie Woodward."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": false,
+        "correct_type": false,
+        "correct_abstain": false,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.0,
+        "feedback": "The answer is not grounded in the provided documents. There are no citations to support the claim that Charlotte Riley was in \"Man Hunt\". Document d2 mentions a Charlotte in \"Man Hunt\" but does not identify her as Charlotte Riley."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2533,
+      "completion_tokens": 169,
+      "total_tokens": 2702
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1118,
+        "completion_tokens": 57,
+        "total_tokens": 1175
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1415,
+        "completion_tokens": 112,
+        "total_tokens": 1527
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:50.885718",
+        "prompt_tokens": 1118,
+        "completion_tokens": 57,
+        "total_tokens": 1175,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:52.108798",
+        "prompt_tokens": 1415,
+        "completion_tokens": 112,
+        "total_tokens": 1527,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:49.859588",
+  "last_updated_at": "2026-04-18T20:10:52.109112"
+}

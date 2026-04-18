@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0467",
+  "query": "When did scotland become part of the union?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "local council, apart from in Dumfries & Galloway and Orkney. In response to the majority voting for \"Yes\" to both proposals, the UK Parliament passed the Scotland Act 1998. This established a Scottish Parliament for the first time since the adjournment of the pre-Union Parliament of Scotland in 1707. The devolved Parliament convened for the first time in May 1999, following its first election. This was an election that the Conservative Party had to fight despite losing their \"No\" Campaign and having no Westminster seats in Scotland after the 1997 general election. The Scotland Act 1998 also created the Scottish",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "restore him to the English throne. Defeat in the 1649\u0393\u00c7\u00f41651 Third English Civil War or Anglo-Scottish War resulted in Scotland's incorporation into the Commonwealth of England, Scotland and Ireland, largely driven by Cromwell's determination to break the power of the kirk, which he held responsible for the Anglo-Scottish War. The 1652 Tender of Union was followed on 12 April 1654 by \"An Ordinance by the Protector for the Union of England and Scotland,\" creating the Commonwealth of England, Scotland and Ireland. It was ratified by the Second Protectorate Parliament on 26 June 1657, creating a single Parliament in Westminster, with",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "English commissioners were appointed, Oliver St John, Sir Henry Vane, Richard Salwey, George Fenwick, John Lambert, Richard Deane, Robert Tichborne, and George Monck, to further the matter. The English parliamentary commissioners travelled to Scotland and at Mercat Cross in Edinburgh on 4 February 1652, proclaimed that the Tender of Union was in force in Scotland. By 30 April 1652 the representatives of the shires and Royal burghs of Scotland had agreed to the terms which included an oath that Scotland and England be subsumed into one Commonwealth. On the 13 April 1652\u0393\u00c7\u00f6between the proclamation and the last of the shires",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Union with Scotland (Amendment) Act 1707 The Union with Scotland (Amendment) Act 1707 (6 Ann c 40) is an Act of the Parliament of Great Britain. It is chapter VI in the common printed editions. This Act was partly in force in Great Britain at the end of 2010. It united the English and Scottish Privy Councils and decentralised Scottish administration by appointing justices of the peace in each shire to carry out administration. In effect it took the day-to-day government of Scotland out of the hands of politicians and into those of the College of Justice. This section was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2001-02-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "to agree to the terms\u0393\u00c7\u00f6a bill for an \"Act for incorporating Scotland into one Commonwealth with England\" was given a first and a second reading in Rump Parliament but it failed to return from its committee stage before the Rump was dissolved. A similar act was introduced into the Barebones Parliament but it too failed to be enacted before that parliament was dissolved. On 12 April 1654, the \"Ordinance for uniting Scotland into one Commonwealth with England\" issued by the Lord Protector Oliver Cromwell and proclaimed in Scotland by the military governor of Scotland, General George Monck. The Ordinance did  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Scotland was incorporated into the Commonwealth of England, Scotland and Ireland on April 12, 1654, following the \"Ordinance for uniting Scotland into one Commonwealth with England\" issued by Oliver Cromwell. However, the Union with Scotland Act 1707 also united the English and Scottish Privy Councils."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not support the claims made in the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2550,
+      "completion_tokens": 185,
+      "total_tokens": 2735
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1106,
+        "completion_tokens": 97,
+        "total_tokens": 1203
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1444,
+        "completion_tokens": 88,
+        "total_tokens": 1532
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:43.071070",
+        "prompt_tokens": 1106,
+        "completion_tokens": 97,
+        "total_tokens": 1203,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:44.187760",
+        "prompt_tokens": 1444,
+        "completion_tokens": 88,
+        "total_tokens": 1532,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:42.071408",
+  "last_updated_at": "2026-04-18T18:42:44.188199"
+}

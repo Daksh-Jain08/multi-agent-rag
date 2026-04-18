@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0652",
+  "query": "Who sings chasing cars on grey's anatomy?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "was voted the number one \"song of the noughties\". Lead singer Gary Lightbody reportedly wrote the song when he became sober after a binge of white wine, in the garden of song producer Jacknife Lee's Kent cottage. The song has Lightbody singing a plain melody over sparse guitars, which has an ever-building crescendo. In an interview with \"Rolling Stone\", he said \"It's the purest love song that I've ever written. There's no knife-in-the-back twist. When I read these lyrics back, I was like, 'Oh, that's weird.' All the other love songs I've written have a dark edge.\" The phrase \"Chasing",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Hands Open \"Hands Open\" is the second American single from Snow Patrol's fourth album, \"Eyes Open\". It was released June 2006. It received substantial radio play on modern rock radio, peaking at number 21 on the US \"Billboard\" Modern Rock Tracks chart. However, it did not cross over to any other radio formats, unlike the previous single, \"Chasing Cars\". The third verse references American indie-folk singer/songwriter Sufjan Stevens and the song \"Chicago\" with the lyrics \"Put Sufjan Stevens on/And we'll play your favorite song/'Chicago' bursts to life/And your sweet smile remembers you.\" The song was featured in the PC game",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1991-04-18"
+    },
+    {
+      "doc_id": "d3",
+      "text": "partnerships and cross promotions with stores like Anthropologie to promote her new record, Human Again. Secret Road began their Publishing division in early 2012. In August, Joshua Sarubin was named head of A&R and Publishing. Thirteen of Ingrid Michaelson\u0393\u00c7\u00d6s songs have been placed in the ABC show Grey\u0393\u00c7\u00d6s Anatomy. Of these, the song \u0393\u00c7\u00a3Keep Breathing\u0393\u00c7\u00a5 was included on Volume 3 of the \"Grey\u0393\u00c7\u00d6s Anatomy Original Soundtrack\". Her song \u0393\u00c7\u00a3The Way I Am\u0393\u00c7\u00a5 was placed in an Old Navy commercial in 2007. Placements from other Secret Road artists include the films No Strings Attached and I Love You Phillip Morris as",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "of Matchbox Studios in Austin. Signed to RCA Records in 2013, their debut album, \"From the Wreckage\", was released on August 5, 2014. The band's cover of \"Chasing Cars\" by Snow Patrol was featured on the episode, \"She's Leaving Home\", in season eleven of \"Grey's Anatomy\". The placement propelled the cover song to the number one spot on Shazam's USA future hits chart. The band has also had other limited success on television, having various songs featured on Nashville (season 4), Hart of Dixie, and The Vampire Diaries. The band signed with Island Records in March 2016 and released their",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d5",
+      "text": "made comparisons of the song to Hollywood soundtracks, which in his words are \"about as subtle as a rhino and too overt to be truly affecting.\" The song was nominated for a 2007 Grammy Award for Best Rock Song as well as for a 2007 BRIT Award for Best British Single. In 2007, \"Chasing Cars\" was voted number 1 in the Top 500 Songs: The Words Behind the Music, on Bristol's GWR FM (and other stations in The One Network). UK music licensing body PPL announced in December 2009 that \"Chasing Cars\" was the most played song of the decade.  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "A cover of \"Chasing Cars\" by Snow Patrol, performed by the band from Matchbox Studios, was featured in season eleven of \"Grey's Anatomy\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. Document d4 mentions a cover of \"Chasing Cars\" by Snow Patrol was featured in \"Grey's Anatomy\", but does not attribute it to a specific band from Matchbox Studios."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2710,
+      "completion_tokens": 179,
+      "total_tokens": 2889
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1202,
+        "completion_tokens": 67,
+        "total_tokens": 1269
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1508,
+        "completion_tokens": 112,
+        "total_tokens": 1620
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:57.332831",
+        "prompt_tokens": 1202,
+        "completion_tokens": 67,
+        "total_tokens": 1269,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:58.339641",
+        "prompt_tokens": 1508,
+        "completion_tokens": 112,
+        "total_tokens": 1620,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:56.402466",
+  "last_updated_at": "2026-04-18T20:10:58.339893"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0653",
+  "query": "Why humans,compared to most mammals, are so slow in running speed?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "BRAINS PLUS BRAWN | Edge.org are incredibly slow compared to most mammals. Not only in terms of brute speed, but also in terms of how long they can go at a given speed. Usain Bolt can go 10.4 meters a second for about ten to 20 seconds. My dog or a goat or a lion or a gazelle or some antelope in Africa can run 20 meters a second for about four minutes. So there's no way Usain Bolt could ever outrun any lion or for that matter run down any animal. A typical chimpanzee is between about two and five times more powerful than",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Fastest Animals on the Planet Revealed a high aerobic capacity so are able to efficiently use oxygen. How Fast Are Humans? Humans can reach speeds of around 25 miles per hour. Pete Saloutos/Getty Image While humans can't reach anywhere near the speeds of the fastest animals, for comparison purposes, humans can reach top speeds of approximately 25 miles per hour. The average person, however, runs at a top speed of about 11 miles per hour. This speed is much slower than the largest mammals. The much larger elephant runs at a top speed of 25mph, while the hippopotamus and rhinoceros run at speeds of up to",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Science Behind Sprinter Usain Bolt\u0393\u00c7\u00d6s Speed \u0393\u00c7\u00f4 THE ISLAND JOURNAL it\u0393\u00c7\u00d6s not that easy, and scientists are still figuring out why humans\u0393\u00c7\u00f6and cheetahs and pronghorns and other fast mammals\u0393\u00c7\u00f6slow down so quickly. Bolt crossed the finish line to win the final of the men\u0393\u00c7\u00d6s 4\u251c\u00f9100 meter relay for the Jamaican team at the 2015 IAAF World Championships in Beijing in August 2015.PHOTO: FRANCK FIFE/AFP/GETTY IMAGES For decades, researchers have theorized that deceleration starts as energy stored in the muscles is used up. \u0393\u00c7\u00a3All mammals engaged in intense exercise, be it a human marathoner, a cheetah trying to catch prey or the prey trying to avoid becoming a meal, rely on",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Origins of human nature balance and control than walking. Running long distances is especially demanding of the digestive and cardiovascular systems. From the shape of the heel to the size of the butt, the human body has adapted to meet all of these demands and more. 15 What we lack in speed, we make up for in endurance. In a marathon, the slow-and-steady human can outrun the best sprinters, including antelopes 16 and cheetahs. 17 Humans are so good at endurance running that it makes us suspect there was a compelling reason for it. Why were all those naked apes running around so much",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Limits of Humanity | I, Science led scientists to speculate that life may have started in such deep sea vaults. Speed and Endurance The human speed record is 35 km/h by Jamaican Usain Bolt. While most people would be happy to reach a third of that speed, the mammalian record holder is the cheetah which can reach up to 100km/h sprinting. Some hunter-gatherers can also chase down an antelope, sometimes for days, until it is exhausted. The secret: sweating. While furry mammals need to stop and pant to cool down, humans shed heat on-the-run by sweating. Among land-dwelling mammals, we\u0393\u00c7\u00d6re quite tough: long distance runners such  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2022"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Humans are slower than most mammals due to a trade-off where they excel in endurance running rather than brute speed. While top human sprinters can reach speeds of around 25 mph, many mammals can achieve much higher speeds for shorter durations. However, humans possess superior endurance, capable of outrunning even fast animals like antelopes and cheetahs over long distances by efficiently cooling themselves through sweating."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about human speed and endurance compared to mammals, but lacks any citations to support these claims, making it not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2797,
+      "completion_tokens": 206,
+      "total_tokens": 3003
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1222,
+        "completion_tokens": 113,
+        "total_tokens": 1335
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1575,
+        "completion_tokens": 93,
+        "total_tokens": 1668
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:59.771088",
+        "prompt_tokens": 1222,
+        "completion_tokens": 113,
+        "total_tokens": 1335,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:00.760863",
+        "prompt_tokens": 1575,
+        "completion_tokens": 93,
+        "total_tokens": 1668,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:58.340400",
+  "last_updated_at": "2026-04-18T20:11:00.761313"
+}

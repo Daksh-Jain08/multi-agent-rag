@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0535",
+  "query": "Why do movies cost so much to make? Paying the actors aside how can it cost hundred of millions of dollars sometimes to make a movie?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Rick McCallum (Producer) - Star Wars Interviews make a movie for 10 or 15 million dollars with a lot of effects in it. Nowadays movies cost a lot of money and it doesn\u0393\u00c7\u00d6t work. Movies are too expensive. It\u0393\u00c7\u00d6s about how to change the perimeters of how do you set up the movie, how do you shoot it around the world, how do you make it look big in a more reasonable way. Most people forget that it takes three and a half, four years to make a Star Wars film. It\u0393\u00c7\u00d6s long and that is why we are so excited to make the TV series because",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How online streaming took over the movie and TV niche all over the world \u0393\u00c7\u00f4 France Vacance In just the last five or six years, online streaming has taken over both the movie and TV niches to such an extent hundreds of millions of people now get most of their films and TV from them. How did online streaming (e.g. Netflix, Hulu, Couchtuner, etc.) become so popular, though, and why do people love it so much? The cost \u0393\u00c7\u00f6 Only a decade ago, if you and your family wanted to see a movie, you would often have to pay more than 70 dollars just for four people to see it. When you consider paying for an online",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How Low Budget Films Get Financed - CreditLoan.com\u252c\u00ab \u0393\u00c7\u00f4 Hollywood Version For many people, \u0393\u00c7\u00a3low budget\u0393\u00c7\u00a5 might not seem like the appropriate term for a $60,000 commitment. However, in the film industry, this budget is minimal at best. Movies with average budges require millions of dollars. Large budget movies can cost millions of dollars to make, with the cost of one A-list celebrity topping $20M in their salary alone. So, spending a paltry 10-20K on credit card debt to finance a flick truly represents a shoestring budget. Some Movies Make It Perhaps no one believed in their project more than director Robert Rodriguez. He believed so much in",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Wrap Up to spend more on this movie. Similarly, you see that most film revenues fall on the lower end of the scale. There are very few films that make over 250 million dollars. Movie producers are even more interested in the relationship between a movie\u0393\u00c7\u00d6s budget and its revenue. If it costs 1 million dollars to make a movie, and it makes 10 million dollars, that\u0393\u00c7\u00d6s much better for a producer than a movie with a 10 million dollar budget that only makes 11 million dollars. The scatter plot shows every movie as a point. The x axis shows how much",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2005-04-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How much are visual effects for Hollywood movies (and why)? - Nuts Computer Graphics production Studios have consequently adapted to this new request. It is no coincidence if VFXs can cost from a fifth up to a half of the overall budget, that is to say between 40 and over 100 million dollars. Even the costs for a single movie scene can range from 10.000 to well over 60.000 dollars. A VFX studio\u0393\u00c7\u00d6s exspenses Why are visual effects so expensive? Because they require so much labor and, above all, so much time. A large scale project may take over 200 people (all experienced and trained specialists, who are paid wealthy salaries) to work on  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Movies can cost hundreds of millions of dollars to make due to various factors beyond actor salaries. Visual effects alone can account for a significant portion of the budget, ranging from 40 to over 100 million dollars, as they require extensive labor from highly skilled specialists and considerable time to produce. Additionally, the overall production process, including shooting around the world and making the film appear grand, contributes to the high costs. For instance, a Star Wars film can take three to four years to complete."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. The answer should only contain information from the provided documents and cite them appropriately."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2960,
+      "completion_tokens": 225,
+      "total_tokens": 3185
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1293,
+        "completion_tokens": 134,
+        "total_tokens": 1427
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1667,
+        "completion_tokens": 91,
+        "total_tokens": 1758
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:39.389264",
+        "prompt_tokens": 1293,
+        "completion_tokens": 134,
+        "total_tokens": 1427,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:40.365459",
+        "prompt_tokens": 1667,
+        "completion_tokens": 91,
+        "total_tokens": 1758,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:37.921564",
+  "last_updated_at": "2026-04-18T20:06:40.365827"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0623",
+  "query": "Who's the lead singer of the doobie brothers?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Greg Guidry Gregory Mark Guidry (January 23, 1954 \u0393\u00c7\u00f4 July 28, 2003) was an American singer-songwriter. Born in St. Louis, Missouri, he played piano and sang gospel as a child, and sang in a band with future Doobie Brother Michael McDonald as a teenager. With quite a bit of help from Rich Lang, friend and fellow multi-talented musician, they wrote and recorded several demos, drove to New York City from St. Louis and signed a publishing contract with CBS Records in 1977 and wrote songs for Climax Blues Band, Robbie Dupree, Exile, Johnnie Taylor, Sawyer Brown, and Reba McEntire. In",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Devils from late 1972 through mid 1973. He never did any formal studio recording with them, but recorded a live Texas Special on KSAN-FM in San Francisco with the Hoodoos and Johnny Winter. His big break came in 1974 when he was invited to join The Doobie Brothers, replacing the departing Michael Hossack. Knudsen joined the band during the recording of the 1974 Top 10 platinum album, \"What Were Once Vices Are Now Habits\". He made his recording debut with the Doobies on \"What Were Once Vices Are Now Habits\" in 1974, performing backing vocals over instrumental tracks that included",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Michael McDonald (musician) Michael McDonald (born February 12, 1952) is an American singer, songwriter, keyboardist, and record producer. McDonald has won five Grammy Awards. His early career included singing with Steely Dan. He joined the Doobie Brothers in 1976 and remained an integral member until 1982, after which he released the first of nine solo albums. During his career, he has collaborated with a number of other artists, including Kenny Loggins, David Cassidy, Van Halen, Patti LaBelle, the Winans, Aretha Franklin, Toto, Grizzly Bear and Thundercat. He has also recorded for television and film soundtracks. Michael McDonald was born on",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Doogie White Douglas \"Doogie\" White (born 7 March 1960) is a Scottish rock vocalist. White currently sings for La Paz and Michael Schenker Fest. He has also notably sung for Ritchie Blackmore's Rainbow, Yngwie Malmsteen's Rising Force, Praying Mantis and Tank. White auditioned for Iron Maiden in 1993, following the departure of their vocalist Bruce Dickinson, but ultimately lost out to Blaze Bayley. White was born in Motherwell. He formed La Paz with guitarist Chic McSherry in 1984, playing around Scotland for four years and releasing two albums on cassette, before in 1988 joining melodic rock combo Midnight Blue, cutting",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "(occasionally including Spence) and styles as they performed in and around San Jose. They were mostly a power trio (along with bassist Greg Murphy) but briefly worked with a horn section. In 1970, they teamed up with singer, guitarist, and songwriter Patrick Simmons and bass guitarist Dave Shogren. Simmons had belonged to several area groups (among them \"Scratch\", an acoustic trio with future Doobies bassist Tiran Porter) and also performed as a solo artist. He was already an accomplished fingerstyle player whose approach to the instrument complemented Johnston's rhythmic R&B strumming. While still playing locally around San Jose, the group  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2009-05-03"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Michael McDonald joined the Doobie Brothers in 1976 and remained an integral member until 1982. Patrick Simmons was also a singer and guitarist for the Doobie Brothers."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about Michael McDonald and Patrick Simmons but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2566,
+      "completion_tokens": 164,
+      "total_tokens": 2730
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1127,
+        "completion_tokens": 72,
+        "total_tokens": 1199
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1439,
+        "completion_tokens": 92,
+        "total_tokens": 1531
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:55.946122",
+        "prompt_tokens": 1127,
+        "completion_tokens": 72,
+        "total_tokens": 1199,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:57.330576",
+        "prompt_tokens": 1439,
+        "completion_tokens": 92,
+        "total_tokens": 1531,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:54.975818",
+  "last_updated_at": "2026-04-18T20:09:57.331021"
+}

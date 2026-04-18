@@ -17,10 +17,10 @@ from agents import (
     ExtractorAgent,
     RelevanceAgent,
     RefusalDecisionAgent,
+    SingleAgentBaseline,
     VerdictAgent,
 )
 from checkpoint_manager import CheckpointManager
-from chunk_helpers import reduce_documents
 from evaluation import build_result_record, evaluate_rule_based, load_jsonl, log_result, normalize_conflict_type
 from mock_model import MockLLM
 
@@ -69,6 +69,7 @@ def _empty_token_usage() -> Dict[str, Any]:
     return {
         "total": 0,
         "per_agent": {
+            "baseline": 0,
             "relevance": 0,
             "extractor": 0,
             "verdict": 0,
@@ -116,7 +117,7 @@ def _is_checkpoint_complete(checkpoint: Optional[Dict[str, Any]]) -> bool:
     if not checkpoint:
         return False
     completed_steps = set(checkpoint.get("completed_steps", []))
-    required_steps = {
+    required_multi_steps = {
         "relevance",
         "extraction",
         "verdict",
@@ -126,7 +127,11 @@ def _is_checkpoint_complete(checkpoint: Optional[Dict[str, Any]]) -> bool:
         "adjudication",
         "evaluator",
     }
-    return required_steps.issubset(completed_steps)
+    required_baseline_steps = {
+        "baseline",
+        "evaluator",
+    }
+    return required_multi_steps.issubset(completed_steps) or required_baseline_steps.issubset(completed_steps)
 
 
 def _slice_samples_for_batch(samples: List[Dict[str, Any]], batch_size: int, batch_index: int) -> List[Dict[str, Any]]:
@@ -383,7 +388,7 @@ def print_sample_debug(index: int, query: str, pipeline_output: Dict[str, Any], 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run multi-agent RAG conflict pipeline evaluation")
+    parser = argparse.ArgumentParser(description="Run single-agent baseline RAG conflict pipeline evaluation")
     parser.add_argument(
         "--limit",
         type=int,
@@ -394,7 +399,7 @@ def main():
     parser.add_argument(
         "--architecture",
         type=str,
-        default="debate_v1",
+        default="baseline_v1",
         help="Architecture label stored in output metadata",
     )
     parser.add_argument(
@@ -441,7 +446,7 @@ def main():
 
     llm = build_llm(args.provider)
 
-    pipeline = MultiAgentPipeline(llm)
+    baseline = SingleAgentBaseline(llm)
     evaluator = EvaluatorAgent(llm)
 
     root = Path(__file__).resolve().parent.parent
@@ -522,13 +527,49 @@ def main():
         query = sample["query"]
         docs = sample["retrieved_docs"]
 
-        reduced_docs = reduce_documents(query, docs, k=3)
-        pipeline_output = pipeline.run(
-            query,
-            reduced_docs,
-            checkpoint_manager=checkpoint_manager,
-            sample_id=sample_id,
-        )
+        print(f"[CHECKPOINT] Running baseline for {sample_id}")
+        baseline_out = baseline.run(query, docs).model_dump()
+        baseline_usage = summarize_usage_events("baseline", baseline.consume_usage_events())
+        if checkpoint_manager and sample_id:
+            checkpoint_manager.update_checkpoint(
+                sample_id,
+                "baseline",
+                {"baseline": baseline_out},
+                token_usage=baseline_usage,
+            )
+
+        baseline_conflict_type = normalize_conflict_type(str(baseline_out.get("conflict_type", "no_conflict")))
+        baseline_should_abstain = bool(baseline_out.get("should_abstain", False))
+        baseline_answer = str(baseline_out.get("final_answer", ""))
+
+        token_usage = _merge_token_usage(_empty_token_usage(), "baseline", baseline_usage)
+        pipeline_output = {
+            "conflict": {
+                "conflict_type": baseline_conflict_type,
+                "conflict_reason": "Single-agent baseline output.",
+            },
+            "refusal": {
+                "should_abstain": baseline_should_abstain,
+                "reason": "Single-agent baseline output.",
+            },
+            "adjudication": {
+                "answer": baseline_answer,
+                "citations": [],
+                "abstain": baseline_should_abstain,
+                "abstain_reason": (
+                    "Insufficient reliable evidence for a grounded answer." if baseline_should_abstain else ""
+                ),
+                "final_reasoning": "",
+            },
+            "aggregation": {
+                "supporting_docs": [],
+                "partial_docs": [],
+                "irrelevant_docs": [],
+                "evidence_summary": [],
+            },
+            "verdict_results": [],
+            "token_usage": token_usage,
+        }
         rule_eval = evaluate_rule_based(sample, pipeline_output)
 
         answer = str(pipeline_output.get("adjudication", {}).get("answer", ""))

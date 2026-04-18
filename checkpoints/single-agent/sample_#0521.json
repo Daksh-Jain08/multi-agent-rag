@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0521",
+  "query": "Where did the 2014 world cup take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "off by a local judge because of safety concerns related to the stadium. The government of Rio de Janeiro appealed the decision and the game went ahead as originally planned, the final score being a 2\u0393\u00c7\u00f42 draw. This match marked the reopening of the new Maracan\u251c\u00fa. On 12 June 2014, the 2014 FIFA World Cup opened with Brazil defeating Croatia 3\u0393\u00c7\u00f41, but that match was held in S\u251c\u00fao Paulo. The first game of the World Cup to be held in Maracan\u251c\u00fa was a 2\u0393\u00c7\u00f41 victory by Argentina over Bosnia-Herzegovina on Sunday, 15 June 2014. Host Brazil ended up never playing",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "FIFA World Cup being held in South Africa beginning 11 June. Under FIFA rules, all World Cup venues must be handed over to the local organisers no later than 15 days before the opening match of the competition. Orlando Stadium was the largest, suitable, stadium in the Bulls' home province of Gauteng that was not being used for the World Cup. The game was surrounded in controversy after Schalk Burger claimed that the referee Craig Joubert was inconsistent at the breakdowns, \"coaching the Bulls, but penalising the Stormers\". This sparked an outcry over the handling of the game by Joubert,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d3",
+      "text": "in May 2014, FIFA Secretary Valcke expressed concerns about the readiness of the Natal, Porto Alegre and S\u251c\u00fao Paulo venues, with additional test events still being required. Brazil's Deputy Sports Minister, Luis Fernandes, responded by stating that there was \"no panic\". In January 2010 Brazil's federal government estimated that staging the tournament would require a state investment of $11 billion of funding. It also announced tax breaks for the construction and refurbishment of the stadiums for the 2014 World Cup and that host cities would be exempt from VAT, all expenditure by FIFA in Brazil is also exempt from taxation.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2000-06-26"
+    },
+    {
+      "doc_id": "d4",
+      "text": "same year, with their under-17 team winning the 2016 FIFA U-17 Women's World Cup earlier in the year. The following countries submitted a bid to host the tournament by the May 2013 deadline: South Africa were awarded the hosting rights by FIFA Executive Committee at their meeting on 5 December 2013. However, they later withdrew, giving its notice at FIFA's Executive committee meeting prior to the 2014 FIFA World Cup. After South Africa's withdrawal, the following countries announced they would be interested in hosting: Papua New Guinea were awarded the hosting rights of the tournament by the FIFA Executive Committee",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2023-10-25"
+    },
+    {
+      "doc_id": "d5",
+      "text": "2014 FIFA World Cup knockout stage The knockout stage of the 2014 FIFA World Cup was the second and final stage of the competition, following the group stage. It began on 28 June with the round of 16 and ended on 13 July with the final match of the tournament, held at Est\u251c\u00eddio do Maracan\u251c\u00fa, Rio de Janeiro. The top two teams from each group (16 in total) advanced to the knockout stage to compete in a single-elimination tournament. A third-place match was played between the two losing teams of the semi-finals. In all matches in the knockout stage, if  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The 2014 FIFA World Cup took place in Brazil."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer states the 2014 World Cup took place in Brazil, but there are no citations to support this claim. The provided documents mention Brazil in relation to the event but do not explicitly state it was the host country."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2621,
+      "completion_tokens": 159,
+      "total_tokens": 2780
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1167,
+        "completion_tokens": 47,
+        "total_tokens": 1214
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1454,
+        "completion_tokens": 112,
+        "total_tokens": 1566
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:08.151016",
+        "prompt_tokens": 1167,
+        "completion_tokens": 47,
+        "total_tokens": 1214,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:09.133609",
+        "prompt_tokens": 1454,
+        "completion_tokens": 112,
+        "total_tokens": 1566,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:07.306429",
+  "last_updated_at": "2026-04-18T20:06:09.134499"
+}

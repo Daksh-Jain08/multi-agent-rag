@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0662",
+  "query": "How many members form a jury in scotland?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "also changed the criteria for jury service in trials for high treason and misprision of treason committed in Scotland. It was repealed by section 2(1) of, and the Schedule to, the Treason Act 1945. Another Act in the same year, 19 Geo.II c.26, stated that people named in the Act would automatically be attainted of treason unless they surrendered to the authorities by 12 July 1746. Jurors (Scotland) Act 1745 The Jurors (Scotland) Act 1745 (19 Geo 2 c 9) was an Act of the Parliament of Great Britain, passed during the Jacobite Rising of 1745. Its long title was",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Team. The women's roll of honour initially included 12 players. Scottish FA International Roll of Honour The International Roll of Honour is a list established by the Scottish Football Association recognising players who have gained 50 or more international caps for Scotland. The roll of honour was launched in February 1988, when 11 players had already achieved the distinction. Each player inducted receives a commemorative gold medal, an invitation to every Scotland home match and has their portrait hung in the Scottish Football Museum. In July 2017, the SFA launched the Women's International Roll of Honour, which recognises players who",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Qualification Tournament in Cyprus. In addition, they accepted an invitation by FIVB and the CGF to enter a team of two women. Team Scotland announced the majority of its 11-strong squad (9 men and 2 women) on 30 November 2017. Following a men's light heavyweight box-off at the \"GB Boxing Championships\", another boxer was added on 12 December 2017. A further addition to the squad was made on 1 February 2018. Team Scotland announced its squad on 14 February 2018. Andy Fenn subsequently withdrew himself due to changes in his race programme, ergo the 15-strong squad now consists of 9",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d4",
+      "text": "many areas of western Scotland, the island's population declined steadily over the ensuing decades. However, there has been a small increase since 2001. During the decade from 2001 to 2011 Scottish island populations as a whole grew by 4% to 103,702. Alongside the long-term decline in Jura's population has been a decline in the number of Gaelic speakers. The 1881 census reported that 86.6% (out of 946 inhabitants) spoke Gaelic. In 1961, for the first time less than half (46.9%) spoke the language and by 2001, this figure had dropped to 10.6%. During the first half of the 20th century,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Board of Management of 8 members appointed by Her Majesty The Queen on the recommendation of the First Minister of Scotland. As of 28 July 2018, its current members are: By statute, at least one third of the Commission's members are required to be legally qualified (either an advocate or solicitor of at least 10 years' standing) and at least two thirds must have knowledge or experience of the criminal justice system. The Board members and the Chief Executive are required to work together to ensure that the Commission runs efficiently and effectively. The Commission's role is to review and  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2000-03-17"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": true,
+        "final_answer": "The provided documents do not contain information about the number of members that form a jury in Scotland."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information, and no citations are needed."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2518,
+      "completion_tokens": 138,
+      "total_tokens": 2656
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1113,
+        "completion_tokens": 52,
+        "total_tokens": 1165
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1405,
+        "completion_tokens": 86,
+        "total_tokens": 1491
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:18.566001",
+        "prompt_tokens": 1113,
+        "completion_tokens": 52,
+        "total_tokens": 1165,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:19.539429",
+        "prompt_tokens": 1405,
+        "completion_tokens": 86,
+        "total_tokens": 1491,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:17.714912",
+  "last_updated_at": "2026-04-18T20:11:19.540267"
+}

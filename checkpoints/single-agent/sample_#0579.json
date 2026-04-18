@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0579",
+  "query": "When did china become a member of the united nations?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "represent China at the UN. Every year the United States was able to assemble enough votes to block this resolution. Both sides rejected compromise proposals to allow both states to participate in the UN, based on the One-China policy. The admission of newly independent developing nations in the 1960s gradually turned the General Assembly from being Western-dominated to being dominated by countries sympathetic to Beijing. Not only the newly founded developing countries, but also most of the Western countries eventually decided to recognise the PRC. During the 1950s and 1960s, United Kingdom, Switzerland, Sweden, and France shifted their recognition of",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "in 1995, China encouraged African states to demand seats for themselves as a counter-move to Japan's ambitions, and thereby nullified the Japanese initiative. China and the United Nations China is one of the charter members of the United Nations and is one of five permanent members of its Security Council. It has used its veto the least of any of the permanent members. One of the victorious Allies of the Second World War (locally known as the Second Sino-Japanese War), Republic of China (ROC) joined the UN at its founding in 1945. The subsequent resumption of the Chinese Civil War",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d3",
+      "text": "UN Security Council. In recent decades, China has played an increasing role in calling for free trade areas and security pacts amongst its Asia-Pacific neighbours. China became a member of the World Trade Organization (WTO) on 11 December 2001. In 2004, it proposed an entirely new East Asia Summit (EAS) framework as a forum for regional security issues. The EAS, which includes ASEAN Plus Three, India, Australia and New Zealand, held its inaugural summit in 2005. China is also a founding member of the Shanghai Cooperation Organization (SCO), along with Russia and the Central Asian republics. In 2000, the United",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2014"
+    },
+    {
+      "doc_id": "d4",
+      "text": "United Nations General Assembly Resolution 1668 United Nations General Assembly Resolution 1668 (XVI) was an act of the UN General Assembly that deemed the issue of China representation at the UN an important question under the UN Charter; therefore any proposal to change the designated representation of China at the UN would require a two-thirds majority vote. The impetus for UN Resolution 1668 (1961) was raised by Australia, Colombia, Italy, Japan, and the United States and passed with 61 UN Member States voting in its favor, 34 UN Member States voted against it, 7 UN Member States abstaining, and 2",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Mongolia until 1961, when the Soviet Union announced that unless Mongolia was admitted, it would block the admission of all of the newly independent African states. Faced with this pressure, the ROC relented under protest. After the Republic of China's expulsion from the United Nations in 1971, the first veto cast by the present occupant, the People's Republic of China, was issued on 25 August 1972 over Bangladesh's admission to the United Nations. As of February 2017, the People's Republic of China has used its veto eleven times. Observers have noted a preference for China to abstain rather than the  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "The Republic of China (ROC) joined the UN at its founding in 1945, but the People's Republic of China (PRC) became a member after the ROC's expulsion in 1971."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about China's UN membership dates but lacks any citations to support these claims, violating the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2415,
+      "completion_tokens": 171,
+      "total_tokens": 2586
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1047,
+        "completion_tokens": 80,
+        "total_tokens": 1127
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1368,
+        "completion_tokens": 91,
+        "total_tokens": 1459
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:11.239272",
+        "prompt_tokens": 1047,
+        "completion_tokens": 80,
+        "total_tokens": 1127,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:12.195821",
+        "prompt_tokens": 1368,
+        "completion_tokens": 91,
+        "total_tokens": 1459,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:10.321866",
+  "last_updated_at": "2026-04-18T20:08:12.196122"
+}

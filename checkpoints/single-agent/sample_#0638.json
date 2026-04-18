@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0638",
+  "query": "Where did dorothy live in the wizard of oz?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "during the summer. The yellow brick road was derived from a road at that time paved by yellow bricks. These bricks were located in Peekskill, New York, where Baum attended the Peekskill Military Academy. Baum scholars often refer to the 1893 Chicago World's Fair (the \"White City\") as an inspiration for the Emerald City. Other legends suggest that the inspiration came from the Hotel Del Coronado near San Diego, California. Baum was a frequent guest at the hotel and had written several of the Oz books there. In a 1903 interview with \"Publishers Weekly\", Baum said that the name \"OZ\"",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Munchkins from her evil powers. Dorothy, distressed and confused, wants only to return home. With her magic unable to take Dorothy beyond the country boundaries, Addaperle decides her best bet is to follow the Yellow Brick Road to the Emerald City in the centre of Oz, to see the great and powerful Wizard of Oz, or \"The Wiz\" for short (\"He's the Wizard\"). She gives Dorothy the Witch of the East's silver slippers, and tells her not to take them off before she reaches home, for they hold a mysterious, but very powerful charm that will keep her safe. Dorothy",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d3",
+      "text": "she embarks on a journey with Toto on the yellow brick road to meet the Wizard of Oz, who lives in the Emerald City, the capital of Oz. On her journey, she meets three creatures: a Scarecrow (Kermit), a Tin Thing (Gonzo), and a Cowardly Lion (Fozzie). They are also seeking the Wizard of Oz to give them a brain, heart, and courage, respectively. The group meets various obstacles involving a deep gorge where the Kalidah Critics (Statler and Waldorf) are heckling them and a Poppy Field Club run by Clifford which nearly puts them to sleep. After arriving at",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2020-07-17"
+    },
+    {
+      "doc_id": "d4",
+      "text": "the Emerald City in the magical Land of Oz. In \"The Road to Oz\" (1909), Billina accompanies Tik-Tok into welcoming Dorothy, Shaggy Man, Button-Bright, and Polychrome to Oz. Billina is later present at Princess Ozma's royal birthday party. Later books reveal that Billina has hatched many chicks (their father unknown). She names all of them Dorothy after her young friend. Gender confusion reappears, however, and the proud mother discovers that some of those chicks will be \"horrid roosters\"; she changes the males' names to Daniel. One of Baum's earliest books described raising Hamburg chickens, and he drew on that expertise",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d5",
+      "text": "prior \"Ozma of Oz\" (1907). He was not entirely pleased with this, as the introduction to \"Dorothy and the Wizard of Oz\" opens with the protest that he knows many tales of many lands, and hoped that children would permit him to tell them those tales. Written shortly after the 1906 San Francisco earthquake and around the time Baum moved to California, the book starts with an earthquake in California. Dorothy and others are swallowed up by cracks in the earth, and fall into an underground cavern, where they begin their adventures. Very little of the story\u0393\u00c7\u00f6six of the twenty  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Dorothy lives in the magical Land of Oz, specifically in the Emerald City, which is the capital of Oz."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer makes factual claims about Dorothy's residence but provides no citations. The provided documents do not contain the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2387,
+      "completion_tokens": 145,
+      "total_tokens": 2532
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1046,
+        "completion_tokens": 56,
+        "total_tokens": 1102
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1341,
+        "completion_tokens": 89,
+        "total_tokens": 1430
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:26.117355",
+        "prompt_tokens": 1046,
+        "completion_tokens": 56,
+        "total_tokens": 1102,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:27.128043",
+        "prompt_tokens": 1341,
+        "completion_tokens": 89,
+        "total_tokens": 1430,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:25.285382",
+  "last_updated_at": "2026-04-18T20:10:27.128696"
+}

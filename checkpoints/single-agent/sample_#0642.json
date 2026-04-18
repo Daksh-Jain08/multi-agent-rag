@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0642",
+  "query": "Who wrote all i really want to do?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "its highest-debuting single of their career (surpassing \"Want To\", which debuted at #36 in 2006). Overall, it is the duo's third Number One hit on the \"Billboard\" country charts. All I Want to Do \"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland. It was released in May 2008 as the first single from their album \"Love on the Inside\", which was released on July 22, 2008. The duo's two members, lead vocalist Jennifer Nettles and mandolinist/background vocalist Kristian Bush, wrote the song with singer Bobby Pinson, with whom the duo also",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "was first released on Dylan's 1964 album \"Another Side of Bob Dylan\". The song was also included on the Dylan compilations \"Bob Dylan's Greatest Hits Vol. II\" in 1971 and the 3-disc edition of \"Dylan\" in 2007. In addition, two live versions of the song have been released: one, recorded in 1978, on \"Bob Dylan at Budokan\" and the other, recorded in 1964, on \"\". Dylan wrote the song in 1964 and recorded it in one take on June 9, 1964. Like other songs on \"Another Side of Bob Dylan\", \"All I Really Want to Do\" was inspired by Dylan's",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "All I Want to Do \"All I Want to Do\" is a song co-written and recorded by American country music duo Sugarland. It was released in May 2008 as the first single from their album \"Love on the Inside\", which was released on July 22, 2008. The duo's two members, lead vocalist Jennifer Nettles and mandolinist/background vocalist Kristian Bush, wrote the song with singer Bobby Pinson, with whom the duo also co-wrote their late-2006 single \"Want To\". On the \"Billboard\" Hot Country Songs chart dated for August 16, 2008, \"All I Want to Do\" became Sugarland's third Number One hit.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "general situations that people experience but also some of my own personal experiences.\" Kim also said she was incredible with the song's chart performance; \"It seemed like a dream at the time.\" The song's music video was made by BlissCo Media and released by BMG and Jive. All I Really Want (Kim Lukas song) \"All I Really Want\" is the first single recorded by English singer Kim Lukas. It was released in September 1999 as the lead single from the album, \"With a K\". The song reached the top 10 in Austria, Canada, Denmark, and Italy. \"All I Really Want\"",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1995-06-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "of the traditional song, \"See See Rider\", arranged by Sonny Bono, Charles Greene, and Robert Stone. Other covers on the album are \"She Thinks I Still Care\", \"The Bells of Rhymney\", and \"Come and Stay With Me\". During the album recording sessions, Cher recorded a song written by Bono, titled \"I'm Gonna Love You\", which did not appear on the album but was issued as the B-side of the \"All I Really Want to Do\" single. The song was later included on the 1967 Sonny & Cher soundtrack album, \"Good Times\". \"All I Really Want to Do\" has received positive  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Bob Dylan wrote \"All I Really Want to Do\" in 1964. Cher also recorded a song titled \"All I Really Want to Do\" which was written by Bono."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about who wrote \"All I Really Want to Do\" but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2523,
+      "completion_tokens": 168,
+      "total_tokens": 2691
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1106,
+        "completion_tokens": 71,
+        "total_tokens": 1177
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 97,
+        "total_tokens": 1514
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:34.088193",
+        "prompt_tokens": 1106,
+        "completion_tokens": 71,
+        "total_tokens": 1177,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:35.018337",
+        "prompt_tokens": 1417,
+        "completion_tokens": 97,
+        "total_tokens": 1514,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:33.170292",
+  "last_updated_at": "2026-04-18T20:10:35.018995"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0484",
+  "query": "Which film has Eva Marie Saint as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "on July 19, 2015, and concluded on July 21, 2015. Jogia returned to cinema, after joining the cast of multiple films throughout 2014. In February of that year, \"Deadline\" reported that Jogia would star in \"Ten Thousand Saints\", an adaption of the 2011 novel of the same name by Eleanor Henderson. Released in 2015, the film also starred Asa Butterfield, Hailee Steinfeld and Ethan Hawke. In August 2014, he landed a role in \"I Am Michael\". Based on Benoit Denizet-Lewis' \"New York Times Magazine\" article \"My Ex-Gay Friend\" in 2011, the film's cast includes James Franco, Zachary Quinto and Emma",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2014-04-06"
+    },
+    {
+      "doc_id": "d2",
+      "text": "his largest production so far. The film, from a script by Black List screenwriter Brian Duffield, follows a crew of underwater researchers who must navigate across the ocean floor after their station is destroyed. Eubank cast Kristen Stewart and \"Game of Thrones\"-actress Jessica Henwick in the lead roles. The film also features \"Silicon Valley\"-star T. J. Miller, Vincent Cassel, John Gallagher Jr., and Gunner Wright who worked with Eubank previously on \"Love\". Eubank chose Montenegrin cinematographer Bojan Bazelli to lens the movie. The film began shooting in March 2017 in New Orleans and completed principal photography on May 28, 2017.",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "role. He also thought \"Holy Motors\" already owed to Georges Franju's \"Eyes Without a Face\", in which Scob played, and Carax decided to give an explicit nod to the film by casting her. The character Kay M. came from a cancelled project which was supposed to star Lavant and Kate Moss, and follow the Merde character from \"Tokyo!\" in the United States. Eva Mendes was offered the role after she and Carax met at a film festival and said they wanted to make a film together. Kylie Minogue was discovered by Carax after Claire Denis suggested her for a cancelled",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000-09-09"
+    },
+    {
+      "doc_id": "d4",
+      "text": "and Ana de Armas would star together in the movie \"Daughter of God\", after the identical news of April 4 for Eli Roth's \"Knock Knock\", and that Reeves and Robin Gurland would be producers of the film. On November 7, Remark Films boarded on its first project to co-finance the film. On November 8, Mira Sorvino joined the film. The other cast include Christopher McDonald, Big Daddy Kane, Michael Rispoli, Laura G\u251c\u2502mez. In December 2014, Carlos Jos\u251c\u2310 Alvarez was set to score the film. Principal photography began in early November 2014 in New York City. On November 26, filming was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2023-05-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "starred in before being offered the coveted part of Superman in the popular television show \"Adventures of Superman\". The Sainted Sisters The Sainted Sisters is a 1948 American comedy film starring Veronica Lake and co-starring Joan Caulfield, Barry Fitzgerald, George Reeves, William Demarest and Beulah Bondi. The film was distributed by Paramount Pictures and is notable for being the last film Veronica Lake made under her contract with the studio. After escaping New York City with the loot from a successful scam they pulled, sisters Letty and Jane Stanton decide to hide out in a small town in Maine close  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2022-05-03"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Eva Marie Saint is not mentioned in the provided documents."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that Eva Marie Saint is not mentioned in the provided documents, and it has no citations, which is appropriate."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2548,
+      "completion_tokens": 135,
+      "total_tokens": 2683
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1132,
+        "completion_tokens": 44,
+        "total_tokens": 1176
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1416,
+        "completion_tokens": 91,
+        "total_tokens": 1507
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:17.853110",
+        "prompt_tokens": 1132,
+        "completion_tokens": 44,
+        "total_tokens": 1176,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:18.805336",
+        "prompt_tokens": 1416,
+        "completion_tokens": 91,
+        "total_tokens": 1507,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:16.863365",
+  "last_updated_at": "2026-04-18T18:43:18.805654"
+}

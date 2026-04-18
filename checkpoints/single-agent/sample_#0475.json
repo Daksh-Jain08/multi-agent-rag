@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0475",
+  "query": "A pound of excess weight lost is 4 pounds of pressure off of the knees.",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Bram Mask | Weight Loss Success Story Home > Medical Services > Weight Loss Surgery > Bram Mask Bram Mask of Pontotoc has lost 195 pounds since having weight loss surgery in June 2017 at NMMC. \u0393\u00c7\u00a3It\u0393\u00c7\u00d6s the best decision I\u0393\u00c7\u00d6ve ever made,\u0393\u00c7\u00a5 Bram says. \u0393\u00c7\u00a3I would say do it! 100 percent, no regrets.\u0393\u00c7\u00a5 When he weighed 425 pounds, Bram suffered from high blood pressure, high cholesterol, sleep apnea, knee pain and type 2 diabetes. Since losing 195 pounds thanks to weight loss surgery, he no longer needs blood pressure, diabetes or cholesterol medication and is off his CPAP machine. \u0393\u00c7\u00a3I can do anything I want to!",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Causes of Osteoarthritis | Summit Orthopedics of factors have been identified as contributing to your risk of getting osteoarthritis. Age. The older you are, the more \u0393\u00c7\u00a3wear and tear\u0393\u00c7\u00a5 your joints have experienced. This doesn\u0393\u00c7\u00d6t mean that osteoarthritis is inevitable, but if you are at risk, it is likely that symptoms will appear as you age. Obesity. Excess weight will stress lower body joints, and is a well-established factor in the development of osteoarthritis. Knees are particularly at risk. For every pound you gain, you add 4 pounds of pressure on your knees and 6 pounds of pressure on your hips. According to research, obesity poses",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2001"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Various Treatments For Knee Arthritis | Herbal Supplements a long period, no pumping is done, the fluid dries out quickly and so does the lubrication. Therefore, you are advised to do some simple stretching or bending exercises every twenty minutes throughout the day. Lose Those Extra Pounds If you are overweight, you must work on to lost those extra pounds. Excess body weight means excessive pressure on the knee joints, which can aggravate the arthritis condition in the knee. Various research works have been conducted in this regard and it has been found that just by losing 5-10% of your body weight can dramatically increase the mobility of",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2021-05-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Will Cortisone Help My Knee Pain? \u0393\u00c7\u00f6 LEVEL4 Physio-Wellness-Performance your water, and then go do some laps around your building. You\u0393\u00c7\u00d6ll find that if you do these little things, that over the course of, again, weeks, months, and years, your physical activity levels will improve. You want to make sure your weight is properly managed, and for every 10 pounds of excess weight that you carry in your body, that\u0393\u00c7\u00d6s anywhere between 30 and 70 pounds of extra pressure to your hips, knees, ankles, and low back. It\u0393\u00c7\u00d6s no wonder that being overweight or carrying excess weight is a cause for a lot of our health problems. Now, how",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Knee pain quiz | Dameron Hospital false: Being overweight has little effect on knee pain. False. Every excess pound that you carry puts about 4 extra pounds of pressure on your knees. If you're overweight, talk to a doctor about how losing weight could help protect your knees. True or false: Knee pain only indicates a problem if it's in the back of the knee. False. Knee pain that occurs anywhere around the knee joint may indicate a problem. Many things can cause knee problems. Mild pain may clear up with home care, but if it's severe or long-lasting, you may need to see a doctor,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "complementary",
+        "should_abstain": false,
+        "final_answer": "For every pound of excess weight, there are 4 pounds of extra pressure on your knees."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes a factual claim but provides no citations. The claim is present in documents d2 and d5, but these were not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2910,
+      "completion_tokens": 145,
+      "total_tokens": 3055
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1309,
+        "completion_tokens": 51,
+        "total_tokens": 1360
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1601,
+        "completion_tokens": 94,
+        "total_tokens": 1695
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:00.897990",
+        "prompt_tokens": 1309,
+        "completion_tokens": 51,
+        "total_tokens": 1360,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:01.922308",
+        "prompt_tokens": 1601,
+        "completion_tokens": 94,
+        "total_tokens": 1695,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:59.888314",
+  "last_updated_at": "2026-04-18T18:43:01.922690"
+}

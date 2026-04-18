@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0580",
+  "query": "How does hitting a beer bottle with the bottom of another beer bottle make it foam up?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Don\u0393\u00c7\u00d6t Lose Your Head | Birth.Movies.Death. of beer with a head on it just looks good! It looks right. Not only that, it's an important part of enjoying the beer's flavour. But where does it come from? Like any carbonated drink, beer will foam up when it's poured because of the carbon dioxide that's dissolved in the liquid. Beer is naturally carbonated during fermentation by yeast as it eats up the sugars and burps out CO2. For centuries this was the only way to 'condition' beer (condition = how much fizz it has), and in the case of traditional cask- and bottle-conditioned beer and most homebrew,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d2",
+      "text": "McHugh's Award Winning Off-Licences. Blog two-way valve, the beer runs down the inside of the bottle, filling it from the bottom and displacing the carbon dioxide. The beer only ever touches the bottle. Basically, we pressurize the bottle, counter-fill it under the pressure and cap off with foam, much like a bottling plant. What this means is that we can now offer fresh draught beer straight from the keg, which can be bought to enjoy at home and even stays fresh for up to two months. We will have four rotating taps at any one time, and endeavour to pour only the best in local,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2015-03-07"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Media Confidential: 2016-04-10 Cordic's most memorable running gags at both WWSW and KDKA were fake advertisements for \"Olde Frothingslosh\", \"the pale stale ale with the foam on the bottom.\" The beer was supposedly brewed by Sir Reginald Frothingslosh at Upper Crudney-on-the-Thames. In 1955, Pittsburgh Brewing Company began issuing special Christmas-season cans and bottles of Olde Frothingslosh filled with real beer. Since the Cordic ad read \"The foam is on the bottom\", the bottles & cans were packed upside down in the cases. The humorous labels changed every year and became favorites of collectors. The brewery (as well as a few other small local",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Traditions \u0393\u00c7\u00f4 German Culture get to the bottom of a beer stein without losing a bit of the rich taste of German beer. Choose your favorite kind of beer, or the kind mostly advised by your friend. Open the bottle. While pouring the beer into the glass, listen to the mild sound of the flowing beer and the soft noise of escaping carbonic acid. Enjoy the vesicles rising up and over the glass and building into a gorgeous foam crown. Inhale the full bouquet of the beer flavor. And now \u0393\u00c7\u00aa.. take the first desired sip. Taste all beer ingredients: the grain, the hop,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How to Make Your Own Alcohol for Post-SHTF [VIDEO] | Survival Sullivan As the week progresses, the rate of bubbling will begin to slow down substantially. Within two weeks, it should reduce dramatically or even stop. It is now ready to be bottled. You can start the bottling process by transferring the beer, using a sanitized siphon, from the fomenter to your clean bottling bucket. Open up the spigot and then place the bottle filler into a bottle. By pressing the filler to the bottom of the bucket, the beer will begin to flow. With the right materials and enough practice, you can easily become a decent beer brewer in your own  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": true,
+        "final_answer": "The provided documents do not contain information on how hitting a beer bottle with the bottom of another beer bottle makes it foam up."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information and abstains appropriately. All checks pass."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2540,
+      "completion_tokens": 146,
+      "total_tokens": 2686
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1121,
+        "completion_tokens": 58,
+        "total_tokens": 1179
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1419,
+        "completion_tokens": 88,
+        "total_tokens": 1507
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:13.071673",
+        "prompt_tokens": 1121,
+        "completion_tokens": 58,
+        "total_tokens": 1179,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:13.994331",
+        "prompt_tokens": 1419,
+        "completion_tokens": 88,
+        "total_tokens": 1507,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:12.196677",
+  "last_updated_at": "2026-04-18T20:08:13.995086"
+}

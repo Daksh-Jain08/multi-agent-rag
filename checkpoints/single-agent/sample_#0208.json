@@ -1,0 +1,118 @@
+{
+  "sample_id": "#0208",
+  "query": "Is a hamburger menu bad for user engagement?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Spotify ditches the controversial 'hamburger' menu in iOS app ... \u2013 which consists of three horizontal lines, aka the \u201chamburger\u201d \u2013 is not intuitive for users and not an efficient menus of navigating through an app because it requires that people first click the menu before being able to click the link or icon that takes them to their intended destination. There\u2019s also the argument that hamburger menus decrease discoverability of features because everything they contain is hidden by default. In other words, when a company ditches the menu entirely, it\u2019s taking a fairly deliberate position that says, \u201cthis does not work.\u201d Spotify would hardly be the first to do away with the hamburger menu. Facebook notably switched to a tab bar after a ton of user testing, and many other apps soon followed. Spotify also based its decision on extensive testing, we\u2019re told. The company tested the tab bar on iOS to see how it impacted user engagement. It found that users with the tab bar ended up clicking 9% more in general and 30% more on actual menu items. The tests also revealed that reducing the number of options in the tab bar to five increased the reach of Spotify\u2019s programmed content, the company says. Before rolling it out more broadly, Spotify tested the tab bar with both new and existing users to make certain there were no negative effects. It found that the new bar encouraged users to explore more types of content (e.g., Spotify-programmed, self-programmed etc.) without impacting retention, engagement or consumption time metrics. New users also engaged more with the navigation menu in their first sessions than they did when the hamburger menu was present. The results of this final test convinced Spotify to make the change public, it says. While these results hold true for iOS, Spotify is not yet convinced that Android users will react similarly. The company believes that each platform\u2019s user interface should be sympathetic to the operating system guidelines, and should be examined individually. In May, Spotify will begin testing of a new navigation model on Android, but the company is unsure what the results of those tests will be. The goal is to launch a new, Android-suited navigational interface by July. The new tab bar will be available to all iPhone users (iOS version 5.3.",
+      "source_url": "https://techcrunch.com/2016/05/03/spotify-ditches-the-controversial-hamburger-menu-in-ios-app-redesign/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Web Design Trends 2016 | by Eva Nudea H\u00f6rner | Medium Now it\u2019s time for it\u2019s spin-off: Cinemagraphs! Cinemagraphs are photographs with an element of movement, which give the refined impression that the image \u2018comes to life\u2019. Even though they have been around for a couple of years, with dedicated tools like Flixel.com it\u2019s become much easier for people to create their own. Traditionally they came in the form of animated GIFs, but with HTML5 Canvas being usable more broadly, effects can be loaded much better. Expect to see an increase of photos using movement while continuing to offer the benefits of a static image. Want to see more stunning examples? Video High speed internet is widely available which enables video to replace images more and more. We will see animated GIFs all over and short videos to increase engagement. So think visual story telling! Video will also be used to subtly tickle the user on a emotional level in a desire for brands to be memorable and to stand out. AirBnB is a good example of how to amplify the emotional context of the experience. Hamburgers are bad for you Goodbye hamburger menu. Facebook, Google, Apple, Youtube and Microsoft have already ditched it and others will swiftly follow. As awareness grows for the disadvantages of the hamburger menu on a user level, more designers will abandon this solution. Especially the negative impact on user engagement compared to other types of navigation patterns are quite remarkable. Instead you\u2019ll see designers using patterns where the most common actions are in plain sight, such as using tabs. On mobile this shift towards tabs has been apparent and we\u2019ll see this continue to spread this coming year. For the sake of keeping this article to the point and compact, check out Luke Wroblewski\u2019s post on this topic, he\u2019s put together some nice examples (before and afters). Typography Typography will get bolder and bigger (think: Italic, all caps, oversized fonts, and handwritten fonts). Thanks to Google Fonts we will continue to see typography support branding efforts. Use of large typography in combination with a crisp, minimalistic approach will be used to convey a clear brand message.",
+      "source_url": "https://medium.com/@Nudea/web-design-trends-2016-649fab478b9c",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why and How to Avoid Hamburger Menus - Luis Abreu - Product ... One thing to have in mind is that this is a nuanced issue. I\u2019ve observed these issues in user testing and others have also gone through the same realization. I only ask you to read the problems, solutions and be aware of the consequences before committing to this pattern. The Problems Lower Discoverability Less Efficient Clash with Platform Navigation Patterns Not Glanceable Lower Discoverability \u201cwhat\u2019s out of sight, is out of mind.\u201d In its default state, the Sidebar Menu and all of its contents remain hidden. People need to first be able to identify the Sidebar Menu button as actionable \u2014 companies are supplementing the menu icon with a \u2018menu\u2019 label or tooltip, and they also have to feel the need to do so \u2014 which might not be the case in applications where the main screen offers majority of the value. Less Efficient Even if people are aware and value a feature, this pattern introduces navigation friction since it forces people to first open the menu and only then allowing them to see and reach their objective. Below is a contrasting example of how instant navigation is when the navigation elements are always visible. Clash with Platform Navigation Patterns On top of these issues, in platforms such as iOS, the burger menu simply cannot be implemented without clashing with the standard navigation patterns. The left Navigation Bar Button would need to reserved for the menu button but we also need to allow the person to navigate back. Designers will either commit the mistake pictured above and overload the Navigation Bar - not even leaving space for the screen title, or force people to navigate several screens to get to the menu as seen below: Not Glanceable It\u2019s harder to surface information about specific items as they\u2019re only visible when and if the person needs to navigate into other sections of the app. You might do it like the Jawbone UP app does: display an icon representing the nature of the notification next to the Sidebar Menu button. This doesn\u2019t scale well though as it requires you to maintain more icons and as a designer you might be forced to display a generic notification icon instead reducing its meaning. In contrast, the Tab Bar below\u2014taken from Twitter, lets the user understand the context of the notification and navigate directly to the screen associated with it.",
+      "source_url": "https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "usability - Mobile website menu. Should hamburger menu be on left ... 't specifically answer your question but decided share the latest research about hamburger menus and a possible alternative. Lately, there has been a good amount of research about mobile navigation. It turns out that the bottom navigation menu was creating more user engagement for Facebook compared to hamburger menu. Watch a video of Luke Wreblowski explaining why most of the Google apps are replacing the hamburger menu with bottom navigation. Yes, Hamburger navigation save a lot of valuable screen space but: Problems with Hamburger menu: Lower Discoverability The available actions of the app are hidden behind the hamburger menu. They're not explicit and the user have to make an action to discover that the certain activity is available. Higher interaction cost Even if you know that a certain action is available you need to tap on the hamburger menu first and then tap on the action while the bottom navigation you can select an action with only 1 tap. Notifications about different activities cannot be shown all at once Specificity of notifications is low, see the images below for explanation:vs Why Bottom navigation menu? Users can concentrate more on the core features of the app because they're explicitly available It drives more user engagement, according to the studies outlined here It is more ergonomical as it is easier to reach the bottom than the top of a mobile phone (look at @Tarek illustrations). The company tested the tab bar on iOS to see how it impacted user engagement. It found that users with the tab bar ended up clicking 9% more in general and 30% more on actual menu items. The tests also revealed that reducing the number of options in the tab bar to five increased the reach of Spotify\u2019s programmed content, the company says. Before rolling it out more broadly, Spotify tested the tab bar with both new and existing users to make certain there were no negative effects. It found that the new bar encouraged users to explore more types of content (e.g., Spotify-programmed, self-programmed etc.) without impacting retention, engagement or consumption time metrics.",
+      "source_url": "https://ux.stackexchange.com/questions/101595/mobile-website-menu-should-hamburger-menu-be-on-left-or-the-right",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "10 pros and cons of the hamburger menu (with examples) | Inside ... (and engagement) than other buttons, which can be attributed to a number of reasons. First, they are hard to reach. With phones getting bigger with each generation, it\u2019s becoming increasingly difficult to reach places where the hamburger button is typically found (top left or right corners). Second, when users don\u2019t see their navigation options, they\u2019re far less likely to engage with them. Think: to use a hamburger menu users have to: Realize their preferred menu item isn\u2019t visible See the menu Know what a hamburger menu is and that its a thing they can click Click it Scan the list of additional menu items Find the one they are looking for Click it That\u2019s a lot of cognitive load for something so simple. For example, when the Zeebox app removed the row containing their navigation buttons in favor of a hamburger menu, they saw their engagement numbers halved. One study by the Nielsen Norman Group found that, when using a hamburger menu, discoverability is \u201ccut almost in half by hiding a website\u2019s main navigation. Also, task time is longer and perceived task difficulty increases.\u201d They concluded that users have a worse experience when the navigation buttons are hidden, both in mobile and desktop interfaces. Even big players like YouTube recognized the impact the hamburger menu was having on their engagement numbers and have moved away from it. Con #3: Inefficient Any good designer knows that making users go through extra steps to get to their end goal is a big no-no. The hamburger menu does exactly that. Imagine you were looking for to sign up for fitness coach and went to their site to learn more. Would you rather a link/button to the contact page be: A) Right on the home page B) Behind the hamburger menu Of course you\u2019d rather it be presented to you right away. That\u2019s crucial information for someone looking for a fitness coach! You don\u2019t want to have to search for what you\u2019re looking for. 8 examples of hamburger menus We\u2019ve created a list of eight examples of hamburger menus in action. They\u2019re a mix of apps, desktop websites, and mobile websites\u2014but each uses the hamburger menu well.\ufffd\ufffd\ufffd",
+      "source_url": "https://www.invisionapp.com/inside-design/pros-and-cons-of-hamburger-menus/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "The Hamburger Menu: Past, Present, and Future \u2013 IXD@Pratt The Hamburger Menu: Past, Present, and Future Why does it provoke such reactions? Is it really that bad? Where did the menu even come from? First, a little history lesson. The menu debuted in 1981, as part of a system called the Xerox Star, a software package created to run on Xerox 8010 workstations. Software designer Geoff Alday began researching the inventor of the much-maligned menu, and located the interface designer, Norm Cox. Alday asked \u201cwho designed the menu?\u201d Turns out it was Cox himself. Over email, Cox said of the menu: \u201c\u2026I designed that symbol many years ago as a \u201ccontainer\u201d for contextual menu choices. It would be somewhat equivalent to the context menu we use today when clicking over objects with the right mouse button\u2026\u201d (Alday, 2004) Little did Mr. Cox know, let alone imagine, that a 30-plus year old design would yield such negative reactions in the UX field. Its problems are often discussed, including low discoverability (out of sight, out of mind), decreased efficiency (menu must be opened, only then are choices displayed), and limited visibility of app-specific items (navigation into the app required to see the desired area). What\u2019s a company to do? Rather than reworking the menu, Spotify and other companies (such as Facebook, in 2013), have dropped it altogether. After introducing the tab bar on Ios, Spotify research showed a positive impact on user engagement. Users with the tab bar clicked 9% more general items and 30% more menu items. In addition, the number of options in the tab bar were reduced to five, increasing the reach of programmed content. Before full implementation of the tab bar, Spotify tested it with new and existing users to verify there were no ill effects. Results showed the tab bar encouraged users to explore more and different content types, without affecting retention or engagement metrics. Additionally, new users were \u201cmore engaged\u201d with the navigation menu in their first session than when the hamburger menu was in place. After those results were in, Spotify rolled out the tab bar for the iOS platform.",
+      "source_url": "https://ixd.prattsi.org/2017/03/the-hamburger-menu-past-present-and-future/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Less Is Still More: The Importance Of The Minimalist Approach To ... It\u2019s not just about the way a site looks; it\u2019s about the user\u2019s overall experience interacting with the site. One thing that simplifies a user\u2019s experience is the ability to accomplish tasks easily and without distraction. The biggest contributing factor to this kind of simplicity is intuitive page navigation. \u201cSimple\u201d designs don\u2019t confuse or distract users from accomplishing their goals. Rather, they blend into the user\u2019s experience, so that the user can focus. Another way to simplify design is to cut unnecessary decorative elements, such as Flash animations. While Flash was popular for several years, it tends to create problems on a page and doesn\u2019t add anything in the way of functionality. Under the principles of minimalist design, it\u2019s just not a good idea. Be Simple, But Clear As with appropriate execution of negative space, designers should be careful not to eliminate necessary features while trying to simplify a site. An example of this problem is the popular hamburger menu, where central navigation is collapsed under a single menu icon. There are instances where the hamburger menu is an appropriate choice but for many sites, a visible central menu will better engage users. If a site\u2019s goal is to expose users to new information or products, taking away the menu function in the interest of simplicity actually works against minimalist goals. Minimalism for a Successful User Experience In web design, it might be most accurate to revise the less is more adage. Less is more if less does more. As the web design field focuses more and more on user experience, designers need to create the most usable and attractive sites possible. Carefully applied, minimalist principles can help designers make attractive and effective sites with fewer elements, simplifying and improving users\u2019 online interactions. About Alan Smith Alan Smith is an is an out of the heart writer voicing out his take on various topics of social media, web design, mobile apps, digital marketing, entrepreneurship, startups and much more in the cutting edge digital world. He is associated with SPINX Digital a Los Angeles web design company & digital marketing agency. When he is not writing, he can be found traveling outdoors with his camera.",
+      "source_url": "https://usabilitygeek.com/less-is-more-importance-minimalist-web-design/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Hamburger menus can be detrimental to user engagement because they hide navigation options, leading to lower discoverability and higher interaction costs. Studies and user testing, such as those by Spotify and Facebook, have shown that replacing hamburger menus with visible navigation patterns like tab bars can increase user clicks and engagement with menu items."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. The grounding policy requires citations for factual claims, thus it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 8483,
+      "completion_tokens": 183,
+      "total_tokens": 8666
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 4075,
+        "completion_tokens": 93,
+        "total_tokens": 4168
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4408,
+        "completion_tokens": 90,
+        "total_tokens": 4498
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:29:20.587588",
+        "prompt_tokens": 4075,
+        "completion_tokens": 93,
+        "total_tokens": 4168,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:29:22.094347",
+        "prompt_tokens": 4408,
+        "completion_tokens": 90,
+        "total_tokens": 4498,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:29:19.242876",
+  "last_updated_at": "2026-04-18T18:29:22.094785"
+}

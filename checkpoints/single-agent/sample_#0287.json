@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0287",
+  "query": "Does blood turn blue when it is deoxygenated?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Is blood really blue? - Science World Is blood really blue? In many TV shows, diagrams and models, deoxygenated blood is blue. Even looking at your own body, veins appear blue through your skin. Some sources argue that blood from a cut or scrape starts out blue and turns red upon contact with oxygen. Other sources say that blood is always red. It\u2019s time to settle the debate once and for all. Where did the idea of blue blood come from? The confusion about blood\u2019s colour started in the 19th century, when the term \u201cblue blood\u201d was used to describe Aristocrats\u2014white, upper-class, Europeans. At the time, these aristocrats and the European royalty spent most of their time indoors and their blue-looking veins could easily be seen through their pale skin. In addition to pale skin, silver was considered a sign of wealth, so those who could afford it had goblets and utensils made of silver. Since these items were in close contact with food and drink, some of the metal was ingested. Ingestion of high amounts of silver can result in Argyria, a skin condition that literally turns your skin greyish blue. The combination of blue looking veins and greyish blue skin gave good reason to the perception that royal blood was blue. Why is our blood coloured, anyway? Red blood cells contain hemoglobin, a protein with red pigment that carries oxygen. When hemoglobin picks up an oxygen molecule, its shape changes to hold the oxygen. This conformation of the protein absorbs and reflects certain wavelengths of light to look bright red. When hemoglobin releases oxygen, its shape is modified and appears darker red. Oxygenated or not, your blood is always red. So, why are my veins blue? Veins are not blue. They only look blue because when wavelengths of light hit your skin and veins, some light is absorbed, and some reflected back at you. Wavelengths of blue light cannot penetrate skin as well as red light, and more blue wavelengths are reflected back at you than red wavelengths. As a result, the veins you can see through your skin look blue. Is blood really blue?",
+      "source_url": "https://www.scienceworld.ca/stories/blood-really-blue/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why some animals have blue, green, or purple blood - Vox But there are exceptions. Certain types of marine worms found in shallow ocean waters around the world have green and purple blood. And the common horseshoe crab has bright blue blood that gets harvested for bacterial-testing kits used by pharmaceutical companies. This chart, made by chemistry teacher Andy Brunning at his blog Compound Interest, explains exactly why this variation occurs: Our blood is red because of a protein called hemoglobin. This is the molecule that binds oxygen and allows your red blood cells to carry it throughout your body and supply it to your other cells, and its red because of the iron at its center. As Brunning points out, your blood is red whether it is carrying oxygen or not \u2014 diagrams show deoxygenated blood as blue simply for convenience's sake. These arthropods' blood uses a different protein, called hemocyanin, to bind oxygen. Because that binding process involves an atom of copper, rather than iron, the blood has a blue appearance when it's oxygenated, and little or no color when it's not. Entirely separate from the color, horseshoe crab blood also has a chemical called coagulogen that can detect bacterial contamination at extremely low concentrations. It's very useful for testing pharmaceuticals, which is why companies collect horseshoe crabs and bleed them alive, as shown in the PBS documentaryCrash. A number of other marine species also have hemocyanin in their blood, and depending on the surrounding tissue, it can sometimes appear purplish, like in this red rock crab: Finally, there are other marine worms called polychaetes that have blood with yet another oxygen-binding protein, called chlorocruonin. Chemically, it's similar to hemoglobin, and uses iron to bind oxygen. And though it looks red when concentrated, when it's more diluted, it can appear bright green (and, as with peanut worms, can be seen through the skin): Most news outlets make their money through advertising or subscriptions.",
+      "source_url": "https://www.vox.com/xpress/2014/10/31/7133779/blood-blue-green-purple",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Blood - Wikipedia Hemoglobin Hemoglobin is the principal determinant of the color of blood in vertebrates. Each molecule has four heme groups, and their interaction with various molecules alters the exact color. In vertebrates and other hemoglobin-using creatures, arterial blood and capillary blood are bright red, as oxygen imparts a strong red color to the heme group. Deoxygenated blood is a darker shade of red; this is present in veins, and can be seen during blood donation and when venous blood samples are taken. This is because the spectrum of light absorbed by hemoglobin differs between the oxygenated and deoxygenated states.[37] Blood in carbon monoxide poisoning is bright red, because carbon monoxide causes the formation of carboxyhemoglobin. In cyanide poisoning, the body cannot use oxygen, so the venous blood remains oxygenated, increasing the redness. There are some conditions affecting the heme groups present in hemoglobin that can make the skin appear blue \u2013 a symptom called cyanosis. If the heme is oxidized, methemoglobin, which is more brownish and cannot transport oxygen, is formed. In the rare condition sulfhemoglobinemia, arterial hemoglobin is partially oxygenated, and appears dark red with a bluish hue. Veins close to the surface of the skin appear blue for a variety of reasons. However, the factors that contribute to this alteration of color perception are related to the light-scattering properties of the skin and the processing of visual input by the visual cortex, rather than the actual color of the venous blood.[38] Hemocyanin The blood of most mollusks \u2013 including cephalopods and gastropods \u2013 as well as some arthropods, such as horseshoe crabs, is blue, as it contains the copper-containing protein hemocyanin at concentrations of about 50 grams per liter.[40] Hemocyanin is colorless when deoxygenated and dark blue when oxygenated.",
+      "source_url": "https://en.wikipedia.org/wiki/Blood",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Halloween Special: The Chemistry of Blood - Compound Interest It is these haem groups, which contain bound iron atoms, that cause blood\u2019s dark red colour. Their structure of alternating double and single bonds absorbs light of particular wavelengths, causing us to see it as red. Red isn\u2019t actually the only possible blood colour; some animals can have green, blue, or even purple blood, due the the use of different oxygen-carrying proteins. A common misconception about our blood is that deoxygenated blood (that which flows back from our cells through out veins) is blue. Veins do appear blue when we look at them through our skin, so it\u2019s perfectly understandable that a lot of people think that this is the case; also, pick up any biology textbook, and the likelihood is that in a diagram depicting blood vessels the veins will be denoted with a blue colouration. Whereas oxygenated haemoglobin is a bright red, deoxygenated haemoglobin is a darker red colour \u2013 but not blue! The reason that blood appears blue when we look at our veins through our skin is due to the interaction of light with both our blood and the skin covering the blood vessels. Red light can penetrate more deeply into our tissues than blue light, and since deoxygenated blood absorbs more red light than oxygenated blood, our veins tend to look blue as a result. Haemoglobin can also help us explain the colour change we see in blood when it\u2019s removed from the body. If you\u2019ve ever had a nose bleed, you\u2019ll have probably noticed that any blood you stem with a tissue turns a dark brown colour as it dries. This is due to the oxidation of the iron atoms in the haemoglobin subunits, from iron (II) to iron (III), producing methaemoglobin which is a dark brown colour. If you\u2019ve ever, say, accidentally bitten your tongue, you\u2019ll have also noticed that blood has a somewhat metallic taste. This is in part due to the presence of the iron in haemoglobin; it can also react with fat molecules to produce a range of compounds that help to produce a metallic flavour.",
+      "source_url": "https://www.compoundchem.com/2015/10/29/blood/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "How New 'Mood Ring' Glasses Let You See Emotions [Red-Green & Blue-Yellow: The Stunning Colors You Can't See] Based on Changizi's color perception research, he and his colleagues have designed three versions of O2Amps, which are currently being sold to medical distributors and will hit wider markets in 2013. Each of the three designs filters light in a different way, for a specific purpose: \"Vein-finders\" increase visibility of red, oxygenated blood by heightening the contrast with green, deoxygenated blood, in order to help nurses and clinicians quickly locate patient's veins. \"Hemo-finders\" exaggerate the color difference between blue-toned skin regions where blood is pooled and yellowish regions drained of blood, giving people a \"zombie appearance,\" Changizi said. Those are intended for use by paramedics and other emergency personnel. The third kind, \"health-monitors,\" enhance the wearer's perception of contrasts between red and green and between yellow and blue skin. These glasses will be used by doctors, who cite skin color when making about 15 percent of their diagnoses, but they'll also enable people in general to more easily detect health and emotional cues in those around them, by \"enhancing the natural health-sense we evolved,\" Changizi, author of \"The Vision Revolution\" (BenBella Books, 2009), told Life's Little Mysteries. \"If you're angry, you get red. When you're showing weakness, the opposite is true \u2014 your blood becomes deoxygenated and your skin appears greener,\" he said. \"Yellow is associated with fear because the blood gets pulled out of your extremities and flows into your organs. The opposite of being yellow with fear is being blue, which your skin exhibits when you're sedate. These are the kinds of things that are being signaled with these color signals. And whereas muscular facial expression signals can be faked, it's harder to fake actually being red in the face with anger, or feeling weak. \" Expect to see these \"mood-ring\" sunglasses in stores sometime next year.",
+      "source_url": "https://news.yahoo.com/mood-ring-glasses-let-see-emotions-132025923.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Blood in All Colors of the Rainbow \u2014 STORAGE ROOM No. 2 Home LATEST POSTS Only small and simple animals can live without blood. For the rest of us, blood plays a vital role in carrying nutrients and other essential atoms and molecules, like oxygen, throughout the body. Oxygen is used in the energy-making process of all multicellular animal life. Oxygen naturally dissolves in fluid but special oxygen-binding proteins can carry it more efficiently. These proteins are called respiratory pigments, since they are the component of blood that gives it color. The diversity of respiratory pigments give rise to an equal diversity of colors blood can be found in and creates a veritable rainbow flowing through animals throughout the world. Andean geese live at high altitudes and their hemoglobin is incredibly effective at binding oxygen. Image by Greg Schechter. Red Hemoglobin is the respiratory pigment used in vertebrates, such as humans. Each molecule of hemoglobin contains four iron atoms. When oxygenated, hemoglobin imparts a bright red color to blood. This color darkens to a deep red when deoxygenated. The veins that carry deoxygenated blood appear blue when viewed through the skin, but this is only an optical illusion. Skin scatters light waves as they pass through and make veins appear blue despite the blood inside still being red. Animals (including humans!) that live at a high altitude tend to have more hemoglobin than those living at sea level and some have evolved hemoglobin that is more effective at binding oxygen at low pressures. Athletes will sometimes train at higher altitude than they plan on competing at in order to trigger the production of greater levels of hemoglobin in the blood. When those athletes return to sea level to compete their increased hemoglobin levels let them pack more oxygen into their blood than previously. Some invertebrates use a variant of hemoglobin as their respiratory pigment and therefore also have red blood. An interesting example of this can be seen in the deep sea tubeworm (Riftia pachyptila). They have a symbiotic relationship with bacteria stored in their bodies which use sulfur to produce energy.",
+      "source_url": "http://www.storagetwo.com/blog/2023/3/blood-in-all-colors-of-the-rainbow",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "We want to know is blood blue or red? It looks blue in the inside and ... Answer 5: To simply answer your question, it is because of the science of light. The colors we are able to see is due to the wavelengths of light that go back into our eyes. We look at the veins which are red, but the light that hits our skin that goes back into our eyes for our brain to understand it, is blue to our brain. Answer 6: Your veins are not actually blue. They are a dark reddish-brown, but appear blue because the fat under our skin only allows blue light to travel all the way down to our veins. Since it is the only color of light that makes it to our veins, it is the only color that is reflected, and thus our veins appear blue! I hope this helps. Answer 7: Your blood is actually always red! Blood in your veins has very little oxygen and is a dark red color that looks almost blue when covered by your skin. Your arteries have bright red blood because it has a lot of oxygen in it that is being carried throughout your body to be used by tissues. So it is your skin that is tricking you into thinking your blood looks blue when in fact it is always red. Answer 8: A common answer to this question is that deoxygenated blood in the body is blue and when it comes to the surface (like when you get a cut) it turns red so your veins look blue because your body contains deoxygenated blood. Although it is true that you have deoxygenated blood in your body, it is not the reason why your veins appear blue - your blood is NEVER really actually blue. Deoxygenated blood is dark red and when it comes to the surface it's red. So back to your question about why your veins don't appear reddish when looking at them from your skin. It depends on a variety of things.",
+      "source_url": "http://scienceline.ucsb.edu/getkey.php?key=2927",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "The Blue Baby Syndromes | American Scientist With too much deoxygenated blood in the arteries, the skin turns from pink to blue (cyanosis comes from the Greek kyanos, meaning dark blue). Alternatively, some chemicals can oxidize the iron in hemoglobin. The altered form, called methemoglobin, loses the ability to bind oxygen, and the pigment now changes to greenish brown or almost black. The human body contains enzymes to reverse methemoglobinemia, but only up to certain levels. After blood levels reach 15 percent, adults become visibly cyanotic. If more than half of the hemoglobin is converted, oxygen transport, particularly to the brain, is severely hampered, respiratory distress is likely, and death is possible. In congenital heart disease the cyanosis is apt to improve if treated with oxygen, and if a sample of shed blood is shaken in air, it often becomes lighter and redder in color. Since methemoglobin does not bind oxygen, infants with that condition do not \u201cpink up\u201d on oxygen, and samples of shed blood exposed to air undergo little or no change in color. The two conditions also look a little different. During the influenza epidemic of 1918, the word \u201cheliotrope\u201d was used to describe the color of the cyanosis of hypoxia, whereas the cyanosis of methemoglobinemia is often described as slate-gray. Simple laboratory tests are available to identify and quantify methemoglobin in blood, and infants with high levels of it respond rapidly to intravenous methylene blue\u2014this blue dye turns the blue baby pink. When cyanosis develops post-partum, it is usually noticed first in the lips, spreading gradually to the nail beds of the fingers and toes, the face and then the whole body. Both congenital heart disease and methemoglobinemia tend to result in hypoxia and peripheral vasodilation, which may intensify the cyanosis.",
+      "source_url": "https://www.americanscientist.org/article/the-blue-baby-syndromes",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "No, deoxygenated blood is not blue. It is a darker shade of red. The perception of veins appearing blue is due to how light interacts with the skin and the blood, not the actual color of the blood itself."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is factually correct but lacks citations. The provided documents contain information supporting the claims about deoxygenated blood being dark red and veins appearing blue due to light interaction with skin."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 8239,
+      "completion_tokens": 181,
+      "total_tokens": 8420
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3960,
+        "completion_tokens": 79,
+        "total_tokens": 4039
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4279,
+        "completion_tokens": 102,
+        "total_tokens": 4381
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:33:00.452495",
+        "prompt_tokens": 3960,
+        "completion_tokens": 79,
+        "total_tokens": 4039,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:33:01.876427",
+        "prompt_tokens": 4279,
+        "completion_tokens": 102,
+        "total_tokens": 4381,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:32:59.081340",
+  "last_updated_at": "2026-04-18T18:33:01.876923"
+}

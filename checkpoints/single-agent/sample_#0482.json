@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0482",
+  "query": "Just call me angel in the morning original singer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "melody, but with different words, for the sung refrain. It reached #1 on the Billboard Hot 100 for the week ending March 31, 2001. Swedish singer Jill Johnson released \"Angel of the Morning,\" with lyrics in English, in 2007 from her album of cover versions, \"Music Row.\" This version peaked at No. 30 at the Swedish singles chart. A number of non-English versions of \"Angel of the Morning\" have been recorded including the following: Juice Newton's version is heard during Drew Barrymore's first scene in the film \"Charlie's Angels,\" in the film \"Charlie Wilson's War\" (in which it is also",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d2",
+      "text": "(quote): \"I [hadn't been] really aware of that song because...when [it] was popular I was listening to folk music and R&B and not Pop, and that was a very Pop song.\" Newton's version reached No. 4 on the \"Billboard\" Hot 100, No. 22 on the \"Billboard\" country music chart, and spent three weeks at No. 1 on the \"Billboard\" adult contemporary chart in April of that year. The recording also earned Newton a Grammy nomination, and in the same category as Rush's 1968 hit. More than 1 million units of Newton's single of the song were sold in the United",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1999-05-10"
+    },
+    {
+      "doc_id": "d3",
+      "text": "practise opened in 1998. Hot (American vocal group) Hot was a vocal trio based in Los Angeles, California, whose membership was Gwen Owens (born June 19, 1953), Cathy Carson (n\u251c\u2310e Catherine Sue Fiebach) (October 8, 1953 \u0393\u00c7\u00f4 June 26, 2014) and Juanita Curiel (born February 25, 1953). The group had a million-selling hit single in 1977 entitled \"Angel in Your Arms\". The lead singer Gwen Owens was a native of Detroit where she had begun singing in church and, after being discovered at a high school talent show, recorded for local record labels from the mid-1960s. In 1969 a track",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Angel (Angela Winbush song) \"Angel\" is a song by American R&B singer Angela Winbush. The track was released in 1987 as the first single from her debut album, \"Sharp\" on Polygram Records. As half of the duo of Ren\u251c\u2310 & Angela, Winbush had two number-one R&B hits with \"Save Your Love (For #1)\" and \"Your Smile.\" After a decade, Ren\u251c\u2310 Moore and Winbush went their separate ways. \"Angel\", her solo-debut, spent two weeks at the top of the US Billboard R&B chart. It was also named by \"Billboard\" the number nine most successful R&B single of 1987. []. Despite the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d5",
+      "text": "success. Her breakthrough came in 1981 with \"Juice\", an album that reach number 22 on the Billboard 200 chart and number 16 on the Canadian Top 50 album chart. \"Juice\" was certified by the Recording Industry Association of America (RIAA) as gold on August 13, 1981 and platinum on January 5, 1982. The album also gave Newton three hit singles, beginning with \"Angel of the Morning\". The song, written by Chip Taylor, had been a number one hit for Merrilee Rush in 1968. Newton's version peaked at number four on the pop charts and number 22 on the country charts.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2018-08-14"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The original singer of \"Angel of the Morning\" was Merrilee Rush in 1968."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. The answer makes a factual claim about the original singer of \"Angel of the Morning\" but provides no citations to support it."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2727,
+      "completion_tokens": 155,
+      "total_tokens": 2882
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1216,
+        "completion_tokens": 55,
+        "total_tokens": 1271
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1511,
+        "completion_tokens": 100,
+        "total_tokens": 1611
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:13.415665",
+        "prompt_tokens": 1216,
+        "completion_tokens": 55,
+        "total_tokens": 1271,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:14.817030",
+        "prompt_tokens": 1511,
+        "completion_tokens": 100,
+        "total_tokens": 1611,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:12.514695",
+  "last_updated_at": "2026-04-18T18:43:14.817430"
+}

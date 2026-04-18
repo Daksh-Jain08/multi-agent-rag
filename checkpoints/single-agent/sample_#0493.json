@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0493",
+  "query": "What are scientists doing to combat drug-resistant bacteria and superbugs?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Western News - UN focus on superbugs right on target for researcher resistance. \u0393\u00c7\u00a3It\u0393\u00c7\u00d6s about raising awareness with physicians, farming practices, making the public simply more aware of the issue. Scientists have been aware of this for some time, but we typically do a very poor job of making things more known to the public,\u0393\u00c7\u00a5 Heinrichs added. \u0393\u00c7\u00a3Academic scientists and pharmaceutical companies are always investing resources into the development of new antimicrobials. It\u0393\u00c7\u00d6s a constant evolution of trying to find new drugs to combat resistance that is evolving in bacteria. It\u0393\u00c7\u00d6s a very difficult thing to do.\u0393\u00c7\u00a5 Some of the new things being tested in the fight against drug-resistant bacteria and microbes",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Developing drugs to fight superbugs - Institute for Molecular Bioscience - University of Queensland Antibiotic-resistant bacteria, or 'superbugs' as they are more commonly known, are an increasing problem throughout the world. IMB's Professor Matt Cooper is calling on all Australians to do their part to reduce the spread of superbugs as we mark Antibiotic Awareness Week this November 12-18. Antibiotic Awareness Week is a worldwide initiative that seeks to raise the profile of these important drugs and what we can do to stop bacteria becoming resistant. Professor Matt Cooper from UQ\u0393\u00c7\u00d6s Institute for Molecular Bioscience (IMB) is developing new antibiotics to combat superbugs, which are bacteria that are resistant to multiple antibiotics. \u0393\u00c7\u00a3The majority",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2020-10-17"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Blood clotting factors may help fight superbugs, research suggests - BelfastTelegraph.co.uk Blood clotting factors may help fight superbugs, research suggests Infections caused by these bacteria pose an urgent public risk as there is a lack of effective drugs to tackle them. Blood clotting factors may help fight multi-drug resistant superbugs (Peter Byrne/PA) The processes that help wounds heal after injuries may be able to help in the fight against superbugs. https://www.belfasttelegraph.co.uk/news/uk/blood-clotting-factors-may-help-fight-superbugs-research-suggests-38388443.html https://www.belfasttelegraph.co.uk/news/uk/article38388441.ece/dd4e2/AUTOCROP/h342/bpanews_c145f472-459b-479b-b560-b1f9cfc4c308_1 Coagulation factors which are involved in blood clotting could potentially offer new strategies for combating multi-drug resistant bacteria, scientists say. Infections caused by these bacteria pose an urgent public risk as there is a lack of effective drugs to",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Ideas, Inventions And Innovations : January 2012 superbugs such as MRSA are able to become resistant to treatment with antibiotics. Researchers have mapped the complex molecular structure of an enzyme found in many bacteria. These molecules \u0393\u00c7\u00f4 known as restriction enzymes \u0393\u00c7\u00f4 control the speed at which bacteria can acquire resistance to drugs and eventually become superbugs. The study, carried out by an international team including scientists from the University of Edinburgh, focused on E. coli, but the results would apply to many other infectious bacteria. After prolonged treatment with antibiotics, bacteria may evolve to become resistant to many drugs, as is the case with superbugs such",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2020-06-08"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Blood clotting factors may help fight superbugs, research suggests Blood clotting factors may help fight superbugs, research suggests David Davies/PA Wire The processes that help wounds heal after injuries may be able to help in the fight against superbugs. Coagulation factors which are involved in blood clotting could potentially offer new strategies for combating multi-drug resistant bacteria, scientists say. Infections caused by these bacteria pose an urgent public risk as there is a lack of effective drugs to tackle them, the study published in Cell Research sets out. A deficiency in coagulation factors - like in haemophilia patients - has been associated with diseases such as sepsis and pneumonia.  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1998-04-08"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Scientists are developing new antimicrobials and exploring novel strategies, such as using blood clotting factors, to combat drug-resistant bacteria and superbugs. They are also working to raise public awareness about the issue and understand the molecular mechanisms of resistance."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. Citations are required for all factual claims made in the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3117,
+      "completion_tokens": 170,
+      "total_tokens": 3287
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1398,
+        "completion_tokens": 81,
+        "total_tokens": 1479
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1719,
+        "completion_tokens": 89,
+        "total_tokens": 1808
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:37.183238",
+        "prompt_tokens": 1398,
+        "completion_tokens": 81,
+        "total_tokens": 1479,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:38.135150",
+        "prompt_tokens": 1719,
+        "completion_tokens": 89,
+        "total_tokens": 1808,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:36.279063",
+  "last_updated_at": "2026-04-18T18:43:38.135448"
+}

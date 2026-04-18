@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0610",
+  "query": "When they do the first human head transplant, is the person in the head getting a new body or is the human in the body getting a new head?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Valery Spiridonov Set to Receive First Ever Head Transplant in 2017 | Inverse NoneShareSubscribe Valery Spiridonov Set to Receive First Ever Head Transplant in 2017 Who is this guy who volunteered to get his head chopped off? Meet Valery Spiridonov. In 2017, he\u0393\u00c7\u00d6s set to become the first person ever to receive a head transplant. Though, it is perhaps more accurate to call it a body transplant: Spiridonov will keep his head and gain someone else\u0393\u00c7\u00d6s body \u0393\u00c7\u00f6 if all goes according to plan. The 30-year-old Russian man hopes to survive the first human head transplant. Why would he volunteer for such a thing, you ask? Spiridonov suffers Werdnig-Hoffmann Disease, a rare genetic",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d2",
+      "text": "First Human Head Transplant - Gizmo Snack from Parkinson\u0393\u00c7\u00d6s disease and finally, he spent his 35 years of his life working towards head and body transplant. In his head transplant, he explained that a wheelchair-bound Russian citizen will be the first person to undergo a head transplant, Valery Spiridonov will be getting a new body. Spiridonov, 31-year-old who is suffering from Werdnig-Hoffman which is a muscle-wasting disease which is incurable agrees to give the head transplant a shot. He is cramped to a wheelchair with very limited movement of his arms and has problems in breathing and swallowing. With his condition worsening every day, he belongs to",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d3",
+      "text": "All you need to know about Human Head Transplantation the help of advanced technology in the field of medical science, he and his team of collaborators are going to do a human head transplant this year. Volunteer and the Transplant procedure Valery Spiridonov, a 31 year old Russian man, agreed to undergo this head transplant this year. Mr. Spiridonov who suffers from a rare spinal muscular atrophy has spent all his life on a wheel chair. He hopes this surgery will help him attain a fully functional body. The objective of this surgery is to transplant Spiridonov\u0393\u00c7\u00d6s head to a body of a brain dead person. This would involve",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1999-02-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Surgeon plans first human head transplant in 2017 - ExtremeTech leaves him wheelchair bound and dependent on others for basic needs. Canavero wants to put his head on a body that doesn\u0393\u00c7\u00d6t have Werdnig-Hoffman\u0393\u00c7\u00d6s, but finding such a body will be the first hurdle. According to Canavero, the donor body will come from someone who is brain dead and whose organs would be considered acceptable for transplantation. Things get wild when Canavero explains the process of disposing of the old body. The patient would be cooled in order to slow damage to brain cells, then surgeons would sever the soft tissue in the neck. Tubes would be affixed to all",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Human head transplant is performed in China - Innovation House Xiaoping Ren, who has successfully carried out head transplant on monkey\u0393\u00c7\u00d6s body. Previously, in 2015, Professor Canavero has shocked the world with his statements that in the next two years he will perform head transplant of alive human on new body. Russian computer scientist Valery Spiridonov, who suffers from a muscle-wasting disease, was chosen to be the first patient. It was stated that the surgery will likely to be performed in China that is rather liberal as to the body transplant experiments. But a short time ago it has transpired that it is more than likely that the Russian national  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The person receiving the head transplant, Valery Spiridonov, will keep his head and receive a new body."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The answer makes factual claims about Valery Spiridonov receiving a new body, which is supported by the documents, but lacks citation."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2782,
+      "completion_tokens": 163,
+      "total_tokens": 2945
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1243,
+        "completion_tokens": 56,
+        "total_tokens": 1299
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1539,
+        "completion_tokens": 107,
+        "total_tokens": 1646
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:27.733637",
+        "prompt_tokens": 1243,
+        "completion_tokens": 56,
+        "total_tokens": 1299,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:28.807692",
+        "prompt_tokens": 1539,
+        "completion_tokens": 107,
+        "total_tokens": 1646,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:26.765721",
+  "last_updated_at": "2026-04-18T20:09:28.808441"
+}

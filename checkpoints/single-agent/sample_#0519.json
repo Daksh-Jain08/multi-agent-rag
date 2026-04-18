@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0519",
+  "query": "What are the odds of winning a game of solitaire?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "One-Handed Solitaire One-Handed Solitaire, is a solitaire card game played with a traditional 52 card deck. It can be played in one hand and does not require a table, hence its name. Taking a standard, shuffled 52-card deck of playing cards (without Jokers), hold the deck face down in your hand. Draw from the back of the deck four cards and place them on top fanned out so that the suit and number can be seen. If the first and fourth card are the same suit, discard the two middle cards, placing them on your lap if seated or in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2005-02-20"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Ace and ending with King, all of the same suit, on one of the four foundations, at which time the player would have won. There are different ways of dealing the remainder of the deck from the stock to the talon, including the following: If the player can no longer move any reasonable cards, the game is considered lost. At this point, winning is impossible. For a standard game of Klondike, drawing three cards at a time and placing no limit on the number of re-deals, the number of possible hands is over , or an 8 followed by 67",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2015-02-24"
+    },
+    {
+      "doc_id": "d3",
+      "text": "above process of discarding until the first and fourth card are neither the same suit nor number, upon which you draw one card from the back of the deck and place it after the fourth card, rearranging the drawn cards so that only four are visible. Continue in this fashion until the end of the deck is reached. If all cards are discarded, you win the game. The odds of winning are very low, approximately one in 140. An optional rule to increase the odds slightly allows cards that have previously been drawn to be redrawn after the deck has",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "has shown that between 71% and 72% of all games are possible to win. In the average game, 40 cards were moved to the foundation. Because the reserve cards are hidden, and because the three-at-a-time dealing of cards from the stock means that cards played early in the game can impact which stock cards are available much later, it is very difficult by normal playing standards to come anywhere near theoretically possible win rates. The highest potential win rates for strategic expert-level players averages at about 35%. In the Storehouse variant, a greater potential to win increases rates to about",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the ace and the king which start each foundation). Arnold's rule set allows two redeals. To do this, the piles are picked up in the order they were dealt (especially the order set above) and the cards are then redealt without shuffling. At each redeal, the restrictions again apply until all cards are dealt. The game is considered won when all of the cards are played on the foundations. Only Solsuite and Mac Solitaire have versions of the game. The rules of each electronic version are almost the same as the printed rules, but with modifications. The rule set Solsuite  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "The odds of winning a game of solitaire vary significantly depending on the source and specific rules. Some sources suggest odds as low as one in 140, while others indicate that between 71% and 72% of games are winnable, with expert players achieving around 35% win rates."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about solitaire win rates but lacks any citations, making it unsupported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2321,
+      "completion_tokens": 183,
+      "total_tokens": 2504
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 992,
+        "completion_tokens": 96,
+        "total_tokens": 1088
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1329,
+        "completion_tokens": 87,
+        "total_tokens": 1416
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:03.569919",
+        "prompt_tokens": 992,
+        "completion_tokens": 96,
+        "total_tokens": 1088,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:04.780958",
+        "prompt_tokens": 1329,
+        "completion_tokens": 87,
+        "total_tokens": 1416,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:02.528659",
+  "last_updated_at": "2026-04-18T20:06:04.781375"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0545",
+  "query": "When was the first battle royale game made?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "heavily influenced by animation episodes from One Year War storylines, namely \"Mobile Suit Gundam\", \"The 08th MS Team\", \"\", and \"Blue Destiny\". This game plays similarly to another Bandai Gundam game for the Sony PlayStation 2, \"\". Gundam Battle Royale is a game released for the PlayStation Portable. The game was released only in Japan and South Korea on October 5, 2006. The game features many mobile suits and mobile armors from the Universal Century up to and including \"Zeta Gundam\". It is the sequel to \"Gundam Battle Tactics\". A sequel called \"Gundam Battle Chronicles\" has been released on 25",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d2",
+      "text": "the first-person shooter market similar to how \"\" also changed the landscape of shooters when it was released in 2007, and believed it did this by being an anti-\"Call of Duty\" in terms of pacing and strategy. \"Battlegrounds\" is considered the defining game of the battle royale game genre due to its popularity, even though other games, including Greene's previous mods, were already on the market. After its large early access sales numbers, other games followed with battle royale mechanics, with either existing games that added a battle royale mode or fully new games. Notably, Epic Games updated their in-development",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Junior High School children forced to kill one another. When finally published in April 1999, it went on to become a bestseller, and only a year later was made into both a manga and a feature film. The novel was translated into English by Yuji Oniki and published by Viz Media in 2003. An expanded English edition was later published by Haika Soru, a division of Viz Media, in 2009. The first manga also began being released in English in 2003, by Tokyopop, with the last volume published in 2006. As well as being critically acclaimed, the \"Battle Royale\" series",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "revealed on the April 26, 2012 episode of \"GTTV\" as \"PlayStation All-Stars Battle Royale\". In May 2012, in an interview to Digital Trends, game director Omar Kendall was asked about the possibility of PlayStation Vita version of \"PlayStation All-Stars Battle Royale\", and he simply replied, \"Maybe... stay tuned.\" A Vita version was announced at the Electronic Entertainment Expo 2012, to be developed by Bluepoint Games, and was confirmed to feature cross-play with the PlayStation 3. In July 2012, it was announced that former \"Capcom\" community manager and \"Evolution Championship Series\" co-founder Seth Killian had taken a role at Sony Santa",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "stalk each other through the woods. The concept was inspired in part by the short story \"The Most Dangerous Game\" by Richard Connell. In 1981, Gaines and eleven others played the first game of paintball, using Nel-Spot pistols which were intended for marking trees and livestock by ranchers. This initial game was a capture the flag style scenario. Later, Bob Gurnsey formed the National Survival Game company, which was the first firm to sell paintball equipment. In 1997 Gaines published a novel entitled \"Survival Games\" which features inventors of paintball, probably based upon Gaines and Gurnsey, as the main characters.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The novel \"Battle Royale\" was published in April 1999 and later made into a manga and film. The game \"Gundam Battle Royale\" was released in Japan and South Korea on October 5, 2006. \"Battlegrounds\" is considered the defining game of the battle royale genre, released in 2017. \"PlayStation All-Stars Battle Royale\" was revealed on April 26, 2012."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. The query asks for the first battle royale game, but the answer provides multiple game release dates without identifying the first."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2510,
+      "completion_tokens": 235,
+      "total_tokens": 2745
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1070,
+        "completion_tokens": 130,
+        "total_tokens": 1200
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1440,
+        "completion_tokens": 105,
+        "total_tokens": 1545
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:01.505138",
+        "prompt_tokens": 1070,
+        "completion_tokens": 130,
+        "total_tokens": 1200,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:02.533604",
+        "prompt_tokens": 1440,
+        "completion_tokens": 105,
+        "total_tokens": 1545,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:00.188925",
+  "last_updated_at": "2026-04-18T20:07:02.534023"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0461",
+  "query": "Who wrote the words to abide with me?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Whither Thou Goest \"Whither Thou Goest\" is a popular song written by Guy Singer. The song was published in 1954. The words are adapted from the Bible (Ruth 1:16-17) (King James Version). The most popular version was recorded by Les Paul and Mary Ford. Other versions were made by Perry Como (for his album \"When You Come to the End of the Day\"), Bing Crosby included the song in a medley on his album \"On the Sentimental Side\" (1962), George Morgan (see below), Mahalia Jackson (included in her album \"Great Songs of Love and Faith\" {1962}) and Leonard Cohen. The",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Stand by Me (Charles Albert Tindley song) \"Stand by Me\" should not be confused with \"Stand by Me Father\", by Sam Cooke and James W. Alexander. Though sometimes known as \"Stand by Me Father\", \"Stand by Me\" is a 1905 gospel song by the Rev. Charles Albert Tindley. Although often thought to be a \"traditional spiritual\", Tindley copyrighted the song in 1905. The song of the same name by Ben E. King draws on Tindley's song. The song has been sung in Tindley's original gospel form by various artists including Bob Dylan. The song has been recorded by artists including:",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1990-09-03"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Billy Steinberg William Endfield \"Billy\" Steinberg (born February 26, 1950) is an American songwriter. He achieved his greatest success in the 1980s with songwriting partner Tom Kelly; together the two wrote or co-wrote the No. 1 hits \"Like a Virgin\" by Madonna (1984), \"True Colors\" by Cyndi Lauper (1986), \"Eternal Flame\" by the Bangles (1989), \"So Emotional\" by Whitney Houston (1987) and \"Alone\" (covered by Heart in 1987). They also wrote or co-wrote the hit songs \"I Drove All Night\" (recorded by various artists, 1987), \"I Touch Myself\" by Divinyls (1990), and \"I'll Stand By You\" by The Pretenders (1994).",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Du bist die Ruh' \"\" (You are rest and peace), D. 776; Op. 59, No. 3 is a Lied composed by Franz Schubert (1797\u0393\u00c7\u00f41828) in 1823. The text is from a set of poems by the German poet Friedrich R\u251c\u255dckert (1788\u0393\u00c7\u00f41866). It is the third poem in a set of four. This song is set for solo voice and piano. R\u251c\u255dckert's poem was originally untitled. Schubert used the poem's first line as the title of the song. R\u251c\u255dckert later titled his poem \"\" (Stay with me). Franz Liszt transcribed many of Schubert's songs for piano, including \"\" (S. 558/3). The",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2014"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the London Bach Choir asked not to be credited for their contribution to \"You Can't Always Get What You Want\". The poet X. J. Kennedy suggested that the lyrics are part of a tradition of responses, beginning with John Donne and Sir Walter Raleigh and continuing through C. Day-Lewis, to Christopher Marlowe's \"The Passionate Shepherd to His Love\". Marlowe's poem begins \"Come live with me and be my love\". Although never released as a single, the song has been frequently performed live, and concert versions appear on the albums \"Get Yer Ya-Ya's Out!\", \"No Security\", and \"Light the Fuse\", as  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The words to the song \"Abide with Me\" were written by Friedrich R\u00fcckert."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer claims Friedrich R\u00fcckert wrote the words to \"Abide with Me\", but this is not supported by any of the provided documents. The documents mention R\u00fcckert in relation to a different song, \"Du bist die Ruh'\". The answer also lacks citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2755,
+      "completion_tokens": 175,
+      "total_tokens": 2930
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1232,
+        "completion_tokens": 57,
+        "total_tokens": 1289
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1523,
+        "completion_tokens": 118,
+        "total_tokens": 1641
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:29.752325",
+        "prompt_tokens": 1232,
+        "completion_tokens": 57,
+        "total_tokens": 1289,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:30.772769",
+        "prompt_tokens": 1523,
+        "completion_tokens": 118,
+        "total_tokens": 1641,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:28.684053",
+  "last_updated_at": "2026-04-18T18:42:30.773074"
+}

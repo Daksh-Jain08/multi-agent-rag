@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0641",
+  "query": "In scuba, why does the diver's air get more compressed with depth? Does the tank not protect the air from outside forces?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "What is Snuba | Snuba Costa Rica mix of snorkeling and scuba diving is what makes Snuba so unique. A standard scuba diving air tank is placed in a free-floating inflatable raft on the surface of the water. The diver is attached to the floating raft with a pressurized air hose. The length of this hose is your maximum depth, which is 20 feet/6 meters. The diver receives compressed air from the tank through a regulator that is attached by a harness around the torso of the diver. Basically, you are scuba diving on a leash of 20 feet/6 meters. With no bulky equipment involved, even children",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Scuba Women \u252c\u00bd Scuba Diving Reviews sea. What kind of air or gas does a dive tank contain? A dive tank contains compressed air, not oxygen. Compressed air is exactly the same as the ambient air we normally breathe, but it is compressed to enable the diver to take as much air with him under water as possible. Ambient air consists of roughly 80% nitrogen and 20% oxygen. You will, however, often encounter tanks filled with 100% oxygen on, for example, dive charter boats, but these are only used in emergencies for injured divers (for example, divers with decompression illness). What is caisson disease? Caisson disease",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2005-02-13"
+    },
+    {
+      "doc_id": "d3",
+      "text": "New Scuba Re-Breather Tech: Test Dive contrast, employ a closed or semiclosed circuit; instead of releasing exhaled air into the water, the system forces it through a chemical scrubber that removes the carbon dioxide. The scrubbed air is then supplemented with oxygen from a small tank, bringing it up to the 21 percent concentration that is easily breathable. Because gas gets compressed as a diver descends, diluent (often ordinary air or trimix, a mixture of nitrogen, oxygen and helium) from another tank maintains the gas volume in the rebreather circuit. While the concept isn't entirely new -- primitive rebreathers have been around for more than a",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Origin Of Scuba Diving - Heiser Clan was worn on the divers back. What this system does is remove the carbon dioxide from the exhaled air and the diver \u0393\u00c7\u00a3rebreaths\u0393\u00c7\u00a5 this air. As he depletes the oxygen, the device adds more. Therefore the diver can stay down longer with a smaller tank. During some of the long dives with this system, a diver named Alexander Lambert almost died at 60 feet because they did not know pure oxygen was toxic below a depth of 20 feet. A system like this was used in filming J.E. Williamson\u0393\u00c7\u00d6s 1915 version of \u0393\u00c7\u00a320,000 Leagues Under the Sea\u0393\u00c7\u00a5 (Alex Brylske, \u0393\u00c7\u00a3A",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Diving vs Scuba Diving - Ninja Shark That makes for a spectacular show to watch, which is why diving is an internationally recognised sport that\u0393\u00c7\u00d6s one of the most popular games at the Olympics.It\u0393\u00c7\u00d6s probably more appropriate to compare divers to gymnasts rather than to swimmers. Because of the acrobatic flow during the dive, a lot of divers\u0393\u00c7\u00d6 bodies are similar in strength, flexibility, air awareness & judgement to gymnasts and dancers.What is scuba diving?Scuba diving, on the other hand, is the art of swimming underwater with a compressed air tank to help you breathe. Far from being an olympic sport \u0393\u00c7\u00f4 or even a competitive sport  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The air in a scuba diver's tank does not get more compressed with depth. The tank contains compressed air, and the air is delivered to the diver through a regulator. The concept of the tank protecting the air from outside forces is not directly addressed, but the air is already compressed within the tank."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer claims the air does not get more compressed with depth, but this is not supported by the provided documents. The answer also lacks citations for its claims."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2848,
+      "completion_tokens": 191,
+      "total_tokens": 3039
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1257,
+        "completion_tokens": 94,
+        "total_tokens": 1351
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1591,
+        "completion_tokens": 97,
+        "total_tokens": 1688
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:32.135775",
+        "prompt_tokens": 1257,
+        "completion_tokens": 94,
+        "total_tokens": 1351,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:33.169064",
+        "prompt_tokens": 1591,
+        "completion_tokens": 97,
+        "total_tokens": 1688,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:31.088130",
+  "last_updated_at": "2026-04-18T20:10:33.169452"
+}

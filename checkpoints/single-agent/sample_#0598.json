@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0598",
+  "query": "How do printers print white when the cartidges only hold black, yellow, cyan & magenta ink?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Replacing HP Photo Cartridges such as the HP PhotoSmart B8300, the device can hold two cartridges at one time, but actually has four possible cartridges available. For this model, and others that are similar, the two primary cartridges are black and tricolor (cyan, magenta, yellow), and can handle standard printing needs. When it comes time to print a color photo, the HP 99 ink cartridge, which holds black, light cyan and light magenta ink, will be installed in place of the black ink cartridge. A remanufactured HP 99 Photo Cartridge. There is also a photo gray cartridge for this model of printer, part number",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2018-08-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "sublimation Archives - Shivani Enterprises Sublimation Printing It\u0393\u00c7\u00d6s a completely digital printing process, using an inkjet printer with cyan, light cyan, magenta, light magenta, yellow, black ink is used in sublimation ink [\u0393\u00c7\u00aa]",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d3",
+      "text": "HP Z3100 Ink | Designjet Z3100 Ink Cartridge roll of paper, and 12 HP Z3100 ink cartridges. There are over 1,000 nozzles attached to the printheads that eject the printer ink and the color layering technology ensures accuracy and true-to-life images. The Designjet Z3100 ink cartridges include cyan, magenta, yellow, light cyan, light magenta, green, red, blue, matte black, photo black, gray, and light gray. Unlike normal inkjet printers, there are no paper trays that hold hundreds of sheets of various paper types. Rather, this machine is designed to print from a roll of paper and has a cutting device that dislodges the printed document from the unused",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "What is Gicl\u251c\u2310e? - Cramer Imaging - Quality Fine Art Photography in execution to ink jet printing however everything is better quality. A lower end Gicl\u251c\u2310e printer will have slots for cyan, light cyan, magenta, light magenta, yellow, and black inks. This is six different colors of ink instead of four. This larger color range gives more dynamic color in the cyan and magenta ranges. Higher end Gicl\u251c\u2310e printers have as many as 10 separate ink colors that, when mixed properly with other inks on the paper, can create a color richness which can only really be rivaled by silver halide printing processes. Even then, silver halide generally doesn't exceed the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Individual Colour Cartridges vs Tricolour Cartridges | Cartridge.co.za When buying a printer you need to make sure you\u0393\u00c7\u00d6re getting one that will suit your needs exactly. Printers and ink can be expensive so it\u0393\u00c7\u00d6s important to ensure that you won\u0393\u00c7\u00d6t be wasting any money on your printing costs. Printers come with two different type of colour ink cartridges: tricolour cartidges or single colour cartridges. Both types of cartridges have their own advantages, however if used for the wrong application they can become expensive and ineffective. The Difference Between Individual and Tricolour Cartridges Tricolour cartridges have three colours of ink inside them: cyan (blue), magenta (pink), and yellow. When  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2019"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Printers can print white by not applying any ink to the paper. While cartridges contain black, yellow, cyan, and magenta ink, the printer can choose to leave areas of the paper blank to represent white."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer claims printers print white by not applying ink, but this is not supported by any of the provided documents. The documents discuss various ink colors and cartridge types but do not explain how white is achieved."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2576,
+      "completion_tokens": 181,
+      "total_tokens": 2757
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1131,
+        "completion_tokens": 75,
+        "total_tokens": 1206
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 106,
+        "total_tokens": 1551
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:51.418075",
+        "prompt_tokens": 1131,
+        "completion_tokens": 75,
+        "total_tokens": 1206,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:52.934336",
+        "prompt_tokens": 1445,
+        "completion_tokens": 106,
+        "total_tokens": 1551,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:50.458553",
+  "last_updated_at": "2026-04-18T20:08:52.934736"
+}

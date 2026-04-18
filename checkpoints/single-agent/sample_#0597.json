@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0597",
+  "query": "Turkey's Constitutional Referendum",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Turkey\u0393\u00c7\u00d6s Constitutional Referendum Will Be Neither Free Nor Fair \u0393\u00c7\u00f4 Ottomans and Zionists Turkey\u0393\u00c7\u00d6s Constitutional Referendum Will Be Neither Free Nor Fair On Sunday, Turks will turn out for yet another election after a nearly 18 month reprieve to vote in a referendum that will overhaul Turkey\u0393\u00c7\u00d6s constitution if passed. The culmination of a decade and a half of AKP rule and President Erdo\u2500\u0192an\u0393\u00c7\u00d6s burning ambition to be the most consequential leader in Turkish history, the constitutional amendments that the government would like Turks to approve will replace Turkey\u0393\u00c7\u00d6s parliamentary democracy with a presidential system and create a presidency that controls the other two branches of government, effectively destroying any real semblance of",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1990-05-15"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Turkey heads to the polls in referendum on expanding Erdogan\u0393\u00c7\u2593s powers | News | DW | 16.04.2017 Turkey heads to the polls in referendum on expanding Erdogan's powers Turkish voters are casting their ballots in a highly contested constitutional referendum. Enough \"yes\" votes could grant sweeping powers to President Erdogan, radically changing Turkey's political system. There is no question on the ballot paper, just the words 'yes' and 'no' Turkey's tense referendum on constitutional amendments could greatly expand the powers of Turkish President Recep Tayyip Erdogan. Polling stations opened at 7 a.m. (0400 UTC) in the east of Turkey on Sunday and an hour later in the west. Voting closed at 5 p.m. (1400 UTC) with results",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2025-12-22"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Uyghurs in Turkey hopeful, but helpless \u0393\u00c7\u00f4 T-VINE and parliamentary elections a little over a week ago, marking a significant change in the country\u0393\u00c7\u00d6s political history. The 24 June snap vote had a turnout of around 87% and ushered in a new system of government, bringing reforms to the Turkish constitution \u0393\u00c7\u00f4narrowly approved in a controversial referendum [\u0393\u00c7\u00aa] Turkey\u0393\u00c7\u00d6s referendum result: reading between the lines Turkey\u0393\u00c7\u00d6s referendum result is undoubtedly a serious setback for Turkey\u0393\u00c7\u00d6s long and torturous process of democratisation \u0393\u00c7\u00f4 but it\u0393\u00c7\u00d6s not difficult to find signs of hope. The mood of NO supporters in the recent referendum on changes to Turkey\u0393\u00c7\u00d6s constitution which dramatically expand",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Referendum in Turkey: Will narrow yes-vote endanger democracy and relations with EU? Referendum in Turkey: Will narrow yes-vote endanger democracy and relations with EU? People protest against the results of the referendum in Istanbul, Turkey April 16, 2017. The referendum in Turkey last Sunday on a constitutional reform resulted in a narrow victory \u0393\u00c7\u00f4 51.4 to 48.6 % \u0393\u00c7\u00f4 for President Recep Tayyip Erdo\u2500\u0192an and his governing party, the Justice and Development Party (AKP). The 18 amendments to the constitution aim at transforming the political system in Turkey from a parliamentary to a presidential democracy with wide powers for the president. The legitimacy of the outcome has however already been questioned. The",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d5",
+      "text": "The constitutional referendum \u0393\u00c7\u00f4 another step towards a New Turkey. OSW COMMENTARY NUMBER 239 | 28.04.2017 - Archive of European Integration The constitutional referendum \u0393\u00c7\u00f4 another step towards a New Turkey. OSW COMMENTARY NUMBER 239 | 28.04.2017 Strachota, Krzysztof (2017) The constitutional referendum \u0393\u00c7\u00f4 another step towards a New Turkey. OSW COMMENTARY NUMBER 239 | 28.04.2017. [Policy Paper] On 16 April the citizens of Turkey voted in a national referendum to amend the constitution. This will lead to a radical strengthening of the president\u0393\u00c7\u00d6s power. 51.4% of the voters backed the amendments. They will come into force after the next presidential and parliamentary election (scheduled for 2019). The amendments are an important step in the thorough reconstruction of the Republic of  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Turkey held a constitutional referendum on April 16, 2017, which narrowly passed with 51.4% of the vote. This referendum aimed to transform the political system from a parliamentary democracy to a presidential system, granting significant powers to the president. The legitimacy of the outcome has been questioned, and it is seen by some as a setback for democratization in Turkey."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. All claims must be supported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3523,
+      "completion_tokens": 196,
+      "total_tokens": 3719
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1586,
+        "completion_tokens": 111,
+        "total_tokens": 1697
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1937,
+        "completion_tokens": 85,
+        "total_tokens": 2022
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:49.410941",
+        "prompt_tokens": 1586,
+        "completion_tokens": 111,
+        "total_tokens": 1697,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:50.457946",
+        "prompt_tokens": 1937,
+        "completion_tokens": 85,
+        "total_tokens": 2022,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:48.345337",
+  "last_updated_at": "2026-04-18T20:08:50.458149"
+}

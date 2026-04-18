@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0554",
+  "query": "Where is the dinosaur national monument located city and state?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "incorrectly had three on each hand) as well as its teeth have been lost or damaged over the years to where its hands are stumps and its teeth are all but gone. Vintage postcards of the \"T. rex\" do in fact show these were originally part of the sculpture. The \"Stegosaurus\" also had a shorter tail with 4 correct tail spikes, but this has changed recently where the tail spikes have been removed (perhaps due to safety concerns) and the tail considerably lengthened. Dinosaur Park Dinosaur Park is a tourist attraction in Rapid City, South Dakota, United States. Dedicated on",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d2",
+      "text": "with the Berlin Mine; all other access to the underground works is prohibited as too dangerous. Berlin\u0393\u00c7\u00f4Ichthyosaur State Park Berlin\u0393\u00c7\u00f4Ichthyosaur State Park is a public recreation area and historic preserve that protects undisturbed ichthyosaur fossils and the ghost town of Berlin in far northwestern Nye County, Nevada. The state park covers more than at an elevation of on the western slope of central Nevada's Shoshone mountain range, east of Gabbs. The town of Berlin sprang up in 1896 when substantial gold veins were discovered nearby. In total, the Berlin Mine produced 42,000 troy ounces (46,080 oz; 1,306.346 kg) of gold,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2011-05-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rivers Recreation Area near Questa. The Rio Grande Gorge Visitor Center is near the Orilla Verde Recreation Area near Pilar. The monument is administered from the BLM's Taos field office. Rio Grande del Norte National Monument The Rio Grande del Norte National Monument is an approximately area of public lands in Taos County, New Mexico, proclaimed as a national monument on March 25, 2013 by President Barack Obama under the provisions of the Antiquities Act. It consists of the Rio Grande Gorge and surrounding lands, managed by the Bureau of Land Management (BLM). The monument includes two BLM recreation areas,",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Dinosaur Valley State Park Dinosaur Valley State Park is a state park near Glen Rose, Texas, United States. Dinosaur Valley State Park, located just northwest of Glen Rose in Somervell County, is a scenic park set astride the Paluxy River. The land for the park was acquired from private owners under the State Parks Bonds Program during 1968 and opened to the public in 1972. In addition to being a state park, it is also a National Natural Landmark. Eastward-dipping limestones, sandstones, and mudstones of the Glen Rose Formation were deposited during the early Cretaceous Period approximately 113 million years",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1991-06-19"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Berlin\u0393\u00c7\u00f4Ichthyosaur State Park Berlin\u0393\u00c7\u00f4Ichthyosaur State Park is a public recreation area and historic preserve that protects undisturbed ichthyosaur fossils and the ghost town of Berlin in far northwestern Nye County, Nevada. The state park covers more than at an elevation of on the western slope of central Nevada's Shoshone mountain range, east of Gabbs. The town of Berlin sprang up in 1896 when substantial gold veins were discovered nearby. In total, the Berlin Mine produced 42,000 troy ounces (46,080 oz; 1,306.346 kg) of gold, all removed from tunnels by hard rock mining techniques. The mine became unprofitable by 1911, and  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not contain information about the location of Dinosaur National Monument. They mention Dinosaur Park in Rapid City, South Dakota, Dinosaur Valley State Park near Glen Rose, Texas, and Berlin-Ichthyosaur State Park in Nye County, Nevada."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information and accurately lists the locations of other dinosaur-related parks mentioned in the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2605,
+      "completion_tokens": 178,
+      "total_tokens": 2783
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1141,
+        "completion_tokens": 83,
+        "total_tokens": 1224
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1464,
+        "completion_tokens": 95,
+        "total_tokens": 1559
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:20.201252",
+        "prompt_tokens": 1141,
+        "completion_tokens": 83,
+        "total_tokens": 1224,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:21.419232",
+        "prompt_tokens": 1464,
+        "completion_tokens": 95,
+        "total_tokens": 1559,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:19.185461",
+  "last_updated_at": "2026-04-18T20:07:21.419608"
+}

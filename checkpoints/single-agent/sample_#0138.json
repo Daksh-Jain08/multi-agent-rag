@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0138",
+  "query": "What is the name of the world's fastest supercomputer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "TOP500 - Wikipedia As of November 2024, the United States' El Capitan is the most powerful supercomputer in the TOP500, reaching 1742 petaFlops (1.742 exaFlops) on the LINPACK ... After experimenting with metrics based on processor count in 1992, the idea arose at the University of Mannheim to use a detailed listing of installed systems as the basis. In early 1993, Jack Dongarra was persuaded to join the project with his LINPACK benchmarks. A first test version was produced in May 1993, partly based on data available on the Internet, including the following sources:[4][5] \"List of the World's Most Powerful Computing Sites\" maintained by Gunter Ahrendt[6] David Kahaner, the director of the Asian Technology Information Program (ATIP);[7] published a report in 1992, titled \"Kahaner Report on Supercomputer in Japan\"[5] which had an immense amount of data.[citation needed] The information from those sources was used for the first two lists. Since June 1993, the TOP500 is produced bi-annually based on site and vendor submissions only. Since 1993, performance of the No. 1 ranked position has grown steadily in accordance with Moore's law, doubling roughly every 14 months. In June 2018, Summit was fastest with an Rpeak[8] of 187.6593 PFLOPS. For comparison, this is over 1,432,513 times faster than the Connection Machine CM-5/1024 (1,024 cores), which was the fastest system in November 1993 (twenty-five years prior) with an Rpeak of 131.0 GFLOPS.[9] Two computers which first appeared on the list in 2018 were based on architectures new to the TOP500.",
+      "source_url": "https://en.wikipedia.org/wiki/TOP500",
+      "timestamp": "2024-12-19"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The 7 most powerful supercomputers in the world right now The 7 most powerful supercomputers in the world right now \u00b7 1. Frontier \u00b7 2. Aurora \u00b7 3. Eagle \u00b7 4. Fugaku \u00b7 5. LUMI \u00b7 6. Leonardo \u00b7 7. Summit. Supercomputers work based on the same principles as everyday computers, but their performance levels are much higher and they look more like the classic mainframes of old. Unlike normal desktop PCs or laptops, they process massive data sets and perform calculations at incredible speeds. They're the fastest computers in the world, according to IBM, and require a massive amount of infrastructure to operate \u2014 including advanced cooling systems. Architecturally, they are also fitted with many more components than normal PCs. Your laptop might have one central processing unit (CPU) and one graphics processing unit (GPU), but one supercomputer may have thousands upon thousands of CPUs and GPUs \u2014 each of them considerably more powerful than those you find off the shelf. Their performance is also measured using floating-point operations per second (FLOPS) \u2014 where one floating-point operation is a mathematical calculation. The most powerful supercomputer in the world now exceeds 1 exaFLOP \u2014 1 quintillion (1018) FLOPS \u2014 while normal PCs and laptops usually have power of several hundred gigaFLOPS \u2014 1 trillion (109) FLOPS. We refer to machines like this as exascale supercomputers. Because they can work with massive amounts of data and process calculations incredibly fast, scientists often use supercomputers to crack problems in drug and material discovery. Supercomputers can also make predictions \u2014 like forecasting the weather \u2014 and even learn how to play chess, like IBM's classic Deep Blue supercomputer in 1997. Based on the latest TOP500 rankings, here are the seven most powerful supercomputers online today. Currently top of the list, Frontier \u2014 built by supercomputing giant HPE Cray \u2014 became the first exascale computer in the world when it went online in 2022. Scientists initially planned to use Frontier for cancer research, drug discovery, nuclear fusion, exotic materials, designing superefficient engines and modeling stellar explosions, according to IEEE Spectrum. In the coming years, scientists will use Frontier to design new transport and medicine technologies, reported MIT Technology Review.",
+      "source_url": "https://www.livescience.com/technology/computing/top-7-most-powerful-supercomputers-in-the-world-right-now",
+      "timestamp": "2024-03-28"
+    },
+    {
+      "doc_id": "d3",
+      "text": "US' El Capitan Is Now the World's Fastest Supercomputer | PCMag In a recent verified test, El Capitan achieved 1.742 exaFLOPs of performance or 1.742 quintillion calculations per second, according to Lawrence ... Following years of development, the US' El Capitan supercomputer now ranks as the world's fastest, dethroning the previous champion, Frontier, another US exascale computer. In a recent verified test, El Capitan achieved 1.742 exaFLOPs of performance or 1.742 quintillion calculations per second, according to Lawrence Livermore National Laboratory in California, where the supercomputer is based. Top500, which benchmarks and catalogs the world\u2019s fastest supercomputers, previously ranked Frontier and Aurora as the two top machines. In this latest round, the AMD-powered Frontier was benchmarked at 1.35 exaFLOPs, while its top theoretical speed was rated at 2.05 exaFLOPs. The same machine can also access up to 24 megawatts of power. In contrast, El Capitan\u2014which also uses AMD chips\u2014promises a peak performance of 2.79 exaFLOPs over nearly 30 megawatts of electricity. The machine also boasts a \"22-fold peak increase\" over Sierra, which was the world\u2019s second-fastest supercomputer in 2018 but slipped to the 12th spot in June. \"Complex, high-resolution 3D simulations that would take weeks or months on Sierra will be done in just hours or days on El Capitan, leading to previously unimaginable insights,\u201d the lab adds. (Top500) Top500 adds that El Capitan features \"11,039,616 combined CPU and GPU cores and is based on AMD 4th generation EPYC processors with 24 cores at 1.8GHz and AMD Instinct MI300A accelerators.\" For comparison, the second-place Frontier boasts 9 million combined cores. The news comes after the US government funded the development of three \"exascale\" supercomputers\u2014El Capitan, Frontier, and the Intel-powered Aurora\u2014taking the technology to the next level.",
+      "source_url": "https://www.pcmag.com/news/us-el-capitan-is-now-the-worlds-fastest-supercomputer-top500",
+      "timestamp": "2024-11-18"
+    },
+    {
+      "doc_id": "d4",
+      "text": "LLNL's El Capitan Verified as World's Fastest Supercomputer El Capitan is the fastest computing system ever benchmarked. The system has a total peak performance of 2.79 exaFLOPs. Verified at 1.742 exaFLOPs (1.742 quintillion calculations per second) on the High Performance Linpack \u2014 the standard benchmark used by the Top500 organization to evaluate supercomputing performance \u2014 El Capitan is the fastest computing system ever benchmarked. The system has a total peak performance of 2.79 exaFLOPs. The Top500 list was released at the 2024 Supercomputing Conference (SC24) in Atlanta. As NNSA\u2019s first exascale supercomputer, El Capitan is a premier resource for the NNSA Tri-Labs \u2014 LLNL, and Los Alamos and Sandia National Laboratories \u2014 to advance nuclear weapon science and scientific discovery, providing the vast computational power necessary to ensure the safety, security and reliability of the nation\u2019s nuclear deterrent without nuclear testing. This state-of-the-art system marks a monumental leap forward in HPC, enabling unprecedented modeling and simulation capability essential for NNSA\u2019s Stockpile Stewardship Program that certifies the U.S. nuclear stockpile, and other critical nuclear security missions such as nonproliferation and counterterrorism. \u201cEl Capitan\u2019s introduction continues the capability advancement needed to sustain our stockpile without returning to explosive nuclear testing. This computational capability, backed by decades of data, expertise and code development is the heart of science-based stockpile stewardship,\u201d said Jill Hruby, Department of Energy (DOE) under secretary for nuclear security and NNSA administrator. \u201cWe will continue to invest in the technological and scientific infrastructure necessary to underpin the nuclear security enterprise.\u201d NNSA Tri-Lab scientists will utilize El Capitan\u2019s speed and unparalleled capabilities to further advance NNSA\u2019s core mission of maintaining an aging stockpile while simultaneously pursuing weapon modernization such as the W87-1 and W93 warheads currently under development. El Capitan will realize a multi-decade goal to model weapon performance and safety in high-fidelity resolution with quantified uncertainties using codes that have been developed and tuned for exascale over the past decade.",
+      "source_url": "https://www.hpcwire.com/off-the-wire/llnls-el-capitan-verified-as-worlds-fastest-supercomputer/",
+      "timestamp": "2024-11-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Supercomputer - Wikipedia The Summit supercomputer was as of November 2018 the fastest supercomputer in the world. With a measured power efficiency of 14.668 GFlops/watt it is also the ... A supercomputer is a type of computer with a high level of performance as compared to a general-purpose computer. The performance of a supercomputer is commonly measured in floating-point operations per second (FLOPS) instead of million instructions per second (MIPS). Since 2022, supercomputers have existed which can perform over 1018 FLOPS, so called exascale supercomputers.[3] For comparison, a desktop computer has performance in the range of hundreds of gigaFLOPS (1011) to tens of teraFLOPS (1013).[4][5] Since November 2017, all of the world's fastest 500 supercomputers run on Linux-based operating systems.[6] Additional research is being conducted in the United States, the European Union, Taiwan, Japan, and China to build faster, more powerful and technologically superior exascale supercomputers.[7] Supercomputers were introduced in the 1960s, and for several decades the fastest was made by Seymour Cray at Control Data Corporation (CDC), Cray Research and subsequent companies bearing his name or monogram. The first such machines were highly tuned conventional designs that ran more quickly than their more general-purpose contemporaries. Through the decade, increasing amounts of parallelism were added, with one to four processors being typical. In the 1970s, vector processors operating on large arrays of data came to dominate. A notable example is the highly successful Cray-1 of 1976. Vector computers remained the dominant design into the 1990s. From then until today, massively parallel supercomputers with tens of thousands of off-the-shelf processors became the norm.[9][10] The US has long been the leader in the supercomputer field, first through Cray's almost uninterrupted dominance of the field, and later through a variety of technology companies. Japan made major strides in the field in the 1980s and 1990s, with China becoming increasingly active in the field.",
+      "source_url": "https://en.wikipedia.org/wiki/Supercomputer",
+      "timestamp": "2012-06-09"
+    },
+    {
+      "doc_id": "d6",
+      "text": "A day in the life of the world's fastest supercomputer - Nature The fastest supercomputer in the world is a machine known as Frontier, but even this speedster with nearly 50,000 processors has its limits. On ... Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript.",
+      "source_url": "https://www.nature.com/articles/d41586-024-02832-5",
+      "timestamp": "2024-09-04"
+    },
+    {
+      "doc_id": "d7",
+      "text": "AMD Accelerates Exascale Computing to New Heights Powering the ... El Capitan, powered by the AMD Instinct MI300A APU, becomes the second AMD supercomputer to surpass the Exascale barrier, placing #1 on the Top500 list. The El Capitan supercomputer, housed at Lawrence Livermore National Laboratory (LLNL), powered by AMD Instinct\u00e2\u0084\u00a2 MI300A APUs and built by Hewlett Packard Enterprise (HPE), is now the fastest supercomputer in the world with a High-Performance Linpack (HPL) score of 1.742 exaflops based on the latest Top500 list. Both El Capitan and the Frontier system at Oak Ridge National Lab claimed numbers 18 and 22, respectively, on the Green500 list, showcasing the impressive capabilities of the AMD EPYC processors and AMD Instinct GPUs to drive leadership performance and energy efficiency for HPC workloads. \u00e2\u0080\u009cWe are thrilled to see El Capitan\u00c2 become the second AMD powered supercomputer to break the exaflop barrier and become the fastest supercomputer in the world. \u00c2 Showcasing the\u00c2 incredible performance and efficiency of the AMD Instinct MI300 APUs, this groundbreaking machine\u00c2 is a testament to the dedicated work between AMD, LLNL and HPE,\u00e2\u0080\u009d said\u00c2 Forrest Norrod, executive vice president and general manager, AMD. \u00e2\u0080\u009cAt AMD, we are driving the future of computing with leadership performance and capabilities that\u00c2 will continue to\u00c2 define the\u00c2 convergence of\u00c2 HPC and AI for years to come.\u00e2\u0080\u009d \"El Capitan is crucial to the National Nuclear Security Administration\u00e2\u0080\u0099s core mission and significantly bolsters our ability to perform large ensembles of high-fidelity 3D simulations that address the intricate scientific challenges facing the mission,\" said Rob Neely, director of LLNL\u00e2\u0080\u0099s Advanced Simulation and Computing program. Bronis R. de Supinski, LLNL\u00e2\u0080\u0099s chief technology officer for Livermore Computing adds, \"Leveraging the AMD Instinct MI300A APUs, we've built a system that was once unimaginable, pushing the absolute boundaries of computational performance while maintaining exceptional energy efficiency.",
+      "source_url": "https://www.amd.com/en/newsroom/press-releases/2024-11-18-amd-accelerates-exascale-computing-to-new-heights-.html",
+      "timestamp": "2024-11-18"
+    },
+    {
+      "doc_id": "d8",
+      "text": "HPE's El Capitan Named World's Fastest Supercomputer El Capitan, built by HPE, tops the 2024 TOP500 list as the world's fastest supercomputer, driving breakthroughs in AI, nuclear research, and energy. El Capitan, built by HPE, tops the 2024 TOP500 list as the world\u2019s fastest supercomputer, driving breakthroughs in AI, nuclear research, and energy. El Capitan, the record-breaking supercomputer built by HPE and housed at the Lawrence Livermore National Laboratory in California, has officially claimed the title of the world\u2019s fastest supercomputer, according to the latest TOP500 rankings. \u201cEl Capitan marks another significant milestone in exascale supercomputing, bringing monumental performance, energy efficiency, and the capabilities to accelerate AI-driven scientific discovery and make incredible breakthroughs to strengthen national security and unlock new opportunities in renewable energy,\u201d Trish Damkroger, senior vice president and general manager, HPC & AI Infrastructure Solutions, said in a press release. The TOP500 team clocked El Capitan at a Linpack score of 1.742 EFlop/s, a standardized measure of how quickly the system can solve a complex sequence of linear equations. El Capitan supports the work of the U.S. National Nuclear Security Administration, including research on nuclear weapons and deterrents. The lab also uses the machine for scientific research on energy security, climate change, power grid modernization, and drug discovery. The supercomputer uses AMD 4th-generation EPYC processors, the Cray Slingshot 11 network for data transfer, and a custom storage solution. The world\u2019s number one supercomputer has 11,039,616 combined CPU and GPU cores. It runs at 58.89 gigaflops performance per watt. Top 5 Supercomputers of 2024 The Frontier system at Oak Ridge National Laboratory in Tennessee Frontier increased its exaflops to 1.353 Eflop/s on the November list, but that was still insufficient to prevent El Capitan from knocking Frontier down from the top spot. Frontier uses 9,066,176 cores and Cray\u2019s Slingshot 11 network.",
+      "source_url": "https://www.techrepublic.com/article/hpe-el-capitan-worlds-fastest-supercomputer-2024/",
+      "timestamp": "2024-11-20"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The world's fastest supercomputer is El Capitan."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as there are no citations provided to support the claim that El Capitan is the world's fastest supercomputer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 9197,
+      "completion_tokens": 138,
+      "total_tokens": 9335
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 4456,
+        "completion_tokens": 45,
+        "total_tokens": 4501
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4741,
+        "completion_tokens": 93,
+        "total_tokens": 4834
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:25:42.740593",
+        "prompt_tokens": 4456,
+        "completion_tokens": 45,
+        "total_tokens": 4501,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:25:44.243904",
+        "prompt_tokens": 4741,
+        "completion_tokens": 93,
+        "total_tokens": 4834,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:25:41.526268",
+  "last_updated_at": "2026-04-18T18:25:44.244346"
+}

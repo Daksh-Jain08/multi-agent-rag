@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0646",
+  "query": "Who is the speaker of the house nz?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "coalition government with New Zealand First and the Green parties in October 2017, Mallard was elected as Speaker of the House on 7 November following some contention from the opposition National Party over whether several of the new MPs had been sworn in. He also serves as Chairperson of several committees including the Business and Officers of Parliament select committees, and the Parliamentary Services Commission. Mallard has been involved in a number of controversial disputes during his political career. In September 2006, Mallard was implicated in the resignation of National Party leader Don Brash after interjecting with an allegation in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2018-05-02"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Sir Basil Arthur's death in 1985 and served in this role until 1987. He was replaced in the Porirua electorate by Graham Kelly. He retired in 1987 and was appointed a Knight Bachelor in the same year. He died in 1992. Gerard Wall Sir Gerard Aloysius Wall (24 January 1920 \u0393\u00c7\u00f4 22 November 1992) was a surgeon and a politician in New Zealand. He was Speaker of the New Zealand House of Representatives from 1985 to 1987. He was a member of the Labour Party. Born in Christchurch, New Zealand, in 1920, he was the son of Edmund Wall. He",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "of the Labour Party, thereby retaining the crucial vote. Tapsell was the person chosen by Bolger for this role. Despite many objections from his Labour Party colleagues, Tapsell opted to accept the position. His elevation was not unchallenged, however, with an objection being raised by Winston Peters and his New Zealand First party. Peters claimed that his objection was on behalf of the incumbent Speaker, long-serving National MP Robin Gray, who had expected to resume his duties but was now being \"cast aside\" for political reasons. Critics of Peters, however, claimed that New Zealand First merely wanted to leave National",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2014-04-19"
+    },
+    {
+      "doc_id": "d4",
+      "text": "re-joined the Office of the Clerk of the House as a Clerk-Assistant, initially with responsibility for provision of services to Select Committees, and from February 2013 with responsibility for the House Services group. From 2012 to 2015 Mr Wilson was the President of the Australia and New Zealand Association of Clerks-at-the-Table. David Martin Wilson David Martin Wilson is the fourteenth and current Clerk of the New Zealand House of Representatives (\"Clerk of the House\"). His first seven-year term as Clerk of the House began on 6 July 2015, following the retirement of Mary Winifred Harris David Wilson grew up in",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2024-02-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "and founding Dean (1990\u0393\u00c7\u00f41999) before becoming a Member of Parliament. After leaving Parliament, she resumed her academic career at the Waikato University law school, being appointed Professor of Law and Public Policy (2009). Margaret Wilson Margaret Anne Wilson (born 20 May 1947) is a New Zealand academic and former politician. She was Speaker of the New Zealand House of Representatives during the Fifth Labour Government of New Zealand. She is a member of the Labour Party. Born in Gisborne, Wilson received her secondary education at St Dominic's College, Northcote. She had a leg amputated due to cancer at the age  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2012"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Trevor Mallard was elected Speaker of the House on November 7, 2017. Margaret Wilson served as Speaker during the Fifth Labour Government of New Zealand. Sir Gerard Aloysius Wall was Speaker from 1985 to 1987."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. All claims should be supported by provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2546,
+      "completion_tokens": 180,
+      "total_tokens": 2726
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1109,
+        "completion_tokens": 89,
+        "total_tokens": 1198
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1437,
+        "completion_tokens": 91,
+        "total_tokens": 1528
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:41.946718",
+        "prompt_tokens": 1109,
+        "completion_tokens": 89,
+        "total_tokens": 1198,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:44.645881",
+        "prompt_tokens": 1437,
+        "completion_tokens": 91,
+        "total_tokens": 1528,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:40.953048",
+  "last_updated_at": "2026-04-18T20:10:44.646351"
+}

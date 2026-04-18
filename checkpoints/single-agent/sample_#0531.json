@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0531",
+  "query": "What are the major differences between socialism and communism?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "What Is the Difference between Human Services Major and Social Work Major? | Run Kobe Students who choose a career path in either social work or human services are usually motivated by the desire to improve the lives of the less fortunate in the society. However, most people tend to ask themselves what is human services major and how does it differ from social work? Although both of them work in similar environments such as health clinics, hospitals, social work agencies, and other health agencies from the community to the state levels, there are differences between these two disciplines. If you recently graduated from high school and look forward to enrolling in one of these",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What the similiarities and differences between Communism vs. Liberalism? fit. Power is not being shared in Liberalism but everyone has the chance to grab their opportunity to gain power and control in the market. The differences of these two political ideologies have set people into a debate whether which is the better political view. Apr 2nd, 2013 at 7:41 PM What are the differences between Liberalism vs. Socialism? What are the differences between Capitalism vs. Communism? How is Socialism and Communism different? What are the differences between Democracy and Communism? What Makes Nationalism Different From Communism? What Makes Fascism Different From Communism?",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2008"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What Are the Major Ideological Components of Marx's Communism? | Synonym Political & Social Ideals Are Set Forth in More's \"Utopia\"? The Differences Between Marxism, Socialism & Communism",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Free Otto Warmbier! a third-year student in the McIntire School of Commerce, where he is pursuing a double major in commerce and economics. Rather than insist that these students merely want a \u0393\u00c7\u00a3more muscular form of traditional liberalism,\u0393\u00c7\u00a5 it would appear that some of these Sanders supporters desire socialism or full-blown communism. \u0393\u00c7\u00a3President Obama told a group of young people in Argentina not to worry about the differences between capitalism and communism and \u0393\u00c7\u00ffjust choose from what works,\u0393\u00c7\u00d6\u0393\u00c7\u00a5 The Washington Times reports. Obama knows his Marxism. According to the Marxist dialectic, socialism is just one stage on the way to communism. What \u0393\u00c7\u00a3works\u0393\u00c7\u00a5",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d5",
+      "text": "What I Can Teach You About Services | NZ Labs feared to explore further. Therefore, there are some steps that have been taken by the adult entertainment industry that has propelled it to greater heights. There is communication between the producer and the consumer and that is what drives the adult entertainment industry. The advertisements that are run on social media platforms are not significant from the view that many businesses see it. When a majority of companies view social media advertisements as a one-way form of communication; it drops relevance. The different ways of communication that are brought about by social media include; two-way, three-way and even four-way. For  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "According to Marxist dialectics, socialism is a stage on the path to communism."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes a factual claim about the relationship between socialism and communism according to Marxist dialectics, but provides no citations to support it. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2403,
+      "completion_tokens": 148,
+      "total_tokens": 2551
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1057,
+        "completion_tokens": 49,
+        "total_tokens": 1106
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1346,
+        "completion_tokens": 99,
+        "total_tokens": 1445
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:29.422662",
+        "prompt_tokens": 1057,
+        "completion_tokens": 49,
+        "total_tokens": 1106,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:30.887754",
+        "prompt_tokens": 1346,
+        "completion_tokens": 99,
+        "total_tokens": 1445,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:28.392716",
+  "last_updated_at": "2026-04-18T20:06:30.888168"
+}

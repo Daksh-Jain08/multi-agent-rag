@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0496",
+  "query": "How many electoral votes does texas cast during presidential elections?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "electoral votes (Republican in 2004) 52%\u0393\u00c7\u00f447% (Democratic in 2008) 54%\u0393\u00c7\u00f445% 7 electoral votes (Democratic in 2004) 54%\u0393\u00c7\u00f444% (Democratic in 2008) 61%\u0393\u00c7\u00f438% 29 electoral votes (Republican in 2004) 52%\u0393\u00c7\u00f447% (Democratic in 2008) 51%\u0393\u00c7\u00f448% 16 electoral votes(Republican in 2004) 58%\u0393\u00c7\u00f441% (Republican in 2008) 52%\u0393\u00c7\u00f447% 4 electoral votes (Democratic in 2004) 54%\u0393\u00c7\u00f445% (Democratic in 2008) 72%\u0393\u00c7\u00f427% 20 electoral votes (Democratic in 2004) 55%\u0393\u00c7\u00f445% (Democratic in 2008) 62%\u0393\u00c7\u00f437% 6 electoral votes (Republican in 2004) 50%\u0393\u00c7\u00f449% (Democratic in 2008) 54%\u0393\u00c7\u00f444% 6 electoral votes (Republican in 2004) 62%\u0393\u00c7\u00f437% (Republican in 2008) 57%\u0393\u00c7\u00f442% 8 electoral votes (Republican in 2004) 60%\u0393\u00c7\u00f440% (Republican in 2008) 57%\u0393\u00c7\u00f441% 8 electoral votes",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2007-06-09"
+    },
+    {
+      "doc_id": "d2",
+      "text": "in the Electoral College, they have held a straw poll for their presidential preferences since 1980. In 2004, the results were Bush 21,490 (64.1%), Kerry 11,781 (35.1%), Nader 196 (0.58%) and Badnarik 67 (0.2%). Maine and Nebraska each allow for their electoral votes to be split between candidates. In both states, two electoral votes are awarded to the winner of the statewide race and one electoral vote is awarded to the winner of each congressional district. The following table records the official presidential vote tallies for Maine and Nebraska's congressional districts. Red font color denotes those won by Republican President",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2009-03-14"
+    },
+    {
+      "doc_id": "d3",
+      "text": "32,021 votes) more than Al Gore's showing of around 28 percent in 2000. In comparison, incumbent President George W. Bush only increased his vote in Alaska by around 2 percent (or 23,491 votes) from nearly 59 percent in 2000 to approximately 61 percent in 2004. Due to the state's low population, only one congressional district is allocated. This district, called the At-Large district, because it covers the entire state, and thus is equivalent to the statewide election results. Technically the voters of Alaska cast their ballots for electors: representatives to the Electoral College. Alaska is allocated 3 electors because it",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "respectively). In an extremely bad year for the Republican Party nationwide, Louisiana provided the GOP with a ray of hope and optimism. John McCain carried six of the state\u0393\u00c7\u00d6s seven congressional districts. Technically the voters of Louisiana cast their ballots for electors: representatives to the Electoral College. Louisiana is allocated 9 electors because it has 7 congressional districts and 2 senators. All candidates who appear on the ballot or qualify to receive write-in votes must submit a list of 9 electors, who pledge to vote for their candidate and his or her running mate. Whoever wins the majority of votes",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "and Brigham Young University) Republican vote (86%) was by far the largest percentage of any county its size in America. Bush won all three congressional districts. Technically the voters of Utah cast their ballots for electors: representatives to the Electoral College. Utah is allocated 5 electors because it has 3 congressional districts and 2 senators. All candidates who appear on the ballot or qualify to receive write-in votes must submit a list of 5 electors, who pledge to vote for their candidate and his or her running mate. Whoever wins the majority of votes in the state is awarded all  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not state the number of electoral votes Texas casts during presidential elections."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information, and no citations are needed."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3446,
+      "completion_tokens": 136,
+      "total_tokens": 3582
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1578,
+        "completion_tokens": 50,
+        "total_tokens": 1628
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1868,
+        "completion_tokens": 86,
+        "total_tokens": 1954
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:43.474433",
+        "prompt_tokens": 1578,
+        "completion_tokens": 50,
+        "total_tokens": 1628,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:44.670240",
+        "prompt_tokens": 1868,
+        "completion_tokens": 86,
+        "total_tokens": 1954,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:42.555705",
+  "last_updated_at": "2026-04-18T18:43:44.670634"
+}

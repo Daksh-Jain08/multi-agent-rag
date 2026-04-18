@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0509",
+  "query": "When does american's got talent come on?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "always been on the farthest left (from the live audience's perspective) whenever he's on the judging panel. Auditions in front of the judges began on March 3, 2016 at the Pasadena Civic Auditorium in Pasadena, California. The premiere aired on May 31, 2016. The season had preliminary open call auditions in Detroit, New York City, Phoenix, Salt Lake City, Las Vegas, San Jose, San Diego, Kansas City, Los Angeles, Atlanta, Orlando, and Dallas. As in years past, hopeful contestants could also submit online auditions. This season again featured the golden buzzer, which allowed each judge (and host Nick Cannon) to",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "America's Got Talent (season 11) Season eleven of the reality competition series \"America's Got Talent\" was ordered on September 1, 2015. The season premiered on NBC on Tuesday, May 31, 2016. Nick Cannon returned for his eighth and final season as host. Howie Mandel returned for his seventh season as a judge, while Mel B and Heidi Klum returned for their fourth season. Simon Cowell replaced Howard Stern as the fourth judge. The live shows began on July 26, at the Dolby Theatre in Los Angeles instead of Radio City Music Hall in New York from previous years. Due to",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2004-08-22"
+    },
+    {
+      "doc_id": "d3",
+      "text": "by NET. since October 22, 2016 every Saturday and Sunday at 10 pm WIB. But, since Monday, October 31, in addition to the weekend slot, the show has also been broadcast every Monday to Friday at 5 pm WIB as the replacement of the currently concluded TV drama, the second season of \"\", which was concluded on Friday, October 28, 2016. In the United Kingdom, TruTV, along with simulcasts on the Local Television Limited network, show America's Got Talent, with TruTV showing it from the tenth season. The thirteenth season of the show will air on AXN Asia, together with",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d4",
+      "text": "WIB. But, since Monday, October 31, in addition to the weekend slot, the show has also been broadcast every Monday to Friday at 5.00 PM WIB as the replacement of the currently concluded TV drama, the second season of \"\", which was concluded on Friday, October 28, 2016. America's Got Talent (season 11) Season eleven of the reality competition series \"America's Got Talent\" was ordered on September 1, 2015. The season premiered on NBC on Tuesday, May 31, 2016. Nick Cannon returned for his eighth and final season as host. Howie Mandel returned for his seventh season as a judge,",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Stern as a judge for season 11. Mel B, Heidi Klum and Howie Mandel all returned as judges, with Nick Cannon returning as host. The live shows moved from New York back to Los Angeles, due to Stern's departure, at the Dolby Theatre. Auditions in front of the judges began on March 3, 2016 at the Pasadena Civic Auditorium in Pasadena, California. The season premiered on May 31, 2016. On September 14, 12-year-old singer-songwriter and ukulele player Grace VanderWaal was announced as the second female and second child to win \"America's Got Talent\" (Bianca Ryan, age 11, was first). Magician  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2006-04-02"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "America's Got Talent season 11 premiered on May 31, 2016."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The answer contains factual claims that are not supported by the cited evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2517,
+      "completion_tokens": 149,
+      "total_tokens": 2666
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1111,
+        "completion_tokens": 55,
+        "total_tokens": 1166
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 94,
+        "total_tokens": 1500
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:38.566798",
+        "prompt_tokens": 1111,
+        "completion_tokens": 55,
+        "total_tokens": 1166,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:39.594334",
+        "prompt_tokens": 1406,
+        "completion_tokens": 94,
+        "total_tokens": 1500,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:37.559599",
+  "last_updated_at": "2026-04-18T20:05:39.594690"
+}

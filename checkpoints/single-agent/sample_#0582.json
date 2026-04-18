@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0582",
+  "query": "Where was the first season of love island filmed?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "living in a SoHo loft from February 16 to May 18, 1992, The series premiered May 21 of that year. This is the first of three seasons to be filmed in New York City. In 2001, the show returned to the city in its tenth season, \"\", and in 2008, set its twenty-first season, \"\", in the borough of Brooklyn. As the first season of one of the first series in what is now considered the reality television genre, \"The Real World: New York\" is sometimes credited with pioneering some of the conventions of the genre, including bringing together a",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d2",
+      "text": "May by LaPaglia in a radio interview on the \"Hamish & Andy\" show. The season was filmed on the island of Upolu, the same location used in four seasons of the American edition of \"Survivor\": \"\", \"\", \"\" and \"\". In total, 250 Australians and at least 180 Samoan locals worked on the program, including Trent Pattison, who has previously worked as a challenge producer on the American edition as well as Ten's own \"I'm a Celebrity...Get Me Out of Here!\". \"Australian Survivor\" was initially scheduled to air twice a week, with new episodes airing on Sunday and Monday at",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2008-09-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Theatre opened at NYC's Pace University in 1991.) Secondly, the series had to be taped in New York. During the first season, the series was produced at Reeves Teletape Studios, though the first episode was recorded in Studio 6A at NBC Studios (New York City). Midway through season one, production of \"Love, Sidney\" was forced to relocate to Los Angeles for seven episodes because the Teletape studios needed to honor a previous commitment to another production. Those seven episodes were recorded at Warner Bros. in Burbank. \"Love, Sidney\" returned to New York for the remainder of its run, taping in",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d4",
+      "text": "plan to help him escape prison by purposely getting himself imprisoned. In addition to the 22 regular episodes, a special, \"Behind the Walls\", was aired on October 11, 2005. A total of ten actors received star billing in the first season, with numerous supporting roles. Filming took place mostly in and around the Chicago area; Fox River was represented by Joliet Prison, which had closed in 2002. Critical reviews of the first season were generally favorable. The first season was released on DVD in Region One as a six-disc boxed set under the title of \"Prison Break: Season One\" on",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2021-12-07"
+    },
+    {
+      "doc_id": "d5",
+      "text": "the individual novels; this enables them to move events across novels, according to screen-adaptation requirements. Principal photography for the first season was scheduled to begin on July 26, 2010, and the primary location was the Paint Hall Studios in Belfast, Northern Ireland. Exterior scenes in Northern Ireland were filmed at Sandy Brae in the Mourne Mountains (standing in for Vaes Dothrak), Castle Ward (Winterfell), Saintfield Estates (the Winterfell godswood), Tollymore Forest (outdoor scenes), Cairncastle (the execution site), the Magheramorne quarry (Castle Black) and Shane's Castle (the tourney grounds). Doune Castle in Stirling, Scotland, was also used in the original pilot  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first season of \"Love, Sidney\" was filmed in New York City, but production relocated to Los Angeles for seven episodes due to studio commitments."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents. The answer discusses \"Love, Sidney\" while the query asks about \"Love Island\". There are no citations provided to support the claims made in the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2469,
+      "completion_tokens": 169,
+      "total_tokens": 2638
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1083,
+        "completion_tokens": 63,
+        "total_tokens": 1146
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1386,
+        "completion_tokens": 106,
+        "total_tokens": 1492
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:16.768639",
+        "prompt_tokens": 1083,
+        "completion_tokens": 63,
+        "total_tokens": 1146,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:17.870456",
+        "prompt_tokens": 1386,
+        "completion_tokens": 106,
+        "total_tokens": 1492,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:15.845175",
+  "last_updated_at": "2026-04-18T20:08:17.870641"
+}

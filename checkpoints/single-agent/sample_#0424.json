@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0424",
+  "query": "when did the nest 3rd generation come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Nest Thermostat - Wikipedia Nest Thermostat 3rd generation, September 1, 2015 ; Nest Thermostat E \u00b7 August 31, 2017 ; Nest Thermostat G4CVZ, October 12, 2020 ; Nest Thermostat 4th generation ... The base houses the connection terminals, bubble level, and holes for wall anchors. Neither can function independently; if separated, the display becomes inactive until reconnected to the base.[11] A special version of Nest is available in Europe, which is capable of controlling 230 volt heating systems. The Nest is paired with a \"Heat Link\" device, which contains the circuitry required for controlling the mains-voltage heating system. The first release was the 2nd Generation Nest thermostat which the Heat Link controlled the central heating boiler.[12] The 3rd Generation added support for OpenTherm and for controlling domestic hot water.[13] The Nest E was made available to the UK in October 2018.[14] It has several major changes as the thermostat is stand mounted only, the Heat Link is grey and battery powered, the Heat Link loses the domestic hot water support, and lastly designed to be installed on the wall where the old thermostat was located.[15] As the Nest Thermostat cannot be battery operated, it must either be installed with a wire connecting directly to the \"Heatlink\" which supplies 12v DC, or mounted on a Stand and powered via a USB cable.[16] The Nest Temperature Sensor was added in March 2018. Available in Google Store only for United States and Canada.[17] Up to six of these battery operated devices can be added to a single thermostat to provide remote temperature monitoring. Nest will then use the appropriate sensor based on schedule. Since they use Bluetooth Low Energy they are only compatible with the E and 3rd generation thermostats.[18] With the introduction of the more accessible Google Nest Thermostat on October 12, 2020, it no longer features the rotating ring which is present on other Nest models. It instead uses a touch-sensitive strip on the right side of the thermostat body to adjust temperatures and navigate the thermostat's operating system, with tapping on the touch-",
+      "source_url": "https://en.wikipedia.org/wiki/Nest_Thermostat",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Nest Learning Thermostat (3rd Generation) Review - PCMag Back in 2012, the original Nest Learning Thermostat took the nascent smart home market by storm and earned our Editors' Choice award for its ... Nest Learning Thermostat (3rd Generation) Review I\u2019ve been working with computers for ages, starting with a multi-year stint in purchasing for a major IBM reseller in New York City before eventually landing at PCMag (back when it was still in print as PC Magazine). I spent more than 14 years on staff, most recently as the director of operations for PC Labs, before hitting the freelance circuit as a contributing editor. The Bottom Line The third-generation Nest Learning Thermostat has all the smarts of its predecessors and adds some new features including a larger display, geofencing support, a furnace monitor, and a few more sensors. Nest Learning Thermostat (3rd Generation) Specs Back in 2012, the original Nest Learning Thermostat took the nascent smart home market by storm and earned our Editors' Choice award for its ease of use, elegant design, and learning capabilities. Since then Nest has been bought by Google and the thermostat is now on its third generation. This latest iteration ($249) offers all of the cool learning and auto-scheduling features that made the earlier models so popular, and brings a few nice improvements, including a slimmer design, a larger LCD, Bluetooth support, and geofencing technology. It still doesn't offer remote room sensors, but it works with numerous third-party devices and supports voice commands via Google Home and Amazon's Alexa voice service. That makes it our new Editors' Choice for smart thermostats. Design Measuring 1.2 inches thick and 3.3 inches in diameter, the third-generation Nest ($188.00 at Amazon) is only slightly thinner and larger than the orginal model (1.3 by 3.2 inches), and still maintains the same sleek puck-shaped design. This time around the thermostat is available with a black, white, stainless steel, or copper finish, and sports a larger display (2.1 inches vs. 1.8) with a higher resolution (480 by 480 vs. 320 by 320).",
+      "source_url": "https://www.pcmag.com/reviews/nest-learning-thermostat-3rd-generation",
+      "timestamp": "2016-12-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Same great Nest, now with a temperature sensor - CNET The $249 third-gen Nest Learning Thermostat is no longer the revolutionary product it was in 2011, but the Google-owned brand has managed to ... Take a tour of Nest's third-gen thermostat Design You know how your smartphone doesn't look dated until you catch a glimpse of the next-gen model? That's exactly how I felt after seeing Nest's latest Learning Thermostat. No, it isn't a massive departure from past iterations. You'll still get that same rounded design and familiar display style. But, there are a few key changes. You can now choose from among four different dial finishes, all for the same price -- stainless steel, black, white or copper. Nest's third-generation thermostat also has a 40 percent larger screen and an improved resolution for better all-around visibility. (Specifically, the display has 229 pixels per inch; that's 25 percent more than its predecessor, which should make for a sharper on-screen image.) And, Nest slimmed down the thermostat's profile so it won't stick out from the wall as much. While I noticed the updated display size and resolution instantly, the \"thinner\" depth was much less obvious. A side-by-side spec comparison shows that the second-gen Nest measured 3.2 inches in diameter (8.1cm) and 1.26 inches in depth (3.2cm). The new thermostat is a touch bigger at 3.3 inches in diameter (8.4cm), but slimmer with a depth of 1.21 inches (3.1cm). That tiny 0.05-inch difference in depth really doesn't make much of a difference visually, but Nest is clearly working to streamline its thermostat with each next-gen product launch. Features The third-gen Nest Learning Thermostat also offers a handful of fresh features. Where previous Nest thermostats relied on near-field sensors alone (which have a roughly 3-foot range) to pick up on motion activity, this version tacks on a far-field sensor for a new function it calls Farsight.",
+      "source_url": "https://www.cnet.com/reviews/nest-learning-thermostat-third-generation-review/",
+      "timestamp": "2018-05-11"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Hands-on with Google's new Nest Learning Thermostat - The Verge At $279.99, the fourth generation of the Nest Learning Thermostat is more expensive than the third-gen Nest, which launched in 2015. However, it ... At $279.99, the fourth generation of the Nest Learning Thermostat is more expensive than the third-gen Nest, which launched in 2015. However, it now comes with a new Nest Temperature Sensor (2nd gen) to monitor temperature in other rooms. Both are available for preorder now and will ship on August 20th \u2014 in the US and Canada only. The Nest Learning Thermostat (4th gen) is the biggest redesign for the smart thermostat since it launched in 2011.Photo by Owen Grove / The Verge I\u2019m a big proponent of smart home devices that are built to last \u2014 no one wants to upgrade their thermostat every couple of years. But it\u2019s been nine years since we had a new Nest Learning Thermostat (the Nest Thermostat that arrived in 2020 stripped away most of the intelligence features), and technology is progressing more rapidly than in the days of the beige plastic boxes on your wall. The third-gen Nest (top left) and the Nest Thermostat (2020) (top right) above three new Nest Learning Thermostats (4th gen). The new model is a complete redesign while retaining some of the design language of the original. Photo by Owen Grove / The Verge I saw the new Nest Thermostat in person at Google\u2019s New York headquarters last week, and it\u2019s very striking. It\u2019s much bigger \u2014 the 2.7-inch screen is more than double the size of the previous generation \u2014 but also slimmer. It looks like someone flattened the third-gen Nest while borrowing a lot of design cues from the Pixel Watch, including the same curved glass screen and customizable watch-like faces. It comes in three brushed metal designs: black, silver, and gold. I liked the gold best, although it\u2019s more subtle in person than in the press shots. The physical rotating dial remains but is now smoother and easier to control. It still has those satisfying clicks, but its larger size makes better precision selections possible on the screen.",
+      "source_url": "https://www.theverge.com/2024/8/6/24213538/google-nest-learning-thermostat-4th-gen-hands-on-price-release-date",
+      "timestamp": "2024-08-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Differences between Nest thermostats made for Europe and North ... We first released the Nest Thermostat in Europe in 2014, and while it was ... European style base for 3rd generation Nest Thermostat. 12 V wires only ... Differences between Nest thermostats made for Europe and North America The 3rd-gen Google Nest Learning Thermostat shares the same name as the North American version because they share many of the same features and design traits. But the European version has been engineered specifically for the different heating systems used in those countries. Here are answers to the most common questions. Why wasn\u2019t the European Nest Thermostat announced when the North American version was? We generally don\u2019t pre-announce new products until they\u2019re ready for market. Why do Nest Thermostats made for Europe and North America have the same name? We first released the Nest Thermostat in Europe in 2014, and while it was new to customers in the EU, it was actually based on the features and design of the 2nd-gen Google Nest Thermostat for the US and Canada. Our customers on both continents enjoyed many of the same advances in energy-saving technology, better design and more. The same holds true for the latest 3rd-generation thermostats for North America and Europe. They both have the same large screen, Farsight, new temperature and activity sensors, and several other hardware and software features in common. Because these key features are the same, they\u2019ve both been dubbed 3rd-generation Nest Learning Thermostats. How are Nest Thermostats made for Europe and North America different? Although the most visible part of the Nest Thermostat (the display) is the same, the rest of the thermostat is very different in the European and North American models. Heating systems in these two regions are entirely different, so a thermostat made for the US or Canada simply won\u2019t work with European systems. We had to develop specific hardware, such as a new Heat Link, and dedicated software for our European customers. We also had to support the high-voltage systems found in the EU. The table at the end of this article summarizes many of these key differences. What else is different about the European Nest Learning Thermostat? We\u2019ve also added features to make the 3rd-gen Nest Thermostat for Europe even more powerful.",
+      "source_url": "https://support.google.com/googlenest/answer/9256506?hl=en-GB",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "What generation is a Nest Pro? - How many gens are there? 3rd generation: The third generation Nest Learning Thermostat was released in 2015. It has a stainless steel, black, white or copper coloured metal housing ... The Nest Learning Thermostat is a single product that has been released in 3 generations: 1st generation: The first generation Nest Learning Thermostat was released in 2011. 2nd generation: The second generation Nest Learning Thermostat was released in 2013. It had a silver metal housing and a round display. 3rd generation: The third generation Nest Learning Thermostat was released in 2015. It has a stainless steel, black, white or copper coloured metal housing and a larger, sharper display. A Nest Pro is a professional installation service provider for the Nest Learning Thermostat. It is not a different generation of thermostat. If you have a Nest Pro install your thermostat it will be a 3rd generation Nest Learning Thermostat. The term \u201cNest Learning Thermostat Pro Edition\u201d is sometimes used to refer to a 3rd generation Nest Learning Thermostat that has been installed by a Nest Pro. There is no difference between a 3rd generation Nest Learning Thermostat that has been installed by a Nest Pro and a 3rd generation Nest Learning Thermostat not installed by a Nest Pro. An excellent professional service provided by Mike. Had a nest installed two years ago and has worked a dream. My tenant reported an error on the device two years later and Mike was immediately responsive and able to resolve remotely, I would recommend Mike anytime. This is your Nest Guy. If there was a sixth star Mike would get it. Jamie Quigley 17 September 2024 Trustindex verifies that the original source of the review is Google. Very professional friendly guy who competently installed my Nest Thermostat in only 40 minutes! Highly reccomended. Ronald Mak 13 September 2024 Trustindex verifies that the original source of the review is Google. Mike was professional and knowledgeable. I had a video entry system and it's not compatible with the google door bell. Mike explained what can be done and gave honest opinion.",
+      "source_url": "https://nestprolondon.com/what-generation-is-a-nest-pro/?srsltid=AfmBOoqiBMEmYP62vPMW0_GM652M0ayaPPJvHO22Hd5LS0_okE8UrCHJ",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Nest Gen 3 Learning Thermostats WON'T support new standard ... IIRC; the gen3 Learning Thermostat came out in 2014 around the same time Google acquired Nest Labs.",
+      "source_url": "https://www.reddit.com/r/Nest/comments/qjry29/nest_gen_3_learning_thermostats_wont_support_new/",
+      "timestamp": "2021-10-31"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Nest Thermostat Review: Nest E vs. 3rd Generation vs. 2nd ... Model, 3rd Generation, Thermostat E ; Release Date, September 1, 2015, August 31, 2017 ; In Production, Yes, Yes ; Length, 3.3\", 3.19\" ... Nest Thermostat Review The Nest Learning Thermostat is currently on the 3rd generation model and comes with many top-of-the-line features, like wifi connectivity, on-board sensors (including temperature, humidity, motion, proximity, and ambient light). It is also compatible with voice control, but a voice control unit is not built-in. The Nest is easy to use, quick to install, equipped with great features, and a great way to help save money on your energy bills. Check Price Pros Great user interface makes this model easy to install and use on a daily basis Easy setting control directly with your smartphone or use on-board sensors to \u201clearn\u201d about your life and automatically update settings Cons Nest Learning Thermostat Design The Nest Learning Thermostat is a smart thermostat with all of the best features, including advanced sensors, programmable settings, and a user interface that mimics the look of Apple or Google simplicity. First, let\u2019s talk display: The central display is 2.08\u2033 in diameter and in full color. The display isn\u2019t touchscreen, but instead has the familiar feel of a round thermostat with adjustment knob. Using the rotating wheel, you can select different features, settings, and adjust the desired temperature. Nest installed in my home What can Nest do? There are a wide variety of features that come with the Nest Learning Thermostat to help improve the user experience and energy efficiency. Smart features of the Next Learning Thermostat include: EarlyOn: This feature can turn on your Nest thermostat earlier than usual if the temperature outside is chilly. Off Mode: If you\u2019re taking a road trip or going on vacation, Off Mode can be a nice tool. When in \u201cOff Mode\u201d the thermostat conserves a high amount of energy by running at the lowest possible setting, without turning completely off. That means no freezing pipes in the winter, but also no outrageously high energy bills for time you didn\u2019t spend at home.",
+      "source_url": "https://moderncastle.com/smart-home/nest-thermostat-review/",
+      "timestamp": "2022-12-16"
+    },
+    {
+      "doc_id": "d9",
+      "text": "A Review of the Google Nest 3rd Generation Learning Thermostat ... The 3rd Generation Nest lists for $249, but it's frequently on sale. Check with your energy company to determine if you can get it for a reduced price or if a ... A Review of the Google Nest 3rd Generation Learning Thermostat on iOS Devices and Amazon Alexa Janet Ingber Wireless thermostats have changed how we control the heating and cooling of our homes. With proper device installation and app setup, you can control house temperatures and times through an app on your iPhone or iPad. This is a considerable convenience with an added bonus: it may save money in heating and cooling bills. The Google Nest 3rd Generation Learning Thermostat is accessible and easy to use. You can add optional temperature sensors when you install the thermostat, or you can easily add them later. The Nest Learning Thermostat can be controlled in several ways: at the thermostat itself, with the Nest app, with the Google Home app, or with Amazon Alexa. You need vision to control the device at the physical thermostat, but the apps and Alexa do not require sight. The 3rd Generation Nest lists for $249, but it's frequently on sale. Check with your energy company to determine if you can get it for a reduced price or if a rebate is available. Rebate offers can vary widely over time and can be substantial. Make sure to check all sites belonging to your energy company. Con Edison of New York had an offer on one site that was considerably different from one on the Con Ed Marketplace. Google offers another, less expensive, thermostat, the Nest E, which includes many, but not all, of the same features as the Nest Learning Thermostat. The Nest Learning Thermostat supports a wider range of heating and cooling systems. According to Google Chat Support, as of September 2020 the Nest Learning Thermostat is not compatible with Apple HomeKit. What\u2019s in the Box The Nest\u2019s box measures 6.5 inches x 6.5 inches X 3 inches. The top of the box lifts off. Inside, the topmost item is a cardboard sleeve that holds installation instructions and a card with tape labels for marking wires. The card provides contact information for professional installation and also explains how to begin the set-up with the Nest app.",
+      "source_url": "https://www.afb.org/aw/21/10/17227",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Nest 3rd generation was released on September 1, 2015."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The claim about the release date is present in the documents, but the answer failed to cite it."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 9690,
+      "completion_tokens": 152,
+      "total_tokens": 9842
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 4699,
+        "completion_tokens": 52,
+        "total_tokens": 4751
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4991,
+        "completion_tokens": 100,
+        "total_tokens": 5091
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:40:51.280781",
+        "prompt_tokens": 4699,
+        "completion_tokens": 52,
+        "total_tokens": 4751,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:40:52.649179",
+        "prompt_tokens": 4991,
+        "completion_tokens": 100,
+        "total_tokens": 5091,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:40:50.090417",
+  "last_updated_at": "2026-04-18T18:40:52.649694"
+}

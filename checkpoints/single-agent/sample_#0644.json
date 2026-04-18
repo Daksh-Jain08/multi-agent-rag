@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0644",
+  "query": "Which books were written by Mordecai Richler?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "a boy's nose. The story was later converted into a novel, \"The Nose From Jupiter\" (1998, Tundra Books). The book was a roaring success, leading to three more Norbert books, \"A Nose For Adventure\", \"Noses Are Red\", and \"The Boy From Earth\", all published by Tundra Books. \"The Way to Schenectady\" (1998) is based loosely on childhood motor trips to the east coast. Its sequel, \"Of Mice and Nutcrackers\" (2001) is based on Scrimger's own amateur theatrical career. \"Mystical Rose\" (2000), a dementing woman's prayer and life, has no literal basis in Scrimger's own past or present \u0393\u00c7\u00f4 except, as",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "awarded the New Times Outstanding Book Award, making Mohr the first Latin female to receive such an honor. Mohr has written fifteen books total, not including reprinted or translated versions. Ten of her books are written for young adults, two are for children, and three are written for adults. Her most recent books are 1997\u0393\u00c7\u00d6s \u0393\u00c7\u00a3A Matter of Pride and Other Stories,\u0393\u00c7\u00a5 published by Arte P\u251c\u2551blico Press and \"Untitled Nicholasa Mohr\" in 1998. Though she has not been as active publishing in the last twenty years, her books are still highly regarded. In a 2016 interview with The New York",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d3",
+      "text": "doubt that both were anti-Semitic and racist.\" In 2002, the \"Montreal Gazette\" noted the \"anti-Semitism and pro-fascist sympathies that were common among this province's (Quebec) French-speaking elite in the 1930s.\" The well-known Montreal author Mordecai Richler wrote essays in which he decried what he perceived as racism, tribalism, provincialism, and anti-semitism among nationalist politicians in French-speaking Quebec, notably in a 1991 article in \"The New Yorker\" and his 1992 book \"Oh Canada! Oh Quebec!.\" His negative portrayal of some Quebec government policies was given international coverage in the United States and Great Britain, where French-speaking Quebecers were heard and read",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2001"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Yiddish, taking as a model, and finally excelling, Isaac Meir Dick. He wrote over two hundred novels in Yiddish, partly historical and partly reflecting Jewish life in the small towns and villages of Russia in the middle of the nineteenth century. As his language is simple, just as was spoken by the Jewish masses in Lithuania, his novels had the effect of greatly decreasing the fanaticism which prevailed in the small rural and urban communities. Among his more popular novels were \"Der \u00df\u2555\u2593a\u00df\u2563\u00a1orz\u00df\u2555\u00d1nikh\", \"Der Blutiger Adieu\", and \"Der Frumer Merder\". Many of his historical novels appeared in the Yiddish daily",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Daniel Richler Daniel Richler (born 1957) is a Canadian arts and pop culture broadcaster and writer. Born in London, England, his biological father is screenwriter Stanley Mann. His mother, Florence Wood, divorced Mann when Daniel was two years old, and remarried to Mordecai Richler in 1960. The family moved back to Montreal, Quebec \u0393\u00c7\u00f6 the hometown of both Florence and Mordecai \u0393\u00c7\u00f6 in 1972 when Daniel was 15. He became a punk rocker as a teenager and was lead singer of the punk rock band Alpha Jerks. He also joined the Ontario biker gang The New Hegelians as an honorary  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1998"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Mordecai Richler wrote essays and a book titled \"Oh Canada! Oh Quebec.\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about Mordecai Richler's writings but lacks any citations, making it unsupported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2819,
+      "completion_tokens": 144,
+      "total_tokens": 2963
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1264,
+        "completion_tokens": 52,
+        "total_tokens": 1316
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1555,
+        "completion_tokens": 92,
+        "total_tokens": 1647
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:37.788734",
+        "prompt_tokens": 1264,
+        "completion_tokens": 52,
+        "total_tokens": 1316,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:38.844527",
+        "prompt_tokens": 1555,
+        "completion_tokens": 92,
+        "total_tokens": 1647,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:36.924882",
+  "last_updated_at": "2026-04-18T20:10:38.845381"
+}

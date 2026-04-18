@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0495",
+  "query": "Why does the Fibonacci sequence show up in nature.",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Fibonacci Sequence - History, Other Fibonacci Sequences, The Fibonacci Sequence In Nature - JRank Articles History, Other Fibonacci Sequences, The Fibonacci Sequence In Nature The Fibonacci sequence is a series of numbers in which each succeeding number (after the second) is the sum of the previous two. The most famous Fibonacci sequence is 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89.... This sequence expresses many naturally occurring relationships in the plant world. Fibonacci Sequence - History Fibonacci Sequence - Other Fibonacci Sequences Fibonacci Sequence - The Fibonacci Sequence In Nature",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "What Does The Fibonacci Sequence Converge To | The Scientific A joint venture between the School of Health Sciences and the. After CONVERGENCE OF r-GENERALIZED FIBONACCI SEQUENCES AND AN. Then {VH}*\u0393\u00e4\u00f3Q does not converge for any choice of the initial conditions. What does The phibonacci Rule become if we use powers of \u0393\u00c7\u00f4phi. We found the Fibonacci numbers appearing as sums of. Instead, it would be nice if a closed form formula for the sequence of numbers in the Fibonacci sequence existed. Fortunately, a closed form formula does exist. Sep 29, 2000. Why does the ratio F(n+1)/F(n) for the Fibonacci numbers converge to the golden ratio? No genital mutilation this",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How Does The Fibonacci Sequence Work | Understand Science on a chart. That\u0393\u00c7\u00d6s not true of the Fibonacci sequence, which originated in India and was brought. Roman numeral system inherited from the ancient world. While Roman numerals work well enough for cornerstones. By way of analogy, storing angles in a deep convolutional neural network layer from a distribution of images does not. the digits of the Fibonacci sequence in the natural order according to a. Dec 3, 2010. How does the Fibonacci Sequence Work? <ul><li>The Fibonacci sequence is derived from the Fibonacci numbers. The Fibonacci numbers are. Nov 04, 2013 \u252c\u2556 The rabbit problem is obviously very contrived, but",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2004-07-14"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Fibonacci Sequence Explains Why Four-Leaf Clovers Are So Rare | Inverse mutation that overrides the three-leaf gene. In 1994, a Swarthmore College mathematician answered a query about the rarity of four-leaf clovers by stating simply, \u0393\u00c7\u00a3Four is not a Fibonacci number.\u0393\u00c7\u00a5 It\u0393\u00c7\u00d6s true \u0393\u00c7\u00f6 the sequence begins 0, 1, 1, 2, 3, 5, 8, 13, 21, and continues indefinitely. The idea behind this statement is that nature seems to favor growth that follows the Fibonacci sequence, and so when a clover sprouts an extra leaf, it does so in defiance of this natural, mathematical law. The world\u0393\u00c7\u00d6s wealth of three-leaved clovers tells us that most shamrocks are conformists while the four-leaved",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1991-01-18"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Fibonacci Sequence In The World | Knowledge of Science is simple enough to generate. This sequence of numbers is called the Fibonacci Sequence, named after the Italian mathematician Leonardo Fibonacci. When Fibonacci was born in 1175, most people in Europe still used the Roman numeral system for numbers (e.g. IVX or MCMLIV). The famous Fibonacci sequence, a series of numbers in which each is the sum of the preceding two (1, 1, 2, 3, 5, 8,.), shows up everywhere in nature\u0393\u00c7\u00f6in nautilus shells, in pinecones, and now in. Yes, a properly timed delivery of a few fun facts about the famed Fibonacci sequence just might leave your friends clamoring.  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1996-11-25"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Fibonacci sequence appears in nature because nature seems to favor growth patterns that follow this mathematical sequence. It is observed in various natural phenomena such as the arrangement of leaves on a stem, the structure of pinecones, and the spiral patterns in nautilus shells."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about the Fibonacci sequence appearing in nature and provides examples, but it lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2936,
+      "completion_tokens": 181,
+      "total_tokens": 3117
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1306,
+        "completion_tokens": 84,
+        "total_tokens": 1390
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1630,
+        "completion_tokens": 97,
+        "total_tokens": 1727
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:41.530143",
+        "prompt_tokens": 1306,
+        "completion_tokens": 84,
+        "total_tokens": 1390,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:42.554206",
+        "prompt_tokens": 1630,
+        "completion_tokens": 97,
+        "total_tokens": 1727,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:40.308282",
+  "last_updated_at": "2026-04-18T18:43:42.554651"
+}

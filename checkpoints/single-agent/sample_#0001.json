@@ -1,0 +1,136 @@
+{
+  "sample_id": "#0001",
+  "query": "who is commander chief of the military",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Commander-in-chief - Wikipedia Nigeria. In accordance with the Nigerian Constitution, the president of Nigeria is the commander-in-chief of the Nigerian Armed Forces...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "The President shall be commander in chief of the Army and Navy of the United States...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "The president is the commander in chief of the military.",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "The President shall be Commander in Chief of the Army and Navy of the United States...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "As Commander in Chief, the President has the responsibility to choose or replace commanders...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "The President shall be Commander in Chief of the Army and Navy of the United States...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "As Commander in Chief, Trump says he will defend the country...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "The President shall be Commander in Chief of the Army and Navy of the United States...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "The President is Commander in Chief of the Army and Navy...",
+      "source_url": "",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d10",
+      "text": "The president of the U.S. is the commander-in-chief of the armed forces...",
+      "source_url": "",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The president is the commander-in-chief of the military."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims but provides no citations. The provided documents do support the claim, but the lack of citations means the answer is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 1462,
+      "completion_tokens": 141,
+      "total_tokens": 1603
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 588,
+        "completion_tokens": 46,
+        "total_tokens": 634
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 874,
+        "completion_tokens": 95,
+        "total_tokens": 969
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:19:01.066868",
+        "prompt_tokens": 588,
+        "completion_tokens": 46,
+        "total_tokens": 634,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:19:02.067633",
+        "prompt_tokens": 874,
+        "completion_tokens": 95,
+        "total_tokens": 969,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:18:59.728742",
+  "last_updated_at": "2026-04-18T18:19:02.068062"
+}

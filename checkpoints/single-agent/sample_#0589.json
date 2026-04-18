@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0589",
+  "query": "Which album has Action Bronson as performer?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "quickly to release \"ReggaeTony 2\". This CD featured Lumidee, Plan B, Joell Ortiz, Tru Life, Don Chezina, and the Beatnuts. To this date Tony has sold over a million records worldwide. On July 16, 2013, his sixth album \"\" was released and featured guest appearances from Busta Rhymes, Reek da Villain, Roc Marciano, Lil Fame, Too Short, Xzibit, Kurupt, B-Real, Papoose, Uncle Murda, Black Thought, Styles P, Sheek Louch, Jadakiss, Raekwon, Ghostface Killah, RZA, Eminem, Twista, Bun B, Action Bronson, Prodigy, Joell Ortiz, Royce da 5'9\", Krs-One, Crooked I, Redman, Method Man, N.O.R.E., and Erick Sermon. In 2016 he paired",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "project and a first single, \"Brother Jedediah\", featuring Action Bronson and Big Body Bess. The project was released on July 21. Like the previous Good Book, it contains two parts (one by Alchemist and one by Busgie). Alchemist's part features lyrics from Mobb Deep, Westside Gunn, Conway, Royce da 5'9\", Durag Dynasty, Action Bronson and more, as well as beats and some audio collages. In September 2017, a Hip-Hop project was released by \"Red Bull France\". The project consists of 8 tracks by rappers from Paris and Bruxelles (Belgium), with Alchemist helming the entire production of the project. A collaboration",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2011-10-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "and Dave Cobb. The album received critical acclaim and numerous \"Top Album\" ranking in the United States and Europe. Bronson was dubbed by \"Bop n Jazz\" as \"maybe the best singer/songwriter since Dylan\". In August 2017, he released his next album \"James\". The album includes \"Rough Ride\", a song about fellow Baltimorean Freddie Gray. Eliot Bronson Eliot Bronson is an American singer-songwriter. Bronson was born in Baltimore, Maryland. He began playing at local coffeehouses and was dubbed a \"folk singing wunderkind\" by \"The Baltimore Sun\". He later moved to Atlanta, where he formed the duo The Brilliant Inventions. The band",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Saaab Stories Saaab Stories is the second extended play (EP) by American rapper Action Bronson. The EP was released on June 11, 2013, and is entirely produced by American record producer Harry Fraud. The EP, which was released by Vice and Atlantic Records, serves as Bronson's major label debut project. It features guest appearances from fellow American rappers Wiz Khalifa, Prodigy and Raekwon. On April 18, 2012, Harry Fraud announced that he would be releasing a collaborative album with Action Bronson in the summer of 2012, saying \"Right now we have enough material for two projects. We\u0393\u00c7\u00d6re definitely going to",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Bronson signed with independent music label, Saturn 5 Records. The ten-song self-titled album \"Eliot Bronson\" was recorded totally analog in Nashville by producer Dave Cobb (Sturgill Simpson, Jason Isbell). Going for feel and vibe over modern perfection, he used a rare Helios mixing console and a tape machine on loan from the Norman Petty Estate, which was also used to record Buddy Holly in the 1950s. \"Eliot Bronson\" was recorded in one week at Cobb's home studio and The Sound Emporium, and mixed the following week. Other musicians on the album include Bret Hartley, Chris Powell, Adam Gardner, Kristen Rogers  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1999"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Action Bronson is a performer on \"Saaab Stories\" (2013), and is also featured on an album released on July 16, 2013, and a project released by \"Red Bull France\" in September 2017."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. The citations are empty, and the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2635,
+      "completion_tokens": 181,
+      "total_tokens": 2816
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1153,
+        "completion_tokens": 89,
+        "total_tokens": 1242
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1482,
+        "completion_tokens": 92,
+        "total_tokens": 1574
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:31.921219",
+        "prompt_tokens": 1153,
+        "completion_tokens": 89,
+        "total_tokens": 1242,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:32.970864",
+        "prompt_tokens": 1482,
+        "completion_tokens": 92,
+        "total_tokens": 1574,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:30.742948",
+  "last_updated_at": "2026-04-18T20:08:32.971317"
+}

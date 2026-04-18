@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0506",
+  "query": "Why does making movie cost so much money?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How Much Does it Really Cost to Make a Movie? | Work + Money are promotional costs staggering, they can make or break a movie\u0393\u00c7\u00d6s box office gross, and are a huge part of deciding whether or not a movie is a flop or a hit when these costs are factored in. According to Gizmodo, who spoke with a BoxOffice.com editor, marketing costs can equal half or more of a movie\u0393\u00c7\u00d6s production budget. They say the children\u0393\u00c7\u00d6s flick \u0393\u00c7\u00a3Megamind\u0393\u00c7\u00a5 cost between $130 million and $145 million to make, but had a promotional cost of $65 million. Movies that a studio thinks are going to flop receive less advertising in an attempt to curb their",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How Exactly Do Movies Make Money? Movie Genres That Make The Most Money Movie Vs. TV Industry: Which Is Most Profitable? How to Invest in Movies Top Grossing Sci-Fi Films Of All Time Why Movies Cost So Much To Make Product placement is a form of advertising in which branded goods and services are featured in a video production that targets a large audience. A business model is a company's core strategy for making a profit. It defines the product or service it will sell, the target market, and the costs. Learn about Advertising Costs Advertising costs are a category in financial accounting that covers expenses",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why is John Carter considered a flop? - Movies & TV Stack Exchange Why is John Carter considered a flop? According to Box Office Mojo John Carter grossed $284 million with a production budget of $250 million. I know that many things are not included in the production budget, possibly advertising and distribution. Do those things account for so much money that grossing $34 million over the production budget just doesn't cut it? People often forget that theaters get a cut of the box office money. After all it does cost money to run a theater, and they obviously want to make a profit too. - Usually the theaters get about 50 percent",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "How Much Does it Really Cost to Make a Movie? | Work + Money How Much Does it Really Cost to Make a Movie? It\u0393\u00c7\u00d6s notoriously difficult to figure out the actual costs of a Hollywood production. We did our best to find out. Have you ever wondered just how much that set on your favorite movie cost to make? Or just how much an actor actually gets paid just for a few months\u0393\u00c7\u00d6 worth of work? You\u0393\u00c7\u00d6re not alone. It\u0393\u00c7\u00d6s notoriously difficult to get the line-by-line costs of a movie. Film budgets are some of Hollywood\u0393\u00c7\u00d6s most closely guarded secrets since they really don\u0393\u00c7\u00d6t want anyone to know how much anyone else is",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Remakes Remakes REMAKES! to make. You're looking at movies that cost 200 million dollars to even more (Pirates of The Caribbean: On Stranger Tides cost 412 million bucks to make for example). Because a lot of these movies cost so much combined with the fact that the movie would have to make double or more than the budget in order to even turn in a profit, that makes studios extremely risk averse. A new idea or franchise is extremely risky to put so much money on. This, combined with the trend of nostalgia pandering, then it's clear to see why remakes are so  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Movie production costs are high due to various factors including marketing, which can equal half or more of the production budget. For example, the movie 'Megamind' had a production cost between $130 million and $145 million, with an additional $65 million for promotion. Additionally, actors' salaries and set construction also contribute significantly to the overall expense. It's also worth noting that theaters receive a substantial cut of the box office revenue, typically around 50%, which impacts profitability."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. The provided citations do not mention actors' salaries or set construction costs as reasons for high movie production costs."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2825,
+      "completion_tokens": 234,
+      "total_tokens": 3059
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1224,
+        "completion_tokens": 137,
+        "total_tokens": 1361
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1601,
+        "completion_tokens": 97,
+        "total_tokens": 1698
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:31.903643",
+        "prompt_tokens": 1224,
+        "completion_tokens": 137,
+        "total_tokens": 1361,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:32.931493",
+        "prompt_tokens": 1601,
+        "completion_tokens": 97,
+        "total_tokens": 1698,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:30.781958",
+  "last_updated_at": "2026-04-18T20:05:32.931888"
+}

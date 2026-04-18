@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0572",
+  "query": "Which film has Rose Byrne as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Rose Hill (film) Rose Hill is a 1997 American Western film, directed by Christopher Cain and written by Earl W. Wallace. The film stars Jennifer Garner, Jeffrey D. Sams, Vera Farmiga, Justin Chambers, and Zak Orth. It is based on Julie Garwood's 1995 novel \"For the Roses\". The film premiered on CBS on April 20, 1997. Four Boston street urchins adopt a young infant that they discovered in a wagon when they made their escape from the police. They named the baby girl Mary Rose. As they grow up together, the five eventually settle in Blue Belle, Montana. In Blue",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2007-11-24"
+    },
+    {
+      "doc_id": "d2",
+      "text": "she must look after herself more, rather than worrying about everyone else. Noel (film) Noel is a 2004 Christmas-themed drama film written by David Hubbard and directed by Chazz Palminteri. It stars Pen\u251c\u2310lope Cruz, Susan Sarandon, Paul Walker, Alan Arkin, Daniel Sunjata and an uncredited Robin Williams. It was filmed in Montreal, Quebec, Canada. The film centers on five strangers who are linked together \u0393\u00c7\u00f4 and who meet each other at separate times \u0393\u00c7\u00f4 by a series of events that take place on Christmas Eve in New York. The main character is Rose (Susan Sarandon), a woman who is struggling",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1990-08-06"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Lily Collins as \"perfectly charming\" but complains \"entire film is weighed down by such sloppy storytelling and by equally disordered characterisation\" and gives the film 1 out 5 stars calling the film awful, but pretty. Filming began in May 2013 in Toronto before moving to Dublin. Love, Rosie (film) Love, Rosie is a 2014 romantic comedy-drama film directed by and written by Juliette Towhidi, based on the 2004 novel \"Where Rainbows End\" by Irish author Cecelia Ahern. The film stars Lily Collins, Sam Claflin, Tamsin Egerton, Suki Waterhouse, Jaime Winstone and Lily Laight. Alex and Rosie have been best friends",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Noel (film) Noel is a 2004 Christmas-themed drama film written by David Hubbard and directed by Chazz Palminteri. It stars Pen\u251c\u2310lope Cruz, Susan Sarandon, Paul Walker, Alan Arkin, Daniel Sunjata and an uncredited Robin Williams. It was filmed in Montreal, Quebec, Canada. The film centers on five strangers who are linked together \u0393\u00c7\u00f4 and who meet each other at separate times \u0393\u00c7\u00f4 by a series of events that take place on Christmas Eve in New York. The main character is Rose (Susan Sarandon), a woman who is struggling to cope with caring for her mother, an Alzheimer's patient. Meanwhile, Nina",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "van. Welcome to the Roses Welcome to the Roses (original title: Bienvenue chez les Rozes) is a 2003 French comedy film, written and directed by Francis Palluau. It stars Jean Dujardin, Carole Bouquet and Lor\u251c\u00e1nt Deutsch. Two armed convicts on the run, one wounded, take hostage the middle-class Roze family in a pleasant French suburb. TV news reports that the two guards escorting them have been shot dead. Father, mother and 18-year-old daughter show a high degree of sympathy for and cooperation with their captors. Wounds are dressed, clothes washed, a good dinner served, fine wines drunk and separately the  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Rose Byrne is not listed as a cast member in any of the provided documents."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that Rose Byrne is not mentioned in the provided documents, and no citations were needed."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2657,
+      "completion_tokens": 135,
+      "total_tokens": 2792
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1184,
+        "completion_tokens": 49,
+        "total_tokens": 1233
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1473,
+        "completion_tokens": 86,
+        "total_tokens": 1559
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:56.769326",
+        "prompt_tokens": 1184,
+        "completion_tokens": 49,
+        "total_tokens": 1233,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:58.039694",
+        "prompt_tokens": 1473,
+        "completion_tokens": 86,
+        "total_tokens": 1559,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:55.985049",
+  "last_updated_at": "2026-04-18T20:07:58.040102"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0547",
+  "query": "What do the dazante figures from monte alban depict?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "32 main and 80 secondary features of an ideal human body. They are in harmony with the canonical proportions described in Tengyur. Especially beautiful are the faces of Zanabazar\u0393\u00c7\u00d6s Buddhas and Bodhisattvas in deep meditation. Guided by desire to liberate the people from wrath, ignorance, lust, contempt and ill will \u0393\u00c7\u00f4 the five vices giving rise to all sins - the sculptor created the Five Dhyani Buddhas in meditation. They are Akshobhya, the blue extirpator of wrath occupying the centre of the Mandala, Vairocana, the white extirpator of ignorance occupying the eastern part of the Mandala, Ratnasambhava, the yellow destroyer",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2014-10-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of mounds occupies the center of the plaza and similarly served as platforms for ceremonial structures. One characteristic of Monte Alb\u251c\u00edn is the large number of carved stone monuments one encounters throughout the plaza. The earliest examples are the so-called \"Danzantes\" (literally, dancers), found mostly in the vicinity of Building L and which represent naked men in contorted and twisted poses, some of them genitally mutilated. The figures are said to represent sacrificial victims, which explains the morbid characteristics of the figures. The Danzantes feature physical traits characteristic of Olmec culture. The 19th century notion that they depict dancers is",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2004"
+    },
+    {
+      "doc_id": "d3",
+      "text": "now largely discredited, and these monuments, dating to the earliest period of occupation at the site (Monte Alb\u251c\u00edn I), are now seen to clearly represent tortured, sacrificed war prisoners, some identified by name, and may depict leaders of competing centers and villages captured by Monte Alb\u251c\u00edn.(Blanton et al. 1996) Over 300 \u0393\u00c7\u00a3Danzantes\u0393\u00c7\u00a5 stones have been recorded to date, and some of the better preserved ones can be viewed at the site's museum. There is some indication that the Zapotecs had writing and calendrical notation. A different type of carved stones is found on the nearby Building J in the center",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Miniature Atlantean figures are now a common souvenir item for visitors to Mesoamerican sites. Atlantean figures Atlantean figures are carved stone support columns or pillars in the shape of fierce men in Pre-Columbian Mesoamerica. These figures are considered to be \"massive statues of Toltec warriors\". They take their name from the European tradition of similar Atlas or Atalante figures in classical architecture, which was then revived in the Renaissance and especially popular in Baroque architecture. \"Atlantean\" here refers to the figures' supporting posture, alluding to the load-bearing Titan Atlas, not Atlantis. Though the most famous Atlantean figures reside in Tula,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Rock art of the Djelfa region The rock art of the Djelfa region in the Ouled Na\u251c\u00bbl Range (Algeria) consists of prehistoric cave paintings and petroglyphs dating from the Neolithic age which have been recognized since 1914. Following the Saharan Atlas Mountains they follow on from those, to the west, of south Oran (the regions of Figuig, Ain Sefra, El Bayadh, Afalou and Tiaret), to which they are related. Comparable engravings have also been described further to the east, in the Constantine (Algeria) region. Some of the engravings of the Djelfa region seem to have been known since the 1850s  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2022"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The \"Danzantes\" figures from Monte Alb\u00e1n represent naked men in contorted and twisted poses, some genitally mutilated. They are believed to depict sacrificial victims, possibly leaders of captured villages, and exhibit physical traits characteristic of Olmec culture."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it cannot be verified as grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2688,
+      "completion_tokens": 172,
+      "total_tokens": 2860
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1182,
+        "completion_tokens": 84,
+        "total_tokens": 1266
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1506,
+        "completion_tokens": 88,
+        "total_tokens": 1594
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:05.596756",
+        "prompt_tokens": 1182,
+        "completion_tokens": 84,
+        "total_tokens": 1266,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:06.745489",
+        "prompt_tokens": 1506,
+        "completion_tokens": 88,
+        "total_tokens": 1594,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:04.376927",
+  "last_updated_at": "2026-04-18T20:07:06.745903"
+}

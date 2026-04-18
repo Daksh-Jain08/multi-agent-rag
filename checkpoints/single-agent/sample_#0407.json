@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0407",
+  "query": "Are sliders bad for SEO?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Sliders suck and should be banned from your website \u2022 Yoast Five years ago, we wrote about why we really don\u2019t like sliders. We still don\u2019t like sliders. If your theme forces you to include a slider (also named carousels) on your homepage, please realize that it\u2019s making you use a feature that has no value for SEO. A feature that is probably slowing down your site by loading extra JavaScript. And prevents your user from reading the good stuff (your content) immediately. It will most probably account for less conversion as well. Before we dive in, if you want to learn more about conversion and other essential SEO skills, you should check out our All-around SEO training! It doesn\u2019t just tell you about SEO: it makes sure you know how to put these skills into actual practice!! Even though both SEO experts and conversion experts agree on the fact that sliders have little use 99% of the time, website developers insist on adding sliders to their themes. Some customers refer to sliderless themes as \u201coutdated\u201d but we strongly disagree. Let\u2019s make one thing very clear: sliders suck. Let\u2019s explain once more why they suck. Science and experiments It\u2019s not often that science is conclusive in its findings. However, sliders seem to be one topic on which it is. There\u2019s literally not one study that we\u2019ve found that says sliders are a good idea. We often point people to shouldiuseacarousel.com when wanting to explain why not to use a slider. This simple website does an awesome job at showing the statistics as well as trigger the annoyance sliders usually evoke. That\u2019s just the tip of the iceberg. Over the years, many studies have shown that sliders should be avoided. But\u2026 I need a slider! Ok, so you\u2019re, for instance, a photographer. You need that slider, right? Wrong. People tend to act as if there\u2019s no other way to show their images but by sliders. This simply isn\u2019t true. If you can\u2019t have a slider and you\u2019re a photographer, would you just give up having a website altogether? Of course not, you would look for other options, such as the revolutionary idea of showing static pictures.",
+      "source_url": "https://yoast.com/opinion-on-sliders/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why You Shouldn't Use a Slider on WordPress (And Other ... Audit #2: Revolution Slider with Delay JavaScript Execution As you can see, the score is in the green (90/100) and we achieved much better results overall. The problem was that the slider did not appear before user interaction. As you can see, the score is also green but not as great (86/100) and there are again issues with unused resources and images. Audit #4: No Slider with Delay JavaScript Execution Instead of using a slider, we added a static image this time: As you can see, the results were the best out of all scenarios, our score was in the green and we got rid of unused JavaScript issues. A slider in the header just kills your site\u2019s performance and even the most powerful optimization plugin (that\u2019s us!) won\u2019t make up for it. Our advice? Don\u2019t use sliders. How Sliders Can Affect SEO At WP Rocket, we\u2019re obsessed with web performance but there are other reasons why we don\u2019t recommend sliders. In fact, there\u2019s this little thing called SEO which doesn\u2019t always agree with sliders. With the Core Web Vitals rollout, optimizing your page speed on WordPress is now more important than ever for SEO. As we\u2019ve just seen, sliders slow pages down, there\u2019s no way around it. And research shows that poor performance is only one aspect of sliders that negatively affects SEO. Other reported issues include multiple H1 headings and flash usage for example. Furthermore, Google\u2019s last update is all about user experience: to rank well, your page needs to deliver the best experience possible to your users. Unfortunately, usability and carousels don\u2019t quite go hand in hand. Sliders can be confusing to users: rotating offers don\u2019t make it clear what you want to put forward. If you can\u2019t choose, visitors won\u2019t be able to either! And these days, bad UX can only undermine your SEO efforts. Sliders also pose accessibility issues for keyboard and screen reader users, which in turn will impact your SEO. Sliders and Conversion Rates As we\u2019ve just shown, sliders have a bad effect on the overall user experience.",
+      "source_url": "https://wp-rocket.me/blog/why-you-shouldnt-use-a-slider-on-wordpress-and-other-performance-bad-practices/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Homepage Sliders: Bad For SEO, Bad For Usability Homepage Sliders: Bad For SEO, Bad For Usability One of the most prevalent design flaws in B2B websites is the use of carousels (or sliders) on the homepage. Carousels are an ineffective way to target user personas, which ends up hurting the site\u2019s SEO and usability. In fact, at the recent Conversion Conference in Chicago, about 25% of the speakers mentioned carousels \u2014 [\u2026] One of the most prevalent design flaws in B2B websites is the use of carousels (or sliders) on the homepage. Carousels are an ineffective way to target user personas, which ends up hurting the site\u2019s SEO and usability. In fact, at the recent Conversion Conference in Chicago, about 25% of the speakers mentioned carousels \u2014 of those, 100% condemned them. Over the last three months, I have conducted extensive research to suggest that carousels are a bad option for B2B websites. Research Methodology I looked at 30 different B2B websites across various industries. Of those 30 sites, a shocking majority of them \u2014 18, to be precise \u2014 contained carousels, which is what inspired this research. After thoroughly evaluating those 18 websites, I was able to identify numerous recurring SEO and usability issues. I also looked at analytics data from three websites using homepage carousels. With B2B websites, carousels seem to only be used for one of three reasons: branding, thought leadership or product/service promotion. The sampling I took is representative of each of the three carousel uses. SEO Issues In my research, I found the following SEO problems with the use of carousels: multiple h1 headings, Flash usage, slow page load speed and shallow content. Alternating Headings Many of the carousels I looked at were built with jQuery, AJAX or HTML5. In most cases, the headings in the slider were wrapped in an h1 tag. Basic SEO best practices state that there should only be one h1 tag per page, and it should appear before any other heading tag.",
+      "source_url": "https://searchengineland.com/homepage-sliders-are-bad-for-seo-usability-163496",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Sliders And SEO - How They Impact Website Performance | UV ... Sliders And SEO \u2013 The Impact on Website Performance If your current website includes a slider, you might want to think about getting rid of it. Also known as a carousel, sliders are no good for SEO. Not only that, but sliders even stand in the way of your visitors reading your site\u2019s core content right away. Sliders can also negatively affect your conversions. All in all, sliders don\u2019t do much for a website, if anything at all. Instead, sliders do more harm than good, which is why you should probably consider getting rid of them if your website currently has one. The Proof is in the Science Studies have actually been done on the usefulness and effectiveness of sliders, in case you need evidence to convince you that sliders suck. You\u2019d be hard-pressed to find a study that proves sliders actually do a website good. Here are some things that studies suggest about sliders: Just 1% of website visitors click on a slider, and it\u2019s usually just the first one; People tend to ignore sliders; Sliders can be confusing; Sliders don\u2019t typically work well on mobile devices; People often consider sliders advertisements; Sliders slow websites down; Sliders push content below the fold, which is bad for SEO. Pick One Relevant Image That Works For Your Site Instead of picking many photos to include on your website when using sliders because you can\u2019t just pick one, you should focus on one image. Doing so will have a bigger impact on your website and communicating what your business is about rather than confusing and overwhelming visitors with all the photos. By focusing on one photo or message, you\u2019ll give your visitors a much better idea about your business compared to sliders. Messages are often lost with sliders, so why include them at all? Sliders and SEO Since sliders push down your core content, it won\u2019t be visible above the fold. This is a basic SEO no-no. Content that is found below the fold completely wreaks havoc on any SEO efforts. Any web developer or marketer already knows this, or at least should. As a result, sliders pull-down conversion rates.",
+      "source_url": "https://www.uvdesigns.ca/sliders-and-seo-the-impact/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "10+ FAQs on WordPress Sliders: Everything You Need to Know We\u2019ll explore this concept more later on and give you tips on how to avoid it. Accessibility Problems: Many users choose not to follow the useful recommendations given to make their sliders accessible. This causes it to have accessibility problems. So they either choose to drop the slider or just simply not make their website accessible. Think of your website\u2019s unique goals, target audience, and content before employing sliders. Sliders are a very useful tool if you have eye-catching visuals or a variety of products to highlight. However, firstly you should always consider the needs and goals of it for a moment. Do Sliders Negatively Affect SEO? It makes sense that you are wondering whether WordPress sliders are affecting SEO (Search Engine Optimization). Let\u2019s answer some typical concerns and clarify the connection between sliders and SEO. Content Accessibility: A possible risk is search engines\u2019 ability to correctly index and comprehend the content within sliders. It\u2019s crucial to make sure the text content within a slider is crawlable. For improved accessibility, use a slider plugin that enables you to add alt text to your images, and lets you structure your content with different H tags. However, a good slider plugin also offers the opportunity to add text as paragraphs as well. In addition, your slider should have a good HTML structure. Mobile Responsiveness: Search engines prioritize mobile-friendly websites because they offer a better user experience. So make sure the slider plugin you use has choices for responsive design, and test your sliders on a variety of devices to make sure they appear correctly. User Engagement: Although not directly associated with sliders, user engagement metrics, like click-through rates, time on page, and bounce rates can nonetheless have an indirect influence on the SEO of your website. These can be positively impacted by engaging sliders that grab users\u2019 attention and promote interaction. They can even inform search engines that your content is important and relevant. Don\u2019t let SEO concerns stop you from including sliders on your website. You can have a positive effect on your SEO efforts by implementing the best practices for accessibility, performance optimization, mobile friendliness, and unique content.",
+      "source_url": "https://smartslider3.com/blog/10-faqs-on-wordpress-sliders-everything-you-need-to-know/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Why You Should Not Use Image Sliders in 2023 | blue media ... Why You Should Not Use Image Sliders in 2023 Image Sliders Are Hurtful for SEO and Customer Journey Also known as Carousel Images, Image Sliders as of 2023 are things of the past. Even more, with the new Core Web Vital updates of Google, Image Sliders now have also become an SEO hurdle. I will also provide main reasons why you should remove them from your website, and provide alternative practices which will make a good substitute for Image Sliders One of the major swifts in website design and development is the use of Images Sliders. In the past, they were quite popular among website developers and designers, approximately between the years 2005 and 2015. Since 2015 until today in 2023, recognized UX/UI experts from highly reputable sources have addressed the issues that come with Image Sliders overall in terms of user experience. From an SEO perspective, user experience is one of the major ranking factors for search engines such as Google. That gives us even more reason to take a closer look at those arguments that speak against Carousel Images: Image Sliders as Hero Images Are Bad for User Expectation and Engagement Image Sliders as Hero Images are not being utilized among experienced UX/UI and SEO experts in 2023, anymore. It is common knowledge for years that having more than one image displayed on the top of your page confuses the user. The user needs to be confronted with one distinctive image that speaks to them, and that image needs to be chosen wisely. A static hero image has a very important impact on the user. This has to do with what we call \u201cUser Expectation\u201d. Usually, the user lands on a page based on a search on a search engine, or has clicked on one of the CTAs or teasers on your or third-party website \u2014 short story long: The user has clicked on a certain link because they were expecting something. That expectation needs to be fulfilled immediately \u2014 preferably within 2-3 seconds \u2014 after the user has landed on the page. The main items and elements that to fulfill the user expectation are the Hero Image, H1 and H2, followed by a short content element.",
+      "source_url": "http://www.gobluemedia.com/blog/image-sliders-seo/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Create Slider Images for E-commerce Websites | Locad Don\u2019t be too complicated Avoid cluttering your slider with too much text or images, which can overwhelm and confuse users. Stick to a clear, concise message, and use images and text supporting your brand and message. Choose concise messaging Your messaging should be clear, direct, and focused on your product or service\u2019s benefits. Use brief, punchy headlines that capture attention and quickly communicate your key selling points. Use subheadings and bullet points to break up text and make it easier to read. Conclusion There\u2019s no doubt that a powerful slider can make your website stand out and grab users\u2019 attention. But creating an exceptional slider that truly captivates your audience is an art form that requires a strategic approach. By using these tips and tricks, you can craft a great carousel slider that effectively communicates your brand and message. So why settle for a mediocre slider when you can create a stunning, unforgettable one that leaves a lasting impression on your users? Get creative, experiment with different ideas, and let your imagination run wild \u2013 endless possibilities! FAQs Do sliders affect SEO? Yes, sliders can affect SEO if they slow down website loading times or are not optimized for accessibility and mobile responsiveness. When implemented correctly, they can improve engagement and user experience, positively impacting SEO. How many sliders should you have on a website? There is no set number of sliders that a website should have, as it depends on the website\u2019s design, content, and purpose. However, having too many sliders can negatively affect user experience, increase page loading times, and decrease engagement. What are the features of website sliders? The features of a website slider include Ability to display multiple images or videos in a single space, often with transition effects and navigation controls. Optimized for accessibility Mobile responsiveness SEO What are the advantages of the slider? The advantages of using sliders on a website include Ability to showcase multiple images or videos in a single space Increasing engagement Visual interest Enhance user experience and navigation Optimize for mobile and accessibility What is the difference between a slider and a range slider?",
+      "source_url": "https://golocad.com/blog/slider-images-for-e-commerce-website/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "WordPress Sliders and SEO - Are Sliders Bad for Search Engine ... Soliloquy Blog Are you wondering if you should add image sliders to your site? You may have heard that image sliders are bad for your search engine rankings, but they can be a powerful tool to engage your visitors. The truth is, not all image sliders are bad for SEO. You need to be careful in choosing the best image slider plugin for WordPress so it doesn\u2019t affect your rankings and traffic. How can you tell whether an image slider can hurt your rankings? In this guide, we will share about WordPress sliders and SEO, why sliders can be bad for search engine rankings, and which image slider can work for you. Why Sliders Are Bad for SEO Image sliders are used to attract and engage visitors on websites. But before choosing an image slider plugin, there are a few points that you should know about WordPress sliders and SEO. That way, you\u2019ll know which sliders to avoid so your rankings aren\u2019t affected. Here\u2019s what to watch out for when choosing an SEO-friendly slider: 1. Heading Tags You should know that a basic SEO rule is to use the HTML heading tag H1 only one time per page. In many image sliders, every slide has an H1 tag that changes whenever it moves to the next slide. 2. Fully Responsive Soliloquy is fully responsive and works amazingly on any mobile or tablet device. It automatically adjusts the image resolution and dimensions according to screen size. 3. No Flash Usage Soliloquy is updated to the latest web coding standards with no flash usage. Its structure is designed to make your images rank on search engines easily. 4. Standard Tags Since we shared that most WordPress sliders use H1 tags which are bad for SEO, Soliloquy uses tags that make sure to match SEO rules. You can display your text on the slides, and it doesn\u2019t harm the search engine rankings of your site. 5. Powerful Addons This plugin comes with feature rich and powerful addons that makes your image slider extraordinary. You can use these addons to add themes to your slider, share slides on Pinterest, and more. 6. Easy to Use What do you need in an image slider?",
+      "source_url": "https://soliloquywp.com/wordpress-sliders-and-seo-are-sliders-bad-for-search-engine-rankings/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Sliders can negatively impact SEO by slowing down website loading times, pushing content below the fold, causing accessibility issues, and potentially using multiple H1 headings. However, some sources suggest that sliders can be implemented in an SEO-friendly manner by optimizing for accessibility, mobile responsiveness, and using proper heading tags, potentially improving user engagement."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. The answer should have cited the documents that support its claims."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 9401,
+      "completion_tokens": 191,
+      "total_tokens": 9592
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 4531,
+        "completion_tokens": 97,
+        "total_tokens": 4628
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4870,
+        "completion_tokens": 94,
+        "total_tokens": 4964
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:40:04.510277",
+        "prompt_tokens": 4531,
+        "completion_tokens": 97,
+        "total_tokens": 4628,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:40:06.061998",
+        "prompt_tokens": 4870,
+        "completion_tokens": 94,
+        "total_tokens": 4964,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:40:03.202036",
+  "last_updated_at": "2026-04-18T18:40:06.062531"
+}

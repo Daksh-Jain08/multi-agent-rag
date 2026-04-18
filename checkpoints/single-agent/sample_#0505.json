@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0505",
+  "query": "When did the blue jays win their last world series?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "game strategist, effectively handling National League rules during World Series games in Atlanta and Philadelphia. In the six games the Blue Jays played in those places during World Series play, the Jays went 4\u0393\u00c7\u00f42, including the title clincher in Game 6 of the 1992 World Series in Atlanta. The 1992 World Series victory was widely recognized as the first for a non-American team, and Gaston was the first ever African-American manager to win a World Series. The Blue Jays followed their 1992 success with a repeat victory in the 1993 World Series, an impressive feat, given that the Jays had",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2011-07-23"
+    },
+    {
+      "doc_id": "d2",
+      "text": "1992 American League Championship Series The 1992 American League Championship Series was played between the Toronto Blue Jays and the Oakland Athletics from October 7 to 14, 1992. The Blue Jays won the series four games to two to advance to the World Series. The series was a rematch of the 1989 ALCS, which Oakland won in five games. Blue Jays second baseman Roberto Alomar was named Most Valuable Player of the series. In six games, Alomar rapped 11 hits in 26 at bats for a .423 batting average, including a double and two home runs. Oakland finished the 1992",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d3",
+      "text": "who became a fan favourite for many years. In 1985, Toronto won their first championship of any sort: the first of their six American League East division titles. The Blue Jays featured strong pitching and a balanced offense. Their mid-season call-up of relief pitcher Tom Henke also proved to be important. They finished 99\u0393\u00c7\u00f462 (the franchise record for most wins), two games in front of the New York Yankees. The Blue Jays faced the Kansas City Royals in the American League Championship Series (ALCS), and took a 3 games to 1 lead. However, Kansas City won three consecutive games to",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "1998 Toronto Blue Jays season The 1998 Toronto Blue Jays season was the franchise's 22nd season of Major League Baseball. It resulted in the Blue Jays finishing third in the American League East with a record of 88 wins and 74 losses, which was their best record from their 1993 World Series-winning season until 2015. With the disappointing last-place finish of the previous year, General Manager Gord Ash once again dug into the wallet to improve the team, signing reliever Randy Myers and slugger Jos\u251c\u2310 Canseco as free agents. Though the team improved noticeably (thanks to another pitching Triple Crown",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2010-09-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "1994. Their season win total was the most since winning 97 games in 1980. The Royals defeated the Houston Astros in five games in the American League Division Series (ALDS), advancing to their second straight ALCS and eighth overall. The Toronto Blue Jays made it to the postseason for the first time since winning the 1993 World Series, finishing the season 93\u0393\u00c7\u00f469 to clinch the American League East title. Playing in their first ALDS in team history, the Blue Jays overcame a 2\u0393\u00c7\u00f40 deficit to defeat the Texas Rangers in five games and move on to the ALCS. It was  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Blue Jays last won the World Series in 1993."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The documents mention the 1993 World Series but do not explicitly state it was the last win."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2580,
+      "completion_tokens": 150,
+      "total_tokens": 2730
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1146,
+        "completion_tokens": 48,
+        "total_tokens": 1194
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1434,
+        "completion_tokens": 102,
+        "total_tokens": 1536
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:29.141799",
+        "prompt_tokens": 1146,
+        "completion_tokens": 48,
+        "total_tokens": 1194,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:30.780739",
+        "prompt_tokens": 1434,
+        "completion_tokens": 102,
+        "total_tokens": 1536,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:26.488990",
+  "last_updated_at": "2026-04-18T20:05:30.781160"
+}

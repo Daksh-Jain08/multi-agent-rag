@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0501",
+  "query": "what is the advantage of the multi-rotor design used for drones over that of the conventional helicopter rotor setup?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Selecting the Right Aircraft | Aerotas: Drone Data Processing for Surveyors Types of Drone Airframes for Surveyors There are three main types of survey drone airframes: small multi-rotors, large multi-rotors, and fixed-wings. Multi-rotors fly like helicopters: they take off and land vertically, can hover in place and make sharp right-angle turns. Fixed-wings fly more like airplanes, taking off and landing at a slope, needing to fly faster to stay aloft, and making large swooping turns. All three types are capable of being used as part of a drone survey program \u0393\u00c7\u00f4 with the right Standard Operating Procedures and data processing workflow \u0393\u00c7\u00f4 to produce final survey linework at 0.1\u0393\u00c7\u00d6 vertical accuracy.",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2004-10-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "New drone combines helicopter and aircraft capabilities - DTU UAS Event. And it looks nothing like a conventional drone. Boasting a unique design with two rotors in the fuselage, and two moving rotors on the wing tips, it is both capable of flying as a traditional multirotor/helicopter and as an ordinary fixed-wing aircraft, where all buoyancy comes from the wings. This gives the drone vertical take-off and landing capability as well as long range at relatively high speed. It also features a special precision GPS enabling it to manoeuvre with an accuracy of down to five centimetres\u0393\u00c7\u00f6something which is not possible with ordinary drones. Long range and glide capability",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Bart Theys's Blog - DIY Drones Bart Theys's Blog (4) Meet CargoCopter: our latest generation of high-speed, long-range drones At KU Leuven we have been developing a new generation of drones to double the speed and range of conventional multi-rotor drones. For quite some years already, multi-rotor drones are the preferred type of drone for typically applications\u0393\u00c7\u00aa Added by Bart Theys on May 29, 2017 at 3:00pm \u0393\u00c7\u00f6 15 Comments Which one has the highest range: VTOL, helicopter, multi-rotor (or flying squirrel?) With the increasing interest in the use of multi-rotor UAVs for long range applications such as pipeline inspection, large-area mapping, transporting packages or even",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1996-02-17"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Types of Drones: Multi-Rotor vs Fixed-Wing vs Single Rotor vs Hybrid VTOL - AUAV or fast forward flight, then a single-rotor heli is really your best bet. The downsides are their complexity, cost, vibration, and also the danger of their large spinning blades. While a multi-rotor prop can certainly leave you with a bad scar, it is unlikely to do much more than that. The long sharp blades of a heli can cause more serious damage if you get in their way, and there have been a number of fatalities from RC hobby and drone helicopters. In terms of difficulty, single-rotor heli drones lie somewhere between multi-rotors and fixed-wing aircraft. On one hand they",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1990-11-02"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Bell Touts Armed Tilt-Rotor Drone at Army Show | Military.com Bell Touts Armed Tilt-Rotor Drone at Army Show Textron Inc.'s Bell Helicopter unit on Monday touted its just unveiled tilt-rotor drone program for the Marine Corps, along with its V-280 Valor tilt-rotor entrant in the Army's Joint Multi-Role Technology Demonstrator competition. \"The Marines told us they needed a platform\" with the capabilities of the proposed V-247 Vigilant tilt-rotor unmanned aerial system, but Bell-Boeing was operating on the notion that \"if we build it, they will come\" for future sales, Vince Tobin, Bell vice president for advanced vertical lift development, said at the annual Association of the United States Army conference  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2021-07-10"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Multi-rotor drones offer advantages such as vertical takeoff and landing, the ability to hover in place, and sharp right-angle turns, similar to helicopters. However, compared to single-rotor helicopters, multi-rotor props are less dangerous, and single-rotor helicopters are more complex, costly, and produce more vibration."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. The provided documents do not contain the answer's claims about the advantages of multi-rotor drones over conventional helicopter rotor setups."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2847,
+      "completion_tokens": 198,
+      "total_tokens": 3045
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1255,
+        "completion_tokens": 97,
+        "total_tokens": 1352
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1592,
+        "completion_tokens": 101,
+        "total_tokens": 1693
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:54.338913",
+        "prompt_tokens": 1255,
+        "completion_tokens": 97,
+        "total_tokens": 1352,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:55.389165",
+        "prompt_tokens": 1592,
+        "completion_tokens": 101,
+        "total_tokens": 1693,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:53.303228",
+  "last_updated_at": "2026-04-18T18:43:55.389553"
+}

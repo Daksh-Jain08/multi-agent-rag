@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0634",
+  "query": "Which film has Amitabh Bachchan as a member of its cast and has Shah Rukh Khan as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Benaam (1974 film) Benaam (\"is an Urdu word, it means \u0393\u00c7\u00a3without name, character or reputation\u0393\u00c7\u00a5 in English\") is a 1974 Bollywood thriller film directed by Narendra Bedi. The film stars Amitabh Bachchan, Moushumi Chatterjee and Prem Chopra. Madan Puri also appears in a very different role. The scenes between Amitabh Bachchan and Madan Puri are conceived nicely where both are effective. The film was remade in Kannada as \"Thirugu Baana\".with Ambarish reprising role of Amitabh Bachchan as protagonist and Kannada Actress Aarathi reprising the role of Moushumi Chatterjee Sheela (Moushumi Chatterjee) and Amit Srivastav (Amitabh Bachchan) are a married couple",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d2",
+      "text": "as \"Deewaar\" (1975) and \"Sholay\" (1975). Salim Khan also introduced Bachchan to director Manmohan Desai with whom he formed a long and successful association, alongside Prakash Mehra and Yash Chopra. Eventually, Bachchan became one of the most successful leading men of the film industry. Bachchan's portrayal of the wronged hero fighting a crooked system and circumstances of deprivation in films like \"Zanjeer\", \"Deeewar\", \"Trishul\", \"Kaala Patthar\", \"Shakti\", resonated with the masses of the time, especially the youth who harbored a simmering discontent owing to social ills such as poverty, hunger, unemployment, corruption, social inequality and the brutal excesses of The",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Ali and Amitabh Bachchan Amitabh Bachchan pressured Shatrughan Sinha to do the villain's role, although he wasn't keen on doing the it. He agreed only because of their close friendship from their struggling days. Bombay to Goa Bombay to Goa is a 1972 Indian adventure-comedy film directed by S. Ramanathan, starring Amitabh Bachchan and Aruna Irani in lead roles, Shatrughan Sinha as the main antagonist and Mehmood. The movie is known particularly for its catchy tunes. It was a \"Semi-Hit\" at the box office. The film is a remake of a 1966 hit Tamil film \"Madras to Pondicherry\". The role",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2016-01-16"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Family (2006 film) Family (also known as Family \u0393\u00c7\u00f4 Ties of Blood) is a 2006 Indian gangster film directed by Rajkumar Santoshi. The film features Amitabh Bachchan, Aryeman Ramsay, Akshay Kumar and Bhumika Chawla in lead roles. It was released on 12 January 2006. Viren Sahai (Amitabh Bachchan), is an underworld don based in Mumbai. His son Abhir (Sushant Singh) is spoilt and believes he can do anything due to his father's power. When Viren's rival Khan (Kader Khan) attacks Abhir, Viren demands revenge. Viren receives foolproof information that Khan will be hidden at a local cinema theatre on a",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Saat Hindustani Saat Hindustani () is a 1969 Indian film, written and directed by Khwaja Ahmad Abbas. The film portrays the heroic story of seven Indians who attempt to liberate Goa from the Portuguese colonial rule. The cast included Madhu, Utpal Dutt, Shehnaz, A. K. Hangal, Anwar Ali (brother of Indian comedian Mehmood) and Amitabh Bachchan who made his debut with this film. \"Saat Hindustani\" portrays the story of seven Indians who attempt to liberate Goa from the Portuguese colonial rule. A Muslim poet Anwar Ali (Amitabh Bachchan) from Bihar and five other men, all belonging from different religions and  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2009"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not mention any film that features both Amitabh Bachchan and Shah Rukh Khan as cast members."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that no film with both actors is mentioned in the documents. The lack of citations is appropriate given the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2664,
+      "completion_tokens": 145,
+      "total_tokens": 2809
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1185,
+        "completion_tokens": 54,
+        "total_tokens": 1239
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 91,
+        "total_tokens": 1570
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:18.046221",
+        "prompt_tokens": 1185,
+        "completion_tokens": 54,
+        "total_tokens": 1239,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:18.921630",
+        "prompt_tokens": 1479,
+        "completion_tokens": 91,
+        "total_tokens": 1570,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:17.038140",
+  "last_updated_at": "2026-04-18T20:10:18.922324"
+}

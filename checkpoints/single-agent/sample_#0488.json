@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0488",
+  "query": "what does fixed wing plane mean. Are there planes without fixed wings",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "DARPA Announces VTOL X-Plane Phase 2 Design | Science and Technology Research News Home Government DARPA Announces VTOL X-Plane Phase 2 Design DARPA\u0393\u00c7\u00d6s Vertical Takeoff and Landing Experimental Plane (VTOL X-Plane) program seeks to provide innovative cross-pollination between fixed-wing and rotary-wing technologies and develop and integrate novel subsystems to enable radical improvements in vertical and cruising flight capabilities. In an important step toward that goal, DARPA has awarded the Phase 2 contract for VTOL X-Plane to Aurora Flight Sciences. DARPA\u0393\u00c7\u00d6s VTOL Experimental Plane (VTOL X-Plane) program aims to overcome these challenges through innovative cross-pollination between fixed-wing and rotary-wing technologies and by developing and integrating novel subsystems to enable radical improvements in vertical and",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2016-06-09"
+    },
+    {
+      "doc_id": "d2",
+      "text": "FlyTech UAV presents the 2 in 1 VTOL update to their surveying fixed-wing BIRDIE - UnmannedNews.net surfaces, lack of proper takeoff and landing space. It only takes a few seconds to attach the extension modules between the body and wings of the plane. The dedicated flight controller adjusts the flight mode automatically. As a result, the plane takes off vertically (fully autonomously), then converts to the horizontal flight, follows the mission pattern and finally \u0393\u00c7\u00f4 lands vertically wherever you want. What is important, the module is used without the loss of data quality: for both BIRDIE fixed-wing and VTOL you can achieve the accuracy up to 3 cm and the resolution up to 1 cm/px. The",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How UAVPAL Uses Glympse to Monitor Quad-Copters and Fixed-Wing Planes Over Long Distances - Glympse Guest Post by Marc B\u251c\u255dhler, Founder and Main Contributor at UAVPAL Hi there, my name is Marc and I live and work in Singapore. I am the founder of uavpal.com, a community platform that flies remote controlled (RC) drones, such as quad-copters and fixed-wing planes, via mobile data networks (4G/LTE). Broadly what this means is, our software enables an RC pilot to fly his quad/plane over virtually unlimited distances. Apart from controlling a drone over a long distance, the pilot can even see the live video stream from the drone\u0393\u00c7\u00d6s camera in real-time. All of this involves some modification using",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Professionalism/Ernest Fitzgerald and the Lockheed C-5A - Wikibooks, open books for an open world uncovered 46 changes in the plane's design and 789 specification changes [6]. Fitzgerald claimed that the specifications appeared to be written based on the plane rather than vice versa. Despite all of these contract changes, aircraft tests in June 1969 yielded cracked wings from the stress of the cargo weight, which was lighter than the contract requirements mandated. A wing fix was designed to mitigate the problem, and the planes that were already built or under construction would have to be re-winged. The cost of this fix was not revealed to Congress, nor was it successful in testing. According to",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "1920 | 0174 | Flight Archive of flying without these struts, and that the first specimens which arrived at the front were, in fact, without them. Remarkable is also the employment bf a large fixed tail plane and the fitting of a fourth plane in the form of a wing-sectioned casing round the wheel axle. The power plant of these very light machines is a no h.p. Oberursel engine. \" A step between the Fokker triplanes and the Fokker D VII, which followed later, is formed by the Fokker D VI, shown in Fig. 10. As in the triplane, this machine has a fixed tail plane,  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2001-05-02"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "A fixed-wing plane is an aircraft that derives its lift from the forward motion of its wings, as opposed to rotary-wing aircraft like helicopters. Examples include surveying planes and drones like quad-copters and fixed-wing planes used for long-distance monitoring."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The definition of a fixed-wing plane is not explicitly stated, and the examples are not directly supported by the cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2786,
+      "completion_tokens": 191,
+      "total_tokens": 2977
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1230,
+        "completion_tokens": 86,
+        "total_tokens": 1316
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1556,
+        "completion_tokens": 105,
+        "total_tokens": 1661
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:26.646514",
+        "prompt_tokens": 1230,
+        "completion_tokens": 86,
+        "total_tokens": 1316,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:27.711918",
+        "prompt_tokens": 1556,
+        "completion_tokens": 105,
+        "total_tokens": 1661,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:25.460676",
+  "last_updated_at": "2026-04-18T18:43:27.712351"
+}

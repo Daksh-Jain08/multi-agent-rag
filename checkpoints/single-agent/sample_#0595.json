@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0595",
+  "query": "Why does a video seemingly get \"stuck\" buffering, but after a refresh there are no more problems?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why does the test time sometimes \"jump\" after a listening question? : Helpdesk start time and the current time, not including the time the current question was paused. Under normal circumstances, there should be no need to refresh a video. Some videos will take longer to load than others, however, we are stopping the timer so that test takers are not penalized while they wait for the video to load. Please just be patient and the video will eventually load. If it does not, click on the \u0393\u00c7\u00a3If the video is not loading, click here\u0393\u00c7\u00a5 link and the system will automatically check to see if there is a problem with the video.",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2019-05-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why are videos permanently buffered or not displayed at all at first? : Avanquest Deutschland Why are videos permanently buffered or not displayed at all at first? The basic reason is that the quality of videos on the Internet always depends on the number of users who are concurrently accessing them, and on the connection of the relevant server, as well as on the user, of course. If the 2018 World Cup final is on, problems are more likely to occur then than during a news broadcast at 3 o\u0393\u00c7\u00d6clock in the morning. Another important factor, of course, is the speed of your Internet connection. Issues may also arise on your computer. Some actions that",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2025-04-25"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why are videos permanently buffered or not displayed at all at first? : Avanquest Deutschland Why are videos permanently buffered or not displayed at all at first? The basic reason is that the quality of videos on the Internet always depends on the number of users who are concurrently accessing them, and on the connection of the relevant server, as well as on the user, of course. If the 2018 World Cup final is on, problems are more likely to occur then than during a news broadcast at 3 o\u0393\u00c7\u00d6clock in the morning. Another important factor, of course, is the speed of your Internet connection. Issues may also arise on your computer. Some actions that",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d4",
+      "text": "What should I do if the video does not play? : Helpdesk In some cases, especially if you have a very low bandwidth network connection, it will take some time for a video to buffer and play. First, please click on the \"If the video is not loading, click here\" link. The system will automatically check to ensure that there are no problems with the video on the server. If the video is OK and you still can't see it, either switch to a faster network connection or refresh your browser.",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2005-11-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Translation Please | 2013 | August the \u0393\u00c7\u00a3BIV,\u0393\u00c7\u00a5 for \u0393\u00c7\u00a3Buffering Impacted View\u0393\u00c7\u00a5 \u0393\u00c7\u00f4 defined as any stream with more than two percent of the total length impacted by buffering. So, a three minute YouTube video that buffers more than 3.6 seconds is a BIV. What causes online video streaming problems? That\u0393\u00c7\u00d6s the thing. It could be the video player, or the CDN (content delivery network), or the refresh rate on the cache. Maybe it\u0393\u00c7\u00d6s the home network, or the number of active applications hogging the resources of the display device, or the video format. Maybe there\u0393\u00c7\u00d6s network congestion. It\u0393\u00c7\u00d6s all over the place. Cable\u0393\u00c7\u00d6s chief technologists,  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2017"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "A video may buffer due to factors like low bandwidth, high concurrent user access, server connection issues, or problems with your computer or network. Refreshing the browser can resolve these temporary issues."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about buffering causes and resolution, but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2909,
+      "completion_tokens": 163,
+      "total_tokens": 3072
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1299,
+        "completion_tokens": 71,
+        "total_tokens": 1370
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1610,
+        "completion_tokens": 92,
+        "total_tokens": 1702
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:44.935218",
+        "prompt_tokens": 1299,
+        "completion_tokens": 71,
+        "total_tokens": 1370,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:46.286805",
+        "prompt_tokens": 1610,
+        "completion_tokens": 92,
+        "total_tokens": 1702,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:43.963624",
+  "last_updated_at": "2026-04-18T20:08:46.287245"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0573",
+  "query": "Which television series has Reece Dinsdale as a member of its cast",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "acting career and worked on many shows including Veep and It's Always Sunny in Philadelphia. His drama pilot \"Rex is Not Your Lawyer\" was produced by NBC in 2011. Leeds and Lampson then wrote another television pilot - a comedy for NBC called \"Brenda Forever.\" It too did not go to series, but shortly after this Leeds was cast in a regular role as Josh in the ABC comedy \"Cristela.\" Leeds then wrote a comedy pilot called \"Those People\" for Kelly Ripa's company and ABC and appeared on the Comedy Central show \"Workaholics.\" In November 2015, Leeds became a member",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d2",
+      "text": "a variety of TV shows and theatre productions. He appeared in many pantomimes, plays, and musicals. In 1994, he played Mickey in \"Blood Brothers\", touring in New Zealand and Australia before returning to the UK to appear in the show in both the West End, and in a national tour of the UK. He appeared in many television shows, including \"Dream Team\", \"River City\", \"The Bill\" and \"Casualty\". He also returned to Australia from time to time for guest roles in shows such as \"Blue Heelers\", \"Good Guys Bad Guys\" and \"Stingers\". Dennis has worked as a voiceover artist for",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "1998-02-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "three episodes of \"Inside Men\" (2012). He appeared in an episode of \"Top Boy\" in 2011, while other film credits include \"Anuvahood\" (2011) and \"Jack the Giant Slayer\" (2013). From 2011 until 2012, he played the role of Wensley Dale, his first role as a voice actor, in the children's television show \"Rastamouse\". He appeared in 31 episodes of the series in total. In August 2012, he made a one-off appearance in the BBC television series, \"Waterloo Road\". He played the role of Lionel Tsibi, the uncle of regular character Lula Tsibi (Marlene Madenge). In 2013, he was cast in",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2013-06-11"
+    },
+    {
+      "doc_id": "d4",
+      "text": "a mass cull by new station controller Peter Fincham. Episodes listed beside a character with a \"-\" indicate the character's regular appearance in the show. Episodes listed separately are guest appearances made by the character before or after their regular stint. Dalziel and Pascoe (TV series) Dalziel and Pascoe is a popular British television crime drama based on the novels of the same name, written by Reginald Hill. The series was first broadcast on 16 March 1996, with Warren Clarke being cast as Dalziel (pronounced \"dee-ell\") and Colin Buchanan being cast as Pascoe. The series is primarily set in the",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Richard Davies (Australian actor) Richard Davies (born in Australia) is an Australian actor best known for his roles in television series, such as \"Offspring\" and \"The Saddle Club\". In 2005, Richard graduated from the National Theatre Drama School. In his graduation productions he performed Wayne Shute in \"The Rivers of China\", directed by Ken Boucher and Harry Bagley and Cathy in \"Cloud 9\", directed by Melanie Beddie. His first television roles were as guests in Neighbours and \"Satisfaction\". After this, he played Max Regnary #2 on \"The Saddle Club Series 3\" from September 2008 \u0393\u00c7\u00f4 April 2009. Also in 2009,  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1999-11-15"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Reece Dinsdale has been a member of the cast of the television series \"Rastamouse\" and \"Waterloo Road\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about Reece Dinsdale's roles in \"Rastamouse\" and \"Waterloo Road\" but provides no citations. The provided documents do not mention Reece Dinsdale at all."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2586,
+      "completion_tokens": 171,
+      "total_tokens": 2757
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1143,
+        "completion_tokens": 62,
+        "total_tokens": 1205
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1443,
+        "completion_tokens": 109,
+        "total_tokens": 1552
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:58.869472",
+        "prompt_tokens": 1143,
+        "completion_tokens": 62,
+        "total_tokens": 1205,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:59.917948",
+        "prompt_tokens": 1443,
+        "completion_tokens": 109,
+        "total_tokens": 1552,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:58.040866",
+  "last_updated_at": "2026-04-18T20:07:59.918387"
+}

@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0350",
+  "query": "In which year was the last UEFA European Championship was held?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "UEFA European Championship - Wikipedia The most recent championship, held in Germany in 2024, was won by Spain, who lifted a record fourth European title after beating England 2\u20131 in the final at ... The UEFA European Football Championship,[1] less formally the European Championship and informally the Euro or Euros,[2][3] is the primary association football tournament organised by the Union of European Football Associations (UEFA). The competition is contested by UEFA members' senior men's national teams, determining the continental champion of Europe.[4][5] It is the second-most watched football tournament in the world after the FIFA World Cup; the Euro 2016 final was watched by a global audience of around 600 million.[6] The competition has been held every four years since 1960,[7][8][9] except for 2020, when it was postponed until 2021 due to the COVID-19 pandemic in Europe, but kept the name Euro 2020. Scheduled to be in the even-numbered year between FIFA World Cup tournaments, it was originally called the European Nations' Cup before changing to its current name in 1968. Since 1996, the individual events have been branded as \"UEFA Euro [year]\". Spain held the next tournament in 1964, which saw an increase in entries to the qualification tournament, with 29 entering;[19] West Germany was a notable absentee once again and Greece withdrew after being drawn against Albania, with whom they were still at war.[20] The hosts beat the title holders, the Soviet Union, 2\u20131 at the Santiago Bernab\u00e9u Stadium in Madrid.[21] The tournament format stayed the same for the 1968 tournament, hosted and won by Italy.[22][23] For the first and only time, a match was decided on a coin toss (the semi-final between Italy and the Soviet Union)[24] and the final went to a replay, after the match against Yugoslavia finished 1\u20131.[25] Italy won the replay 2\u20130.[26] More teams entered this tournament (31), a testament to its burgeoning popularity.[27] The 1976 tournament in Yugoslavia was the last in which only four teams took part in the final tournament, and the last in which the hosts had to qualify.",
+      "source_url": "https://en.wikipedia.org/wiki/UEFA_European_Championship",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "List of UEFA European Championship finals - Wikipedia In UEFA Euro 2020, which was actually held in 2021 due to the COVID-19 pandemic in Europe, Italy won their second title after beating first-time finalists ... History The first final of the UEFA European Football Championship (then referred to as the European Nations' Cup final) was contested in July 1960 in Paris between the Soviet Union and Yugoslavia. Milan Gali\u0107 scored for Yugoslavia just before half-time but Slava Metreveli equalised soon after the break, and the scores remained level, sending the game into extra time. With seven minutes left, Viktor Ponedelnik won the match for the Soviet Union, scoring the winner with a header.[5] The 1960 champions qualified for the final of the 1964 tournament, where they faced hosts Spain. Chus Pereda scored early for the home side, but the match was levelled two minutes later when Galimzyan Khusainov equalised. Nearly 80,000 spectators at the Santiago Bernab\u00e9u Stadium in Madrid had to wait for the winner which came six minutes from time, courtesy of a header from Spaniard Marcelino.[6] The hosts, Italy, faced Yugoslavia in the final of the 1968 tournament, now rebranded as the European Football Championship. Italy had qualified for the final by virtue of winning a coin toss following their goalless semi-final against the Soviet Union. The final ended 1\u20131, forcing a replay to be conducted two days later. This time Italy triumphed, winning 2\u20130 with first-half goals from Gigi Riva and Pietro Anastasi.[7] Four years later, the final, held in Brussels, produced a record winning margin that would last for 44 years. The Soviet Union, finalists for the third time in four tournaments, were defeated 3\u20130 by West Germany with Gerd M\u00fcller and Herbert Wimmer scoring the winning goals.[8] The incumbent champions qualified for the final of the 1976 tournament, where they faced Czechoslovakia.",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_UEFA_European_Championship_finals",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "European Championship | History, Winners, & Facts | Britannica In 1960 the Euro final tournament consisted of four teams, but it expanded to eight teams in 1980 and 16 teams in 1996. Currently, qualification for a European ... European Championship, in football (soccer), a quadrennial tournament held between the member countries of the Union of European Football Associations (UEFA). The European Championship is second in prestige to the World Cup among international football tournaments. The first final of the European Championship (then known as the European Nations\u2019 Cup) took place in 1960 after two years of preliminary contests between 17 national football clubs. In 1960 the Euro final tournament consisted of four teams, but it expanded to eight teams in 1980 and 16 teams in 1996. Currently, qualification for a European Championship begins two years before the scheduled final when all members of UEFA begin playing among themselves to earn a berth in the 16-team tournament (the qualification process does not include the host country or countries, which automatically qualify for the final).",
+      "source_url": "https://www.britannica.com/sports/European-Championship",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "UEFA Euro Championship - History Timelines The tournament's history dates back to 1960 when the inaugural European Nations' Cup was held in France. The Soviet Union emerged as the first champions, ...",
+      "source_url": "https://historytimelines.co/timeline/uefa-euro-championship-",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "UEFA Euro winners: Know the champions - full list - Olympics.com The UEFA European Championship was introduced in 1960. Spain are the most successful team in the UEFA Euro, winning in 1964, 2008, 2012 and ... Union beat Yugoslavia 2-1 in extra time to lift the trophy. UEFA Euro 1964 winner: Spain In 1964, Spain became the first host nation to win the title. The Spain football team beat the defending champions Soviet Union 2-1 in the final held at the Santiago Bernabeu, the home of Real Madrid. A total of 79,115 people attended the summit tie in Madrid, which remains the highest attended UEFA Euro match to date. UEFA Euro 1968 winner: Italy Now called the UEFA European Championship, the 1968 edition saw the competition format undergo a change and only four teams made it to the main tournament in Italy. Debutants Italy and England were joined by former champions the Soviet Union and Yugoslavia with the European Championship consisting of the semi-final and the final. Italy tossed out the Soviet Union by the spin of a coin after their semi-final match ended 0-0 after extra-time and Yugoslavia beat England 1-0 to make the final. The Italy vs Yugoslavia final was played over two legs with the first match ending in a 1-1 draw while the Azzurri eked out a 1-0 in the second leg at Rome to win the crown. UEFA Euro 1972 winner: West Germany In 1972, the Soviet Union once again made it to the final -- their third -- only to lose out to West Germany in Brussels, Belgium. (Getty Images) Led by the German great Gerd Muller and Herbert Wimmer, Die Mannschaft beat the Soviets 3-0 for their maiden title. UEFA Euro winner 1976: Czechoslovakia Four years later, West Germany came mighty close to defending their European crown. At the Red Star Stadium, Belgrade, Czechoslovakia beat West Germany 5-3 in a penalty shootout. This was the first UEFA Euro final to go into a penalty shootout.",
+      "source_url": "https://olympics.com/en/news/uefa-european-championships-euro-winners-list-champions",
+      "timestamp": "2024-07-14"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Winners List of the UEFA European Championship - The Euros Euros Winners List. The UEFA European Championship (the 'Euros') is a national men's football competition between European countries, held every four years. Euros Winners List The UEFA European Championship (the 'Euros') is a national men's football competition between European countries, held every four years. Here are all the winners since the Soviet Union won the first in 1960. Ten different countries have won the tournament: Spain have won four times, Germany has three titles, France and Italy with two titles while Portugal, Netherlands, Denmark, Soviet Union, Czechoslovakia and Greece have one title each. Spain is the only country to win consecutive titles, in 2008 and 2012.",
+      "source_url": "https://www.topendsports.com/events/soccer/uefa-euros/winners.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "UEFA European Championship Wiki | Fandom The most recent championship, hosted by Germany in 2024, was won by Spain, who beat England 2\u20131 at the final in Berlin. Advertisement. Results. Year ... UEFA European Championship Template:Infobox football tournament The UEFA European Championship (known informally as the Euros) is the primary association football competition contested by the senior men's national teams of the members of the Union of European Football Associations (UEFA), determining the continental champion of Europe. Held every four years since 1960, in the even-numbered year between World Cup tournaments, it was originally called the UEFA European Nations' Cup, changing to the current name in 1968. Starting with the 1996 tournament, specific championships are often referred to in the form \"UEFA Euro [year]\"; this format has since been retroactively applied to earlier tournaments. Prior to entering the tournament all teams other than the host nations (which qualify automatically) compete in a qualifying process. The championship winners earn the opportunity to compete in the following FIFA Confederations Cup, but are not obliged to do so. The 17 European Championship tournaments have been won by ten different national teams: and Spain has won four titles, Germany has won three titles, France has two titles, and the Soviet Union, Italy, Czechoslovakia, the Netherlands, Denmark, Greece and Portugal have won one title each. To date, Spain is the only team in history to have won consecutive titles, doing so in 2008 and 2012. It is the second most watched football tournament in the world after the FIFA World Cup. The Euro 2012 final was watched by a global audience of around 300 million.",
+      "source_url": "https://uefa-european-championship.fandom.com/wiki/UEFA_European_Championship",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "The history of UEFA European Championship The UEFA European Championship (commonly known as Euro and not to be confused with European Cup) has existed since 1960. It ranks next to FIFA World Cup as ... The history of European Championship The UEFA European Championship (commonly known as Euro and not to be confused with European Cup) has existed since 1960. It ranks next to FIFA World Cup as the most prestigious\u00c2 completion for national teams. The first edition of the UEFA European Championship included only four teams (Czechoslovakia, France, Soviet Union and Yugoslavia), but it would be expanded to eight teams in 1980. Since when, the tournament has been expanded with more teams on two additional occasions. Contents History Though the first European Championship was held in 1960, the idea behind it is much older. It dates back to 1927, when the French Football Federation\u00e2\u0080\u0099s administrator Henri Delaunay first proposed a pan-European football tournament. Despite the fact that he later became the first General Secretary of UEFA, Delaunay had already passed away by the time the tournament was officially started. In his honor, the tournament trophy was named after him. The Henri Delaunay trophy contains a figure of a juggling boy on the back and the words \"Championnat d'Europe,\u00e2\u0080\u009d and \"Coupe Henri Delaunay\" on the front. In 2008, it was remodeled to make it larger and more in line with UEFA\u00e2\u0080\u0099s more modern trophies. The new trophy is made of sterling silver, weighs 8 kilograms (18 lb), and is 60 centimeters (24 in) tall. The names of the winning countries are now engraved on the back. The two most successful nations in the tournament\u00e2\u0080\u0099s history are Germany and Spain, with three titles each. Spain is the only nation to successfully defend its title, having done so in 2012. Germany has played the most matches (53), scored the most goals (75) and recorded the most victories (28). In 1984, France became the only nation to win all of its matches at a tournament (5 out of 5). In 1992, Denmark won the title with only two victories in five games. Over the years, the European Champions has gotten more popular with TV audiences.",
+      "source_url": "https://www.footballhistory.org/european-championship.html",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The last UEFA European Championship was held in 2024."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer states the last championship was in 2024, but provides no citations. The provided documents mention the 2024 championship but also refer to it as the 'most recent' which implies it has already occurred, contradicting the idea of it being the 'last' in a historical sense. The answer should have cited the documents that mention 2024."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 6991,
+      "completion_tokens": 190,
+      "total_tokens": 7181
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3352,
+        "completion_tokens": 47,
+        "total_tokens": 3399
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3639,
+        "completion_tokens": 143,
+        "total_tokens": 3782
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:37:19.797743",
+        "prompt_tokens": 3352,
+        "completion_tokens": 47,
+        "total_tokens": 3399,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:37:21.136804",
+        "prompt_tokens": 3639,
+        "completion_tokens": 143,
+        "total_tokens": 3782,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:37:18.708739",
+  "last_updated_at": "2026-04-18T18:37:21.137291"
+}

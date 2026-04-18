@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0659",
+  "query": "Who sings gimme shelter with the rolling stones?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "to let her perform with the Stones. Clayton also sang backing vocals on Lynyrd Skynyrd's \"Sweet Home Alabama\". In 1970, Clayton recorded her own version of \"Gimme Shelter,\" and it became the title track of her debut solo album and peaked at #73, released that year. Her version would be the first of five singles under her name to crack the \"Billboard\" Hot 100. That same year she performed a live version of \"Lift Every Voice and Sing\" for the soundtrack for the Robert Altman film \"Brewster McCloud\" and also contributed vocals to Donald Cammell and Nicolas Roeg's film \"Performance\".",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d2",
+      "text": "brothers worked on Drew Associates films such as \"Primary\" and \"Adventures on the New Frontier\". In 1962, Albert and David left Drew Associates to form their own production company, Maysles Films, Inc. The Maysles brothers made over 30 films together. They are best known for three documentaries made in the late 1960s and early 1970s: \"Salesman\" (1969), \"Gimme Shelter\" (1970), and \"Grey Gardens\" (1975). \"Salesman\" documents the work of a group of door-to-door Bible salesmen in New England and Florida. \"Gimme Shelter\", a film about The Rolling Stones' 1969 U.S. tour culminating in the disastrous Altamont Free Concert, unexpectedly captured",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "in London, with further work taking place at Elektra Sound Recorders Studios, 962 La Cienega Boulevard, Los Angeles, California, 90069, while the Stones prepared for the tour. The Los Angeles-recorded portions included overdubs by guest musicians Merry Clayton (on \"Gimme Shelter\"), Byron Berline (on \"Country Honk\"), and Bobby Keys and Leon Russell (on \"Live with Me\"). Finally, an unreleased version of \"I Don't Know The Reason Why (a. k. a. Hillside Blues)\" was also recorded there in October 1969 with Mick Taylor. Like \"Beggars Banquet\" the year before, the album marks a return to the group's more blues-based approach that",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2019-02-11"
+    },
+    {
+      "doc_id": "d4",
+      "text": "and win, three times in this category. In 2010, \"God Don't Never Change\", was nominated for a Grammy Award in the Best Traditional Gospel Album category, bringing her total number of overall nominations to four (with three wins). \"Lesson of Love\" also won a 1996 Nashville Music Award (\"Nammy\") for Best Contemporary Christian Album. Cleveland was the only female vocalist to sing lead on a song (\"Gimme Shelter\") for the television special, \"Stone Country: A Tribute to the Rolling Stones\" on the defunct \"The Nashville Network (TNN)\". Ashley Cleveland Ashley Cleveland (born February 2, 1957) is an American singer/songwriter best",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2024-08-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Sunset Sound Recorders and Elektra Studios in October and November that same year. Nicky Hopkins played piano, the Rolling Stones' producer Jimmy Miller played percussion, Charlie Watts played drums, Bill Wyman played bass, Jagger played harmonica and sang backup vocals with Richards and Clayton. Guitarist Brian Jones was present during the early sessions but did not contribute, Richards being credited with both rhythm and lead guitars on the album sleeve. For the recording, Richards used an Australian-made Maton SE777, a large single-cutaway hollowbody guitar, which he had previously used on \"Midnight Rambler\". The guitar barely survived the recording before literally  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Merry Clayton sang backing vocals on \"Gimme Shelter\" with the Rolling Stones."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer makes a factual claim but provides no citations. The provided documents do not support the claim that Merry Clayton sang backing vocals on \"Gimme Shelter\" with the Rolling Stones."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2565,
+      "completion_tokens": 150,
+      "total_tokens": 2715
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1138,
+        "completion_tokens": 49,
+        "total_tokens": 1187
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1427,
+        "completion_tokens": 101,
+        "total_tokens": 1528
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:12.467930",
+        "prompt_tokens": 1138,
+        "completion_tokens": 49,
+        "total_tokens": 1187,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:13.415867",
+        "prompt_tokens": 1427,
+        "completion_tokens": 101,
+        "total_tokens": 1528,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:11.671830",
+  "last_updated_at": "2026-04-18T20:11:13.416165"
+}

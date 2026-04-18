@@ -1,0 +1,118 @@
+{
+  "sample_id": "#0041",
+  "query": "Can plants hear sounds?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Sound perception and its effects in plants and algae - PMC There is not much knowledge about sound communication in plants, but it is known that these can produce sound waves at relatively low frequencies such as 50\u2013120 Hz. Plants emit also ultrasonic vibrations of 20\u2013100 kHz, measured by connecting a sensor directly to the stem of the plant.14 Plants release sound emissions from different organs and at different growth stages or in response to different situations. Through the use of small highly sensitive sound receivers, it has been shown that plants emit sound from the xylem15 and faint ultrasound in case of stress.16 Plants can hear caterpillar\u2019s chewing and set up the appropriate defenses17 but they can also hear the moving close of a pollinator using flowers as \u201cears\u201d and responding with minutes by sweetening the nectar.18 From several years it has been demonstrated how plants can absorb and resonate specific sound frequencies19 and how sound waves can change the cell cycle of the plant. Sound waves vibrate plant leaves accelerating protoplasmic movement in cells.20 It is not yet entirely clear the mechanism by which sound intervenes in the growth of plants, although the biological effects of sound have been previously studied. A study found that some stress-induced genes could be activated at the level of transcription under sound stimulation.21 The stimulation of sound waves could also increase the plant plasma-membrane H+ ATPase activity, the contents of soluble sugars, soluble proteins, and amylase activity of callus.22,23 Sound vibrations can influence the rearrangement of microfilaments, increase levels of polyamines and soluble sugars, change the activity of various proteins and regulate the transcription of certain genes.24\u201326 Recent studies show that plant organisms perceive sound as a mechanical stimulus and translate it into cellular and metabolic changes.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7671032/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Stressed plants 'cry' \u2014 and some animals can probably hear them Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles and JavaScript. Plants do not suffer in silence. Instead, when thirsty or stressed, plants make \u201cairborne sounds\u201d, according to a study published today in Cell1. Plants that need water or have recently had their stems cut produce up to roughly 35 sounds per hour, the authors found. But well-hydrated and uncut plants are much quieter, making only about one sound per hour. The reason you have probably never heard a thirsty plant make noise is that the sounds are ultrasonic \u2014 about 20\u2013100 kilohertz. That means they are so high-pitched that very few humans could hear them. Some animals, however, probably can. Bats, mice and moths could potentially live in a world filled with the sounds of plants, and previous work by the same team has found that plants respond to sounds made by animals, too. Crying crops To eavesdrop on plants, Lilach Hadany at Tel-Aviv University in Israel and her colleagues placed tobacco (Nicotiana tabacum) and tomato (Solanum lycopersicum) plants in small boxes kitted out with microphones. The microphones picked up any noises made by the plants, even if the researchers couldn\u2019t hear them. The noises were particularly obvious for plants that were stressed by a lack of water or by recent cutting. If the sounds are pitched down and sped up, \u201cit is a bit like popcorn \u2014 very short clicks\u201d, Hadany says. \u201cIt is not singing.\u201d These plant sounds have been processed to make them audible to the human ear. Plants do not have vocal cords or lungs. Hadany says the current theory for how plants make noises centres on their xylem, the tubes that transport water and nutrients from their roots to their stems and leaves.",
+      "source_url": "https://www.nature.com/articles/d41586-023-00890-9",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Do Plants Hear? | California Academy of Sciences Science News Do Plants Hear? Plants are surprising organisms\u2014without brains and central nervous systems, they are still able to sense the environment that surrounds them. Plants can perceive light, scent, touch, wind, even gravity, and are able to respond to sounds, too. No, music will not help plants grow\u2014even classical\u2014but other audio cues can help plants survive and thrive in their habitats. But why? Scientists Heidi Appel and Rex Cocroft of the University of Missouri wondered whether plants would respond to the sound of insect herbivores feeding, so they ran a couple of experiments. First they placed caterpillars on Arabidopsis, a small flowering plant related to cabbage and mustard. Using a laser and a tiny piece of reflective material on the leaf of the plant, they were able to measure the movement of the leaf in response to the chewing caterpillar. Then, they played back recordings of caterpillar feeding vibrations to one set of Arabidopsis plants, but played back only silence to another set of plants. When caterpillars later fed on both sets of plants, the researchers found that the plants previously exposed to feeding vibrations produced more mustard oils, a chemical that is unappealing to many caterpillars. For the second experiment, the team played a variety of recordings to different Arabidopsis plants, including wind and \u201cmating song of a leafhopper, chosen because it has a similar frequency spectrum to that of chewing, but a contrasting temporal pattern,\u201d according to their study, published last week in Oecologia. The plants did not react to these vibrations at all. \u201cWhat is remarkable is that the plants exposed to different vibrations, including those made by a gentle wind or different insect sounds that share some acoustic features with caterpillar feeding vibrations did not increase their chemical defenses,\u201d Cocroft says. \u201cThis indicates that the plants are able to distinguish feeding vibrations from other common sources of environmental vibration.\u201d \u201cCaterpillars react to this chemical defense by crawling away, so using vibrations to enhance plant defenses could be useful to agriculture,\u201d Appel says.",
+      "source_url": "https://www.calacademy.org/explore-science/do-plants-hear",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Flowers can hear buzzing bees\u2014and it makes their nectar sweeter Flowers can hear buzzing bees\u2014and it makes their nectar sweeter Even on the quietest days, the world is full of sounds: birds chirping, wind rustling through trees, and insects humming about their business. The ears of both predator and prey are attuned to one another\u2019s presence. Sound is so elemental to life and survival that it prompted Tel Aviv University researcher Lilach Hadany to ask: What if it wasn\u2019t just animals that could sense sound\u2014what if plants could, too? The first experiments to test this hypothesis, published recently on the pre-print server bioRxiv, suggest that in at least one case, plants can hear, and it confers a real evolutionary advantage. 4:09 Related: Time-Lapse Video Shows a Garden Coming to Life Journey through a blooming garden of dancing flowers in this incredible four-minute short film. Visual effects artist and filmmaker Jamie Scott spent three years shooting the stunning springtime imagery in this continuous motion time-lapse. The Short Film Showcase spotlights exceptional short videos created by filmmakers from around the web and selected by National Geographic editors. The filmmakers created the content presented, and the opinions expressed are their own, not those of National Geographic Partners. The sweetest sound As an evolutionary theoretician, Hadany says her question was prompted by the realization that sounds are a ubiquitous natural resource\u2014one that plants would be wasting if they didn\u2019t take advantage of it as animals do. If plants had a way of hearing and responding to sound, she figured, it could help them survive and pass on their genetic legacy. Since pollination is key to plant reproduction, her team started by investigating flowers. Evening primrose, which grows wild on the beaches and in parks around Tel Aviv, emerged as a good candidate, since it has a long bloom time and produces measurable quantities of nectar. A brown and yellow hoverfly rests on a dewdrop-covered evening primrose in the U.K. Photograph by MichaelGrantWildlife/ Alamy Please be respectful of copyright. Unauthorized use is prohibited.",
+      "source_url": "https://www.nationalgeographic.com/science/article/flowers-can-hear-bees-and-make-their-nectar-sweeter",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Plants Know When a Bee Is Passing by and Produce Sweeter Nectar You are strolling in a garden and hear a buzzing sound. Even before you spot it, you know instinctively that there is a bee around. It seems the plants do, too. A team of scientists from the Tel Aviv University in Israel have found that plants can tell when a bee is hovering over a flower. These results shine a spotlight on plants\u2019 ability to hear sounds \u2013 an idea that has remained mired in obscurity. There are volumes of studies about how animals perceive sounds in their environment, but not enough has been explored from the flora\u2019s perspective. Lilach Hadany, a professor at the department of molecular biology and ecology of plants, Tel Aviv University, started looking into plant-hearing six years ago. At the time, the general perception was that plants could not hear or respond to sounds. But Hadany, who has been tinkering with fundamental questions in evolutionary biology, thought otherwise. In discussions with her collaborators, the team couldn\u2019t come up with a good reason why plants wouldn\u2019t hear and respond to sounds. \u201cAnd since there seemed to be no good reason, we thought that perhaps they do\u201d hear certain sounds, she told The Wire. To test their theory, the scientists needed a situation where plants had a higher stake in responding to sounds. They picked pollination. Many insects visit flowers in search of nectar. As they flit from one flower to the next, they carry pollen grains around with them, eventually dropping them off at a different plant. This is how insects help fertilise many species of plants and let their flowers make seeds. Because these insects \u2013 the pollinators \u2013 also produce a sound in their wings, it seemed like a good way to explore plant hearing. Insects are drawn to nectar. Bees can even detect small changes in the sweetness of nectar. So the scientists decided to test if plants changed the way they produced nectar if there was a bee nearby. They visited a garden and recorded a bee hovering over a flower. In the lab, they played the recording over speakers next to a handful of evening primrose plants (genus Oenothera), chosen because they produce copious amounts of nectar.",
+      "source_url": "https://thewire.in/the-sciences/phytoacoustics-nectar-bees-pollination-evening-primrose",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Flowers Sweeten Up When They Sense Bees Buzzing | Smart News ... It\u2019s a common assumption that auditory information is reserved for living things with ears and that creatures without cochlea\u2014namely plants\u2014don\u2019t tune into a bee buzzing or the wind whistling. But a new study suggests the plants are listening, and some flowers even sweeten up their nectar when they sense a pollinator approaching. Sound is ubiquitous; plenty of species have harnessed the power of sound to their evolutionary advantage in some way or another\u2014a wolf howls and rabbits run; a deer hears a thunder strike in the distance and seeks shelter, and birds sing to attract their mates. Plants have withstood the test of time, so logically so, they must react to such a crucial sensory tool as well, right? This question is the essentially the basis of Tel Aviv University evolutionary theoretician Lilach Hadany\u2019s interest in pursuing the new study, reports Michelle Z. Donahue at National Geographic. Since sound is propagated as a wave, it doesn\u2019t always take the complex set of ear bones and hair cells found in mammal ears to detect the presence of sound, just the ability to perceive vibrations. To test the idea, Hadany and her team looked at the relationship between bees and flowers. The team exposed the beach evening primrose, Oenothera drummondii, to five types of sound: silence, the buzz of a bee from four inches away, and low, intermediate and high pitched sounds produced by a computer, Donahue writes. They then measured the amount of nectar that the flowers produced after being exposed to the sound. Blossoms exposed to silence as well as high-frequency and intermediate-frequency waves produced the baseline amount of sugar expected in their nectar. However, the blooms exposed to the bee\u2019s buzz and low-frequency sounds bumped their sugar content up 12 to 20 percent within three minutes of being exposed to the hum. In other words, when they \u201cheard\u201d a bee approaching, they sweetened their nectar.",
+      "source_url": "https://www.smithsonianmag.com/smart-news/flowers-sweeten-when-they-hear-bees-buzzing-180971300/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Noisy Predators Put Plants on Alert, Study Finds - The New York Times Noisy Predators Put Plants on Alert, Study Finds Research suggests that some plants are sensitive to caterpillar sounds. Credit...Meegan M. Reid/KITSAP SUN, via Associated Press By Douglas Quenqua July 1, 2014 It has long been known that some plants can respond to sound. But why would a plant evolve the ability to hear? Now researchers are reporting that one reason may be to defend itself against predators. To see whether predator noises would affect plants, two University of Missouri researchers exposed one set of plants to a recording of caterpillars eating leaves, and kept another set of plants in silence. Later, when caterpillars fed on the plants, the set that had been exposed to the eating noises produced more of a caterpillar-repelling chemical. Evidently, the chomping noises primed the plant to produce the deterrent. \u201cSo when the attack finally happens, it\u2019s kaboom,\u201d said Heidi Appel, a chemical ecologist and an author of the study. The chemical comes \u201cfaster and often in greater amounts.\u201d Plants exposed to other vibrations, like the sound of wind or different insects, did not produce more of the chemical, suggesting they could tell the difference between predator noises and atmospheric ones. The researchers published their work in the journal Oecologia. Previous research on plants and sounds have found that two genes in rice switch on in response to music and clear tones, and that corn roots will lean toward vibrations of a specific frequency. (Research from the 1970s suggesting that plants prefer classical to rock music has largely been dismissed.) But plants \u201cdon\u2019t normally experience music or pure tones in their environment,\u201d said Reginald B. Cocroft, a behavioral ecologist and another author of the new study. \u201cWe wanted to ask, \u2018Why would plants evolve this ability to hear sounds or vibrations?'\u201d Dr. Cocroft was surprised just how sensitive the plants were to the caterpillar sounds. \u201cThere were feeding vibrations that got a strong response from plants that vibrated the leaf up and down by less than one ten-",
+      "source_url": "https://www.nytimes.com/2014/07/02/science/noisy-predators-put-plants-on-alert-study-finds.html",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Yes, plants can perceive and respond to sounds. They can detect vibrations from sources like chewing caterpillars and buzzing bees, which can trigger defense mechanisms or changes in nectar production. While they don't have ears, they can sense sound as a mechanical stimulus, leading to cellular and metabolic changes."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims that are not supported by any citations. The provided documents discuss plants responding to sounds, but the answer lacks specific citations to back up these claims."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 7927,
+      "completion_tokens": 190,
+      "total_tokens": 8117
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3798,
+        "completion_tokens": 91,
+        "total_tokens": 3889
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4129,
+        "completion_tokens": 99,
+        "total_tokens": 4228
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:20:45.941362",
+        "prompt_tokens": 3798,
+        "completion_tokens": 91,
+        "total_tokens": 3889,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:20:47.231706",
+        "prompt_tokens": 4129,
+        "completion_tokens": 99,
+        "total_tokens": 4228,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:20:44.672281",
+  "last_updated_at": "2026-04-18T18:20:47.232195"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0594",
+  "query": "How can fruits and vegetables withstand several days or even weeks during transportation from different continents, but as soon as they in our homes they only last 2-3 days?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Fresh vs Frozen Fruit and Vegetables \u0393\u00c7\u00f6 Which Are Healthier? before being sold. During transportation, fresh produce is generally stored in a chilled, controlled atmosphere and treated with chemicals to prevent spoiling. Once they reach the supermarket, fruits and vegetables may spend an additional 1\u0393\u00c7\u00f43 days on display. They're then stored in people's homes for up to 7 days before being eaten. Bottom Line: Fresh fruit and vegetables are often picked before they are fully ripe. Transportation and storage can take anywhere from 3 days and up to 12 months for some types of produce. Fruits and vegetables that will be frozen are generally picked at peak ripeness, when they're",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How much difference is there in nutritional value between fresh and frozen fruits and vegetables? own backyard, chances are good that your produce was picked at least several days ago, likely not at its peak ripeness (otherwise it would spoil too quickly en route to the store), and with degradation of some of its nutritional value after picking and during transport. Once fresh fruits and vegetables are harvested, they undergo higher rates of respiration \u0393\u00c7\u00f4 a physiologic process in which plant starches and sugars are converted into carbon dioxide, water, and other by-products -- leading to moisture loss, reduced quality, and susceptibility to micro-organism spoilage. Refrigeration during transport helps to slow the deterioration, but still,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Fresh vs Frozen Fruit and Vegetables \u0393\u00c7\u00f6 Which Are Healthier? smaller amount being harvested by machinery. However, what happens after that varies between fresh and frozen produce. Most fresh fruits and vegetables are picked before they are ripe. This allows them time to fully ripen during transportation. It also gives them less time to develop a full range of vitamins, minerals and natural antioxidants. In the US, fruits and vegetables may spend anywhere from 3 days to several weeks in transit before arriving at a distribution center. However, the USDA states that some produce, such as apples and pears, can be stored for up to 12 months under controlled conditions",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2006-08-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Charlotte\u0393\u00c7\u00d6s Top 20 Farmers Markets- Why Is Farm To Table So Good For Us? \u0393\u00c7\u00f4 Tara's Tidbits vegetables are picked before they are ripe. This allows them time to fully ripen during transportation. It also gives them less time to develop a full range of vitamins, minerals and natural antioxidants. In the US, fruits and vegetables may spend anywhere from 3 days to several weeks in transit before arriving at a distribution center. One study found a decline in nutrients after 3 days of refrigeration, when values fell to levels below those of frozen varieties. This is most common in soft fruits. The vitamin C in fresh vegetables begins to decline immediately after harvesting and continues to",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2009-01-24"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Here\u0393\u00c7\u00d6s Why You Should Grow Your Own Food At Home - Captain Bobcat here. Fresh and Nutritious Vegetables Fruit and vegetables that are from your own garden are about as fresh as they come. It\u0393\u00c7\u00d6s important to know that vegetables that you buy from your supermarket have spent at least a day or two in transportation. They have also travelled several thousand miles to get to your local store as well, so even if you buy them on the very first day, you will still find that they aren\u0393\u00c7\u00d6t that fresh. If your kids are able to assist you in the garden then you will soon find that the planting alone is enough  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "1993"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "complementary",
+        "should_abstain": false,
+        "final_answer": "Fruits and vegetables are often picked before they are fully ripe, allowing them to ripen during transportation. During transport, they are kept in chilled, controlled atmospheres and may be treated with chemicals to prevent spoilage. This process can take anywhere from 3 days to several weeks, or even up to 12 months for some produce like apples and pears under controlled conditions. Once they reach home, they are no longer under these controlled conditions and begin to respire more rapidly, leading to moisture loss, reduced quality, and susceptibility to spoilage, thus lasting only a few days."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. Citations are required for factual claims. The answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2854,
+      "completion_tokens": 241,
+      "total_tokens": 3095
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1233,
+        "completion_tokens": 147,
+        "total_tokens": 1380
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1621,
+        "completion_tokens": 94,
+        "total_tokens": 1715
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:42.867084",
+        "prompt_tokens": 1233,
+        "completion_tokens": 147,
+        "total_tokens": 1380,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:43.963110",
+        "prompt_tokens": 1621,
+        "completion_tokens": 94,
+        "total_tokens": 1715,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:41.452690",
+  "last_updated_at": "2026-04-18T20:08:43.963283"
+}

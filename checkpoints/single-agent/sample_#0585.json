@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0585",
+  "query": "When do the new season of criminal minds?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Law & Order: Criminal Intent (season 7) The seventh season of \"\" premiered on USA Network on October 4, 2007, and ended on August 24, 2008. The first ten episodes of the seventh season aired on Thursday nights at 10:00PM/9:00PM (Central), filling a slot previously occupied by the first season of \"Burn Notice\". The season then took a \"fall finale\" with the episode \",\" coinciding with the 2007 Writers Guild of America strike where show runner/executive producer Warren Leight and the rest of the writing staff participated in the work stoppage; the first ten episodes of the season being the",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d2",
+      "text": "the sixth episode of the season. On August 12, 2017 it was revealed that Erica Messer and Kirsten Vangsness will be co-writing the eleventh episode of the season, which will be the fourth episode they have co-written together. On October 31, 2017, it was announced that Adam Rodriguez will make his Criminal Minds directing debut and direct the sixteenth episode of the season. On June 11, 2017, it was announced that Damon Gupton had been let go from the show after one season. CBS said his departure was \"part of a creative change on the show\". On June 20, 2017,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Criminal Minds (season 13) The thirteenth season of \"Criminal Minds\" was ordered on April 7, 2017, by CBS with an order of 22 episodes. The season premiered on September 27, 2017 in a new time slot at 10:00PM on Wednesday when it had previously been at 9:00PM on Wednesday since its inception. The season concluded on April 18, 2018. The entire main cast from the previous season returned for the season, except Damon Gupton (Stephen Walker), who was fired from the show. His character was killed off in the season premiere off-screen. Following the cancellation of \"\", it was announced",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Criminal Minds (season 11) The eleventh season of \"Criminal Minds\" was ordered on May 11, 2015 by CBS. It premiered on September 30, 2015 on CBS and ended on May 4, 2016. The season consisted of 22 episodes. The entire main cast returned for the season, except Jennifer Love Hewitt (Kate Callahan), who left the show in the season ten finale. On June 22, 2015, it was announced that Aisha Tyler would replace Hewitt in a recurring role as Dr. Tara Lewis, a psychologist with an eye on forensic psychology and its application toward the criminal justice system. Jennifer Love",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d5",
+      "text": "that Daniel Henney (Matt Simmons) would join the cast this season as a series regular. \"Criminal Minds\" was renewed for a thirteenth season with an episode order of 22 episodes on April 7, 2017. The entire main cast from the previous season returned for the season, except Damon Gupton (Stephen Walker), who was fired from the show. Matthew Gray Gubler directed the seventeenth episode of the season and it was said to be \"the spookiest episode of Season 13\" and involved clowns. On August 10, 2017, it was revealed that Aisha Tyler will make her television directing debut and direct  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1994-07-24"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The thirteenth season of Criminal Minds premiered on September 27, 2017, and concluded on April 18, 2018. The eleventh season premiered on September 30, 2015, and ended on May 4, 2016. The seventh season of Law & Order: Criminal Intent premiered on October 4, 2007, and ended on August 24, 2008."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2587,
+      "completion_tokens": 217,
+      "total_tokens": 2804
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1108,
+        "completion_tokens": 131,
+        "total_tokens": 1239
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1479,
+        "completion_tokens": 86,
+        "total_tokens": 1565
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:23.512816",
+        "prompt_tokens": 1108,
+        "completion_tokens": 131,
+        "total_tokens": 1239,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:24.457904",
+        "prompt_tokens": 1479,
+        "completion_tokens": 86,
+        "total_tokens": 1565,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:22.604053",
+  "last_updated_at": "2026-04-18T20:08:24.459084"
+}

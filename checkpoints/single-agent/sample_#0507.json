@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0507",
+  "query": "How do explosions trigger car alarms?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why the Hell Do They Still Make Car Alarms? in the open air,\" he said, \"the alarm would go off. So if you left a dog in the car, or someone leaned in the open convertible to look, it'd trigger the alarm.\" If you've been hearing fewer errant car alarms lately, there's a reason. Back in the early 2000s, advocacy groups took legal action to make alarms less sensitive and quieter. Manufacturers have since, it seems, taken heed. \"My impression is that there are far fewer false alarms now, and that this started around that same time, when the [New York] City Council held some hearings on the issue,\"",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2016-11-19"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why the Hell Do They Still Make Car Alarms? in the open air,\" he said, \"the alarm would go off. So if you left a dog in the car, or someone leaned in the open convertible to look, it'd trigger the alarm.\" If you've been hearing fewer errant car alarms lately, there's a reason. Back in the early 2000s, advocacy groups took legal action to make alarms less sensitive and quieter. Manufacturers have since, it seems, taken heed. \"My impression is that there are far fewer false alarms now, and that this started around that same time, when the [New York] City Council held some hearings on the issue,\"",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2007-10-21"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why the Hell Do They Still Make Car Alarms? in the open air,\" he said, \"the alarm would go off. So if you left a dog in the car, or someone leaned in the open convertible to look, it'd trigger the alarm.\" If you've been hearing fewer errant car alarms lately, there's a reason. Back in the early 2000s, advocacy groups took legal action to make alarms less sensitive and quieter. Manufacturers have since, it seems, taken heed. \"My impression is that there are far fewer false alarms now, and that this started around that same time, when the [New York] City Council held some hearings on the issue,\"",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Why the Hell Do They Still Make Car Alarms? it is to accidentally trigger the those horrific whines and screeches \u0393\u00c7\u00f6a heavy truck rumbling by, a motorcycle that's had the baffles removed (another issue on its own), or just someone accidentally brushing against the side of the car while walking by. Even if the alarm is triggered during an honest-to-God break-in, what exactly are good Samaritans supposed to do? If anyone has ever rushed into the street at the sound of every car alarm, ready to go full vigilante on some ne'er-do-well shattering a window, I want to meet that person. In the city, a guy conspicuously stealing a",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Why the Hell Do They Still Make Car Alarms? in the open air,\" he said, \"the alarm would go off. So if you left a dog in the car, or someone leaned in the open convertible to look, it'd trigger the alarm.\" If you've been hearing fewer errant car alarms lately, there's a reason. Back in the early 2000s, advocacy groups took legal action to make alarms less sensitive and quieter. Manufacturers have since, it seems, taken heed. \"My impression is that there are far fewer false alarms now, and that this started around that same time, when the [New York] City Council held some hearings on the issue,\"  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2014-04-23"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Explosions are not mentioned as a trigger for car alarms in the provided documents. However, loud noises such as a heavy truck rumbling by or a motorcycle with removed baffles can trigger car alarms. Additionally, physical contact like someone leaning into an open convertible or brushing against the car can also set off the alarm."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer correctly states that explosions are not mentioned. However, it fails to cite the documents that mention loud noises and physical contact as triggers, and the citations are empty."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2574,
+      "completion_tokens": 196,
+      "total_tokens": 2770
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1119,
+        "completion_tokens": 97,
+        "total_tokens": 1216
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1455,
+        "completion_tokens": 99,
+        "total_tokens": 1554
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:34.497531",
+        "prompt_tokens": 1119,
+        "completion_tokens": 97,
+        "total_tokens": 1216,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:35.562510",
+        "prompt_tokens": 1455,
+        "completion_tokens": 99,
+        "total_tokens": 1554,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:32.932718",
+  "last_updated_at": "2026-04-18T20:05:35.562908"
+}

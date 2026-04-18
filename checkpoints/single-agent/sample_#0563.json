@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0563",
+  "query": "Who voices spider man in the animated series?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "he is voiced by Geoff Boothby. In 1995, BBC Radio commissioned a Spider-Man radio play which aired on BBC Radio 1 over 50 episodes on week days between January 15, 1996 and March 24, 1996. The performance was co-produced by Brian May, who also contributed to the musical arrangement and wrote and performed the theme tune. The scope of the story included a number of familiar characters from the Spider-Man comic books as well as key figures from the Marvel Universe such as the Fantastic Four, Namor the Submariner, and Doctor Doom. The role of Spider-Man was performed by William",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d2",
+      "text": "first season episode \"I Am Spider-Man\", on a list of understudies for the part of Spider-Man in Phil Coulson's high school play; he is the second to last choice while Peter Parker is the last choice. The third season, titled \"Ultimate Spider-Man: Web-Warriors\", shows various incarnations of Spider-Man, including Miles Morales (voiced initially by Donald Glover). The character would return for the fourth season, titled \"Ultimate Spider-Man vs The Sinister 6\", under the alias Kid Arachnid (now voiced by Ogie Banks). Miles Morales appears in the \"Marvel Super Hero Adventures\" episode \"That Drone Cat\", voiced by Zac Siewert. After battling",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d3",
+      "text": "a love story between a foreigner and a Greek. Each story represents a different generation falling in love during a time of socioeconomic turmoil that dominates Southern Europe as a whole, only to connect as a single story in the end. Simmons stars as Sebastian. Simmons reprised his role as the voice of J. Jonah Jameson in the animated series \"Ultimate Spider-Man\", \"\", and \"Avengers Assemble\". He has also expressed interest in reprising the role in Sony and Marvel Studios' reboot of the \"Spider-Man\" film series, \"\", released in 2017. In friend Reitman's film \"Young Adult\", he voiced the protagonist's",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Web selected Spider-Man to lead a team of heroes including Storm against a group of villains. An earlier draft of \"Secret Wars\" involved all of the X-Men, but transporting the voice cast to Los Angeles where production for the \"Spider-Man\" animated series was based from Canada had been too costly in previous crossovers, so the episode was re-written to include only Storm, whose actress, Iona Morris, lived in Los Angeles. Hulk and She-Hulk were excluded from the episodes because the \"Incredible Hulk\" animated series featuring the characters was airing on rival network UPN. The first season of the show brought",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2009-11-28"
+    },
+    {
+      "doc_id": "d5",
+      "text": "solo \"Spider-Man\" animated series, although this has since been disputed since both series were originally first aired at the same time on September 12, 1981. The two series are connected in the latter's third-season episode \"Origin of the Spider-Friends.\" Although not as well known as \"Spider-Man and His Amazing Friends\", it does remain faithful to the character's origin. The animation style of both incarnations and incidental music soundtrack are completely identical, although the voice actors are different. One seeming inconsistency is Norman Osborn (The Green Goblin). In this series, he is portrayed similarly in the comics: wearing a costume and  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Miles Morales is voiced by Donald Glover and Zac Siewert in different animated series. Kid Arachnid is voiced by Ogie Banks."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about voice actors but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2422,
+      "completion_tokens": 149,
+      "total_tokens": 2571
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1061,
+        "completion_tokens": 60,
+        "total_tokens": 1121
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1361,
+        "completion_tokens": 89,
+        "total_tokens": 1450
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:39.082135",
+        "prompt_tokens": 1061,
+        "completion_tokens": 60,
+        "total_tokens": 1121,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:40.003176",
+        "prompt_tokens": 1361,
+        "completion_tokens": 89,
+        "total_tokens": 1450,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:38.001098",
+  "last_updated_at": "2026-04-18T20:07:40.003564"
+}

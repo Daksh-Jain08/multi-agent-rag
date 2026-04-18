@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0061",
+  "query": "who has the highest paid contract in the nba",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "NBA Player Salaries - National Basketball Association - ESPN 2024-2025 Player Salaries ; 1, Stephen Curry, PG, Golden State Warriors, $55,761,216 ; 2, Joel Embiid, C \u00b7 Philadelphia 76ers, $51,415,938.",
+      "source_url": "https://www.espn.com/nba/salaries",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "NBA Contracts - Spotrac.com A real-time, sortable list of NBA contracts including total value, guaranteed money, and complete salary breakdowns. This website is not directly or indirectly affiliated, associated, or connected in any way to Major League Baseball, the National Basketball Association, the National Football League or the National Hockey League. Use of any marks, trademarks, or logos on this website shall not constitute a sponsorship or endorsement by the trademark holder.",
+      "source_url": "https://www.spotrac.com/nba/contracts",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "NBA Player Salaries - HoopsHype NBA Player Salaries ; 1. Stephen Curry, $55,761,217 ; 2. Nikola Jokic, $51,415,938 ; 2. Joel Embiid, $51,415,938 ; 4. Kevin Durant, $51,179,020 ...",
+      "source_url": "https://hoopshype.com/salaries/players/",
+      "timestamp": "2025-04-03"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Highest Paid Players in NBA History - Opta Analyst 1. Stephen Curry, Golden State Warriors ($354,721,977) ... Curry tops the list of highest career earnings for one team, and he'll likely continue ... And with the success the Warriors have had with him, his deals have been the definition of a win-win. 5. Russell Westbrook ($340,265,800) Yet another teammate of Durant\u2019s made this list (and James Harden just missed it!). The majority of Westbrook\u2019s earnings come from his time with the Oklahoma City Thunder, where he signed an $86 million max deal and won an MVP. He then signed a designated veteran extension worth over $206 million and was traded by the Thunder a year later. The rest of this tremendous contract was paid by the Rockets, Wizards and Lakers, as Westbrook has continued to bounce around the league spending time with the Clippers and Nuggets. Highest Career Earnings for One Franchise 1. Stephen Curry, Golden State Warriors ($354,721,977) Curry tops the list of highest career earnings for one team, and he\u2019ll likely continue to add to that lead. His current deal just missed out on the top-five largest contracts ever, and he finally passed Bryant for the most earned all with one team in 2022-23. 2. Kobe Bryant, Los Angeles Lakers ($323,312,307) Bryant just missed the top five in career earnings, but he ranks second on the list of career earnings for one team. The Black Mamba spent the entirety of his 20-year career with the Lakers and was a part of five championship teams. The Lakers rewarded him by paying him handsomely until he decided to retire following the 2015-16 season. 3. Giannis Antetokounmpo, Milwaukee Bucks ($283,265,122) With the average annual value of Antetokounmpo\u2019s current contract among the highest in the league, we can expect him to continue to rise up this list for years to come if he stays with the Bucks.",
+      "source_url": "https://theanalyst.com/2024/11/the-highest-paid-players-in-the-nba",
+      "timestamp": "2024-11-11"
+    },
+    {
+      "doc_id": "d5",
+      "text": "List of highest-paid NBA players by season - Wikipedia Michael Jordan holds the largest 1-year contract in NBA history, LeBron James is the highest career earner, and Stephen Curry is the highest season earner as ... The highest-paid NBA players by season has recently eclipsed $40 million. Wilt Chamberlain has the most seasons leading the league with 8. Michael Jordan holds the largest 1-year contract in NBA history, LeBron James is the highest career earner, and Stephen Curry is the highest season earner as well as the largest multi-year contract holder in NBA history. George Mikan became the first player to earn $15,000 per season in the 1948\u201349 season. Wilt Chamberlain was the first player to receive $100,000 in the 1965\u201366 season. That same season, Bill Russell became just the second player to receive over $100,000. Moses Malone & Bill Walton were the first players to earn $1 million in a season, they were paid exactly $1,000,000 in the 1979\u201380 season. Larry Bird became the first player to earn $5 million or more with a salary of $7,070,000 in the 1991\u201392 season. Magic Johnson became the first player to earn $10 million or more in the 94\u201395 season with a salary of $14,660,000. Patrick Ewing became the first player to earn $15 million or more in the 95\u201396 season with a salary of $18,724,000. Michael Jordan became the first NBA player to sign a contract worth over $20 million and $30 million in a season (1996\u201397) and earned $33,140,000 in the 1997\u201398 season, setting the record for the largest 1-year contract in NBA history, and held the overall record for over 20 years. Kobe Bryant became just the second player to eclipse $30 million when the 2013\u201314 season began.[1]LeBron James became the third in the 2016\u201317 season.",
+      "source_url": "https://en.wikipedia.org/wiki/List_of_highest-paid_NBA_players_by_season",
+      "timestamp": "2025-03-07"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Stephen Curry is the only player in NBA history to be the highest ... Stephen Curry is the only player in NBA history to be the highest-paid for eight consecutive seasons 2024-25: $55.8M 2023-24: $52M ...",
+      "source_url": "https://www.reddit.com/r/NBATalk/comments/1fkdphi/stephen_curry_is_the_only_player_in_nba_history/",
+      "timestamp": "2024-09-19"
+    },
+    {
+      "doc_id": "d7",
+      "text": "NBA Highest-Paid Players 2024-25: Curry Passes LeBron With $156M Curry will have the highest playing salary in the NBA for the eighth straight year; his Golden State deal is worth $55.8 million this season. NBA Highest-Paid Players 2024-25: Steph Passes LeBron With $156M This is the first time since the 2012-13 season that someone besides LeBron James is the NBA's highest-paid player from salaries and endorsements. Illustration by Lorenzo Gordon, photos courtesy of Getty Images Stephen Curry and LeBron James are the greatest players of their generation, with a combined six NBA MVP Awards and 16 NBA Finals appearances. They paired up for the first time this summer in a competitive situation\u2014All-Star Games don\u2019t count\u2014to lead the U.S. to its fifth straight Olympic gold medal. The duo have also laid the blueprint for the modern-day NBA star to build a legacy off the court with endorsements and equity in a myriad of businesses on top of their max-level playing salaries. They will once again be the NBA\u2019s two highest-paid players this season, but the usual order of the pairing has been flipped, with Curry set to earn an estimated $155.8 million and James at $133.7 million from salaries and off-court incomes. James had been the NBA\u2019s top earner each of the past 11 seasons, with Kobe Bryant in 2012-13 the last player to finish ahead of LeBron before Curry this year. Overall, the top 15 players in the league will earn a combined $1.13 billion in salaries and endorsements, up 11% from last year. Giannis Antetokounmpo ($103.8 million), Kevin Durant ($97.9 million) and Damian Lillard ($66.8 million) round out the top five. Curry will have the highest playing salary in the NBA for the eighth straight year; his Golden State deal is worth $55.8 million this season. This summer, he signed a one-year extension with the Warriors that will pay the two-time NBA MVP $62.6 million for the 2026-27 season and push his career earnings from playing salaries and endorsements past $1 billion.",
+      "source_url": "https://www.sportico.com/personalities/athletes/2024/nba-highest-paid-players-2024-25-steph-curry-lebron-james-1234801994/",
+      "timestamp": "2024-10-22"
+    },
+    {
+      "doc_id": "d8",
+      "text": "2024-25 NBA Player Contracts - Basketball-Reference.com 2024-25 NBA Player Contracts. 2024-25 Salary Cap: $140,588,000 (Salary Cap History). Average Salary: $10,398,834. Median Salary: $4,935,960. Largest Guarantee: ...",
+      "source_url": "https://www.basketball-reference.com/contracts/players.html",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d9",
+      "text": "NBA's biggest contracts: Jayson Tatum overtakes Jaylen Brown for ... Largest contracts in NBA history \u00b7 1. Jayson Tatum, Celtics: Five years, $314 million \u00b7 2. Jaylen Brown, Celtics: Five years, $285 million \u00b7 3. NBA's biggest contracts: Jayson Tatum overtakes Jaylen Brown for largest deal in league history George's new deal with the Sixers makes him the seventh-highest paid player for next season The NBA offseason is underway, which means players around the league are agreeing to massive contracts to either stay with their current team or join a different squad. There was even a record-setting contract on Monday. The Celtics are planning to sign superstar Jayson Tatum to a five-year, $314 million supermax deal. It's the largest contract in NBA history in terms of total value, and Tatum takes that record from teammate Jaylen Brown. Brown signed a supermax contract last season that is projected to be worth $286 million. Free agency also brought a big payday for Paul George, who signed a four-year, $211.58 million deal with the 76ers, in a move that shakes up both conferences. George becomes one of the highest-paid players in the league ahead of next season, and his average annual value (AAV) of $52.3 million is just behind new teammate Joel Embiid, who makes $53.3 million per season on his current deal. We'll see what LeBron James ultimately signs for, because he could very well crack the list of highest-paid players for next season, too. Luka Doncic figures to pass Tatum next summer when he's eligible for a supermax extension with the Mavs, and both Anthony Davis and Giannis Antetokounmpo begin three-year extensions in the 2025-26 season that pay them more than $58 million annually. So the list of highest-paid players is set to change. But let's take a look at where things stand. Below are the biggest contracts in NBA history in terms of total value. All of these contracts have been signed or agreed to in the last three years. Largest contracts in NBA history Contract numbers below are based off total value. 1. Jayson Tatum, Celtics: Five years, $314 million 2. Jaylen Brown, Celtics: Five years, $285 million 3.",
+      "source_url": "https://www.cbssports.com/nba/news/nbas-biggest-contracts-jayson-tatum-overtakes-jaylen-brown-for-largest-deal-in-league-history/",
+      "timestamp": "2024-07-01"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Jayson Tatum has the largest contract in NBA history with a five-year deal worth $314 million."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes a factual claim about Jayson Tatum's contract but provides no citations. The claim is present in document d9, but it was not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 6744,
+      "completion_tokens": 154,
+      "total_tokens": 6898
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3224,
+        "completion_tokens": 56,
+        "total_tokens": 3280
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3520,
+        "completion_tokens": 98,
+        "total_tokens": 3618
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:21:50.429079",
+        "prompt_tokens": 3224,
+        "completion_tokens": 56,
+        "total_tokens": 3280,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:21:51.498495",
+        "prompt_tokens": 3520,
+        "completion_tokens": 98,
+        "total_tokens": 3618,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:21:49.415546",
+  "last_updated_at": "2026-04-18T18:21:51.498932"
+}

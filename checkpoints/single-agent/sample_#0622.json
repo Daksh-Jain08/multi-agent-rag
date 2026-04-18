@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0622",
+  "query": "When was the american war of independence fought?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "resurfaced slightly in the late 20th century. This terminology aims to parallel usage of the term \"American War for Independence\". A popular poem published in the early stages of hostilities was \"South Carolina\". Its prologue referred to the war as the \"Third War for Independence\" (it named the War of 1812 as the second such war). On November 8, 1860, the \"Charleston Mercury\", a contemporary southern newspaper, stated that \"The tea has been thrown overboard. The Revolution of 1860 has been initiated.\" Some Southern Unionists and northerners used \"The War for the Union\", the title of a December 1861 lecture",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d2",
+      "text": "trying to escape a British squadron; Latouche was taken prisoner. The British were able to salvage her and take her into service as HMS \"Aigle\". \"Gloire\" managed to escape, together with a prize, , that the French had captured on their way into the Delaware. Action of 5 September 1782 The Action of 5 September 1782 took place during the American War of Independence between two French Navy frigates, \"Aigle\" and \"Gloire\", and a lone British 74-gun ship of the line HMS \"Hector\". In a two-day battle, the two frigates severely damaged \"Hector\" and only failed to captured her when",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2022-06-21"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Spanish American wars of independence The Spanish American wars of independence were the numerous wars against Spanish rule in Spanish America with the aim of political independence that took place during the early 19th century, after the French invasion of Spain during Europe's Napoleonic Wars (a revolutionary wave). Although there has been research on the idea of a separate Spanish American (\"creole\") identity separate from that of Iberia, political independence was not initially the aim of most Spanish Americans, nor was it necessarily inevitable. After the restoration of rule by Ferdinand VII in 1814, and his rejection of the Spanish",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2021-01-28"
+    },
+    {
+      "doc_id": "d4",
+      "text": "and France has fully \"integrated\" most of its former colonies as fully constituent \"departments\" of France. The United States of America declared independence from Great Britain on July 2, 1776 (although the event is now commemorated on July 4, the date when the Declaration of Independence was officially adopted by Congress), in so doing becoming the first independent, foreign-recognized nation in the Americas and the first European colonial entity to break from its mother country. Britain formally acknowledged American independence in 1783 after its defeat in the American Revolutionary War. Although initially occupying only the land east of the Mississippi",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Timeline of the Spanish American wars of independence This is a timeline of events related to the Spanish American wars of independence. Numerous wars against Spanish rule in Spanish America took place during the early 19th century, from 1808 until 1829, directly related to the Napoleonic French invasion of Spain. The conflict started with short-lived governing juntas established in Chuquisaca and Quito opposing the composition of the Supreme Central Junta of Seville. When the Central Junta fell to the French, numerous new Juntas appeared all across the Americas, eventually resulting in a chain of newly independent countries stretching from Argentina  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "1990"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The American War of Independence was fought between 1775 and 1783, with Britain formally acknowledging American independence in 1783 after its defeat in the American Revolutionary War."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the dates of the American War of Independence, but no citations were provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2400,
+      "completion_tokens": 176,
+      "total_tokens": 2576
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1043,
+        "completion_tokens": 74,
+        "total_tokens": 1117
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1357,
+        "completion_tokens": 102,
+        "total_tokens": 1459
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:53.942619",
+        "prompt_tokens": 1043,
+        "completion_tokens": 74,
+        "total_tokens": 1117,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:54.972347",
+        "prompt_tokens": 1357,
+        "completion_tokens": 102,
+        "total_tokens": 1459,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:53.060099",
+  "last_updated_at": "2026-04-18T20:09:54.973271"
+}

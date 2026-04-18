@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0146",
+  "query": "Is infinite scrolling a good web design technique?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "UX: Infinite Scrolling vs. Pagination | by Nick Babich | UX Planet UX: Infinite Scrolling vs. Pagination \u201cI have a lot of content to display, should go for infinite scrolling or pagination for my content?\u201d Some designers still not sure which method to choose for their project. Each method has their strengths and weaknesses and in this article we\u2019ll overview the two methods and decide which one we should use for our projects. Infinite Scrolling Infinite scrolling is a technique that allows users to scroll through a massive chunk of content with no finishing-line in sight. This technique simply keeps refreshing a page when you scroll down it. No matter how good it sounds, the technique isn\u2019t a one-size-fits-all solution for every site or app. Infinite scrolling Pros #1: User Engagement and Content Discovery When you use scrolling as your prime method of exploring the data, it may make the user to stay longer on your web page, and so increase user engagement. With the popularity of social media, massive amounts of data are being consumed; infinite scrolling offers an efficient way to browse that ocean of information, without extra clicks/taps. Infinite scrolling is almost a must-have feature for discovery interfaces. When the user does not search for something specific so they need to see a large amount of items to find the one thing they like. Pinterest\u2019s ocean of pins You may measure the benefits of infinite scrolling with the example of a Facebook news feed. Users know that they won\u2019t get to see everything on the feed because the content is updated too frequently. With infinite scrolling, Facebook is doing it\u2019s best to expose as much information as possible to the users and they are scanning and consuming this flow of information. Facebook news feed keeps user scrolling more and more for content update Pros #2: Scrolling is Better Than Clicking Scrolling has lower interaction cost than clicking/tapping\u2014the mouse wheels or touchscreens make scrolling faster and easier than clicking. Plus, infinite scroll can be addictive. For a continuous and lengthy content, like a tutorial, scrolling provides even better usability than slicing up the text to several separate screens or pages. For clicking/tapping: each content update requires an additional click action and wait time for a page to load. For scrolling: single scrolling action for content update. Image credit:",
+      "source_url": "https://uxplanet.org/ux-infinite-scrolling-vs-pagination-1030d29376f1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Infinite Scroll & Accessibility! Is It Any Good? \u2022 DigitalA11Y Infinite Scroll & Accessibility! Is It Any Good? I was thinking of implementing infinite scroll on my home page & remove pagination but then I thought I need to make this accessible. There is no point providing a feature & later realizing that it is not accessible for majority of users. My main goal was to see if I can make infinite scroll accessible for people with disabilities to use & then I went on bit of hunt to research on Google. What I found changed my mind & I think infinite scroll is bad for people with disabilities & wide variety of users. What is Infinite Scroll Infinite scrolling is a web-design technique that loads content continuously as the user scrolls down the page, eliminating the need for pagination. The success of infinite scrolling on social media sites such as Twitter have made this technique popular, but that doesn\u2019t mean you should do it too. Source: Infinite Scrolling is Not for Every Website While ARIA1.1 introduced a Feed role which enables infinite scroll accessible for screen reader users, reading the blog post by Adrian \u201cSo You Think you\u2019ve built a Good Infinite Scroll\u201d changed my mind. Here is a checklist that Adrian provided that one can refer before implementing infinite scroll. Can the user hit \u201cback\u201d and return to the exact same place? Is there paging for when the JavaScript breaks? Does the page have footer? Can a keyboard user access all other content on the page? Can you share a URL to a specific place on the page? Can a user easily jump ahead a few \u201cpages\u201d to quickly get to content much further down the list? Does the memory footprint of the page dramatically increase after just a couple new \u201cpages?\u201d Is there a way to disable automatic infinite scrolling and lean on standard paging? Have you conducted any user tests? Are you satisfying a use case that has come from research or user request? Do you have any analytics/tracking to measure success? As a screen reader user I wanted to experience this for myself & found an accessible infinite scroll example here & here are my thoughts. Screen Reader Users Perspective Using a Infinite Scroll I was unable to figure out if there is footer or not. Screen reader kept on going through the content & I got little frustrated after few minutes. There was no end.",
+      "source_url": "https://www.digitala11y.com/infinite-scroll-accessibility-is-it-any-good/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "5 Ways eComm Stores Can Win in the Age of Infinite Scrolling Let\u2019s be honest: after browsing a number of pages, customers get fed up and tired to the point that they quit all results pages. This isn\u2019t the case with infinite scrolling. When merchandizes are exhibited continuously on a single page to the customers, they browse more items and spend more time on your site, which helps in increasing the average time spent by a customer on your website. 4. It offers fast browsing. Consumers prefer fast loading. They just hate to wait for the pages to load. Clicking on the next page numerous times and waiting for lengthy load times can annoy your users. Infinite scrolling solves this problem and keeps adding the next page content automatically. Customers find this way more expedient. It\u2019s an effective way to load data or imageries. This is particularly true for image-heavy websites, as customers won\u2019t need to wait for the entire web page or gallery to be preloaded. Additionally, infinite scrolling works well on mobile, where scrolling is the norm. 5. It's amazing for touchscreen devices. In recent years, touchscreen mobile devices have profoundly dominated keypad devices. Nowadays, almost every consumer possesses a touchscreen mobile phone. This is why infinite scrolling is considered to be the best way and favored over pagination by eCommerce sellers. Take the example of Facebook. It's so simple to just use a thumb to navigate to different pages. 6. It creates more user engagement. When content loads quickly, it makes a customer stay longer on the page. As a result, it increases customer engagement. Owing to the continuous appearance of products, customers find themselves interacting with your store for a longer period. How to Take Advantage of Infinite Scrolling Infinite scrolling has become a design trend for many websites and social networks. It\u2019s also a useful technique for keeping users on your page for longer. But can it be used effectively for your eCommerce store? Follow these tips to make the most of infinite scrolling UX design: 1. Make it user-friendly. Keep your thumbnails a practical size and optimize your images for the web for better page load speeds. Make your galleries as accessible as possible. Consider adding Filtering with Media tags and categories to help narrow down a search. Don\u2019",
+      "source_url": "https://www.threekit.com/blog/5-ways-ecomm-stores-can-win-with-infinite-scrolling",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "UX Best Practice for Infinite Scrolling - UX Pickle UX Best Practice for Infinite Scrolling Infinite scrolling is a popular UX pattern that can be seen in a variety of online applications. It allows users to scroll through a large amount of content without having to click through pagination links. Although it can provide a smoother and more engaging user experience, it\u2019s important to know when to use it and when to avoid it. When used correctly, infinite scrolling can be an effective way to keep users engaged with your content. However, there are also several potential drawbacks that you should be aware of before implementing them. Some of the key considerations for using infinite scrolling include: 1. The type of content you\u2019re displaying: Infinite scrolling works best for content that can be easily divided into small, digestible chunks. For example, it\u2019s a good choice for displaying a feed of news articles or social media updates. However, it\u2019s not as well suited for content that requires more attention, such as long-form articles or complex data sets. 2. The user\u2019s goal: Infinite scrolling can be beneficial when the user\u2019s goal is to consume as much content as possible, such as when they\u2019re browsing a social media feed. However, if the user is trying to find specific information, infinite scrolling can actually make it more difficult to locate the desired content. 3. The device being used: Infinite scrolling works well on touch-based devices, such as smartphones and tablets. However, it can be more challenging to use on desktop computers, where users are accustomed to using traditional scroll bars. 4. The page layout: Infinite scrolling can be an effective way to display a lot of content in a limited amount of space. However, it\u2019s important to make sure that the content is still easy to scan and navigate. Otherwise, users may become overwhelmed or lost. When used correctly, infinite scrolling can provide a smoother and more engaging user experience. However, it\u2019s important to consider the potential drawbacks before implementing them. If you do decide to use infinite scrolling, make sure to test it with your target audience to ensure that it meets their needs. When To Use Infinite Scrolling There are certain situations when infinite scrolling can be beneficial from a UX perspective. Here are some examples: 1.",
+      "source_url": "https://uxpickle.com/ux-best-practice-for-infinite-scrolling/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Infinite Scrolling & Role=Feed Accessibility Issues | Deque Infinite Scrolling & Role=Feed Accessibility Issues GO: The digital landscape is constantly growing and evolving in the ways it delivers content. With fewer clicks, but more of scroll wheels, designers are experimenting more and more, trying to make users happy with different experiences. One such design is the \u2018Infinite Scrolling\u2019 \u2013 one that loads the content continuously as users scroll down the webpage/screen. This was designed to eliminate the need for paginations, and it had great success in social media by and large. While eliminating paginations, this design, when implemented in eCommerce and other domains, eliminated certain user groups like people with disabilities from accessing such sites at length. The World Wide Web Consortium\u2019s (W3C) WAI-ARIA 1.1 came to the rescue with role=\u201dfeed\u201d, which would help screen reader users access the infinite scrolling content. But does that fix the accessibility of infinite scrolling for types of disabilities? Let\u2019s examine! Making Infinite Scroll Accessible Role=feed makes infinite scroll accessible for screen reader users. Infinite scrolling allows a user to continuously scroll through a web page without having to click through pages of content. Infinite scrolling can be found on many popular social media sites, like Twitter. However, Infinite scrolling is not always the best option for your website. Why the Infinite Scroll is an Accessibility Violation Infinite scroll helps us avoid pagination so users can keep on scrolling our content without clicking another link. Because of this, marketing and design teams jumped on this technique when this design pattern came into existence. The infinite scroll was not just on Twitter and Facebook\u2013 soon it moved to content-rich sites like news portals, blogs, and e-commerce stores. However, infinite scroll is not perfect, and, depending on who you ask, it can actually be problematic. Infinite scroll was and is not accessible to a wide variety of users with disabilities. While role=feed makes infinite scroll accessible for screen reader users, it leaves a number of users with disabilities behind: Keyboard-Only Users: keyboard-only users cannot access the content inside an infinite scrolling feed. When tabbing from element to another element, the focus moves from the last element that is currently visible on the screen to the next element in the DOM order.",
+      "source_url": "https://www.deque.com/blog/infinite-scrolling-rolefeed-accessibility-issues/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Stop building websites with infinite scroll! - LogRocket Blog I used do a search term and spend weeks looking down the results, now I can\u2019t as it limits the results and doesn\u2019t have page numbers where I could resume from. Fortunately photostreams still do. Even on phones/tablets, there comes a point where having to constantly swipe gets frustrating where a simple tap on next or a page number would be so much easier and less cramp inducing. Infinite scroll is a quick a dirty solution that people don\u2019t even realise has made things worse. I had this fractionation for a while, and did not know the exact terms to describe it till today. I\u2019m in fact searching if anyone else share the feeling\u2026 I think it\u2019s crazy infinite scrolling takes over(change from) the pagination on many of web applications. Developers somehow assume infinite scrolling is always better, when not so. A lot of times I prefer to know where I\u2019m up to for the overall contents I\u2019m reading through, it\u2019s very frustrating with infinite scrolling, which I can easily getting lost. With the pagination I can keep track of how many pages I have read or which page I\u2019m up to, in case I need to return to the same site to resume reading, next day say. It takes so much more time for me to search for certain e-mails from few years back, until I gave up last night, because hotmail has been changed to infinite scrolling. I use to able to pin point by jump to certain pages to narrow down search fairly quickly with the pagination before the new design \u2018improvement\u2019 \ud83d\ude41 I do fully agree with the author. Infinite scroll looks as the easiest way to use a web page at a first glance, but when You start using it seriously, bookmark it, save or do whatever beyond \u201cjust scrolling\u201d it becomes a nightmare. The one important down-side of infinite scroll which is not mentioned by an author but reminded by Tony is that You can\u2019t just \u201cjump\u201d forward. With paginated navigation You can move to next page or quickly jump many pages forward. With infinite scroll You need to hurt Your fingers and load Your net and RAM with a huge amount of data You just need to skip. Pure waste of time, bandwidth, energy and money.",
+      "source_url": "https://blog.logrocket.com/infinite-scroll/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Why did infinite scroll fail at Etsy? - danwin.com (Or perhaps they hoped that each item is evaluated for purchase independently, leading to possible multiple purchases.) However, it seems far more likely that the mental mechanism is to choose the best item among those displayed, in which case an infinite scroll means that there is no natural decision point (which loses a number of users), and for those who make their own decision point, there\u2019s Travis\u2019 point about the difficulty of recalling all the candidates and then re-finding a selected candidate that is remembered and chosen. Two significant things about infinite scroll came to mind while I read this post, both based on our customer testing: 1) On mobile devices, while using a responsive design, infinite scroll can be a PITA because one loses the ability to access content that is shifted from a sidebar location (on desktop) to below the content area (on a mobile device). When reaching the end of the content container div, the infinite scroll \u201ckicks-in\u201d and causes the viewport to fill-up with more results. A virtual \u201crace to the footer\u201d takes place\u2026 not good for user interaction; 2) Even when using breadcrumbs, infinite scroll definitely removes the ability to drill-down and then dwell upon certain items. The \u201ccost\u201d of clicking on an item in infinite scroll is that you have to \u201cgo back to square one\u201d when you are done, instead of moving horizontally or incrementally back a step or two, as you can with traditional content display. Infinite scroll HAS worked really well for us when there is short, self-contained content that does not require any more details than what appears on the front page (such as embedded video thumbnails that expand to fill screen without losing one\u2019s place on page one). I thought the lightbox idea in the comments above sounded very promising! To me, the most likely reason is the last one, that its harder to navigate back up the list to where you remember something good once you\u2019ve decided you\u2019re done searching. Maybe some dynamic anchor links that jump you back up through the results would enable users to stay navigated?",
+      "source_url": "https://danwin.com/2013/01/infinite-scroll-fail-etsy/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Deadly scroll without end: How infinite scroll hacks your brain and ... What is it? It\u2019s a feature that allows us to continuously scroll down a page, removing any need to press \u201crefresh\u201d or hit a \u201cnext page\u201d button. This plug-in, and the extended screen time it spawns for users, has the world at its feet. Yes, it has known benefits: it reduces interruptions, cuts interaction cost, and is perfect for mobile devices. It is the most-used plug-in on websites and apps, thus enabling content pre-defined by an algorithm to \u201cstream\u201d constantly to our brain. Image Credit: Vijith Pulikkal | Gulf News Dopamine-inducing kick When it came out, many user interface designers considered it heaven-sent. Now many people, including Aza Raskin himself, credited as its inventor, advise extra caution. Why? Amid a phenomenal dopamine-inducing kick with which infinite scroll hacks our brains, recent studies are piling up to show its ugly head. For one, from being an extremely helpful tool for web developers, infinite scroll has turned into a time suck. From helping cut interaction costs, it\u2019s become an invisible finger that fuels social comparison, triggers anxiety and information overload. Aza Raskin in 2019: He is credited as the inventor of the infinite scroll in 2006. How it gets us hooked Today, these agents of instant gratification continue to invade minds in every nook and cranny of the globe, especially the youngsters, researchers warn. This deadly scroll, it turns out, allows people quick access to a variety of rewards. Infinite scroll is the most-used \"plug-in\" on websites and apps, thus enabling content pre-defined by an algorithm to \u201cstream\u201d constantly to our brain. Image Credit: Reuters The negative effects, researchers warned, can be particularly dangerous for vulnerable populations, such as children and teenagers, as well as people with mental health conditions such as anxiety and depression.",
+      "source_url": "https://gulfnews.com/special-reports/deadly-scroll-without-end-how-infinite-scroll-hacks-your-brain-and-why-it-is-bad-for-you-1.1676965239566",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "What is doom scrolling, and how can we stop? - The Washington Post So, Ahn explains, we continue looking for answers by clicking on recommended content rather than searching separately for every piece of information. And in doing so, we \u201creinforce the [artificial intelligence or algorithm behind the platform] to think that this is the type of news we want\u201d \u2014 unintentionally attracting more of the same. In fact, the continued clicking is part of the plan. \u201cTechnology has become more addictive (by design),\u201d Presnall writes. The new content continuously loading at the bottom of the screen, a Web design technique known as infinite scroll, \u201celiminates those brief moments when we might turn to another activity.\u201d Advertisement McLaughlin explains that the infinite scroll design also exploits the psychological phenomenon known as automaticity. \u201cWe all have automatic behaviors, from tying our shoes to driving home from work. If you\u2019ve ever meant to stop at the grocery store, but then suddenly found yourself in your driveway instead, it\u2019s because the \u2018automatic\u2019 drive home took over your intent to get groceries. You didn\u2019t even notice it happening,\u201d she writes. \u201cThat\u2019s the definition of automatic behavior. It\u2019s not accessible to your conscious mind, and therefore when you\u2019re in it, it\u2019s almost impossible to stop.\u201d In a similar way, \u201cdoom-scrolling is an automatic behavior, where you lose the sense of time and you\u2019re not consciously choosing to continue.\u201d This is further complicated by another element of app design: rewards. \u201cAs you scroll, occasionally you get rewarded,\u201d McLaughlin writes. \u201cThat reward could be a cute photo of a baby or a puppy, but even emotions like outrage can feel like a reward. A continuous social media feed is designed to give you just enough of those rewards to keep you there.\u201d Doom-scrolling illustrates how technology has been designed to work against us, McLaughlin says, but understanding our basic cognitive limits can help us design technology that better supports us. For example, making infinite scrolling an option that has to be turned on \u2014 rather than the default \u2014 would be better for users.",
+      "source_url": "https://www.washingtonpost.com/lifestyle/wellness/coronavirus-doom-scrolling-stop/2020/07/29/2c87e9b2-d034-11ea-8d32-1ebf4e9d8e0d_story.html",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Infinite scrolling can be a good web design technique, enhancing user engagement and content discovery by allowing continuous content loading without extra clicks, which is particularly effective on mobile and touchscreen devices for browsing large amounts of data. However, it presents significant drawbacks, including accessibility issues for users with disabilities, difficulty in navigation and returning to specific content, potential for information overload, and can lead to addictive behavior or 'doom-scrolling'. Its effectiveness depends heavily on the type of content and user goals, making it unsuitable for content requiring focused attention or specific information retrieval."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. Behavior adherence is low due to missing citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 10988,
+      "completion_tokens": 232,
+      "total_tokens": 11220
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 5303,
+        "completion_tokens": 141,
+        "total_tokens": 5444
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 5685,
+        "completion_tokens": 91,
+        "total_tokens": 5776
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:26:08.794262",
+        "prompt_tokens": 5303,
+        "completion_tokens": 141,
+        "total_tokens": 5444,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:26:10.049680",
+        "prompt_tokens": 5685,
+        "completion_tokens": 91,
+        "total_tokens": 5776,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:26:06.856891",
+  "last_updated_at": "2026-04-18T18:26:10.050204"
+}

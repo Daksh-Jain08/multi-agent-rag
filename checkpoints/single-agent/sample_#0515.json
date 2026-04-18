@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0515",
+  "query": "When did the medieval times start and finish?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Medieval Times Medieval Times Dinner and Tournament is a family dinner theater featuring staged medieval-style games, sword-fighting, and jousting. Medieval Times Entertainment, the holding company, is headquartered in Irving, Texas. There are nine locations, of which eight in the United States are built as replica 11th-century castles and one is located in Toronto, Ontario, Canada inside the CNE Government Building. Shows are performed by a cast of about 75 actors and 20 horses in each location. The first Medieval Times location opened in Orlando on December 20, 1983. In 1989, this location was expanded with a unique medieval village not",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "the period has inspired a considerable community of historical re-enactors, part of England's growing heritage industry. England in the Middle Ages England in the Middle Ages concerns the history of England during the medieval period, from the end of the 5th century through to the start of the Early Modern period in 1485. When England emerged from the collapse of the Roman Empire, the economy was in tatters and many of the towns abandoned. After several centuries of Germanic immigration, new identities and cultures began to emerge, developing into kingdoms that competed for power. A rich artistic culture flourished under",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1997-03-04"
+    },
+    {
+      "doc_id": "d3",
+      "text": "High Middle Ages The High Middle Ages, or High Medieval Period, was the period of European history that commenced around 1000 and lasted until around 1250. The High Middle Ages were preceded by the Early Middle Ages and were followed by the Late Middle Ages, which by convention, ended around 1500. Key historical trends of the High Middle Ages include the rapidly increasing population of Europe, which brought about great social and political change from the preceding era, and the Renaissance of the 12th century, including the first developments of rural exodus and of urbanization. By 1250, the robust population",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Late Middle Ages The Late Middle Ages or Late Medieval Period was the period of European history lasting from 1250 to 1500 AD. The Late Middle Ages followed the High Middle Ages and preceded the onset of the early modern era (and, in much of Europe, the Renaissance). Around 1300, centuries of prosperity and growth in Europe came to a halt. A series of famines and plagues, including the Great Famine of 1315\u0393\u00c7\u00f41317 and the Black Death, reduced the population to around half of what it was before the calamities. Along with depopulation came social unrest and endemic warfare. France",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d5",
+      "text": "BC, the Neo-Assyrian Empire forms in Mesopotamia. In 800 BC, the rise of Greek city-states begins. In 776 BC, the first recorded Olympic Games are held. The post-classical era, also known as the Middle Ages, is a historical period following the Iron Age, fully underway by the 5th century and lasting to the 15th century, and preceding the early Modern Era. The medieval history is the middle period, or the middle age, in a three-period division of history: Classic, Medieval, and Modern. The precise dates of the beginning, culmination, and end of the medieval history are more or less arbitrarily  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The medieval times, also known as the post-classical era or Middle Ages, began around the 5th century and concluded in the 15th century, preceding the early Modern Era. Specifically, the Early Middle Ages were followed by the High Middle Ages (c. 1000-1250), which in turn was followed by the Late Middle Ages (1250-1500)."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the start and end dates of the medieval times, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2486,
+      "completion_tokens": 224,
+      "total_tokens": 2710
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1063,
+        "completion_tokens": 120,
+        "total_tokens": 1183
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1423,
+        "completion_tokens": 104,
+        "total_tokens": 1527
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:52.917764",
+        "prompt_tokens": 1063,
+        "completion_tokens": 120,
+        "total_tokens": 1183,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:55.256881",
+        "prompt_tokens": 1423,
+        "completion_tokens": 104,
+        "total_tokens": 1527,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:51.704032",
+  "last_updated_at": "2026-04-18T20:05:55.257321"
+}

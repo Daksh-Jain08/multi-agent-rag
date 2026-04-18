@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0463",
+  "query": "Forms the bony structure of the nasal cavity?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "nasofrontal ducts. Often, craniofacial osteoma presents itself through ocular signs and symptoms (such as proptosis). Osteoma An osteoma (plural: \"osteomata\") is a new piece of bone usually growing on another piece of bone, typically the skull. It is a benign tumor. When the bone tumor grows on other bone it is known as \"homoplastic osteoma\"; when it grows on other tissue it is called \"heteroplastic osteoma\". Osteoma represents the most common benign neoplasm of the nose and paranasal sinuses. The cause of osteomata is uncertain, but commonly accepted theories propose embryologic, traumatic, or infectious causes. Osteomata are also found in",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2012-02-03"
+    },
+    {
+      "doc_id": "d2",
+      "text": "sinus, allowing the animal to exhale air through the lower hole of the nasal vestibule. The upper half of the nasal cavity was the main respiratory tract, allowing air to enter via the upper hole of the nasal vestibule. An unusually strongly ossified hard palate was present. The air passages may have allowed the animal to cool the air that it breathed and limit water loss. The hard palate allowed it to eat tough plants. All this suggested that it lived in a hot, arid, environment. There is even some evidence that the animal may have possessed a salt gland",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1994"
+    },
+    {
+      "doc_id": "d3",
+      "text": "spine. Anterior nasal aperture The anterior nasal aperture (piriform or pyriform aperture) is a heart- or pear-shaped opening in the human skull. Its long axis is vertical, and narrow end upward; in the recent state it is much contracted by the lateral nasal cartilage and the greater and lesser alar cartilages of the nose. It is bounded above by the inferior borders of the nasal bones; laterally by the thin, sharp margins which separate the anterior from the nasal surfaces of the maxilla; and below by the same borders, where they curve medialward to join each other at the anterior",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2025"
+    },
+    {
+      "doc_id": "d4",
+      "text": "osteoderms of the snout\u0393\u00c7\u00f6completely roofed the enlarged opening of the nostrils, giving a bulbous appearance. The nostrils also had an intranarial septum, which separated the nasal passage from the sinus. Each side of the snout had five sinuses, four of which expanded into the maxilla bone. The nasal cavities (or chambers) of \"Ankylosaurus\" were elongated and separated by a septum at the midline, which divided the inside of the snout into two mirrored halves. The septum had two openings, including the choanae (internal nostrils). The maxillae expanded to the sides, giving the impression of a bulge, which may have been",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2013"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Rhinolith A rhinolith is a calculus present in the nasal cavity. The word is derived from the roots \"rhino-\" and \"-lith\", literally meaning \"nose stone\". It is an uncommon medical phenomenon, not to be confused with dried nasal mucus. A rhinolith usually forms around the nucleus of a small exogenous foreign body, blood clot or secretion by slow deposition of calcium and magnesium salts. Over a period of time, they grow into large irregular masses that fill the nasal cavity. They may cause pressure necrosis of the nasal septum or lateral wall of nose. Rhinoliths can cause nasal obstruction, epistaxis,  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2003-11-17"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The bony structure of the nasal cavity includes the nasal bones, which form the superior border of the anterior nasal aperture, and the maxilla, which forms the lateral and inferior borders."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the bony structure of the nasal cavity but lacks any supporting citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2389,
+      "completion_tokens": 164,
+      "total_tokens": 2553
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1040,
+        "completion_tokens": 69,
+        "total_tokens": 1109
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1349,
+        "completion_tokens": 95,
+        "total_tokens": 1444
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:33.455021",
+        "prompt_tokens": 1040,
+        "completion_tokens": 69,
+        "total_tokens": 1109,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:34.396102",
+        "prompt_tokens": 1349,
+        "completion_tokens": 95,
+        "total_tokens": 1444,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:32.562537",
+  "last_updated_at": "2026-04-18T18:42:34.396835"
+}

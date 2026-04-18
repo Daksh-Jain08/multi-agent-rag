@@ -1,0 +1,118 @@
+{
+  "sample_id": "#0195",
+  "query": "Does lactose intolerance lead to osteoporosis?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Lactose intolerance - Illnesses & conditions | NHS inform 20 to 40, although babies and young children can also be affected. Is it an allergy? Lactose intolerance isn't the same as a milk or dairy allergy. Food allergies are caused by your immune system reacting to a certain type of food. This causes symptoms such as a rash, wheezing and itching. If you're allergic to something, even a tiny particle can be enough to trigger a reaction, while most people with lactose intolerance can still consume small amounts of lactose without experiencing any problems (although this varies from person to person). Treating lactose intolerance There's no cure for lactose intolerance, but limiting your intake of food and drink containing lactose usually helps to control the symptoms. Depending on what dairy products you're able to eat, you may also require additional calcium and vitamin D supplements to keep your bones strong and healthy. In some cases, your GP may refer you to a dietitian for further advice. In addition to dietary changes, lactase substitutes may also be helpful. These are drops or tablets you can take with your meals or drinks to improve your digestion of lactose. Complications of lactose intolerance Milk and other dairy products contain calcium, protein and vitamins such as A, B12 and D. Lactose also helps your body absorb a number of other minerals, such as magnesium and zinc. These vitamins and minerals are important for the development of strong, healthy bones. If you're lactose intolerant, getting the right amount of important vitamins and minerals can prove difficult. This may lead to unhealthy weight loss and put you at increased risk of developing the following conditions: Osteopenia \u2013 where you have a very low bone-mineral density. If osteopenia is not treated, it can develop into osteoporosis. Osteoporosis \u2013 where your bones become thin and weak.",
+      "source_url": "https://www.nhsinform.scot/illnesses-and-conditions/nutritional/lactose-intolerance",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Calcium - Health Professional Fact Sheet Options for increasing calcium intakes in individuals with lactose intolerance include consuming lactose-free or reduced-lactose dairy products, which contain the same amounts of calcium as regular dairy products [1,3]. Those who avoid dairy products because of allergies or for other reasons can obtain calcium from non-dairy sources, such as some vegetables (e.g., kale, broccoli, and Chinese cabbage [bok choi]), canned fish with bones, or fortified foods (e.g., fruit juices, breakfast cereals, and tofu) [1]. However, these individuals typically need to eat foods fortified with calcium or take supplements to obtain recommended amounts [28]. Calcium and Health This section focuses on six health conditions and diseases in which calcium might play a role: bone health in older adults, cancer, cardiovascular disease (CVD), preeclampsia, weight management, and metabolic syndrome. Bone health in older adults Bone is constantly being remodeled. Declining levels of estrogen in women during menopause and for approximately 5 years afterward lead to rates of bone resorption that are higher than rates of bone formation, resulting in a rapid decrease in bone mass [7]. Over time, postmenopausal women can develop osteoporosis, in which bone strength is compromised because of lower BMD and bone quality [1]. Age-related bone loss can also occur in men and lead to osteoporosis, but fracture risk tends to increase in older men about 5 to 10 years later than in older women [1]. Osteoporosis increases the risk of fractures, especially of the hip, vertebrae, and forearms [1,7]. FDA has approved a health claim for the use of supplements containing calcium and vitamin D to reduce the risk of osteoporosis [29].",
+      "source_url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Lactose Intolerance - an overview | ScienceDirect Topics Dietary limitation of calcium-rich foods should be done only in the context of objectively proven lactose intolerance. There is significant variability in the severity of symptoms,14 and many patients with lactose malabsorption are able to consume moderate amounts of lactose without symptoms,15 so both the diagnosis and treatment should be pursued under professional guidance.16 Effects of Lactose on Calcium Absorption Lactose intolerance has been associated with the development of osteoporosis [40] and, more recently, has been shown to be a predictor of fracture [41]. The connection between lactose intolerance and osteoporosis would appear to be due to a reduced calcium intake associated with an avoidance of milk products [41]. It is therefore appropriate to determine whether milk products cause abdominal symptoms as this may be an indicator of lactose intolerance. Another aspect is that in subjects with lactose intolerance, lactose will itself induce calcium malabsorption from about 25 to 20% [42]. This effect may be due to the osmotic effects of the lactose reducing the effective concentration of calcium within the bowel [36]. Interestingly, in normal subjects, lactose may increase calcium absorption from 22 to 36% [42]. Unfortunately, lactose was not compared to other carbohydrates so it is uncertain as to whether this effect is specific to lactose. Lactose Intolerance Lactose intolerance is defined by the occurrence of symptoms after ingestion of lactose, the main carbohydrate in milk. These symptoms may include abdominal pain, bloating, diarrhea, or flatulence. Lactose intolerance is usually secondary to lactose malabsorption caused by a relative deficiency of the disaccharidase lactase, which reduces the ability to digest lactose.",
+      "source_url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/lactose-intolerance",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Three out of four Indians have no milk tolerance: Study | Lucknow ... The SGPGI researchers also relate milk intolerance to poor bone health. \u00e2\u0080\u009cThe real problem is that many lactose intolerant people who consciously or unconsciously avoid milk do not realize that they need a supplement,\u00e2\u0080\u009d he said. The findings reason why one out of three Indian women in 30+ age group suffers from osteopenia, a pre-osteoporosis condition. Orthopaedic department faculty of King George's Medical University, Dr R N Srivastava added that Indians also had a very high rate of hypovitaminosis (deficiency of vitamin D) and dependence on vegetarian diet complicates the problem of weak bones further. \u00e2\u0080\u009cLow vitamin d level means no absorption of calcium, milk being the commonest source. Calcium supplementation is perhaps the only option for most of us,\u00e2\u0080\u009d he said. - milk intolerance is basically person's inability to digest milk sugars called lactose. - lactose in body is broken down into simpler sugars glusose with the help of an enzyme called lactase. - intolerance happens due to low levels of lactase in body either due to congenital reason, developmental (natural decline in body's enzymes due to aging) or secondary (like faulty eating habits and stress or anxiety) reasons. - abdominal pain, diarrhea, flatulence (passing gas), abdominal bloating, abdominal distention, and nausea are common symptoms of lactose intolerance. If care is not taken, problem may aggravate to cause irritable bowel syndrome or GERD. - often people think that they may avert milk intolerance induced problems by avoiding milk and its products.",
+      "source_url": "https://timesofindia.indiatimes.com/city/lucknow/three-out-of-four-indians-have-no-milk-tolerance-study/articleshow/46522488.cms",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Lactose Intolerance Causes, Dairy Foods, Symptoms & Tests Health Solutions From Our Sponsors What is the prognosis for lactose intolerance? The severity of the symptoms of lactose intolerance varies greatly from person to person. One reason for this variability is that people have different amounts of lactose in their diet; the more lactose in the diet, the more likely and severe the symptoms. Another reason for the variability is that people have different severities of lactase deficiency, that is, they may have a mild, moderate, or severe reduction in the amounts of lactase in their intestines. Thus, small amounts of lactose will cause major symptoms in severely lactase-deficient people but only mild or no symptoms in mildly lactase-deficient people. Finally, people may have different responses to the same amount of lactose reaching the colon. Whereas some may have mild or no symptoms, others may have moderate symptoms. The reason for this is not clear but may relate to differences in their intestinal bacteria. Lactose intolerance is rarely due to milk allergy in adults. Children with milk allergy, where it is more common, usually outgrow the allergy by adulthood. What are the long-term consequences of lactose intolerance? The important long-term health consequence of lactose intolerance is calcium deficiency which leads to osteoporosis. Less commonly, vitamin D deficiency may occur and compound the bone disease. Both of these health issues can be prevented easily by calcium and vitamin D supplements. The real problem is that many lactose-intolerant people who consciously or unconsciously avoid milk do not realize that they need supplements. What is new in lactose intolerance research? Genetic testing of the DNA of individuals to make a diagnosis of lactase deficiency has already been discussed.",
+      "source_url": "https://www.medicinenet.com/lactose_intolerance/article.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Lactose-intolerant people should drink more milk, expert says Purdue News Lactose-intolerant people should drink more milk, expert says WEST LAFAYETTE, Ind. -- Many people who claim to be lactose intolerant really aren't, says Dennis Savaiano, dean of Purdue University's School of Consumer and Family Sciences. The problem, Savaiano says, is that dairy foods can be difficult to digest, and people who don't eat these foods often enough haven't acclimated themselves to the foods. According to the National Institutes of Health, as many as 50 million Americans are lactose intolerant. Although lactose intolerance itself isn't harmful -- it may result in gas, bloating or nausea -- it does affect a person's health in the long-term because avoiding dairy foods reduces calcium intake. According to Savaiano, three-fourths of all calcium in diets in the United States come from dairy foods. Too little calcium in a diet can reduce bone growth, which can lead to osteoporosis later in life. Osteoporosis, which affects 35 million Americans, can result in weakened bones, causing fractures and injuries. Patients in the United States spend $13 billion a year on osteoporosis treatments. \"If you only consume dairy products once in awhile, you are more likely to have symptoms from them,\" Savaiano says. \"Also, if you consume them by themselves, as opposed to as part of a meal, they tend to be transported throughout the intestine more rapidly and are more likely to cause symptoms. \" Savaiano has four tips to improve digestion of milk and dairy products. \"These approaches can improve lactose tolerance to the point that people can consume diets that are quite rich in calcium and in milk and experience no difference in their symptoms from eating a diet without the milk,\" he says.",
+      "source_url": "https://www.purdue.edu/uns/html4ever/1997/9712.Savaiano.intolerance.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Milk and Dairy Products: Good or Bad for Human Bone? Practical ... Consumption of unfortified beverages instead of breast milk, cow\u2019s or modified milk may be especially harmful to children in the first year of life because it could lead to the development of rickets, failure in thrive, kwashiorkor, anaemia, metabolic alkalosis, scurvy and hyperoxaluria [65]. Table 3 and Table 4 present the content of nutrients in dairy products and various milks. 3. Intolerance and Allergy 3.1. Lactose Intolerance Lactose may be absorbed after decomposing into glucose and galactose by lactase, which is produced in the small intestine. Lactase deficiency\u2014called lactose intolerance (LI)\u2014may cause cramps in the abdomen and pain, diarrhea, and bloating. LI can lead to lower consumption of dairy products [70,71]. LI is genetically conditioned and associated with single polymorphism nucleotide of the MCM6 gene in 13910CC and 22018GG [72]. Lactose intolerance is different in various countries and affects about 99% of China\u2019s population, 20% of people in the USA, and below 10% of Scandinavia and Netherland inhabitants [73]. Milk and dairy products are the main sources of calcium in many regions around the world. It is vital to note that lactose stimulates calcium absorption in children but not in adults [5]. LI is probably not a direct factor of osteoporosis development; nevertheless, decreased consumption of dairy products due to lactase deficiency and not replacing them with other calcium-rich products may cause decreased BMD. Among Turkish emigrants in Germany, many presented LI, but it did not affect calcium intake, bone turnover markers or BMD [74]. Meta-analysis has shown that there were no significant differences between subjects with and without lactose LI.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8072827/",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Lactose intolerance can lead to osteoporosis due to reduced calcium intake from avoiding dairy products, which are a primary source of calcium. In some cases, lactose itself can also impair calcium absorption. However, this risk can be mitigated by supplementing with calcium and vitamin D."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about the link between lactose intolerance and osteoporosis, but provides no citations. The documents do support these claims, but the lack of citations means the answer is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 6533,
+      "completion_tokens": 188,
+      "total_tokens": 6721
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3104,
+        "completion_tokens": 85,
+        "total_tokens": 3189
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3429,
+        "completion_tokens": 103,
+        "total_tokens": 3532
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:28:20.662008",
+        "prompt_tokens": 3104,
+        "completion_tokens": 85,
+        "total_tokens": 3189,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:28:21.881703",
+        "prompt_tokens": 3429,
+        "completion_tokens": 103,
+        "total_tokens": 3532,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:28:19.511642",
+  "last_updated_at": "2026-04-18T18:28:21.882210"
+}

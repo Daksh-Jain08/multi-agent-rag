@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0605",
+  "query": "When does the new season of law and order special victims unit start?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "<onlyinclude> </onlyinclude> \"Unstoppable\", written by Julie Martin and Rick Eid, inspired by the sexual misconduct allegations against then-presidential candidate Donald Trump and starring Gary Cole, was originally scheduled to air on October 26, 2016, but it was pulled from the schedule and has since been shelved. At the 2017 Television Critics Association winter press tour, Dick Wolf expressed his belief that the episode may air that spring. NBC currently has no plans to air the episode, therefore shelving it indefinitely. Law & Order: Special Victims Unit (season 18) The eighteenth season of \"\" debuted on Wednesday, September 21, 2016, on",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2016-02-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Law & Order: Special Victims Unit (season 19) The nineteenth season of \"\" premiered on September 27, 2017 and finished on May 23, 2018 with a two-part season finale. Michael S. Chernuchin, who had previously worked on \"Law & Order\", \"\", and \"Chicago Justice\" took over from Rick Eid as showrunner. This is also the first season since in 2010\u0393\u00c7\u00f42011 where another \"Law & Order\" series\u0393\u00c7\u00f6\"Law & Order True Crime: The Menendez Murders\"\u0393\u00c7\u00f6aired alongside \"SVU\" on NBC. \"Law & Order: Special Victims Unit\" was renewed for a 19th season on May 12, 2017. Chernuchin took over from Eid as showrunner",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "an episode titled \"Info Wars\", inspired by the Charlottesville riots and the website InfoWars. Rhea's character was inspired by InfoWars reporter Millie Weaver. On March 5, 2018, it was revealed that Stephanie March would reprise her role as ADA Alexandra Cabot in an episode titled \"Sunk Cost Fallacy\" that aired on April 18, 2018. It marked March's first appearance on the show since . <onlyinclude> </onlyinclude> Law & Order: Special Victims Unit (season 19) The nineteenth season of \"\" premiered on September 27, 2017 and finished on May 23, 2018 with a two-part season finale. Michael S. Chernuchin, who had",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2005"
+    },
+    {
+      "doc_id": "d4",
+      "text": "that Rick Eid departed the series. He will be taking over another Dick Wolf/NBC series. \"Chicago P.D.\" It was announced on May 25, 2017 that original \"Law & Order\" and \"Law & Order: Criminal Intent\" showrunner Michael S. Chernuchin would be reprising his role starting on season nineteen. Chernuchin was also co-creator and executive producing showrunner of \"Chicago Justice\", another Wolf-related show that was canceled by NBC at the end of the 2016\u0393\u00c7\u00f417 TV season. Many exterior scenes of \"Law & Order: Special Victims Unit\" are filmed on location in New York City, Wolf's hometown, throughout all five of New",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Law & Order: Special Victims Unit (season 17) The seventeenth season of \"\" debuted on Wednesday, September 23, 2015 on NBC, and concluded on Wednesday, May 25, 2016. \"Law & Order: Special Victims Unit\" was renewed for a seventeenth season on February 5, 2015, by NBC. Mariska Hargitay (Olivia Benson) had her contract renewed for season 17, as well as Ice-T (Det. Fin Tutuola). It was announced in March 2015 that season seventeen would be show runner/executive producer Warren Leight's last season on the show; he signed a three-year deal with Sony Pictures Television, his contract allowing him to work  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The eighteenth season of Law & Order: Special Victims Unit debuted on September 21, 2016. The nineteenth season premiered on September 27, 2017."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the premiere dates of seasons 18 and 19, but no citations were provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2803,
+      "completion_tokens": 179,
+      "total_tokens": 2982
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1245,
+        "completion_tokens": 73,
+        "total_tokens": 1318
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1558,
+        "completion_tokens": 106,
+        "total_tokens": 1664
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:17.576790",
+        "prompt_tokens": 1245,
+        "completion_tokens": 73,
+        "total_tokens": 1318,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:18.622618",
+        "prompt_tokens": 1558,
+        "completion_tokens": 106,
+        "total_tokens": 1664,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:16.192333",
+  "last_updated_at": "2026-04-18T20:09:18.623108"
+}

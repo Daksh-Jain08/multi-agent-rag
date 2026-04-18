@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0647",
+  "query": "Who has the most home runs in a single season in major league baseball?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "In 1996, Brady Anderson of the Baltimore Orioles hit 50 home runs, twice the number he hit during any other season. Of more note was Mark McGwire of the Oakland Athletics, who first drew attention by hitting a league-leading 52 home runs that season while only playing in 130 games. The 1997 home run chase featured McGwire against Ken Griffey, Jr. of the Seattle Mariners. It was during that season that full-fledged interest over the record kicked in as both players were on record pace well into the summer. McGwire finished with 58 home runs following his mid-season trade to",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2007-03-15"
+    },
+    {
+      "doc_id": "d2",
+      "text": "team, including teams no longer active (prior to 1900) as well as by individual players. Gary Sheffield hit the 250,000th home run in MLB history with a grand slam on September 8, 2008. Sheffield had hit MLB's 249,999th home run against Gio Gonz\u251c\u00edlez in his previous at-bat. The all-time, verified professional baseball record for career home runs for one player, excluding the U. S. Negro Leagues during the era of segregation, is held by Sadaharu Oh. Oh spent his entire career playing for the Yomiuri Giants in Japan's Nippon Professional Baseball, later managing the Giants, the Fukuoka SoftBank Hawks and",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "for 57 years until eclipsed by Mark McGwire's 49 in 1987; his NL record was tied by Frank Robinson in , but has not been broken. Berger still shares the major league record for home runs by a first-year player (no prior major league games) and for being the fastest player to hit 20 home runs (51 games), shared with Gary S\u251c\u00ednchez (who accomplished the feat on September 27, 2016) and Cody Bellinger (June 19, 2017). Berger batted .310 that season, and his 119 runs batted in were also an NL rookie record, since topped by Albert Pujols in 2001.",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d4",
+      "text": "of steroid use against the three players who had, by then, hit more than 61 home runs in a season (Mark McGwire, Sammy Sosa and Barry Bonds), the North Dakota Senate wrote to Major League Baseball to express the opinion that Roger Maris' 61 home runs should be recognized as the single season record. Newman Signs Inc., which holds the naming rights to Newman Outdoor Field in Fargo, continues to use billboard signage to declare Maris as the \"legitimate home run king.\" Maris and Mantle starred in a 1962 film, \"Safe at Home!\", playing themselves. That year, Maris, Mantle, and",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2008-04-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "it was enough for a starter to pitch 6\u0393\u00c7\u00f47 innings and turn the game over to the team's closer, a position which grew in importance over these decades. As stolen bases increased, home run totals dropped. After Willie Mays hit 52 home runs in 1965, only one player (George Foster) reached that mark until the 1990s. Routinely in the late 1990s and early 2000s, baseball players hit 40 or 50 home runs in a season, a feat that was considered rare even in the 1980s. It has since become apparent that at least some of this power surge was a  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2025-10-28"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Mark McGwire hit 58 home runs in 1997, while Roger Maris' 61 home runs are considered by some to be the legitimate single-season record. Some sources also mention Brady Anderson hitting 50 home runs in 1996 and Willie Mays hitting 52 in 1965."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. The query asks for the single-season record, and the answer provides multiple figures without clear attribution or a definitive answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2673,
+      "completion_tokens": 208,
+      "total_tokens": 2881
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1165,
+        "completion_tokens": 102,
+        "total_tokens": 1267
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1508,
+        "completion_tokens": 106,
+        "total_tokens": 1614
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:45.662388",
+        "prompt_tokens": 1165,
+        "completion_tokens": 102,
+        "total_tokens": 1267,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:46.991208",
+        "prompt_tokens": 1508,
+        "completion_tokens": 106,
+        "total_tokens": 1614,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:44.647244",
+  "last_updated_at": "2026-04-18T20:10:46.991633"
+}

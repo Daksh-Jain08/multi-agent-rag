@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0427",
+  "query": "what is the meaning of auv in cars?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "AUV, MPV, or SUV: What are the differences? - AutoDeal AUV or Asian utility vehicle. AUV. First seen on the road in the late '60s and early '70s, AUVs (a.k.a. Basic Utility Vehicles or BUVs) were ... Honestly, there is a thin line separating the AUV and MPV segments. It could be that the AUV is a thing of the past now and we should be calling vehicles that fall into that category an MPV \u2013 you know, to also avoid the racist connotation? SUV or sports utility vehicle There is one obvious function of the SUV that pulls it away from the two aforementioned body type \u2013 off-road capability. SUVs are designed for one purpose on top of everything and that is to function as a truck while providing better comfort in the cabin. Unlike AUVs, SUVs offer more toys inside with the cost of a higher price tag. Also, SUVs are built on the same ladder frame utilized by their pickup counterparts, which permits them to conquer rough and harsh terrains. We also do have to mention that SUVs are far more superior in terms of power output and suspension system. Plus, don\u2019t forget variants that have dedicated 4x4 drivetrain that\u2019s essential for off-roading. In the Philippines, midsize SUVs like the Mitsubishi Montero Sport, Toyota Fortuner, Ford Everest, Isuzu mu-X, among others, are well-loved by families. Larger SUVs like the Ford Expedition and Chevrolet Suburban are categorized as full-size SUVs. There\u2019s also quite a confusion inside the SUV segment itself, especially as far as the Suzuki Jimnyis concerned. Again, for the nth time, the Jimny is not a subcompact crossover but a mini SUV, simply because it is built using a ladder frame. Drawing a line Among the AUV, MPV, and SUV categories, there is a thin line separating one from the other. Just remember these quick tips whenever you get confused after a new seven-seat car is launched: if it looks like an SUV but with inferior to none-at-all off-roading capability, it\u2019s an AUV.",
+      "source_url": "https://www.autodeal.com.ph/articles/car-features/auv-mpv-or-suv-what-are-differences",
+      "timestamp": "2019-04-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Knowing Your Wheels: Differentiating SUV, AUV, and MPV AUVs and MPVs are simply passenger vehicles - they are not designed for off-road routes. In line with this, their frames also vary. AUVs and ... In the Philippines, some of the earliest AUVs are the Toyota Tamaraw, the Ford Tiera series, and the GM Harabas. These vehicles are primarily used for carrying the maximum number of passengers. Then, the AUV industry in the country took a sharp turn when Toyota released its Tamaraw FX - a fresher design that looks less like a jeep and more like a car. Since then, most AUV manufacturers have followed that route, as evidenced by the most common Asian Utility Vehicles on our roads such as Innova and Crosswind. True to their name, multi-purpose vehicles or MPVs are very versatile. Their main purpose is to carry a set number of passengers, but their interior has been designed to be adjustable should the need arise for additional cargo space. Because of the way they look, MPVs are also called \u201cminivans\u201d in some areas of the world. In the country, the distinction between MPVs and AUVs has been becoming more blurred. For instance, the Innova by Toyota is considered by some as an AUV, though there are also people who consider it as an MPV. Nonetheless, if you are looking for an MPV, the best options out there are manufactured by companies like Toyota, Suzuki, and Mitsubishi. Comparing SUV, AUV, and MPV In terms of road functionality, sports utility vehicles are superior compared to the other two since SUVs are tailored to run on rough roads. AUVs and MPVs are simply passenger vehicles - they are not designed for off-road routes. In line with this, their frames also vary. AUVs and MPVs usually have a unibody frame, while most SUVs are made with a body-on-frame design similar to trucks. However, upon visual inspection, these three types of cars look very similar to each other. They have a two-box body design, with the front box for the engine and the second box for the cabin and cargo space.",
+      "source_url": "https://www.vigattininsurance.com/news-and-promos/Knowing-Your-Wheels-Differentiating-SUV-AUV-and-MPV/81",
+      "timestamp": "2020-12-09"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What is an AUV? - NOAA Ocean Exploration AUV stands for autonomous underwater vehicle; they are unmanned, untethered vehicles used to conduct underwater research. \"AUV\" stands for autonomous underwater vehicle; they are unmanned, untethered vehicles used to conduct underwater research. AUVs are unmanned underwater robots akin to the Curiosity rover NASA uses on Mars. As their (autonomous) name suggests, AUVs operate independently of humans. Unlike remotely operated vehicles (ROVs), which are tethered to a service vessel, AUVs have no physical connection to their operator. Rather, AUVs are programmed or controlled by operators who may be on a vessel or even on shore, who tell an AUV where, when, and what should be sampled. AUVs carry a variety of equipment for sampling and surveying such as cameras, sonar, and depth sensors. Unlike ROVs, which transmit video via their tethers almost instantaneously to a control room on a ship, an AUV stores all data, including images and other sensor data, on onboard computers until it can be retrieved after the AUV is recovered at the end of a dive. AUVs can range in size from only a few hundred pounds up to several thousand pounds. They may glide from the sea surface to ocean depths and back or they may stop, hover, and move like blimps or helicopters do through the air. Fully autonomous operations carry power onboard. Power enables propellers or thrusters to move an AUV through the water and is necessary to operate sensors on the AUV. Most AUVs use specialized batteries, although some AUVs have used fuel cells or rechargeable solar power. Certain AUVs, such as gliders, minimize energy demands by allowing gravity and buoyancy to propel them. AUVs are attractive options for ocean-based research. They can reach shallower water than boats can and deeper water than human divers or many tethered vehicles can. Once deployed and underwater, AUVs are safe from bad weather and can stay underwater for extended periods of time. They are also scalable, or modular, meaning that scientists can choose which sensors to attach to them depending on their research objectives.",
+      "source_url": "https://oceanexplorer.noaa.gov/facts/auv.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "What is the difference between an AUV and a ROV? AUV stands for autonomous underwater vehicle and is commonly known as uncrewed underwater vehicle. AUVs can be used for underwater survey ... An AUV operates independently from the ship and has no connecting cables, whereas ROVs are connected to an operator on the ship. VIDEO: What's the difference between an AUV and an ROV? Here's what you need to know in one minute. Transcript From left, NOAA Ship Nancy Foster's Chief Boatswain Greg Walker and Bosun Group Leader James Best work with scientist Tim Battista to prepare the ocean glider for launch. AUV stands for autonomous underwater vehicle and is commonly known as uncrewed underwater vehicle. AUVs can be used for underwater survey missions such as detecting and mapping submerged wrecks, rocks, and obstructions that can be a hazard to navigation for commercial and recreational vessels. An AUV conducts its survey mission without operator intervention. When a mission is complete, the AUV will return to a pre-programmed location where the data can be downloaded and processed. A remotely operated vehicle (ROV) is an unoccupied underwater robot that is connected to a ship by a series of cables. These cables transmit command and control signals between the operator and the ROV, allowing remote navigation of the vehicle. An ROV may include a video camera, lights, sonar systems, and an articulating arm. The articulating arm is used for retrieving small objects, cutting lines, or attaching lifting hooks to larger objects. While there are many uses for ROVs, some of the most common hydrographic applications include object identification (for submerged navigation hazards) and vessel hull inspections. An ROV is not intended to be a replacement for hydrographic diver investigations, but could serve as a substitute if divers are not available or diver safety is in question. Video Transcript Here are two uncrewed ocean explorers. Can you spot the difference between the two? One, an AUV or Autonomous Underwater Vehicle, explores ocean depths without any attached cables. Researchers drop an AUV in the ocean pick it up at a pre-selected position. Like an AUV, a Remotely Operated Vehicle is unmanned.",
+      "source_url": "https://oceanservice.noaa.gov/facts/auv-rov.html",
+      "timestamp": "2024-06-16"
+    },
+    {
+      "doc_id": "d5",
+      "text": "what does AUV and XUV mean? - Page 2 - Tsikot.com pero the term Asian Utility Vehicle is just a coined term. Since AUV are predominantly sold in Asia particularly 3rd world countries in Asia ... The Largest Car Forum in the Philippines REGISTER AND JOIN THE PHILIPPINE'S LARGEST AUTOMOTIVE COMMUNITY Register today and start posting, talking and being part of the community. It's free. To buy and sell vehicles and part visit the Tsikot Classifieds. You can check our FAQ page for more information. pero the term Asian Utility Vehicle is just a coined term. Since AUV are predominantly sold in Asia particularly 3rd world countries in Asia thus the term. It is designed for use in the Asian market as a vehicle that could seat 8-10 people, could haul goods and be used for commercial purposes. tama ba? well, for the sake of argument, i guess you could call the jeepney an AUV. but for easier identification, it's a jeepney. :wink: the AUVs started with the passenger type fieras, tamaraws and L300s. same function as jeepeneys, they load the same way as jeepneys, and in some provinces, it's quite hard to tell them apart, what with the local iron works cutting apart original Toyota, Isuzu, Mitsu, etc. bits and pieces and putting them together in the jeepney mold. then, they evolved into wagon type vehicles, such as the FX which is now the Revo, and the highlander which is now the Crosswind, and the adventure, which is still the adventure. :mrgreen:",
+      "source_url": "https://www.tsikot.com/forums/pick-ups-trucks-buses-other-vehicles-talk-7/what-does-auv-xuv-mean-1133/index2.html",
+      "timestamp": "2002-11-22"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Explore Differences Between AUVs and UUVs - Grepow An AUV stands for Autonomous Underwater Vehicle. As the name implies, AUVs are designed to operate underwater without direct human control. AUV vs. UUV: What\u2019s the Difference? Underwater exploration, research, and military operations often require the use of specialized vehicles that can operate autonomously or be remotely controlled. Two key types of underwater vehicles are AUVs (Autonomous Underwater Vehicles) and UUVs (Unmanned Underwater Vehicles). Though they share similarities, these systems have distinct roles, capabilities, and applications. In this article, we\u2019ll explore what these terms mean, their differences, and the advantages and disadvantages of each type of vehicle. What Does an AUV Stand For? An AUV stands for Autonomous Underwater Vehicle. As the name implies, AUVs are designed to operate underwater without direct human control. These vehicles are pre-programmed to follow specific paths or complete predefined missions without real-time guidance. They use various sensors to navigate, gather data, and perform tasks in oceans, lakes, and other underwater environments. Fully autonomous operations carry power onboard. Power enables propellers or thrusters to move an AUV through the water and is necessary to operate sensors on the AUV. Most AUVs use specialized batteries, although some AUVs have used fuel cells or rechargeable solar power. Certain AUVs, such as gliders, minimize energy demands by allowing gravity and buoyancy to propel them. What Is the Meaning of a UUV? UUV stands for Unmanned Underwater Vehicle, which is a broader category that encompasses any underwater vehicle that does not require a human onboard. UUVs can be either autonomous (AUVs) or remotely operated (ROVs), meaning that a UUV might be controlled by an operator from a remote location, or it might be fully autonomous like an AUV. UUVs are versatile and are deployed for various underwater tasks, ranging from exploration to defense operations, and can be classified into several subcategories, including AUVs and ROVs (Remotely Operated Vehicles).",
+      "source_url": "https://www.grepow.com/blog/auv-vs-uuv-what-is-the-difference.html%26amp.html",
+      "timestamp": "2024-09-05"
+    },
+    {
+      "doc_id": "d7",
+      "text": "What is an AUV? | Legacy - Virginia Institute of Marine Science An Autonomous Underwater Vehicle (AUV) is a free-swimming, untethered robot under the control of an onboard computer. What is an AUV? An Autonomous Underwater Vehicle (AUV) is a free-swimming, untethered robot under the control of an onboard computer. AUVs can be thought of as computer-controlled taxicabs for a wide range of sensors. The current generation of AUVs range in length from 5 to 18 feet (1.5 \u2013 5.5 meters) and weigh in air from 45 to more than 3,000 pounds (20-1,400 kilograms). Most are torpedo-shaped to reduce drag. AUVs are slightly positively buoyant. This ensures the AUV will surface even if onboard control systems have failed. They need to continuously maintain some degree of horizontal motion, and do not collect physical samples. AUVs are battery powered. Small AUVs can deploy for several hours, while large vehicles can swim for several days. Survey speeds are usually 2-4 miles per hour (1 - 2 meters/second), chosen to maximize range for the onboard battery power. Many vehicles are capable of surveying to continental-shelf depths, with a few capable of full ocean depth. AUVs can gather data with sufficient resolution in time and space to provide an understanding of nature\u2019s dynamics. AUVs are well-suited to carry out swathe mapping (detailed 3-D mapping of the seabed using sonar), and large-area surveys. They can carry multiple payloads, allowing synoptic coverage; for example an AUV may simultaneously image the seafloor while measuring water quality. AUVs routinely carry fluorometers, turbidity and turbulence sensors, magnetometers, and water-quality sensors.",
+      "source_url": "https://www.vims.edu/research/units/legacy/cornwallis/auv/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "Autonomous underwater vehicle - Merriam-Webster The meaning of AUTONOMOUS UNDERWATER VEHICLE is an unmanned vehicle designed to operate underwater without guidance according to preprogrammed instructions ...",
+      "source_url": "https://www.merriam-webster.com/dictionary/autonomous%20underwater%20vehicle",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In the context of cars, AUV stands for Asian Utility Vehicle. These vehicles were designed primarily for the Asian market, often to seat 8-10 people, haul goods, and be used for commercial purposes. They are characterized by their utility and passenger-carrying capacity, and the distinction between AUVs and MPVs (Multi-Purpose Vehicles) has become increasingly blurred over time."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as there are no citations to support the claims made about AUVs in the context of cars. The provided documents discuss AUVs as Autonomous Underwater Vehicles, not Asian Utility Vehicles."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 7740,
+      "completion_tokens": 219,
+      "total_tokens": 7959
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3694,
+        "completion_tokens": 112,
+        "total_tokens": 3806
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 4046,
+        "completion_tokens": 107,
+        "total_tokens": 4153
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:40:58.995000",
+        "prompt_tokens": 3694,
+        "completion_tokens": 112,
+        "total_tokens": 3806,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:41:00.209597",
+        "prompt_tokens": 4046,
+        "completion_tokens": 107,
+        "total_tokens": 4153,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:40:57.374944",
+  "last_updated_at": "2026-04-18T18:41:00.210109"
+}

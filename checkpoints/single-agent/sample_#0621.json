@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0621",
+  "query": "How can magnesium deficiency cause anxiety and high Blood pressure? Isn't anxiety psychological?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Blog Archives | North Jersey Whole Health Center, LLC that you should do, [\u0393\u00c7\u00aa]... Difficulty sleeping, both in falling asleep and in staying asleep may be related to a vitamin D deficiency. Vitamin D, also known as the sunshine vitamin, is made by the body in response to exposure to UV light. During the winter, vitamin D levels fall as the length of the day shortens and people... One of the biggest problems that I commonly see in practice is either frank or subclinical magnesium deficiency. Magnesium deficiency can cause high blood pressure, muscle tension/pain/spasm, anxiety/depression, as well as a number of other maladies. Diagnosing magnesium deficiency is often",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "1994-02-08"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Keep Calm and Carry On: Tips for Natural Anxiety Relief \u0393\u00c7\u00f6 CHFA dietary mineral that is essential for countless body functions. Magnesium is the second most common electrolyte in the body, and a deficiency of magnesium has been linked to a variety of negative health effects, including raised blood pressure, reduced glucose tolerance and neural excitation. Magnesium is associated with subjective anxiety, leading to the proposition that supplementation may reduce anxiety symptoms. How it helps reduce anxiety: There is evidence to suggest that magnesium can help to reduce feelings of anxiety in people who are vulnerable to anxiety. Serotonin, the feel-good brain chemical that is boosted artificially by some medications, depends on",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1997-06-18"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Can Anxiety Cause High Blood Pressure? | Curb Anxiety deep-rooted cause of high blood pressure, but not its true executor. The symptoms that are caused by anxiety are responsible for high blood pressure. Rapid heart beat inevitably rises blood pressure. However, there are other, a bit more surprising reasons as well: for example, if you are under severe stress or have anxiety, you will become deficient in important minerals, like magnesium. Lack of magnesium is behind numerous physical and mental symptoms. However, anxiety can be the true enemy when fighting high blood pressure once we understand how it causes the blood in our veins to accelerate to unhealthy speeds.",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Effect Of Anxiety And Depression On Blood Pressure 2019 | Win Over Depression hypertension? You don't need to measure your blood pressure to know that a heated argument or a walk down a dark alley can send that pressure soaring. Your pounding heart and flush Forward: Although this depression treatment by magnesium essay was written originally to address the role of magnesium as a depression treatment, the role of magnesium deficiency as cause of vast other morbidity. This fact sheet provides information about meditation for conditions such as high blood pressure, anxiety, depression, and pain. (IBS) found no clear effects, Dec 17, 2017. The relationship between cortisol, stress, and depression. (sugar), to our",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Nutrition - The Very Latest Facts - f) physical stress, sleep deprivation, pain, g) environmental stress like noise, pollution, allergies, heat, cold h) emotional stress excitement, anxiety, depression, stress from school exams 19. The consequences of magnesium deficiency are: a) inability to utilize B vitamins and Vitamin D b) depression and anxiety c) diabetes d) collagen disorders e) high blood pressure 20. The signs of magnesium deficiency are a) vascular headaches b) increased urination c) leg cramps and restless leg syndrome d) muscle tension e) irregular heartbeat f) high blood pressure 21. The best way to supplement for magnesium in order to achieve the required 300 -  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Magnesium deficiency can lead to anxiety and high blood pressure. While anxiety can be psychological, it can also be influenced by physiological factors like magnesium levels. Anxiety can also exacerbate high blood pressure by increasing heart rate and stress responses. Furthermore, severe stress or anxiety can deplete magnesium levels, creating a cycle."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about magnesium deficiency causing anxiety and high blood pressure, but lacks any citations to support these claims. The answer also discusses the interplay between anxiety, magnesium, and blood pressure, which is not fully supported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2552,
+      "completion_tokens": 207,
+      "total_tokens": 2759
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1110,
+        "completion_tokens": 93,
+        "total_tokens": 1203
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1442,
+        "completion_tokens": 114,
+        "total_tokens": 1556
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:52.002737",
+        "prompt_tokens": 1110,
+        "completion_tokens": 93,
+        "total_tokens": 1203,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:53.058739",
+        "prompt_tokens": 1442,
+        "completion_tokens": 114,
+        "total_tokens": 1556,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:50.953310",
+  "last_updated_at": "2026-04-18T20:09:53.059186"
+}

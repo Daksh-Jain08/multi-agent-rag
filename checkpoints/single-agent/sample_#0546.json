@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0546",
+  "query": "Which are the smallest bones in the body?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "well preserved. The specimen represents a subadult or adult individual. The holotype specimen consists of the remains of a small individual. Because most of the vertebral column is absent, its body length cannot be directly determined, but a comparison can be made with the previously smallest known ornithomimosaur, the 1.6 metres long \"Shenzhousaurus\", which has a thighbone length of 191 millimetres, while the femur length of \"Hexing\" is 135 millimetres. Such a small body size was among ornithomimosaurs up till now only known from juveniles but the holotype is not a young animal as is shown by the complete fusion",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d2",
+      "text": "London's largest Jewish cemeteries in Golders Green. A similar plaque was unveiled in Frankfurt. A plaque at the British Foreign and Commonwealth Office, London, unveiled on 20 November 2008 naming him and seven other British diplomats who had worked to assist Jewish refugees. Robert Smallbones Robert Smallbones , , (19 March 1884 \u0393\u00c7\u00f4 29 May 1976) was a British diplomat and humanitarian who arranged the issue of visas to persecuted Jewish people in Germany before the Second World War and visited concentration camps to demand the release of prisoners. He was posthumously awarded the medal of a British Hero of",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "MiniBooNE MiniBooNE is an experiment at Fermilab designed to observe neutrino oscillations (BooNE is an acronym for the Booster Neutrino Experiment). A neutrino beam consisting primarily of muon neutrinos is directed at a detector filled with 800 tons of mineral oil (ultrarefined methylene compounds) and lined with 1,280 photomultiplier tubes. An excess of electron neutrino events in the detector would support the neutrino oscillation interpretation of the LSND (Liquid Scintillator Neutrino Detector) result. MiniBooNE started collecting data in 2002 and was still running in 2017. Experimental observation of solar neutrinos and atmospheric neutrinos provided evidence for neutrino oscillations, implying that",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "The symptoms of arthritis will vary differently between types of arthritis. The most common form of arthritis: Osteoarthritis can affect both the larger and smaller joints of the human skeleton. The cartilage in the affected joints will degrade, soften and wear away. This decreases the mobility of the joints and decreases the space between bones where cartilage should be. Osteoporosis is a disease of bone where there is reduced bone mineral density, increasing the likelihood of fractures. Osteoporosis is defined by the World Health Organization in women as a bone mineral density 2.5 standard deviations below peak bone mass, relative",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Fifth metacarpal bone The fifth metacarpal bone (metacarpal bone of the little finger or pinky finger) is the most medial and second-shortest of the metacarpal bones. It presents on its base one facet on its superior surface, which is concavo-convex and articulates with the hamate, and one on its radial side, which articulates with the fourth metacarpal. On its ulnar side is a prominent tubercle for the insertion of the tendon of the extensor carpi ulnaris muscle. The dorsal surface of the body is divided by an oblique ridge, which extends from near the ulnar side of the base to  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2020"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The fifth metacarpal bone, also known as the metacarpal bone of the little finger or pinky finger, is the second-shortest metacarpal bone."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not contain the answer to the query."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2409,
+      "completion_tokens": 154,
+      "total_tokens": 2563
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1051,
+        "completion_tokens": 67,
+        "total_tokens": 1118
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1358,
+        "completion_tokens": 87,
+        "total_tokens": 1445
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:03.491383",
+        "prompt_tokens": 1051,
+        "completion_tokens": 67,
+        "total_tokens": 1118,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:04.374801",
+        "prompt_tokens": 1358,
+        "completion_tokens": 87,
+        "total_tokens": 1445,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:02.534810",
+  "last_updated_at": "2026-04-18T20:07:04.375190"
+}

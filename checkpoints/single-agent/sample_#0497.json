@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0497",
+  "query": "Why does the extra copy of Pair 21 cause down syndrome",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Causes - Special needs project *Downs Syndrome is caused during cell division of a sperm and egg. Usually a person has 23 pairs of chromosomes, but a person with Downs Syndrome has extra genetic material on one chromosome. This affects development and characteristic features. There are three genetic variations that cause Downs Syndrome: 1. Trisomy 21- when a person has an extra copy of chromosome 21 in some cells. (Most common) 2. Mosaic Downs Syndrome- when a person has some cells with an extra copy of chromosome 21. When cells divide, it creates a \"mosaic\" of normal and abnormal cells in the person's body. (Rare)",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Down Syndrome | RxWiki usually be corrected. Down Syndrome Causes Someone with Down syndrome has an extra copy of chromosome number 21 in the cells of their body. This is also known as trisomy 21. Trisomy refers to the fact that there are three copies of chromosome 21. Because there is an extra chromosome 21, there is extra genetic material in the body. This causes the typical features of Down syndrome. There are different ways that trisomy 21 can occur. Down Syndrome Diagnosis A diagnosis of Down syndrome after birth is often based initially on physical signs of the syndrome. But because individuals with",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d3",
+      "text": "How a mismatched pair of socks can raise awareness about Down syndrome | Parenting News, The Indian Express socks are used to raise awareness about Down Syndrome. (Source: Getty Images) By Dr Preety Vashisth March 21 is World Down Syndrome Day, the day established by the United Nations in 2012 to raise awareness and promote the rights of those with Down syndrome, also known as Trisomy 21. It\u0393\u00c7\u00d6s a genetic disorder that arises from a defect involving chromosome 21 (usually an extra copy). In fact, it\u0393\u00c7\u00d6s the role of chromosome 21 that led to the selection of March 21 as the observance day for Down Syndrome. Down syndrome is a genetic disorder. (Source: Getty Images) So, why are",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2012"
+    },
+    {
+      "doc_id": "d4",
+      "text": "NHS Website \u0393\u00c7\u00f4 Health A-Z include some types of muscular dystrophy, haemophilia and type 1 neurofibromatosis. Some conditions are not caused by a mutation on a specific gene, but by an abnormality in a person's chromosomes, such as having too many or too few chromosomes, rather than the normal 23 pairs. Examples of conditions caused by chromosomal abnormalities include: Down's syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 21 Edwards' syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 18 Patau's syndrome \u0393\u00c7\u00f4 caused by having an extra copy of chromosome 13 Turner syndrome \u0393\u00c7\u00f4 a disorder that only affects females and",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The NIFTY test: learn more about the conditions screened for Home / Information About Conditions A trisomy is a term for a genetic condition in which there are three chromosomes instead of the usual pair. Trisomy 21 / Down Syndrome Trisomy 21, more commonly known as Down Syndrome, is a condition caused by an extra copy of chromosome 21. Unfortunately, miscarriage occurs in about 30% of pregnancies with Down Syndrome. Those children born with Down Syndrome will need extra medical care depending on the child\u0393\u00c7\u00d6s specific health problems. Most children with Down Syndrome have intellectual disabilities that range from mild to moderate. Early intervention has proven to be essential in  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Down syndrome is caused by having an extra copy of chromosome 21. This results in trisomy 21, meaning there are three copies of chromosome 21 instead of the usual two. The presence of this extra genetic material affects development and leads to the characteristic features of Down syndrome."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. All claims should be supported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2738,
+      "completion_tokens": 176,
+      "total_tokens": 2914
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1203,
+        "completion_tokens": 92,
+        "total_tokens": 1295
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1535,
+        "completion_tokens": 84,
+        "total_tokens": 1619
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:46.174988",
+        "prompt_tokens": 1203,
+        "completion_tokens": 92,
+        "total_tokens": 1295,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:47.158106",
+        "prompt_tokens": 1535,
+        "completion_tokens": 84,
+        "total_tokens": 1619,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:44.671433",
+  "last_updated_at": "2026-04-18T18:43:47.158517"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0611",
+  "query": "How do immortal jellyfish live forever and why is science not (to my knowledge) crazy about it?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Jack Andrew Guay | SiOWfa15: Science in Our World: Certainty and Controversy planet that Is a living creature that can live forever, or is there? Scientists have discovered a species of jellyfish that has the ability to be technically biologically \u0393\u00c7\u00a3immortal\u0393\u00c7\u00a5. There may be millions of different species on this planet, but still to think that something has the potential to never die is absurd, it sounds like science fiction. If there\u0393\u00c7\u00d6s one thing that I\u0393\u00c7\u00d6ve learned though, it\u0393\u00c7\u00d6s that in science nothing is impossible. This species of immortal jellyfish is called turritopsis nutricula and it has the amazing ability to revert itself back to a state before it\u0393\u00c7\u00d6s sexually mature when",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Immortality by Stephen Cave | PenguinRandomHouse.com: Books Van Doren, author of A History of Knowledge \u0393\u00c7\u00a3Cave is smart, lucid, elegant and original. Immortality is an engaging read about our oldest obsession, and how that obsession propels some of our greatest accomplishments.\u0393\u00c7\u00a5 \u0393\u00c7\u00f6Greg Critser, author of Eternity Soup \u0393\u00c7\u00a3In Immortality Stephen Cave tells wonderful stories about one of humanity\u0393\u00c7\u00d6s oldest desires and comes to a wise conclusion.\u0393\u00c7\u00a5 \u0393\u00c7\u00f6 Stefan Klein, author of The Science of Happiness and The Secret Pulse of Time \u0393\u00c7\u00a3Cave has produced a strikingly original and compelling exploration of the age-old conundrum: Can we live forever, and do we really want to?\u0393\u00c7\u00a5 \u0393\u00c7\u00f6John Horgan, science",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Is faith a reliable path to knowledge? | Page 37 | Sciforums Actually we do have an immortal species of jellyfish. They can be killed, but if nor fatally wounded they can regenerate forever. Turritopsis dohrnii, the immortal jellyfish, is a species of small, biologically immortal jellyfish[2][3] found in the Mediterranean Sea and in the waters of Japan. It is one of the few known cases of animals capable of reverting completely to a sexually immature, colonial stage after having reached sexual maturity as a solitary individual. https://en.wikipedia.org/wiki/Turritopsis_dohrnii Transdifferentiation, also known as lineage reprogramming,[1] is a process in which one mature somatic cell transforms into another mature somatic cell without undergoing an",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2000-01-09"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Why do Lovecraftian beings come to earth? deadliest creatures on the planets. Then I find this other video about \"the immortal jellyfish\" a jellyfish (also in Japan) that is over 1,000 years old and regenerates itself every time it dies (yes, it's a real creature - Google it - most of the cloning science was actually based of research into this jellyfish) . I'm fascinated by my discovery of these two real world jelly fish that I had never heard of before. And then an idea hits me... People always assume Cthulhu to be this super huge god right? That's because the cultists and such describe him",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d5",
+      "text": "We Live In A Political World: #340 / Jellyfish Immortality must learn to love nature.\" Learning to \"love nature\" is definitely a good idea, as far as I am concerned. No qualms about that! What I have noticed about nature, however, is that individuals don't live forever. You and I come, and then we go, and life goes on. In fact, it doesn't seem that the so-called \"immortal jellyfish\" is any different. At least that's the way I read the article. Trying to live forever? That's a dubious proposition, in my opinion. Trying to live right? That's worth some effort!  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The immortal jellyfish, specifically Turritopsis dohrnii, can live forever by reverting to a sexually immature stage when stressed or fatally wounded. This process, called transdifferentiation, allows a mature somatic cell to transform into a different type of mature somatic cell. While this biological immortality is a fascinating discovery, the provided documents do not explain why science is not more actively pursuing this research."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.3,
+        "feedback": "The answer makes factual claims about the jellyfish's ability to revert and transdifferentiation, but provides no citations. The query about scientific interest is also not addressed by any cited documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3131,
+      "completion_tokens": 213,
+      "total_tokens": 3344
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1390,
+        "completion_tokens": 111,
+        "total_tokens": 1501
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1741,
+        "completion_tokens": 102,
+        "total_tokens": 1843
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:29.981561",
+        "prompt_tokens": 1390,
+        "completion_tokens": 111,
+        "total_tokens": 1501,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:31.416285",
+        "prompt_tokens": 1741,
+        "completion_tokens": 102,
+        "total_tokens": 1843,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:28.808836",
+  "last_updated_at": "2026-04-18T20:09:31.416485"
+}

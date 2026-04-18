@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0609",
+  "query": "How do bookmakers calculate odds in play? Like how do they decide what odds to give on a certain person to score or an event to happen in such quick time?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "How do bookmakers calculate starting price and change their odds? | iwinsoccerbets | Football Stats, Soccer Betting Tips and Football Betting Predictions guaranteed price on a betting exchange or bookmaker when the event starts. so, in horse racing this would be the final price before the horses leave the gate, whereas in soccer betting we're talking about when the match kicks off. Are odds based on probability? Do they reflect the actual result? The most common conception of bookies\u0393\u00c7\u00d6 odds (and even Betfair starting odds) is that they\u0393\u00c7\u00d6re based on probability \u0393\u00c7\u00f4 i.e. how likely it is that each outcome, in a given market, will actually happen. Is this the case, in reality? The answer is\u0393\u00c7\u00aa kind of. Bookies do start off",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What is a Bookmaker? basic methodology of fixed odds sports betting on a football match, the bookmaker will calculate the odds on the outcome of a football match. What they will do, is essentially lay a bet, which means that they will offer odds (which is based on calculations of percentages) of an event not happening. So if the match was Wigan v Chelsea, then the bookmaker for example may set a price on Wigan win at 5/1, which is essentially setting the odds against Chelsea winning. Once the bookmaker sets the odds against something happening, it is then up to you to agree",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2005-05-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Understanding the Betting Odds and How Bookmakers Make their Money money on a particular bet is entirely dependent on the odds and what value they represent. Let's consider the probability of an event happening. A 6-sided dice is rolled: rolling a one, two, three, four, five or six are all the same probability \u0393\u00c7\u00f4 16.67%: a one in six chance of correctly guessing the number the dice will fall on. Bookmakers offer this probability on events based on how likely they are to happen. By using a fraction or a decimal, these odds represent the value of the bet; it\u0393\u00c7\u00d6s then down to the punter to decide whether or not",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Bookmaking Unraveled \u0393\u00c7\u00f4 OddsLords How does a bookmaker operate? The bookmaker works to operate the odds so as to have them in their favor. They seek to achieve a balanced book. This is their primary focus. They try to achieve a balanced book by having bettors competing against each other for the same odds or the same event. They try to have a balance in their book by having a number of people placing bets on the happening of a certain event and the same or close to equal number of people wagering on the non happening of the same event. By doing so",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2015-07-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "How do bookmakers calculate starting price and change their odds? | iwinsoccerbets | Football Stats, Soccer Betting Tips and Football Betting Predictions which bets offer good or bad value, and \u0393\u00c7\u00f4 from a broader perspective \u0393\u00c7\u00f4 which bookies tend to have more or less generous odds. Calculating margins isn\u0393\u00c7\u00d6t actually very hard. To do so, however, you will need to use decimal odds rather than fractional. To calculate the margins on a two-outcome market \u0393\u00c7\u00f4 Both Teams to Score, Over/Under Total Goals, and so on \u0393\u00c7\u00f4 here\u0393\u00c7\u00d6s the equation you need: (1/Option A) x 100 + (1/Option B) x 100 Let\u0393\u00c7\u00d6s say you\u0393\u00c7\u00d6re looking at a Both Teams To Score bet. The odds on Yes are 1.10, and the odds on No  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2008-09-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Bookmakers calculate odds based on the probability of an event happening. They set odds against an event occurring, and these odds represent the value of the bet. The primary focus for bookmakers is to achieve a balanced book by having bettors competing against each other, ensuring a balance between bets on an event happening and not happening."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about how bookmakers calculate odds and their primary focus, but it lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3101,
+      "completion_tokens": 194,
+      "total_tokens": 3295
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1382,
+        "completion_tokens": 97,
+        "total_tokens": 1479
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1719,
+        "completion_tokens": 97,
+        "total_tokens": 1816
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:25.579591",
+        "prompt_tokens": 1382,
+        "completion_tokens": 97,
+        "total_tokens": 1479,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:26.764492",
+        "prompt_tokens": 1719,
+        "completion_tokens": 97,
+        "total_tokens": 1816,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:24.381818",
+  "last_updated_at": "2026-04-18T20:09:26.764898"
+}

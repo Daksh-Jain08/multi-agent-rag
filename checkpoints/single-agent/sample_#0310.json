@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0310",
+  "query": "where are antibodies made and by what type of lymphocyte?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Lymphocyte - National Human Genome Research Institute There are two main types of lymphocytes: B cells and T cells. The B cells produce antibodies that are used to attack invading bacteria, viruses, and toxins. \u200bLymphocyte Definition A lymphocyte is a type of white blood cell that is part of the immune system. There are two main types of lymphocytes: B cells and T cells. The B cells produce antibodies that are used to attack invading bacteria, viruses, and toxins. The T cells destroy the body's own cells that have themselves been taken over by viruses or become cancerous. Narration Lymphocytes are cells that circulate in your blood that are part of the immune system. There are two main types lymphocytes: T cells and B cells. B cells produce antibody molecules that can latch on and destroy invading viruses or bacteria. T cells are direct fighters of foreign invaders and also produced cytokines, which are biological substances that help activate other parts of the immune system. One such part is called macrophages. These macrophages act to clean up the invaders and the dead tissue after an immune response.",
+      "source_url": "https://www.genome.gov/genetics-glossary/Lymphocyte",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "B Cells and Antibodies - Molecular Biology of the Cell - NCBI Synthesized exclusively by B cells, antibodies are produced in billions of forms, each with a different amino acid sequence and a different antigen-binding site ... In this section, we discuss the structure and function of antibodies and how they interact with antigen. B Cells Make Antibodies as Both Cell-Surface Receptors and Secreted Molecules As predicted by the clonal selection theory, all antibody molecules made by an individual B cell have the same antigen-binding site. The first antibodies made by a newly formed B cell are not secreted. Instead, they are inserted into the plasma membrane, where they serve as receptors for antigen. Each B cell has approximately 105 such receptors in its plasma membrane. As we discuss later, each of these receptors is stably associated with a complex of transmembrane proteins that activate intracellular signaling pathways when antigen binds to the receptor. Each B cell produces a single species of antibody, each with a unique antigen-binding site. When a na\u00efve or memory B cell is activated by antigen (with the aid of a helper T cell), it proliferates and differentiates into an antibody-secreting effector cell. Such cells make and secrete large amounts of soluble (rather than membrane-bound) antibody, which has the same unique antigen-binding site as the cell-surface antibody that served earlier as the antigen receptor (Figure 24-17). Effector B cells can begin secreting antibody while they are still small lymphocytes, but the end stage of their maturation pathway is a large plasma cell (see Figure 24-7B), which continuously secretes antibodies at the astonishing rate of about 2000 molecules per second. Plasma cells seem to have committed so much of their protein-synthesizing machinery to making antibody that they are incapable of further growth and division. Although many die after several days, some survive in the bone marrow for months or years and continue to secrete antibodies into the blood.",
+      "source_url": "https://www.ncbi.nlm.nih.gov/books/NBK26884/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "B Cells: Types and Function - Cleveland Clinic B cells are a type of white blood cell called lymphocytes that produce antibodies. B cells produce antibodies when they detect germs that can make you sick. Once B cells are activated, they become plasma cells that produce antibodies in response to an antigen. Or they become memory cells that remember the antigen so your immune system can quickly identify and fight it in the future. Generally, the following steps occur when your immune system needs B-cells to fight invaders: An antigen-presenting cell (APC) attaches to the antigen, breaking it down into smaller pieces. The APC attaches the antigen pieces to a molecule called the major histocompatibility-II complex, or MHC-II. An activated T cell attaches to a B cell, causing it to make copies, or clones, of itself. Some of the B cells become plasma cells capable of producing antibodies. Other B cells become memory cells that get stored in your body. Plasma cells make millions of antibodies over the next several days. All antibodies are customized to destroy only the specific pathogen that produced the antigen. These antibodies bind to antigens or the part of the pathogen that contains the antigen marker. These antibodies prevent pathogens from causing further harm to your body. Anatomy Where are B cells located? B cells exist in different places depending on their stage of development. In fetuses, the liver makes B cells. Once you\u2019re born, B cells develop in the spongy tissue inside your bone called bone marrow. They start as hematopoietic stem cells and eventually become B cells during a process called hematopoiesis. Once they\u2019re fully mature, your B cells travel to important parts of your lymphatic system, including your spleen and lymph nodes. Conditions and Disorders What are the common conditions and disorders associated with B cells? Abnormal B cells can cause autoimmune diseases and various types of cancers. Autoimmune diseases Sometimes, B cells make antibodies in response to antigens associated with your body\u2019s healthy cells. When this happens, the antibodies attack your healthy cells like a dangerous pathogen.",
+      "source_url": "https://my.clevelandclinic.org/health/body/24669-b-cells",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "15.2: Antibodies are produced by lymphocytes - Biology LibreTexts Antigen binding stimulates the lymphocytes to proliferate and to differentiate into mature lymphocytes that secrete antibodies. In the initial stages of the immune response, small numbers of immature B lymphocytes are able to bind foreign antigen molecules weakly via the antibodies expressed on their surfaces. Antigen binding stimulates the lymphocytes to proliferate and to differentiate into mature lymphocytes that secrete antibodies. An amazing series of transformations occur as B lymphocytes mature in response to antigen. Antigen binding stimulates responding lymphocytes to rearrange segments of their antibody-encoding genes, producing new potential antigen- binding sites. Most rearrangements are unproductive, but some rearrangements generate antibodies with greater affinity for the antigen. Antigens act as selective agents. The lymphocytes that bind the antigen with the highest affinity receive the greatest growth signal and proliferate most rapidly, because a higher fraction of their surface antibodies are bound to antigen at any one time. In the latter stages of differentiation, a hypermutation process further increases the range of potential antibody sequences. Mature B lymphocytes that have survived the selection process are known as plasma cells. Each plasma cell secretes a single antibody with high affinity for antigen. Plasma cells are virtual antibody factories that can be identified in electron micrographs by their extensive rough endoplasmic reticulum. The scope of antibody diversity is immense - vertebrates are capable of producing billions of antibody molecules with distinct specificities. Polyclonal vs. monoclonal antibodies For our western blots, we will be using both monoclonal and polyclonal antibodies. As their names imply, monoclonal antibodies bind to the same epitope on an antigen. Polyclonal antibodies are actually mixtures of antibodies that bind to different epitopes on an antigen. An animal\u2019s response to antigen is polyclonal, because antigens stimulate the proliferation of multiple lymphocyte clones, each of which produces a different antibody to the antigen.",
+      "source_url": "https://bio.libretexts.org/Bookshelves/Cell_and_Molecular_Biology/Book%3A_Investigations_in_Molecular_Cell_Biology_(O'Connor)/15%3A_Western_blots/15.02%3A_Antibodies_are_produced_by_lymphocytes",
+      "timestamp": "2021-01-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Lymphocytes - BioNinja Antibodies are made of 4 polypeptide chains that are joined together by disulphide bonds to form Y-shaped molecules \u00b7 The ends of the arms are where the antigen ...",
+      "source_url": "https://old-ib.bioninja.com.au/standard-level/topic-6-human-physiology/63-defence-against-infectio/lymphocytes.html",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Antibodies: Definition, Types & Function - Cleveland Clinic Where are antibodies produced? Antibodies are produced by B cells (specialized white blood cells). When an antigen comes into contact with a B cell, it causes ... Where are antibodies produced? Antibodies are produced by B cells (specialized white blood cells). When an antigen comes into contact with a B cell, it causes the B cell to divide and clone. These cloned B cells \u2014 or plasma cells \u2014 release millions of antibodies into your bloodstream and lymph system. Antibodies are located in various areas of your body, including your skin, lungs, tears, saliva and even breast milk. In fact, high amounts of antibodies are present in colostrum (a thick fluid secreted by the breasts for a few days after giving birth). That\u2019s why breastfeeding (chestfeeding) can boost your baby\u2019s immune system. This is the most common antibody, making up approximately 70% to 75% of all immunoglobulins in your body. It\u2019s found mainly in blood and tissue fluids. IgG antibodies help protect your body from viral and bacterial infections. IgM Found in your blood and lymph system, IgM antibodies act as the first line of defense against infections. They also play a large role in immune regulation. This is the most common antibody, making up approximately 70% to 75% of all immunoglobulins in your body. It\u2019s found mainly in blood and tissue fluids. IgG antibodies help protect your body from viral and bacterial infections. IgM Function Found in your blood and lymph system, IgM antibodies act as the first line of defense against infections. They also play a large role in immune regulation. Anatomy What are antibodies made of? Antibodies are proteins. Each antibody has four polypeptides (peptides that consist of two or more amino acids), including two heavy chains and two light chains. What do antibodies look like? Each antibody structure consists of two heavy chains and two light chains, which join to form a Y-shaped molecule.",
+      "source_url": "https://my.clevelandclinic.org/health/body/22971-antibodies",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Definition of lymphocyte - NCI Dictionary of Cancer Terms The two main types of lymphocytes are B lymphocytes and T lymphocytes. B lymphocytes make antibodies, and T lymphocytes help kill tumor cells and help control ...",
+      "source_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymphocyte",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d8",
+      "text": "B-Lymphocytes - an overview | ScienceDirect Topics B lymphocytes are the cells of adaptive immune system, which have either anti- or protumoral activities. They are capable of producing not only antibodies (Abs ...",
+      "source_url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/b-lymphocytes",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d9",
+      "text": "Immune response: MedlinePlus Medical Encyclopedia B lymphocytes become cells that produce antibodies. Antibodies attach to a specific antigen and make it easier for the immune cells to destroy ... It provides immediate protection against an antigen, but does not provide long-lasting protection. Immune serum globulin (given for hepatitis exposure) and tetanus antitoxin are examples of passive immunization. BLOOD COMPONENTS The immune system includes certain types of white blood cells. It also includes chemicals and proteins in the blood, such as antibodies, complement proteins, and interferon. Some of these directly attack foreign substances in the body, and others work together to help the immune system cells. Lymphocytes are a type of white blood cell. There are B and T type lymphocytes. B lymphocytes become cells that produce antibodies. Antibodies attach to a specific antigen and make it easier for the immune cells to destroy the antigen. T lymphocytes attack antigens directly and help control the immune response. They also release chemicals, known as cytokines, which control the entire immune response. As lymphocytes develop, they normally learn to tell the difference between your own body tissues and substances that are not normally found in your body. Once B cells and T cells are formed, a few of those cells will multiply and provide \"memory\" for your immune system. This allows your immune system to respond faster and more efficiently the next time you are exposed to the same antigen. In many cases, it will prevent you from getting sick. For example, a person who has had chickenpox or has been immunized against chickenpox is immune from getting chickenpox again. The inflammatory response (inflammation) occurs when tissues are injured by bacteria, trauma, toxins, heat, or any other cause. The damaged cells release chemicals including histamine, bradykinin, and prostaglandins. These chemicals cause blood vessels to leak fluid into the tissues, causing swelling. This helps isolate the foreign substance from further contact with body tissues. The chemicals also attract white blood cells called phagocytes that \"eat\" germs and dead or damaged cells.",
+      "source_url": "https://medlineplus.gov/ency/article/000821.htm",
+      "timestamp": "2024-03-31"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Antibodies are made by B cells, which are a type of lymphocyte. These B cells differentiate into plasma cells that secrete antibodies."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as there are no citations provided to support the claims made. All key claims require citation."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 6392,
+      "completion_tokens": 147,
+      "total_tokens": 6539
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3047,
+        "completion_tokens": 59,
+        "total_tokens": 3106
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3345,
+        "completion_tokens": 88,
+        "total_tokens": 3433
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:35:32.168309",
+        "prompt_tokens": 3047,
+        "completion_tokens": 59,
+        "total_tokens": 3106,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:35:33.266752",
+        "prompt_tokens": 3345,
+        "completion_tokens": 88,
+        "total_tokens": 3433,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:35:31.153535",
+  "last_updated_at": "2026-04-18T18:35:33.267257"
+}

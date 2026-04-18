@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0470",
+  "query": "Why does club soda work so well getting stains out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Why You Shouldn't Focus On Franchise Lead Generation Quantity - Brand Journalists you see these two stories: \u0393\u00c7\u00a3Robert Harris, founder of Chem-Dry was on a plane on his way to a very important business meeting \u0393\u00c7\u00f6 he had to go directly from the airport to the meeting, and he spilled his dinner on his tie. The flight attendant came over and used club soda to get the stain out, and he was amazed. \u0393\u00c7\u00ffYou mean club soda will take a stain out?\u0393\u00c7\u00d6 he asked. The attendant explained the old cleaning trick, and a lightbulb went off in Harris\u0393\u00c7\u00d6 head. \u0393\u00c7\u00ffI wonder,\u0393\u00c7\u00d6 he thought, \u0393\u00c7\u00ffif you could use club soda on a large",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Crafter's Creations: TGIF when I managed to spill a little of my soda pop on the fabric. I managed to get the spot cleaned but the fabric was wet so I couldn't work on it anymore for the day. This is as far as I got today. So, I guess the day didn't turn out too bad. At least you managed to get the soda stain out! Great you managed to get a few stitches in at work :D Looking good Dawn. How did you get the soda stain out? That happened to me the other day too and I a curious to",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "10 Examples of Bad Days That Will Make Yours Much Better \u0393\u00c7\u00f4 Facts WT concerned, the worst drink in the world to spill is red wine. First of all, you are out a glass of wine. Second of all, it is almost impossible to get wine stains out of carpeting. It can be done, and I have done it, but it is definitely a lot of work. Make sure to blot the stain; don\u0393\u00c7\u00d6t rub it in. Cold water helps, and so does baking soda. Previous article 16 Photos Showing That You Often Receive \u2568\u00f3he Unexpected Next article 11 Amusing Images That Will Definitely Make You Say \u0393\u00c7\u00ffThat\u0393\u00c7\u00d6s Crazy\u0393\u00c7\u00d6 16 Photos Showing That You",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Sorry We\u0393\u00c7\u00d6re No Longer An Art Gallery- But We\u0393\u00c7\u00d6ll Help You Clean Your Floors! \u0393\u00c7\u00f4 Flooring Tips & Tricks waste club soda, however, this can be a great way to get rid of certain stains. Some of the stains that club soda can clean effectively are beer stains and red wine stains. There are people that are saying that it isn\u0393\u00c7\u00d6t really the truth to use club soda for this type of stain removal. However, if you are doing it correctly, it will be easy to use. The problem is that people don\u0393\u00c7\u00d6t really know how to clean these stains using the club soda. You might want to have shaving cream at hand for cleaning spots on carpets Shaving",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "June, 2014 | Classic Cleaners Does Club Soda Really Work on Spills? Caring for your Household Items, Stain Removal Everyone \u0393\u00c7\u00a3knows\u0393\u00c7\u00a5 club soda is the ultimate remedy for instant stain removal, but is it all it\u0393\u00c7\u00d6s cracked up to be? Our 107-year-old professional trade association, the Dry-cleaning & Laundry Institute (DLI), recently completed an in-depth study of the merits of club soda [\u0393\u00c7\u00aa] Should you invest in an HE Washing Machine? High Efficiency (HE) washing machines can cost up to twice as much as a regular top loading washing machine, but over time, you will save money on your electric and water bills. There are  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Club soda is often considered an effective stain remover for various spills, including beer and red wine. While some people question its efficacy, proper application can lead to successful stain removal. One anecdote describes a founder of Chem-Dry discovering club soda's stain-removing capabilities when a flight attendant used it to clean a stain on his tie."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about club soda's stain-removing abilities and provides specific examples, but it lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3198,
+      "completion_tokens": 200,
+      "total_tokens": 3398
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1429,
+        "completion_tokens": 100,
+        "total_tokens": 1529
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1769,
+        "completion_tokens": 100,
+        "total_tokens": 1869
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:49.864293",
+        "prompt_tokens": 1429,
+        "completion_tokens": 100,
+        "total_tokens": 1529,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:51.277130",
+        "prompt_tokens": 1769,
+        "completion_tokens": 100,
+        "total_tokens": 1869,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:48.822167",
+  "last_updated_at": "2026-04-18T18:42:51.277567"
+}

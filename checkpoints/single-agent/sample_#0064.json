@@ -1,0 +1,136 @@
+{
+  "sample_id": "#0064",
+  "query": "who has the power to approve or veto legislation constitution?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "ArtI.S7.C2.1 Overview of Presidential Approval or Veto of Bills Article I, Section 7, Clause 2 provides that once a bill passes both houses of Congress it must be presented to the President for approval or veto.",
+      "source_url": "https://constitution.congress.gov/browse/essay/artI-S7-C2-1/ALDE_00013644/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "ArtI.S7.C2.2 Veto Power - Constitution Annotated - Congress.gov In those circumstances, the President can prevent the bill from becoming law simply by declining to sign it, sometimes called a pocket veto. If the President ...",
+      "source_url": "https://constitution.congress.gov/browse/essay/artI-S7-C2-2/ALDE_00013645/",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Legislative Process | house.gov The Government Publishing Office prints the revised bill in a process called enrolling. The President has 10 days to sign or veto the enrolled bill. \"All Legislative Powers herein granted shall be vested in a Congress of the United States, which shall consist of a Senate and House of Representatives. \" How Are Laws Made? Laws begin as ideas. First, a representative sponsors a bill. The bill is then assigned to a committee for study. If released by the committee, the bill is put on a calendar to be voted on, debated or amended. If the bill passes by simple majority (218 of 435), the bill moves to the Senate. In the Senate, the bill is assigned to another committee and, if released, debated and voted on. Again, a simple majority (51 of 100) passes the bill. Finally, a conference committee made of House and Senate members works out any differences between the House and Senate versions of the bill. The resulting bill returns to the House and Senate for final approval. The Government Publishing Office prints the revised bill in a process called enrolling. The President has 10 days to sign or veto the enrolled bill.",
+      "source_url": "http://www.house.gov/the-house-explained/the-legislative-process",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Presidential Veto and Congressional Veto Override Process The Framers of the Constitution gave the President the power to veto acts of Congress to prevent the legislative branch from becoming too powerful. This is an ...",
+      "source_url": "https://www.archives.gov/files/legislative/resources/education/veto/background.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Constitution of the United States - Senate.gov The president is permitted to veto specific legislative acts, but Congress has the authority to override presidential vetoes by two-thirds majorities of both ...",
+      "source_url": "https://www.senate.gov/civics/constitution_item/constitution.htm",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d6",
+      "text": "Presidential Vetoes | The American Presidency Project The veto power is defined in Article 1, Section 7 of the US Constitution. What is now called a \"regular\" veto is a case in which the President returns a ... Statistics Presidential Vetoes The veto power is defined in Article 1, Section 7 of the US Constitution. What is now called a \"regular\" veto is a case in which the President returns a bill to Congress (to the House in which it originated). The veto may be overridden by 2/3 vote of both Houses of Congress. The Constitution also specifies that if the President does not veto or sign a bill within 10 days (excluding Sundays), it becomes a law. This prevents the President from killing legislation through simple inaction. The exception is if Congress has adjourned before the 10 days are up--thereby preventing a possible return with a veto. In that case the legislation does not become law. This situation permits what has been called a \"pocket veto\"--when the President does not return the legislation to Congress, but simply does not act. In that case the bill does not become law. During the 20th century controversy arose about the meaning of the word \"adjournment\" and the possibility for a pocket veto. Did this refer only to ajournment between Congresses (\"adjournment sine die\") or between sessions, or did it refer to any break (e.g., a \"recess.\") which might occur at the end of the 10-day period for a President to act on legislation? In general, now Congress can provide for an \"appropriate officer\" to receive a President's veto message, and opportunity for prompt consideration of an override vote. Presidents may still assert a pocket veto, but accompany it with a message setting forth their objections, so that there will be no confusion as to whether the legislation was vetoed or should have automatically become law.",
+      "source_url": "https://www.presidency.ucsb.edu/statistics/data/presidential-vetoes",
+      "timestamp": "2004-02-01"
+    },
+    {
+      "doc_id": "d7",
+      "text": "The Veto Power | U.S. Constitution Annotated | US Law The Presentment Clause allows the President to veto legislation, preventing it from taking effect unless two thirds of both the House and Senate vote to ... Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States; If he approve he shall sign it, but if not he shall return it, with his Objections to that House in which it shall have originated, who shall enter the Objections at large on their Journal, and proceed to reconsider it. If after such Reconsideration two thirds of that House shall agree to pass the Bill, it shall be sent, together with the Objections, to the other House, by which it shall likewise be reconsidered, and if approved by two thirds of that House, it shall become a Law. But in all such Cases the Votes of both Houses shall be determined by yeas and Nays, and the Names of the Persons voting for and against the Bill shall be entered on the Journal of each House respectively. If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it, unless the Congress by their Adjournment prevent its Return, in which Case it shall not be a Law. The Presentment Clause allows the President to veto legislation, preventing it from taking effect unless two thirds of both the House and Senate vote to override the veto. The Supreme Court has held that the two-thirds vote of each Chamber required to pass a bill over a veto refers to two-thirds of a quorum.1Footnote Missouri Pacific Ry. v. Kansas, 248 U.S. 276 (1919). While the President may exercise the veto power to prevent a bill from becoming law, the Court has held that, once a bill becomes law, the President has no authority to repeal it.2Footnote The Confiscation Cases, 87 U.S. (20 Wall.) 92 (1874). The Court has also issued decisions limiting vetoes in certain contexts, including the line item veto and the legislative veto.3Footnote See ArtI.S7.C2.1.3 Line Item Veto; ArtI.S7.C2.1.4 Legislative Veto.",
+      "source_url": "https://www.law.cornell.edu/constitution-conan/article-1/section-7/clause-2/the-veto-power",
+      "timestamp": "2016-07-25"
+    },
+    {
+      "doc_id": "d8",
+      "text": "How laws are made | USAGov The president can approve the bill and sign it into law. Or the president can refuse to approve a bill. This is called a veto. If the president ... How laws are made Congress is the lawmaking branch of the federal government. Learn how a bill becomes a law and how the process is different in the House of Representatives and in the Senate. How a bill becomes a law A bill is a proposal for a new law or a change to an existing law. The idea for a bill can come from a sitting member of the U.S. Senate or House of Representatives or be proposed during their election campaign. Bills can also be petitioned by people or citizen groups who recommend a new or amended law to a member of Congress that represents them. Once a bill is introduced, it is assigned to a committee whose members will research, discuss, and make changes to the bill. The bill is then put before that chamber to be voted on. If the bill passes one body of Congress, it goes to the other body to go through a similar process of research, discussion, changes, and voting. Once both bodies vote to accept a bill, they must work out any differences between the two versions. Then both chambers vote on the same version of the bill. If it passes, they present it to the president. The president then considers the bill. The president can approve the bill and sign it into law. Or the president can refuse to approve a bill. This is called a veto. If the president chooses to veto a bill, in most cases Congress can vote to override that veto and the bill becomes a law. But if the president does not sign off on a bill and it remains unsigned when Congress is no longer in session, the bill will be vetoed by default. This action is called a pocket veto, and it cannot be overridden by Congress. How the House and Senate\u00e2\u0080\u0099s lawmaking procedures are different The Senate and the House have some procedural differences. While both are equal in how they function, only the House can initiate tax and revenue-related legislation. And only the Senate can draft legislation related to presidential nominations and treaties. While the House processes legislation through a majority vote, the Senate does so through deliberation and debate prior to voting.",
+      "source_url": "https://www.usa.gov/how-laws-are-made",
+      "timestamp": "2024-11-05"
+    },
+    {
+      "doc_id": "d9",
+      "text": "powers of Governor; vetoes and amendments - Virginia Law The Governor shall either sign or veto a bill returned to him from a reconvened session. If the Governor vetoes the bill, the veto shall stand and the bill ... Article V. Executive (a) Every bill which passes the Senate and House of Delegates, before it becomes law, shall be presented to the Governor. (b) During a regular or special session, the Governor shall have seven days in which to act on the bill after it is presented to him and to exercise one of the three options set out below. If the Governor does not act on the bill, it shall become law without his signature. (i) The Governor may sign the bill if he approves it, and the bill shall become law. (ii) The Governor may veto the bill if he objects to it by returning the bill with his objections to the house in which the bill originated. The house shall enter the objections in its journal and reconsider the bill. The house may override the veto by a two-thirds vote of the members present, which two-thirds shall include a majority of the members elected to that house. If the house of origin overrides the Governor's veto, it shall send the bill and Governor's objections to the other house where the bill shall be reconsidered. The second house may override the Governor's veto by a two-thirds vote of the members present, which two-thirds shall include a majority of the members elected to that house. If both houses override the Governor's veto, the bill shall become law without his signature. If either house fails to override the Governor's veto, the veto shall stand and the bill shall not become law. (iii) The Governor may recommend one or more specific and severable amendments to a bill by returning it with his recommendation to the house in which it originated. The house shall enter the Governor's recommendation in its journal and reconsider the bill. If both houses agree to the Governor's entire recommendation, the bill, as amended, shall become law. Each house may agree to the Governor's amendments by a majority vote of the members present. If both houses agree to the bill in the form originally sent to the Governor by a two-thirds vote of all members present in each house, which two-thirds shall include a majority of the members elected to that house, the original bill shall become law.",
+      "source_url": "https://law.lis.virginia.gov/constitution/article5/section6/",
+      "timestamp": "2025-03-04"
+    },
+    {
+      "doc_id": "d10",
+      "text": "Journeyman: Branches of Government - Ben's Guide The President in the executive branch can veto a law, but the legislative branch can override that veto with enough votes. The legislative branch has the power ... The Constitution divided the Government into three branches: legislative, executive, and judicial. That was an important decision because it gave specific powers to each branch and set up something called checks and balances. Just like the phrase sounds, the point of checks and balances was to make sure no one branch would be able to control too much power, and it created a separation of powers. Here are some examples of how the different branches work together: The legislative branch makes laws, but the President in the executive branch can veto those laws with a Presidential Veto. The legislative branch makes laws, but the judicial branch can declare those laws unconstitutional. The executive branch, through the Federal agencies, has responsibility for day-to-day enforcement and administration of Federal laws. These Federal departments and agencies have missions and responsibilities that vary widely, from environmental protection to protecting the Nation\u2019s borders. The President in the executive branch can veto a law, but the legislative branch can override that veto with enough votes. The legislative branch has the power to approve Presidential nominations, control the budget, and can impeach the President and remove him or her from office. The executive branch can declare Executive Orders, which are like proclamations that carry the force of law, but the judicial branch can declare those acts unconstitutional. The judicial branch interprets laws, but the President nominates Supreme Court justices, court of appeals judges, and district court judges who make the evaluations. The judicial branch interprets laws, but the Senate in the legislative branch confirms the President\u2019s nominations for judicial positions, and Congress can impeach any of those judges and remove them from office. See our \"Branches of Government\" infographic to find the checks and balances you see illustrated. In this Learning Adventure, we\u2019ll find out who designed the Branches of Government and why they\u2019re so important. In 1787, when the United States was still a new country, a meeting of State delegates gathered to make decisions about how the Government would be run. The meeting was called the Constitutional Convention. Many of the people who attended the Constitutional Convention are today called the Founding Fathers.",
+      "source_url": "https://bensguide.gpo.gov/citizenship/24-age-9/j-branches",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The President has the power to approve or veto legislation. Once a bill passes both houses of Congress, it is presented to the President, who has 10 days to sign it into law or veto it. Congress can override a presidential veto with a two-thirds majority vote in both the House and the Senate."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the President's power to approve or veto legislation and the process involved. However, no citations were provided to support these claims, making the answer ungrounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 7318,
+      "completion_tokens": 200,
+      "total_tokens": 7518
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3491,
+        "completion_tokens": 96,
+        "total_tokens": 3587
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3827,
+        "completion_tokens": 104,
+        "total_tokens": 3931
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:21:58.123714",
+        "prompt_tokens": 3491,
+        "completion_tokens": 96,
+        "total_tokens": 3587,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:21:59.250096",
+        "prompt_tokens": 3827,
+        "completion_tokens": 104,
+        "total_tokens": 3931,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:21:56.879293",
+  "last_updated_at": "2026-04-18T18:21:59.250787"
+}

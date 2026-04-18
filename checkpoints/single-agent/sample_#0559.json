@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0559",
+  "query": "If a hangover is a combination of dehydration, lack of sleep, and mild alcohol poisoning, why do two beers in the morning kill it faster than water?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Avoiding the Severity of Symptoms From Hangovers know that you are going to pay the price in the morning. What do you do at this point? Drink water. Even at this stage of the process, if you can drink as much water as you can before hitting the pillow, you can significantly reduce the hangover effects caused by dehydration. You may not avoid all of the unpleasant effects, but you will certainly be better off than if you do not drink any water before you sleep. A.D.A.M. \"Hangover Treatment.\" 10 Oct. 2007 National Institute on Alcohol Abuse and Alcoholism. \"Alcohol Hangover - Mechanisms and Mediators (PDF).\" 14",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Why do hangovers occur? - Scientific American dehydration. Dehydration accentuates the symptoms of a hangover. Other factors that contribute to an alcohol hangover include consumption of larger quantities of alcohol than the person can tolerate. Individuals who drink alcohol rapidly, or without food, or without diluting it with nonalcoholic beverages, are more prone to developing a hangover. Mixing different alcoholic drinks can also cause a hangover. Additionally, smoking, loud music, flashing lights and decreased quality and quantity of sleep can exacerbate hangover headaches. One can diminish the severity of the hangover by paying attention to the amount and type of alcohol consumed, as well as controlling other",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1998-05-16"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why you should be wary of going to work with a hangover pressure are common physical reactions. Psychological symptoms can also include irritability, anxiety and depression. But as familiar as these symptoms may be, a lack of research means hangovers remain something of a scientific mystery. While acute intoxication has been the subject of tens of thousands of research papers, only a handful have ever investigated its after-effects. Hangovers are often mistakenly thought to be caused solely by dehydration. However the physical symptoms are caused by several factors, including dehydration and electrolyte imbalance (the thirst and light-headedness), inflammation of the stomach and intestines (the nausea and vomiting), disturbance of sleep and alcohol",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2004-04-14"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Dangers of Energy Drinks - They Can Kill You | Febico Blog Do you mix alcohol with energy drinks? You can have a strong hangover! The result of a combination of alcohol and energy drinks can be a strong hangover \u0393\u00c7\u00f4 stronger than the one after drinking the alcohol itself. Why? Caffeine, like alcoholic beverages, leads to significant dehydration of the body. Therefore, drinking such a mixture in a larger amount leads to very strong dehydration of the body and, in consequence, to a very strong hangover. The effects of mixing alcohol with energy drinks \u0393\u00c7\u00f4 addiction Energy drinks are addictive like coffee and additionally promote alcohol addiction. According to scientists from",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Hangover, What is a hangover?, What are the symptoms of hangover?, What causes a hangover?, Can hangovers be prevented? avert hangovers by taking certain steps. One way is to drink only on a full stomach or with food, to drink slowly, and to consume moderate amounts of alcohol. Drinking several eight-ounce glasses of water prior to going to sleep may help relieve dry mouth and dehydration * . The National Institute on Alcohol Abuse and Alcoholism recommends a maximum of one drink per day for women and two per day for men. The institute defines one drink as a 12-ounce beer, a 4-ounce glass of wine, or a mixed drink with 1.5 ounces of liquor (80-proof distilled spirits). Another  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not explain why two beers in the morning might alleviate a hangover faster than water. They primarily discuss that dehydration is a significant factor in hangovers and that drinking water can help reduce its effects."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the information requested in the query. It accurately reflects the content of the documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2568,
+      "completion_tokens": 168,
+      "total_tokens": 2736
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1126,
+        "completion_tokens": 76,
+        "total_tokens": 1202
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1442,
+        "completion_tokens": 92,
+        "total_tokens": 1534
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:31.156873",
+        "prompt_tokens": 1126,
+        "completion_tokens": 76,
+        "total_tokens": 1202,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:32.038953",
+        "prompt_tokens": 1442,
+        "completion_tokens": 92,
+        "total_tokens": 1534,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:29.970102",
+  "last_updated_at": "2026-04-18T20:07:32.039395"
+}

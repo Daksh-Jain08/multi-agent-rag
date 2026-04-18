@@ -1,0 +1,130 @@
+{
+  "sample_id": "#0104",
+  "query": "Who is the current ATP top-ranked men's singles tennis player?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "PIF ATP Rankings (Singles) | ATP Tour | Tennis Official PIF ATP Rankings (Singles) showing a list of top players in men's tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, ...",
+      "source_url": "https://www.atptour.com/en/rankings/singles",
+      "timestamp": "2024-12-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Men's Tennis ATP Rankings 2025 - ESPN View the 2025 ATP rankings on ESPN. Includes the top 150 ranked tennis players of the year. ESPN BET is owned and operated by PENN Entertainment, Inc. and its subsidiaries ('PENN'). ESPN BET is available in states where PENN is licensed to offer sports wagering. Must be 21+ to wager. If you or someone you know has a gambling problem and wants help, call 1-800-GAMBLER.",
+      "source_url": "https://www.espn.com/tennis/rankings",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "ATP Live Rankings | PIF ATP Rankings (Singles) | ATP Tour | Tennis Official PIF ATP Live Rankings (Singles) showing a list of top players in men's tennis rankings on the ATP Tour, featuring Novak Djokovic, Rafael Nadal, ...",
+      "source_url": "https://www.atptour.com/en/rankings/singles/live",
+      "timestamp": "2024-10-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "ATP Singles Rankings - Tennis24 Rankings ; 1. Sinner Jannik \u00b7 11830 ; 2. Zverev Alexander \u00b7 7915 ; 3. Alcaraz Carlos \u00b7 7010 ; 4. Fritz Taylor \u00b7 5100 ; 5. Medvedev Daniil \u00b7 5030.",
+      "source_url": "https://www.tennis24.com/rankings/atp/",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Players & Rankings | Tennis.com Jannik Sinner \u00b7 Sinner \u00b7 Jannik \u00b7 # 1 11,830 ; Alexander Zverev \u00b7 Zverev \u00b7 Alexander \u00b7 # 2 7,635 ; Carlos Alcaraz \u00b7 Alcaraz \u00b7 Carlos \u00b7 # 3 7,010.",
+      "source_url": "https://www.tennis.com/players-rankings/",
+      "timestamp": "2025-01-01"
+    },
+    {
+      "doc_id": "d6",
+      "text": "Live ATP Ranking Facundo D\u00edaz Acosta, 24, ARG, 758, +5, +44, Auckland QF (R16 ), Lost in Qual. Auckland R2, Lost in Qual. Auckland R2 Auckland QF",
+      "source_url": "https://live-tennis.eu/en/atp-live-ranking",
+      "timestamp": "2025-01-08"
+    },
+    {
+      "doc_id": "d7",
+      "text": "Men's Tennis, ATP Singles World Rankings - complete list - Novak ... 24-time Grand Slam winner Novak Djokovic solidified his lead as number one after clinching his seventh ATP Finals title in Turin on Sunday 19 November. 24-time Grand Slam winner Novak Djokovic solidified his lead as number one after clinching his seventh ATP Finals title in Turin on Sunday 19 November. The Serbian had already secured a year-end No. 1 ranking for a record-extending eighth time, and the 36-year-old star can now celebrate 400 weeks as world No 1, which has never been done by any player before. Carlos Alcaraz, who famously defeated Djokovic in this year's Wimbledon final, still holds the second spot as of 20 November 2023. Daniil Medvedev (Russia) follows in third with ATP Finals runner-up JannikSinner in fourth.",
+      "source_url": "https://olympics.com/en/news/tennis-atp-men-singles-world-rankings-complete-list",
+      "timestamp": "2023-11-20"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Current tennis rankings - Wikipedia ATP singles ; 1. Jannik Sinner ( ITA ) \u2713, 10,330, 14 ; 2. Alexander Zverev ( GER ) \u2713, 7,315, 20 ; 3. Carlos Alcaraz ( ESP ) \u2713, 6,810, 14. The ATP and WTA rankings are updated weekly on Mondays (UTC) or at the conclusion of a two-week tournament. As of 1 March 2022, the ATP and WTA announced that Russian and Belarusian players continue to be allowed to compete in international tennis events on Tour and at the Grand Slams. However, they will not compete under the name or flag of Russia or Belarus, due to the Russian invasion of Ukraine.[1]",
+      "source_url": "https://en.wikipedia.org/wiki/Current_tennis_rankings",
+      "timestamp": "2025-01-06"
+    },
+    {
+      "doc_id": "d9",
+      "text": "ATP 2025 World Ranking - Tennis - Eurosport ATP Rankings 2025 ; 1. J. Sinner ; 2. A. Zverev ; 3. C. Alcaraz ; 4. T. Fritz.",
+      "source_url": "https://www.eurosport.com/tennis/atp/standings.shtml",
+      "timestamp": "2025-01-01"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "As of January 1, 2025, Jannik Sinner is the top-ranked ATP men's singles tennis player."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes a factual claim about the top-ranked player but provides no citations. The provided documents do not support the claim with citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3446,
+      "completion_tokens": 155,
+      "total_tokens": 3601
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1572,
+        "completion_tokens": 62,
+        "total_tokens": 1634
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1874,
+        "completion_tokens": 93,
+        "total_tokens": 1967
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:24:09.958537",
+        "prompt_tokens": 1572,
+        "completion_tokens": 62,
+        "total_tokens": 1634,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:24:10.897830",
+        "prompt_tokens": 1874,
+        "completion_tokens": 93,
+        "total_tokens": 1967,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:24:09.118319",
+  "last_updated_at": "2026-04-18T18:24:10.898306"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0511",
+  "query": "When did the first youtube video come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "website hours after he advertised his presence there on YouTube. In January 2007, he hosted a live, 24-hour Stickam broadcast to raise awareness for the Darfur conflict. In addition to several other popular YouTube users, Going worked with Barenaked Ladies to produce a music video for their single \"Sound of Your Voice\" in February 2007. The video has been featured on the Barenaked Ladies' homepage. In May 2007, YouTube entered Going as one of the first users to take part in its partnership program. As a YouTube partner, Going can capitalize on \"promotional opportunities\" and advertiser based revenue sharing. He",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d2",
+      "text": "her efforts to combat stereotypes and misconceptions associated with Arabs and Muslims. With over 3 million views, Queen Rania created her own channel on YouTube in March 2008 to start an international conversation, which she called \"unscripted, unedited and unfiltered\". As a sponsor for the event, Flip Video gave away a free Flip Video Mino to many of the audience members to record any of the event. A station to upload videos to YouTube from the Mino was also provided, and promoted, in sponsorship of Flip. The event was meant to be an annual show, as referenced by Katy Perry",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "his cousins, Jon and Katie Smet. He and his cousins set up the JKL Productions channel on June 11, 2006, and Cruikshank uploaded several videos testing out different characters. His first Fred video was uploaded on October 30, 2006, and when this character started to become popular, Cruikshank made more videos featuring Fred. On April 30, 2008, these videos were removed from JKL Productions, and added to the Fred channel. On May 1 the first official video of the series, titled \"Fred on May Day\" was released, explaining that Cruikshank asked YouTube for the Fred channel. Someone else previously owned",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2024"
+    },
+    {
+      "doc_id": "d4",
+      "text": "every day. YouTube entered into a marketing and advertising partnership with NBC in June 2006. In March 2007, it struck a deal with BBC for three channels with BBC content, one for news and two for entertainment. In November 2008, YouTube reached an agreement with MGM, Lions Gate Entertainment, and CBS, allowing the companies to post full-length films and television episodes on the site, accompanied by advertisements in a section for U.S. viewers called \"Shows\". The move was intended to create competition with websites such as Hulu, which features material from NBC, Fox, and Disney. In November 2009, YouTube launched",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2017-02-03"
+    },
+    {
+      "doc_id": "d5",
+      "text": "domain codice_2 for videos embedded on United States federal government websites. In November of the same year, YouTube launched a version of \"Shows\" available to UK viewers, offering around 4,000 full-length shows from more than 60 partners. \"Entertainment Weekly\" placed YouTube on its end-of-the-decade \"best-of\" list In December 2009, describing it as: \"Providing a safe home for piano-playing cats, celeb goof-ups, and overzealous lip-synchers since 2005.\" In January 2010, YouTube introduced an online film rentals service which is currently available only to users in the US, Canada and the UK. The service offers over 6,000 films. In March 2010 YouTube  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first YouTube video was uploaded on October 30, 2006."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not contain the answer to the query."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2473,
+      "completion_tokens": 138,
+      "total_tokens": 2611
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1091,
+        "completion_tokens": 51,
+        "total_tokens": 1142
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1382,
+        "completion_tokens": 87,
+        "total_tokens": 1469
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:42.345260",
+        "prompt_tokens": 1091,
+        "completion_tokens": 51,
+        "total_tokens": 1142,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:43.389358",
+        "prompt_tokens": 1382,
+        "completion_tokens": 87,
+        "total_tokens": 1469,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:41.532259",
+  "last_updated_at": "2026-04-18T20:05:43.390288"
+}

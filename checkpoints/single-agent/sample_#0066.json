@@ -1,0 +1,124 @@
+{
+  "sample_id": "#0066",
+  "query": "How many undergraduate students enrolled in Reed College in the most recent fall semester?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Historical Enrollment (fall census headcount) - Institutional Research New Undergraduate Students (fall) \u00b7 Total new, 422 ; Continuing Undergraduate Students (fall) \u00b7 Total continuing, 998 ; Special Programs (fall) \u00b7 Total special, 57 ... Enrollment Grand Totals (annual full-paying equivalent or FPE\u2020\u2020) \u2020Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% of full time, 0.5 FTE equals 50% or half time. FTE can be used to represent percentage of faculty time teaching, or time spent as a student. For example, a faculty member may teach three-fifths of the time, or 0.60 FTE; a quarter-time student would be 0.25 FTE. \u2020\u2020Full Paying Equivalent (FPE) is derived from dividing total tuition dollars collected by the full-time tuition rate. Tuition dollars collected include cash, loan, and financial aid monies used to pay tuition. A 1,230 FPE represents tuition for 1,230 full-paying students, though this may consist of some part-time and full-paying students. *Fall only, not annual **Starting fall 2013 students studying off-campus are not included in the enrollment totals. Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment_hist.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Enrollment - Institutional Research - Reed College Enrollment. Fall 2024 Enrollment (headcount). Student Level, Women, Men, NonBinary, Total. Undergraduate, 601 (45%), 444 (33%), 301 (22%), 1346. Graduate, 3 (25 ... Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Reed College | Data USA The total enrollment at Reed College in 2022, both undergraduate and graduate, is 1,534 students. The full-time enrollment at Reed College is 1,492 and the part ... In 2022, the undergraduate acceptance rate of Reed College was 30.8% (2,779 admissions from 9,023 applications). This is lower than the acceptance rate of 2021, which was 43.8%. Between 2021 and 2022, the number of applicants grew by 28.7%, while admissions declined by 9.51%. This chart compares the acceptance rate of Reed College (in red) with that of other similar universities, and the chart below shows the acceptance rate by gender. Reed College had a total enrollment of 1,534 students in 2022. The full-time enrollment at Reed College is 1,492 students and the part-time enrollment is 42. This means that 97.3% of students enrolled at Reed College are enrolled full-time. The enrolled student population at Reed College, both undergraduate and graduate, is 60% White, 11.8% Hispanic or Latino, 9.84% Two or More Races, 7.5% Asian, 1.04% Black or African American, and 0.196% American Indian or Alaska Native. Students enrolled at Reed College in full-time Undergraduate programs are most commonly White Female (33.7%), followed by White Male (26.3%) and Hispanic or Latino Female (7.91%). The total enrollment at Reed College in 2022, both undergraduate and graduate, is 1,534 students. The full-time enrollment at Reed College is 1,492 and the part-time enrollment is 42. This means that 97.3% of students enrolled at Reed College are enrolled full-time compared with 79.6% at similar Baccalaureate Colleges. This chart shows the full-time vs part-time enrollment status at Reed College (in red) compares to similar universities.",
+      "source_url": "https://datausa.io/profile/university/reed-college",
+      "timestamp": "2022-01-01"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Reed College - Wikipedia Reed College is a private liberal arts college in Portland, Oregon, United States. Founded in 1908, Reed is a residential college with a campus in the ... Reed is singled out as having little to no grade inflation over the years;[24] only ten students graduated with a perfect 4.0 GPA in the period from 1983 to 2012.[25] (Transcripts are accompanied by a card contextualizing Reed's grading approach so as not to penalize students' graduate school applications.)[26] Although Reed does not award Latin honors to graduates, it confers several awards for academic achievement at commencement, including naming students to Phi Beta Kappa.[27] Academics Reed categorizes its academic program into five Divisions and the Humanities program. Overall, Reed offers five Humanities courses, twenty-six department majors, twelve interdisciplinary majors, six dual-degree programs with other colleges and universities, and programs for pre-medical and pre-veterinary students. Its three most popular majors, based on 2023 graduates, were Psychology, Biology/Biological Sciences, and Computer and Information Sciences.[34] Divisions Division of Arts: includes the Art (Art History and Studio Art), Dance, Music, and Theatre Departments; Division of History and Social Sciences: includes the History, Anthropology, Economics, Political Science, and Sociology Departments, as well as the International and Comparative Policy Studies Program; Division of Literature and Languages: includes the Classics, Chinese, English, French, German, Russian, and Spanish Departments, as well as the Creative Writing and General Literature Programs; Division of Mathematics and Natural Sciences: includes the Mathematics, Biology, Chemistry, and Physics Departments, and Division of Philosophy, Religion, Psychology, and Linguistics: includes the Philosophy, Religion, Psychology, and Linguistics Departments.",
+      "source_url": "https://en.wikipedia.org/wiki/Reed_College",
+      "timestamp": "2025-03-31"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Detailed Enrollment - Institutional Research - Reed College Fall 2024 Enrollment (full-time equivalency or FTE\u2020) ... Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% or full ... Fall 2024 Enrollment (full-time equivalency or FTE\u2020) \u2020Full-Time Equivalent (FTE) is the percentage equivalent to full-time work; 1.0 FTE equals 100% or full time, 0.5 FTE equals 50% or half time. FTE can be used to represent percentage of faculty time teaching, or time spent as a student. For example, a faculty member may teach three-fifths of the time, or 0.60 FTE; a quarter-time student would be 0.25 FTE. Reed College prohibits unlawful discrimination on the basis of race, color, national origin, religion, sex, sexual orientation, gender identity, gender expression, age, marital or familial status, military status, veteran status, genetic information, physical or mental disability, pregnancy, or any other category protected by federal, state, or local laws that apply to the college, in any area, activity or operation of the college, including in its employment policies, educational policies, admission policies, scholarship and loan programs, housing policies, athletic programs, and other school-administered programs.",
+      "source_url": "https://www.reed.edu/ir/enrollment_more.html",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d6",
+      "text": "B. ENROLLMENT AND PERSISTENCE - Reed College Provide numbers of undergraduate students for each of the following categories as of the institution's official fall reporting date or as of October 19,. 2022.",
+      "source_url": "https://www.reed.edu/ir/cds/cds2223/CDS_secB_202223.pdf",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d7",
+      "text": "Reed College Reed College is a leading liberal arts college known for encouraging intellectual curiosity. Learn about our vibrant, inclusive community in Portland, Oregon. The silent video above depicts six scenes of campus: an aerial view of Old Dorm Block among green trees and grass, with the Portland skyline in the background; a bird\u00e2\u0080\u0099s eye view of eight students playing a pick-up soccer game; three students sitting in the grass, surrounded by trees; two students walking across the Blue Bridge over Reed canyon, a watershed with a lake and lush green trees; a close-up of two hands browsing a shelf of bound theses in the Thesis Tower; and several small groups of students lounging on the lawn in front of Old Dorm Block on a sunny day. Meet the Reedies I worked in the Reed canyon, made amazing friends\u00e2\u0080\u0094human, plant, and animal\u00e2\u0080\u0094and learned a lot about ecological restoration techniques and native plants. Elena Carmen Turner \u00e2\u0080\u009922Anthropology \u00e2\u0080\u009c Professor Kambiz GhaneaBassiri\u00e2\u0080\u0099s class on the erasure of Islam from the Western humanities was eye-opening and helped me finally understand some of the reasons why the distinction of the West historically arose. Aditya Gadkari \u00e2\u0080\u009922Economics \u00e2\u0080\u009c Professor David Perkinson let me work with him on a research project the summer after my sophomore year that ended up being a formative experience for me. I learned a lot of math, but more importantly I learned how fun research can be and what I am capable of. He also taught me the importance of good chalk. Olivia McGough \u00e2\u0080\u009923Mathematics \u00e2\u0080\u009c I was a team coordinator for Ultimate Frisbee, and it was a lot of fun building a sense of community through sport. I was also a peer career advisor with the Center for Life Beyond Reed. Joshua Park \u00e2\u0080\u009923Comparative Race and Ethnicity Studies \u00e2\u0080\u009c I\u00e2\u0080\u0099ve learned how to approach solving problems that are hard or confusing, and how to discuss my reasoning with others and work collaboratively toward a solution. I also think I\u00e2\u0080\u0099m more open to trying new things and exploring new experiences. Caden Corontzos \u00e2\u0080",
+      "source_url": "https://www.reed.edu/",
+      "timestamp": "2024-01-17"
+    },
+    {
+      "doc_id": "d8",
+      "text": "Average Class Size - Institutional Research - Reed College Number of Class Sections and Subsections With Undergraduates Enrolled in Fall 2024 ; 80 \u00b7 26 \u00b7 106 \u00b7 26% ; 151 \u00b7 75 \u00b7 226 \u00b7 55% ... Average Class Size Number of Class Sections and Subsections With Undergraduates Enrolled in Fall 2024 2-9 10-19 20-29 30-39 40-49 50-99 100+ Total Class Sections 80 151 55 7 3 3 1 300 Class Subsections 26 75 11 - - - - 112 Total 106 226 66 7 3 3 1 412 26% 55% 16% 2% <1% <1% <1% 100% Average Class Size Semester Year Average Class Size Number of Classes 2-10 11-15 16-24 25-34 35-49 50-99 100+ Total Spring 1994 17.5 82 104 91 13 4 10 4 308 Fall 1994 18.0 93 79 105 26 6 8 4 321 Spring 1995 16.6 97 95 96 22 3 8 3 324 Fall 1995 18.2 82 84 117 23 3 9 4 322 Spring 1996 16.8 91 98 103 10 8 5 4 319 Fall 1996 17.6 77 87 118 24 6 6 3 321 Spring 1997 16.9 90 84 113 17 5 4 4 317 Fall 1997 16.8 85 100 1",
+      "source_url": "https://www.reed.edu/ir/averageclssz.html",
+      "timestamp": "2024-01-17"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In Fall 2024, Reed College had 1346 undergraduate students enrolled."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": false,
+        "correct_type": true,
+        "correct_abstain": false,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The claim about the number of undergraduate students in Fall 2024 is not supported by any of the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 7555,
+      "completion_tokens": 158,
+      "total_tokens": 7713
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 3631,
+        "completion_tokens": 53,
+        "total_tokens": 3684
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 3924,
+        "completion_tokens": 105,
+        "total_tokens": 4029
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:22:03.014403",
+        "prompt_tokens": 3631,
+        "completion_tokens": 53,
+        "total_tokens": 3684,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:22:04.089197",
+        "prompt_tokens": 3924,
+        "completion_tokens": 105,
+        "total_tokens": 4029,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:22:01.908532",
+  "last_updated_at": "2026-04-18T18:22:04.089501"
+}

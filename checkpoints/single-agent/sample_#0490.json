@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0490",
+  "query": "how are the ears related to balance?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Balance Disorders (for Parents) - KidsHealth also can impact hearing. Sounds might seem muffled, especially amid background noise. Kids might also have bothersome, distracting ear problems like ear pain, pressure or \"fullness\"in the ears, and tinnitus (ringing or other sounds like whirring, humming, or buzzing). These kinds of balance-related symptoms can take a real toll on kids \u0393\u00c7\u00f6 physically and emotionally \u0393\u00c7\u00f6 and cause other symptoms like: motion (car) sickness fear, anxiety, or panic Of course, symptoms involving kids' movement, sight, hearing \u0393\u00c7\u00f6 and just how they feel, day to day \u0393\u00c7\u00f6 can affect their ability to keep up in class, whether in preschool or high",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Miracle of Balance: What Happens When the System Gets Out of Sync - FOCUS - A health blog from Mass. Eye and Ear The Miracle of Balance: What Happens When the System Gets Out of Sync Thursday, May 23, 2019 Expert Chats Renowned Mass. Eye and Ear balance expert Dr. Steven Rauch, MD, explains what balance is, why it is miraculous, and what people can do to avoid age-related declines. A person\u0393\u00c7\u00d6s sense of balance is \u0393\u00c7\u00a3miraculous,\u0393\u00c7\u00a5 according to Dr. Steven D. Rauch, medical director of the Balance and Vestibular Center at Massachusetts Eye and Ear. Balance, he explains, is different from other senses like sight, sound and smell, which come from one single input (eyes, ears, and nose, respectively). Instead, balance is",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2007-03-28"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Hear Well, Balance Well The Ear Institute | Palm DesertThe Ear Institute The Ear Institute, Center for the Ear, Hearing, & Balance is dedicated to providing adult and pediatric patients with treatment for any and all ear-related health problems. Our areas of service expertise include: medical and surgical treatment for ear disease, hearing evaluation, physician-driven recommendations on hearing amplification, balance testing, medical and surgical treatment of dizziness, balance rehabilitation and falls prevention management. Our focus is to bring people to good heath, through improved health of their ears, hearing and balance. We strive to cure our patients\u0393\u00c7\u00d6 ear maladies, solve their communication difficulties, and right their balance challenges. In doing so, we",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "How 'tickling' the ear could prevent age related disease - Medical News New research suggests that using controlled electric currents to stimulate certain parts of the ear could readjust the body\u0393\u00c7\u00d6s metabolic balance, thus reducing the risk of age related health problems. Can \u0393\u00c7\u00fftickling\u0393\u00c7\u00d6 the ear with electric stimuli improve health later in life? Scientists from the United Kingdom believe that it can. Vagus nerve stimulation is a practice that has lately gained a lot of attention from medical researchers. The vagus nerve is the longest of the nerves that connect the brain with other parts of the body. It provides a direct link between the brain and the gut, and it",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Balance System Assessments | Ochsner Health System (VNG) to record and analyze the eye movements associated with these complaints including testing for BPPV (Benign Paroxysmal Positional Vertigo), the most commonly occurring inner ear-related dizziness problem. More generalized balance problems are assessed using Computerized Dynamic Posturography that measures how the inner ear, vision and somatosensation interact for balance. Together these two clinical exams provide both diagnostic information and form the basis for treatment recommendations  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2017-03-10"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The ears are directly related to balance. The inner ear plays a crucial role in maintaining balance, and problems with the inner ear can lead to dizziness and balance issues. Balance is a complex sense that involves input from the ears, vision, and somatosensation."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about the ears' relation to balance and the inner ear's role, but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2803,
+      "completion_tokens": 186,
+      "total_tokens": 2989
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1239,
+        "completion_tokens": 85,
+        "total_tokens": 1324
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1564,
+        "completion_tokens": 101,
+        "total_tokens": 1665
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:30.958598",
+        "prompt_tokens": 1239,
+        "completion_tokens": 85,
+        "total_tokens": 1324,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:31.985788",
+        "prompt_tokens": 1564,
+        "completion_tokens": 101,
+        "total_tokens": 1665,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:29.870663",
+  "last_updated_at": "2026-04-18T18:43:31.986200"
+}

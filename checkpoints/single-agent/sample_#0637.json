@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0637",
+  "query": "When did puerto become part of the usa?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "in 1898, and the island was annexed by the U.S. under the terms of the Treaty of Paris of 1898 which was ratified on December 10, 1898. Almost immediately, the United States began the \"Americanization\" process of Puerto Rico. The U.S. occupation brought about a total change in Puerto Rico's economic and political life. Amongst the many industries appropriated and controlled by the U.S. Government, were Puerto Rico's financial and banking institutions. In 1913, the United States Congress passed the Federal Reserve Act which created The Federal Reserve System. All national banks were required to join the system and Congress",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "became citizens of the United States as a result of the passage of the Jones-Shafroth Act of 1917. Since this law was the result of Congressional legislation, and not the result of an amendment to the United States Constitution, the current U.S. citizenship of Puerto Ricans can be revoked by Congress, as they are \"statutory citizens\", not \"14th Amendment citizens\". The Jones Act established that Puerto Ricans born prior to 1899 were considered naturalized citizens of Puerto Rico, and anyone born after 1898 were U.S. citizens, unless the Puerto Rican expressed his/her intentions to remain a Spanish subject. Since 1948,",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Republicano) and officially assumed his duties as representative on January 11, 1953. On July 23, 1967, a plebiscite was held to decide if the people of Puerto Rico desired to become an independent nation, a state of the United States of America, or continue the commonwealth relation established in 1952. The majority of Puerto Ricans opted for the Commonwealth option (see Puerto Rican status referendums). Disagreement among the current pro-statehood party led by Miguel A. Garc\u251c\u00a1a M\u251c\u2310ndez led Ferr\u251c\u2310 and others to found the New Progressive Party or PNP. In the following general election in 1968, Ferr\u251c\u2310 ran for Governor",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "campaign in Puerto Rico. Spain surrendered and Puerto Rico became a possession of the United States as an outcome of the Treaty of Paris of 1898. On October 18, 1898, Rivero M\u251c\u2310ndez was ordered to turn over the keys of all the military installations in San Juan to Captain Henry A. Reed of the U.S. Army. Captain Rivero M\u251c\u2310ndez was offered a military position by both the American and Spanish governments. He declined both offers and, on April 18, 1899, he officially retired from the Spanish Army. After Rivero M\u251c\u2310ndez retired, he founded the \"Polo Norte F\u251c\u00edbrica de Sodas\" (North",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2025-06-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "been given U.S. citizenship. United States citizens residing in Puerto Rico, whether born there or not, are not residents of a state or the District of Columbia and, therefore, do not qualify to vote, personally or through an absentee ballot, in federal elections. \"See also:\" \"Voting rights in Puerto Rico\". Puerto Ricans \"were collectively made U.S. citizens\" in 1917 as a result of the Jones\u0393\u00c7\u00f4Shafroth Act. The act was signed into law by President Woodrow Wilson on March 2, 1917. Clarification of federal law codified on U.S. Code Title 8 as , approved by President Harry S. Truman on June  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2024"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Puerto Rico became a possession of the United States in 1898 as a result of the Treaty of Paris of 1898."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents mention the Treaty of Paris of 1898 and the year 1898 in relation to Puerto Rico becoming a possession of the U.S., but the answer does not cite these specific documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2735,
+      "completion_tokens": 183,
+      "total_tokens": 2918
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1216,
+        "completion_tokens": 63,
+        "total_tokens": 1279
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1519,
+        "completion_tokens": 120,
+        "total_tokens": 1639
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:24.156309",
+        "prompt_tokens": 1216,
+        "completion_tokens": 63,
+        "total_tokens": 1279,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:25.283721",
+        "prompt_tokens": 1519,
+        "completion_tokens": 120,
+        "total_tokens": 1639,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:23.033614",
+  "last_updated_at": "2026-04-18T20:10:25.284354"
+}

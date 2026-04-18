@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0615",
+  "query": "When did the republicans gain control of the house?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "and running ads attacking incumbent Democrats before the campaign began to weaken or persuade them to retire. The Republicans made a net gain of 63 seats from Democrats and retook control of the chamber which they lost in the 2006 midterm elections. This number is the highest of any House victory for a single party since 1948, and the highest of any midterm election since 1938. Several powerful Democrats were defeated, including several who were chairman of standing committees, including Ike Skelton of the House Armed Services Committee, John Spratt of the House Budget Committee, and James Oberstar of the",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "1994-04-07"
+    },
+    {
+      "doc_id": "d2",
+      "text": "1874 United States House of Representatives elections Elections to the United States House of Representatives were held in 1874 and 1875 for Representatives to the 44th Congress, occurring in the middle of President Ulysses S. Grant's second term with a deep economic depression underway. It was an important turning point, as the Republicans lost heavily and the Democrats gained control of the House. It signaled the imminent end of Reconstruction, which Democrats opposed. Historians emphasize the factors of economic depression and attacks on the Grant administration for corruption as key factors in the vote. With the election following the Panic",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2016"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Sumner.) After the elections of 1866 the Radicals came to power, impeached (but did not convict) President Johnson, and controlled Reconstruction policy. The Radical hold was broken by the Democratic landslide victories in the election of 1874, and Democrats regained control of the US House of Representatives, this was thanks in part to the Long Depression started by the Panic of 1873. The Democrats would continue to dominate the US House of Representatives, and even gained control of the US Senate in the 1878 US Senate election as the depression worsened. The Gilded Age (1877\u0393\u00c7\u00f41901) was marked by Republican dominance",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "1980 United States House of Representatives elections The 1980 United States House of Representatives elections was an election for the United States House of Representatives in 1980 which coincided with the election of Ronald Reagan as President. Reagan's victory also allowed many Republican House candidates to secure election, and the Republicans gained a net of 35 seats from the Democratic Party. The Democrats nonetheless retained a significant majority, unlike the Senate elections, where Republicans gained control of the chamber. However, many Democratic congressmen from the south (known as \"Boll weevils\") frequently took conservative stances on issues, allowing Republicans to have",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "was elected. The Florida House of Representatives turned Republican after the November 1996 election. Since then, the number of Democrats in both chambers have continued to drop. The Florida Legislature became the first legislature in any of the states of the former Confederacy to come under complete Republican control when the Republicans gained control of the House and Senate in the 1996 election. However, in the 2006 election the Democrats actually gained seats in the State House, the first time this had occurred since the early 1980s. In the 2006 election, the Democratic nominee for governor was U.S. Representative Jim  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2017"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Republicans gained control of the House in the 1874 and 2006 midterm elections."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about when Republicans gained control of the House, but no citations were provided to support these claims. Therefore, the answer is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2402,
+      "completion_tokens": 153,
+      "total_tokens": 2555
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1053,
+        "completion_tokens": 56,
+        "total_tokens": 1109
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1349,
+        "completion_tokens": 97,
+        "total_tokens": 1446
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:39.050732",
+        "prompt_tokens": 1053,
+        "completion_tokens": 56,
+        "total_tokens": 1109,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:40.329293",
+        "prompt_tokens": 1349,
+        "completion_tokens": 97,
+        "total_tokens": 1446,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:37.962366",
+  "last_updated_at": "2026-04-18T20:09:40.329672"
+}

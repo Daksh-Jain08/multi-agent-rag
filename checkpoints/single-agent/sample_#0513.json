@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0513",
+  "query": "Who nominates the chairman of the public accounts committee of the indian parliament?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "than seven members of Rajya Sabha, the upper house of the Parliament. The members are elected every year from amongst its members of respective houses according to the principle of proportional representation by means of single transferable vote. The chairperson is appointed by the Lok Sabha speaker. The term of office of the members is one year. A minister is not eligible to become a member of the committee. If a member after his election to the committee becomes a Minister, he ceases to be a member from the date of such appointment. The first proposal for a separate committee",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "SC/ST welfare, Committee on Computers to Members of Rajya Sabha, Business Advisory Committee of Rajya Sabha, Parliamentary Forum on Population & Public Health, IPU Global Advisory Group on HIV/AIDS, Animal Welfare Board of India, Khadi & Village Industries Board of India, Secretary, Indian National Congress, Congress Party in charge for the Delimitation Exercise & Indo-US Parliamentarians Forum. Presently, Member, Public Accounts Committee, Standing Committee on Law & Personnel, Standing Committee on Social Justice, Consultative Committee on Road Transport & National Highways, Committee on Subordinate Legislation, India-Bhutan & India-Pakistan Parliamentarians Forum, Secretary General, Forum of SC/ST Parliamentarians, Secretary General, Forum of",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2015"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Public Accounts Committee Public Accounts Committee (PAC) refers to a committee in the legislature that must study public audits, invite ministers, permanent secretaries or other ministry officials to the committee for questioning, and issue a report of their findings subsequent to a government budget audit. Typically, the government is required to report back to parliament on PAC recommendations within a specified period, usually two to six months. More often than not, opposition members chair PACs in the commonwealth. Based on their findings, PACs often make recommendations to government ministries requiring that they change certain policies and procedures to improve their",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the organisation's administration. The current Chair of the CPA Executive Committee is Hon. Emilia Lifaka MP, Deputy Speaker of the National Assembly of Cameroon. Previous Chairpersons have included Hon. Shirin Sharmin Chaudhury, Speaker of Jatiyo Sangsad Bhaban of Bangladesh (2014-2017), who succeeded Rt Hon. Sir Alan Haselhurst MP (2011 \u0393\u00c7\u00f4 2014), formerly Chairman of Ways and Means of the UK Parliament. The current Vice-Chair is Hon. Alexandra Mendes MP, Parliament of Canada. The current Treasurer is Hon. Vicki Dunne, Deputy Speaker of Australian Capital Territory Legislative Assembly. The current Chairperson of the Commonwealth Women Parliamentarians is Hon. Noraini Ahmad, MP",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2006"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Sabha, the membership was reduced to 31 members\u0393\u00c7\u00f621 from Lok Sabha and 10 from Rajya Sabha. The inaugural chairperson of the committee was Buta Singh, former Minister of Home Affairs (1984-86) and Minister of Consumer Affairs, Food and Public Distribution (1995-96) and a member of Indian National Congress. The functions of the committee are stated as below : The Standing Committees shall not consider the matters of day to day administration of the department. After the general discussion on the Budget in the House is over, the Lok Sabha is adjourned for a fixed period. The Committee considers the Demands  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2016"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The chairman of the public accounts committee is appointed by the Lok Sabha speaker."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as no citations were provided. Document d1 states the chairperson is appointed by the Lok Sabha speaker, but this citation is missing."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2426,
+      "completion_tokens": 144,
+      "total_tokens": 2570
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1069,
+        "completion_tokens": 48,
+        "total_tokens": 1117
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1357,
+        "completion_tokens": 96,
+        "total_tokens": 1453
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:46.679079",
+        "prompt_tokens": 1069,
+        "completion_tokens": 48,
+        "total_tokens": 1117,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:47.684248",
+        "prompt_tokens": 1357,
+        "completion_tokens": 96,
+        "total_tokens": 1453,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:45.756902",
+  "last_updated_at": "2026-04-18T20:05:47.684932"
+}

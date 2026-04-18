@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0628",
+  "query": "When did the first indian expedition to antarctica take place?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Imperial Trans-Antarctic Expedition The Imperial Trans-Antarctic Expedition of 1914\u0393\u00c7\u00f41917 is considered to be the last major expedition of the Heroic Age of Antarctic Exploration. Conceived by Sir Ernest Shackleton, the expedition was an attempt to make the first land crossing of the Antarctic continent. After Amundsen's South Pole expedition in 1911, this crossing remained, in Shackleton's words, the \u0393\u00c7\u00a3one great main object of Antarctic journeyings\u0393\u00c7\u00a5. The expedition failed to accomplish this objective, but became recognized instead as an epic feat of endurance. Shackleton had served in the Antarctic on the \"Discovery\" Expedition of 1901\u0393\u00c7\u00f41904, and had led the \"Nimrod\" Expedition",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d2",
+      "text": "extent of \u252c\u00fa40,000, equivalent to \u252c\u00fa in , with the sole stipulation that, despite the shortage of British participants, the venture be styled the \"British Antarctic Expedition\". This was by no means the grand British expedition envisaged by Markham and the geographical establishment, who were hostile and dismissive of Borchgrevink. On 23 August 1898 the expedition ship \"Southern Cross\" left London for the Ross Sea, reaching Cape Adare on 17 February 1899. Here a shore party was landed and was the first to over-winter on the Antarctic mainland, in a prefabricated hut. In January 1900, \"Southern Cross\" returned, picked up",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2003"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Twentieth Indian Expedition to Antarctica The 20th Indian Antarctic Expedition was flagged off on-board M.V. Magdalena Oldenorff from Cape Town on 30 December 2000. The team comprising a total of 51 members was led by Shri Mervin J. D\u0393\u00c7\u00d6Souza from Geological Survey of India. The 20th IAE team consisted of 51 members including 34 scientists from various scientific Organizations/Universities/Departments and 17 logistic members. After successful completion of all logistics and scientific tasks the 20th IAE team returned to India in March 2002. Atmospheric Sciences and Meteorology Climatological and Meteorological studies VLF Propagation Studies Earth Sciences and Glaciology Planetary Geomdetic Studies",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1994-02-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "still believed that this massive southern continent should exist. After a delay brought about by the botanist Joseph Banks' unreasonable demands, the ships \"Resolution\" and \"Adventure\" were fitted for the voyage and set sail for the Antarctic in July 1772. On 17 January 1773, \"Resolution\" was the first ship to cross the Antarctic Circle which she crossed twice more on the voyage. The third crossing, on 3 February 1774, was to be the most southerly penetration, reaching latitude 71\u252c\u259110\u0393\u00c7\u2593 South at longitude 106\u252c\u259154\u0393\u00c7\u2593 West. Cook undertook a series of vast sweeps across the Pacific, finally proving there was no Terra",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2000-04-27"
+    },
+    {
+      "doc_id": "d5",
+      "text": "her \"Southern Cross\", and had her fitted out for Antarctic service. \"Southern Cross\" sailed from London on 22 August 1898, and after a three-week pause in Hobart, Tasmania, reached Cape Adare on 17 February 1899. Here, on the site which Borchgrevink had described to the Congress, the expedition set up the first ever shore base on the Antarctic continent\u0393\u00c7\u00f6in the midst of a penguin colony. It was named \"Camp Ridley\" in honour of Borchgrevink's mother. In 1901, Carsten Borchgrevink, published the book, First on the Antarctic continent. He wrote in a chapter dedicated to Ad\u251c\u2310lie penguins: On 2 March the  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The 20th Indian Antarctic Expedition took place in 2000-2002."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claim. The answer also fails to address the query about the *first* Indian expedition."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2995,
+      "completion_tokens": 155,
+      "total_tokens": 3150
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1350,
+        "completion_tokens": 55,
+        "total_tokens": 1405
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1645,
+        "completion_tokens": 100,
+        "total_tokens": 1745
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:06.447067",
+        "prompt_tokens": 1350,
+        "completion_tokens": 55,
+        "total_tokens": 1405,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:07.467610",
+        "prompt_tokens": 1645,
+        "completion_tokens": 100,
+        "total_tokens": 1745,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:05.624085",
+  "last_updated_at": "2026-04-18T20:10:07.468313"
+}

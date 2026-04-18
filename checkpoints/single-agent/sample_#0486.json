@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0486",
+  "query": "When did the first hobbit movie come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "real-life human subspecies, Homo floresiensis, discovered in 2003 in Indonesia, which have been uniformly referred to as 'hobbits' in the scientific community.\" A lawsuit by Warner Bros. resulted in a temporary restraining order preventing The Asylum from releasing the film on its scheduled release date of December 11. The federal judge presiding over the case found that the film violated the \"hobbit\" trademark and was likely to cause confusion among consumers. As a result, \"Age of the Hobbits\" became the first Asylum film to be blocked from release. A hearing was also scheduled for January 28, 2013 to decide whether",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "a two-film adaptation of \"The Hobbit\", which was to be directed by Guillermo del Toro. Del Toro left the project in May 2010, after about two years of working with Jackson and his production team, due to delays caused in part by financial problems at Metro-Goldwyn-Mayer. Jackson was announced as director that October. \"The Hobbit\" films were produced back to back, like \"The Lord of the Rings\" films. Principal photography for \"The Hobbit\" films began on 21 March 2011 in New Zealand and ended on 6 July 2012, after 266 days of filming. Pick-ups for \"An Unexpected Journey\" were filmed",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d3",
+      "text": "hobbit on the title page, and one with the seated flautist. Historically Houghton Mifflin's practice has been to place the publication year at the foot of the title page for the first printings of its first editions. All of first edition Hobbit copies show the 1938 date on the title page, perhaps discouraging bibliographers from ascribing different printings to them. Others, however, reason that Houghton Mifflin must have printed the volumes several distinct times between 1938 and the second edition of 1951. They point out that none of the variations could have come about during the course of a single",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d4",
+      "text": "\"Thor\" to direct \"The Hobbit\". By September 2008 D. J. Caruso had been discussing taking on the project, though he did not read the script. Later that month, Kenneth Branagh entered into negotiations to direct, and by December 2008, Branagh confirmed that he had been hired. He described it as \"a human story right in the center of a big epic scenario.\" Branagh stated that he hoped to begin filming in January 2010 and Marvel Studios set back the release date of the film from its scheduled July 16, 2010 date to June 17, 2011, almost a full year later.",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d5",
+      "text": "various changes made to characters such as Aragorn, Arwen, Denethor and Faramir, as well as to the main protagonist Frodo himself, and the deletion of the next to the last chapter of Tolkien's work, \"The Scouring of the Shire\", a part he himself felt thematically necessary. A three-part prequel based on \"The Hobbit\" and directed by Peter Jackson was released between 2012 and 2014. The three films are subtitled \"\", \"\" and \"\". As with \"The Lord of the Rings\" trilogy, the prequel movies were filmed back to back in New Zealand; principal photography began on 21 March 2011. The  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1991"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first Hobbit movie was released between 2012 and 2014."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The documents mention filming dates but not the release date of the first Hobbit movie."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2450,
+      "completion_tokens": 148,
+      "total_tokens": 2598
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1079,
+        "completion_tokens": 52,
+        "total_tokens": 1131
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1371,
+        "completion_tokens": 96,
+        "total_tokens": 1467
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:22.208500",
+        "prompt_tokens": 1079,
+        "completion_tokens": 52,
+        "total_tokens": 1131,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:23.218776",
+        "prompt_tokens": 1371,
+        "completion_tokens": 96,
+        "total_tokens": 1467,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:21.264196",
+  "last_updated_at": "2026-04-18T18:43:23.219271"
+}

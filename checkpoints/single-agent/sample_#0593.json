@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0593",
+  "query": "Why do people with severe Migraines or Cluster headaches feel like drilling their head is a perfectly sane idea at the moment?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Migraine Headache Treatment | MyCure Hospitals that affect one side of the head in a recurrent manner (occurring in a \u0393\u00c7\u00a3cluster\u0393\u00c7\u00a5 over time). The pain is sometimes described as \u0393\u00c7\u00a3drilling,\u0393\u00c7\u00a5 and can be worse than migraine pain in some cases and migraine headaches are more common than cluster headaches. Tension headaches are a more common cause of headache. These occur due to contraction of the muscles of the scalp, face, and neck. Common symptoms of migraine are: Severe pain, usually on one side of the head Some basic investigations needed to diagnosis, which inculdes: CT Brain (Without Contrast) Lifestyle alterations might help to reduce migraine, Says",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2021-07-22"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Headache Symptoms, Causes & Common Questions | Buoy me caused by head trauma, drugs, or dehydration. A cluster headache is a headache that normally affects one side of the face and is accompanied by severe pain around or above the eye, and at the temple (the upper frontal side of the head). It may also occur with droopy eyelids, crying, redness in the eye, and usually lasts 15 minutes to three hours [7]. Attacks may occur as frequently as eight times a day for weeks. What does a migraine feel like? A migraine may feel different for different people, but it is most commonly described as a one-sided",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2018-06-22"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Headaches, migraines and head pain | HonorHealth be severe, so much so that many people feel the need to pace to relieve the pain. You may also experience a drooping eyelid, watering from your eye or a runny nose on the same side of the face you're experiencing the headache. Cluster headaches are rare, affecting one in 1,000 people. Cluster headaches are more common in men and in smokers. Over-the-counter pain relievers typically do not stop a cluster headache. Your doctor will work with you to help you create a treatment plan, which may include: Preventive medication to help you avoid having a cluster headache Lifestyle changes",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1997"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Health IDEA - The IDEA Publishing The Health Idea Hope for 'suicide headache' sufferers The Enormous Personal Social and Economic Cost of Headaches While all of us have experienced the dull pain of a headache and some know the recurrent pulse and throbbing of migraine, few people can understand the severity of pain associated with cluster headache, also known as \u0393\u00c7\u00a3suicide headache.\u0393\u00c7\u00a5 (BPT) - While all of us have experienced the dull pain of a headache and some know the recurrent pulse and throbbing of migraine, few people can understand the severity of pain associated with cluster headache, also known as \u0393\u00c7\u00a3suicide headache.\u0393\u00c7\u00a5 Cluster headache is an extremely painful",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Headaches: Types, Causes and Treatments Studies show that 7 out of 10 persons suffer from primary headaches at least once a year. Some of the primary headaches are: Tension Headache - Tension headaches are often described as pain around your head and can accompany a feeling of tightness around the head. Tension headaches are the most common type of headaches. Migraine - Migraine is associated with severe pain, confined to one side of the head. A migraine is usually accompanied by nausea and vomiting. Cluster Headache - Cluster headaches are one of the most painful headaches. During a cluster headache, you might experience severe pain  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The documents describe cluster headaches as extremely painful, sometimes referred to as 'suicide headaches,' and the pain can be so severe that people feel the need to pace. One document mentions that the pain of a cluster headache is sometimes described as 'drilling.'"
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about cluster headaches being described as 'drilling' and the need to pace, but these claims are not supported by any citations. The answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2682,
+      "completion_tokens": 190,
+      "total_tokens": 2872
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1179,
+        "completion_tokens": 84,
+        "total_tokens": 1263
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1503,
+        "completion_tokens": 106,
+        "total_tokens": 1609
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:40.423978",
+        "prompt_tokens": 1179,
+        "completion_tokens": 84,
+        "total_tokens": 1263,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:41.451442",
+        "prompt_tokens": 1503,
+        "completion_tokens": 106,
+        "total_tokens": 1609,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:39.277325",
+  "last_updated_at": "2026-04-18T20:08:41.451851"
+}

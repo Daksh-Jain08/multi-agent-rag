@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0536",
+  "query": "Which books were written by Booker T. Washington?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Zimmerman, a spy in Chambers' network. In 1952, Chambers's book \"Witness\" was published to widespread acclaim. The book was a combination of autobiography and a warning about the dangers of Communism. Arthur Schlesinger, Jr. called it \"a powerful book\". Ronald Reagan credited the book as the inspiration behind his conversion from a New Deal Democrat to a conservative Republican. \"Witness\" was a bestseller for more than a year and helped pay off Chambers's legal debts, though bills lingered (\"as Odysseus was beset by a ghost\"). According to commentator George Will in 2017: \"Witness\" became a canonical text of conservatism. Unfortunately,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "there. Boyer also published several articles in \"Arizona Highways\". During the 1990s Boyer wrote the Morgette fictional series based around a man named Dorn set in the Old West. He also published a fictional book \u0393\u00c7\u00a3Custer, Terry and Me.\u0393\u00c7\u00a5 about Gen. George Armstrong Custer. His last book, in 2009 \"Where the Heart Was\", was a fictional semi-autobiography loosely based on his own family and childhood growing up rural Wisconsin. Boyer inspired both extremely loyal supporters and a number of critics. Ben Traywick, author of \"Chronicles of Tombstone\", \"John Henry\u0393\u00c7\u00f6The Doc Holliday Story\", and other works, and formerly Tombstone, Arizona's official",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1998-01-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "as \"Liberty and Slavery\". Horton's first book was republished under the title \"Poems by a Slave\" in 1837. It was collected with a biography and poetry by Phillis Wheatley a year later in a book called \"Memoir and Poems of Phillis Wheatley, a Native African and Slave: Also Poems by a Slave\". The book was published by Boston-based publisher and abolitionist Isaac Knapp. This is believed to be the first complete collection of Wheatley's poems in book form. Newspapers again took note of Horton. In 1845, Horton published another book of poetry, \"The Poetical Works of George M. Horton, The",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2006-02-16"
+    },
+    {
+      "doc_id": "d4",
+      "text": "\"Milwaukee Journal Sentinel\" called Washington the \"mother of the African-American romance\", setting the groundwork for a revolution in ethnic romance novels. Washington's book was the first \"ethnic romance\", a category conceived by Vivian Stevens, an African-American editor at Dell, viewing the book as the first of other such books also aimed at Native Americans and Chinese Americans. The company published 125,000 copies of Washington's novel, primarily distributed in cities on the East Coast with large African-American populations. Washington also wrote two works of non-fiction, her 1974 book \"Sickle Cell Anemia\", co-written with Anthony Cerami, and the \"Uncivil War: The Struggle",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "fifth album to top the Christian Albums chart on Billboard. He has written two books with Michael Tait and Kevin Max, \"Jesus Freaks: DC Talk and The Voice of the Martyrs \u0393\u00c7\u00f4 Stories of Those Who Stood for Jesus, the Ultimate Jesus Freaks\", and \"Jesus Freaks: Revolutionaries: Stories of Revolutionaries Who Changed Their World: Fearing GOD, Not Man\". These books are mainly focused on Christian martyrs. Toby Mac has also written two more books with Michael Tait, one titled, \"Under God\", containing stories of America's spiritual battles, and another book called \"Living Under God: Discovering Your Part in God's Plan\".  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1994"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Booker T. Washington wrote the non-fiction books \"Sickle Cell Anemia\" (co-written with Anthony Cerami) and \"Uncivil War: The Struggle\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not mention Booker T. Washington."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2620,
+      "completion_tokens": 156,
+      "total_tokens": 2776
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1156,
+        "completion_tokens": 70,
+        "total_tokens": 1226
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1464,
+        "completion_tokens": 86,
+        "total_tokens": 1550
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:41.451523",
+        "prompt_tokens": 1156,
+        "completion_tokens": 70,
+        "total_tokens": 1226,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:42.973343",
+        "prompt_tokens": 1464,
+        "completion_tokens": 86,
+        "total_tokens": 1550,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:40.366646",
+  "last_updated_at": "2026-04-18T20:06:42.973733"
+}

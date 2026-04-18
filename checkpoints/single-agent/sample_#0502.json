@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0502",
+  "query": "Who wrote the declaration of rights of man and citizen 1789?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "ratified in November 1965, is based on the American one as well; however, it omits the phrases \"all men are created equal\" and \"the consent of the governed\". The from December 1860 also mentions the U.S. Declaration of Independence, though it, like the Rhodesian one, omits references to \"all men are created equal\" and \"consent of the governed\". Interest in the Declaration was revived in the 1790s with the emergence of the United States's first political parties. Throughout the 1780s, few Americans knew or cared who wrote the Declaration. But in the next decade, Jeffersonian Republicans sought political advantage over",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "in the revolutionary events that she had just celebrated in her recent \"Vindication of the Rights of Men\" (1790). She had written the \"Rights of Men\" in response to the Whig MP Edmund Burke's conservative critique of the French Revolution in \"Reflections on the Revolution in France\" (1790) and it made her famous overnight. \"Reflections on the Revolution in France\" was published on 1 November 1790, and so angered Wollstonecraft that she spent the rest of the month writing her rebuttal. \"A Vindication of the Rights of Men, in a Letter to the Right Honourable Edmund Burke\" was published on",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d3",
+      "text": "son Walter, and daughter Dora, who was deported to the Theresienstadt concentration camp by the Nazis and youngest son, Otto, who died in 1943 as a result of abuse at the hands of the Gestapo. Jellinek is best known for his essay \"The Declaration of the Rights of Man and the Citizen\" (1895), which argues for a universal theory of rights, as opposed to the culturally and nationally specific arguments then in vogue (particularly that of \u251c\u00ebmile Boutmy). Jellinek argued that the French Revolution, which was the focal point of 19th-century political theory, should not be thought of as arising",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Rights of Man Rights of Man (1791), a book by Thomas Paine, including 31 articles, posits that popular political revolution is permissible when a government does not safeguard the natural rights of its people. Using these points as a base it defends the French Revolution against Edmund Burke's attack in \"Reflections on the Revolution in France\" (1790). It was published in two parts in March 1791 and February 1792. Paine was a very strong supporter of the French Revolution that began in 1789; he visited France the following year. Many English thinkers supported it, including Richard Price, who initiated the",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "immediate response from the British supporters of the French revolution, most notably Mary Wollstonecraft in her \"Vindication of the Rights of Men\" and Thomas Paine in his \"Rights of Man\". In this lively and sometimes vicious pamphlet war, now referred to as the \"Revolution Controversy\", British political commentators addressed topics ranging from representative government to human rights to the separation of church and state. 1792 was the \"\"annus mirabilis\" of eighteenth-century radicalism\": its most important texts, such as \"Rights of Man\", were published and the influence of the radical associations was at its height. In fact, it was as a  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2003-04-19"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not explicitly state who wrote the Declaration of the Rights of Man and Citizen in 1789. Document d3 mentions an essay by Jellinek titled \"The Declaration of the Rights of Man and the Citizen\" (1895), but this refers to an essay about the declaration, not the declaration itself."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the documents do not identify the author of the Declaration of the Rights of Man and Citizen in 1789. The citations are empty, which is appropriate as no document directly answers the query."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2502,
+      "completion_tokens": 212,
+      "total_tokens": 2714
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1080,
+        "completion_tokens": 102,
+        "total_tokens": 1182
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1422,
+        "completion_tokens": 110,
+        "total_tokens": 1532
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:56.372685",
+        "prompt_tokens": 1080,
+        "completion_tokens": 102,
+        "total_tokens": 1182,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:57.404539",
+        "prompt_tokens": 1422,
+        "completion_tokens": 110,
+        "total_tokens": 1532,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:55.390372",
+  "last_updated_at": "2026-04-18T18:43:57.405152"
+}

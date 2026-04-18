@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0539",
+  "query": "Who is the second most subscribed channel on youtube?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "late August 2009, only to be removed a few days later, along with \"How to be Ninja\" and \"How to be Nerd\". In Spring 2010, \"How to be Ninja\", \"How to be Gangster\" and \"How to be Emo\" were made public once more. By December 2010, nigahiga has become the first YouTube channel to hit 3 million subscribers. According to Higa, the channel name, nigahiga, is the combination of \"niga\" which means \"rant\" in Japanese, and \"Higa\", his last name. A second channel, HigaTV, was created in 2011. This channel posts videos on behind the scenes action for the main",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Show. In July 2013, he overtook Jenna Marbles to become the second most-subscribed YouTube user, and reached 10 million subscribers on 9 July 2013. In August, PewDiePie signed with Maker's gaming sub-network, Polaris. Polaris functioned as a relaunching of The Game Station, Maker's gaming network. PewDiePie's subscriber count surpassed that of the leading channel, Smosh, on 15 August 2013. On becoming the most-subscribed YouTube user, PewDiePie commented, \"When I started my YouTube channel in 2010, I never imagined that one day it would be the most-subscribed channel in the world and that I would be a part of such a",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Smosh Smosh is an American sketch comedy YouTube channel created by Anthony Padilla and Ian Hecox. In 2002, Anthony Padilla created a website named \"smosh.com\" for making flash animations, and he was later joined by his friend Ian Hecox. Soon afterward, they began to post videos on Smosh's YouTube channel in the autumn of 2005 and quickly became one of the most popular channels on the site. , the Smosh channel has over 7 billion video views and over 23 million subscribers, making it the 31st most subscribed channel on YouTube. Since 2005, the Smosh brand has expanded to include",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "YouTube channel would remain active solely as an archive, with plans for the network to upload the early \"DailyGrace\" episodes and other Helbig content that had formerly been exclusive to the My Damn Channel website. On January 6, 2014, Helbig relaunched her personally owned, formerly secondary channel \"it'sGrace\" (renamed from \"GracieHinABox\") as her main YouTube channel. News of Helbig's departure from My Damn Channel and the shift back to her own independent channel contributed to a dramatic increase in \"it'sGrace\" subscribers, from just under 87,000 in the last week of 2013 to over a half million by the first week",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "shows music videos and film trailers. By July 2013, it had crossed 100 crore (1 billion) views, becoming the second Indian YouTube channel to cross the milestone after Rajshri Productions. In February 2017, T-Series surpassed PewDiePie to become the world's most-viewed YouTube channel. As of 19 December 2018 it has 5,600 crore (56 billion) views. The YouTube channel has reached 7.5 crore (75 million) subscribers, making it the second most-subscribed YouTube channel after PewDiePie. Currently, it is the most subscribed Asian and non-English-language YouTube channel. Reaching 5 crore (50 million) subscribers, the channel received a Custom Play Button on September  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2014-01-16"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "As of December 19, 2018, T-Series is the second most-subscribed YouTube channel with 75 million subscribers, after PewDiePie."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. Therefore, it cannot be verified and is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2629,
+      "completion_tokens": 155,
+      "total_tokens": 2784
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1160,
+        "completion_tokens": 69,
+        "total_tokens": 1229
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1469,
+        "completion_tokens": 86,
+        "total_tokens": 1555
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:48.104379",
+        "prompt_tokens": 1160,
+        "completion_tokens": 69,
+        "total_tokens": 1229,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:49.128889",
+        "prompt_tokens": 1469,
+        "completion_tokens": 86,
+        "total_tokens": 1555,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:47.182726",
+  "last_updated_at": "2026-04-18T20:06:49.129296"
+}

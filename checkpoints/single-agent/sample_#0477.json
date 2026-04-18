@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0477",
+  "query": "What three groups composed french society in the late 1700s?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the bourgeoisie were still wealthy, ambitious, and where in control over the private property. Yet, this new state was still agrarian despite the fact that they were modernized to an industrial and capitalist society (176-177). After 1789, the society barely picked up their economic situation after the revolution halting progress. The situation continued to deteriorate, after 1814, the French new industry couldn\u0393\u00c7\u00d6t compete with Britain, they lacked connection, and \u0393\u00c7\u00a3know how\u0393\u00c7\u00a5 (177). The state was in a mode of celebration because they accomplished the resolving of domestic, military, and removal of the feudal system (177-179). Domestic problems in the state",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d2",
+      "text": "that periods of liberalism in domestic policy coincided with periods of a pacific foreign policy. In order to pay for war, the French state had to increase taxation to raise the necessary funds. In \"Ancien R\u251c\u2310gime\" France, society was divided into three legal categories; the First Estate (the Catholic Church), the Second Estate (the nobility) and the Third Estate (the commoners). The first two estates, which comprised the more wealthier elements of French society were exempt from taxation and to make up the shortfall in revenue, the Third Estate was taxed more heavily than what had been the case if",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2023-04-23"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Ecclesiastical Society Under the Ancient Regime; a Study of Angers in the Eighteenth Century\", was published helping to establish him as a respected scholar of French history. It was a detailed examination of church life on a local level in a small provincial city. The study of common society contrasted with most of the works of the time that only concentrated on the upper class. While at Leicester he published \"French revolution and the church\" and \"Church and State in France, 1870-1914\". He won the 1982 Wolfson History Prize for \"Death and the Enlightenment\". In a 1986 review Joseph Tempesta",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2013-08-08"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Acad\u251c\u2310mie royale d'architecture in 1671),; other societies were set up in Paris, such as the Acad\u251c\u2310mie nationale de m\u251c\u2310decine in 1731 and the Acad\u251c\u2310mie nationale de m\u251c\u2310decine in 1776. Clergy and, to a lesser extent, nobility formed the majority of the membership. Provincial societies acted to bond together the intellectual \u251c\u2310lite of French towns. Their social composition shows that privileged men were less prominent than in Paris: 37% from the nobility, 20% from the Church. Commoners represented the other 43%. Merchants and manufacturers were a small minority (4%). Neighbouring academies, public libraries and lecture halls flourished, often involving the same",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2023"
+    },
+    {
+      "doc_id": "d5",
+      "text": "revolted and established the Paris Commune, which maintained a radical left-wing regime for two months until its bloody suppression by the Thiers government in May 1871. The following repression of the would have disastrous consequences for the labor movement. The French legislative election of 1871, held in the aftermath of the collapse of the regime of Napoleon III, resulted in a monarchist majority in the French National Assembly that was favourable to making a peace agreement with Prussia. The \"Legitimists\" in the National Assembly supported the candidacy of a descendant of King Charles X, the last monarch from the senior  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2018"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In the late 1700s, French society was divided into three legal categories: the First Estate (the Catholic Church), the Second Estate (the nobility), and the Third Estate (the commoners)."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is factually correct but lacks citations. The provided documents do not contain the answer, making it unsupported."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2720,
+      "completion_tokens": 164,
+      "total_tokens": 2884
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1202,
+        "completion_tokens": 76,
+        "total_tokens": 1278
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1518,
+        "completion_tokens": 88,
+        "total_tokens": 1606
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:05.083812",
+        "prompt_tokens": 1202,
+        "completion_tokens": 76,
+        "total_tokens": 1278,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:06.158918",
+        "prompt_tokens": 1518,
+        "completion_tokens": 88,
+        "total_tokens": 1606,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:04.192830",
+  "last_updated_at": "2026-04-18T18:43:06.159129"
+}

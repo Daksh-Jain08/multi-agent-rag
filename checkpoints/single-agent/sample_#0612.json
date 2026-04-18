@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0612",
+  "query": "How many scoville units in a jalapeno pepper?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Pepper X Pepper X is a cultivar of \"Capsicum\" chili pepper bred by Ed Currie, creator of the Carolina Reaper. Pepper X resulted from multiple cross breedings which produced an exceptionally high content of capsaicin in the locules of the pepper. Pepper X was made into a sauce for the YouTube series \"Hot Ones\". Currie stated that it is \"two times as hot as the Carolina Reaper\" which would make it the hottest pepper in the world with a Scoville scale of 3.18 million units, but this is unconfirmed by the Guinness World Records. The Pepper X is the pepper",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "fluoresce in the range of 530\u0393\u00c7\u00f4 600 nm when placed in violet light. If fresh chili peppers come in contact with the skin, eyes, lips or other membranes, irritation can occur; some people who are particularly sensitive wear latex or vinyl gloves while handling peppers. If irritation does occur, washing the oils off with hot soapy water and applying vegetable oil to the skin may help. When preparing jalape\u251c\u2592os, it is recommended that hands not come in contact with the eyes as this leads to burning and redness. Jalape\u251c\u2592os are a high-acid food with a pH of 4.8\u0393\u00c7\u00f46.0 depending on",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2020-05-16"
+    },
+    {
+      "doc_id": "d3",
+      "text": "by the Scoville scale. The Scoville scale number indicates how many times something must be diluted with an equal volume of water until people can no longer feel any sensation from the capsaicin. The hottest hot sauce scientifically possible is one rated at 16,000,000 Scoville units, which is pure capsaicin. An example of a hot sauce marketed as achieving this level of heat is Blair's 16 Million Reserve (due to production variances, it is up to 16 million Scoville units), marketed by Blair's Sauces and Snacks. By comparison, Tabasco sauce is rated between 2,500 and 5,000 Scoville units (batches vary)",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the chili is called \"umorok\" or \"oo-morok\" (\"oo\" = \"tree\", \"morok\" = \"chili\"). The Kukis called it \"Malcha-Phoh\" meaning \"the most pungent chilli\". In 2000, India's Defence Research Laboratory (DRL) reported a Scoville rating of 855,000 SHUs, and in 2004 a rating of 1,041,427 SHUs was made using HPLC analysis. For comparison, Tabasco red pepper sauce rates at 5000\u0393\u00c7\u00f410,000, and pure capsaicin (the chemical responsible for the pungency of pepper plants) rates at 16,000,000 SHUs. In 2005, New Mexico State University's Chile Pepper Institute in Las Cruces, New Mexico, found Bhut jolokia grown from seed in southern New Mexico to",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-02-26"
+    },
+    {
+      "doc_id": "d5",
+      "text": "17. Soon thereafter, on July 21 Agricola Zaragoza, Inc. of Texas announced a recall of jalape\u251c\u2592o peppers distributed after June 30th. 2008 United States salmonellosis outbreak The 2008 United States salmonellosis outbreak was an outbreak of salmonellosis across multiple U.S. states due to \"Salmonella enterica\" serovar Saintpaul. Over the course of the outbreak, 1442 cases were identified across 43 U.S. states, the District of Columbia, and Canada. The U.S. Centers for Disease Control and Prevention (CDC) investigation determined that jalape\u251c\u2592o peppers imported from Mexico as well as Serrano peppers were major sources of the outbreak. Tomatoes may have been a  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": true,
+        "final_answer": "The provided documents do not contain information about the Scoville units of a jalapeno pepper."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly states that the provided documents do not contain the requested information, and no citations were provided, which is appropriate."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2820,
+      "completion_tokens": 142,
+      "total_tokens": 2962
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1264,
+        "completion_tokens": 52,
+        "total_tokens": 1316
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1556,
+        "completion_tokens": 90,
+        "total_tokens": 1646
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:32.342040",
+        "prompt_tokens": 1264,
+        "completion_tokens": 52,
+        "total_tokens": 1316,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:33.348460",
+        "prompt_tokens": 1556,
+        "completion_tokens": 90,
+        "total_tokens": 1646,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:31.417506",
+  "last_updated_at": "2026-04-18T20:09:33.349595"
+}

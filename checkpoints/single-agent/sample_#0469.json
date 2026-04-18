@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0469",
+  "query": "Who sang the song with or without you?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Without You (Debbie Gibson song) \"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990. Gibson wrote the lyrics herself, with music written by Japanese singer-songwriter Tatsuro Yamashita. Production credits were given to S. Andrew Zulla. It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\" aired on TBS in 1990, and peaked at #26 on the Japanese Oricon chart. In the following year, a co-writer reconstructed the song in alternative lyrics in Japanese written by him, under the title \". Yamashita's interpretation was issued as one of the lead",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "United States, and in various European countries in 1980 and peaked at No. 20 on the \"Billboard\" Hot 100. It was also a minor hit in the UK reaching #55 in the UK Singles Chart and was a big hit in the Netherlands reaching #2 there. Without Your Love (Roger Daltrey song) \"Without Your Love\" is a song released in 1980 by Roger Daltrey of The Who written by Billy Nicholls and was a hit for him on his album \"McVicar\". The song was written for the soundtrack of the film \"McVicar\", a bio-pic of English bank robber John McVicar,",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d3",
+      "text": "singles for his \"Artisan\" album, and gained more commercial success than original recording. Without You (Debbie Gibson song) \"Without You\" is a song by Debbie Gibson released as a single exclusively in Japan in 1990. Gibson wrote the lyrics herself, with music written by Japanese singer-songwriter Tatsuro Yamashita. Production credits were given to S. Andrew Zulla. It was featured on the Japanese television drama \"Otoko ni Tsuite (About Men)\" aired on TBS in 1990, and peaked at #26 on the Japanese Oricon chart. In the following year, a co-writer reconstructed the song in alternative lyrics in Japanese written by him,",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "the Ivor Novello Awards. Sources Without You (Badfinger song) \"Without You\" is a song written by Pete Ham and Tom Evans of British rock group Badfinger, and first released on their 1970 album \"No Dice\". The power ballad has been recorded by over 180 artists, and versions released as singles by Harry Nilsson (1971) and Mariah Carey (1994) became international best-sellers. Paul McCartney once described the ballad as \"the killer song of all time\". In 1972, writers Ham and Evans received the British Academy's Ivor Novello Award for Best Song Musically and Lyrically. First recorded by the rock group Badfinger,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Without You (Peabo Bryson and Regina Belle song) \"Without You\" is a romantic song written by the American songwriter and music producer Lamont Dozier, and recorded in 1987 as a duet by the R&B singers Peabo Bryson and Regina Belle. The song was the love theme from the comedy film \"Leonard Part 6\", released the same year, and was also recorded for the Peabo Bryson album \"Positive\", released in 1988, the only album that contains the original version of \"Without You\". The single was released in November 1987, and peaked at #8 on the Adult Contemporary Tracks, #14 on the  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The song \"Without You\" has been sung by several artists, including Debbie Gibson, Roger Daltrey, Badfinger, Harry Nilsson, Mariah Carey, Peabo Bryson, and Regina Belle."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about who sang the song, but there are no citations provided to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2470,
+      "completion_tokens": 165,
+      "total_tokens": 2635
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1079,
+        "completion_tokens": 72,
+        "total_tokens": 1151
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1391,
+        "completion_tokens": 93,
+        "total_tokens": 1484
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:47.573446",
+        "prompt_tokens": 1079,
+        "completion_tokens": 72,
+        "total_tokens": 1151,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:48.821663",
+        "prompt_tokens": 1391,
+        "completion_tokens": 93,
+        "total_tokens": 1484,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:46.345982",
+  "last_updated_at": "2026-04-18T18:42:48.821831"
+}

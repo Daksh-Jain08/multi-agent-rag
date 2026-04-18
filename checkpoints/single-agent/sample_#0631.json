@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0631",
+  "query": "When did the stock market crash in 2008?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "it was clear that the economy was contracting, and the stock market went through a series of unsettling price declines. These declines fed investor anxiety, and events came to a head on October 24, 28, and 29 (known respectively as Black Thursday, Black Monday, and Black Tuesday). On Black Monday, the Dow Jones Industrial Average fell 38.33 points to 260, a drop of 12.8%. The deluge of selling overwhelmed the ticker tape system that normally gave investors the current prices of their shares. Telephone lines and telegraphs were clogged and were unable to cope. This information vacuum only led to",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2016-07-04"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of badly run corporations was rewarding bad behavior and punishing good behavior, and that it prevented resources from being allocated away from inefficient uses to more productive uses, and that this lowered the overall amount of wealth across the entire economy. In March 2009 White House budget director Peter Orszag said, \"Job losses began in January 2008. The stock market started declining October 2007... This has been, you know, eight years in the making, and again, it's going to take some time to work our way out of it.\" A September 13, 2008, \"Wall Street Journal\" editorial prior to the",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2006-09-04"
+    },
+    {
+      "doc_id": "d3",
+      "text": "(opening at 8,282.66) that after a mixed start tumbled again below the 8,000 mark (to a low of 7,965.42) but then reversed the trend and gained more than 900 points (fourth largest daily swing ever) in less than three hours closing at 8,835.25 with a net gain of more than 550 points (third largest ever). The prospect of a federal bailout of failing US automakers appeared dim pending the inauguration of Barack Obama. There appeared to be opposition from both the Republican members of the Senate and the office of the incumbent president, George W. Bush, which expressed doubt that",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "(684 points), after a week, it dropped by 14% (1370 points). An estimated of $1.4 trillion was lost within five days of trading. The NYSE was only 5 blocks from Ground Zero. On May 6, 2010, the Dow Jones Industrial Average posted its largest intraday percentage drop since the October 19, 1987, crash, with a 998-point loss later being called the 2010 Flash Crash (as the drop occurred in minutes before rebounding). The SEC and CFTC published a report on the event, although it did not come to a conclusion as to the cause. The regulators found no evidence that",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-08-25"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Stock market crash A stock market crash is a sudden dramatic decline of stock prices across a significant cross-section of a stock market, resulting in a significant loss of paper wealth. Crashes are driven by panic as much as by underlying economic factors. They often follow speculative stock market bubbles. Stock market crashes are social phenomena where external economic events combine with crowd behavior and psychology in a positive feedback loop where selling by some market participants drives more market participants to sell. Generally speaking, crashes usually occur under the following conditions: a prolonged period of rising stock prices and  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2005"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "The stock market began declining in October 2007 and experienced significant price declines in October 2008, with specific dates mentioned as October 24, 28, and 29, referred to as Black Thursday, Black Monday, and Black Tuesday."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the stock market crash in 2008 but lacks any citations to support these claims. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2482,
+      "completion_tokens": 186,
+      "total_tokens": 2668
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1076,
+        "completion_tokens": 89,
+        "total_tokens": 1165
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1406,
+        "completion_tokens": 97,
+        "total_tokens": 1503
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:10.640073",
+        "prompt_tokens": 1076,
+        "completion_tokens": 89,
+        "total_tokens": 1165,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:11.871577",
+        "prompt_tokens": 1406,
+        "completion_tokens": 97,
+        "total_tokens": 1503,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:09.493747",
+  "last_updated_at": "2026-04-18T20:10:11.872030"
+}

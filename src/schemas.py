@@ -52,6 +52,12 @@ class RefusalDecisionOutput(BaseModel):
     reason: str = Field(description="Under 60 words")
 
 
+class BaselineOutput(BaseModel):
+    conflict_type: str
+    should_abstain: bool
+    final_answer: str
+
+
 class AdjudicatorOutput(BaseModel):
     answer: str
     citations: List[str]

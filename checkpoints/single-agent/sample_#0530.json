@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0530",
+  "query": "The central meeting place for government officials in ancient greece was?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Old Parliament House, Athens The Old Parliament House (, \"Pale\u251c\u00ed Voul\u251c\u00a1\") at Stadiou Street in Athens, housed the Greek Parliament between 1875 and 1935. It now houses the country's National Historical Museum. The site was occupied originally by the house of the Athenian magnate and politician, Alexandros Kontostavlos. After Athens became the capital of Greece in 1833, King Otto selected it as temporary residence, pending the construction of the Royal Palace (which houses Parliament currently). In 1835, a large dance and banquet hall was added to the house, and after the 1843 Revolution, which forced King Otto to grant a",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2014-06-26"
+    },
+    {
+      "doc_id": "d2",
+      "text": "government originated in ancient Athens circa 508 B.C. In ancient Greece, where there were many city-states with different forms of government, democracy was contrasted with governance by elites (aristocracy), by one person (monarchy), by tyrants (tyranny), etc. In recent decades scholars have explored the possibility that advancements toward democratic government occurred somewhere else (i.e. other than Greece) first, as Greece developed its complex social and political institutions long after the appearance of the earliest civilizations in Egypt and the Near East. Studying pre-Babylonian Mesopotamia, Thorkild Jacobsen used Sumerian epic, myth, and historical records to identify what he has called \"primitive",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2004-09-25"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the building, while the great central hall of the National Assembly is used for conferences. Old Parliament House, Athens The Old Parliament House (, \"Pale\u251c\u00ed Voul\u251c\u00a1\") at Stadiou Street in Athens, housed the Greek Parliament between 1875 and 1935. It now houses the country's National Historical Museum. The site was occupied originally by the house of the Athenian magnate and politician, Alexandros Kontostavlos. After Athens became the capital of Greece in 1833, King Otto selected it as temporary residence, pending the construction of the Royal Palace (which houses Parliament currently). In 1835, a large dance and banquet hall was added",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "placed. It could accommodate 7,500 to 8,000 people in the beginning of the fifth century BC, after it was expanded. Such a circular structure was unusual for its location in Magna Graecia. A circular unroofed building with tiers of seating in Paestum, ancient Poseidonia, has also been identified as an \"ekklesiasterion\". This is more likely a \"bouleuterion\" however, because it could only seat 500 to 600 people in a relatively large city. Ekklesiasterion In ancient Greece the ekklesiasterion (\u00df\u255d\u00c9\u256c\u2551\u256c\u2551\u256c\u2557\u256c\u2556\u2567\u00e2\u256c\u2563\u256c\u2592\u2567\u00e2\u2567\u00e4\u256c\u00ab\u2567\u00fc\u256c\u2563\u256c\u2510\u256c\u255c) was the meeting place of the popular assembly (\"ekklesia\") in a democratic Greek city-state (\"polis\", plural \"poleis\"). In a few \"poleis\"",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Towns of ancient Greece The archetypical settlement in ancient Greece was the self-governing city state called the \"polis\", but other types of settlement occurred. A \"kome\" was typically a village that was also a political unit. The translation is inexact, but according to Thucydides, Sparta, though it was a \"polis,\" resembled four unwalled villages. Similarly, a \"kome\" could be a neighbourhood within a larger \"polis\" or its own rural settlement. Thucydides mused that the \"polis\" had developed from the \"kome.\" A \"katoikia\" was similar to a \"polis\", typically a military colony, with some municipal institutions, but not those of a  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2003-08-24"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The \"ekklesiasterion\" was the meeting place of the popular assembly in a democratic Greek city-state."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded as there are no citations provided. The text from d4 supports the answer, but it was not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3027,
+      "completion_tokens": 149,
+      "total_tokens": 3176
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1365,
+        "completion_tokens": 57,
+        "total_tokens": 1422
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1662,
+        "completion_tokens": 92,
+        "total_tokens": 1754
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:26.960785",
+        "prompt_tokens": 1365,
+        "completion_tokens": 57,
+        "total_tokens": 1422,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:28.391047",
+        "prompt_tokens": 1662,
+        "completion_tokens": 92,
+        "total_tokens": 1754,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:26.005510",
+  "last_updated_at": "2026-04-18T20:06:28.391560"
+}

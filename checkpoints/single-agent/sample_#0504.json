@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0504",
+  "query": "Who were the first european to reach the americas and when did they arrive?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "1838, the only standing moai were on the slopes of Rano Raraku, in Hoa Hakananai'a in Orongo, and Ariki Paro in Ahu Te Pito Kura. A study headed by Douglas Owsley published in 1994 asserted that there is little archaeological evidence of pre-European societal collapse. Bone pathology and osteometric data from islanders of that period clearly suggest few fatalities can be attributed directly to violence. The first recorded European contact with the island was on 5 April 1722, Easter Sunday, by Dutch navigator Jacob Roggeveen. His visit resulted in the death of about a dozen islanders, including the \"tumu ivi",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2008-05-16"
+    },
+    {
+      "doc_id": "d2",
+      "text": "world for another 500 years until the arrival of the British. Europeans under the British explorer Captain James Cook arrived in the Hawaiian Islands in 1778. Within five years of contact, European military technology would help Kamehameha I conquer most of the people, and eventually unify the islands for the first time; establishing the Kingdom of Hawaii. After a period of exploration sponsored by major European nations, the first successful English settlement was established in 1607. Europeans brought horses, cattle, and hogs to the Americas and, in turn, took back to Europe maize, turkeys, potatoes, tobacco, beans, and squash. Many",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "European exploration of Australia Dutch explorers, in 1606, made the first recorded European sightings and first recorded landfalls of the Australian mainland. The first ship and crew to chart the Australian coast and meet with Aboriginal people was the \"Duyfken\" captained by Dutch navigator, Willem Janszoon. He sighted the coast of Cape York Peninsula in early 1606, and made landfall on 26 February at the Pennefather River near the modern town of Weipa on Cape York. The Dutch charted the whole of the western and northern coastlines and named the island continent \"New Holland\" during the 17th century, but made",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2007"
+    },
+    {
+      "doc_id": "d4",
+      "text": "from the strong, centralized European monarchies. After 1492 European exploration and colonization of the Americas revolutionized how the Old and New Worlds perceived themselves. One of the first major contacts, in what would be called the American Deep South, occurred when the conquistador Juan Ponce de Le\u251c\u2502n landed in La Florida in April 1513. He was later followed by other Spanish explorers, such as P\u251c\u00ednfilo de Narv\u251c\u00edez in 1528 and Hernando de Soto in 1539. The subsequent European colonists in North America often rationalized their expansion of empire with the assumption that they were saving a barbaric, pagan world by",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d5",
+      "text": "tried to link the Brendan legend with an early discovery of America. In 1977 The voyage was successfully recreated by Tim Severin using an ancient Irish Currach. According to a British myth, Madoc was a prince from Wales who explored the Americas as early as 1170. While most scholars consider this legend to be untrue, it was used as justification for British claims to the Americas, based on the notion of a Briton arriving before other European nationalities. Biologist and controversial amateur epigrapher Barry Fell claims that Irish Ogham writing has been found carved into stones in the Virginias. Linguist  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "The first European contact with the Americas is debated. Some sources suggest Juan Ponce de Le\u00f3n landed in La Florida in April 1513, while others mention a British myth of Madoc exploring the Americas as early as 1170, though this is largely considered untrue. There is also mention of a recreated voyage by Tim Severin linking to the Brendan legend."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about European exploration of the Americas but lacks any citations to support these claims, making it not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2542,
+      "completion_tokens": 197,
+      "total_tokens": 2739
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1097,
+        "completion_tokens": 107,
+        "total_tokens": 1204
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1445,
+        "completion_tokens": 90,
+        "total_tokens": 1535
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:25.224200",
+        "prompt_tokens": 1097,
+        "completion_tokens": 107,
+        "total_tokens": 1204,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:26.487637",
+        "prompt_tokens": 1445,
+        "completion_tokens": 90,
+        "total_tokens": 1535,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:24.118322",
+  "last_updated_at": "2026-04-18T20:05:26.488101"
+}

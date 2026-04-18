@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0542",
+  "query": "Who wrote the jazz classic i got rhythm?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "video of the band performing the song is on the DVD \"Family Jewels\". The song is also featured in the 2006 film \"\". Girls Got Rhythm \"Girls Got Rhythm\" is a song by popular rock band AC/DC. It is found on their 1979 album \"Highway to Hell.\" The song was released as a single the same year. An EP was released in 1979 containing the songs: A1. \"Girls Got Rhythm\"; A2. \"If You Want Blood (You've Got It)\"; B1. \"Hell Ain't a Bad Place to Be\" (live; taken from \"If You Want Blood\"); B2. \"Rock and Roll Damnation\" (live; taken",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1991-09-23"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Blue Rhythm Band entitled \"There's Rhythm in Harlem\" which had been composed and arranged by Garland. Before offering it to Miller, Garland sold it in 1938 to Artie Shaw, who chose not to record it because the original arrangement was too long. But he did perform it in concert. Artie Shaw's version was over six minutes long and met a lackluster audience response. Jerry Gray arranged Shaw's version. The band later performed a shorter version. The Hayes recording was over three minutes in length to fit on one side of a 78 record. The song was sold in 1939 to",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "as his debut single, Delray's version featured guest vocals from Cash, as well as a guest appearance by him in the music video. It peaked at #27 on the country charts. Get Rhythm \"Get Rhythm\" is a song written and recorded by American singer-songwriter and musician Johnny Cash. It was originally released as the B-side to the single release \"I Walk the Line\" in 1956 on Sun 241. It was re-released with overdubbed \"live\" effects in September 1969 as an A-side single and reached number 60 on the Billboard Pop chart. The song is about optimism, centering on a shoeshine",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2011-08-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "typical dance fare of the era. However, during the period between November 1929 and March 1931, there was a scattering of hot jazz versions of popular tunes, with notable solos by Bunny Berigan, Tommy Dorsey, Jimmy Dorsey, Joe Venuti, and Eddie Lang. These celebrated recordings include 'A Peach of a Pair\" (October 29, 1930), \"I Got Rhythm\"(October 29, 1930), \"Cheerful Little Earful\" (November 19, 1930), and \"I'm Tickled Pink with a Blue-Eyed Baby\" (November 19, 1930). As \"Freddie Rich,\" he recorded dozens of popular-title piano rolls in the 1920s for the Aeolian Company, both for its reproducing Duo-Art system and",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "a flop Broadway musical, \"Change Your Luck\", which starred Hamtree Harrington and Alberta Hunter. He had greater success, however, in writing songs for Bessie Smith - including \"Black Mountain Blues\", \"Haunted House Blues\", and \"Empty Bed Blues\" (later recorded by LaVern Baker) - and for Fats Waller - including \"Believe It, Beloved\", \"Rhythm and Romance\", and \"You Stayed Away Too Long\". Some of his songs in this period, including two hits for the Boswell Sisters, \"That's How Rhythm Was Born\" and \"Don't Let Your Love Go Wrong\", were written in collaboration with Nat Burton and George Whiting. He also worked  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1998-01-25"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The song \"I Got Rhythm\" was recorded on October 29, 1930, as a hot jazz version of a popular tune. The provided documents do not specify who wrote it."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": true,
+        "score": 0.3,
+        "feedback": "The answer states the documents do not specify the writer, but it does not cite any documents to support this claim. The answer also makes factual claims about the recording date and type of version without citations."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2608,
+      "completion_tokens": 179,
+      "total_tokens": 2787
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1147,
+        "completion_tokens": 74,
+        "total_tokens": 1221
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1461,
+        "completion_tokens": 105,
+        "total_tokens": 1566
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:54.787474",
+        "prompt_tokens": 1147,
+        "completion_tokens": 74,
+        "total_tokens": 1221,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:55.940265",
+        "prompt_tokens": 1461,
+        "completion_tokens": 105,
+        "total_tokens": 1566,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:53.915090",
+  "last_updated_at": "2026-04-18T20:06:55.941412"
+}

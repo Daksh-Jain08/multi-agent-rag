@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0636",
+  "query": "When was the first new york times published?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "of volume two. Both journals were consolidated into \"Hom\u253c\u00f4opathic Times\" in 1875, which published a volume three under the editorship of Drs. Egbert Guernsey, Alfred K. Hills and J. B. Gilbert and continued until 1881, when it became the \"New York Medical Times\", with hom\u253c\u00f4opathy being no longer being included. New York Medical Times The New York Medical Times was a monthly medical journal published by E.P. Coby & Co. published between 1881\u0393\u00c7\u00f41896 and edited by Dr. Egbert Guernsey. Another journal of the same name was published between 1851\u0393\u00c7\u00f41856. The Medical Union published two volumes in New York City from",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "New York Times\", now one of the best-known newspapers in the world, was founded in 1851 by George Jones and Henry Raymond. It established the principle of balanced reporting in high-quality writing. Its prominence emerged in the 20th century. The parties created an internal communications system designed to keep in close touch with the voters. The critical communications system was a national network of partisan newspapers. Nearly all weekly and daily papers were party organs until the early 20th century. Thanks to the invention of high-speed presses for city papers, and free postage for rural sheets, newspapers proliferated. In 1850,",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "ceased on December 13, 1906. Like other New York publishers, Wood created a German-language edition of his paper titled \"New-Yorker Tages-Nachrichten\" in 1870 and Sunday edition \"Sonntags-Nachrichten\" in 1872. New York Daily News (19th century) The New York Daily News was a daily New York City newspaper from 1855 to 1906, unrelated to the present-day \"Daily News\" founded in 1919. Founded in 1855, it flourished under the stewardship of Benjamin Wood, becoming one of the highest circulation papers in the United States. It was notable for its racist and pro-Confederate views. The paper faltered after Wood's death in 1900, and",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "In 1919, \"The New York Times\" first trans-Atlantic delivery to London occurred by dirigible balloon. In 1920, during the 1920 Republican National Convention, a \"4 A.M. Airplane Edition\" was sent to Chicago by plane, so it could be in the hands of convention delegates by evening. Ochs died in 1935, and was succeeded as publisher by his son-in-law, Arthur Hays Sulzberger. Under his leadership, and that of his son-in-law (and successor), Orvil Dryfoos, the paper extended its breadth and reach, beginning in the 1940s. The crossword began appearing regularly in 1942, and the fashion section first appeared in 1946. \"The",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2022-04-06"
+    },
+    {
+      "doc_id": "d5",
+      "text": "In addition to more popular sporting events, the \"New York Clipper\" also wrote about billiards, bowling, and even chess. It began covering American football in 1880. The \"New York World\" was founded in 1860 but was a relatively unsuccessful New York newspaper from 1860 to 1883. Joseph Pulitzer purchased it in 1883, and a new, aggressive era of circulation building began. In 1890, Pulitzer built the New York World Building, the tallest office building in the world at the time (it was razed in 1955). The \"New York Journal\" was established in 1868, as a paper published every other day.  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2020-03-04"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The New York Times was founded in 1851 by George Jones and Henry Raymond."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations. The claim that The New York Times was founded in 1851 by George Jones and Henry Raymond is present in document d2, but it was not cited."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2746,
+      "completion_tokens": 166,
+      "total_tokens": 2912
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1227,
+        "completion_tokens": 52,
+        "total_tokens": 1279
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1519,
+        "completion_tokens": 114,
+        "total_tokens": 1633
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:21.797835",
+        "prompt_tokens": 1227,
+        "completion_tokens": 52,
+        "total_tokens": 1279,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:23.032416",
+        "prompt_tokens": 1519,
+        "completion_tokens": 114,
+        "total_tokens": 1633,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:20.933733",
+  "last_updated_at": "2026-04-18T20:10:23.032821"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0596",
+  "query": "Who sings the opening song of rocky horror?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "productions now follow this order. The song begins at 19:35 in the DVD release. The song consists of verses sung by alternating characters, serving as the introduction to two of them, and choruses sung by the chorus of \"Transylvanians\" (Movie) or \"Phantoms\" (Musical), and the Criminologist/Narrator (played by Charles Gray in the movie). The characters that sing the verses are, in order, Riff-Raff (Richard O'Brien in the movie), Magenta (Patricia Quinn in the movie), and Columbia (Little Nell Campbell in the film). After the second full chorus, Columbia often launches into her tap dance. The order of the solos varies",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "In the original Rocky Horror Show, Brad had a verse to himself (beginning \"I can see the flag fly\"). This was cut for the movie\u0393\u00c7\u00f6otherwise it would appear right when Brad and Janet dodge out of the way of the motorcyclists. The karaoke version of the track found on the \"Rocky Horror Picture Show: Sing It\" album has space for this extra verse, despite sticking to the movie's music for the rest of the album. In the 2000 revival for Broadway, it was performed by Alice Ripley, Jarrod Emick, and Ra\u251c\u2551l Esparza. The revival retained the verse that was cut",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1996-04-05"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Narrator. Other cast members, included: Judith Lloyd (Columbia), Caroline Noh (Magenta/Usherette), Desmond McNamara (Riff-Raff) and Neil McCaul (Eddie/Dr. Scott). After the Tokyo performance, there were also regional performances. The popularity of the tour lead to special single recordings of \"Sweet Transvestite\" performed by Ziggy Byfield and \"Touch-a, Touch-a, Touch-a, Touch Me\" by Belinda Sinclair. In 1976 Walking Elephant Co. Ltd. presented an encore tour directed by David Toguri, which saw the show visit 16 cities in three and a half months. Venues included Tokyo, Osaka, Kyoto, Kobe, Sapporo and Fukuoka. The tour's cast featured Martin Asscher as Dr. Frank-N-Furter (later",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Over at the Frankenstein Place \"Over at the Frankenstein Place\" is the third song in the cult musical \"The Rocky Horror Show\", sung outside Dr. Frank N. Furter's castle in the rain in the 1975 cult film. The song is in the key of E major. \"Over at the Frankenstein Place\" is the third song in the cult musical \"The Rocky Horror Show\". The 1975 cult film includes the song being sung outside Dr. Frank N. Furter's castle in the rain, performed in the key of E major by Susan Sarandon (Janet), Barry Bostwick (Brad), and Richard O'Brien (Riff Raff).",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Rocky Horror Picture Show (soundtrack) The Rocky Horror Picture Show is the original soundtrack album to the 1975 film \"The Rocky Horror Picture Show\", an adaptation of the musical \"The Rocky Horror Show\" that had opened in 1973. The soundtrack was released as an album in 1975 by Ode Records, produced by Richard Hartley. The album peaked at No. 49 on the \"Billboard\" 200 in 1978. It reached No. 12 on the Australian albums chart and No. 11 on the New Zealand albums chart. William Ruhlmann of Allmusic gave the album a star rating of five stars out of  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2008-05-27"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The opening song of Rocky Horror is sung by Riff-Raff, Magenta, and Columbia."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents do not contain the answer to the query."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2573,
+      "completion_tokens": 140,
+      "total_tokens": 2713
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1140,
+        "completion_tokens": 53,
+        "total_tokens": 1193
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1433,
+        "completion_tokens": 87,
+        "total_tokens": 1520
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:47.177852",
+        "prompt_tokens": 1140,
+        "completion_tokens": 53,
+        "total_tokens": 1193,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:48.342784",
+        "prompt_tokens": 1433,
+        "completion_tokens": 87,
+        "total_tokens": 1520,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:46.288105",
+  "last_updated_at": "2026-04-18T20:08:48.343649"
+}

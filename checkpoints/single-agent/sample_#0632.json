@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0632",
+  "query": "What do mathematicians do when trying to solve an unsolved math problem? Why is there an unsolved math problem to begin with?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Learn How To Solve The Impossible Four-Color Map Problem was not until 1976 that mathematicians were able to solve this problem. The solution relied on the use of a computer as well. The master of math problems and the YouTube user that has been creating informative YouTube videos about mathematics, Numberphile, has broken down the problem into a much simpler form in his latest Youtube video. The video has been titled \u0393\u00c7\u00ffA Colorful Unsolved Problem,\u0393\u00c7\u00d6 and you can watch as the YouTube user, Numberphile, breaks down the math problem explaining to the viewers how to understand the math problem and how it can be tackled. Using his love for",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Millennium Prize Problems - Maths Careers Home Articles Millennium Prize Problems The 1670 edition of Diophantus\u0393\u00c7\u00d6 Arithmetica includes Fermat\u0393\u00c7\u00d6s commentary, particularly his \u0393\u00c7\u00ffLast Theorem\u0393\u00c7\u00d6. When you are at school it might seem like every problem in maths has already been solved by somebody else. There is always an answer at the back of a text book or a solution ready to be given by your teacher. In fact there are still many unsolved mathematical problems waiting to be unraveled by the next generation of mathematicians. Sometimes mathematical problems can remain unsolved for hundreds of years, and people wonder whether a proof is even possible. This was",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Learn About Maths Unsolved Mysteries | The Superprof Blog - UK list of \u0393\u00c7\u00a3Problems of the millennium\u0393\u00c7\u00a5. Solving the hypothesis would lead to a prize of $1 million! Could this be a reason to take maths lessons, to maybe one day solve the problem known as the \u0393\u00c7\u00a3holy grail of mathematicians\u0393\u00c7\u00a5? In 1859, Bernard Riemann published an article entitled \u0393\u00c7\u00a3On the number of primes less than a given quantity\u0393\u00c7\u00a5, without knowing that he had just posed the most complicated question in the history of mathematics. His hypothesis began to tackle a question to which mathematicians haven\u0393\u00c7\u00d6t been able to answer for the last 2000 years: the origin of prime numbers. Following",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1993-05-28"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Learn How To Solve The Impossible Four-Color Map Problem was not until 1976 that mathematicians were able to solve this problem. The solution relied on the use of a computer as well. The master of math problems and the YouTube user that has been creating informative YouTube videos about mathematics, Numberphile, has broken down the problem into a much simpler form in his latest Youtube video. The video has been titled \u0393\u00c7\u00ffA Colorful Unsolved Problem,\u0393\u00c7\u00d6 and you can watch as the YouTube user, Numberphile, breaks down the math problem explaining to the viewers how to understand the math problem and how it can be tackled. Using his love for",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "nothinglikeadane \u0393\u00c7\u00f4 Holy (sometimes) ramblings of a vicar in the Portway and Danebury Ministry Team Thankfully there are others who live and breathe numbers, signs and co-signs, but even for them there are some mathematical dilemmas which are just unsolvable. IMDB / Imagine Entertainment In 2000, the Clay Mathematics Institute announced the Millennium Prize problems. These were a collection of seven of the most important maths problems that remain unsolved. One of these was solved in 2006, but there are still six problems waiting to be solved, and a million dollar prize to be claimed. Famously, Grigori Perelman, the mathematician par excellence, turned down the prize after solving the Poincare Conjecture. One of the problems  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Mathematicians tackle unsolved problems by breaking them down into simpler forms, as seen with the Four-Color Map Problem, which was solved with computer assistance. Some problems, like the Millennium Prize Problems, remain unsolved for centuries, with significant rewards offered for their solutions. The existence of unsolved problems stems from their complexity, with some, like Riemann's hypothesis concerning prime numbers, posing challenges that have persisted for thousands of years."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations, making it impossible to verify grounding. All claims should be supported by provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3029,
+      "completion_tokens": 209,
+      "total_tokens": 3238
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1336,
+        "completion_tokens": 118,
+        "total_tokens": 1454
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1693,
+        "completion_tokens": 91,
+        "total_tokens": 1784
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:13.203373",
+        "prompt_tokens": 1336,
+        "completion_tokens": 118,
+        "total_tokens": 1454,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:14.530748",
+        "prompt_tokens": 1693,
+        "completion_tokens": 91,
+        "total_tokens": 1784,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:11.875845",
+  "last_updated_at": "2026-04-18T20:10:14.531163"
+}

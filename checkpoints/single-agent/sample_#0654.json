@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0654",
+  "query": "What would be an accurate definition of Gravity that can be easily explained?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "The Third Wave: a New Definition of Gravity part 2 by Miles Williams Mathis see that it is possible to explain everything by motion. I think that mass and gravity may be partially explained by motion, but we should still be able to use exclusionary fields in any future theories. What I mean by that is that we do not need to question the logic or the explanatory power of fields that may ultimately be expressed by the bombardment of subparticles. A repulsive force does not have to be explained by movement away. It can just as easily be explained by bombardment (by photons or neutrinos or Higgs bosons or whatever subparticle you can",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2009-12-04"
+    },
+    {
+      "doc_id": "d2",
+      "text": "What is Data Gravity? - Definition from Techopedia Definition - What does Data Gravity mean? Data gravity is an analogy of the nature of data and its ability to attract additional applications and services. The Law of Gravity states that the attraction between objects is directly proportional to their weight (or mass). Dave McCrory coined the term data gravity to describe the phenomenon in which the number or quantity and the speed at which services, applications, and even customers are attracted to data increases as the mass of the data also increases. Techopedia explains Data Gravity Data is something that continues to accumulate over time, and could be",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1992"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Giant, Round Prehistoric Turtle Discovered nothing for the theories to explain. The Theory of Evolution explains the fact of Evolution just like the Theory of Gravity explains the fact of gravity. It strikes me as very odd for you to throw out non-specific attacks on a modern science supported by thousands upon thousands of observations. You wouldn't do that in any other field of science like chemistry or neuroscience would you? Theories have to be proved before a theory is true. Before a theory is developed there can be lots of hypotheses. The definition of hypothesis (for the benefit of readers) is; a proposition, or",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1995-08-26"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Dirtiest Fight in Physics Is About the Universe Itself forth evidence in support of modified gravity. They explained that the outer regions of galaxies rotate too quickly, compared to what the usual laws of physics would predict. The speed of rotation suggests there\u0393\u00c7\u00d6s a lot more mass than what we actually observe. Updating gravity\u0393\u00c7\u00d6s laws so that they change in the outer regions of galaxies would explain this anomalous behavior more elegantly and more easily than a dark matter particle alone. It also explains the \u0393\u00c7\u00a3Tully\u0393\u00c7\u00f4Fisher relation,\u0393\u00c7\u00a5 a relationship between a galaxy\u0393\u00c7\u00d6s brightness and how fast it spins. They proposed that modified gravity could explain some dark matter mysteries",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Doctrine DOES Change | Tony Jones would still exist. Gravity is a natural phenomenon by which all material bodies attract each other. There is nothing \u0393\u00c7\u00a3immaterial\u0393\u00c7\u00a5 about such a force. Don\u0393\u00c7\u00d6t get hung up on the details of gravity. Per the definition I gave for what I interpreted as immaterial, gravity was excluded. Gravity as force could be considered material, as I have found several definitions for what is considered material. Gravity as concept could be considered immaterial. In the same way a concept of a tree is immaterial, however a tree is a very material thing. When you can detect what you claim is real  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Gravity is a natural phenomenon where all material bodies attract each other."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents do not contain the answer, making it unsupported."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2610,
+      "completion_tokens": 133,
+      "total_tokens": 2743
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1162,
+        "completion_tokens": 46,
+        "total_tokens": 1208
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1448,
+        "completion_tokens": 87,
+        "total_tokens": 1535
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:01.711095",
+        "prompt_tokens": 1162,
+        "completion_tokens": 46,
+        "total_tokens": 1208,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:02.814782",
+        "prompt_tokens": 1448,
+        "completion_tokens": 87,
+        "total_tokens": 1535,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:00.762199",
+  "last_updated_at": "2026-04-18T20:11:02.815192"
+}

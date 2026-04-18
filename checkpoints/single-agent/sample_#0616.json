@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0616",
+  "query": "Who made sitting on the dock of the bay?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ole Man Trouble \"Ole Man Trouble\" is a song written by Otis Redding and the first track from his 1965 album . It was released as the B-side to his hit single \"Respect\", the second track from \"Otis Blue\". The song is a sign of Redding's emerging mature and reflective side that was to culminate in his posthumous single \"(Sittin' On) The Dock of the Bay\". \"Ole Man Trouble\" was also released on Redding's posthumous album \"The Dock of the Bay\". As the \"Dock of the Bay\" represents a search for a place to settle down and find peace or",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1991"
+    },
+    {
+      "doc_id": "d2",
+      "text": "about eight.\" The song was recorded in July 1968, but was not set to be included in the 12-track version of \"The Kinks Are the Village Green Preservation Society\" (which would be pulled from shelves shortly after its European release) or its U.S. counterpart \"Four More Respected Gentlemen\" (which was canceled prior to its release.) Also, on 22 July 1968, the song was performed (or lip-synced) by The Kinks on BBC-2's \"Late Night Line-Up - Colour Me Pop\" show. \"Sitting by the Riverside\", was first released as the seventh track on the final 15-track version of \"The Kinks Are the",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1999-06-19"
+    },
+    {
+      "doc_id": "d3",
+      "text": "renditions of \"Sitting on Top of the World\" were recorded by a number of artists: the Two Poor Boys, Doc Watson, Big Bill Broonzy, Sam Collins, Milton Brown and His Musical Brownies, and Bob Wills & His Texas Playboys. After Milton Brown recorded it for Bluebird Records the song became a staple in the repertoire of western swing bands. Lyrically \"Sitting Top of the World\" has a simple structure consisting of a series of rhyming couplets, each followed by the two-line chorus. The structural economy of the song seems to be conducive to creative invention, giving the song a dynamic",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Withers and on two more records by Bob Welch. On Danny O'Keefe's record \"American Roulette\" (1977) he appeared besides Reggie McBride, Mike Melvoin and David Lindley. In 1979, he appeared on Sammy Hagar's single \"(Sittin' On) The Dock of the Bay\", featuring Leland Sklar, Barry Goudreau and Steve Cropper, who originally played on the Otis Redding version. Later that year, he appeared on Cher's album \"Prisoner\" beside Toto members Steve Lukather, Jeff Porcaro, David Hungate, David Paich and many others. In 1980 he appeared once again with Lukather and Paich on Elton John's album \"21 at 33\". Other notable musicians",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Macon to continue writing. The result was \"Sweet Soul Music\" (based on Cooke's \"Yeah Man\"), which peaked at number 2 on the \"Billboard\" Hot 100. By that time Redding had developed polyps on his larynx, which he tried to treat with tea and lemon or honey. He was hospitalized in September 1967 at Mt. Sinai Hospital in New York to undergo surgery. In early December 1967, Redding again recorded at Stax. One new song was \"(Sittin' On) The Dock of the Bay\", which was written with Cropper while they were staying with their friend, Earl \"Speedo\" Simms, on a houseboat  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Otis Redding wrote \"(Sittin' On) The Dock of the Bay\" with Steve Cropper."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims but lacks any citations. The provided documents mention Otis Redding and Steve Cropper in relation to the song, but the answer is not directly supported by the cited evidence."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2508,
+      "completion_tokens": 159,
+      "total_tokens": 2667
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1107,
+        "completion_tokens": 56,
+        "total_tokens": 1163
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1401,
+        "completion_tokens": 103,
+        "total_tokens": 1504
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:41.251247",
+        "prompt_tokens": 1107,
+        "completion_tokens": 56,
+        "total_tokens": 1163,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:42.288158",
+        "prompt_tokens": 1401,
+        "completion_tokens": 103,
+        "total_tokens": 1504,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:40.330475",
+  "last_updated_at": "2026-04-18T20:09:42.288552"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0529",
+  "query": "Who wrote lyrics to phantom of the opera?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Puccini charged in a lawsuit that a recurring two-bar passage in \"Music of the Night\" closely resembled a similar phrase first heard in the aria \"Quello che tacete\" from Puccini's opera \"Girl of the Golden West\". The litigation was settled out of court for an undisclosed amount. In 1990 a Baltimore songwriter named Ray Repp filed a lawsuit alleging that the title song from \"Phantom\" was based on a song that he wrote in 1978 called \"Till You\". After eight years of litigation \u0393\u00c7\u00f4 including an unsuccessful countersuit by Lloyd Webber claiming that \"Till You\" was itself a plagiarism of",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Gaston Leroux Gaston Louis Alfred Leroux (6 May 186815 April 1927) was a French journalist and author of detective fiction. In the English-speaking world, he is best known for writing the novel \"The Phantom of the Opera\" (\"Le Fant\u251c\u2524me de l'Op\u251c\u2310ra\", 1910), which has been made into several film and stage productions of the same name, notably the 1925 film starring Lon Chaney, and Andrew Lloyd Webber's 1986 musical. His novel \"The Mystery of the Yellow Room\" is also one of the most famous locked-room mysteries ever. Leroux was born in Paris in 1868 and died in 1927 in Nice.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2002-10-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "\"Nine\", Yeston left his position as associate professor at Yale, although he continued to teach a course there every other semester on songwriting. He turned to writing a musical version of Gaston Leroux's novel, \"The Phantom of the Opera\". He was approached with the idea by actor/director Geoffrey Holder, who held the American rights to the novel. Initially, Yeston was skeptical of the project. \"I laughed and laughed... That's the worst idea in the world! Why would you want to write a musical based on a horror story?... And then it occurred to me that the story could be somewhat",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2011-07-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "that deep inside we're good? And that is a character you cry for.\" In 1984, British producer Ken Hill revived his 1976 musical \"Phantom of the Opera\" in England. This was not a big threat to Holder, Kopit and Yeston, since their musical was intended to play on Broadway. The real threat emerged through an announcement in \"Variety\", where an article was published concerning plans for a musical production of \"The Phantom of the Opera\" by Andrew Lloyd Webber. The rights to the novel were in the public domain in Great Britain. Holder only held the rights for two years",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2001-04-02"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Phantom of the Opera\", as a serial in 1909 and 1910, and as a book in 1910 (with an English translation appearing in 1911). Leroux was made a Chevalier de la Legion d'honneur in 1909. Gaston Leroux Gaston Louis Alfred Leroux (6 May 186815 April 1927) was a French journalist and author of detective fiction. In the English-speaking world, he is best known for writing the novel \"The Phantom of the Opera\" (\"Le Fant\u251c\u2524me de l'Op\u251c\u2310ra\", 1910), which has been made into several film and stage productions of the same name, notably the 1925 film starring Lon Chaney, and Andrew  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "1997-01-20"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Gaston Leroux wrote the novel \"The Phantom of the Opera\"."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded as there are no citations to support the claim that Gaston Leroux wrote the novel 'The Phantom of the Opera'."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2642,
+      "completion_tokens": 141,
+      "total_tokens": 2783
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1178,
+        "completion_tokens": 48,
+        "total_tokens": 1226
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1464,
+        "completion_tokens": 93,
+        "total_tokens": 1557
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:25.051743",
+        "prompt_tokens": 1178,
+        "completion_tokens": 48,
+        "total_tokens": 1226,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:26.004193",
+        "prompt_tokens": 1464,
+        "completion_tokens": 93,
+        "total_tokens": 1557,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:24.031048",
+  "last_updated_at": "2026-04-18T20:06:26.004644"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0473",
+  "query": "What day of the year is mothers day always celebrated?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "contributed to it for twenty years. That same year, she wrote her \"Appeal to womanhood throughout the world\", later known as the Mother's Day Proclamation, which asked women around the world to join for world peace. (See .) She authored it soon after she evolved into a pacifist and an anti-war activist. In 1872, she asked that \"Mother's Day\" be celebrated on the 2nd of June. Her efforts were not successful, and by 1893 she was wondering if the 4th of July could be remade into \"Mother's Day\". In 1874, she edited a coeducational defense titled \"Sex and Education\". She",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d2",
+      "text": "has since been copied by other Arab countries. In Argentina, Mother's Day is celebrated on the third Sunday of October. The holiday was originally celebrated on 11 October, the old liturgical date for the celebration of the Maternity of the Blessed Virgin Mary but after the Second Vatican Council, which moved the Virgin Mary festivity to 1 January, the Mother's Day started to be celebrated the third Sunday of October because of popular tradition. Argentina is the only country in the world that celebrates Mother's Day on this date. In Armenia, Mother's Day is celebrated on 8 March, and on",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d3",
+      "text": "from the story of Maudgalyayana and his mother. Mother's day is celebrated in 8 March . The origin of 8 March holiday dates back to 1908 and is associated with a tragic event. A group of workers at a textile factory in New York strikes against extreme working conditions. On 8 March, the factory was shut down and the workers remained trapped inside. Suddenly a fire broke out, where 129 mothers died. Mother's Day in most Arab countries is celebrated on 21 March. It was introduced in Egypt by journalist Mustafa Amin and was first celebrated in 1956. The practice",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "efforts of their mothers. In Panama, Mother's Day is celebrated on 8 December, the same day as the Feast of the Immaculate Conception. This date was suggested in 1930 by the wife of Panama's President Florencio Harmodio Arosemena. 8 December was adopted as Mother's Day under Law 69, which was passed the same year. According to another account, in 1924 the Rotary Club of Panama asked that Mother's Day be celebrated on 11 May. Politician An\u251c\u00a1bal D. R\u251c\u00a1os changed the proposal so that the celebration would be held on 8 December. He then established Mother's Day as a national holiday",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d5",
+      "text": "celebrated on 12 May 1957 in Assisi, at the initiative of Reverend Otello Migliosi, the parish priest of the Tordibetto church. This celebration was so popular that in the following year Mother's Day was adopted throughout Italy. On 18 December 1958, a proposal was presented to the Italian Senate to make the holiday official. In Japan, was initially commemorated during the Sh\u253c\u00ecwa period as the birthday of Empress K\u253c\u00ecjun (mother of Emperor Akihito) on 6 March. This was established in 1931 when the Imperial Women's Union was organized. In 1937, the first meeting of \"Praise Mothers\" was held on 8  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": "2000-07-06"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Mother's Day is celebrated on different dates around the world, including the second of June, the fourth of July, the third Sunday of October, the eighth of March, the eleventh of May, the twelfth of May, the twenty-first of March, and the eighth of December."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about dates Mother's Day is celebrated, but there are no citations provided to support these claims. Therefore, the answer is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2597,
+      "completion_tokens": 188,
+      "total_tokens": 2785
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1133,
+        "completion_tokens": 90,
+        "total_tokens": 1223
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1464,
+        "completion_tokens": 98,
+        "total_tokens": 1562
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:57.215495",
+        "prompt_tokens": 1133,
+        "completion_tokens": 90,
+        "total_tokens": 1223,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:58.129082",
+        "prompt_tokens": 1464,
+        "completion_tokens": 98,
+        "total_tokens": 1562,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:56.197839",
+  "last_updated_at": "2026-04-18T18:42:58.129383"
+}

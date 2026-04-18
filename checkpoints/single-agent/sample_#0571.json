@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0571",
+  "query": "What are the extra books of the bible called?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "arguing against their inclusion for theological reasons, and with other Protestants citing the cost of publishing the hidden books as a major factor in removing them. Today it is possible to find Protestant Bibles which now include the Apocrypha. The status of the deuterocanonicals remains unchanged in Catholic and Orthodox Christianities. The actual status of the books which the Catholic church terms \"Deuterocanonicals\" (second canon) and Protestantism refers to as \"Apocrypha\" has been an issue of disagreement which preceded the Reformation. Many believe that the pre-Christian-era Jewish translation (into Greek) of holy scriptures known as the Septuagint, a Greek translation",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "New Testament are taken from the Koine Greek Septuagint (LXX) \u0393\u00c7\u00f4 editions of which include the deuterocanonical books, as well as apocrypha \u0393\u00c7\u00f4 both of which are called collectively \"anagignoskomena\" (\"\"Readable,\" namely worthy of reading\"). No two Septuagint codices contain the same apocrypha, and the three earliest manuscripts of the LXX show uncertainty as to which books constitute the complete list of biblical books. Codex Vaticanus (B) lacks any of the books of Maccabees, while Codex Sinaiticus (Aleph) omits Baruch and the letter of Jeremiah, but includes 1 and 4 Maccabees. Codex Alexandrinus includes the Psalms of Solomon and Maccabees",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Council of Trent officially (\"infallibly\") declared these books (called \"deuterocanonical\" by Catholics) to be part of the canon in April, 1546 A.D. While the Protestant Reformers rejected the parts of the canon that were not part of the Hebrew Bible, they included the four New Testament books Luther held as doubtful canonicity along with the Apocrypha in his non-binding canon (though most were separately included in his bible, as they were in some editions of the KJV bible until 1947). Protestantism therefore established a 66 book canon with the 39 books based on the ancient Hebrew canon, along with the",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "places. For instance, the books called Ezra and Nehemiah in the King James Version are called 1 and 2 Esdras in the Douay\u0393\u00c7\u00f4Rheims Bible. The books called 1 and 2 Esdras in the KJV are called 3 and 4 Esdras in the Douay, and were classed as apocrypha. A table illustrating the differences can be found here. The names, numbers, and order of the books in the Douay\u0393\u00c7\u00f4Rheims Bible follow those of the Vulgate except that the three apocryphal books are placed after the Old Testament in the Douay\u0393\u00c7\u00f4Rheims Bible; in the Clementine Vulgate they come after the New Testament.",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1994-11-28"
+    },
+    {
+      "doc_id": "d5",
+      "text": "of Anglican and Lutheran bibles place such books in a separate section called Apocrypha. These extra books are ultimately derived from the earlier Greek Septuagint collection of the Hebrew scriptures and are also Jewish in origin. Some are also contained in the Dead Sea Scrolls. The Old Testament consists of many distinct books by various authors produced over a period of centuries. Christians traditionally divide the Old Testament into four sections: (1) the first five books or Pentateuch (Torah); (2) the history books telling the history of the Israelites, from their conquest of Canaan to their defeat and exile in  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2001-05-05"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The extra books of the Bible are called the Apocrypha or Deuterocanonicals."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer is not grounded in the provided documents as there are no citations to support the claims made. The documents mention 'Apocrypha' and 'Deuterocanonicals' but without citations, the answer cannot be verified."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2642,
+      "completion_tokens": 164,
+      "total_tokens": 2806
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1175,
+        "completion_tokens": 52,
+        "total_tokens": 1227
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1467,
+        "completion_tokens": 112,
+        "total_tokens": 1579
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:54.868782",
+        "prompt_tokens": 1175,
+        "completion_tokens": 52,
+        "total_tokens": 1227,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:55.983772",
+        "prompt_tokens": 1467,
+        "completion_tokens": 112,
+        "total_tokens": 1579,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:53.630078",
+  "last_updated_at": "2026-04-18T20:07:55.984187"
+}

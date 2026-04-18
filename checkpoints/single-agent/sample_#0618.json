@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0618",
+  "query": "How do we know that a species has definitely gone extinct (as opposed to just being extremely rare/elusive)?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "August 2014 \u0393\u00c7\u00f4 Climate Change, Ecology and Related News Lone Passenger Pigeon Escapes Pie Pan, Lands In Smithsonian (NPR, 06/27/14) Why the obsession with this one bird? James says a lot of animals have gone extinct, but it\u0393\u00c7\u00d6s rare to be able to go to the zoo and look the last one in the eyes. http://ow.ly/AN4Iv RELATED: The Passenger Pigeon\u0393\u00c7\u00d6s Everlasting Mark: America\u0393\u00c7\u00d6s Most Infamous Extinction (Huffington Post, 08/25/14) We rarely know the exact date and time an entire species goes extinct, but in the case of the passenger pigeon, we do. Martha, the very last of her species, took her final breath at the Cincinnati Zoo on September",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d2",
+      "text": "How Do We Know A Species is Endangered or Extinct? - NY HARBOR NATURE has gone extinct \u0393\u00c7\u00f4 to the extent that one can truly know for sure \u0393\u00c7\u00f4 is always unfortunate. But making the effort to find out either way often offers a glimmer of hope. Hope that the animal in question, however rare, however vulnerable, is still out there. If we know that, then we also know that we, as the only species on the planet with the ability and the resources to do so, have a chance of saving it. rush essay review link When a species of animal is entering critical condition, they are either endangered of on the verge",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "1994-11-12"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Rare today, gone tomorrow: 13 tree species in India may become extinct because of deforestation Rare today, gone tomorrow: 13 tree species in India may become extinct because of deforestation - Development News (evergreen and deciduous tree species bearing flowers), endemic to Assam, is under threat and has seen a substantial decline in their population. Some of the other tree species had declined owing to damage of seeds by arboreal animals (squirrels, field mice etc) and grazing animals. \u0393\u00c7\u00a3It is very important to generate this knowledge to understand that we are losing our rare tree species. We now need conscious afforestation strategies. If we make right interventions at the right time, it is possible to save these species,\u0393\u00c7\u00a5 said Anumita Roy Chowdhury, executive director (research and advocacy), Centre for Science and Environment (CSE).",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1992-02-05"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Study finds hundreds of thousands of tropical species at risk of extinction due to deforestation - NationofChange climate change.\u0393\u00c7\u00a5 Given how rapidly deforestation has occurred throughout the tropics, Alroy adds, it\u0393\u00c7\u00d6s \u0393\u00c7\u00a3conceivable that an event on the scale of a true mass extinction has already taken place\u0393\u00c7\u00a5 and that these losses simply went unnoticed by mankind. \u0393\u00c7\u00a3A mass extinction could have happened right under our noses because we just don\u0393\u00c7\u00d6t know much about the many rare species that are most vulnerable to extinction,\u0393\u00c7\u00a5 Alroy said. \u0393\u00c7\u00a3To figure out whether this is true, a lot more field work needs to be done in the tropics. The time to do it is now.\u0393\u00c7\u00a5 There is reason to hope that",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "ExtinctAnimals.org - Definition of Extinction and List of Extinct Species When a large number of species goes out of existence in some major calamity, it is called an extinction event. There have been multiple extinction events on earth since it first came into existence, with five of them (the \u0393\u00c7\u00ffBig Five\u0393\u00c7\u00d6 extinction events) being the most crucial in making the earth the way it is today. How to Know if a Species has Gone Extinct There are multiple wildlife conservation organizations who keep track of different species and their population trends, taking measures to help them survive, and listing the species that have gone extinct, along with the causes for  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2018-04-17"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "It is difficult to know for sure when a species has gone extinct. However, wildlife conservation organizations track species and their population trends, and list species that have gone extinct. In some cases, like the passenger pigeon, the exact date of extinction is known because the last individual died."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.3,
+        "feedback": "The answer makes factual claims about how extinction is determined and provides an example, but it lacks any citations to support these claims. The provided documents do not contain the specific information presented in the answer."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3253,
+      "completion_tokens": 193,
+      "total_tokens": 3446
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1462,
+        "completion_tokens": 89,
+        "total_tokens": 1551
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1791,
+        "completion_tokens": 104,
+        "total_tokens": 1895
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:45.552271",
+        "prompt_tokens": 1462,
+        "completion_tokens": 89,
+        "total_tokens": 1551,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:46.615417",
+        "prompt_tokens": 1791,
+        "completion_tokens": 104,
+        "total_tokens": 1895,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:44.508626",
+  "last_updated_at": "2026-04-18T20:09:46.615812"
+}

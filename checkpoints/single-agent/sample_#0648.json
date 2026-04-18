@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0648",
+  "query": "Why do clouds not thunder when they snow, only when they rain?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Cumulonimbus Clouds & Nimbostratus Clouds: Rain-Makers That Can Bring Severe Weather | The Weather Guide Rain, rain, go away, come again another day\u0393\u00c7\u00aa Many of us remember singing that song when we were kids. Well, if we were hoping to chase the rain away, we were probably hoping to get rid of the cumulonimbus clouds that produced that rain. Why? Because cumulonimbus clouds are a common type of cloud that makes rain. Cumulonimbus clouds and nimbostratus clouds can also can produce snow, hail, sleet, and other forms of precipitation. What\u0393\u00c7\u00d6s Nimbus Mean? Clouds are generally named after terms that relate to what a cloud is doing or the height (altitude) range where the cloud is",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1999-07-19"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Another Long Walk: Sonora Pass: The Last 10,000 Footer! finally flashes of lightning were visible, and I cringed with every single flash and the crack of thunder. The rained turned into hail and snow flurries, and I just kept under my tarp and continued to read. Storm clouds are blowing in! The thunder and lightning eventually started to fade off into the distance again, but a steady drizzle continued. This was only the second time on the trail it actually rained on me. I wasn't thrilled about the rain, but it seemed almost like a pleasant phenomena. Rain? What is this strange substance? Why does it fall out of",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2009-02-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Why 'cloud seeding' is increasingly attractive to the thirsty West how much additional snow or rain eventually makes it into city water pipes. Cloud seeding only works when there are freezing, moist clouds in the air. And the technology can be controversial. \"The whole thing is propaganda,\" said Jamie Kouba, 32, a farmer from Regent, N.D., who argues that cloud seeding is decreasing rainfall in his area, rather than increasing it. He's organizing local farmers in a campaign against the practice. Scientists discovered in the 1940s that certain molecules make a good foundation for snow. In one famous experiment, a chemist made it snow by dumping 6 pounds of dry",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2004-07-07"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Jeremiah 10:13 Commentaries: When He utters His voice, there is a tumult of waters in the heavens, And He causes the clouds to ascend from the end of the earth; He makes lightning for the rain, And brings out the wind from His storehouses. either at his command, when he is pleased to call for the rain; or rather, when he thundereth in the heavens, Job 37:4,5 Psa 77:18: though it often rains when it thunders not, and thunders when it rains not, yet when it rains and thunders the rain usually falls more forcibly from the clouds, and in more sudden plenty, as it were a more immediate consequent of it. The heavens, viz. the lowest heaven, the region of the air. The vapours; exhalations, whether wet or dry, causing wind or rain, by the ascending whereof the lower heavens gather them into",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2010-06-09"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Thunderstorms - Facts about Thunderstorms for Kids - Weather Facts for kids A thunderstorm is a storm where you hear thunder and see lightning. Usually there is heavy rain in a thunderstorm. Thunderstorms are electric storms. When there is about to be a thunderstorm, a cumulonimbus cloud forms, often in a clear blue sky. (When a cloud\u0393\u00c7\u00d6s name ends in nimbus, it means rain or snow is falling from the cloud.) The cloud increases in size and begins to build up peaks, which become very dark. Cumulonimbus clouds mean that there is going to be a thunderstorm, with wind, rain and even hail on a summer day. The loud sound that thunder  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2009"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Clouds that produce rain, such as cumulonimbus and nimbostratus clouds, are associated with thunderstorms, which involve thunder and lightning. While cumulonimbus clouds can also produce snow, hail, and sleet, the provided documents do not explicitly state why thunder is exclusively linked to rain in the context of cloud types. One document mentions that thunder and lightning can occur when rain turns into hail and snow flurries, suggesting a potential overlap."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about cloud types and thunderstorms but lacks citations. It also incorrectly states that documents do not explain why thunder is linked to rain, when one document implies a connection."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2811,
+      "completion_tokens": 224,
+      "total_tokens": 3035
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1224,
+        "completion_tokens": 122,
+        "total_tokens": 1346
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1587,
+        "completion_tokens": 102,
+        "total_tokens": 1689
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:48.365666",
+        "prompt_tokens": 1224,
+        "completion_tokens": 122,
+        "total_tokens": 1346,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:49.858364",
+        "prompt_tokens": 1587,
+        "completion_tokens": 102,
+        "total_tokens": 1689,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:46.992515",
+  "last_updated_at": "2026-04-18T20:10:49.858741"
+}

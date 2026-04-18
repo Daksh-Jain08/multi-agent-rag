@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0528",
+  "query": "Who planted the bomb at the atlanta olympics?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Ridge and Waco. Eric Rudolph executed a series of terrorist attacks between 1996 and 1998. He carried out the 1996 Centennial Olympic Park bombing\u0393\u00c7\u00f6which claimed two lives and injured 111\u0393\u00c7\u00f6aiming to cancel the games, claiming they promoted global socialism and to embarrass the U.S. government. Rudolph confessed to bombing an abortion clinic in Sandy Springs, an Atlanta suburb, on January 16, 1997, the Otherside Lounge, an Atlanta lesbian bar, on February 21, 1997, injuring five and an abortion clinic in Birmingham, Alabama on January 29, 1998, killing Birmingham police officer and part-time clinic security guard Robert Sanderson and critically injuring",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d2",
+      "text": "of a Militant\", and in April 2013, the U.S. Attorney General seized $200 to help pay off the $1 million that Rudolph owes in restitution to the state of Alabama. The book has since been republished and has been made available through the Army of God website. Eric Rudolph Eric Robert Rudolph (born September 19, 1966), also known as the Olympic Park Bomber, is an American domestic terrorist convicted for a series of anti-abortion and anti-gay-motivated bombings across the southern United States between 1996 and 1998, which killed two people and injured over 120 others. Rudolph spent five years on",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2002"
+    },
+    {
+      "doc_id": "d3",
+      "text": "liberation attempt. A German police officer and five terrorists also perished. Following the selection of Barcelona, Spain to host the 1992 Summer Olympics, the separatist ETA terrorist organisation launched attacks in the region, including the 1991 Vic bombing that killed ten people in a town that would also hold events. Terrorism affected the last two Olympic Games held in the United States. During the Summer Olympics in 1996 in Atlanta, Georgia, a bomb was detonated at the Centennial Olympic Park, which killed two and injured 111 others. The bomb was set by Eric Rudolph, an American domestic terrorist, who is",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "1991-01-19"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Rudolph's book, \"Between the Lines of Drift: The Memoirs of a Militant\", and in April 2013 the U.S. Attorney General seized his $200 royalty to help pay off the $1 million that Rudolph owes in restitution to the state of Alabama. Centennial Olympic Park bombing The Centennial Olympic Park bombing was a domestic terrorist pipe bombing attack on the Centennial Olympic Park in Atlanta, Georgia, on July 27 during the 1996 Summer Olympics. The blast directly killed 1 person and injured 111 others; another person later died of a heart attack. It was the first of four bombings committed by",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d5",
+      "text": "clearly affected by Parkinson's disease, lit the Olympic torch and received a replacement medal for the one he had discarded in 1960. The latter event took place not at the boxing ring but in the basketball arena, at the demand of US television. The atmosphere at the Games was marred, however, when a bomb exploded during the celebration in Centennial Olympic Park. In June 2003, the principal suspect in this bombing, Eric Robert Rudolph, was arrested. The 2000 Summer Olympics were held in Sydney, Australia, and showcased individual performances by local favorite Ian Thorpe in the pool, Briton Steve Redgrave  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2022-09-28"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Eric Rudolph planted the bomb at the Centennial Olympic Park during the 1996 Summer Olympics in Atlanta."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The provided documents mention Eric Rudolph in relation to the Atlanta Olympics bombing, but the answer is not grounded as no citations were provided."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2551,
+      "completion_tokens": 155,
+      "total_tokens": 2706
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1128,
+        "completion_tokens": 55,
+        "total_tokens": 1183
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1423,
+        "completion_tokens": 100,
+        "total_tokens": 1523
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:22.706123",
+        "prompt_tokens": 1128,
+        "completion_tokens": 55,
+        "total_tokens": 1183,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:24.029792",
+        "prompt_tokens": 1423,
+        "completion_tokens": 100,
+        "total_tokens": 1523,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:21.772033",
+  "last_updated_at": "2026-04-18T20:06:24.030219"
+}

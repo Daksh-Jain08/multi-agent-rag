@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0498",
+  "query": "When did hunger games catching fire come out?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "the 2013 MTV Movie Awards on April 14, presented by Liam Hemsworth, and the trailer was posted on TheHungerGamesExplorer and YouTube after the ceremony. \"Beyond Fire\" by T.T.L. was played as the trailer music. An exclusive new trailer debuted at the San Diego Comic-Con International on July 20, 2013, also being released online on that day. Walmart released the first TV spot on their Facebook page on October 14, featuring Coldplay's song, \"Atlas\". On October 27, 2013, during the fifth inning of game 4 of the 2013 World Series, the final trailer was released. Three days later, on October 30,",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "unforgiving nature of war, unashamedly political in its motives and quietly devastating in its emotional effect.\" On August 8, 2017, Variety reported that Lionsgate CEO Jon Feltheimer has interest in having spinoffs made for \"The Hunger Games\", and wants to create a writers room to explore the idea. When asked about the idea of Hunger Games spinoffs, Jennifer Lawrence said \"I think it's too soon. They've got to let the body get cold, in my opinion.\" The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 2 The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 2 is a 2015 American dystopian science fiction adventure film directed",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2019-06-06"
+    },
+    {
+      "doc_id": "d3",
+      "text": "school for many readers. It was also published as an audiobook on the same day. Advance reading copies were available at BookExpo America in New York City, and were sent out to some booksellers, and offered as prizes in Scholastic's \"How Would You Survive\" writing contest in May 2009. An eBook version was also published on June 3, 2010. \"Catching Fire\" had an initial print of 350,000 copies, a number which had grown to over 750,000 by February 2010. The release of \"Mockingjay\", the third novel of the series, followed on August 24, 2010. , the book has sold over",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1997-03-25"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Francis Lawrence stated: \"we recently saw the 3-D version of \"Mockingjay \u0393\u00c7\u00f4 Part 1\" before its release in China, and the new level of immersion was really fantastic.\" \"The Hunger Games: Mockingjay Part 1\" was released on Digital HD on February 17, 2015, and was followed by a Blu-ray/DVD release on March 6, 2015. It topped the home video sales chart for two consecutive weeks despite facing competition from \"\". The entire Hunger Games series was released on 4K UHD Blu-Ray on November 8, 2016. \"The Hunger Games: Mockingjay \u0393\u00c7\u00f4 Part 1\" grossed $337.1 million in the USA & Canada,",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "2011-10-20"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Vision format in Dolby Cinemas, which is the first ever for Lionsgate. Internationally, it was released day-and-date across 87 countries, starting from November 18, in certain markets like Belgium, Brazil, France and the Netherlands and on November 19 in Australia, Germany, Russia, Italy, and the United Kingdom, followed by China, Mexico, Japan, the United States, Canada, and 19 other markets, on November 20, as part of the biggest movie rollout ever by Lionsgate. The only big territories where the film did not open on the same weekend are Spain, Greece and India, which released the movie on November 27. \"The  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Hunger Games: Catching Fire was released on November 20, 2013."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer provides a specific release date but lacks any supporting citations from the provided documents. Therefore, it cannot be considered grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2750,
+      "completion_tokens": 144,
+      "total_tokens": 2894
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1228,
+        "completion_tokens": 54,
+        "total_tokens": 1282
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1522,
+        "completion_tokens": 90,
+        "total_tokens": 1612
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:47.963922",
+        "prompt_tokens": 1228,
+        "completion_tokens": 54,
+        "total_tokens": 1282,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:48.897623",
+        "prompt_tokens": 1522,
+        "completion_tokens": 90,
+        "total_tokens": 1612,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:47.159325",
+  "last_updated_at": "2026-04-18T18:43:48.898365"
+}

@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0460",
+  "query": "How is gravity not faster than the speed of light?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Does Gravity Travel At The Speed Of Light | Hotels Vacations and Travel Wordwide Does Gravity Travel At The Speed Of Light Flat Earth and Gravity Does Not Exist, Just a Theory, Freemason Sir Isaac Newton Fooled the World to Prove the Spinning Ball Earth Model However, if operating on theories where such an indent is not accepted, then gravity must travel faster than the speed of light. Gravity does not help or hurt any part of the game of football. On Sept. 22, 2017, a ghostly particle ejected from a far distant supermassive black hole zipped down from the sky and through the ice of Antarctica at just below the speed of light,",
+      "source_url": "https://example.com/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Homeschool High School Physics Course | Time4Learning field around a mass. Weight and weightlessness \u0393\u00c7\u00f4 Students learn how to explain the relationship between gravity and weight, and how to predict weight based on gravity. Kepler\u0393\u00c7\u00d6s laws and orbital motion \u0393\u00c7\u00f4 Students are introduced to Kepler\u0393\u00c7\u00d6s laws and orbital motion. Chapter 8 \u0393\u00c7\u00f4 Special Relativity The materials in this chapter introduce and cover special relativity. It is organized into sections that teach, reinforce and test students on the concepts of speed of light and Einstein\u0393\u00c7\u00d6s special theory of relativity. Speed of light \u0393\u00c7\u00f4 Students are taught that nothing travels faster than the speed of light, and that this",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2010-11-01"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Question about faster than light information transfer [Archive] - Cosmoquest Forum energy in a form that is non-gravitational (if that excists) to solid mass could be detected by an observer with a sensitive gravitometer, could that enable faster than light communication? Gravity does not works instantaneously, changes in the gravitational field propagates at light speed. I\u252c\u2524ve heard that gravity works instantaneously... Nope, changes in the gravitational field propagate at the speed of light. It was the Newtonian model to assume it was instantaneous action at a distance.",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2017"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Gravity as a communication tool. [Archive] - Cosmoquest Forum waves in one direction. To send information via gravity waves efficiently, we would also need a method to guide the waves, something analogous to the reflector antenna. So here's the question fellow BABB members: how can we build \"gravity wave\" guides? It is easy to be misled into thinking that one could use entanglement to send signals faster than the speed of light, in violation of Einstein's special theory of relativity, but the probabilistic nature of quantum mechanics stymies such efforts. Naturally, many people have wondered if this effect could be used to transmit information faster than the speed of",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "Is There Anything That Can Travel Faster Than Light? have the ability to alter the red dot in any way, to use it to send a message to another lunar resident at a speed faster than light. Speed of Light: Why is speed limited to light, if a pilot's voice in a cockpit is not limited to the speed of sound? Relativity: Is light attracted by gravity? Physics: Is modern theoretical physics more than just solving word problems?  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Changes in the gravitational field propagate at the speed of light. The Newtonian model incorrectly assumed gravity acted instantaneously."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims but lacks citations. The claim about gravitational field propagation speed is present in d3, but the answer does not cite it."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2480,
+      "completion_tokens": 149,
+      "total_tokens": 2629
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1093,
+        "completion_tokens": 54,
+        "total_tokens": 1147
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1387,
+        "completion_tokens": 95,
+        "total_tokens": 1482
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:27.643280",
+        "prompt_tokens": 1093,
+        "completion_tokens": 54,
+        "total_tokens": 1147,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:42:28.682883",
+        "prompt_tokens": 1387,
+        "completion_tokens": 95,
+        "total_tokens": 1482,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:42:26.603375",
+  "last_updated_at": "2026-04-18T18:42:28.683267"
+}

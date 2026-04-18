@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0627",
+  "query": "How does the Fast Fourier Transform work?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Fast spherical Bessel transform via fast Fourier transform and recurrence formula property , the transform is rewritten as follows: Now, we change the variables as , and it becomes where is the Fourier cosine/sine transform of , is even is odd (8) and is the largest integer that does not exceed . Finally, by expanding the Legendre polynomials, the transform is decomposed into a sum of definite integrals where is given by Since the integrals appearing in Eqs. (9) and (10) have the same parity as the order of transform , either the Fourier cosine or sine transform is required to be performed, for given . In our implementation, as explained",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "What Quantum Computers Do Faster, with Caveats | Twisted Oak Studios Blog so many applications, computing Fourier transforms quickly is a big deal. That\u0393\u00c7\u00d6s why the Fast Fourier Transform algorithm, which needs time instead of time to compute a Fourier transform, shows up constantly on \u0393\u00c7\u00a3Most Important Algorithms\u0393\u00c7\u00a5 lists. (Notable: recently the Sparse Fourier Transform reduced that to , where is the number of non-negligible frequencies.) Quantum computers can do Fourier transforms a lot faster. Using the QFT, they can Fourier transform their own superposition in just operations. They mock FFT\u0393\u00c7\u00d6s run time. That\u0393\u00c7\u00d6s, like, enough time to read the input! Who even does that anymore? The following diagram shows an example",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Power of the Fourier Transform for Spectroscopists - Chemistry LibreTexts http://en.wikipedia.org/wiki/Fourier_transform Fourier Transform Spectroscopy http://en.wikipedia.org/wiki/Fourier...m_spectroscopy Fast Fourier Transform http://en.wikipedia.org/wiki/Fast_Fourier_transform Discrete Fourier Transform http://en.wikipedia.org/wiki/Discret...rier_transform Search literatures to find the advantages and the limitations of Fourier transform spectroscopic techniques. Perform a Fourier transform to show how to extract spectrum, equation (11), from the raw data in equation (10). Compare interferometer with monochromator (at least two aspects). What are the important components to make Fourier transform spectrometer practical? What are they used for? Based on the information introduced in this module, design any one of the Fourier transform spectrometers mentioned in the context. Firstly, Fourier transform spectrometers have a multiplex advantage (Fellgett advantage)",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2013-02-02"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Fast Fourier Transforms - Open Textbook Library C. Sidney Burrus, Rice University 1 Preface: Fast Fourier Transforms 2 Introduction: Fast Fourier Transforms 3 Multidimensional Index Mapping 4 Polynomial Description of Signals 5 The DFT as Convolution or Filtering 6 Factoring the Signal Processing Operators 7 Winograd's Short DFT Algorithms 8 DFT and FFT: An Algebraic View 9 The Cooley-Tukey Fast Fourier Transform Algorithm 10 The Prime Factor and Winograd Fourier Transform Algorithms 11 Implementing FFTs in Practice 12 Algorithms for Data with Restrictions 13 Convolution Algorithms 14 Comments: Fast Fourier Transforms 15 Conclusions: Fast Fourier Transforms 16 Appendix 1: FFT Flowgraphs 17 Appendix 2: Operation Counts for",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d5",
+      "text": "ERC FUNDED PROJECTS | ERC: European Research Council offer simple closed-form descriptions for nonlinear phenomena that are difficult to work with in the conventional time- or frequency-domain, similar to how the conventional Fourier transform simplifies the analysis of linear systems. Today, almost fifty years after the discovery of the first nonlinear Fourier transform by Gardner et al., nonlinear Fourier transforms have been studied intensively in mathematics and physics. However, despite many potential applications, they have not yet found widespread use in engineering. The lack of efficient numerical algorithms for the computation of nonlinear Fourier transforms similar to the celebrated fast Fourier transform is the major roadblock. I have  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2004"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Fast Fourier Transform (FFT) is an efficient algorithm for computing the Fourier transform, reducing the time complexity from O(N^2) to O(N log N). It is widely used in various applications and is significantly faster than classical methods. Quantum computers can perform Fourier transforms even faster using the Quantum Fourier Transform (QFT), with a complexity of O((log N)^2) operations."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about the FFT's time complexity and quantum computing applications, but lacks any citations to support these claims. This violates the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2764,
+      "completion_tokens": 211,
+      "total_tokens": 2975
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1205,
+        "completion_tokens": 114,
+        "total_tokens": 1319
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1559,
+        "completion_tokens": 97,
+        "total_tokens": 1656
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:04.330326",
+        "prompt_tokens": 1205,
+        "completion_tokens": 114,
+        "total_tokens": 1319,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:10:05.622654",
+        "prompt_tokens": 1559,
+        "completion_tokens": 97,
+        "total_tokens": 1656,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:10:03.267221",
+  "last_updated_at": "2026-04-18T20:10:05.623100"
+}

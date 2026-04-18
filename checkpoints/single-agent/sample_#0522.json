@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0522",
+  "query": "When do you wear a white bow tie?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "listed above are the strict, traditional definitions, which may not be followed in common use. For example, \"formal\" is often used to mean any of the first three, and \"informal\" to indicate what is classified here as \"casual\". Typical events: Weddings, state dinners, etc. Note that the use of white tie and morning dress has become rare in some countries (such as the United States and Australia), where black tie or a lounge suit (as appropriate) is often worn to the above events. Typical events: Theatre opening nights, charity balls, etc. There is some variation in style depending on whether",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Academic dress of the University of Oxford The University of Oxford has a long tradition of academic dress, which continues to the present day. Academic dress is still worn very often in Oxford, and every undergraduate and graduate must obtain a gown, cap, and white bow tie or black tie or black ribbon for the purpose of the University matriculation ceremony, where students formally become members of the University. Regulations regarding gowns differ from college to college, but gowns are commonly worn to: Gowns and caps are worn to disciplinary hearings in the Proctors' Court. In addition, gowns are worn",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2019"
+    },
+    {
+      "doc_id": "d3",
+      "text": "in Hollywood movies,\" but \"not the mark of a ladies' man\" and \"not exactly sexy.\" To this image he attributes the association of the bow tie with newspaper editors (because of their fastidiousness with words), high-school principals, and bachelor English teachers. Most men, he observes, only wear bow ties with formal dress. The four-in-hand necktie is still more prominent in contemporary Western society, it being seen the most at business meetings, formal functions, schools, and sometimes even at home. However, the bow tie is making a comeback at fun-formal events such as dinners, cocktail parties, and nights out on the",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "their way into women's wear, especially business attire. The 1980s saw professional women, especially in law, banking, and the corporate world, donning very conservative tailored suits, with a rise of almost 6 million units in sales. These were often worn with buttoned-up blouses, some with pleats up the front like tuxedo shirts, and accessorized with bow ties that were slightly fuller than the standard bow ties worn by their male counterparts, but typically consisting of the same fabrics, colors, and patterns as men's ties. Russell Smith, style columnist for Toronto's \"The Globe and Mail,\" records mixed opinions of bow tie",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the Senate House. \"Sub-fusc\" means \"of a dark/dusky colour\", and refers to the clothes worn with full academic dress in Cambridge although the University officially does not use this term. Generally, this involves a dark suit and white shirt, collar, bands and bow tie for men (who must also wear black socks), and a dark suit and white blouse for women. The rules for dress on graduation for women also specify that women's attire must have long sleeves. Although only male graduands are required to wear white ties and bands by a regulation, nothing prevents female graduands doing so too  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "1996"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "A white bow tie is worn with full academic dress in Cambridge for men, and is also required for male graduands at the University of Oxford for their matriculation ceremony. While not strictly required for female graduands at Cambridge, they may also wear one."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about wearing a white bow tie but provides no citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2320,
+      "completion_tokens": 176,
+      "total_tokens": 2496
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 998,
+        "completion_tokens": 84,
+        "total_tokens": 1082
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1322,
+        "completion_tokens": 92,
+        "total_tokens": 1414
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:10.096283",
+        "prompt_tokens": 998,
+        "completion_tokens": 84,
+        "total_tokens": 1082,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:11.130330",
+        "prompt_tokens": 1322,
+        "completion_tokens": 92,
+        "total_tokens": 1414,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:09.135955",
+  "last_updated_at": "2026-04-18T20:06:11.130835"
+}

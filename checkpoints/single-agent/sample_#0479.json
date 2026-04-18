@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0479",
+  "query": "If the internet is primarily dependent on cables that run through oceans connecting different countries and continents. During a war, anyone can cut off a country's access to the internet. Are there any backup or mitigant in place to avoid this? What happens if you cut the cable?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "internet \u0393\u00c7\u00f4 @lissnup When the outage happened, the BGP routes to Syrian IP space were all simultaneously withdrawn from all of Syria\u0393\u00c7\u00d6s upstream providers. The effect of this is that networks were unable to route traffic to Syrian IP space, effectively cutting the country off the Internet. Syria has 4 physical cables that connect it to the rest of the Internet. Three are undersea cables that land in the city of Tartous, Syria. The fourth is an over-land cable through Turkey. In order for a whole-country outage, all four of these cables would have had to been cut simultaneously. That is unlikely to",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "2 Ways an Entire Country Can Lose Access to the Internet-and Why the U.S. is Resistant - The Akamai Blog Her spade cut open the only terrestrial cable that happened to run through Georgia and into the neighboring country. Stories like this one are not uncommon - in 2012, a ship's anchor dragged through the wrong area outside of Mombasa, Kenya and cut a fiber-optic Internet cable, causing an Internet blackout and costing Kenyan businesses hundreds of millions of dollars. Earlier this June, a Vervet monkey fell on a transformer in Nairobi, Kenya, shutting off the power to the plant and causing a country-wide electrical blackout which disconnected the whole nation from the Internet. Countries with more interconnected domestic networks",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2000-03-26"
+    },
+    {
+      "doc_id": "d3",
+      "text": "What the Internet looks like: Undersea cables wiring ends of the Earth in that country it's not acceptable, you expect seamless high quality net access all the time. In Europe, the U.S. and Asia people don't have to think \"what happens if Internet goes down and I can't send an important email?\" That has disappeared. You don't think about it. But if you're in Bangladesh you still worry. Every country is seeking to provide users with high-quality resilient Internet access such that the role of submarine cable fades into the background and you don't think about them. If a cable is cut there are different paths to back it up. courtesy TeleGeography",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Network Outages Happen. Make Sure Your Business is Ready. cut a fiber cable which resulted in an hours-long outage for local businesses. Business continuity is a key part in keeping you successful, and Internet connectivity is the most critical part of keeping your operations up and running. Since a majority of outages not within your control. It is important that you think about your continuity plan. Steps to help you stay connected during outages: Watch this video to get prepared for a potential service outage. Consider an internet backup. An automatic internet backup connection can help you stay connected to the internet even during an unforeseen outage.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2018"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Internet Access via Cable TV Network | Seminar Report and PPT for IT Students Internet is a network of networks in which various computers connect each other through out the world. The connection to other computers is possible with the help of ISP (Internet Service Provider). Each Internet users depend dialup connections to connect to Internet. This has many disadvantages like very poor speed, may time cut downs etc. To solve the problem, Internet data can be transferred through Cable networks wired to the user computer. Different type connections used are PSTN connection, ISDN connection and Internet via Cable networks. Various advantages are High availability, High bandwidth to low cost, high speed data access,  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2007"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Yes, there are backup paths to mitigate the impact of cut undersea cables. While cutting a single cable can cause significant outages and financial losses, as seen in Kenya when a ship's anchor cut a fiber-optic cable, it is unlikely that all cables connecting a country would be cut simultaneously. For instance, Syria has four physical cables, and all would need to be severed for a complete blackout. Countries are working to provide resilient internet access, making the role of submarine cables less of a single point of failure."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims that are not supported by any citations. The answer should be grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2622,
+      "completion_tokens": 224,
+      "total_tokens": 2846
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1123,
+        "completion_tokens": 136,
+        "total_tokens": 1259
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1499,
+        "completion_tokens": 88,
+        "total_tokens": 1587
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:09.641888",
+        "prompt_tokens": 1123,
+        "completion_tokens": 136,
+        "total_tokens": 1259,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:10.619576",
+        "prompt_tokens": 1499,
+        "completion_tokens": 88,
+        "total_tokens": 1587,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:08.062482",
+  "last_updated_at": "2026-04-18T18:43:10.620012"
+}

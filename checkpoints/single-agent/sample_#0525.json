@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0525",
+  "query": "Why does UK English just say \"in hospital\" when US English says \"in THE hospital\"?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "HOT FREE BOOKS \u0393\u00c7\u00f3 The Secret City \u0393\u00c7\u00f3 Hugh Walpole \u0393\u00c7\u00f3 3 tired of it. Tanya's given up going to the English hospital now, and is just meaning to be as gay as she can be; and Zinaida Fyodorovna had just come back from her Otriad on the Galician front, and she says it's shocking there now\u0393\u00c7\u00f6no food or dancing or anything. Why doesn't every one make peace?\" \"Do you want the Germans to rule Russia?\" I asked. \"Why not?\" she said, laughing. \"We can't do it ourselves. We don't care who does it. The English can do it if they like, only they're too lazy to bother. The German's aren't lazy,",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "1997-01-01"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Acute lymphoblastic leukemia \u0393\u00c7\u00f4 24 years old \u0393\u00c7\u00f4 Day 0 | Markurion into a different part of the hospital. It wasn\u0393\u00c7\u00d6t ultra-clan anymore. It was just a normal hospital room. When I was moved, I did a photo and the words onward say \u0393\u00c7\u00a3Oncology\u0393\u00c7\u00a5. Now I was a bit surprised I was in a different part of the hospital. Then a short while after the nurse came in. She does not know English much, so all my question was answered like a \u0393\u00c7\u00a3no I can\u0393\u00c7\u00d6t help you\u0393\u00c7\u00a5. And that I can use a ward phone. Cause I cannot get a normal phone range. Few minutes after my friend comes over. And then",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2001-06-15"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Indefinite Pronouns in English--Someone, Everybody, Nobody Indefinite Pronouns in English\u0393\u00c7\u00f4Someone, Everybody, Nobody Indefinite pronouns take the place of a noun, just like other pronouns. However, they do not refer to any specific thing. For example, we can say,\u0393\u00c7\u00a5Miguel works in a hospital.\u0393\u00c7\u00a5 We can also say, \u0393\u00c7\u00a3He works in a hospital. He takes the place of Miguel. However, if I do not know Miguel\u0393\u00c7\u00d6s name, I can say,\u0393\u00c7\u00a5Someone works in a hospital.\u0393\u00c7\u00a5 Someone is an indefinite pronoun. It refers to a person, but not a specific person. In this posting I give you many indefinite pronouns, and I talk about how to use them. There will",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "1997"
+    },
+    {
+      "doc_id": "d4",
+      "text": "articles - Why is 'the' before winter season? - English Language & Usage Stack Exchange modified; and that it has a particular meaning: in hospital means as a patient, not just visiting. I think it's only hospital where we differ from the Americans. We agree about college, jail and school (though we say at school and they say in school). \u0393\u00c7\u00f4 Colin Fine Oct 18 '13 at 23:16 @ Colin Fine I think the same applies to 'university'. Yes, it is interesting that, in the UK, doctors and nurses work in a/the hospital, but only patients are 'in hospital'. Similarly lecturers teach at a/the university but students go 'to university'. It is almost as though",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "nouns - Is there a reason the British omit the article when they \"go to hospital\"? - English Language & Usage Stack Exchange But your doctor could still say it will have to be done at hospital. \u0393\u00c7\u00f4 WS2 Feb 1 '16 at 18:49 Wiktionary has an archived discussion on the issue, though it's from a lexicography viewpoint (does the phrase belong in a dictionary?). Also, are there other common constructions other than those two that the British use that drop the article? In hospital and at uni. Also, (I'm pretty sure both Brits and) Americans use in bed, in school, in church, and in class. But you would say; in the bedroom, in the classroom. Don't know if there is a general  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2007-10-23"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "In UK English, 'in hospital' is used to mean being a patient, while US English uses 'in the hospital' more generally. This difference is specific to the word 'hospital' and is not seen with other institutions like college, jail, or school."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer makes factual claims about the difference between UK and US English usage of 'in hospital' vs 'in the hospital', but provides no citations to support these claims. Therefore, it is not grounded."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 3366,
+      "completion_tokens": 192,
+      "total_tokens": 3558
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1520,
+        "completion_tokens": 86,
+        "total_tokens": 1606
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1846,
+        "completion_tokens": 106,
+        "total_tokens": 1952
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:16.626488",
+        "prompt_tokens": 1520,
+        "completion_tokens": 86,
+        "total_tokens": 1606,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:17.680814",
+        "prompt_tokens": 1846,
+        "completion_tokens": 106,
+        "total_tokens": 1952,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:15.467942",
+  "last_updated_at": "2026-04-18T20:06:17.681288"
+}

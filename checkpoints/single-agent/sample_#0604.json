@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0604",
+  "query": "Why aren't babies allowed to sleep on their side?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Safe Sleep During Pregnancy on your baby. Experts say that you should sleep on your side during pregnancy, especially the left side. It\u0393\u00c7\u00d6s thought that this allows for the most blood flow to your baby. It may also improve your kidney function. If your kidneys work better, this may help reduce swelling. Place a pillow between your knees to help you sleep more comfortably on your side. If possible, start sleeping on your side by about 20 weeks or 5 months. But don\u0393\u00c7\u00d6t worry if you wake up on your back. Just change positions and go back to sleep.",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2024-02-22"
+    },
+    {
+      "doc_id": "d2",
+      "text": "This Is Why Your Baby Doesn't Sleep Through The Night This Is Why Your Baby Doesn't Sleep Through The Night BuzzFeed News speaks to experts to find out why babies aren't designed to sleep all night. It's got more to do with evolutionary biology than you might think. \"How's the baby doing? Sleeping through the night yet?\" This line will be familiar to parents of small children. The unbroken, \"normal\" night's sleep is the holy grail of parenting. Gwyneth Paltrow's daughter might have started sleeping through the night from six weeks, but for most families that's a distant dream. It's perhaps the most talked-about topic on online forums, and there's",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Sojournering: 2011 I've already ruined Brex. Due to his sleeping position, his head has flattened out on the right back side. Sigh. Now I have to wedge him with rolled up towels to make him sleep on his side (something a daycare is unlikely to do!) Those baby helmets cost thousands of dollars and aren't covered by most insurers. Ugh. After the 2-month pediatrician visit, I became the mommy torture queen. Not only did I stop swaddling him to sleep, I had to do the towel bit AND give him lots of 'tummy time' (a.k.a. \"baby-scream-his-lungs-out time\"). All to try to give",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "10 Best Sleep Sacks Reviewed in 2019 | TheGearHunt After the baby learns how to roll freely, then they are allowed to choose a favorable sleeping pose. When the baby sleeps on the sides or on the stomach, it\u0393\u00c7\u00d6s highly risky compared to when the baby sleeps on the back. The stomach position may close the baby airways which may lead to suffocation. Sleeping sideways may seem safer, but it\u0393\u00c7\u00d6s not even close to it. The baby\u0393\u00c7\u00d6s face may be covered by the bedding. In summary, it is recommended for a baby to sleep on the backside, unless recommended otherwise by the physician. Dangers of blankets Blankets are good,",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "2020-03-12"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Everyone Needs Therapy: November 2016 who rage aren't exactly rare. But you knew that. Karen Franklin, a forensic psychologist presents the another side to the crimes that make us cringe, abductions, physical-sexual assault, and a review of the numbing podcasts that chew them up. For those who don't mind taking a walk on the dark side, she's prolific. If you're into transitional objects, and object to the latest hysteria about how to properly put your baby to sleep, Claudia Gold, an MD has a terrific post, one that debunks the myths. Old fashioned pediatrics in the New AAP Sleep Guidelines, the Baby Box. . .Child  Answer:",
+      "source_url": "https://infoarchive.net/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "Babies are not allowed to sleep on their side because it is risky. Sleeping on the stomach can close the baby's airways, leading to suffocation, and sleeping on the side can result in the baby's face being covered by bedding. It is recommended for babies to sleep on their back unless a physician advises otherwise. However, one document mentions a parent trying to make their baby sleep on their side to prevent head flattening."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about why babies shouldn't sleep on their side, but there are no citations to support these claims. The answer also mentions a parent trying to make their baby sleep on their side, which is not supported by the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2691,
+      "completion_tokens": 235,
+      "total_tokens": 2926
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1166,
+        "completion_tokens": 119,
+        "total_tokens": 1285
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1525,
+        "completion_tokens": 116,
+        "total_tokens": 1641
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:02.858093",
+        "prompt_tokens": 1166,
+        "completion_tokens": 119,
+        "total_tokens": 1285,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:09:03.882037",
+        "prompt_tokens": 1525,
+        "completion_tokens": 116,
+        "total_tokens": 1641,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:09:01.455252",
+  "last_updated_at": "2026-04-18T20:09:03.882478"
+}

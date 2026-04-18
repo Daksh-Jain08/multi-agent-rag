@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0533",
+  "query": "What female hormone that isn't produced by the follicle is now being produced by the corpus luteum?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "sometimes called Graafian follicles (after Regnier de Graaf). In humans, oocytes are established in the ovary before birth and may lie dormant awaiting initiation for up to 50 years. After rupturing, the follicle is turned into a corpus luteum. In a larger perspective, the whole folliculogenesis from primordial to preovulatory follicle is located in the stage of meiosis I of ootidogenesis in oogenesis. Embryonic development in males and females follows a common pathway before gametogenesis. Once gametogonia enter the gonadal ridge, however, they attempt to associate with these somatic cells. Development proceeds and the gametogonia turn into oogonia, which become",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2011"
+    },
+    {
+      "doc_id": "d2",
+      "text": "placental hormone chorionic gonadotropin continues to maintain the corpus luteum, but in some species it will eventually degrade sometime during pregnancy. If pregnancy occurs in equine, the placental hormone equine chorionic gonadotropin released by endometrial cup continue to maintain the progesterone by acting as LH and FSH for follicles in ovary which will in return lead to increase in amount of corpus luteum. Luteolysis Luteolysis (also known as luteal regression) is the structural and functional degradation of the corpus luteum (CL), which occurs at the end of the luteal phase of both the estrous and menstrual cycles in the absence",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "is essential for establishing and maintaining pregnancy in females. The corpus luteum secretes progesterone, which is a steroid hormone responsible for the decidualization of the endometrium (its development) and maintenance, respectively. It also produces relaxin, a hormone responsible for softening of the pubic symphysis which helps in parturition. If the egg is not fertilized, the corpus luteum stops secreting progesterone and decays (after approximately 10 days in humans). It then degenerates into a corpus albicans, which is a mass of fibrous scar tissue. The uterine lining (endometrium) is expelled through the vagina (in mammals that go through a menstrual cycle).",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Human chorionic gonadotropin Human chorionic gonadotropin (hCG) is a hormone produced by the placenta after implantation. The presence of hCG is detected in some pregnancy tests (HCG pregnancy strip tests). Some cancerous tumors produce this hormone; therefore, elevated levels measured when the patient is not pregnant may lead to a cancer diagnosis and, if high enough, paraneoplastic syndromes, however, it is not known whether this production is a contributing cause, or an effect of carcinogenesis. The pituitary analog of hCG, known as luteinizing hormone (LH), is produced in the pituitary gland of males and females of all ages. Regarding endogenous",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "also responded to SS isomer but the RS isomer elicited little to no response from any males. The regulation of the female sex pheromone production, calling behaviour and release is regulated directly and indirectly by the corpora allata and juvenile hormone. Smith and Schal came to this conclusion because both pheromone production and calling failed to occur after allatectomy; both pheromone production and calling could be restored by a corpora allata implantation or treatment with juvenile hormones; applications of a juvenile hormones to intact females advanced the age of pheromone production and NCA-I \"transection\", which activates the copora allata in  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The corpus luteum produces progesterone and relaxin. Progesterone is essential for establishing and maintaining pregnancy, while relaxin softens the pubic symphysis to aid in parturition."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about hormones produced by the corpus luteum, but no citations were provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2353,
+      "completion_tokens": 170,
+      "total_tokens": 2523
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1022,
+        "completion_tokens": 69,
+        "total_tokens": 1091
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1331,
+        "completion_tokens": 101,
+        "total_tokens": 1432
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:33.756934",
+        "prompt_tokens": 1022,
+        "completion_tokens": 69,
+        "total_tokens": 1091,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:35.600210",
+        "prompt_tokens": 1331,
+        "completion_tokens": 101,
+        "total_tokens": 1432,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:32.829726",
+  "last_updated_at": "2026-04-18T20:06:35.600574"
+}

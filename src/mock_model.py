@@ -213,6 +213,44 @@ class MockStructuredModel:
                 "reason": "Abstain on severe conflict or low supporting evidence.",
             }
 
+        if schema_name == "BaselineOutput":
+            query = _extract_section(user_prompt, "Query")
+            docs = _extract_json_section(user_prompt, "Documents", [])
+
+            passages: List[str] = []
+            for doc in docs if isinstance(docs, list) else []:
+                if not isinstance(doc, dict):
+                    continue
+                text = str(doc.get("text") or doc.get("snippet") or "").strip()
+                if text:
+                    passages.append(text)
+
+            combined_text = " ".join(passages).lower()
+            years = set(re.findall(r"\b(?:19|20)\d{2}\b", combined_text))
+
+            if "misinformation" in combined_text:
+                conflict_type = "misinformation"
+            elif len(years) >= 2:
+                conflict_type = "conflicting"
+            elif passages:
+                conflict_type = "complementary"
+            else:
+                conflict_type = "no_conflict"
+
+            should_abstain = conflict_type in {"conflicting", "misinformation"} or not passages
+
+            if should_abstain:
+                final_answer = "Insufficient reliable evidence to answer confidently."
+            else:
+                first_sentence = passages[0].split(".")[0].strip() if passages else ""
+                final_answer = first_sentence or f"Best answer from provided evidence for: {query}"
+
+            return {
+                "conflict_type": conflict_type,
+                "should_abstain": should_abstain,
+                "final_answer": final_answer,
+            }
+
         if schema_name == "AdjudicatorOutput":
             aggregation = _extract_json_section(user_prompt, "Aggregation", {})
             refusal = _extract_json_section(user_prompt, "Refusal", {})

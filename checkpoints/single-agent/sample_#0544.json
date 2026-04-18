@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0544",
+  "query": "How many types of skin color are there?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "use a moisturizer daily and after their faces have been cleansed following a performance. Performers with oily complexions use a facial toner wipe or astringent to remove the oil and allow a smooth application. Skin has four basic tones: brown, fair, pink and olive. Individuals with fair, pink, and olive skin tones use olive, beige, or suntan bases. Makeup artist and performers select shades compatible with the natural skin tone, but the base is one to several shades deeper. Performers with predominately pink or ruddy complexions use base colors with cool undertones. The character, size of the theatre, and light",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "relatively fixed order. Berlin and Kay based their analysis on a comparison of color words in 20 languages from around the world. To be considered a basic color term, the words had to be Berlin and Kay's study further identified a culture state of color term recognition into stages (I-VII). Stage I only covers two terms white and black however these terms are referenced broadly to describe other undefined color terms. For example, the Jale highland group in New Guinea identify the color of blood as black. This is because at this stage I, white and black, are associated with",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "1998-09-18"
+    },
+    {
+      "doc_id": "d3",
+      "text": "terms for race Semitic, Hamitic and Japhetic \u0393\u00c7\u00f4 dividing mankind into five colored races: \"Caucasian or White\", \"Mongolian or Yellow\", \"Aethiopian or Black\", \"American or Red race\" and \"Malay or Brown race\". Categorization of racial groups by reference to skin color is common in classical antiquity. It is found in e.g. \"Physiognomica\", a Greek treatise dated to c. 300 BC. The transmission of the \"color terminology\" for race from antiquity to early anthropology in 17th century Europe took place via rabbinical literature. Specifically, Pirke De-Rabbi Eliezer (a medieval rabbinical text dated roughly to between the 7th to 12th centuries) contains",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "1995"
+    },
+    {
+      "doc_id": "d4",
+      "text": "(BCTs) that a language can have, and on the ways the language can use these terms. The study included data collected from speakers of twenty different languages from a range of language families. Berlin and Kay identified eleven possible basic color categories: white, black, red, green, yellow, blue, brown, purple, pink, orange, and gray. To be considered a basic color category, the term for the color in each language had to meet certain criteria: In case of doubt, the following \"subsidiary criteria\" were implemented: Berlin and Kay also found that, in languages with fewer than the maximum eleven color categories,",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "identify various skin phenotypes and use that knowledge for patient selection for clinical research trials and to recommend proper skincare ingredients and products. The classification system has been adopted by estheticians, dermatologists, consumers and retailers to match cosmeceutical ingredients and skin care products to specific skin types. The type assigned is determined by a self-completed questionnaire, marketed as the \"Baumann Skin Type Indicator\" (BSTI). The typing system identifies four key skin attributes (dry/oily, sensitive/resistant, pigmented/non-pigmented and wrinkle-prone/tight), represented as D/O, S/R, P/N, and W/T. Combining these results in 16 possible types. For example, one type is ORPW (oily, resistant, pigmented,  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "complementary",
+        "should_abstain": false,
+        "final_answer": "There are four basic skin tones: brown, fair, pink, and olive. Other categorizations include five colored races (White, Yellow, Black, Red, and Brown) and eleven possible basic color categories (white, black, red, green, yellow, blue, brown, purple, pink, orange, and gray)."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by any citations. The citations provided are empty, leading to a lack of grounding."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2496,
+      "completion_tokens": 186,
+      "total_tokens": 2682
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1079,
+        "completion_tokens": 97,
+        "total_tokens": 1176
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1417,
+        "completion_tokens": 89,
+        "total_tokens": 1506
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:59.099704",
+        "prompt_tokens": 1079,
+        "completion_tokens": 97,
+        "total_tokens": 1176,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:00.187719",
+        "prompt_tokens": 1417,
+        "completion_tokens": 89,
+        "total_tokens": 1506,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:58.172811",
+  "last_updated_at": "2026-04-18T20:07:00.188126"
+}

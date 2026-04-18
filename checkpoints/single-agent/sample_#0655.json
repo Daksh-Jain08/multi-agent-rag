@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0655",
+  "query": "When did the voting age change from 21 to 18?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "fight in the war, thus lacking any means to influence the people sending them off to risk their lives. \"Old enough to fight, old enough to vote,\" was a common slogan used by proponents of lowering the voting age. The slogan traced its roots to World War II, when President Franklin D. Roosevelt lowered the military draft age to eighteen. In 1963, the President's Commission on Registration and Voting Participation, in its report to President Johnson, further encouraged considering lowering the voting age. Historian Thomas H. Neale argues that the move to lower the voting age followed a historical pattern",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2000"
+    },
+    {
+      "doc_id": "d2",
+      "text": "part of the compulsory curriculum in schools. The \"Representation of the People Act 1969\" lowered the voting age from 21 to 18, with effect from 1970 and remained in force until the \"Scottish Independence Referendum Act 2013\" which allowed 16 year olds to vote for the first time, but only in Scotland and only in that particular referendum. The Scottish Parliament reduced the voting age to 16 for its own and Scottish local elections in 2015. Men in military service who turned 19 during the first world war were entitled to vote in 1918 irrespective of their age as part",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": "2006-05-27"
+    },
+    {
+      "doc_id": "d3",
+      "text": "A proposal by the government to introduce optional voting for those aged 16 and 17 was rejected by 81% of voters in a June 2015 referendum. On 20 November 2013, Malta lowered the voting age from 18 to 16 for local elections starting from 2015. The proposal had wide support from both the government and opposition, social scientists and youth organizations. On Monday 29 January 2018, the Maltese Parliament debated to lower the voting age to 16 for general elections, European Parliament Elections and referenda. On Monday, 5 March 2018, the Maltese Parliament unanimously voted in favour of amending the",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d4",
+      "text": "unanimously to reduce the voting age to 16 for elections for the Scottish Parliament and for Scottish local government elections. Moves to lower the voting age to 16 were successful in each of the three British Crown dependencies from 2006 to 2008. The Isle of Man was the first to amend its law, when in July 2006 it reduced the voting age to 16 for its general elections, with the House of Keys approving the move by 19 votes to 4. Jersey followed suit on 4 July 2007, when it approved in principle a reduction of the voting age to",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "who could vote in their state. At the 1972 federal election, later in the year, the Whitlam Labor government was elected, with Lionel Murphy becoming the new Attorney-General. The Whitlam government lowered the voting age at federal elections to 18 in 1973. The states of Victoria, Tasmania and Queensland, which still had a voting age of 21, soon lowered their voting ages to 18 also. The issue of the nature of section 41, which had not been decided in this case, was considered again in 1983 in the case of \"R v Pearson; Ex parte Sipka\". By that time, Lionel  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "conflicting",
+        "should_abstain": false,
+        "final_answer": "The voting age was lowered from 21 to 18 in the UK in 1970, as part of the Representation of the People Act 1969. In Australia, the federal voting age was lowered to 18 in 1973 by the Whitlam government, with some states following suit."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about the voting age change in the UK and Australia, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2484,
+      "completion_tokens": 205,
+      "total_tokens": 2689
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1071,
+        "completion_tokens": 101,
+        "total_tokens": 1172
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1413,
+        "completion_tokens": 104,
+        "total_tokens": 1517
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:04.094039",
+        "prompt_tokens": 1071,
+        "completion_tokens": 101,
+        "total_tokens": 1172,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:11:05.011229",
+        "prompt_tokens": 1413,
+        "completion_tokens": 104,
+        "total_tokens": 1517,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:11:02.821131",
+  "last_updated_at": "2026-04-18T20:11:05.011628"
+}

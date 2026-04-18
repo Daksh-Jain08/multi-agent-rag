@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0568",
+  "query": "What is the first ghost that visited scrooge?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "be a cheap funeral, if anyone comes at all. One businessman said he would go \u0393\u00c7\u00f4 but only if lunch is provided. Next, Scrooge is shown the same dead person's belongings being stolen by Scrooge's charwoman Mrs. Dilber, Scrooge's laundress, and the local undertaker and sold to a fence called Old Joe. He also sees a shrouded corpse, which he implores the Ghost not to unmask. Scrooge asks the ghost to show anyone who feels any emotion over the man's death. The ghost can only show him a poor couple indebted to the man momentarily rejoicing that the man is",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2003-05-21"
+    },
+    {
+      "doc_id": "d2",
+      "text": "comments that Tiny Tim might not survive until next Christmas unless the course of events changes. Before the spirit vanishes, Scrooge is warned that life is too short and to do as much as he can in what little time he has. Left alone in the street, Scrooge is visited by the Ghost of Christmas Yet to Come, a silent, cloaked figure who takes him into the future. Scrooge and the spirit witness Tom and the other citizens rejoicing at the death of Scrooge. The spirit transports Scrooge to Bob's house, where he discovers that Tiny Tim had died. The",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d3",
+      "text": "the weasels leave, Scrooge asks whose grave this belongs to. The ghost lights a cigar, revealing his face (he was actually Pete) and darkly remarks \"Why yours, Ebenezer Scrooge; the richest man in the cemetery\". The ghost shoves him into his empty coffin which opens to reveal the fires of Hell, laughing uproariously while Scrooge vows to repent. Awakening in his bedroom on Christmas Day, Scrooge decides to surprise Bob\u0393\u00c7\u00d6s family with a turkey dinner and ventures out to spread happiness and joy around London. He accepts Fred's invitation, then donates a sizable amount of money to the gentlemen he",
+      "source_url": "https://datasource.org/docs/d3",
+      "timestamp": "2017-11-20"
+    },
+    {
+      "doc_id": "d4",
+      "text": "is content with their small dinner, Scrooge taking pity on Bob's ill son Tiny Tim (played by Robin the Frog). The Ghost of Christmas Present abruptly ages, commenting that Tiny Tim will likely not survive until next Christmas. Scrooge and the Ghost go to a cemetery, where the latter fades away. The Ghost of Christmas Yet to Come then approaches Scrooge, appearing as a tall, silent cloaked figure. While Dickens and Rizzo abandon the audience to avoid being frightened, the Ghost takes Scrooge into the future. Scrooge and the Ghost witness a group of businessmen discussing the death of an",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d5",
+      "text": "the joys and wonder of Christmas Day. Scrooge and the Ghost visit Cratchit's house, learning his family is content with their small dinner, Scrooge taking pity on Cratchit's ill son Tiny Tim. The Ghost eventually ages, commenting that Tiny Tim will likely not survive until next Christmas. As the Ghost dies, he warns Scrooge about the evils of \"Ignorance\" and \"Want\", two demonic children who manifest themselves before Scrooge as two wretched children. The Ghost of Christmas Yet to Come arrives, appearing as a tall, silent cloaked figure, and takes Scrooge into the future. At the stock exchange, Scrooge's acquaintances  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2019-04-20"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The first ghost that visited Scrooge was the Ghost of Christmas Past."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents, as there are no citations to support the claim about the Ghost of Christmas Past."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2364,
+      "completion_tokens": 137,
+      "total_tokens": 2501
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1039,
+        "completion_tokens": 46,
+        "total_tokens": 1085
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1325,
+        "completion_tokens": 91,
+        "total_tokens": 1416
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:47.813641",
+        "prompt_tokens": 1039,
+        "completion_tokens": 46,
+        "total_tokens": 1085,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:07:48.814793",
+        "prompt_tokens": 1325,
+        "completion_tokens": 91,
+        "total_tokens": 1416,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:07:46.973517",
+  "last_updated_at": "2026-04-18T20:07:48.815314"
+}

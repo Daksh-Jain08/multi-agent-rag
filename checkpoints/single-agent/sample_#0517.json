@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0517",
+  "query": "Why do our brains register reflective surfaces such as metal as silver in colour if they're actually reflecting all of the colours around them?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Colour Perception and Retinal Neurons - Attempting to Map the Human Brain - NaturPhilosophie perception is all subjective. Colours only exist when three components are present: a viewer, an object, and light. Around 1665, Isaac Newton discovered that white light splits into its component colours when passing through a dispersive prism. But also, that if those bands of coloured light shine through another prism and re-join, they gather back up and emit a white beam. Although pure white light is perceived as being colourless, it actually contains all the colours in the visible spectrum. When white light hits an object, it selectively blocks some colours and reflects others. Only the colours that are reflected,",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2009"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Digital SLR Photography Issue 128 July 2017 | C\u251c\u00edmara | Exposici\u251c\u2502n (Fotograf\u251c\u00a1a) metallic finishes can prove too strong experience for learning which colour usually combine silver and gold in different and cause subjects to squint, so in these reflector works best in different situations, ratios to produce a highly efficient and situations use white instead. so take some time to experiment with effective reflectance. they're sometimes You'll find that almost all reflectors have different colours of reflector with a subject more expensive than standard silver and white on one side, with a metallic finish on placed in different lighting scenarios you'll gold, but if you're regularly shooting the other, although there are",
+      "source_url": "https://example.com/docs/d2",
+      "timestamp": "1992-05-08"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Colour Theory, light and Shade - Articles - DakkaDakka Sphere the colours grow brighter until on the outside , they are at their most intense. This variation in intensity is known as the Chroma. As you can clearly see this is a useful colour map for planning tone and shading. When we paint an Object we are trying to mimic light reflecting in 3 Dimensions, this is more a trick of the eye by convincing the brain it can see reflections that aren\u0393\u00c7\u00d6t actually there. It is important to place the Highlights (The stronger reflections of light) in the correct positions otherwise the result will automatically register in your",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2020"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Optical coating - Offline Wikipedia a reflectivity of around 88%-92% over the visible spectrum. More expensive is silver, which has a reflectivity of 95%-99% even into the far infrared, but suffers from decreasing reflectivity (<90%) in the blue and ultraviolet spectral regions. Most expensive is gold, which gives excellent (98%-99%) reflectivity throughout the infrared, but limited reflectivity at wavelengths shorter than 550 nm, resulting in the typical gold colour. By controlling the thickness and density of metal coatings, it is possible to decrease the reflectivity and increase the transmission of the surface, resulting in a half-silvered mirror. These are sometimes used as \"one-way mirrors\". The",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1996"
+    },
+    {
+      "doc_id": "d5",
+      "text": "There are only two metals that are non-silver in colour, they are | Answers Home \u252c\u2557 Copper , Gold , Metals , Silver \u252c\u2557 There are only two metals that are non-silver in colour, they are There are only two metals that are non-silver in colour, they are Q. There are only two metals that are non-silver in colour, they are A. Nickel & Zinc B. Copper & Gold C. Palladium & Platinum D. Sodium & Magnesium Answer: Copper & Gold Metals are coloured because the absorption and re-emission of light are dependent on wavelength. Gold and copper have low reflectivity at short wavelengths, and yellow and red are preferentially reflected. Silver has a  Answer:",
+      "source_url": "https://researchhub.ai/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "complementary",
+        "should_abstain": false,
+        "final_answer": "Silver appears silver because it has high reflectivity across the visible spectrum, but its reflectivity decreases in the blue and ultraviolet regions. While it reflects most colors, this slight decrease in blue/UV reflectivity contributes to its perceived silver color, rather than a pure white which would indicate equal reflection of all visible light."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer makes factual claims about silver's reflectivity in blue and ultraviolet regions, but there are no citations to support these claims. The answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2661,
+      "completion_tokens": 193,
+      "total_tokens": 2854
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1164,
+        "completion_tokens": 92,
+        "total_tokens": 1256
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1497,
+        "completion_tokens": 101,
+        "total_tokens": 1598
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:05:58.855826",
+        "prompt_tokens": 1164,
+        "completion_tokens": 92,
+        "total_tokens": 1256,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:00.272333",
+        "prompt_tokens": 1497,
+        "completion_tokens": 101,
+        "total_tokens": 1598,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:05:57.624324",
+  "last_updated_at": "2026-04-18T20:06:00.272510"
+}

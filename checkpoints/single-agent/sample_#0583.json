@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0583",
+  "query": "Do we know why elementary particles behave like waves / what underlying phenomenon causes it to behave like a wave?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Setting the stage: Space-time and Quantum Mechanics - CornellCast a light that seemed to have a wave like character. So that was the situation in the 1800s. There were particles in the world, there were waves in the world. And that was that. In our modern understanding, there's no such things as waves. Everything is a particle. But they're not classical particles. They're particles that move according to quantum mechanical rules. Sometimes large macroscopic collections of quantum mechanical particles behave as classical waves. And sometimes these large macroscopic collections of quantum particles behave as classical particles. But it's really the underlying quantum particles that manifest themselves in a certain",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1998"
+    },
+    {
+      "doc_id": "d2",
+      "text": "There and Back Again: Scientists Beam Photons to Space to Test Quantum Theory | Space theory of reality, particles like electrons and photons behave like waves as well, depending on how scientists measure them. Physicists call this phenomenon wave-particle duality, and it leads to many counterintuitive effects, like single particles traveling along two paths simultaneously. In 1803, long before the conception of quantum theory, physicist Thomas Young conducted a famous experiment to demonstrate that light behaves like a wave. Young sent sunlight through two slits toward a blank paper card. When he observed the light on the card, it revealed a pattern of bright and dark bands that faded toward the edge. Rather than going",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": "2025-12-02"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Beauty is Truth? \u252c\u2557 IAI TV are probably the amazing thing. Quantum theory in general is very beautiful: whereby the question of whether something is a wave or a particle is solved by saying that it\u0393\u00c7\u00d6s a fluctuation of a quantum field. Watching that play out, and seeing how in some places an electron will behave like a particle, and in other places it will behave like a wave, and how that is all unified in one codified description in quantum field theory: that\u0393\u00c7\u00d6s really pretty special. That underlies the standard model anyway and that\u0393\u00c7\u00d6s what I would say is the most beautiful thing. Image credit:",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Quantum Entanglement explained in simple words \u0393\u00c7\u00f4 Astrogeekz nucleus. The probability of finding the electron can be expressed using a wave function. When the electron is not being observed, it behaves like a wave and produces a wave-like interference pattern on the screen but when a detector is located near one of the slits to observe the electron, the wave-function collapses and the electron behaves like a particle. Thus, when the electron is being observed, no (wave-like) interference pattern is produced on the screen. Sounds weird? Well, what else can you expect? It is quantum physics! Now, lets get back to the main reason why we are here:",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2003-02-15"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Largest Molecules Yet Behave Like Waves in Quantum Double-Slit Experiment | Live Science Largest Molecules Yet Behave Like Waves in Quantum Double-Slit Experiment By Clara Moskowitz 2012-03-25T18:37:46Z Strange News A famous 1800s physics experiment, the double-slit experiment, revealed that light behaves like both particles and waves. (Image: \u252c\u2310 Creative Commons, Jordgette) One of the most famous experiments in quantum physics, which first showed how particles can bizarrely behave like waves, has now been carried out on the largest molecules ever. Researchers have sent molecules containing either 58 or 114 atoms through the so-called \"double-slit experiment,\" showing that they cause an interference pattern that can only be explained if the particles act like waves  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": ""
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Elementary particles behave like waves due to quantum field theory, where they are described as fluctuations of a quantum field. This phenomenon, known as wave-particle duality, means particles can exhibit wave-like properties depending on how they are measured or observed. For instance, an electron behaves like a wave when not observed, producing interference patterns, but collapses into a particle-like state when observed."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer contains factual claims about quantum field theory and wave-particle duality but lacks any citations. Therefore, it is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2726,
+      "completion_tokens": 205,
+      "total_tokens": 2931
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1188,
+        "completion_tokens": 110,
+        "total_tokens": 1298
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1538,
+        "completion_tokens": 95,
+        "total_tokens": 1633
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:18.921333",
+        "prompt_tokens": 1188,
+        "completion_tokens": 110,
+        "total_tokens": 1298,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:20.598331",
+        "prompt_tokens": 1538,
+        "completion_tokens": 95,
+        "total_tokens": 1633,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:17.871067",
+  "last_updated_at": "2026-04-18T20:08:20.598777"
+}

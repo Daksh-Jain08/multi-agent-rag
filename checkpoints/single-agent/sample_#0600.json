@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0600",
+  "query": "How films that were filmed before 4k technology was around, can be re-released in 4k?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "New 4k Blu-ray Releases Coming in November \u0393\u00c7\u00f4 HD Report remastered for release on 4k, as well as an 8-film collection from Warner Home Video for those who don\u0393\u00c7\u00d6t have a need for extra bonus materials and duplicate Blu-rays around the house. What we mean to say is, you could buy all eight Harry Potter films separately on 4k BD for about $225, or simply pick up the 8-film collection for about $150 (see current Amazon pricing below). Also in week one, HBO\u0393\u00c7\u00d6s science fiction series Westworld will be released to 4k Blu-ray, the animated film Cars 3 from Disney, and Best Buy will release an exclusive 4k edition of",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "1996-09-11"
+    },
+    {
+      "doc_id": "d2",
+      "text": "20 Years of Movie Titles were filmed in 4K and nobody bothered to save them - cheap, powerful storage media itself has only been easy to access for a bit less than a decade. Eastman Kodak released some of the first film scanners that were able to scan at 4096 x 2160 resolution all the way back in 1992 and the first movie to be processed in 4K was actually Snow White and the Seven Dwarfs all the way back in 1993. The original film as digitized to 4K, processed, cleaned up and then downgraded back to a much smaller digital resolution that fit the technology of the time and the original 4K scan was simply",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2018-06-03"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Blade Runner 4K Blu-ray | borg restored and re-mastered original elements, plus added and extended scenes, added dialogue, along with new and improved special effects. The version returning to theaters for the Alamo Drafthouse event updates the 2007 film version with 4K resolution, promising a more immersive theatrical experience than seen before. All told, Blade Runner is one of the most modified and re-released films around. The Final Cut was the eighth edition of the loose adaptation of Philip K. Dick\u0393\u00c7\u00d6s sci-fi classic novel Do Androids Dream of Electric Sheep?, and this new edition is basically the same as 2007 with a sound and picture upgrade.",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d4",
+      "text": "Don\u0393\u00c7\u00d6t Look Now is getting a 4K Restoration Cinema and Blu-ray release | Live for Films STUDIOCANAL went back to the original camera negative which was scanned at 4K resolution in 16bit and created the following: 4K DCP, UHD version and a new HD version which were produced with the same high technological standards as today\u0393\u00c7\u00d6s biggest international film releases. The restoration and new UHD version was colour graded and approved in London at Silversalt by the BAFTA Award-winning cinematographer, Anthony B Richmond. The 4K Collector\u0393\u00c7\u00d6s Edition contains 4 discs including: The restored film in UHD for the first time The feature on Blu-ray with brand new extras as well as a bonus Blu-ray of extras",
+      "source_url": "https://infoarchive.net/docs/d4",
+      "timestamp": "1997-06-15"
+    },
+    {
+      "doc_id": "d5",
+      "text": "Home Alone: 25th Anniversary Ultimate Collector's Edition (Blu-ray) : DVD Talk Review of the Blu-ray Alone has received a beautiful new 4K restoration for this re-release. The other films included in the 25th Anniversary set are the same previously-released editions. The bonus collectibles seemed poorly made but the tin may entice a few fans. The new 4K restoration is the best selling point. Luckily, fans of Home Alone can purchase either this new 25th Anniversary set edition (if the entire film series is wanted as a bonus) or purchase the standalone reissue with the new 4K remastered edition of the original classic. The new 4K presentation of Home Alone is essential for fans wanting to  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2007-09-02"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "Films made before 4K technology can be re-released in 4K by scanning the original film elements at 4K resolution. This process, often referred to as remastering or restoration, involves digitizing the film, cleaning it up, and then processing it to create a 4K version. Sometimes, additional elements like extended scenes or improved special effects are also incorporated during this process."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about how films are re-released in 4K, but there are no citations provided to support these claims. Therefore, the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2919,
+      "completion_tokens": 218,
+      "total_tokens": 3137
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1283,
+        "completion_tokens": 113,
+        "total_tokens": 1396
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1636,
+        "completion_tokens": 105,
+        "total_tokens": 1741
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:56.409314",
+        "prompt_tokens": 1283,
+        "completion_tokens": 113,
+        "total_tokens": 1396,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:57.404801",
+        "prompt_tokens": 1636,
+        "completion_tokens": 105,
+        "total_tokens": 1741,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:55.070696",
+  "last_updated_at": "2026-04-18T20:08:57.406157"
+}

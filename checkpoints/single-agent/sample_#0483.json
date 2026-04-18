@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0483",
+  "query": "Why is Microsoft's Windows allowed to have their Apps preinstalled and bundled (with bing search and Edge browser) while Google was fined for the same thing in Android by the EU in 2018?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Google will give Android users a choice of browser and search engine in Europe | WackyTechTips Google has announced that it will start asking European Android users which browser and search engine they would prefer to use on their devices, following regulatory action against the company for the way it bundles software in its mobile operating system. Last year Google was fined a record $5 billion by EU regulators for violating antitrust laws and was ordered to stop \u0393\u00c7\u00a3illegally tying\u0393\u00c7\u00a5 Chrome and its search app to Android. Google\u0393\u00c7\u00d6s initial response was to start charging manufacturers licensing fees for the Play Store and other apps while offering the option to include Chrome and the Google search app",
+      "source_url": "https://infoarchive.net/docs/d1",
+      "timestamp": "2020-08-13"
+    },
+    {
+      "doc_id": "d2",
+      "text": "The Low-Down: The Reason Google Competitors Are Opting Out Of Its New Search Engine Auction who sets up a new Android device, or factory resets their existing device, will see a choice screen asking them to select which search engine they wish to use as a default. Above: Default search: Google\u0393\u00c7\u00d6s Android Search providers are required to apply for inclusion through a bidding process to become one of three alternative choices to Google Search. The move was in response to a record $5 billion fine issued last year by EU antitrust regulators for the way it bundled its services on Android, effectively forcing phone manufacturers to preinstall certain Google apps to gain access to others.",
+      "source_url": "https://infoarchive.net/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "Google opens auction for default Android search engine in Europe | VentureBeat country to country, depending on which companies apply for inclusion. Record fine The move comes a year after Google was hit with a record $5 billion fine by EU antitrust regulators for the way it bundled its services on Android, with claims that Google forced manufacturers to preinstall certain Google apps to gain access to others. Google has long argued that manufacturers are free to use Android as they wish, given that the operating system is released under an open source license. But to access core services such as YouTube and Google Maps, they have also had to preinstall a",
+      "source_url": "https://researchhub.ai/docs/d3",
+      "timestamp": "2015-10-11"
+    },
+    {
+      "doc_id": "d4",
+      "text": "The Low-Down: The Reason Google Competitors Are Opting Out Of Its New Search Engine Auction who sets up a new Android device, or factory resets their existing device, will see a choice screen asking them to select which search engine they wish to use as a default. Above: Default search: Google\u0393\u00c7\u00d6s Android Search providers are required to apply for inclusion through a bidding process to become one of three alternative choices to Google Search. The move was in response to a record $5 billion fine issued last year by EU antitrust regulators for the way it bundled its services on Android, effectively forcing phone manufacturers to preinstall certain Google apps to gain access to others.",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "1990"
+    },
+    {
+      "doc_id": "d5",
+      "text": "President Trump criticizes EU's record $5B fine of Google Chrome browser on Android-run devices in order to also install the Google Play store app. Google gives phone manufacturers open-source Android software for free but generates revenue from advertising displayed in searches and on apps and the sale of apps and content. The commission also said Google paid large manufacturers and wireless carriers to make the Google Search app the only preinstalled search app and required approval of any device running an alternate version of Android. \"These practices have denied rivals the chance to innovate and compete on the merits,\" Commissioner Margrethe Vestager, who is in charge of the commission's  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2014"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The provided documents do not contain information about Microsoft's Windows and its preinstalled apps or bundling practices. They focus exclusively on Google's actions with Android and the EU's antitrust fines and subsequent changes."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": true,
+        "behavior_adherence": true,
+        "score": 1.0,
+        "feedback": "The answer correctly identifies that the provided documents do not contain information about Microsoft's Windows, adhering to the grounding policy."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2623,
+      "completion_tokens": 164,
+      "total_tokens": 2787
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1154,
+        "completion_tokens": 75,
+        "total_tokens": 1229
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1469,
+        "completion_tokens": 89,
+        "total_tokens": 1558
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:15.773531",
+        "prompt_tokens": 1154,
+        "completion_tokens": 75,
+        "total_tokens": 1229,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:16.861802",
+        "prompt_tokens": 1469,
+        "completion_tokens": 89,
+        "total_tokens": 1558,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:14.818253",
+  "last_updated_at": "2026-04-18T18:43:16.862272"
+}

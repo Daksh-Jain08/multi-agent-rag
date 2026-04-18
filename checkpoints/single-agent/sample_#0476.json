@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0476",
+  "query": "When was the people's republic of china recognized?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Japan when the Imperial Japanese Army launched an offensive against China in 1937 that turned into a full-scale invasion. After the unconditional surrender of Japan in 1945, fighting quickly resumed between the KMT and the CPC, with both sides receiving foreign assistance due to the ongoing friction between the Soviet Union and the United States. In 1947, the Constitution of the Republic of China replaced the Organic Law of 1928 as the country's fundamental law. In 1949, the Chinese Communist Party established the People's Republic of China, overthrowing the Nationalist government on the Chinese mainland, which retreated to Taiwan, and",
+      "source_url": "https://datasource.org/docs/d1",
+      "timestamp": "2017-12-27"
+    },
+    {
+      "doc_id": "d2",
+      "text": "Hiroshima: \"The casualties were about the same. Hiroshima took nine seconds; Changchun took five months.\" On January 21, 1949, Kuomintang forces suffered great losses in decisive battles against Mao's forces. In the early morning of December 10, 1949, PLA troops laid siege to Chongqing and Chengdu on mainland China, and Chiang Kai-shek fled from the mainland to Formosa (Taiwan). The People's Republic of China was established on October 1, 1949. It was the culmination of over two decades of civil and international wars. Mao's famous phrase \"The Chinese people have stood up\" () associated with the establishment of the People's",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "to it. The operating room in the hospital has support staff standing on the ceiling to aid the doctors. Very shortly after this American-produced movie was produced, and 34 days before it was broadcast, the United Nations, with a membership in which the majority of nations now recognized Communist China, voted October 25 to expel the representatives of the Taiwan-based Republic of China (an original member since 1945) and admit the Beijing-based representatives of the People's Republic of China (founded 1949) in its place. Thus, the movie was outdated when it was broadcast. Eight years later, the United States itself",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Nixon made an unprecedented eight-day visit to the People's Republic of China and met with Mao Zedong. On February 22, 1973, the United States and the PRC agreed to establish liaison offices. Although both sides intended to establish diplomatic relations quickly, this move was delayed until 1979 due to the Watergate scandal. Deng traveled abroad and had a series of amicable meetings with western leaders, traveling to the United States in 1979 to meet President Jimmy Carter at the White House. Carter finally recognized the People's Republic, which had replaced the Taiwan-based Republic of China as the sole Chinese government",
+      "source_url": "https://datasource.org/docs/d4",
+      "timestamp": "2021"
+    },
+    {
+      "doc_id": "d5",
+      "text": "nearly twenty years. The Communists led by Mao Zedong had forced the Guomindang who had originally ruled China under the Republic of China to retreat to the island of Taiwan, which in effect created two separate \"Chinas\". The newly established People's Republic of China began constructing its foreign policy dealings with other countries as a way of legitimizing its rule. The first of its dealings was with the Soviets. The Soviet Union recognized the People's Republic on October 2, 1949. Earlier in the year, Mao had proclaimed his policy of \"leaning to one side\" as a commitment to the socialist  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2021"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The People's Republic of China was established on October 1, 1949. The Soviet Union recognized it on October 2, 1949. The United Nations voted to admit the People's Republic of China and expel the Republic of China on October 25 of an unspecified year, but likely after 1949. The United States recognized the People's Republic of China in 1979."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims not supported by the provided citations. Citations are missing for all claims, and the answer is not grounded in the provided documents."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2499,
+      "completion_tokens": 221,
+      "total_tokens": 2720
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1067,
+        "completion_tokens": 125,
+        "total_tokens": 1192
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1432,
+        "completion_tokens": 96,
+        "total_tokens": 1528
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:03.250768",
+        "prompt_tokens": 1067,
+        "completion_tokens": 125,
+        "total_tokens": 1192,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T18:43:04.191562",
+        "prompt_tokens": 1432,
+        "completion_tokens": 96,
+        "total_tokens": 1528,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T18:43:01.923586",
+  "last_updated_at": "2026-04-18T18:43:04.191961"
+}

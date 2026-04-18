@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0523",
+  "query": "Who was the dude in the big lebowski?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "\"Apocalypse Weekend\" and the \"A Week in Paradise\" modification. The game also features a cameo by Gary Coleman, acting as himself, who appears early on as the objective of one of the game's tasks (travel to the local shopping mall to get Gary's autograph). The player can choose to fight and kill Coleman or simply have the book signed peacefully (after enduring a long line-up). The Dude twice mistakes Coleman as having starred in \"What's Happening!!\" and \"The Facts of Life\", when he actually starred in \"Diff'rent Strokes\". Regardless of the Dude's actions, the police storm the building in an",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": "2010"
+    },
+    {
+      "doc_id": "d2",
+      "text": "$50 million budget at the box office. It was up against another explosive-themed film, \"Speed\", which had been released a few weeks before Bridges' film. On July 11, 1994, Bridges received a star on the Hollywood Walk of Fame for his contributions to the motion picture industry. The star is located at 7065 Hollywood Boulevard. In 1998, he starred as what is arguably his most famous role, The Dude, in the Coen brothers' film \"The Big Lebowski\". In 2000, he received his fourth Academy Award nomination, for his role in \"The Contender\". He also starred in the 2005 Terry Gilliam",
+      "source_url": "https://datasource.org/docs/d2",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d3",
+      "text": "The Dudes The Dudes are a Canadian indie rock band, formed in 1996 in Calgary, Alberta. Dan Vacon is The Dudes' major creative force in the band. The group also includes guitarist Bob Quaschnick, bassist Brock Geiger and newest member Matt Doherty on drums replacing Scott Ross. Critics have likened their musical style to Modest Mouse, although band members cite their influences as The Flaming Lips, The Descendents, Joel Plaskett, Thrush Hermit and Weezer. The Dudes gained popularity in Calgary both for their lo-fi approach to recording and releasing albums and for their live stage-show. On their album, \"Brain Heart",
+      "source_url": "https://example.com/docs/d3",
+      "timestamp": "1993"
+    },
+    {
+      "doc_id": "d4",
+      "text": "Benjamin Franklin in a Boston stage production of \"1776\" is referenced in the book \"Assassination Vacation\" by Sarah Vowell, referring to him as \"the actor who played The Big Lebowski in \"The Big Lebowski\".\" In 2009 he appeared in the thriller \"Locker 13\". Huddleston was also featured in the 2010 special \"It's Always Sunny in Philadelphia: It's a Very Sunny Christmas\" released directly to DVD, Blu-ray and Digital Download. On August 2, 2016, Huddleston died of heart and kidney disease in Santa Fe, New Mexico at the age of 85. David Huddleston David William Huddleston (September 17, 1930 \u0393\u00c7\u00f4 August",
+      "source_url": "https://example.com/docs/d4",
+      "timestamp": "1999"
+    },
+    {
+      "doc_id": "d5",
+      "text": "The Dude of Life Steve Pollak, best known by his stage name The Dude of Life, is a musician and lyricist. Steve Pollak is from White Plains. He attended high school in the early 1980s. He earned the alias Dude of Life in highschool while playing with the teenage band Space Antelope, along with fellow student Trey Anastasio. While going to boarding school at Taft in Watertown, Connecticut, he got the name from classmates when he appearaed in a friend's dorm with orange goggles and draped in a tapestry, and saying otherwordly things. In his band Space Antelope, they wrote  Answer:",
+      "source_url": "https://datasource.org/docs/d5",
+      "timestamp": "2022"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The Dude in \"The Big Lebowski\" was played by Jeff Bridges."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.1,
+        "feedback": "The answer is not grounded in the provided documents as no citations were given. The documents mention 'The Dude' in relation to Gary Coleman and a Canadian band, not Jeff Bridges."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2516,
+      "completion_tokens": 149,
+      "total_tokens": 2665
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1114,
+        "completion_tokens": 48,
+        "total_tokens": 1162
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1402,
+        "completion_tokens": 101,
+        "total_tokens": 1503
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:12.271135",
+        "prompt_tokens": 1114,
+        "completion_tokens": 48,
+        "total_tokens": 1162,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:06:13.569620",
+        "prompt_tokens": 1402,
+        "completion_tokens": 101,
+        "total_tokens": 1503,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:06:11.131892",
+  "last_updated_at": "2026-04-18T20:06:13.570024"
+}

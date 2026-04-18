@@ -1,0 +1,106 @@
+{
+  "sample_id": "#0576",
+  "query": "Who was the mlb rookie of the year?",
+  "documents": [
+    {
+      "doc_id": "d1",
+      "text": "Carlos Correa Carlos Javier Correa Oppenheimer (born September 22, 1994) is a Puerto Rican professional baseball shortstop for the Houston Astros of Major League Baseball (MLB). The Astros selected Correa with first overall selection of the 2012 MLB draft. Correa made his MLB debut in 2015 and he won the American League (AL) Rookie of the Year Award. In 2017, Correa appeared in the World Baseball Classic, won the AL Player of the Month Award for May, was named an MLB All-Star, and won the 2017 World Series with the Astros. Correa was born in Ponce, Puerto Rico, to Carlos",
+      "source_url": "https://researchhub.ai/docs/d1",
+      "timestamp": ""
+    },
+    {
+      "doc_id": "d2",
+      "text": "Florida, and was selected by the Marlins in the first round of the 2011 MLB draft. Fern\u251c\u00edndez made his MLB debut with the Marlins on April 7, 2013. He was named to the 2013 MLB All-Star Game and won the National League (NL) Rookie of the Month Award in July and August. After the season, he won the NL Rookie of the Year Award and finished third in Cy Young Award balloting. He underwent Tommy John surgery during the 2014 season, and made the MLB All-Star Game again in 2016. Fern\u251c\u00edndez died in a boating crash off the coast of",
+      "source_url": "https://researchhub.ai/docs/d2",
+      "timestamp": "2008-10-23"
+    },
+    {
+      "doc_id": "d3",
+      "text": "Major League Baseball Rookie of the Year Award In Major League Baseball, the Rookie of the Year Award is annually given to one player from each league as voted on by the Baseball Writers' Association of America (BBWAA). The award was established in 1940 by the Chicago chapter of the BBWAA, which selected an annual winner from 1940 through 1946. The award became national in 1947; Jackie Robinson, the Brooklyn Dodgers' second baseman, won the inaugural award. One award was presented for both leagues in 1947 and 1948; since 1949, the honor has been given to one player each in",
+      "source_url": "https://infoarchive.net/docs/d3",
+      "timestamp": "2010-10-18"
+    },
+    {
+      "doc_id": "d4",
+      "text": "aren't rookies.\" Past winners such as Jackie Robinson, Don Newcombe, and Sam Jethroe had professional experience in the Negro Leagues. Major League Baseball Rookie of the Year Award In Major League Baseball, the Rookie of the Year Award is annually given to one player from each league as voted on by the Baseball Writers' Association of America (BBWAA). The award was established in 1940 by the Chicago chapter of the BBWAA, which selected an annual winner from 1940 through 1946. The award became national in 1947; Jackie Robinson, the Brooklyn Dodgers' second baseman, won the inaugural award. One award was",
+      "source_url": "https://researchhub.ai/docs/d4",
+      "timestamp": "2022"
+    },
+    {
+      "doc_id": "d5",
+      "text": "was selected as the National League Rookie of the Year. In 1995, he was twice selected as National League Player of the Week (April 30 and July 5), he won the Rawlings Gold Glove Award and was selected to the 1995 Major League Baseball All-Star Game. He flew out to right field in his one at-bat in the All-Star game. He also competed in the Home Run Derby. Overall, he hit .285 with 26 home runs, 88 RBI, and 14 stolen bases. He had two hits in nine at-bats for the Dodgers in the 1995 National League Division Series loss  Answer:",
+      "source_url": "https://example.com/docs/d5",
+      "timestamp": "2019"
+    }
+  ],
+  "completed_steps": [
+    "baseline",
+    "evaluator"
+  ],
+  "intermediate_results": {
+    "baseline": {
+      "baseline": {
+        "conflict_type": "no_conflict",
+        "should_abstain": false,
+        "final_answer": "The MLB Rookie of the Year Award is given annually to one player from each league. Carlos Correa won the American League Rookie of the Year Award in 2015, and Jose Fernandez won the National League Rookie of the Year Award in 2013."
+      }
+    },
+    "evaluator": {
+      "evaluation": {
+        "correct_conflict": true,
+        "correct_type": true,
+        "correct_abstain": true,
+        "grounded": false,
+        "behavior_adherence": false,
+        "score": 0.2,
+        "feedback": "The answer contains factual claims about specific players winning the award, but these claims are not supported by any citations. The provided citations do not mention Jose Fernandez or the year 2013 in relation to the award."
+      }
+    }
+  },
+  "token_usage": {
+    "overall": {
+      "calls": 2,
+      "prompt_tokens": 2575,
+      "completion_tokens": 196,
+      "total_tokens": 2771
+    },
+    "by_step": {
+      "baseline": {
+        "calls": 1,
+        "prompt_tokens": 1124,
+        "completion_tokens": 87,
+        "total_tokens": 1211
+      },
+      "evaluator": {
+        "calls": 1,
+        "prompt_tokens": 1451,
+        "completion_tokens": 109,
+        "total_tokens": 1560
+      }
+    },
+    "api_calls": [
+      {
+        "schema": "BaselineOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:04.892331",
+        "prompt_tokens": 1124,
+        "completion_tokens": 87,
+        "total_tokens": 1211,
+        "step": "baseline",
+        "call_index": 1
+      },
+      {
+        "schema": "EvaluatorOutput",
+        "model": "google/gemini-2.5-flash-lite",
+        "timestamp": "2026-04-18T20:08:05.936277",
+        "prompt_tokens": 1451,
+        "completion_tokens": 109,
+        "total_tokens": 1560,
+        "step": "evaluator",
+        "call_index": 1
+      }
+    ]
+  },
+  "checkpoint_created_at": "2026-04-18T20:08:03.666655",
+  "last_updated_at": "2026-04-18T20:08:05.936669"
+}
